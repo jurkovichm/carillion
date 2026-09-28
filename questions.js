@@ -147,7 +147,8 @@ window.DIVE_QUESTIONS = [
       answer(15, "Rashid Shaheed"), answer(15, "Tory Horton"), answer(15, "Montorie Foster Jr.|Montorie Foster"),
       answer(30, "Jake Bobo"), answer(30, "Irv Charles|Irvin Charles"),
       answer(60, "Emmanuel Henderson Jr.|Emmanuel Henderson"), answer(60, "Julian Hicks"),
-      answer(85, "Ricky White III|Ricky White"), answer(100, "Malick Meiga")
+      answer(85, "Ricky White III|Ricky White"), answer(100, "Malick Meiga"),
+      answer(100, "Emerald City Route Artist|ECRA")
     ]
   }
 ];

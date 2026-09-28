@@ -1,5 +1,5 @@
 // Timed multi-answer rounds. Existing question data and matching helpers stay intact.
-const ROUND_MS=25000, REVEAL_MS=1300, LAND_MS=reducedFishingMotion?1500:2700;
+const ROUND_MS=25000, REVEAL_MS=650, LAND_MS=reducedFishingMotion?750:1350;
 const BOTTLE_CHANCE=.10;
 const bottleFacts=[
   {text:'Carleton’s Cowling Arboretum covers about 800 acres.',source:'https://athletics.carleton.edu/sports/2019/7/15/cowling-arboretum.aspx?id=6001'},
