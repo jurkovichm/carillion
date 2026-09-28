@@ -1,0 +1,15 @@
+# Fishing characters and loot
+
+Created with the built-in image-generation tool from the approved three-character concept sheet and the user's boot/skeleton/bottle reference. Sources remain unchanged. Atlases are sampled with nearest-neighbour scaling; character frames become 56-pixel-high sprites and loot becomes 32-pixel-high sprites. Character row gutters are recorded explicitly in `fishing-sprites.js`.
+
+## Character prompt
+
+Create a production game character sprite atlas using the three approved fisherman designs. Transparent background. Uniform grid of three columns and four rows, 12 full-body sprites, no text or separators. All cells equally sized, sprites centered, same visual height and feet baseline, clear padding. Column 1: Lakeside Regular, bearded, tan brim hat, olive vest, cream shirt, brown boots. Column 2: Student Angler, navy baseball cap, gold jacket, blue trousers, small satchel. Column 3: Old Professor, white beard, glasses, brown bucket hat, teal sweater. Row 1: base outfits. Row 2: headwear replaced by navy graduation mortarboard with gold tassel, no gown. Row 3: mortarboard and plain navy graduation gown, no ribbons. Row 4: mortarboard, navy gown, gold and light-blue distinction ribbons. Same stable standing pose, three-quarter facing right, right forearm extended to hold a rod; do not draw rods or lines. Crisp consistent pixel clusters, dark outlines, flat shading, no blur or antialiasing. Portrait 3:4.
+
+Output: `fishermen-atlas.png`.
+
+## Loot prompt
+
+Extract and recreate the three reference fishing loot items as a clean pixel-art sprite strip with a transparent background: old brown boot on left, ivory fish skeleton in the middle, teal glass message bottle with cork on right. Exactly three equal-width cells in one horizontal row, centered items, clear margins, full silhouettes, no labels or shadows. Preserve reference designs, orientations, and colors; hard square pixels suitable for 32×32 icons. Wide 3:1 canvas.
+
+Output: `loot-atlas.png`.
