@@ -22,6 +22,15 @@ body{position:fixed;inset:0;overscroll-behavior:none}
 /* Schiller floats above the scenery, below prompts and dialogs. */
 .schiller-companion{z-index:5}
 
+.summary-share{margin:18px 0 0}
+.share-buttons{display:flex;flex-wrap:wrap;gap:10px}
+.share-buttons button{min-height:44px;padding:10px 16px;border:1px solid #f8e3a7;border-radius:4px;background:#e8c879;color:#17372c;font:inherit;font-size:12px;letter-spacing:0;cursor:pointer}
+.share-buttons #copyAnswers{background:#133b31;color:#f5e6bc;border-color:#a7b482}
+.share-buttons button:hover{filter:brightness(1.12)}
+#shareStatus{min-height:18px;margin:8px 0 0;color:#d2ddbd;font-size:11px;line-height:1.6;letter-spacing:0}
+#sharePreview{display:block;width:100%;margin-top:8px;padding:12px;border:1px solid #a7b482;border-radius:4px;background:#102f29;color:#f7efcf;font:inherit;font-size:16px;letter-spacing:0;resize:vertical}
+@media(max-width:480px){.share-buttons{flex-direction:column}.share-buttons button{width:100%}.summary-wrap{max-width:100%}}
+
 /* Only the answer controls follow the keyboard; scenery keeps its full height. */
 .game.keyboard-open .answer-dock{bottom:calc(var(--keyboard-inset) + 52px);transition:none}
 .game.keyboard-open .round-actions{bottom:calc(var(--keyboard-inset) + 10px)}

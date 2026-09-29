@@ -54,6 +54,9 @@ function installFishingUI(){
   $('#answerResult').setAttribute('role','status');
   $('#descendNote').setAttribute('role','status');
   $('#playAgain').textContent='BACK TO THE RIVER';
+  $('#summaryScreen .summary-head').insertAdjacentHTML('afterend',`<div class="summary-share" role="group" aria-label="Share results"><div class="share-buttons"><button type="button" id="copyScore">Copy score</button><button type="button" id="copyAnswers">Copy answers (spoilers!)</button></div><p id="shareStatus" role="status"></p><textarea id="sharePreview" class="hidden" readonly aria-label="Results to copy" rows="8"></textarea></div>`);
+  $('#copyScore').onclick=()=>copyCatchSummary(false);
+  $('#copyAnswers').onclick=()=>copyCatchSummary(true);
   selectFisherman(selectedFisherman);
   characterSpritesReady.then(()=>{$('#assetStatus').textContent='';selectFisherman(selectedFisherman);}).catch(error=>{assetFailure=true;$('#assetStatus').textContent=error.message+' Reload to try again.';$('#confirmCharacter').disabled=true;});
 }
@@ -250,10 +253,53 @@ resolve=function(typed,match,timedOut){
   if(match&&roundState.phase==='question'){$('#answerInput').value=typed;$('#answerForm').requestSubmit();}
 };
 
+function catchShareText(spoilers=false){
+  const fishCount=roundLog.reduce((total,record)=>total+(record?.catches?.length||0),0);
+  const heading=`CARILLION 🎣${spoilers?' - ANSWERS (SPOILERS!)':''}\n${score} points · ${fishCount} fish`;
+  const rarityEmoji={10:'⬜',15:'🟩',30:'🟦',60:'🟪',85:'🟧',100:'🟨'};
+  const rounds=questions.map((question,i)=>{
+    const record=roundLog[i],catches=record?.catches||[];
+    if(spoilers){
+      const answers=catches.length?catches.map(c=>`- ${c.name} (${signedPoints(c.points)} pts)`).join('\n'):'- No correct answers';
+      const loot=record?.loot?`\n- ${record.loot.name} (${signedPoints(record.loot.points)} pts)`:'';
+      return `${i+1}. ${question.prompt}\n${answers}${loot}`;
+    }
+    const emoji=catches.map(c=>rarityEmoji[c.points]||'🐟').join('');
+    const empty=({boot:'🥾',skeleton:'🦴',bottle:'🍾'})[record?.loot?.kind]||'➖';
+    return `${i+1}. ${emoji||empty}`;
+  });
+  return `${heading}\n\n${rounds.join(spoilers?'\n\n':'\n')}\n\nhttps://jurkovichm.github.io/carillion/`;
+}
+function copyCatchFallback(text){
+  const field=document.createElement('textarea'),previous=document.activeElement;
+  field.value=text;field.readOnly=true;field.style.cssText='position:fixed;top:0;left:0;opacity:0;pointer-events:none';
+  document.body.append(field);field.focus({preventScroll:true});field.select();
+  try{return document.execCommand('copy');}catch{return false;}
+  finally{field.remove();previous?.focus({preventScroll:true});}
+}
+async function copyCatchSummary(spoilers){
+  if(roundState.phase!=='summary')return;
+  const text=catchShareText(spoilers),buttons=[$('#copyScore'),$('#copyAnswers')];
+  buttons.forEach(button=>button.disabled=true);
+  $('#shareStatus').textContent='';$('#sharePreview').classList.add('hidden');
+  let copied=false;
+  try{
+    if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(text);copied=true;}
+  }catch{}
+  if(!copied)copied=copyCatchFallback(text);
+  buttons.forEach(button=>button.disabled=false);
+  if(roundState.phase!=='summary')return;
+  $('#shareStatus').textContent=copied?(spoilers?'Answers copied (spoilers!)':'Score copied'):'Clipboard unavailable. Your text is selected below.';
+  if(!copied){
+    const preview=$('#sharePreview');preview.value=text;preview.classList.remove('hidden');preview.focus({preventScroll:true});preview.select();
+  }
+}
+
 showSummary=function(){
   clearFishingTimers();stopSpeech();roundState.phase='summary';fishingCatch=null;
   document.body.classList.add('showing-summary');
   legacySummary();
+  $('#shareStatus').textContent='';$('#sharePreview').value='';$('#sharePreview').classList.add('hidden');
   $('#summaryDive').textContent='DAILY CATCH COMPLETE';$('#summaryDepth').textContent=`${caughtFish.length} FISH · ${fishermanChoices[selectedFisherman].name.toUpperCase()}`;
   const maximum=questions.reduce((sum,q)=>sum+q.answers.reduce((n,a)=>n+a.points,0),0);
   const percentage=Math.max(0,Math.min(100,score/maximum*100));
