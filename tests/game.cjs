@@ -1,0 +1,82 @@
+// Run with Playwright installed; set PLAYWRIGHT_MODULE and BROWSER_CHANNEL if needed.
+const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const http = require('node:http');
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const root = path.join(__dirname, '..');
+const server = http.createServer((req, res) => {
+  const file = path.join(root, decodeURIComponent(new URL(req.url, 'http://localhost').pathname));
+  res.setHeader('Content-Type', ({ '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.png': 'image/png' })[path.extname(file)] || 'application/octet-stream');
+  fs.createReadStream(file).on('error', () => { res.statusCode = 404; res.end(); }).pipe(res);
+});
+(async () => {
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+  let browser;
+  try {
+    browser = await chromium.launch({ headless: true, ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}) });
+    for (const [width, height, reduced] of [[1440, 900, false], [390, 844, false], [320, 568, true], [844, 390, false]]) {
+      const page = await browser.newPage({ viewport: { width, height }, reducedMotion: reduced ? 'reduce' : 'no-preference' });
+      const errors = [];
+      page.on('pageerror', error => errors.push(error.message));
+      await page.clock.install();
+      await page.goto(`http://127.0.0.1:${server.address().port}/index.html`);
+      await page.evaluate(() => characterSpritesReady);
+      assert.equal(await page.locator('[name=castMode]:checked').inputValue(), 'single');
+      assert.equal(await page.locator('#selectDay').inputValue(), '2026-09-29');
+      await page.screenshot({ path: `/private/tmp/carillion-home-${width}.png` });
+      await page.locator('#begin').click();
+      await page.waitForFunction(() => roundState.phase === 'question' && bridgeReady);
+      await page.clock.pauseAt(await page.evaluate(() => Date.now() + 100));
+      const submit = text => page.evaluate(text => { document.querySelector('#answerInput').value = text; document.querySelector('#answerForm').requestSubmit(); }, text);
+      await submit('zzzzzzzzzzzzzzzz');
+      assert.equal(await page.locator('#answerInput').inputValue(), '');
+      assert.equal(await page.evaluate(() => roundState.phase), 'question');
+      assert.equal(await page.evaluate(() => CATCH_REVEAL_MS), reduced ? 300 : 1500);
+      assert.equal(await page.evaluate(() => CATCH_FLIGHT_MS), reduced ? 0 : 1400);
+      for (let question = 0; question < 7; question++) {
+        await submit(await page.evaluate(() => questions[round].answers[0].forms[0]));
+        await page.clock.runFor(reduced ? 299 : 1499);
+        assert.equal(await page.evaluate(() => fishingCatch.revealed), false);
+        await page.clock.runFor(1);
+        assert.equal(await page.evaluate(() => fishingCatch.revealed), true);
+        assert.equal(await page.evaluate(() => shoreCatches.length), question);
+        await page.clock.runFor(1600);
+        assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
+        assert.equal(await page.locator('#descendBtn').textContent(), 'Next Cast');
+        await page.clock.fastForward(30000);
+        assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
+        assert.equal(await page.locator('#answerResult').isVisible(), true);
+        if (question === 0) await page.screenshot({ path: `/private/tmp/carillion-result-${width}.png` });
+        await page.locator('#descendBtn').click();
+      }
+      assert.equal(await page.evaluate(() => roundState.phase), 'summary');
+      const share = await page.evaluate(() => catchShareText());
+      assert(share.includes('29 Sept 2026 · Single-cast'));
+      assert.equal(share.split('\n')[3].split(' ').length, 7);
+      assert(!share.includes('Tiger'));
+      assert((await page.evaluate(() => catchShareText(true))).includes('Tiger'));
+      await page.locator('#playAgain').click();
+      await page.locator('#selectDay').selectOption('2026-09-28');
+      await page.locator('[name=castMode][value=multi]').check();
+      await page.locator('#begin').click();
+      await page.waitForFunction(() => roundState.phase === 'question');
+      assert((await page.locator('#promptText').textContent()).includes('MIAC'));
+      for (const text of ['Carleton', 'St Olaf']) { await submit(text); await page.clock.runFor(3200); }
+      assert.equal(await page.evaluate(() => roundState.record.catches.length), 2);
+      assert.equal(await page.evaluate(() => roundState.phase), 'question');
+      await submit('Carleton');
+      assert.equal(await page.locator('#answerInput').inputValue(), '');
+      await page.evaluate(() => finishQuestion('giveup'));
+      assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
+      assert((await page.evaluate(() => catchShareText())).includes('28 Sept 2026 · Multi-cast'));
+      await page.evaluate(() => {
+        roundLog[0].catches.push({ name: 'Rare test answer', points: 100 });
+      });
+      assert.equal((await page.evaluate(() => catchShareText())).split('\n')[3].split(' ')[0], '\uD83D\uDFE8');
+      assert.deepEqual(errors, []);
+      console.log(`${width}x${height}: defaults, single-cast persistence, retries, timing, sharing, day switching and multi-cast passed`);
+      await page.close();
+    }
+  } finally { if (browser) await browser.close(); server.close(); }
+})().catch(error => { console.error(error); process.exitCode = 1; });

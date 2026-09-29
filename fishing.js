@@ -20,7 +20,7 @@ const caughtFish = [];
 let fishingCatch = null, catchTimers = [], fishingBusy = false;
 const fishColors = {10:'#b5c4a2',15:'#e6a354',30:'#68c9cf',60:'#e67668',85:'#b99be9',100:'#ffe080'};
 const reducedFishingMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const CATCH_REVEAL_MS=reducedFishingMotion?600:3000;
+const CATCH_REVEAL_MS=reducedFishingMotion?300:1500;
 const CATCH_FLIGHT_MS=reducedFishingMotion?0:1400;
 const CATCH_SETTLE_MS=reducedFishingMotion?900:100;
 const fishingViewport=document.getElementById('game');

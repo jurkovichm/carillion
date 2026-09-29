@@ -44,6 +44,17 @@ body{position:fixed;inset:0;overscroll-behavior:none}
 .choose-angler{display:flex;align-items:center;gap:13px;margin:0 auto 15px;padding:8px 18px;width:100%;text-align:left;background:#12382fe8;border:1px solid #a7b482;border-radius:5px;color:#f3e9c6;font:inherit;cursor:pointer}
 .choose-angler canvas{width:40px;height:56px;image-rendering:pixelated;flex-shrink:0}
 .choose-angler span{font-size:8px;letter-spacing:.16em}.choose-angler b{display:block;margin-top:5px;font-size:13px;letter-spacing:.05em}.choose-angler small{display:block;margin-top:6px;font-size:9px;color:#d7c888}
+.pregame-settings{margin:0 0 12px;text-align:left;letter-spacing:0}
+.day-label,.cast-mode legend{font-size:11px;color:#f7efcf;margin-bottom:6px;text-shadow:0 1px 3px #102f29}
+#selectDay{display:block;width:100%;height:40px;margin:0 0 12px;padding:0 10px;background:#102f29;color:#f7efcf;border:1px solid #a7b482;border-radius:4px;font:inherit;font-size:14px;letter-spacing:0;color-scheme:dark}
+.cast-mode{display:flex;margin:0;padding:0;border:0;gap:0;min-width:0}
+.cast-mode label{position:relative;flex:1;min-width:0;cursor:pointer}
+.cast-mode input{position:absolute;width:1px;height:1px;opacity:0}
+.cast-mode span{display:flex;align-items:center;justify-content:center;min-height:40px;padding:6px;background:#12382ff2;border:1px solid #a7b482;font-size:13px;color:#f7efcf}
+.cast-mode label:first-of-type span{border-radius:4px 0 0 4px}.cast-mode label:last-of-type span{border-radius:0 4px 4px 0}
+.cast-mode input:checked+span{background:#e8c879;color:#17372c;border-color:#f8e3a7}
+.cast-mode input:focus-visible+span,#selectDay:focus-visible{outline:3px solid #fff0b7;outline-offset:3px}
+@media(max-height:600px){#home{max-height:calc(100% - 150px);overflow-y:auto;scrollbar-width:thin}.pregame-settings{margin-bottom:8px}#selectDay{margin-bottom:8px}.cast-mode span{min-height:36px}}
 .character-picker{position:absolute;z-index:25;inset:0;background:#061d21dd;display:grid;place-items:center;padding:20px;overflow:auto}
 .character-picker-panel{position:relative;width:min(800px,100%);max-height:100%;overflow:auto;padding:30px;background:#133b32;border:1px solid #a9ba8d;border-radius:8px;box-shadow:0 18px 90px #0008;text-align:center}
 .picker-eyebrow{color:#c4d0ae;font-size:9px;letter-spacing:.22em}.character-picker h2{font:42px 'VT323',monospace;color:#f2d78f;letter-spacing:.08em;margin:15px 0 6px}.character-picker p{font-size:12px;color:#d0dcc0;line-height:1.5;margin:0 0 20px}

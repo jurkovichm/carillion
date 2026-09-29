@@ -9,6 +9,12 @@ const bottleFacts=[
 const shoreCatches=[];
 const roundState={phase:'home',remainingMs:ROUND_MS,deadline:0,peakScore:0,epoch:0,record:null};
 let lastBottleFact=-1,assetFailure=false;
+let selectedDay=window.DIVE_DAYS.at(-1),selectedMode='single';
+let matchDay=selectedDay,matchMode=selectedMode;
+const modeLabel=()=>matchMode==='single'?'Single-cast':'Multi-cast';
+const previousAnswerFact=postAnswerFact,previousRoundTidbit=roundTidbit;
+postAnswerFact=function(index,item){return matchDay.id==='2026-09-28'?previousAnswerFact(index,item):item.note||questions[index].answerNote||'';};
+roundTidbit=function(index){return matchDay.id==='2026-09-28'?previousRoundTidbit(index):questions[index].tidbit||'';};
 
 // Keep the existing summary's answer bank, facts, sources, styling, and music.
 const legacySummary=showSummary;
@@ -35,6 +41,11 @@ soundButton=function(){previousSoundButton();if(!soundEnabled){stopSpeech();alma
 
 function installFishingUI(){
   $('#home').insertAdjacentHTML('afterbegin',`<button class="choose-angler" id="chooseAngler" type="button"><canvas width="40" height="56" aria-hidden="true"></canvas><span>YOUR ANGLER<br><b id="selectedAnglerName"></b><small>Change character →</small></span></button>`);
+  $('#chooseAngler').insertAdjacentHTML('afterend',`<div class="pregame-settings"><label class="day-label" for="selectDay">Select Day</label><select id="selectDay">${[...window.DIVE_DAYS].reverse().map(day=>`<option value="${day.id}">${day.label}</option>`).join('')}</select><fieldset class="cast-mode"><legend>Cast mode</legend><label><input type="radio" name="castMode" value="single" checked><span>Single-cast</span></label><label><input type="radio" name="castMode" value="multi"><span>Multi-cast</span></label></fieldset></div>`);
+  $('#selectDay').value=selectedDay.id;
+  $('#selectDay').onchange=()=>{if(roundState.phase==='home'){selectedDay=window.DIVE_DAYS.find(day=>day.id===$('#selectDay').value);$('#home .bottomrow>span').textContent=selectedDay.label;}};
+  document.querySelectorAll('[name="castMode"]').forEach(input=>input.onchange=()=>{if(roundState.phase==='home'&&input.checked)selectedMode=input.value;});
+  $('#home .bottomrow>span').textContent=selectedDay.label;
   $('#gameUI').insertAdjacentHTML('beforeend',`<div class="round-actions hidden" id="roundActions"><span id="roundCatchCount">0 fish this question</span><button id="giveUpBtn" type="button">Give Up</button></div><div class="last-catch hidden" id="lastCatch" role="status"></div><div class="reward-toast hidden" id="rewardToast" role="status"></div>`);
   $('#game').insertAdjacentHTML('beforeend',`<section class="character-picker hidden" id="characterPicker" role="dialog" aria-modal="true" aria-labelledby="pickerTitle"><div class="character-picker-panel"><button class="close" id="closePicker" aria-label="Close character selection">×</button><small class="picker-eyebrow">A QUIET RIVER. YOUR OWN STORY.</small><h2 id="pickerTitle">Choose your angler</h2><p>Same game. Three ways to fish.</p><div class="character-grid">${fishermanChoices.map((c,i)=>`<button class="character-choice" type="button" data-character="${i}" aria-pressed="false"><canvas width="64" height="80" aria-hidden="true"></canvas><strong>${c.name}</strong><span>${c.description}</span></button>`).join('')}</div><div class="wardrobe-preview"><canvas id="wardrobePreview" width="120" height="70" aria-hidden="true"></canvas><span>Earn your graduation gear<br><small>200 · cap &nbsp; 300 · gown &nbsp; 350 · ribbons</small></span></div><button class="picker-confirm" id="confirmCharacter">FISH AS STUDENT →</button><p class="asset-status" id="assetStatus" role="status">Loading your anglers…</p></div></section>`);
   $('#chooseAngler').onclick=openCharacterPicker;
@@ -48,7 +59,7 @@ function installFishingUI(){
   $('#descendBtn').onclick=descendNext;
   $('#answerForm').onsubmit=submitFishingAnswer;
   $('#answerInput').oninput=()=>{clearInputHint();$('#lastCatch').classList.add('hidden');};
-  $('#howBtn').onclick=()=>show('HOW TO FISH',`<p>Seven questions. Find as many different answers as you can in 25 seconds per question. The clock pauses while you reel in a catch.</p><p>Each answer can be caught once per question. Rarity and points stay secret until the fish breaks the surface. Spelling suggestions ask you to confirm.</p><p>Ending with no fish catches a boot or skeleton for −5 points. Give Up on an empty round has a 10% chance of a zero-point bottle with a Carleton fact. Once you have caught a fish, ending the question carries no penalty.</p><p>Earn a cap at 200, a gown at 300, and ribbons at 350 points. Earned gear stays until the next game.</p><button class="action" id="gotIt">LET’S FISH</button>`);
+  $('#howBtn').onclick=()=>show('HOW TO FISH',`<p>Seven questions, 25 seconds per question. Single-cast ends each question on your first correct answer; your result stays until Next Cast. Multi-cast lets you keep catching different answers until time runs out.</p><p>Wrong answers clear so you can try again. Spelling suggestions ask you to confirm. The clock pauses during a catch; rarity and points stay secret until the fish breaks the surface.</p><p>Ending with no fish catches a boot or skeleton for −5 points. Give Up on an empty round has a 10% chance of a zero-point bottle with a Carleton fact. Once you have caught a fish, ending the question carries no penalty.</p><p>Earn a cap at 200, a gown at 300, and ribbons at 350 points. Earned gear stays until the next game.</p><button class="action" id="gotIt">LET’S FISH</button>`);
   $('#summaryScreen').setAttribute('aria-label','Fishing summary');
   $('#gameUI').removeAttribute('aria-live');
   $('#answerResult').setAttribute('role','status');
@@ -143,6 +154,7 @@ begin=async function(){
   $('#begin').disabled=true;
   try{await characterSpritesReady;}catch{assetFailure=true;roundState.phase='home';openCharacterPicker();$('#begin').disabled=false;return;}
   if(assetFailure)return;
+  matchDay=selectedDay;matchMode=selectedMode;questions=matchDay.questions;
   roundState.epoch++;clearFishingTimers();stopSpeech();almaMater.pause();almaMater.currentTime=0;
   score=0;depthScore=0;round=0;roundLog=[];used.clear();caughtFish.length=0;shoreCatches.length=0;
   fishingCatch=null;fishingBusy=false;rewardStage=0;roundState.peakScore=0;roundState.record=null;
@@ -157,7 +169,7 @@ next=function(){
   roundState.record={question:questions[round].prompt,typed:'',points:0,meters:0,depthAfter:depthScore,timedOut:false,matched:null,catches:[],loot:null,reason:null};
   roundLog[round]=roundState.record;
   $('#promptText').textContent=questions[round].prompt;
-  $('.rarity').textContent='Many answers. One clock. Rarity reveals at the surface.';
+  $('.rarity').textContent=matchMode==='single'?'Single-cast · Rarity reveals at the surface.':'Multi-cast · Rarity reveals at the surface.';
   $('#lastCatch').classList.add('hidden');clearInputHint();showQuestionInput();
 };
 
@@ -166,11 +178,12 @@ function submitFishingAnswer(event){
   tickRoundClock();if(roundState.phase!=='question')return;
   const typed=$('#answerInput').value.trim(),clean=normalizeAnswer(typed),q=questions[round];if(!clean)return;
   const match=q.answers.find(answer=>answer.forms.some(form=>normalizeAnswer(form)===clean));
-  if(!match){const candidate=softCandidate(q,clean);if(candidate)showSoftFill(typed,candidate);else rejectInput(typed);return;}
+  if(!match){const candidate=softCandidate(q,clean);if(candidate)showSoftFill(typed,candidate);else{rejectInput(typed);$('#answerInput').value='';}return;}
   const identity=normalizeAnswer(match.forms[0]);
-  if(used.has(identity)){$('#inputFeedback').textContent='Already caught — try a different answer.';$('#inputFeedback').classList.remove('hidden');$('#softFill').classList.add('hidden');return;}
+  if(used.has(identity)){$('#inputFeedback').textContent='Already caught — try a different answer.';$('#inputFeedback').classList.remove('hidden');$('#softFill').classList.add('hidden');$('#answerInput').value='';return;}
   used.add(identity);pauseRoundClock();
-  reelCatch({kind:'fish',points:match.points,name:match.forms[0],match,typed},false);
+  if(matchMode==='single')roundState.record.reason='caught';
+  reelCatch({kind:'fish',points:match.points,name:match.forms[0],match,typed},matchMode==='single');
 }
 
 function unlockRewards(){
@@ -231,16 +244,16 @@ function reelCatch(item,endsQuestion){
     },CATCH_FLIGHT_MS+CATCH_SETTLE_MS);
   },CATCH_REVEAL_MS);
 }
-function completeQuestion(keepLootResult=false){
+function completeQuestion(keepResult=false){
   pauseRoundClock();roundState.phase='roundEnd';fishingBusy=false;
   $('#answer-dock').classList.add('hidden');$('#roundActions').classList.add('hidden');$('.prompt-card').classList.add('hidden');$('#lastCatch').classList.add('hidden');
-  if(!keepLootResult){
+  if(!keepResult){
     const record=roundState.record;
     $('#answerResult').dataset.rank='';$('#answerTier').textContent=record.reason==='all-caught'?'EVERY ANSWER CAUGHT':'QUESTION COMPLETE';
     $('#acceptedAnswer').textContent=record.catches.length+' fish landed';$('#answerPoints').textContent=signedPoints(record.points)+' PTS THIS QUESTION';
     $('#answerNote').textContent=record.reason==='timeout'?'Time’s up. Your catch is safe.':'Your catch is safe. On to the next spot.';
   }
-  $('#answerResult').classList.remove('hidden');$('#descendBtn').textContent=round===questions.length-1?'REVIEW THE CATCH →':'NEXT QUESTION →';$('#descendBtn').classList.remove('hidden');$('#descendBtn').focus();
+  $('#answerResult').classList.remove('hidden');$('#descendBtn').textContent=matchMode==='single'?'Next Cast':round===questions.length-1?'REVIEW THE CATCH →':'NEXT QUESTION →';$('#descendBtn').classList.remove('hidden');$('#descendBtn').focus({preventScroll:true});
   document.querySelectorAll('#steps i')[round]?.classList.add('done');
 }
 descendNext=function(){
@@ -255,7 +268,7 @@ resolve=function(typed,match,timedOut){
 
 function catchShareText(spoilers=false){
   const fishCount=roundLog.reduce((total,record)=>total+(record?.catches?.length||0),0);
-  const heading=`CARILLION 🎣${spoilers?' - ANSWERS (SPOILERS!)':''}\n${score} points · ${fishCount} fish`;
+  const heading=`CARILLION 🎣${spoilers?' - ANSWERS (SPOILERS!)':''}\n${matchDay.label} · ${modeLabel()}\n${score} points · ${fishCount} fish`;
   const rarityEmoji={10:'⬜',15:'🟩',30:'🟦',60:'🟪',85:'🟧',100:'🟨'};
   const rounds=questions.map((question,i)=>{
     const record=roundLog[i],catches=record?.catches||[];
@@ -264,11 +277,12 @@ function catchShareText(spoilers=false){
       const loot=record?.loot?`\n- ${record.loot.name} (${signedPoints(record.loot.points)} pts)`:'';
       return `${i+1}. ${question.prompt}\n${answers}${loot}`;
     }
-    const emoji=catches.map(c=>rarityEmoji[c.points]||'🐟').join('');
+    const best=catches.reduce((top,c)=>!top||c.points>top.points?c:top,null);
+    const emoji=best?(rarityEmoji[best.points]||'🐟'):'';
     const empty=({boot:'🥾',skeleton:'🦴',bottle:'🍾'})[record?.loot?.kind]||'➖';
-    return `${i+1}. ${emoji||empty}`;
+    return emoji||empty;
   });
-  return `${heading}\n\n${rounds.join(spoilers?'\n\n':'\n')}\n\nhttps://jurkovichm.github.io/carillion/`;
+  return `${heading}${spoilers?'\n\n':'\n'}${rounds.join(spoilers?'\n\n':' ')}\n\nhttps://jurkovichm.github.io/carillion/`;
 }
 function copyCatchFallback(text){
   const field=document.createElement('textarea'),previous=document.activeElement;
@@ -300,10 +314,10 @@ showSummary=function(){
   document.body.classList.add('showing-summary');
   legacySummary();
   $('#shareStatus').textContent='';$('#sharePreview').value='';$('#sharePreview').classList.add('hidden');
-  $('#summaryDive').textContent='DAILY CATCH COMPLETE';$('#summaryDepth').textContent=`${caughtFish.length} FISH · ${fishermanChoices[selectedFisherman].name.toUpperCase()}`;
-  const maximum=questions.reduce((sum,q)=>sum+q.answers.reduce((n,a)=>n+a.points,0),0);
+  $('#summaryDive').textContent=matchDay.label+' · '+modeLabel();$('#summaryDepth').textContent=`${caughtFish.length} FISH · ${fishermanChoices[selectedFisherman].name.toUpperCase()}`;
+  const maximum=questions.reduce((sum,q)=>sum+(matchMode==='single'?Math.max(...q.answers.map(a=>a.points)):q.answers.reduce((n,a)=>n+a.points,0)),0);
   const percentage=Math.max(0,Math.min(100,score/maximum*100));
-  $('.score-position small').textContent='YOUR SHARE OF ALL CURATED ANSWER POINTS';
+  $('.score-position small').textContent=matchMode==='single'?'YOUR SHARE OF POSSIBLE SINGLE-CAST POINTS':'YOUR SHARE OF ALL CURATED ANSWER POINTS';
   $('#scoreTrackFill').style.width=percentage+'%';$('#scorePositionText').textContent=`${score} points · ${caughtFish.length} unique answers caught`;
   $('#summaryScreen .summary-head').querySelector('.earned-gear')?.remove();
   const gear=document.createElement('p');gear.className='earned-gear';gear.textContent=rewardStage?['','Graduation cap earned','Cap + gown earned','Cap + gown + distinction ribbons earned'][rewardStage]:'Next milestone: graduation cap at 200 points';$('#summaryDepth').after(gear);
