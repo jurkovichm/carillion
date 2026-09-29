@@ -20,6 +20,9 @@ const caughtFish = [];
 let fishingCatch = null, catchTimers = [], fishingBusy = false;
 const fishColors = {10:'#b5c4a2',15:'#e6a354',30:'#68c9cf',60:'#e67668',85:'#b99be9',100:'#ffe080'};
 const reducedFishingMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const CATCH_REVEAL_MS=reducedFishingMotion?600:3000;
+const CATCH_FLIGHT_MS=reducedFishingMotion?0:1400;
+const CATCH_SETTLE_MS=reducedFishingMotion?900:100;
 const fishingViewport=document.getElementById('game');
 let fishingWidth=innerWidth,fishingHeight=innerHeight,keyboardOpen=false;
 resizeScene = function(){
@@ -76,7 +79,7 @@ animateScene = function(now){
  p.save();p.translate(ox,oy);p.scale(scale,scale);
  $('#catchCaption').style.left=Math.max(12,ox+135*scale)+'px';$('#catchCaption').style.right='auto';
  $('#catchCaption').style.top=Math.min(h-30,oy+650*scale)+'px';
- const elapsed=fishingCatch?(now-fishingCatch.start)/1000:0,reeling=!!fishingCatch&&elapsed<1.3;
+ const reeling=!!fishingCatch&&!fishingCatch.revealed;
  drawFisherman(t,reeling);
  const bobX=1100,bobY=756+Math.sin(t*2)*(reeling?8:3);
  if(!reeling){p.strokeStyle='#edf0c394';p.lineWidth=2;p.beginPath();p.moveTo(1100,320);p.quadraticCurveTo(1100,530,bobX,bobY);p.stroke();}
@@ -85,7 +88,7 @@ animateScene = function(now){
  p.strokeStyle='#e3ecd870';p.beginPath();p.ellipse(bobX,bobY+7,18+Math.sin(t*3)*5,5,0,0,Math.PI*2);p.stroke();
  if(typeof shoreCatches!=='undefined')shoreCatches.forEach((item,i)=>{const pos=shoreCatchPosition(i);drawCatchItem(item,pos.x,pos.y,i%2?.15:-.12);});
  if(fishingCatch?.revealed){
-   const a=reducedFishingMotion?1:Math.max(0,Math.min(1,(elapsed-1.3)/1.4)),target=fishingCatch.target;
+   const a=reducedFishingMotion?1:Math.max(0,Math.min(1,(now-fishingCatch.revealedAt)/CATCH_FLIGHT_MS)),target=fishingCatch.target;
    drawCatchItem(fishingCatch,1100+(target.x-1100)*a,756+(target.y-756)*a-Math.sin(a*Math.PI)*275,reducedFishingMotion?0:-.6+a*1.1);
  }
  p.restore();

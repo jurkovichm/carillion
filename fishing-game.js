@@ -1,5 +1,5 @@
 // Timed multi-answer rounds. Existing question data and matching helpers stay intact.
-const ROUND_MS=25000, REVEAL_MS=3000, LAND_MS=reducedFishingMotion?1500:3800;
+const ROUND_MS=25000;
 const BOTTLE_CHANCE=.10;
 const bottleFacts=[
   {text:'Carleton’s Cowling Arboretum covers about 800 acres.',source:'https://athletics.carleton.edu/sports/2019/7/15/cowling-arboretum.aspx?id=6001'},
@@ -198,10 +198,11 @@ function reelCatch(item,endsQuestion){
   $('#answer-dock').classList.add('hidden');$('#roundActions').classList.add('hidden');$('.prompt-card').classList.add('hidden');
   $('#answerResult').classList.add('hidden');$('#descendBtn').classList.add('hidden');
   $('#descendNote').textContent='Something on the line… · clock paused';$('#descendNote').classList.remove('hidden');
-  fishingCatch={...item,start:performance.now(),revealed:false,target:shoreCatchPosition(shoreCatches.length)};
+  fishingCatch={...item,revealed:false,revealedAt:null,target:shoreCatchPosition(shoreCatches.length)};
   bubbleWash(.35,.012);
   later(()=>{
     fishingCatch.revealed=true;
+    fishingCatch.revealedAt=performance.now();
     score+=item.points;depthScore=score*10;
     const record=roundState.record;record.points+=item.points;record.meters=record.points*10;record.depthAfter=depthScore;
     if(item.kind==='fish'){
@@ -216,15 +217,16 @@ function reelCatch(item,endsQuestion){
     $('#descendNote').classList.add('hidden');$('#answerResult').classList.remove('hidden');
     fx(item.kind==='fish'?'answer':item.kind==='bottle'?'surface':'miss',Math.max(0,item.points));
     if(item.fact)speakFact(item.fact);
-  },REVEAL_MS);
-  later(()=>{
-    shoreCatches.push(item);if(item.kind==='fish')caughtFish.push(item);
-    fishingCatch=null;fishingBusy=false;updateFishingHUD();
-    if(endsQuestion){completeQuestion(true);return;}
-    if(used.size===questions[round].answers.length){roundState.record.reason='all-caught';completeQuestion();return;}
-    $('#lastCatch').textContent=item.name+' · '+scoreTiers[item.points]+' · +'+item.points;
-    $('#lastCatch').classList.remove('hidden');showQuestionInput();
-  },LAND_MS);
+    // Start landing from the actual reveal so delayed timers cannot skip the flight.
+    later(()=>{
+      shoreCatches.push(item);if(item.kind==='fish')caughtFish.push(item);
+      fishingCatch=null;fishingBusy=false;updateFishingHUD();
+      if(endsQuestion){completeQuestion(true);return;}
+      if(used.size===questions[round].answers.length){roundState.record.reason='all-caught';completeQuestion();return;}
+      $('#lastCatch').textContent=item.name+' · '+scoreTiers[item.points]+' · +'+item.points;
+      $('#lastCatch').classList.remove('hidden');showQuestionInput();
+    },CATCH_FLIGHT_MS+CATCH_SETTLE_MS);
+  },CATCH_REVEAL_MS);
 }
 function completeQuestion(keepLootResult=false){
   pauseRoundClock();roundState.phase='roundEnd';fishingBusy=false;
