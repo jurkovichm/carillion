@@ -1,6 +1,7 @@
 /* Fixed bridge composition; the reference is always scaled proportionally. */
 :root{--ice:#e8c879;--white:#f7efcf}
-.game{min-height:0;background:#133c36}
+body{position:fixed;inset:0;overscroll-behavior:none}
+.game{position:fixed;top:var(--viewport-top,0px);left:0;width:100%;height:var(--game-height,100dvh);min-height:0;background:#133c36}
 .pixel-scene{image-rendering:pixelated}
 .campus-shore,.depth-guides,.depth-label,.depth-landing{display:none!important}
 .game:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(#08282170,transparent 35%,transparent 65%,#062d2ba8);z-index:1}
@@ -20,6 +21,11 @@
 
 /* Schiller floats above the scenery, below prompts and dialogs. */
 .schiller-companion{z-index:5}
+
+/* Only the answer controls follow the keyboard; scenery keeps its full height. */
+.game.keyboard-open .answer-dock{bottom:calc(var(--keyboard-inset) + 52px);transition:none}
+.game.keyboard-open .round-actions{bottom:calc(var(--keyboard-inset) + 10px)}
+.game.keyboard-open .soft-fill,.game.keyboard-open .input-feedback,.game.keyboard-open .last-catch{top:auto;bottom:calc(var(--keyboard-inset) + 112px)}
 
 .controls-top{justify-content:flex-end}
 .playing #home,.showing-summary #home{display:none!important}

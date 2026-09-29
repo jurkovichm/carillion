@@ -20,7 +20,28 @@ const caughtFish = [];
 let fishingCatch = null, catchTimers = [], fishingBusy = false;
 const fishColors = {10:'#b5c4a2',15:'#e6a354',30:'#68c9cf',60:'#e67668',85:'#b99be9',100:'#ffe080'};
 const reducedFishingMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-resizeScene = function(){const dpr=Math.min(devicePixelRatio||1,2);scene.width=Math.round(innerWidth*dpr);scene.height=Math.round(innerHeight*dpr);};
+const fishingViewport=document.getElementById('game');
+let fishingWidth=innerWidth,fishingHeight=innerHeight,keyboardOpen=false;
+resizeScene = function(){
+ const dpr=Math.min(devicePixelRatio||1,2),width=Math.round(fishingViewport.clientWidth*dpr),height=Math.round(fishingViewport.clientHeight*dpr);
+ if(scene.width!==width)scene.width=width;
+ if(scene.height!==height)scene.height=height;
+};
+function updateFishingViewport(){
+ const viewport=window.visualViewport;
+ const typing=document.activeElement===document.getElementById('answerInput');
+ if(innerWidth!==fishingWidth){fishingWidth=innerWidth;fishingHeight=innerHeight;}
+ const visibleHeight=viewport?.height||innerHeight;
+ const touchDevice=navigator.maxTouchPoints>0;
+ // Keep the world at its pre-keyboard size, including during keyboard dismissal.
+ keyboardOpen=(typing||keyboardOpen)&&(touchDevice||visibleHeight<innerHeight-120)&&(!viewport||viewport.scale===1)&&fishingHeight-visibleHeight>120;
+ if(!keyboardOpen&&(!typing||!touchDevice||innerHeight>=fishingHeight))fishingHeight=innerHeight;
+ fishingViewport.style.setProperty('--game-height',fishingHeight+'px');
+ fishingViewport.style.setProperty('--viewport-top',(keyboardOpen?viewport?.offsetTop||0:0)+'px');
+ fishingViewport.style.setProperty('--keyboard-inset',(keyboardOpen?Math.max(0,fishingHeight-visibleHeight):0)+'px');
+ fishingViewport.classList.toggle('keyboard-open',keyboardOpen);
+ resizeScene();
+}
 setDepth = function(){targetDepth=0;diveDepth=0;cameraTarget=0;camera=0;};
 function drawCatchFish(x,y,points,rotation=0){
  const p=paint,s=2*(1+points/180)*(innerWidth<650?1.6:1);p.save();p.translate(x,y);p.rotate(rotation);p.scale(s,s);
@@ -44,7 +65,7 @@ function drawCatchItem(item,x,y,rotation=0){
 }
 animateScene = function(now){
  requestAnimationFrame(animateScene);
- const p=paint,w=innerWidth,h=innerHeight,t=reducedFishingMotion?0:now/1000,mobile=w<650;
+ const p=paint,w=fishingViewport.clientWidth,h=fishingViewport.clientHeight,t=reducedFishingMotion?0:now/1000,mobile=w<650;
  p.setTransform(scene.width/w,0,0,scene.height/h,0,0);p.imageSmoothingEnabled=false;p.fillStyle='#143f36';p.fillRect(0,0,w,h);
  // Extended world uses the same horizontal grid; the bridge band begins 1107 units down.
  const worldWidth=2048,worldHeight=worldWidth*534/320,bridgeOffset=1107;
@@ -70,5 +91,9 @@ animateScene = function(now){
  p.restore();
 };
 
-resizeScene();
-addEventListener('resize',()=>resizeScene());
+updateFishingViewport();
+addEventListener('resize',updateFishingViewport);
+window.visualViewport?.addEventListener('resize',updateFishingViewport);
+window.visualViewport?.addEventListener('scroll',updateFishingViewport);
+document.getElementById('answerInput').addEventListener('focus',updateFishingViewport);
+document.getElementById('answerInput').addEventListener('blur',updateFishingViewport);

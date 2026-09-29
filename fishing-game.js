@@ -131,7 +131,7 @@ function showQuestionInput(){
   $('.prompt-card').classList.remove('hidden');$('#answer-dock').classList.remove('hidden');$('#roundActions').classList.remove('hidden');
   $('#answerInput').disabled=false;$('#answerForm button').disabled=false;$('#giveUpBtn').disabled=false;
   $('#answerInput').value='';$('#answerInput').placeholder=used.size?'Another answer…':'Type an answer…';
-  updateFishingHUD();resumeRoundClock();$('#answerInput').focus();
+  updateFishingHUD();resumeRoundClock();$('#answerInput').focus({preventScroll:true});
 }
 
 begin=async function(){
