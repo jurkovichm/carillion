@@ -52,8 +52,9 @@ const server = http.createServer((req, res) => {
       }
       assert.equal(await page.evaluate(() => roundState.phase), 'summary');
       const share = await page.evaluate(() => catchShareText());
-      assert(share.includes('29 Sept 2026 · Single-cast'));
-      assert.equal(share.split('\n')[3].split(' ').length, 7);
+      assert.equal(share.split('\n')[0], 'Carillion 29 Sep 2026');
+      assert.equal(Array.from(share.split('\n')[1]).length, 7);
+      assert.equal(share.split('\n').length, 3);
       assert(!share.includes('Tiger'));
       assert((await page.evaluate(() => catchShareText(true))).includes('Tiger'));
       await page.locator('#playAgain').click();
@@ -69,11 +70,11 @@ const server = http.createServer((req, res) => {
       assert.equal(await page.locator('#answerInput').inputValue(), '');
       await page.evaluate(() => finishQuestion('giveup'));
       assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
-      assert((await page.evaluate(() => catchShareText())).includes('28 Sept 2026 · Multi-cast'));
+      assert((await page.evaluate(() => catchShareText())).startsWith('Carillion 28 Sep 2026\n'));
       await page.evaluate(() => {
         roundLog[0].catches.push({ name: 'Rare test answer', points: 100 });
       });
-      assert.equal((await page.evaluate(() => catchShareText())).split('\n')[3].split(' ')[0], '\uD83D\uDFE8');
+      assert.equal(Array.from((await page.evaluate(() => catchShareText())).split('\n')[1])[0], '\uD83E\uDD2F');
       assert.deepEqual(errors, []);
       console.log(`${width}x${height}: defaults, single-cast persistence, retries, timing, sharing, day switching and multi-cast passed`);
       await page.close();

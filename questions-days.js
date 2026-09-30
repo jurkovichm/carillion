@@ -1749,7 +1749,7 @@ window.DIVE_DAYS = [
               "Tigers",
               "Bengal tiger"
             ],
-            "note": ""
+            "note": "Big cat; the tigers of the Sundarbans are notorious man-eaters."
           },
           {
             "points": 10,
@@ -1758,15 +1758,15 @@ window.DIVE_DAYS = [
               "Lions",
               "African lion"
             ],
-            "note": ""
+            "note": "The Tsavo lions killed dozens of railway workers in 1898."
           },
           {
-            "points": 15,
+            "points": 30,
             "forms": [
               "Leopard",
               "Leopards"
             ],
-            "note": ""
+            "note": "The Leopard of Rudraprayag killed over 120 people in India."
           },
           {
             "points": 30,
@@ -1774,7 +1774,7 @@ window.DIVE_DAYS = [
               "Jaguar",
               "Jaguars"
             ],
-            "note": ""
+            "note": "Largest American big cat; rare but documented attacks."
           },
           {
             "points": 30,
@@ -1784,35 +1784,35 @@ window.DIVE_DAYS = [
               "Puma",
               "Mountain lion"
             ],
-            "note": ""
+            "note": "Also called puma or mountain lion; attacks on people are rare."
           },
           {
-            "points": 15,
+            "points": 30,
             "forms": [
               "Wolf",
               "Wolves",
               "Gray wolf",
               "Grey wolf"
             ],
-            "note": ""
+            "note": "Wild wolf attacks are rare, but historical man-eating cases exist."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Dingo",
               "Dingoes",
               "Dingos"
             ],
-            "note": ""
+            "note": "Australian wild dog; famous for the 1980 Azaria Chamberlain case."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Domestic dog",
               "Dog",
               "Dogs"
             ],
-            "note": ""
+            "note": "Packs of feral or aggressive dogs have killed people."
           },
           {
             "points": 60,
@@ -1821,26 +1821,26 @@ window.DIVE_DAYS = [
               "Coyotes",
               "Coywolf"
             ],
-            "note": ""
+            "note": "A few fatal attacks on people, mostly children, are recorded."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Jackal",
               "Jackals"
             ],
-            "note": ""
+            "note": "Small canid; scavenger that has attacked sleeping people."
           },
           {
-            "points": 10,
+            "points": 30,
             "forms": [
               "Polar bear",
               "Polar bears"
             ],
-            "note": ""
+            "note": "Apex Arctic predator that readily hunts humans when hungry."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Brown bear",
               "Brown bears",
@@ -1849,16 +1849,16 @@ window.DIVE_DAYS = [
               "Bear",
               "Bears"
             ],
-            "note": ""
+            "note": "Includes grizzlies; responsible for many fatal bear attacks."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "American black bear",
               "Black bear",
               "Black bears"
             ],
-            "note": ""
+            "note": "Usually shy, but some predatory attacks occur."
           },
           {
             "points": 85,
@@ -1866,14 +1866,14 @@ window.DIVE_DAYS = [
               "Asian black bear",
               "Asiatic black bear"
             ],
-            "note": ""
+            "note": "Moon bear; attacks are fairly common in parts of Asia."
           },
           {
             "points": 85,
             "forms": [
               "Sloth bear"
             ],
-            "note": ""
+            "note": "Ill-tempered South Asian bear that attacks villagers."
           },
           {
             "points": 30,
@@ -1883,17 +1883,17 @@ window.DIVE_DAYS = [
               "Hyenas",
               "Hyaena"
             ],
-            "note": ""
+            "note": "Strong-jawed African scavenger-hunter; attacks on sleeping people."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Striped hyena"
             ],
-            "note": ""
+            "note": "Smaller hyena; reports of attacks on children in South Asia."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Pig",
               "Pigs",
@@ -1903,34 +1903,34 @@ window.DIVE_DAYS = [
               "Wild pig",
               "Feral hog"
             ],
-            "note": ""
+            "note": "Wild boar and feral hogs can kill people when cornered."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Human",
               "Humans",
               "Homo sapiens"
             ],
-            "note": ""
+            "note": "Yes, people have eaten people; cannibalism is well documented."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Chimpanzee",
               "Chimp",
               "Chimps",
               "Chimpanzees"
             ],
-            "note": ""
+            "note": "Our close relatives; attacks and even predation on children noted."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Rat",
               "Rats"
             ],
-            "note": ""
+            "note": "Rats have gnawed on and sometimes killed infants and the helpless."
           },
           {
             "points": 10,
@@ -1940,7 +1940,7 @@ window.DIVE_DAYS = [
               "Crocodiles",
               "Croc"
             ],
-            "note": ""
+            "note": "Africa's top man-eater, killing hundreds of people each year."
           },
           {
             "points": 30,
@@ -1949,7 +1949,7 @@ window.DIVE_DAYS = [
               "Salt water crocodile",
               "Saltie"
             ],
-            "note": ""
+            "note": "World's largest reptile; notorious for killing people, e.g. Ramree Island."
           },
           {
             "points": 85,
@@ -1958,33 +1958,33 @@ window.DIVE_DAYS = [
               "Mugger",
               "Marsh crocodile"
             ],
-            "note": ""
+            "note": "Broad-snouted crocodile of South Asia that attacks people."
           },
           {
-            "points": 15,
+            "points": 30,
             "forms": [
               "American alligator",
               "Alligator",
               "Alligators",
               "Gator"
             ],
-            "note": ""
+            "note": "Fatal attacks in Florida and the US South are rare but real."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Reticulated python",
               "Python",
               "Pythons"
             ],
-            "note": ""
+            "note": "Longest snake; there are documented cases of it swallowing people."
           },
           {
             "points": 60,
             "forms": [
               "Burmese python"
             ],
-            "note": ""
+            "note": "Large constrictor; fatal attacks on humans are rare."
           },
           {
             "points": 85,
@@ -1993,24 +1993,24 @@ window.DIVE_DAYS = [
               "Rock python",
               "Southern African rock python"
             ],
-            "note": ""
+            "note": "Africa's largest snake; a few cases of humans killed and eaten."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Australian scrub python",
               "Scrub python",
               "Amethystine python"
             ],
-            "note": ""
+            "note": "Also called the amethystine python; attacks on people are rare."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Komodo dragon",
               "Komodo dragons"
             ],
-            "note": ""
+            "note": "Giant venomous lizard that has killed people in Indonesia."
           },
           {
             "points": 10,
@@ -2020,21 +2020,21 @@ window.DIVE_DAYS = [
               "Shark",
               "Sharks"
             ],
-            "note": ""
+            "note": "The famous shark behind the most recorded unprovoked bites."
           },
           {
             "points": 30,
             "forms": [
               "Tiger shark"
             ],
-            "note": ""
+            "note": "Coastal predator often involved in attacks in Hawaii and beyond."
           },
           {
             "points": 30,
             "forms": [
               "Bull shark"
             ],
-            "note": ""
+            "note": "Enters rivers and is thought to cause many attacks on swimmers."
           },
           {
             "points": 60,
@@ -2042,7 +2042,7 @@ window.DIVE_DAYS = [
               "Oceanic whitetip shark",
               "Oceanic white tip shark"
             ],
-            "note": ""
+            "note": "Linked to the USS Indianapolis sinking and many open-water deaths."
           },
           {
             "points": 60,
@@ -2058,7 +2058,7 @@ window.DIVE_DAYS = [
             "forms": [
               "Martial eagle"
             ],
-            "note": ""
+            "note": "Africa's largest eagle, reported to take small children."
           },
           {
             "points": 100,
@@ -2069,17 +2069,17 @@ window.DIVE_DAYS = [
             "note": "Extinct; human predation is proposed, not certain."
           },
           {
-            "points": 30,
+            "points": 15,
             "forms": [
               "Piranha",
               "Piranhas",
               "Red-bellied piranha",
               "Red bellied piranha"
             ],
-            "note": ""
+            "note": "South American fish famous for swarming; mostly exaggerated."
           },
           {
-            "points": 85,
+            "points": 100,
             "forms": [
               "Goonch catfish",
               "Goonch",
@@ -2088,7 +2088,7 @@ window.DIVE_DAYS = [
             "note": "The source describes reported cases."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Wels catfish",
               "Wels"
@@ -2096,7 +2096,7 @@ window.DIVE_DAYS = [
             "note": "The source describes reported cases."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Redtail catfish",
               "Red tail catfish"
@@ -2117,15 +2117,15 @@ window.DIVE_DAYS = [
               "Giant grouper",
               "Grouper"
             ],
-            "note": ""
+            "note": "Huge Indo-Pacific fish; divers have reported swallowing attempts."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Atlantic goliath grouper",
               "Goliath grouper"
             ],
-            "note": ""
+            "note": "Giant Atlantic grouper; there is a debated danger to divers."
           },
           {
             "points": 100,
@@ -2143,58 +2143,58 @@ window.DIVE_DAYS = [
         "sourceNote": "Characters from the linked list; common aliases and unambiguous surnames accepted.",
         "answers": [
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Hannah Abbott",
               "Abbott"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Ludo Bagman",
-              "Bagman"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Bathilda Bagshot",
-              "Bagshot"
-            ],
-            "note": ""
+            "note": "Hufflepuff student, Dumbledore's Army member; later runs the Leaky Cauldron."
           },
           {
             "points": 85,
             "forms": [
-              "Katie Bell",
-              "Bell"
+              "Ludo Bagman",
+              "Bagman"
             ],
-            "note": ""
+            "note": "Former Quidditch star and head of Magical Games and Sports."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bathilda Bagshot",
+              "Bagshot"
+            ],
+            "note": "Wizarding historian, author of A History of Magic; Nagini's host in Godric's Hollow."
           },
           {
             "points": 60,
+            "forms": [
+              "Katie Bell",
+              "Bell"
+            ],
+            "note": "Gryffindor Chaser cursed by an opal necklace."
+          },
+          {
+            "points": 85,
             "forms": [
               "Cuthbert Binns",
               "Binns"
             ],
-            "note": ""
+            "note": "Ghost who teaches History of Magic."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Regulus Black"
             ],
-            "note": ""
+            "note": "Sirius's brother; Death Eater turned traitor, the real R.A.B."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Sirius Black"
             ],
-            "note": ""
+            "note": "Harry's godfather and an escaped Azkaban prisoner."
           },
           {
             "points": 60,
@@ -2202,61 +2202,61 @@ window.DIVE_DAYS = [
               "Susan Bones",
               "Bones"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Terry Boot",
-              "Boot"
-            ],
-            "note": ""
+            "note": "Hufflepuff student and Dumbledore's Army member."
           },
           {
             "points": 85,
             "forms": [
-              "Lavender Brown",
-              "Brown"
+              "Terry Boot",
+              "Boot"
             ],
-            "note": ""
+            "note": "Ravenclaw student and Dumbledore's Army member."
           },
           {
             "points": 60,
+            "forms": [
+              "Lavender Brown",
+              "Brown"
+            ],
+            "note": "Gryffindor student, Ron's brief girlfriend."
+          },
+          {
+            "points": 100,
             "forms": [
               "Frank Bryce",
               "Bryce"
             ],
-            "note": ""
+            "note": "Riddle House groundskeeper, Voldemort's first victim in Goblet of Fire."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Charity Burbage",
               "Burbage"
             ],
-            "note": ""
+            "note": "Muggle Studies professor killed by Voldemort."
           },
           {
             "points": 85,
             "forms": [
               "Alecto Carrow"
             ],
-            "note": ""
+            "note": "Death Eater and Hogwarts teacher under Snape."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Amycus Carrow"
             ],
-            "note": ""
+            "note": "Death Eater and Dark Arts teacher under Snape."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Cho Chang",
               "Chang"
             ],
-            "note": ""
+            "note": "Ravenclaw Seeker and Harry's first kiss."
           },
           {
             "points": 85,
@@ -2264,15 +2264,15 @@ window.DIVE_DAYS = [
               "Michael Corner",
               "Corner"
             ],
-            "note": ""
+            "note": "Ravenclaw student who dated Ginny."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Vincent Crabbe",
               "Crabbe"
             ],
-            "note": ""
+            "note": "Draco's large, dim sidekick."
           },
           {
             "points": 60,
@@ -2280,10 +2280,10 @@ window.DIVE_DAYS = [
               "Colin Creevey",
               "Creevey"
             ],
-            "note": ""
+            "note": "Gryffindor photographer and big Harry fan."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Bartemius Crouch Sr",
               "Barty Crouch Sr",
@@ -2291,7 +2291,7 @@ window.DIVE_DAYS = [
               "Bartemius Crouch Senior",
               "Sr"
             ],
-            "note": ""
+            "note": "Ministry official whose son was a Death Eater."
           },
           {
             "points": 60,
@@ -2301,23 +2301,23 @@ window.DIVE_DAYS = [
               "Barty Crouch Junior",
               "Jr"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "John Dawlish",
-              "Dawlish"
-            ],
-            "note": ""
+            "note": "Death Eater who posed as Mad-Eye Moody."
           },
           {
             "points": 85,
             "forms": [
+              "John Dawlish",
+              "Dawlish"
+            ],
+            "note": "Auror who works under Scrimgeour."
+          },
+          {
+            "points": 30,
+            "forms": [
               "Fleur Delacour",
               "Delacour"
             ],
-            "note": ""
+            "note": "Beauxbatons champion in the Triwizard Tournament."
           },
           {
             "points": 60,
@@ -2325,29 +2325,29 @@ window.DIVE_DAYS = [
               "Dedalus Diggle",
               "Diggle"
             ],
-            "note": ""
+            "note": "Order of the Phoenix member and Harry's eccentric fan."
           },
           {
             "points": 60,
             "forms": [
               "Amos Diggory"
             ],
-            "note": ""
+            "note": "Ministry official, Cedric's father."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Cedric Diggory"
             ],
-            "note": ""
+            "note": "Hufflepuff Triwizard champion killed by Voldemort."
           },
           {
-            "points": 60,
+            "points": 100,
             "forms": [
               "Elphias Doge",
               "Doge"
             ],
-            "note": ""
+            "note": "Order member and Dumbledore's old friend who wrote his obituary."
           },
           {
             "points": 60,
@@ -2355,14 +2355,14 @@ window.DIVE_DAYS = [
               "Antonin Dolohov",
               "Dolohov"
             ],
-            "note": ""
+            "note": "Death Eater with a knack for deadly curses."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Aberforth Dumbledore"
             ],
-            "note": ""
+            "note": "Albus's brother and Hog's Head barman."
           },
           {
             "points": 10,
@@ -2370,50 +2370,50 @@ window.DIVE_DAYS = [
               "Albus Dumbledore",
               "Dumbledore"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Ariana Dumbledore"
-            ],
-            "note": ""
+            "note": "Hogwarts headmaster and Order founder."
           },
           {
             "points": 85,
             "forms": [
+              "Ariana Dumbledore"
+            ],
+            "note": "Albus's sister, a tragic Obscurial."
+          },
+          {
+            "points": 30,
+            "forms": [
               "Dudley Dursley"
             ],
-            "note": ""
+            "note": "Harry's bullying cousin."
           },
           {
             "points": 60,
             "forms": [
               "Marge Dursley"
             ],
-            "note": ""
+            "note": "Vernon's sister who is inflated by accidental magic."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Petunia Dursley"
             ],
-            "note": ""
+            "note": "Harry's aunt, Lily's sister."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Vernon Dursley"
+            ],
+            "note": "Harry's uncle, a Muggle drill maker."
           },
           {
             "points": 85,
             "forms": [
-              "Vernon Dursley"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
               "Marietta Edgecombe",
               "Edgecombe"
             ],
-            "note": ""
+            "note": "Cho's friend who betrays Dumbledore's Army."
           },
           {
             "points": 60,
@@ -2421,31 +2421,31 @@ window.DIVE_DAYS = [
               "Arabella Figg",
               "Figg"
             ],
-            "note": ""
+            "note": "Squib neighbor who secretly watches Harry."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Argus Filch",
               "Filch"
             ],
-            "note": ""
+            "note": "Hogwarts caretaker, a Squib, and Mrs Norris's owner."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Justin Finch-Fletchley",
               "Finch-Fletchley"
             ],
-            "note": ""
+            "note": "Hufflepuff Muggle-born who is petrified."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Seamus Finnigan",
               "Finnigan"
             ],
-            "note": ""
+            "note": "Gryffindor and Harry's dorm mate with a knack for explosions."
           },
           {
             "points": 85,
@@ -2453,23 +2453,23 @@ window.DIVE_DAYS = [
               "Mundungus Fletcher",
               "Fletcher"
             ],
-            "note": ""
+            "note": "Sleazy petty thief and Order member."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Filius Flitwick",
               "Flitwick"
             ],
-            "note": ""
+            "note": "Charms professor and Ravenclaw head of house."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Cornelius Fudge",
               "Fudge"
             ],
-            "note": ""
+            "note": "Minister for Magic in denial about Voldemort."
           },
           {
             "points": 85,
@@ -2477,15 +2477,15 @@ window.DIVE_DAYS = [
               "Anthony Goldstein",
               "Goldstein"
             ],
-            "note": ""
+            "note": "Ravenclaw student and Dumbledore's Army member."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gregory Goyle",
               "Goyle"
             ],
-            "note": ""
+            "note": "Draco's other hulking henchman."
           },
           {
             "points": 10,
@@ -2493,7 +2493,7 @@ window.DIVE_DAYS = [
               "Hermione Granger",
               "Hermione"
             ],
-            "note": ""
+            "note": "Brilliant Muggle-born Gryffindor and Harry's best friend."
           },
           {
             "points": 85,
@@ -2501,23 +2501,23 @@ window.DIVE_DAYS = [
               "Hugo Granger-Weasley",
               "Hugo Weasley"
             ],
-            "note": ""
+            "note": "Ron and Hermione's son."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Rose Granger-Weasley",
               "Rose Weasley"
             ],
-            "note": ""
+            "note": "Ron and Hermione's daughter."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Percival Graves",
               "Graves"
             ],
-            "note": ""
+            "note": "Auror in Fantastic Beasts (actually Grindelwald in disguise)."
           },
           {
             "points": 85,
@@ -2525,7 +2525,7 @@ window.DIVE_DAYS = [
               "Astoria Greengrass",
               "Greengrass"
             ],
-            "note": ""
+            "note": "Draco's wife, mother of Scorpius."
           },
           {
             "points": 60,
@@ -2533,23 +2533,23 @@ window.DIVE_DAYS = [
               "Fenrir Greyback",
               "Greyback"
             ],
-            "note": ""
+            "note": "Savage werewolf who joins Voldemort."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gellert Grindelwald",
               "Grindelwald"
             ],
-            "note": ""
+            "note": "Dark wizard defeated by Dumbledore in 1945."
           },
           {
-            "points": 85,
+            "points": 100,
             "forms": [
               "Wilhelmina Grubbly-Plank",
               "Grubbly-Plank"
             ],
-            "note": ""
+            "note": "Care of Magical Creatures substitute teacher."
           },
           {
             "points": 60,
@@ -2557,7 +2557,7 @@ window.DIVE_DAYS = [
               "Godric Gryffindor",
               "Gryffindor"
             ],
-            "note": ""
+            "note": "Hogwarts co-founder and owner of the sword."
           },
           {
             "points": 10,
@@ -2565,7 +2565,7 @@ window.DIVE_DAYS = [
               "Rubeus Hagrid",
               "Hagrid"
             ],
-            "note": ""
+            "note": "Half-giant gamekeeper and Keeper of Keys."
           },
           {
             "points": 85,
@@ -2573,31 +2573,31 @@ window.DIVE_DAYS = [
               "Rolanda Hooch",
               "Hooch"
             ],
-            "note": ""
+            "note": "Flying instructor and Quidditch referee."
           },
           {
-            "points": 60,
+            "points": 100,
             "forms": [
               "Mafalda Hopkirk",
               "Hopkirk"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Helga Hufflepuff",
-              "Hufflepuff"
-            ],
-            "note": ""
+            "note": "Ministry employee who sends warnings about underage magic."
           },
           {
             "points": 85,
             "forms": [
+              "Helga Hufflepuff",
+              "Hufflepuff"
+            ],
+            "note": "Hogwarts co-founder whose cup becomes a Horcrux."
+          },
+          {
+            "points": 60,
+            "forms": [
               "Angelina Johnson",
               "Johnson"
             ],
-            "note": ""
+            "note": "Gryffindor Quidditch captain and Chaser."
           },
           {
             "points": 60,
@@ -2605,89 +2605,89 @@ window.DIVE_DAYS = [
               "Lee Jordan",
               "Jordan"
             ],
-            "note": ""
+            "note": "Hogwarts Quidditch commentator and friend of the Weasley twins."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Bertha Jorkins",
               "Jorkins"
             ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Igor Karkaroff",
-              "Karkaroff"
-            ],
-            "note": ""
+            "note": "Ministry worker killed by Voldemort."
           },
           {
             "points": 60,
             "forms": [
+              "Igor Karkaroff",
+              "Karkaroff"
+            ],
+            "note": "Durmstrang headmaster and ex-Death Eater."
+          },
+          {
+            "points": 30,
+            "forms": [
               "Viktor Krum",
               "Krum"
             ],
-            "note": ""
+            "note": "Bulgarian Seeker and Durmstrang champion."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Bellatrix Lestrange",
               "Lestrange"
             ],
-            "note": ""
+            "note": "Sirius's cousin and Voldemort's most devoted Death Eater."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Gilderoy Lockhart",
               "Lockhart"
             ],
-            "note": ""
+            "note": "Vain celebrity wizard and Defense professor."
           },
           {
             "points": 60,
             "forms": [
               "Augusta Longbottom"
             ],
-            "note": ""
+            "note": "Neville's formidable grandmother."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Neville Longbottom"
             ],
-            "note": ""
+            "note": "Gryffindor who becomes a hero; later teaches Herbology."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Luna Lovegood"
             ],
-            "note": ""
+            "note": "Quirky Ravenclaw and Dumbledore's Army member."
           },
           {
             "points": 60,
             "forms": [
               "Xenophilius Lovegood"
             ],
-            "note": ""
+            "note": "Luna's father and editor of The Quibbler."
           },
           {
-            "points": 15,
+            "points": 30,
             "forms": [
               "Remus Lupin"
             ],
-            "note": ""
+            "note": "Werewolf teacher and Marauder."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Teddy Lupin"
             ],
-            "note": ""
+            "note": "Orphaned son of Remus and Tonks; Harry's godson."
           },
           {
             "points": 60,
@@ -2695,70 +2695,70 @@ window.DIVE_DAYS = [
               "Ernie Macmillan",
               "Macmillan"
             ],
-            "note": ""
+            "note": "Hufflepuff prefect and Dumbledore's Army member."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Walden Macnair",
               "Macnair"
             ],
-            "note": ""
+            "note": "Death Eater and former Hippogriff executioner."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Draco Malfoy"
             ],
-            "note": ""
+            "note": "Slytherin rival of Harry."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Lucius Malfoy"
             ],
-            "note": ""
+            "note": "Draco's father and prominent Death Eater."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Narcissa Malfoy"
             ],
-            "note": ""
+            "note": "Draco's mother who lies to Voldemort."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Olympe Maxime",
               "Maxime"
             ],
-            "note": ""
+            "note": "Half-giant headmistress of Beauxbatons."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Minerva McGonagall",
               "McGonagall"
             ],
-            "note": ""
+            "note": "Transfiguration teacher and Gryffindor head who later becomes headmistress."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Cormac McLaggen",
               "McLaggen"
             ],
-            "note": ""
+            "note": "Gryffindor Keeper and braggart."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Alastor Moody",
               "Mad Eye Moody",
               "Mad-Eye",
               "Moody"
             ],
-            "note": ""
+            "note": "Famed Auror with a magical eye."
           },
           {
             "points": 60,
@@ -2766,7 +2766,7 @@ window.DIVE_DAYS = [
               "Garrick Ollivander",
               "Ollivander"
             ],
-            "note": ""
+            "note": "Wand maker of Diagon Alley."
           },
           {
             "points": 60,
@@ -2774,30 +2774,30 @@ window.DIVE_DAYS = [
               "Pansy Parkinson",
               "Parkinson"
             ],
-            "note": ""
+            "note": "Slytherin girl in Draco's circle."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Padma Patil"
             ],
-            "note": ""
+            "note": "Ravenclaw twin of Parvati."
           },
           {
             "points": 60,
             "forms": [
               "Parvati Patil"
             ],
-            "note": ""
+            "note": "Gryffindor twin of Padma; Harry's Yule Ball date."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Peter Pettigrew",
               "Wormtail",
               "Pettigrew"
             ],
-            "note": ""
+            "note": "Marauder who betrays the Potters; also Wormtail."
           },
           {
             "points": 85,
@@ -2805,7 +2805,7 @@ window.DIVE_DAYS = [
               "Irma Pince",
               "Pince"
             ],
-            "note": ""
+            "note": "Hogwarts librarian."
           },
           {
             "points": 60,
@@ -2813,7 +2813,7 @@ window.DIVE_DAYS = [
               "Poppy Pomfrey",
               "Pomfrey"
             ],
-            "note": ""
+            "note": "Hogwarts matron who runs the hospital wing."
           },
           {
             "points": 10,
@@ -2821,61 +2821,61 @@ window.DIVE_DAYS = [
               "Harry Potter",
               "Harry"
             ],
-            "note": ""
+            "note": "The Boy Who Lived."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "James Potter"
             ],
-            "note": ""
+            "note": "Harry's father and Gryffindor Marauder."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Lily Potter"
             ],
-            "note": ""
+            "note": "Harry's mother who sacrificed herself for him."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Quirinus Quirrell",
               "Quirrell"
             ],
-            "note": ""
+            "note": "Defense professor carrying Voldemort on his head."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Rowena Ravenclaw",
               "Ravenclaw"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Augustus Rookwood",
-              "Rookwood"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Thorfinn Rowle",
-              "Rowle"
-            ],
-            "note": ""
+            "note": "Hogwarts co-founder whose diadem is a Horcrux."
           },
           {
             "points": 85,
             "forms": [
+              "Augustus Rookwood",
+              "Rookwood"
+            ],
+            "note": "Death Eater and Ministry Unspeakable."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thorfinn Rowle",
+              "Rowle"
+            ],
+            "note": "Death Eater who helps capture Harry."
+          },
+          {
+            "points": 60,
+            "forms": [
               "Newt Scamander",
               "Scamander"
             ],
-            "note": ""
+            "note": "Magizoologist and author of Fantastic Beasts."
           },
           {
             "points": 60,
@@ -2883,77 +2883,77 @@ window.DIVE_DAYS = [
               "Rufus Scrimgeour",
               "Scrimgeour"
             ],
-            "note": ""
+            "note": "Minister for Magic after Fudge."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Kingsley Shacklebolt",
               "Shacklebolt"
             ],
-            "note": ""
+            "note": "Auror who becomes Minister for Magic."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Stan Shunpike",
               "Shunpike"
             ],
-            "note": ""
+            "note": "Conductor of the Knight Bus."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Rita Skeeter",
               "Skeeter"
             ],
-            "note": ""
+            "note": "Gossip journalist and unregistered Animagus."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Horace Slughorn",
               "Slughorn"
             ],
-            "note": ""
+            "note": "Potions professor who collects well-connected pupils."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Salazar Slytherin",
               "Slytherin"
             ],
-            "note": ""
+            "note": "Hogwarts co-founder and Parselmouth."
           },
           {
-            "points": 60,
+            "points": 100,
             "forms": [
               "Hepzibah Smith"
             ],
-            "note": ""
+            "note": "Wealthy collector killed by Tom Riddle."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Zacharias Smith"
             ],
-            "note": ""
+            "note": "Hufflepuff student and Dumbledore's Army member."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Severus Snape",
               "Snape"
             ],
-            "note": ""
+            "note": "Potions master with hidden loyalties."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Alicia Spinnet",
               "Spinnet"
             ],
-            "note": ""
+            "note": "Gryffindor Chaser."
           },
           {
             "points": 60,
@@ -2961,68 +2961,68 @@ window.DIVE_DAYS = [
               "Pomona Sprout",
               "Sprout"
             ],
-            "note": ""
+            "note": "Herbology teacher and Hufflepuff head."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Dean Thomas",
               "Thomas"
             ],
-            "note": ""
+            "note": "Gryffindor artist and Harry's roommate."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Pius Thicknesse",
               "Thicknesse"
             ],
-            "note": ""
+            "note": "Ministry official controlled by the Imperius Curse."
           },
           {
             "points": 60,
             "forms": [
               "Tom"
             ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Andromeda Tonks"
-            ],
-            "note": ""
+            "note": "Leaky Cauldron innkeeper."
           },
           {
             "points": 60,
+            "forms": [
+              "Andromeda Tonks"
+            ],
+            "note": "Nymphadora's mother, disowned Black sister."
+          },
+          {
+            "points": 30,
             "forms": [
               "Nymphadora Tonks",
               "Tonks"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Ted Tonks"
-            ],
-            "note": ""
+            "note": "Metamorphmagus Auror who marries Lupin."
           },
           {
             "points": 85,
             "forms": [
+              "Ted Tonks"
+            ],
+            "note": "Muggle-born wizard, Nymphadora's father."
+          },
+          {
+            "points": 30,
+            "forms": [
               "Sybill Trelawney",
               "Trelawney"
             ],
-            "note": ""
+            "note": "Divination professor who makes real prophecies."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Dolores Umbridge",
               "Umbridge"
             ],
-            "note": ""
+            "note": "Pink-clad Ministry official and Hogwarts High Inquisitor."
           },
           {
             "points": 10,
@@ -3034,75 +3034,75 @@ window.DIVE_DAYS = [
               "You Know Who",
               "He Who Must Not Be Named"
             ],
-            "note": ""
+            "note": "Dark Lord, born Tom Marvolo Riddle."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Myrtle Warren",
               "Moaning Myrtle",
               "Myrtle",
               "Warren"
             ],
-            "note": ""
+            "note": "Moaning Myrtle, ghost of the girls' bathroom."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Arthur Weasley"
             ],
-            "note": ""
+            "note": "Ministry worker obsessed with Muggle artifacts."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Bill Weasley",
               "William Weasley"
             ],
-            "note": ""
+            "note": "Eldest Weasley son and Gringotts curse-breaker."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Charlie Weasley"
             ],
-            "note": ""
+            "note": "Dragon keeper in Romania."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Fred Weasley"
             ],
-            "note": ""
+            "note": "Prankster twin; co-founder of Weasleys' Wizard Wheezes."
           },
           {
-            "points": 15,
+            "points": 30,
             "forms": [
               "George Weasley"
             ],
-            "note": ""
+            "note": "Prankster twin who loses an ear."
           },
           {
-            "points": 15,
+            "points": 30,
             "forms": [
               "Ginny Weasley",
               "Ginevra Weasley"
             ],
-            "note": ""
+            "note": "Youngest Weasley sibling; marries Harry."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Molly Weasley"
             ],
-            "note": ""
+            "note": "Matriarch of the Weasley family."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Percy Weasley"
             ],
-            "note": ""
+            "note": "Ambitious Weasley brother who works at the Ministry."
           },
           {
             "points": 10,
@@ -3111,122 +3111,122 @@ window.DIVE_DAYS = [
               "Ron",
               "Ronald Weasley"
             ],
-            "note": ""
+            "note": "Harry's loyal best friend."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Oliver Wood",
               "Wood"
             ],
-            "note": ""
+            "note": "Gryffindor Quidditch captain and Keeper."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Corban Yaxley",
               "Yaxley"
             ],
-            "note": ""
+            "note": "Death Eater and Ministry official."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Blaise Zabini",
               "Zabini"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Aragog"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "The Bloody Baron",
-              "Baron"
-            ],
-            "note": ""
+            "note": "Slytherin student and Draco's friend."
           },
           {
             "points": 15,
             "forms": [
-              "Dobby"
+              "Aragog"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "The Fat Friar",
-              "Friar"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Fawkes"
-            ],
-            "note": ""
+            "note": "Giant acromantula in the Forbidden Forest."
           },
           {
             "points": 85,
             "forms": [
-              "Firenze"
+              "The Bloody Baron",
+              "Baron"
             ],
-            "note": ""
+            "note": "Slytherin house ghost covered in blood."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Dobby"
+            ],
+            "note": "House-elf who is freed by Harry."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The Fat Friar",
+              "Friar"
+            ],
+            "note": "Hufflepuff house ghost."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Fawkes"
+            ],
+            "note": "Dumbledore's phoenix."
           },
           {
             "points": 60,
+            "forms": [
+              "Firenze"
+            ],
+            "note": "Centaur who teaches Divination."
+          },
+          {
+            "points": 85,
             "forms": [
               "The Grey Lady",
               "Grey Lady",
               "Helena Ravenclaw"
             ],
-            "note": ""
+            "note": "Ravenclaw house ghost, Helena Ravenclaw."
           },
           {
             "points": 60,
             "forms": [
               "Griphook"
             ],
-            "note": ""
+            "note": "Gringotts goblin."
           },
           {
-            "points": 85,
+            "points": 15,
             "forms": [
               "Hedwig"
             ],
-            "note": ""
+            "note": "Harry's snowy owl."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Kreacher"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "Muriel"
-            ],
-            "note": ""
+            "note": "House-elf of the Black family."
           },
           {
             "points": 85,
             "forms": [
-              "Nagini"
+              "Muriel"
             ],
-            "note": ""
+            "note": "Elderly and tart great-aunt of the Weasleys."
           },
           {
-            "points": 60,
+            "points": 15,
+            "forms": [
+              "Nagini"
+            ],
+            "note": "Voldemort's pet snake and Horcrux."
+          },
+          {
+            "points": 30,
             "forms": [
               "Nearly Headless Nick (Sir Nicholas de Mimsy-Porpington)",
               "Nearly Headless Nick",
@@ -3234,64 +3234,64 @@ window.DIVE_DAYS = [
               "Nicholas de Mimsy Porpington",
               "Mimsy-Porpington)"
             ],
-            "note": ""
+            "note": "Gryffindor house ghost."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Peeves"
+            ],
+            "note": "Mischievous poltergeist."
           },
           {
             "points": 60,
             "forms": [
-              "Peeves"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
               "Madam Rosmerta",
               "Rosmerta"
             ],
-            "note": ""
+            "note": "Landlady of the Three Broomsticks."
           },
           {
             "points": 60,
             "forms": [
               "Winky"
             ],
-            "note": ""
+            "note": "Barty Crouch Sr's house-elf."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Mr Granger"
             ],
-            "note": ""
+            "note": "Hermione's father, a dentist."
           },
           {
             "points": 85,
             "forms": [
               "Mrs Granger"
             ],
-            "note": ""
+            "note": "Hermione's mother, a dentist."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "James Sirius Potter"
             ],
-            "note": ""
+            "note": "Harry and Ginny's eldest son."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Albus Severus Potter"
             ],
-            "note": ""
+            "note": "Harry and Ginny's middle son."
           },
           {
             "points": 85,
             "forms": [
               "Lily Luna Potter"
             ],
-            "note": ""
+            "note": "Harry and Ginny's daughter."
           }
         ]
       },
@@ -3301,1133 +3301,1133 @@ window.DIVE_DAYS = [
         "sourceNote": "English minced oaths from both pages of the linked category.",
         "answers": [
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "a-double-s"
             ],
-            "note": ""
+            "note": "Spelled-out minced 'ass'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "adsbud"
             ],
-            "note": ""
+            "note": "Old oath for 'God's blood'."
           },
           {
             "points": 60,
             "forms": [
               "a-hole"
             ],
-            "note": ""
+            "note": "Minces 'asshole'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "asked"
             ],
-            "note": ""
+            "note": "Minces 'arsed', as in 'can't be asked'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "B"
             ],
-            "note": ""
+            "note": "Euphemism letter for 'bloody' or 'bastard'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "bally"
             ],
-            "note": ""
+            "note": "British minced 'bloody'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "bar steward"
             ],
-            "note": ""
+            "note": "Minces 'bastard'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "bass-ackwards"
             ],
-            "note": ""
+            "note": "Minces 'ass-backwards'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "bastich"
             ],
-            "note": ""
+            "note": "Minces 'bastard'."
           },
           {
             "points": 60,
             "forms": [
               "bedad"
             ],
-            "note": ""
+            "note": "Irish minced 'by God'."
           },
           {
             "points": 60,
             "forms": [
               "begob"
             ],
-            "note": ""
+            "note": "Irish minced 'by God'."
           },
           {
             "points": 60,
             "forms": [
               "begorra"
             ],
-            "note": ""
+            "note": "Irish minced 'by God'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "bejeebers"
             ],
-            "note": ""
+            "note": "Minced 'Jesus', as in 'scared the bejeebers out of'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "berk"
             ],
-            "note": ""
+            "note": "British, from rhyming slang 'Berkeley Hunt'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "bish"
             ],
-            "note": ""
+            "note": "Minces 'bitch'."
           },
           {
             "points": 60,
             "forms": [
               "blanky"
             ],
-            "note": ""
+            "note": "Minces 'bloody'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "bleeding"
             ],
-            "note": ""
+            "note": "British minced 'bloody'."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "blimey"
             ],
-            "note": ""
+            "note": "Minces 'blind me' or 'God blind me'."
           },
           {
             "points": 60,
             "forms": [
               "blimming"
             ],
-            "note": ""
+            "note": "Minces 'blooming' or 'bloody'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "blinking"
             ],
-            "note": ""
+            "note": "British minced 'bloody'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "blooming"
             ],
-            "note": ""
+            "note": "British minced 'bloody'."
           },
           {
             "points": 60,
             "forms": [
               "blooming heck"
             ],
-            "note": ""
+            "note": "Double-minced 'bloody hell'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "bother"
             ],
-            "note": ""
+            "note": "Mild British exclamation of annoyance."
           },
           {
             "points": 60,
             "forms": [
               "bullspit"
             ],
-            "note": ""
+            "note": "Minces 'bullshit'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "bushwah"
             ],
-            "note": ""
+            "note": "Minces 'bullshit'."
           },
           {
             "points": 60,
             "forms": [
               "by gad"
             ],
-            "note": ""
+            "note": "Minces 'by God'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "by George"
             ],
-            "note": ""
+            "note": "Minces 'by God'."
           },
           {
             "points": 60,
             "forms": [
               "by ginger"
             ],
-            "note": ""
+            "note": "Minces 'by Jesus'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "by golly"
             ],
-            "note": ""
+            "note": "Minces 'by God'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "by guess or by golly"
             ],
-            "note": ""
+            "note": "Play on 'by guess or by God'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "by guess or by gosh"
             ],
-            "note": ""
+            "note": "Play on 'by guess or by God'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "by gum"
             ],
-            "note": ""
+            "note": "Minces 'by God'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "by gummy"
             ],
-            "note": ""
+            "note": "Minces 'by God'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "by jingo"
             ],
-            "note": ""
+            "note": "Minces 'by Jesus'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "by jings"
             ],
-            "note": ""
+            "note": "Scottish minced 'by Jesus'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "by Jove"
             ],
-            "note": ""
+            "note": "Minces 'by God' with a Roman god."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "by juckies"
             ],
-            "note": ""
+            "note": "Minces 'by Jesus'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "by Jupiter"
             ],
-            "note": ""
+            "note": "Minces 'by God' with a Roman god."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "byrlady"
             ],
-            "note": ""
+            "note": "Old form of 'by our Lady'."
           },
           {
             "points": 60,
             "forms": [
               "cheese and crackers"
             ],
-            "note": ""
+            "note": "Minces 'Jesus Christ'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "cheese and rice"
             ],
-            "note": ""
+            "note": "Minces 'Jesus Christ'."
           },
           {
             "points": 60,
             "forms": [
               "chuffing hell"
             ],
-            "note": ""
+            "note": "British minced 'fucking hell'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "confound it"
             ],
-            "note": ""
+            "note": "Minces 'damn it'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "consarn it"
             ],
-            "note": ""
+            "note": "American dialect 'damn it'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "cor"
             ],
-            "note": ""
+            "note": "Minces 'God', as in 'cor blimey'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "cor blimey"
             ],
-            "note": ""
+            "note": "Cockney minced 'God blind me'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "cornography"
             ],
-            "note": ""
+            "note": "Play on 'pornography', used as a mild oath."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "count"
             ],
-            "note": ""
+            "note": "Minces 'cunt' in 'Count'."
           },
           {
-            "points": 15,
+            "points": 30,
             "forms": [
               "crikey"
             ],
-            "note": ""
+            "note": "Minces 'Christ'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "criminy"
             ],
-            "note": ""
+            "note": "Minces 'Christ'."
           },
           {
             "points": 60,
             "forms": [
               "crimony"
             ],
-            "note": ""
+            "note": "Minces 'Christ'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "cripes"
             ],
-            "note": ""
+            "note": "Minces 'Christ'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "crivvens"
             ],
-            "note": ""
+            "note": "Scottish minced 'Christ defend us'."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "crud"
             ],
-            "note": ""
+            "note": "Minces 'crap' or 'shit'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "dadgum"
             ],
-            "note": ""
+            "note": "Minces 'goddamn'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "dadgummit"
             ],
-            "note": ""
+            "note": "Minces 'goddammit'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "dagnabbit"
             ],
-            "note": ""
+            "note": "Minces 'goddammit'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "dagnammit"
             ],
-            "note": ""
+            "note": "Minces 'goddammit'."
           },
           {
             "points": 10,
             "forms": [
               "dang"
             ],
-            "note": ""
+            "note": "Minces 'damn'."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "dang it"
+            ],
+            "note": "Minces 'damn it'."
           },
           {
             "points": 60,
             "forms": [
-              "dang it"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
               "dangnabbit"
             ],
-            "note": ""
+            "note": "Minces 'goddammit'."
           },
           {
             "points": 10,
             "forms": [
               "darn"
             ],
-            "note": ""
+            "note": "Minces 'damn'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "darn it"
             ],
-            "note": ""
+            "note": "Minces 'damn it'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "dash"
             ],
-            "note": ""
+            "note": "Minces 'damn'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "dash it"
             ],
-            "note": ""
+            "note": "Minces 'damn it'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "delay no more"
             ],
-            "note": ""
+            "note": "Humorous stand-in for 'go to hell' (from 'hell' and 'no more')."
           },
           {
             "points": 60,
             "forms": [
               "deuced"
             ],
-            "note": ""
+            "note": "Euphemism for 'damned'."
           },
           {
             "points": 60,
             "forms": [
               "deucedly"
             ],
-            "note": ""
+            "note": "Euphemism for 'damnably'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "diphead"
             ],
-            "note": ""
+            "note": "Minces 'dickhead'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "doggone"
             ],
-            "note": ""
+            "note": "Minces 'goddamn'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "doggonit"
             ],
-            "note": ""
+            "note": "Minces 'goddammit'."
           },
           {
             "points": 60,
             "forms": [
               "doofbag"
             ],
-            "note": ""
+            "note": "Minces 'douchebag'."
           },
           {
-            "points": 100,
+            "points": 10,
             "forms": [
               "drat"
             ],
-            "note": ""
+            "note": "Minces 'God rot'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "eff"
             ],
-            "note": ""
+            "note": "Spoken form of 'F', for 'fuck'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "effing"
             ],
-            "note": ""
+            "note": "Minces 'fucking'."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "egad"
+            ],
+            "note": "Minces 'oh God'."
           },
           {
             "points": 60,
             "forms": [
-              "egad"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
               "emeff"
             ],
-            "note": ""
+            "note": "Spelled-out 'MF', for 'motherfucker'."
           },
           {
             "points": 60,
             "forms": [
               "emeffer"
             ],
-            "note": ""
+            "note": "Spoken 'MF', for 'motherfucker'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "emmereffer"
             ],
-            "note": ""
+            "note": "Spoken 'MF', for 'motherfucker'."
           },
           {
             "points": 60,
             "forms": [
               "fark"
             ],
-            "note": ""
+            "note": "Minces 'fuck'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "feck"
             ],
-            "note": ""
+            "note": "Irish minced 'fuck'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "flaming"
             ],
-            "note": ""
+            "note": "Minces 'fucking' or 'bloody'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "flip"
             ],
-            "note": ""
+            "note": "Minces 'fuck'."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "flipping"
             ],
-            "note": ""
+            "note": "Minces 'fucking'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "flogging"
             ],
-            "note": ""
+            "note": "British minced 'fucking'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "foo"
             ],
-            "note": ""
+            "note": "Minces 'fool' or 'fuck'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "for cripes' sake"
             ],
-            "note": ""
+            "note": "Minces 'for Christ's sake'."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "for crying out loud"
             ],
-            "note": ""
+            "note": "Minces 'for Christ's sake'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "for goodness' sake"
             ],
-            "note": ""
+            "note": "Minces 'for God's sake'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "forkhead"
             ],
-            "note": ""
+            "note": "Minces 'fuckhead'."
           },
           {
             "points": 60,
             "forms": [
               "fornicating"
             ],
-            "note": ""
+            "note": "Euphemism for 'fucking'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "for Pete's sake",
               "for Petes sake"
             ],
-            "note": ""
+            "note": "Minces 'for Christ's sake'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "for pity's sake",
               "for pitys sake"
             ],
-            "note": ""
+            "note": "Minces 'for Christ's sake'."
           },
           {
             "points": 60,
             "forms": [
               "frak"
             ],
-            "note": ""
+            "note": "Minces 'fuck' from Battlestar Galactica."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "freaking"
             ],
-            "note": ""
+            "note": "Minces 'fucking'."
           },
           {
             "points": 60,
             "forms": [
               "freaking gosh"
             ],
-            "note": ""
+            "note": "Double-minced 'fucking God'."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "frick"
             ],
-            "note": ""
+            "note": "Minces 'fuck'."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "fricking"
             ],
-            "note": ""
+            "note": "Minces 'fucking'."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "frigging"
             ],
-            "note": ""
+            "note": "Minces 'fucking'."
           },
           {
             "points": 60,
             "forms": [
               "fsck"
             ],
-            "note": ""
+            "note": "Unix command spelled as 'fuck'."
           },
           {
             "points": 100,
             "forms": [
               "fuddle-duddle"
             ],
-            "note": ""
+            "note": "Minced oath made famous by Pierre Trudeau."
           },
           {
             "points": 10,
             "forms": [
               "fudge"
             ],
-            "note": ""
+            "note": "Minces 'fuck' (or 'shit')."
           },
           {
             "points": 60,
             "forms": [
               "fudgebag"
             ],
-            "note": ""
+            "note": "Minces 'fuckbag'."
           },
           {
             "points": 60,
             "forms": [
               "fudging"
             ],
-            "note": ""
+            "note": "Minces 'fucking'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "fugghead"
             ],
-            "note": ""
+            "note": "Minces 'fuckhead'."
           },
           {
             "points": 60,
             "forms": [
               "fuggheaded"
             ],
-            "note": ""
+            "note": "Minces 'fuckheaded'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "fuggheadedness"
             ],
-            "note": ""
+            "note": "Minces 'fuckheadedness'."
           },
           {
             "points": 60,
             "forms": [
               "fugging"
             ],
-            "note": ""
+            "note": "Minces 'fucking'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "gadsbud"
             ],
-            "note": ""
+            "note": "Old oath for 'God's blood'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Gadslid"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "gadzooks"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "gall dang"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "galldang"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "gee"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "gee whiz"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "gee willikers"
-            ],
-            "note": ""
+            "note": "Old oath for 'God's eyelid'."
           },
           {
             "points": 15,
             "forms": [
-              "geez"
+              "gadzooks"
             ],
-            "note": ""
+            "note": "Old oath for 'God's hooks' (Christ's nails)."
           },
           {
-            "points": 60,
+            "points": 85,
+            "forms": [
+              "gall dang"
+            ],
+            "note": "Minces 'God damn'."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "galldang"
+            ],
+            "note": "Minces 'God damn'."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "gee"
+            ],
+            "note": "Minces 'Jesus'."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "gee whiz"
+            ],
+            "note": "Minces 'Jesus'."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "gee willikers"
+            ],
+            "note": "Minces 'Jesus'."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "geez"
+            ],
+            "note": "Minces 'Jesus'."
+          },
+          {
+            "points": 30,
             "forms": [
               "geez Louise"
             ],
-            "note": ""
+            "note": "Minces 'Jesus Christ'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "give a fig"
             ],
-            "note": ""
+            "note": "Minces 'give a fuck'."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "give a hoot"
+            ],
+            "note": "Minces 'give a fuck'."
           },
           {
             "points": 60,
             "forms": [
-              "give a hoot"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
               "goldang"
             ],
-            "note": ""
+            "note": "Minces 'goddamn'."
           },
           {
             "points": 60,
             "forms": [
               "goldangit"
             ],
-            "note": ""
+            "note": "Minces 'goddammit'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "goldarn"
             ],
-            "note": ""
+            "note": "Minces 'goddamn'."
           },
           {
             "points": 60,
             "forms": [
               "goldarnit"
             ],
-            "note": ""
+            "note": "Minces 'goddammit'."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "golly"
             ],
-            "note": ""
+            "note": "Minces 'God'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "golly gee"
             ],
-            "note": ""
+            "note": "Minces 'God' and 'Jesus'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "good golly"
             ],
-            "note": ""
+            "note": "Minces 'good God'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "good gracious"
             ],
-            "note": ""
+            "note": "Minces 'good God'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "goodness gracious"
             ],
-            "note": ""
+            "note": "Minces 'good God'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "gorblimey"
             ],
-            "note": ""
+            "note": "Cockney minced 'God blind me'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gordon Bennett"
             ],
-            "note": ""
+            "note": "British minced 'God'."
           },
           {
             "points": 10,
             "forms": [
               "gosh"
             ],
-            "note": ""
+            "note": "Minces 'God'."
           },
           {
             "points": 100,
             "forms": [
               "gosh all hemlock"
             ],
-            "note": ""
+            "note": "Humorous extension of 'gosh'."
           },
           {
             "points": 60,
             "forms": [
               "goshdang"
             ],
-            "note": ""
+            "note": "Minces 'God damn'."
           },
           {
             "points": 60,
             "forms": [
               "goshdangit"
             ],
-            "note": ""
+            "note": "Minces 'God dammit'."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "goshdarn"
+            ],
+            "note": "Minces 'God damn'."
           },
           {
             "points": 60,
             "forms": [
-              "goshdarn"
+              "goshdarnit"
             ],
-            "note": ""
+            "note": "Minces 'God dammit'."
           },
           {
             "points": 100,
             "forms": [
-              "goshdarnit"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
               "go to Putney on a pig"
             ],
-            "note": ""
+            "note": "Whimsical replacement for 'go to hell'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "great balls of fire"
             ],
-            "note": ""
+            "note": "Minces 'Jesus Christ'."
           },
           {
             "points": 10,
             "forms": [
               "heck"
             ],
-            "note": ""
+            "note": "Minces 'hell'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "heckin'"
             ],
-            "note": ""
+            "note": "Internet-style 'fucking', via 'heck'."
           },
           {
             "points": 60,
             "forms": [
               "hecking"
             ],
-            "note": ""
+            "note": "Internet-style 'fucking', via 'heck'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "holy buckets"
             ],
-            "note": ""
+            "note": "Minces 'holy shit'."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "holy cow"
             ],
-            "note": ""
+            "note": "Minces 'holy Christ'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "holy crud"
             ],
-            "note": ""
+            "note": "Minces 'holy shit'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "holy mackerel"
             ],
-            "note": ""
+            "note": "Minces 'holy Mary'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "holy moley"
             ],
-            "note": ""
+            "note": "Minces 'holy Moses'."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "holy smoke"
+            ],
+            "note": "Minces 'holy Ghost'."
           },
           {
             "points": 60,
             "forms": [
-              "holy smoke"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
               "ish"
             ],
-            "note": ""
+            "note": "Minces 'shit'."
           },
           {
             "points": 60,
             "forms": [
               "jack squat"
             ],
-            "note": ""
+            "note": "Minces 'jack shit'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "jeepers"
             ],
-            "note": ""
+            "note": "Minces 'Jesus'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "jeepers creepers"
             ],
-            "note": ""
+            "note": "Minces 'Jesus Christ'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "jeepers peepers"
             ],
-            "note": ""
+            "note": "Minces 'Jesus Christ'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "jeezy-peezy"
             ],
-            "note": ""
+            "note": "Minces 'Jesus'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Jesum Crow"
             ],
-            "note": ""
+            "note": "Minces 'Jesum Christ'."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Jiminy Cricket"
             ],
-            "note": ""
+            "note": "Minces 'Jesus Christ'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Judas"
             ],
-            "note": ""
+            "note": "Minces 'Jesus'."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Judas Priest"
             ],
-            "note": ""
+            "note": "Minces 'Jesus Christ'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "ken oath"
             ],
-            "note": ""
+            "note": "Australian mild 'by God' oath."
           },
           {
             "points": 60,
             "forms": [
               "lawks"
             ],
-            "note": ""
+            "note": "Minces 'Lord'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "lawks a-mercy"
             ],
-            "note": ""
+            "note": "Minces 'Lord have mercy'."
           },
           {
             "points": 60,
@@ -4435,322 +4435,322 @@ window.DIVE_DAYS = [
               "let's go, Brandon",
               "lets go, Brandon"
             ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "macrohard"
-            ],
-            "note": ""
-          },
-          {
-            "points": 60,
-            "forms": [
-              "mollyfogging"
-            ],
-            "note": ""
+            "note": "Euphemism for an anti-Biden profane chant."
           },
           {
             "points": 100,
             "forms": [
+              "macrohard"
+            ],
+            "note": "Playful minced 'Microsoft'."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "mollyfogging"
+            ],
+            "note": "Mild oath, from slang for fussing about."
+          },
+          {
+            "points": 60,
+            "forms": [
               "mothereffer"
             ],
-            "note": ""
+            "note": "Minces 'motherfucker'."
           },
           {
             "points": 60,
             "forms": [
               "mothereffing"
             ],
-            "note": ""
+            "note": "Minces 'motherfucking'."
           },
           {
             "points": 60,
             "forms": [
               "motherflipper"
             ],
-            "note": ""
+            "note": "Minces 'motherfucker'."
           },
           {
             "points": 60,
             "forms": [
               "motherflipping"
             ],
-            "note": ""
+            "note": "Minces 'motherfucking'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "mothertrucker"
             ],
-            "note": ""
+            "note": "Minces 'motherfucker'."
           },
           {
             "points": 60,
             "forms": [
               "mothertrucking"
             ],
-            "note": ""
+            "note": "Minces 'motherfucking'."
           },
           {
             "points": 60,
             "forms": [
               "mutha phucka"
             ],
-            "note": ""
+            "note": "Minces 'motherfucker'."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "my goodness"
+            ],
+            "note": "Minces 'my God'."
           },
           {
             "points": 60,
             "forms": [
-              "my goodness"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
               "'nation"
             ],
-            "note": ""
+            "note": "Minces 'damnation'."
           },
           {
             "points": 60,
             "forms": [
               "odds bud"
             ],
-            "note": ""
+            "note": "Old oath for 'God's blood'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "ods bodikin"
             ],
-            "note": ""
+            "note": "Old oath for 'God's body'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "ods bodikins"
             ],
-            "note": ""
+            "note": "Old oath for 'God's body'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "odsbodikins"
             ],
-            "note": ""
+            "note": "Old oath for 'God's body'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "ods bud"
             ],
-            "note": ""
+            "note": "Old oath for 'God's blood'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "oh my goodness gracious"
             ],
-            "note": ""
+            "note": "Minces 'oh my God'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "phonography"
             ],
-            "note": ""
+            "note": "Play on 'pornography', used as a mild oath."
           },
           {
             "points": 100,
             "forms": [
               "plutteranails"
             ],
-            "note": ""
+            "note": "Old oath for 'by God's nails'."
           },
           {
             "points": 60,
             "forms": [
               "pooh"
             ],
-            "note": ""
+            "note": "Minces 'poo' or 'shit'."
           },
           {
             "points": 60,
             "forms": [
               "Sam Hill"
             ],
-            "note": ""
+            "note": "Minces 'hell', as in 'what in Sam Hill'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "'sblood"
             ],
-            "note": ""
+            "note": "Old oath for 'God's blood'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "'sbodikins"
             ],
-            "note": ""
+            "note": "Old oath for 'God's body'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "'sdeath"
             ],
-            "note": ""
+            "note": "Old oath for 'God's death'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "'sfoot"
             ],
-            "note": ""
+            "note": "Old oath for 'God's foot'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "'sheart"
             ],
-            "note": ""
+            "note": "Old oath for 'God's heart'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "shipload"
             ],
-            "note": ""
+            "note": "Minces 'shitload'."
           },
           {
             "points": 10,
             "forms": [
               "shoot"
             ],
-            "note": ""
+            "note": "Minces 'shit'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "shucks"
             ],
-            "note": ""
+            "note": "Minces 'shit'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "shucky"
             ],
-            "note": ""
+            "note": "Minces 'shit', as in 'shucky darns'."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "shut the fridge"
             ],
-            "note": ""
+            "note": "Minces 'shut the fuck up'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "shut the front door"
             ],
-            "note": ""
+            "note": "Minces 'shut the fuck up'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "'snails"
             ],
-            "note": ""
+            "note": "Old oath for 'God's nails'."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "son of a bachelor"
             ],
-            "note": ""
+            "note": "Minces 'son of a bitch'."
           },
           {
-            "points": 100,
+            "points": 10,
             "forms": [
               "son of a gun"
             ],
-            "note": ""
+            "note": "Minces 'son of a bitch'."
           },
           {
             "points": 60,
             "forms": [
               "sonova"
             ],
-            "note": ""
+            "note": "Shortened 'son of a bitch'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "splutter"
             ],
-            "note": ""
+            "note": "Minces 'shit' or 'bloody'."
           },
           {
             "points": 60,
             "forms": [
               "stinking"
             ],
-            "note": ""
+            "note": "Minces 'fucking'."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "strewth"
             ],
-            "note": ""
+            "note": "Minces 'God's truth'."
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "sugar"
             ],
-            "note": ""
+            "note": "Minces 'shit'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "tarnal"
             ],
-            "note": ""
+            "note": "Minces 'eternal' in place of 'damn'."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "tarnation"
             ],
-            "note": ""
+            "note": "Minces 'damnation'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "the feezy"
             ],
-            "note": ""
+            "note": "Minces 'the fuck'."
           },
           {
             "points": 60,
             "forms": [
               "the heck out of"
             ],
-            "note": ""
+            "note": "Minces 'the hell out of'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "the snot out of"
             ],
-            "note": ""
+            "note": "Minces 'the shit out of'."
           },
           {
             "points": 60,
@@ -4758,49 +4758,49 @@ window.DIVE_DAYS = [
               "tinker's darn",
               "tinkers darn"
             ],
-            "note": ""
+            "note": "Minces 'tinker's damn'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "w-anchor"
             ],
-            "note": ""
+            "note": "Minces 'wanker'."
           },
           {
             "points": 60,
             "forms": [
               "what the hey"
             ],
-            "note": ""
+            "note": "Minces 'what the hell'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "yuck fou"
             ],
-            "note": ""
+            "note": "Minces 'fuck you'."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "zooks"
             ],
-            "note": ""
+            "note": "Old oath for 'God's hooks'."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "zooterkins"
             ],
-            "note": ""
+            "note": "Old oath for 'God's body'."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "zounds"
             ],
-            "note": ""
+            "note": "Old oath for 'God's wounds'."
           }
         ]
       },
@@ -4816,7 +4816,7 @@ window.DIVE_DAYS = [
               "Cumulus cloud",
               "Cumulus clouds"
             ],
-            "note": ""
+            "note": "Genus: the classic puffy cotton-wool cloud."
           },
           {
             "points": 10,
@@ -4825,7 +4825,7 @@ window.DIVE_DAYS = [
               "Stratus cloud",
               "Stratus clouds"
             ],
-            "note": ""
+            "note": "Genus: low, flat, featureless grey layer."
           },
           {
             "points": 10,
@@ -4834,1463 +4834,1463 @@ window.DIVE_DAYS = [
               "Cirrus cloud",
               "Cirrus clouds"
             ],
-            "note": ""
+            "note": "Genus: thin, feathery ice-crystal cloud very high up."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Cumulonimbus",
               "Cumulonimbus cloud",
               "Cumulonimbus clouds"
             ],
-            "note": ""
+            "note": "Genus: towering storm cloud with lightning, hail, and anvils."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Altocumulus",
               "Altocumulus cloud",
               "Altocumulus clouds"
             ],
-            "note": ""
+            "note": "Genus: mid-level 'mackerel' patches of white or grey puffs."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Altostratus",
               "Altostratus cloud",
               "Altostratus clouds"
             ],
-            "note": ""
+            "note": "Genus: mid-level grey sheet, often before steady rain."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Nimbostratus",
               "Nimbostratus cloud",
               "Nimbostratus clouds"
             ],
-            "note": ""
+            "note": "Genus: thick dark layer with steady, prolonged rain."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Stratocumulus",
               "Stratocumulus cloud",
               "Stratocumulus clouds"
             ],
-            "note": ""
+            "note": "Genus: low, lumpy grey-white patches."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Cirrocumulus",
               "Cirrocumulus cloud",
               "Cirrocumulus clouds"
             ],
-            "note": ""
+            "note": "Genus: high 'mackerel sky' of small ripples."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Cirrostratus",
               "Cirrostratus cloud",
               "Cirrostratus clouds"
             ],
-            "note": ""
+            "note": "Genus: high, thin milky veil that causes halos."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Castellanus"
             ],
-            "note": ""
+            "note": "Species: cumuliform cloud with turrets rising from a common base."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Congestus"
             ],
-            "note": ""
+            "note": "Species: heavily towering cumulus; it can grow into a storm."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Fibratus"
             ],
-            "note": ""
+            "note": "Species: thin filaments of cirrus or cirrostratus."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Floccus"
             ],
-            "note": ""
+            "note": "Species: small, ragged tufts with trailing wisps."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Fractus"
             ],
-            "note": ""
+            "note": "Species: torn, broken fragments of cumulus or stratus."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Humilis"
             ],
-            "note": ""
+            "note": "Species: shallow, fair-weather cumulus."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Lenticularis",
               "Lenticular cloud",
               "Lenticular"
             ],
-            "note": ""
+            "note": "Species: lens-shaped cloud, often over mountains (UFO-like)."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Mediocris"
             ],
-            "note": ""
+            "note": "Species: cumulus of moderate height."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Nebulosus"
             ],
-            "note": ""
+            "note": "Species: fog-like layer with no clear features."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Spissatus"
             ],
-            "note": ""
+            "note": "Species: thick cirrus that can look grey against the sun."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Stratiformis"
             ],
-            "note": ""
+            "note": "Species: wide, flat sheets or layers."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Uncinus"
             ],
-            "note": ""
+            "note": "Species: cirrus with hooked tops, like mare's tails."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Volutus",
               "Roll cloud"
             ],
-            "note": ""
+            "note": "Species: roll cloud, a horizontal tube."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Calvus"
             ],
-            "note": ""
+            "note": "Variety: cumulonimbus with lumpy, rounded top."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Capillatus"
             ],
-            "note": ""
+            "note": "Variety: cumulonimbus with a fibrous, icy anvil top."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Opacus"
             ],
-            "note": ""
+            "note": "Variety: thick layer that blocks the sun."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Perlucidus"
             ],
-            "note": ""
+            "note": "Variety: layer with small gaps letting sun through."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Translucidus"
             ],
-            "note": ""
+            "note": "Variety: thin layer that shows the sun."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Duplicatus"
             ],
-            "note": ""
+            "note": "Variety: clouds in layers stacked above each other."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Intortus"
             ],
-            "note": ""
+            "note": "Variety: cirrus with tangled, twisted filaments."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Lacunosus"
             ],
-            "note": ""
+            "note": "Variety: holey, net-like layer."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Radiatus"
             ],
-            "note": ""
+            "note": "Variety: parallel bands that converge toward the horizon."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Undulatus"
             ],
-            "note": ""
+            "note": "Variety: wavy ripples in the cloud layer."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Vertebratus"
             ],
-            "note": ""
+            "note": "Variety: cirrus shaped like vertebrae or fishbones."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Arcus",
               "Shelf cloud"
             ],
-            "note": ""
+            "note": "Supplementary feature: a roll or shelf cloud on the storm's gust front."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Asperitas"
             ],
-            "note": ""
+            "note": "Supplementary feature: choppy, wavy underside like a stormy sea."
           },
           {
-            "points": 60,
+            "points": 100,
             "forms": [
               "Cavum",
               "Fallstreak hole",
               "Hole punch cloud"
             ],
-            "note": ""
+            "note": "Supplementary feature: hole-punch cloud, a circular gap cut in the layer."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Cauda"
             ],
-            "note": ""
+            "note": "Supplementary feature: tail cloud from a wall cloud toward rain."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Fluctus",
               "Kelvin Helmholtz cloud"
             ],
-            "note": ""
+            "note": "Supplementary feature: breaking Kelvin-Helmholtz waves."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Incus",
               "Anvil cloud"
             ],
-            "note": ""
+            "note": "Supplementary feature: the anvil top of a cumulonimbus."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Mamma",
               "Mammatus",
               "Mammatus cloud"
             ],
-            "note": ""
+            "note": "Supplementary feature: pouch-like bulges hanging below a cloud."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Murus",
               "Wall cloud"
             ],
-            "note": ""
+            "note": "Supplementary feature: wall cloud below a thunderstorm."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Tuba",
               "Funnel cloud"
             ],
-            "note": ""
+            "note": "Supplementary feature: funnel cloud, a column hanging beneath a cloud."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Pannus"
             ],
-            "note": ""
+            "note": "Supplementary feature: ragged shreds hanging beneath the parent cloud."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Pileus"
             ],
-            "note": ""
+            "note": "Supplementary feature: cap cloud above a growing cumulus."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Velum"
             ],
-            "note": ""
+            "note": "Supplementary feature: thin veil sheet around a rising cloud."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Virga"
             ],
-            "note": ""
+            "note": "Supplementary feature: rain that evaporates before the ground."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Praecipitatio"
             ],
-            "note": ""
+            "note": "Supplementary feature: precipitation that reaches the ground."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Cirrus fibratus"
             ],
-            "note": ""
+            "note": "Cirrus with fine fibers."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Cirrus uncinus"
             ],
-            "note": ""
+            "note": "Cirrus with hooked 'mare's tail' ends."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Cirrus spissatus"
             ],
-            "note": ""
+            "note": "Cirrus with a dense, thick form."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Cirrus castellanus"
             ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrus floccus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrus fibratus intortus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrus fibratus vertebratus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrus fibratus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrus uncinus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrus fibratus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrus uncinus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrus cirrocumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrus altocumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrus cumulonimbogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrus homogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrus cirrostratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrus homomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrocumulus stratiformis"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrocumulus lenticularis"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrocumulus castellanus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrocumulus floccus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrocumulus stratiformis undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrocumulus lenticularis undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrocumulus stratiformis lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrocumulus castellanus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrocumulus floccus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrocumulus cirromutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrocumulus cirrostratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrocumulus altocumulomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrocumulus homomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrostratus fibratus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrostratus nebulosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrostratus fibratus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cirrostratus fibratus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrostratus cirrocumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrostratus cumulonimbogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrostratus cirromutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrostratus cirrocumulomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrostratus altostratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cirrostratus homomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus stratiformis"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus lenticularis"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus volutus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus castellanus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus floccus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis translucidus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis perlucidus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis opacus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis translucidus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis perlucidus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis opacus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis translucidus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis perlucidus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis opacus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus lenticularis duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis translucidus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis perlucidus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis opacus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus lenticularis undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis translucidus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis perlucidus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus stratiformis opacus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus castellanus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altocumulus floccus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus cumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus cumulonimbogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus cirrocumulomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus altostratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus nimbostratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altocumulus stratocumulomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altostratus translucidus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altostratus opacus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altostratus translucidus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altostratus opacus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altostratus translucidus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altostratus opacus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altostratus translucidus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Altostratus opacus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altostratus altocumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altostratus cumulonimbogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altostratus cirrostratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Altostratus nimbostratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulonimbus calvus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulonimbus capillatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulonimbus altocumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulonimbus altostratogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulonimbus nimbostratogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulonimbus stratocumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulonimbus flammagenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulonimbus cumulomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulus congestus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cumulus congestus flammagenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Nimbostratus cumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Nimbostratus cumulonimbogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Nimbostratus altostratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Nimbostratus altocumulomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Nimbostratus stratocumulomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulus mediocris"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cumulus mediocris radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus stratiformis"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus lenticularis"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus volutus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus floccus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus castellanus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis translucidus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis perlucidus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis opacus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis translucidus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis perlucidus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis opacus radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis translucidus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis perlucidus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis opacus duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus lenticularis duplicatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis translucidus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis perlucidus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis opacus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus lenticularis undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis translucidus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis perlucidus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus stratiformis opacus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus castellanus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratocumulus floccus lacunosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus cumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus nimbostratogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus cumulonimbogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus altostratogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus nimbostratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus altocumulomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratocumulus stratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulus fractus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulus humilis"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Cumulus humilis radiatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulus stratocumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulus homogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulus stratocumulomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulus stratomutatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Cumulus cataractagenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratus nebulosus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratus fractus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratus nebulosus translucidus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratus nebulosus opacus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratus nebulosus translucidus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 100,
-            "forms": [
-              "Stratus nebulosus opacus undulatus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratus nimbostratogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratus cumulogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratus cumulonimbogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratus cataractagenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratus silvagenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratus homogenitus"
-            ],
-            "note": ""
-          },
-          {
-            "points": 85,
-            "forms": [
-              "Stratus stratocumulomutatus"
-            ],
-            "note": ""
+            "note": "Cirrus with turret-like towers."
           },
           {
             "points": 60,
+            "forms": [
+              "Cirrus floccus"
+            ],
+            "note": "Cirrus with tufted, ragged puffs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus fibratus intortus"
+            ],
+            "note": "Cirrus with fine fibers, twisted, tangled filaments."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus fibratus vertebratus"
+            ],
+            "note": "Cirrus with fine fibers, a fishbone or ribbed look."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus fibratus radiatus"
+            ],
+            "note": "Cirrus with fine fibers, parallel bands that appear to radiate."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus uncinus radiatus"
+            ],
+            "note": "Cirrus with hooked 'mare's tail' ends, parallel bands that appear to radiate."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus fibratus duplicatus"
+            ],
+            "note": "Cirrus with fine fibers, layers stacked in tiers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus uncinus duplicatus"
+            ],
+            "note": "Cirrus with hooked 'mare's tail' ends, layers stacked in tiers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus cirrocumulogenitus"
+            ],
+            "note": "Cirrus cloud formed from cirrocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus altocumulogenitus"
+            ],
+            "note": "Cirrus cloud formed from altocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus cumulonimbogenitus"
+            ],
+            "note": "Cirrus cloud formed from cumulonimbus."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrus homogenitus"
+            ],
+            "note": "Cirrus cloud formed from human activity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus cirrostratomutatus"
+            ],
+            "note": "Cirrus cloud changed from cirrostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrus homomutatus"
+            ],
+            "note": "Cirrus cloud changed from human-made cirrus."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cirrocumulus stratiformis"
+            ],
+            "note": "Cirrocumulus with extensive sheets."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cirrocumulus lenticularis"
+            ],
+            "note": "Cirrocumulus with smooth lens shapes."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cirrocumulus castellanus"
+            ],
+            "note": "Cirrocumulus with turret-like towers."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cirrocumulus floccus"
+            ],
+            "note": "Cirrocumulus with tufted, ragged puffs."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus stratiformis undulatus"
+            ],
+            "note": "Cirrocumulus with extensive sheets, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus lenticularis undulatus"
+            ],
+            "note": "Cirrocumulus with smooth lens shapes, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus stratiformis lacunosus"
+            ],
+            "note": "Cirrocumulus with extensive sheets, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus castellanus lacunosus"
+            ],
+            "note": "Cirrocumulus with turret-like towers, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus floccus lacunosus"
+            ],
+            "note": "Cirrocumulus with tufted, ragged puffs, a net-like pattern of holes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrocumulus cirromutatus"
+            ],
+            "note": "Cirrocumulus cloud changed from cirrus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrocumulus cirrostratomutatus"
+            ],
+            "note": "Cirrocumulus cloud changed from cirrostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrocumulus altocumulomutatus"
+            ],
+            "note": "Cirrocumulus cloud changed from altocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrocumulus homomutatus"
+            ],
+            "note": "Cirrocumulus cloud changed from human-made cirrocumulus."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cirrostratus fibratus"
+            ],
+            "note": "Cirrostratus with fine fibers."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cirrostratus nebulosus"
+            ],
+            "note": "Cirrostratus with a featureless veil."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus fibratus duplicatus"
+            ],
+            "note": "Cirrostratus with fine fibers, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus fibratus undulatus"
+            ],
+            "note": "Cirrostratus with fine fibers, a wave-like pattern."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrostratus cirrocumulogenitus"
+            ],
+            "note": "Cirrostratus cloud formed from cirrocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrostratus cumulonimbogenitus"
+            ],
+            "note": "Cirrostratus cloud formed from cumulonimbus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrostratus cirromutatus"
+            ],
+            "note": "Cirrostratus cloud changed from cirrus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrostratus cirrocumulomutatus"
+            ],
+            "note": "Cirrostratus cloud changed from cirrocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrostratus altostratomutatus"
+            ],
+            "note": "Cirrostratus cloud changed from altostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cirrostratus homomutatus"
+            ],
+            "note": "Cirrostratus cloud changed from human-made cirrostratus."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Altocumulus stratiformis"
+            ],
+            "note": "Altocumulus with extensive sheets."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Altocumulus lenticularis"
+            ],
+            "note": "Altocumulus with smooth lens shapes."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Altocumulus volutus"
+            ],
+            "note": "Altocumulus with a rolled tube shape."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Altocumulus castellanus"
+            ],
+            "note": "Altocumulus with turret-like towers."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Altocumulus floccus"
+            ],
+            "note": "Altocumulus with tufted, ragged puffs."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis translucidus"
+            ],
+            "note": "Altocumulus with extensive sheets, a thin layer showing the sun's position."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis perlucidus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer with gaps showing sky."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis opacus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer too thick to see the sun through."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis translucidus radiatus"
+            ],
+            "note": "Altocumulus with extensive sheets, a thin layer showing the sun's position, parallel bands that appear to radiate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis perlucidus radiatus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer with gaps showing sky, parallel bands that appear to radiate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis opacus radiatus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer too thick to see the sun through, parallel bands that appear to radiate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis translucidus duplicatus"
+            ],
+            "note": "Altocumulus with extensive sheets, a thin layer showing the sun's position, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis perlucidus duplicatus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer with gaps showing sky, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis opacus duplicatus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer too thick to see the sun through, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus lenticularis duplicatus"
+            ],
+            "note": "Altocumulus with smooth lens shapes, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis translucidus undulatus"
+            ],
+            "note": "Altocumulus with extensive sheets, a thin layer showing the sun's position, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis perlucidus undulatus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer with gaps showing sky, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis opacus undulatus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer too thick to see the sun through, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus lenticularis undulatus"
+            ],
+            "note": "Altocumulus with smooth lens shapes, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis translucidus lacunosus"
+            ],
+            "note": "Altocumulus with extensive sheets, a thin layer showing the sun's position, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis perlucidus lacunosus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer with gaps showing sky, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis opacus lacunosus"
+            ],
+            "note": "Altocumulus with extensive sheets, a layer too thick to see the sun through, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus castellanus lacunosus"
+            ],
+            "note": "Altocumulus with turret-like towers, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus floccus lacunosus"
+            ],
+            "note": "Altocumulus with tufted, ragged puffs, a net-like pattern of holes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altocumulus cumulogenitus"
+            ],
+            "note": "Altocumulus cloud formed from cumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altocumulus cumulonimbogenitus"
+            ],
+            "note": "Altocumulus cloud formed from cumulonimbus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altocumulus cirrocumulomutatus"
+            ],
+            "note": "Altocumulus cloud changed from cirrocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altocumulus altostratomutatus"
+            ],
+            "note": "Altocumulus cloud changed from altostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altocumulus nimbostratomutatus"
+            ],
+            "note": "Altocumulus cloud changed from nimbostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altocumulus stratocumulomutatus"
+            ],
+            "note": "Altocumulus cloud changed from stratocumulus."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Altostratus translucidus"
+            ],
+            "note": "Altostratus with a thin layer showing the sun's position."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Altostratus opacus"
+            ],
+            "note": "Altostratus with a layer too thick to see the sun through."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus translucidus radiatus"
+            ],
+            "note": "Altostratus with a thin layer showing the sun's position, parallel bands that appear to radiate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus opacus radiatus"
+            ],
+            "note": "Altostratus with a layer too thick to see the sun through, parallel bands that appear to radiate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus translucidus duplicatus"
+            ],
+            "note": "Altostratus with a thin layer showing the sun's position, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus opacus duplicatus"
+            ],
+            "note": "Altostratus with a layer too thick to see the sun through, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus translucidus undulatus"
+            ],
+            "note": "Altostratus with a thin layer showing the sun's position, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus opacus undulatus"
+            ],
+            "note": "Altostratus with a layer too thick to see the sun through, a wave-like pattern."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altostratus altocumulogenitus"
+            ],
+            "note": "Altostratus cloud formed from altocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altostratus cumulonimbogenitus"
+            ],
+            "note": "Altostratus cloud formed from cumulonimbus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altostratus cirrostratomutatus"
+            ],
+            "note": "Altostratus cloud changed from cirrostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altostratus nimbostratomutatus"
+            ],
+            "note": "Altostratus cloud changed from nimbostratus."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cumulonimbus calvus"
+            ],
+            "note": "Cumulonimbus with a rounded, lumpy top with no anvil."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cumulonimbus capillatus"
+            ],
+            "note": "Cumulonimbus with a fibrous, anvil-like top."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cumulonimbus altocumulogenitus"
+            ],
+            "note": "Cumulonimbus cloud formed from altocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cumulonimbus altostratogenitus"
+            ],
+            "note": "Cumulonimbus cloud formed from altostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cumulonimbus nimbostratogenitus"
+            ],
+            "note": "Cumulonimbus cloud formed from nimbostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cumulonimbus stratocumulogenitus"
+            ],
+            "note": "Cumulonimbus cloud formed from stratocumulus."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cumulonimbus flammagenitus"
+            ],
+            "note": "Cumulonimbus cloud formed from a wildfire."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cumulonimbus cumulomutatus"
+            ],
+            "note": "Cumulonimbus cloud changed from cumulus."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cumulus congestus"
+            ],
+            "note": "Cumulus with towering, heaped growth."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus congestus flammagenitus"
+            ],
+            "note": "Cumulus with towering, heaped growth, formed from a wildfire."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nimbostratus cumulogenitus"
+            ],
+            "note": "Nimbostratus cloud formed from cumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nimbostratus cumulonimbogenitus"
+            ],
+            "note": "Nimbostratus cloud formed from cumulonimbus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nimbostratus altostratomutatus"
+            ],
+            "note": "Nimbostratus cloud changed from altostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nimbostratus altocumulomutatus"
+            ],
+            "note": "Nimbostratus cloud changed from altocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nimbostratus stratocumulomutatus"
+            ],
+            "note": "Nimbostratus cloud changed from stratocumulus."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cumulus mediocris"
+            ],
+            "note": "Cumulus with moderate vertical growth."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus mediocris radiatus"
+            ],
+            "note": "Cumulus with moderate vertical growth, parallel bands that appear to radiate."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stratocumulus stratiformis"
+            ],
+            "note": "Stratocumulus with extensive sheets."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stratocumulus lenticularis"
+            ],
+            "note": "Stratocumulus with smooth lens shapes."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stratocumulus volutus"
+            ],
+            "note": "Stratocumulus with a rolled tube shape."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stratocumulus floccus"
+            ],
+            "note": "Stratocumulus with tufted, ragged puffs."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stratocumulus castellanus"
+            ],
+            "note": "Stratocumulus with turret-like towers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis translucidus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a thin layer showing the sun's position."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer with gaps showing sky."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis opacus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer too thick to see the sun through."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis translucidus radiatus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a thin layer showing the sun's position, parallel bands that appear to radiate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus radiatus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer with gaps showing sky, parallel bands that appear to radiate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis opacus radiatus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer too thick to see the sun through, parallel bands that appear to radiate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis translucidus duplicatus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a thin layer showing the sun's position, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus duplicatus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer with gaps showing sky, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis opacus duplicatus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer too thick to see the sun through, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus lenticularis duplicatus"
+            ],
+            "note": "Stratocumulus with smooth lens shapes, layers stacked in tiers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis translucidus undulatus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a thin layer showing the sun's position, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus undulatus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer with gaps showing sky, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis opacus undulatus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer too thick to see the sun through, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus lenticularis undulatus"
+            ],
+            "note": "Stratocumulus with smooth lens shapes, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis translucidus lacunosus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a thin layer showing the sun's position, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus lacunosus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer with gaps showing sky, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis opacus lacunosus"
+            ],
+            "note": "Stratocumulus with extensive sheets, a layer too thick to see the sun through, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus castellanus lacunosus"
+            ],
+            "note": "Stratocumulus with turret-like towers, a net-like pattern of holes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus floccus lacunosus"
+            ],
+            "note": "Stratocumulus with tufted, ragged puffs, a net-like pattern of holes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratocumulus cumulogenitus"
+            ],
+            "note": "Stratocumulus cloud formed from cumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratocumulus nimbostratogenitus"
+            ],
+            "note": "Stratocumulus cloud formed from nimbostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratocumulus cumulonimbogenitus"
+            ],
+            "note": "Stratocumulus cloud formed from cumulonimbus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratocumulus altostratogenitus"
+            ],
+            "note": "Stratocumulus cloud formed from altostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratocumulus nimbostratomutatus"
+            ],
+            "note": "Stratocumulus cloud changed from nimbostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratocumulus altocumulomutatus"
+            ],
+            "note": "Stratocumulus cloud changed from altocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratocumulus stratomutatus"
+            ],
+            "note": "Stratocumulus cloud changed from stratus."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cumulus fractus"
+            ],
+            "note": "Cumulus with ragged, broken fragments."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cumulus humilis"
+            ],
+            "note": "Cumulus with flattened, low growth."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus humilis radiatus"
+            ],
+            "note": "Cumulus with flattened, low growth, parallel bands that appear to radiate."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cumulus stratocumulogenitus"
+            ],
+            "note": "Cumulus cloud formed from stratocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cumulus homogenitus"
+            ],
+            "note": "Cumulus cloud formed from human activity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cumulus stratocumulomutatus"
+            ],
+            "note": "Cumulus cloud changed from stratocumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cumulus stratomutatus"
+            ],
+            "note": "Cumulus cloud changed from stratus."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cumulus cataractagenitus"
+            ],
+            "note": "Cumulus cloud formed from a waterfall's spray."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stratus nebulosus"
+            ],
+            "note": "Stratus with a featureless veil."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stratus fractus"
+            ],
+            "note": "Stratus with ragged, broken fragments."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus nebulosus translucidus"
+            ],
+            "note": "Stratus with a featureless veil, a thin layer showing the sun's position."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus nebulosus opacus"
+            ],
+            "note": "Stratus with a featureless veil, a layer too thick to see the sun through."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus nebulosus translucidus undulatus"
+            ],
+            "note": "Stratus with a featureless veil, a thin layer showing the sun's position, a wave-like pattern."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus nebulosus opacus undulatus"
+            ],
+            "note": "Stratus with a featureless veil, a layer too thick to see the sun through, a wave-like pattern."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratus nimbostratogenitus"
+            ],
+            "note": "Stratus cloud formed from nimbostratus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratus cumulogenitus"
+            ],
+            "note": "Stratus cloud formed from cumulus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratus cumulonimbogenitus"
+            ],
+            "note": "Stratus cloud formed from cumulonimbus."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratus cataractagenitus"
+            ],
+            "note": "Stratus cloud formed from a waterfall's spray."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratus silvagenitus"
+            ],
+            "note": "Stratus cloud formed from forest vegetation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratus homogenitus"
+            ],
+            "note": "Stratus cloud formed from human activity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratus stratocumulomutatus"
+            ],
+            "note": "Stratus cloud changed from stratocumulus."
+          },
+          {
+            "points": 10,
             "forms": [
               "Noctilucent",
               "Noctilucent cloud",
               "Polar mesospheric cloud",
               "Night shining cloud"
             ],
-            "note": ""
+            "note": "Extremely high clouds near the edge of space, lit after sunset."
           },
           {
-            "points": 85,
+            "points": 10,
             "forms": [
               "Nacreous",
               "Nacreous cloud",
               "Mother of pearl cloud",
               "Polar stratospheric cloud"
             ],
-            "note": ""
+            "note": "Polar stratospheric clouds with shimmering rainbow colors."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Fog"
             ],
-            "note": ""
+            "note": "Cloud at ground level that cuts visibility."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Mist"
             ],
-            "note": ""
+            "note": "Thin fog; visibility above 1 km."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Contrail",
               "Contrails",
               "Condensation trail"
             ],
-            "note": ""
+            "note": "Condensation trail left by aircraft."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Pyrocumulus",
               "Fire cloud"
             ],
-            "note": ""
+            "note": "Cumulus formed above a wildfire or volcanic eruption."
           },
           {
-            "points": 85,
+            "points": 15,
             "forms": [
               "Pyrocumulonimbus"
             ],
-            "note": ""
+            "note": "Fire-powered thunderstorm cloud from wildfires."
           }
         ]
       },
@@ -6306,7 +6306,7 @@ window.DIVE_DAYS = [
               "Matt Stafford",
               "Stafford"
             ],
-            "note": ""
+            "note": "Rams quarterback."
           },
           {
             "points": 10,
@@ -6314,15 +6314,15 @@ window.DIVE_DAYS = [
               "Bijan Robinson",
               "Robinson"
             ],
-            "note": ""
+            "note": "Falcons running back."
           },
           {
-            "points": 10,
+            "points": 15,
             "forms": [
               "Kyle Juszczyk",
               "Juszczyk"
             ],
-            "note": ""
+            "note": "49ers fullback."
           },
           {
             "points": 10,
@@ -6330,17 +6330,17 @@ window.DIVE_DAYS = [
               "Puka Nacua",
               "Nacua"
             ],
-            "note": ""
+            "note": "Rams wide receiver."
           },
           {
-            "points": 10,
+            "points": 30,
             "forms": [
               "Jaxon Smith-Njigba",
               "Jaxon SmithNjigba",
               "JSN",
               "Smith-Njigba"
             ],
-            "note": ""
+            "note": "Seahawks wide receiver."
           },
           {
             "points": 10,
@@ -6349,7 +6349,7 @@ window.DIVE_DAYS = [
               "JaMarr Chase",
               "Chase"
             ],
-            "note": ""
+            "note": "Bengals wide receiver."
           },
           {
             "points": 10,
@@ -6358,31 +6358,31 @@ window.DIVE_DAYS = [
               "CMC",
               "McCaffrey"
             ],
-            "note": ""
+            "note": "49ers running back."
           },
           {
-            "points": 10,
+            "points": 30,
             "forms": [
               "Trey McBride",
               "McBride"
             ],
-            "note": ""
+            "note": "Cardinals tight end."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Garett Bolles",
               "Bolles"
             ],
-            "note": ""
+            "note": "Broncos offensive tackle."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Joe Thuney",
               "Thuney"
             ],
-            "note": ""
+            "note": "Offensive guard, now with the Bears."
           },
           {
             "points": 30,
@@ -6390,15 +6390,15 @@ window.DIVE_DAYS = [
               "Creed Humphrey",
               "Humphrey"
             ],
-            "note": ""
+            "note": "Chiefs center."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Quinn Meinerz",
               "Meinerz"
             ],
-            "note": ""
+            "note": "Broncos offensive guard."
           },
           {
             "points": 30,
@@ -6406,15 +6406,15 @@ window.DIVE_DAYS = [
               "Penei Sewell",
               "Sewell"
             ],
-            "note": ""
+            "note": "Lions offensive tackle."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Myles Garrett",
               "Garrett"
             ],
-            "note": ""
+            "note": "Browns edge rusher."
           },
           {
             "points": 30,
@@ -6423,15 +6423,15 @@ window.DIVE_DAYS = [
               "Will Anderson",
               "Anderson"
             ],
-            "note": ""
+            "note": "Texans edge rusher."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Micah Parsons",
               "Parsons"
             ],
-            "note": ""
+            "note": "Edge rusher, traded from the Cowboys to the Packers in 2025."
           },
           {
             "points": 30,
@@ -6439,31 +6439,31 @@ window.DIVE_DAYS = [
               "Jeffery Simmons",
               "Simmons"
             ],
-            "note": ""
+            "note": "Titans defensive tackle."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Zach Allen",
               "Allen"
             ],
-            "note": ""
+            "note": "Broncos defensive end."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Jack Campbell",
               "Campbell"
             ],
-            "note": ""
+            "note": "Lions linebacker."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Jordyn Brooks",
               "Brooks"
             ],
-            "note": ""
+            "note": "Dolphins linebacker."
           },
           {
             "points": 30,
@@ -6472,7 +6472,7 @@ window.DIVE_DAYS = [
               "Derek Stingley",
               "Stingley"
             ],
-            "note": ""
+            "note": "Texans cornerback."
           },
           {
             "points": 30,
@@ -6480,15 +6480,15 @@ window.DIVE_DAYS = [
               "Quinyon Mitchell",
               "Mitchell"
             ],
-            "note": ""
+            "note": "Eagles cornerback."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Cooper DeJean",
               "DeJean"
             ],
-            "note": ""
+            "note": "Eagles defensive back."
           },
           {
             "points": 30,
@@ -6496,136 +6496,136 @@ window.DIVE_DAYS = [
               "Kyle Hamilton",
               "Hamilton"
             ],
-            "note": ""
+            "note": "Ravens safety."
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Kevin Byard",
               "Kevin Byard III",
               "Byard"
             ],
-            "note": ""
+            "note": "Veteran safety."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Will Reichard",
               "Reichard"
             ],
-            "note": ""
+            "note": "Vikings kicker."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Jordan Stout",
               "Stout"
             ],
-            "note": ""
+            "note": "Giants punter."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Ray Davis"
             ],
-            "note": ""
+            "note": "Running back and returner."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Chimere Dike",
               "Dike"
             ],
-            "note": ""
+            "note": "Titans receiver and returner."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Devon Key",
               "Key"
             ],
-            "note": ""
+            "note": "Special teams player."
           },
           {
-            "points": 60,
+            "points": 100,
             "forms": [
               "Ross Matiscik",
               "Matiscik"
             ],
-            "note": ""
+            "note": "Jaguars long snapper."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Drake Maye",
               "Maye"
             ],
-            "note": ""
+            "note": "Patriots quarterback."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "James Cook",
               "James Cook III",
               "Cook"
             ],
-            "note": ""
+            "note": "Bills running back."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Patrick Ricard",
               "Ricard"
             ],
-            "note": ""
+            "note": "Ravens fullback."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "George Pickens",
               "Pickens"
             ],
-            "note": ""
+            "note": "Cowboys wide receiver."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Chris Olave",
               "Olave"
             ],
-            "note": ""
+            "note": "Saints wide receiver."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Amon-Ra St. Brown",
               "AmonRa St Brown",
               "Brown"
             ],
-            "note": ""
+            "note": "Lions wide receiver."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Kyle Pitts",
               "Pitts"
             ],
-            "note": ""
+            "note": "Falcons tight end."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Trent Williams"
             ],
-            "note": ""
+            "note": "49ers offensive tackle."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Quenton Nelson",
               "Nelson"
             ],
-            "note": ""
+            "note": "Colts offensive guard."
           },
           {
             "points": 60,
@@ -6633,7 +6633,7 @@ window.DIVE_DAYS = [
               "Aaron Brewer",
               "Brewer"
             ],
-            "note": ""
+            "note": "Dolphins center."
           },
           {
             "points": 60,
@@ -6641,7 +6641,7 @@ window.DIVE_DAYS = [
               "Chris Lindstrom",
               "Lindstrom"
             ],
-            "note": ""
+            "note": "Falcons offensive guard."
           },
           {
             "points": 60,
@@ -6649,23 +6649,23 @@ window.DIVE_DAYS = [
               "Darnell Wright",
               "Wright"
             ],
-            "note": ""
+            "note": "Bears offensive tackle."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Aidan Hutchinson",
               "Hutchinson"
             ],
-            "note": ""
+            "note": "Lions edge rusher."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Danielle Hunter",
               "Hunter"
             ],
-            "note": ""
+            "note": "Texans edge rusher."
           },
           {
             "points": 60,
@@ -6673,22 +6673,22 @@ window.DIVE_DAYS = [
               "Brian Burns",
               "Burns"
             ],
-            "note": ""
+            "note": "Giants edge rusher."
           },
           {
             "points": 60,
             "forms": [
               "Leonard Williams"
             ],
-            "note": ""
+            "note": "Seahawks defensive lineman."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Cameron Heyward",
               "Heyward"
             ],
-            "note": ""
+            "note": "Steelers defensive tackle."
           },
           {
             "points": 60,
@@ -6696,7 +6696,7 @@ window.DIVE_DAYS = [
               "Ernest Jones IV",
               "Ernest Jones"
             ],
-            "note": ""
+            "note": "Seahawks linebacker."
           },
           {
             "points": 60,
@@ -6704,18 +6704,18 @@ window.DIVE_DAYS = [
               "Devin Lloyd",
               "Lloyd"
             ],
-            "note": ""
+            "note": "Jaguars linebacker."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Devon Witherspoon",
               "Witherspoon"
             ],
-            "note": ""
+            "note": "Seahawks cornerback."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Patrick Surtain II",
               "Patrick Surtain",
@@ -6723,16 +6723,16 @@ window.DIVE_DAYS = [
               "Pat Surtain II",
               "Surtain"
             ],
-            "note": ""
+            "note": "Broncos cornerback."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Derwin James",
               "Derwin James Jr",
               "James"
             ],
-            "note": ""
+            "note": "Chargers safety."
           },
           {
             "points": 60,
@@ -6741,7 +6741,7 @@ window.DIVE_DAYS = [
               "Jessie Bates III",
               "Bates"
             ],
-            "note": ""
+            "note": "Falcons safety."
           },
           {
             "points": 60,
@@ -6749,7 +6749,7 @@ window.DIVE_DAYS = [
               "Talanoa Hufanga",
               "Hufanga"
             ],
-            "note": ""
+            "note": "Safety."
           },
           {
             "points": 60,
@@ -6757,86 +6757,86 @@ window.DIVE_DAYS = [
               "Xavier McKinney",
               "McKinney"
             ],
-            "note": ""
+            "note": "Packers safety."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Brandon Aubrey",
               "Aubrey"
             ],
-            "note": ""
+            "note": "Cowboys kicker."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Michael Dickson",
               "Dickson"
             ],
-            "note": ""
+            "note": "Seahawks punter."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "KaVontae Turpin",
               "Turpin"
             ],
-            "note": ""
+            "note": "Cowboys returner."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Marcus Jones"
             ],
-            "note": ""
+            "note": "Patriots cornerback and returner."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Del'Shawn Phillips",
               "DelShawn Phillips",
               "Phillips"
             ],
-            "note": ""
+            "note": "Special teams linebacker."
           },
           {
-            "points": 60,
+            "points": 100,
             "forms": [
               "Andrew DePaola",
               "DePaola"
             ],
-            "note": ""
+            "note": "Long snapper."
           },
           {
-            "points": 85,
+            "points": 10,
             "forms": [
               "Jonathan Taylor",
               "Taylor"
             ],
-            "note": ""
+            "note": "Colts running back."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Nik Bonitto",
               "Bonitto"
             ],
-            "note": ""
+            "note": "Broncos edge rusher."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Quinnen Williams"
             ],
-            "note": ""
+            "note": "Defensive tackle."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Jaycee Horn",
               "Horn"
             ],
-            "note": ""
+            "note": "Panthers cornerback."
           },
           {
             "points": 85,
@@ -6844,7 +6844,7 @@ window.DIVE_DAYS = [
               "Cameron Dicker",
               "Dicker"
             ],
-            "note": ""
+            "note": "Chargers kicker."
           },
           {
             "points": 85,
@@ -6852,16 +6852,16 @@ window.DIVE_DAYS = [
               "Tress Way",
               "Way"
             ],
-            "note": ""
+            "note": "Commanders punter."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "De'Von Achane",
               "DeVon Achane",
               "Achane"
             ],
-            "note": ""
+            "note": "Dolphins running back."
           },
           {
             "points": 85,
@@ -6869,47 +6869,47 @@ window.DIVE_DAYS = [
               "Reggie Gilliam",
               "Gilliam"
             ],
-            "note": ""
+            "note": "Bills fullback."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Nico Collins",
               "Collins"
             ],
-            "note": ""
+            "note": "Texans wide receiver."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "George Kittle",
               "Kittle"
             ],
-            "note": ""
+            "note": "49ers tight end."
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Tristan Wirfs",
               "Wirfs"
             ],
-            "note": ""
+            "note": "Buccaneers offensive tackle."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Kobie Turner",
               "Turner"
             ],
-            "note": ""
+            "note": "Rams defensive tackle."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Zack Baun",
               "Baun"
             ],
-            "note": ""
+            "note": "Eagles linebacker."
           },
           {
             "points": 85,
@@ -6918,14 +6918,14 @@ window.DIVE_DAYS = [
               "Devin Bush Jr",
               "Bush"
             ],
-            "note": ""
+            "note": "Linebacker."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Demario Davis"
             ],
-            "note": ""
+            "note": "Saints linebacker."
           },
           {
             "points": 85,
@@ -6933,16 +6933,16 @@ window.DIVE_DAYS = [
               "Cedric Gray",
               "Gray"
             ],
-            "note": ""
+            "note": "Titans linebacker."
           },
           {
-            "points": 85,
+            "points": 15,
             "forms": [
               "Sauce Gardner",
               "Ahmad Gardner",
               "Gardner"
             ],
-            "note": ""
+            "note": "Jets cornerback."
           },
           {
             "points": 85,
@@ -6951,7 +6951,7 @@ window.DIVE_DAYS = [
               "Michael Jackson",
               "Jackson"
             ],
-            "note": ""
+            "note": "Cornerback."
           },
           {
             "points": 85,
@@ -6959,7 +6959,7 @@ window.DIVE_DAYS = [
               "Jalen Pitre",
               "Pitre"
             ],
-            "note": ""
+            "note": "Texans safety."
           },
           {
             "points": 85,
@@ -6967,7 +6967,7 @@ window.DIVE_DAYS = [
               "Antonio Johnson",
               "Johnson"
             ],
-            "note": ""
+            "note": "Jaguars safety."
           },
           {
             "points": 85,
@@ -6976,7 +6976,7 @@ window.DIVE_DAYS = [
               "JaQuan McMillian",
               "McMillian"
             ],
-            "note": ""
+            "note": "Broncos cornerback."
           },
           {
             "points": 85,
@@ -6984,7 +6984,7 @@ window.DIVE_DAYS = [
               "Daniel Whelan",
               "Whelan"
             ],
-            "note": ""
+            "note": "Packers punter."
           },
           {
             "points": 85,
@@ -6992,31 +6992,31 @@ window.DIVE_DAYS = [
               "Austin McNamara",
               "McNamara"
             ],
-            "note": ""
+            "note": "Punter."
           },
           {
-            "points": 85,
+            "points": 100,
             "forms": [
               "Rex Sunahara",
               "Sunahara"
             ],
-            "note": ""
+            "note": "Long snapper."
           },
           {
-            "points": 85,
+            "points": 100,
             "forms": [
               "Hogan Hatten",
               "Hatten"
             ],
-            "note": ""
+            "note": "Long snapper."
           },
           {
-            "points": 85,
+            "points": 100,
             "forms": [
               "Carson Bruener",
               "Bruener"
             ],
-            "note": ""
+            "note": "Special teams player."
           },
           {
             "points": 85,
@@ -7024,30 +7024,30 @@ window.DIVE_DAYS = [
               "Kene Nwangwu",
               "Nwangwu"
             ],
-            "note": ""
+            "note": "Kick returner."
           },
           {
             "points": 85,
             "forms": [
               "Isaiah Williams"
             ],
-            "note": ""
+            "note": "Wide receiver and returner."
           },
           {
-            "points": 85,
+            "points": 10,
             "forms": [
               "Travis Kelce",
               "Kelce"
             ],
-            "note": ""
+            "note": "Chiefs tight end."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Dion Dawkins",
               "Dawkins"
             ],
-            "note": ""
+            "note": "Bills offensive tackle."
           },
           {
             "points": 85,
@@ -7056,7 +7056,7 @@ window.DIVE_DAYS = [
               "Cameron Little",
               "Little"
             ],
-            "note": ""
+            "note": "Jaguars kicker."
           },
           {
             "points": 85,
@@ -7064,31 +7064,31 @@ window.DIVE_DAYS = [
               "Drew Dalman",
               "Dalman"
             ],
-            "note": ""
+            "note": "Center."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Tuli Tuipulotu",
               "Tuipulotu"
             ],
-            "note": ""
+            "note": "Chargers edge rusher."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Byron Young",
               "Young"
             ],
-            "note": ""
+            "note": "Defensive lineman."
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Xavier Watts",
               "Watts"
             ],
-            "note": ""
+            "note": "Falcons safety."
           },
           {
             "points": 85,
@@ -7096,7 +7096,7 @@ window.DIVE_DAYS = [
               "Rashid Shaheed",
               "Shaheed"
             ],
-            "note": ""
+            "note": "Wide receiver and returner."
           },
           {
             "points": 85,
@@ -7104,7 +7104,7 @@ window.DIVE_DAYS = [
               "Luke Gifford",
               "Gifford"
             ],
-            "note": ""
+            "note": "Special teams linebacker."
           }
         ]
       },
@@ -7122,17 +7122,17 @@ window.DIVE_DAYS = [
               "Saint Peter",
               "Simon Peter"
             ],
-            "note": ""
+            "note": "First pope, apostle and bishop of Rome (1st century)."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Linus",
               "Pope Linus",
               "St Linus",
               "Saint Linus"
             ],
-            "note": ""
+            "note": "Second pope, traditionally successor to Peter. (1st century)"
           },
           {
             "points": 60,
@@ -7143,10 +7143,10 @@ window.DIVE_DAYS = [
               "Saint Anacletus",
               "Cletus"
             ],
-            "note": ""
+            "note": "1st-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Clement I",
               "Pope Clement I",
@@ -7155,7 +7155,7 @@ window.DIVE_DAYS = [
               "Clement 1",
               "Pope Clement 1"
             ],
-            "note": ""
+            "note": "Early pope; credited with a letter to the Corinthians. (1st century)"
           },
           {
             "points": 60,
@@ -7165,7 +7165,7 @@ window.DIVE_DAYS = [
               "St Evaristus",
               "Saint Evaristus"
             ],
-            "note": ""
+            "note": "Early pope of the late 1st or early 2nd century. (1st century)"
           },
           {
             "points": 60,
@@ -7177,10 +7177,10 @@ window.DIVE_DAYS = [
               "Alexander 1",
               "Pope Alexander 1"
             ],
-            "note": ""
+            "note": "2nd-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Sixtus I",
               "Pope Sixtus I",
@@ -7189,17 +7189,17 @@ window.DIVE_DAYS = [
               "Sixtus 1",
               "Pope Sixtus 1"
             ],
-            "note": ""
+            "note": "Early pope. (2nd century)"
           },
           {
-            "points": 60,
+            "points": 100,
             "forms": [
               "Telesphorus",
               "Pope Telesphorus",
               "St Telesphorus",
               "Saint Telesphorus"
             ],
-            "note": ""
+            "note": "2nd-century pope."
           },
           {
             "points": 60,
@@ -7209,10 +7209,10 @@ window.DIVE_DAYS = [
               "St Hyginus",
               "Saint Hyginus"
             ],
-            "note": ""
+            "note": "2nd-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Pius I",
               "Pope Pius I",
@@ -7221,7 +7221,7 @@ window.DIVE_DAYS = [
               "Pius 1",
               "Pope Pius 1"
             ],
-            "note": ""
+            "note": "2nd-century pope."
           },
           {
             "points": 60,
@@ -7231,7 +7231,7 @@ window.DIVE_DAYS = [
               "St Anicetus",
               "Saint Anicetus"
             ],
-            "note": ""
+            "note": "2nd-century pope."
           },
           {
             "points": 60,
@@ -7241,17 +7241,17 @@ window.DIVE_DAYS = [
               "St Soter",
               "Saint Soter"
             ],
-            "note": ""
+            "note": "2nd-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Eleutherius",
               "Pope Eleutherius",
               "St Eleutherius",
               "Saint Eleutherius"
             ],
-            "note": ""
+            "note": "2nd-century pope."
           },
           {
             "points": 60,
@@ -7263,20 +7263,20 @@ window.DIVE_DAYS = [
               "Victor 1",
               "Pope Victor 1"
             ],
-            "note": ""
+            "note": "First pope of African origin; set the date of Easter. (2nd century)"
           },
           {
-            "points": 60,
+            "points": 100,
             "forms": [
               "Zephyrinus",
               "Pope Zephyrinus",
               "St Zephyrinus",
               "Saint Zephyrinus"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Callixtus I",
               "Pope Callixtus I",
@@ -7285,7 +7285,7 @@ window.DIVE_DAYS = [
               "Callixtus 1",
               "Pope Callixtus 1"
             ],
-            "note": ""
+            "note": "Former slave who became pope; martyred. (3rd century)"
           },
           {
             "points": 60,
@@ -7297,7 +7297,7 @@ window.DIVE_DAYS = [
               "Urban 1",
               "Pope Urban 1"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
             "points": 60,
@@ -7307,17 +7307,17 @@ window.DIVE_DAYS = [
               "St Pontian",
               "Saint Pontian"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Anterus",
               "Pope Anterus",
               "St Anterus",
               "Saint Anterus"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
             "points": 60,
@@ -7327,7 +7327,7 @@ window.DIVE_DAYS = [
               "St Fabian",
               "Saint Fabian"
             ],
-            "note": ""
+            "note": "Martyred pope in the Decian persecution. (3rd century)"
           },
           {
             "points": 60,
@@ -7337,10 +7337,10 @@ window.DIVE_DAYS = [
               "St Cornelius",
               "Saint Cornelius"
             ],
-            "note": ""
+            "note": "Pope during the Novatian schism. (3rd century)"
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Lucius I",
               "Pope Lucius I",
@@ -7349,7 +7349,7 @@ window.DIVE_DAYS = [
               "Lucius 1",
               "Pope Lucius 1"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
             "points": 60,
@@ -7361,7 +7361,7 @@ window.DIVE_DAYS = [
               "Stephen 1",
               "Pope Stephen 1"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
             "points": 60,
@@ -7373,17 +7373,17 @@ window.DIVE_DAYS = [
               "Sixtus 2",
               "Pope Sixtus 2"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Dionysius",
               "Pope Dionysius",
               "St Dionysius",
               "Saint Dionysius"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
             "points": 60,
@@ -7395,20 +7395,20 @@ window.DIVE_DAYS = [
               "Felix 1",
               "Pope Felix 1"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
-            "points": 60,
+            "points": 100,
             "forms": [
               "Eutychian",
               "Pope Eutychian",
               "St Eutychian",
               "Saint Eutychian"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Caius",
               "Pope Caius",
@@ -7416,7 +7416,7 @@ window.DIVE_DAYS = [
               "Saint Caius",
               "Gaius"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
             "points": 60,
@@ -7426,7 +7426,7 @@ window.DIVE_DAYS = [
               "St Marcellinus",
               "Saint Marcellinus"
             ],
-            "note": ""
+            "note": "3rd-century pope."
           },
           {
             "points": 60,
@@ -7438,17 +7438,17 @@ window.DIVE_DAYS = [
               "Marcellus 1",
               "Pope Marcellus 1"
             ],
-            "note": ""
+            "note": "4th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Eusebius",
               "Pope Eusebius",
               "St Eusebius",
               "Saint Eusebius"
             ],
-            "note": ""
+            "note": "4th-century pope."
           },
           {
             "points": 60,
@@ -7459,10 +7459,10 @@ window.DIVE_DAYS = [
               "Saint Miltiades",
               "Melchiades"
             ],
-            "note": ""
+            "note": "4th-century pope."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Sylvester I",
               "Pope Sylvester I",
@@ -7471,17 +7471,17 @@ window.DIVE_DAYS = [
               "Sylvester 1",
               "Pope Sylvester 1"
             ],
-            "note": ""
+            "note": "Pope during Constantine's reign and the Council of Nicaea. (4th century)"
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Mark",
               "Pope Mark",
               "St Mark",
               "Saint Mark"
             ],
-            "note": ""
+            "note": "4th-century pope."
           },
           {
             "points": 60,
@@ -7493,7 +7493,7 @@ window.DIVE_DAYS = [
               "Julius 1",
               "Pope Julius 1"
             ],
-            "note": ""
+            "note": "4th-century pope."
           },
           {
             "points": 60,
@@ -7503,10 +7503,10 @@ window.DIVE_DAYS = [
               "St Liberius",
               "Saint Liberius"
             ],
-            "note": ""
+            "note": "4th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Damasus I",
               "Pope Damasus I",
@@ -7515,7 +7515,7 @@ window.DIVE_DAYS = [
               "Damasus 1",
               "Pope Damasus 1"
             ],
-            "note": ""
+            "note": "Commissioned Jerome's Latin Vulgate. (4th century)"
           },
           {
             "points": 60,
@@ -7525,7 +7525,7 @@ window.DIVE_DAYS = [
               "St Siricius",
               "Saint Siricius"
             ],
-            "note": ""
+            "note": "4th-century pope."
           },
           {
             "points": 60,
@@ -7537,10 +7537,10 @@ window.DIVE_DAYS = [
               "Anastasius 1",
               "Pope Anastasius 1"
             ],
-            "note": ""
+            "note": "4th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Innocent I",
               "Pope Innocent I",
@@ -7549,7 +7549,7 @@ window.DIVE_DAYS = [
               "Innocent 1",
               "Pope Innocent 1"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
             "points": 60,
@@ -7559,7 +7559,7 @@ window.DIVE_DAYS = [
               "St Zosimus",
               "Saint Zosimus"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
             "points": 60,
@@ -7571,10 +7571,10 @@ window.DIVE_DAYS = [
               "Boniface 1",
               "Pope Boniface 1"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Celestine I",
               "Pope Celestine I",
@@ -7583,7 +7583,7 @@ window.DIVE_DAYS = [
               "Celestine 1",
               "Pope Celestine 1"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
             "points": 60,
@@ -7595,10 +7595,10 @@ window.DIVE_DAYS = [
               "Sixtus 3",
               "Pope Sixtus 3"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Leo I",
               "Pope Leo I",
@@ -7608,17 +7608,17 @@ window.DIVE_DAYS = [
               "Pope Leo 1",
               "Leo the Great"
             ],
-            "note": ""
+            "note": "Leo the Great, who met Attila the Hun. (5th century)"
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Hilarius",
               "Pope Hilarius",
               "St Hilarius",
               "Saint Hilarius"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
             "points": 60,
@@ -7628,7 +7628,7 @@ window.DIVE_DAYS = [
               "St Simplicius",
               "Saint Simplicius"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
             "points": 60,
@@ -7640,10 +7640,10 @@ window.DIVE_DAYS = [
               "Felix 3",
               "Pope Felix 3"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Gelasius I",
               "Pope Gelasius I",
@@ -7652,10 +7652,10 @@ window.DIVE_DAYS = [
               "Gelasius 1",
               "Pope Gelasius 1"
             ],
-            "note": ""
+            "note": "Wrote on church and state authority. (5th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Anastasius II",
               "Pope Anastasius II",
@@ -7664,7 +7664,7 @@ window.DIVE_DAYS = [
               "Anastasius 2",
               "Pope Anastasius 2"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
             "points": 60,
@@ -7674,7 +7674,7 @@ window.DIVE_DAYS = [
               "St Symmachus",
               "Saint Symmachus"
             ],
-            "note": ""
+            "note": "5th-century pope."
           },
           {
             "points": 100,
@@ -7684,7 +7684,7 @@ window.DIVE_DAYS = [
               "St Hormisdas",
               "Saint Hormisdas"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
             "points": 60,
@@ -7696,10 +7696,10 @@ window.DIVE_DAYS = [
               "John 1",
               "Pope John 1"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Felix IV",
               "Pope Felix IV",
@@ -7708,10 +7708,10 @@ window.DIVE_DAYS = [
               "Felix 4",
               "Pope Felix 4"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Boniface II",
               "Pope Boniface II",
@@ -7720,10 +7720,10 @@ window.DIVE_DAYS = [
               "Boniface 2",
               "Pope Boniface 2"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "John II",
               "Pope John II",
@@ -7732,7 +7732,7 @@ window.DIVE_DAYS = [
               "John 2",
               "Pope John 2"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
             "points": 60,
@@ -7744,17 +7744,17 @@ window.DIVE_DAYS = [
               "Agapetus 1",
               "Pope Agapetus 1"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Silverius",
               "Pope Silverius",
               "St Silverius",
               "Saint Silverius"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
             "points": 60,
@@ -7764,7 +7764,7 @@ window.DIVE_DAYS = [
               "St Vigilius",
               "Saint Vigilius"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
             "points": 60,
@@ -7776,10 +7776,10 @@ window.DIVE_DAYS = [
               "Pelagius 1",
               "Pope Pelagius 1"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "John III",
               "Pope John III",
@@ -7788,7 +7788,7 @@ window.DIVE_DAYS = [
               "John 3",
               "Pope John 3"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
             "points": 60,
@@ -7800,7 +7800,7 @@ window.DIVE_DAYS = [
               "Benedict 1",
               "Pope Benedict 1"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
             "points": 60,
@@ -7812,10 +7812,10 @@ window.DIVE_DAYS = [
               "Pelagius 2",
               "Pope Pelagius 2"
             ],
-            "note": ""
+            "note": "6th-century pope."
           },
           {
-            "points": 100,
+            "points": 10,
             "forms": [
               "Gregory I",
               "Pope Gregory I",
@@ -7825,20 +7825,20 @@ window.DIVE_DAYS = [
               "Pope Gregory 1",
               "Gregory the Great"
             ],
-            "note": ""
+            "note": "Gregory the Great; Gregorian chant is named for him. (6th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Sabinian",
               "Pope Sabinian",
               "St Sabinian",
               "Saint Sabinian"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Boniface III",
               "Pope Boniface III",
@@ -7847,10 +7847,10 @@ window.DIVE_DAYS = [
               "Boniface 3",
               "Pope Boniface 3"
             ],
-            "note": ""
+            "note": "Got the emperor to recognize Rome's primacy. (7th century)"
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Boniface IV",
               "Pope Boniface IV",
@@ -7859,10 +7859,10 @@ window.DIVE_DAYS = [
               "Boniface 4",
               "Pope Boniface 4"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Adeodatus I",
               "Pope Adeodatus I",
@@ -7872,10 +7872,10 @@ window.DIVE_DAYS = [
               "Pope Adeodatus 1",
               "Deusdedit"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Boniface V",
               "Pope Boniface V",
@@ -7884,10 +7884,10 @@ window.DIVE_DAYS = [
               "Boniface 5",
               "Pope Boniface 5"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Honorius I",
               "Pope Honorius I",
@@ -7896,20 +7896,20 @@ window.DIVE_DAYS = [
               "Honorius 1",
               "Pope Honorius 1"
             ],
-            "note": ""
+            "note": "Later condemned for monothelitism. (7th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Severinus",
               "Pope Severinus",
               "St Severinus",
               "Saint Severinus"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "John IV",
               "Pope John IV",
@@ -7918,10 +7918,10 @@ window.DIVE_DAYS = [
               "John 4",
               "Pope John 4"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Theodore I",
               "Pope Theodore I",
@@ -7930,10 +7930,10 @@ window.DIVE_DAYS = [
               "Theodore 1",
               "Pope Theodore 1"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Martin I",
               "Pope Martin I",
@@ -7942,10 +7942,10 @@ window.DIVE_DAYS = [
               "Martin 1",
               "Pope Martin 1"
             ],
-            "note": ""
+            "note": "Last pope to die as a martyr. (7th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Eugene I",
               "Pope Eugene I",
@@ -7954,20 +7954,20 @@ window.DIVE_DAYS = [
               "Eugene 1",
               "Pope Eugene 1"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Vitalian",
               "Pope Vitalian",
               "St Vitalian",
               "Saint Vitalian"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Adeodatus II",
               "Pope Adeodatus II",
@@ -7976,27 +7976,27 @@ window.DIVE_DAYS = [
               "Adeodatus 2",
               "Pope Adeodatus 2"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Donus",
               "Pope Donus",
               "St Donus",
               "Saint Donus"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Agatho",
               "Pope Agatho",
               "St Agatho",
               "Saint Agatho"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
             "points": 60,
@@ -8008,10 +8008,10 @@ window.DIVE_DAYS = [
               "Leo 2",
               "Pope Leo 2"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Benedict II",
               "Pope Benedict II",
@@ -8020,10 +8020,10 @@ window.DIVE_DAYS = [
               "Benedict 2",
               "Pope Benedict 2"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "John V",
               "Pope John V",
@@ -8032,20 +8032,20 @@ window.DIVE_DAYS = [
               "John 5",
               "Pope John 5"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Conon",
               "Pope Conon",
               "St Conon",
               "Saint Conon"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Sergius I",
               "Pope Sergius I",
@@ -8054,10 +8054,10 @@ window.DIVE_DAYS = [
               "Sergius 1",
               "Pope Sergius 1"
             ],
-            "note": ""
+            "note": "7th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "John VI",
               "Pope John VI",
@@ -8066,10 +8066,10 @@ window.DIVE_DAYS = [
               "John 6",
               "Pope John 6"
             ],
-            "note": ""
+            "note": "8th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "John VII",
               "Pope John VII",
@@ -8078,27 +8078,27 @@ window.DIVE_DAYS = [
               "John 7",
               "Pope John 7"
             ],
-            "note": ""
+            "note": "8th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Sisinnius",
               "Pope Sisinnius",
               "St Sisinnius",
               "Saint Sisinnius"
             ],
-            "note": ""
+            "note": "8th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Constantine",
               "Pope Constantine",
               "St Constantine",
               "Saint Constantine"
             ],
-            "note": ""
+            "note": "8th-century pope."
           },
           {
             "points": 60,
@@ -8110,10 +8110,10 @@ window.DIVE_DAYS = [
               "Gregory 2",
               "Pope Gregory 2"
             ],
-            "note": ""
+            "note": "8th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gregory III",
               "Pope Gregory III",
@@ -8122,20 +8122,20 @@ window.DIVE_DAYS = [
               "Gregory 3",
               "Pope Gregory 3"
             ],
-            "note": ""
+            "note": "8th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Zachary",
               "Pope Zachary",
               "St Zachary",
               "Saint Zachary"
             ],
-            "note": ""
+            "note": "Last Greek pope of the period and ally of the Franks. (8th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Stephen II",
               "Pope Stephen II",
@@ -8144,10 +8144,10 @@ window.DIVE_DAYS = [
               "Stephen 2",
               "Pope Stephen 2"
             ],
-            "note": ""
+            "note": "Allied with Pepin the Short, creating the Papal States. (8th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Paul I",
               "Pope Paul I",
@@ -8156,10 +8156,10 @@ window.DIVE_DAYS = [
               "Paul 1",
               "Pope Paul 1"
             ],
-            "note": ""
+            "note": "8th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Stephen III",
               "Pope Stephen III",
@@ -8168,10 +8168,10 @@ window.DIVE_DAYS = [
               "Stephen 3",
               "Pope Stephen 3"
             ],
-            "note": ""
+            "note": "8th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Adrian I",
               "Pope Adrian I",
@@ -8181,10 +8181,10 @@ window.DIVE_DAYS = [
               "Pope Adrian 1",
               "Hadrian I"
             ],
-            "note": ""
+            "note": "Long-reigning pope who aided Charlemagne. (8th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Leo III",
               "Pope Leo III",
@@ -8193,10 +8193,10 @@ window.DIVE_DAYS = [
               "Leo 3",
               "Pope Leo 3"
             ],
-            "note": ""
+            "note": "Crowned Charlemagne emperor in 800. (8th century)"
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Stephen IV",
               "Pope Stephen IV",
@@ -8205,7 +8205,7 @@ window.DIVE_DAYS = [
               "Stephen 4",
               "Pope Stephen 4"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
             "points": 60,
@@ -8217,7 +8217,7 @@ window.DIVE_DAYS = [
               "Paschal 1",
               "Pope Paschal 1"
             ],
-            "note": ""
+            "note": "Pope who rebuilt Roman churches. (9th century)"
           },
           {
             "points": 60,
@@ -8229,20 +8229,20 @@ window.DIVE_DAYS = [
               "Eugene 2",
               "Pope Eugene 2"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Valentine",
               "Pope Valentine",
               "St Valentine",
               "Saint Valentine"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gregory IV",
               "Pope Gregory IV",
@@ -8251,7 +8251,7 @@ window.DIVE_DAYS = [
               "Gregory 4",
               "Pope Gregory 4"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
             "points": 60,
@@ -8263,10 +8263,10 @@ window.DIVE_DAYS = [
               "Sergius 2",
               "Pope Sergius 2"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Leo IV",
               "Pope Leo IV",
@@ -8275,7 +8275,7 @@ window.DIVE_DAYS = [
               "Leo 4",
               "Pope Leo 4"
             ],
-            "note": ""
+            "note": "Built the Leonine Wall around Vatican City. (9th century)"
           },
           {
             "points": 60,
@@ -8287,10 +8287,10 @@ window.DIVE_DAYS = [
               "Benedict 3",
               "Pope Benedict 3"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Nicholas I",
               "Pope Nicholas I",
@@ -8299,10 +8299,10 @@ window.DIVE_DAYS = [
               "Nicholas 1",
               "Pope Nicholas 1"
             ],
-            "note": ""
+            "note": "Strong assertor of papal power. (9th century)"
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Adrian II",
               "Pope Adrian II",
@@ -8312,10 +8312,10 @@ window.DIVE_DAYS = [
               "Pope Adrian 2",
               "Hadrian II"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "John VIII",
               "Pope John VIII",
@@ -8324,7 +8324,7 @@ window.DIVE_DAYS = [
               "John 8",
               "Pope John 8"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
             "points": 60,
@@ -8336,10 +8336,10 @@ window.DIVE_DAYS = [
               "Marinus 1",
               "Pope Marinus 1"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Adrian III",
               "Pope Adrian III",
@@ -8349,7 +8349,7 @@ window.DIVE_DAYS = [
               "Pope Adrian 3",
               "Hadrian III"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
             "points": 60,
@@ -8361,20 +8361,20 @@ window.DIVE_DAYS = [
               "Stephen 5",
               "Pope Stephen 5"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Formosus",
               "Pope Formosus",
               "St Formosus",
               "Saint Formosus"
             ],
-            "note": ""
+            "note": "Corpse put on trial in the 'Cadaver Synod'. (9th century)"
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Boniface VI",
               "Pope Boniface VI",
@@ -8383,7 +8383,7 @@ window.DIVE_DAYS = [
               "Boniface 6",
               "Pope Boniface 6"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
             "points": 60,
@@ -8395,20 +8395,20 @@ window.DIVE_DAYS = [
               "Stephen 6",
               "Pope Stephen 6"
             ],
-            "note": ""
+            "note": "Held the infamous Cadaver Synod. (9th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Romanus",
               "Pope Romanus",
               "St Romanus",
               "Saint Romanus"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Theodore II",
               "Pope Theodore II",
@@ -8417,10 +8417,10 @@ window.DIVE_DAYS = [
               "Theodore 2",
               "Pope Theodore 2"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "John IX",
               "Pope John IX",
@@ -8429,10 +8429,10 @@ window.DIVE_DAYS = [
               "John 9",
               "Pope John 9"
             ],
-            "note": ""
+            "note": "9th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Benedict IV",
               "Pope Benedict IV",
@@ -8441,10 +8441,10 @@ window.DIVE_DAYS = [
               "Benedict 4",
               "Pope Benedict 4"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Leo V",
               "Pope Leo V",
@@ -8453,10 +8453,10 @@ window.DIVE_DAYS = [
               "Leo 5",
               "Pope Leo 5"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Sergius III",
               "Pope Sergius III",
@@ -8465,10 +8465,10 @@ window.DIVE_DAYS = [
               "Sergius 3",
               "Pope Sergius 3"
             ],
-            "note": ""
+            "note": "Pope during the 'Pornocracy' era. (10th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Anastasius III",
               "Pope Anastasius III",
@@ -8477,7 +8477,7 @@ window.DIVE_DAYS = [
               "Anastasius 3",
               "Pope Anastasius 3"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
             "points": 100,
@@ -8487,10 +8487,10 @@ window.DIVE_DAYS = [
               "St Lando",
               "Saint Lando"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "John X",
               "Pope John X",
@@ -8499,10 +8499,10 @@ window.DIVE_DAYS = [
               "John 10",
               "Pope John 10"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Leo VI",
               "Pope Leo VI",
@@ -8511,10 +8511,10 @@ window.DIVE_DAYS = [
               "Leo 6",
               "Pope Leo 6"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Stephen VII",
               "Pope Stephen VII",
@@ -8523,10 +8523,10 @@ window.DIVE_DAYS = [
               "Stephen 7",
               "Pope Stephen 7"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "John XI",
               "Pope John XI",
@@ -8535,10 +8535,10 @@ window.DIVE_DAYS = [
               "John 11",
               "Pope John 11"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Leo VII",
               "Pope Leo VII",
@@ -8547,10 +8547,10 @@ window.DIVE_DAYS = [
               "Leo 7",
               "Pope Leo 7"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Stephen VIII",
               "Pope Stephen VIII",
@@ -8559,10 +8559,10 @@ window.DIVE_DAYS = [
               "Stephen 8",
               "Pope Stephen 8"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Marinus II",
               "Pope Marinus II",
@@ -8571,10 +8571,10 @@ window.DIVE_DAYS = [
               "Marinus 2",
               "Pope Marinus 2"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Agapetus II",
               "Pope Agapetus II",
@@ -8583,10 +8583,10 @@ window.DIVE_DAYS = [
               "Agapetus 2",
               "Pope Agapetus 2"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "John XII",
               "Pope John XII",
@@ -8595,10 +8595,10 @@ window.DIVE_DAYS = [
               "John 12",
               "Pope John 12"
             ],
-            "note": ""
+            "note": "Young, scandal-ridden pope who crowned Otto I. (10th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Benedict V",
               "Pope Benedict V",
@@ -8607,7 +8607,7 @@ window.DIVE_DAYS = [
               "Benedict 5",
               "Pope Benedict 5"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
             "points": 60,
@@ -8619,10 +8619,10 @@ window.DIVE_DAYS = [
               "Leo 8",
               "Pope Leo 8"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "John XIII",
               "Pope John XIII",
@@ -8631,7 +8631,7 @@ window.DIVE_DAYS = [
               "John 13",
               "Pope John 13"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
             "points": 60,
@@ -8643,7 +8643,7 @@ window.DIVE_DAYS = [
               "Benedict 6",
               "Pope Benedict 6"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
             "points": 60,
@@ -8655,10 +8655,10 @@ window.DIVE_DAYS = [
               "Benedict 7",
               "Pope Benedict 7"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "John XIV",
               "Pope John XIV",
@@ -8667,7 +8667,7 @@ window.DIVE_DAYS = [
               "John 14",
               "Pope John 14"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
             "points": 60,
@@ -8679,10 +8679,10 @@ window.DIVE_DAYS = [
               "John 15",
               "Pope John 15"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gregory V",
               "Pope Gregory V",
@@ -8691,10 +8691,10 @@ window.DIVE_DAYS = [
               "Gregory 5",
               "Pope Gregory 5"
             ],
-            "note": ""
+            "note": "10th-century pope."
           },
           {
-            "points": 100,
+            "points": 15,
             "forms": [
               "Sylvester II",
               "Pope Sylvester II",
@@ -8703,10 +8703,10 @@ window.DIVE_DAYS = [
               "Sylvester 2",
               "Pope Sylvester 2"
             ],
-            "note": ""
+            "note": "Gerbert of Aurillac; first French pope. (10th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "John XVII",
               "Pope John XVII",
@@ -8715,10 +8715,10 @@ window.DIVE_DAYS = [
               "John 17",
               "Pope John 17"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "John XVIII",
               "Pope John XVIII",
@@ -8727,10 +8727,10 @@ window.DIVE_DAYS = [
               "John 18",
               "Pope John 18"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Sergius IV",
               "Pope Sergius IV",
@@ -8739,7 +8739,7 @@ window.DIVE_DAYS = [
               "Sergius 4",
               "Pope Sergius 4"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
             "points": 60,
@@ -8751,7 +8751,7 @@ window.DIVE_DAYS = [
               "Benedict 8",
               "Pope Benedict 8"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
             "points": 60,
@@ -8763,10 +8763,10 @@ window.DIVE_DAYS = [
               "John 19",
               "Pope John 19"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
-            "points": 100,
+            "points": 15,
             "forms": [
               "Benedict IX",
               "Pope Benedict IX",
@@ -8775,7 +8775,7 @@ window.DIVE_DAYS = [
               "Benedict 9",
               "Pope Benedict 9"
             ],
-            "note": ""
+            "note": "Pope three times; sold the papacy. (11th century)"
           },
           {
             "points": 60,
@@ -8787,7 +8787,7 @@ window.DIVE_DAYS = [
               "Sylvester 3",
               "Pope Sylvester 3"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
             "points": 60,
@@ -8799,10 +8799,10 @@ window.DIVE_DAYS = [
               "Gregory 6",
               "Pope Gregory 6"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Clement II",
               "Pope Clement II",
@@ -8811,7 +8811,7 @@ window.DIVE_DAYS = [
               "Clement 2",
               "Pope Clement 2"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
             "points": 60,
@@ -8823,10 +8823,10 @@ window.DIVE_DAYS = [
               "Damasus 2",
               "Pope Damasus 2"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Leo IX",
               "Pope Leo IX",
@@ -8835,10 +8835,10 @@ window.DIVE_DAYS = [
               "Leo 9",
               "Pope Leo 9"
             ],
-            "note": ""
+            "note": "Reforming pope during the East-West Schism. (11th century)"
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Victor II",
               "Pope Victor II",
@@ -8847,7 +8847,7 @@ window.DIVE_DAYS = [
               "Victor 2",
               "Pope Victor 2"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
             "points": 60,
@@ -8859,7 +8859,7 @@ window.DIVE_DAYS = [
               "Stephen 9",
               "Pope Stephen 9"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
             "points": 60,
@@ -8871,10 +8871,10 @@ window.DIVE_DAYS = [
               "Nicholas 2",
               "Pope Nicholas 2"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Alexander II",
               "Pope Alexander II",
@@ -8883,10 +8883,10 @@ window.DIVE_DAYS = [
               "Alexander 2",
               "Pope Alexander 2"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Gregory VII",
               "Pope Gregory VII",
@@ -8895,10 +8895,10 @@ window.DIVE_DAYS = [
               "Gregory 7",
               "Pope Gregory 7"
             ],
-            "note": ""
+            "note": "Hildebrand, central to the Investiture Controversy. (11th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Victor III",
               "Pope Victor III",
@@ -8907,10 +8907,10 @@ window.DIVE_DAYS = [
               "Victor 3",
               "Pope Victor 3"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
-            "points": 100,
+            "points": 10,
             "forms": [
               "Urban II",
               "Pope Urban II",
@@ -8919,10 +8919,10 @@ window.DIVE_DAYS = [
               "Urban 2",
               "Pope Urban 2"
             ],
-            "note": ""
+            "note": "Called the First Crusade at Clermont in 1095. (11th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Paschal II",
               "Pope Paschal II",
@@ -8931,10 +8931,10 @@ window.DIVE_DAYS = [
               "Paschal 2",
               "Pope Paschal 2"
             ],
-            "note": ""
+            "note": "11th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Gelasius II",
               "Pope Gelasius II",
@@ -8943,10 +8943,10 @@ window.DIVE_DAYS = [
               "Gelasius 2",
               "Pope Gelasius 2"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Callixtus II",
               "Pope Callixtus II",
@@ -8955,10 +8955,10 @@ window.DIVE_DAYS = [
               "Callixtus 2",
               "Pope Callixtus 2"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Honorius II",
               "Pope Honorius II",
@@ -8967,10 +8967,10 @@ window.DIVE_DAYS = [
               "Honorius 2",
               "Pope Honorius 2"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Innocent II",
               "Pope Innocent II",
@@ -8979,10 +8979,10 @@ window.DIVE_DAYS = [
               "Innocent 2",
               "Pope Innocent 2"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Celestine II",
               "Pope Celestine II",
@@ -8991,10 +8991,10 @@ window.DIVE_DAYS = [
               "Celestine 2",
               "Pope Celestine 2"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Lucius II",
               "Pope Lucius II",
@@ -9003,10 +9003,10 @@ window.DIVE_DAYS = [
               "Lucius 2",
               "Pope Lucius 2"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Eugene III",
               "Pope Eugene III",
@@ -9015,10 +9015,10 @@ window.DIVE_DAYS = [
               "Eugene 3",
               "Pope Eugene 3"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Anastasius IV",
               "Pope Anastasius IV",
@@ -9027,10 +9027,10 @@ window.DIVE_DAYS = [
               "Anastasius 4",
               "Pope Anastasius 4"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 60,
+            "points": 15,
             "forms": [
               "Adrian IV",
               "Pope Adrian IV",
@@ -9040,10 +9040,10 @@ window.DIVE_DAYS = [
               "Pope Adrian 4",
               "Hadrian IV"
             ],
-            "note": ""
+            "note": "Nicholas Breakspear, the only English pope. (12th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Alexander III",
               "Pope Alexander III",
@@ -9052,10 +9052,10 @@ window.DIVE_DAYS = [
               "Alexander 3",
               "Pope Alexander 3"
             ],
-            "note": ""
+            "note": "Opposed Emperor Frederick Barbarossa. (12th century)"
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Lucius III",
               "Pope Lucius III",
@@ -9064,7 +9064,7 @@ window.DIVE_DAYS = [
               "Lucius 3",
               "Pope Lucius 3"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
             "points": 60,
@@ -9076,7 +9076,7 @@ window.DIVE_DAYS = [
               "Urban 3",
               "Pope Urban 3"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
             "points": 60,
@@ -9088,10 +9088,10 @@ window.DIVE_DAYS = [
               "Gregory 8",
               "Pope Gregory 8"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 100,
+            "points": 60,
             "forms": [
               "Clement III",
               "Pope Clement III",
@@ -9100,10 +9100,10 @@ window.DIVE_DAYS = [
               "Clement 3",
               "Pope Clement 3"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Celestine III",
               "Pope Celestine III",
@@ -9112,10 +9112,10 @@ window.DIVE_DAYS = [
               "Celestine 3",
               "Pope Celestine 3"
             ],
-            "note": ""
+            "note": "12th-century pope."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Innocent III",
               "Pope Innocent III",
@@ -9124,10 +9124,10 @@ window.DIVE_DAYS = [
               "Innocent 3",
               "Pope Innocent 3"
             ],
-            "note": ""
+            "note": "Powerful pope who launched the Fourth Crusade. (12th century)"
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Honorius III",
               "Pope Honorius III",
@@ -9136,10 +9136,10 @@ window.DIVE_DAYS = [
               "Honorius 3",
               "Pope Honorius 3"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gregory IX",
               "Pope Gregory IX",
@@ -9148,10 +9148,10 @@ window.DIVE_DAYS = [
               "Gregory 9",
               "Pope Gregory 9"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Celestine IV",
               "Pope Celestine IV",
@@ -9160,10 +9160,10 @@ window.DIVE_DAYS = [
               "Celestine 4",
               "Pope Celestine 4"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Innocent IV",
               "Pope Innocent IV",
@@ -9172,10 +9172,10 @@ window.DIVE_DAYS = [
               "Innocent 4",
               "Pope Innocent 4"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Alexander IV",
               "Pope Alexander IV",
@@ -9184,10 +9184,10 @@ window.DIVE_DAYS = [
               "Alexander 4",
               "Pope Alexander 4"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Urban IV",
               "Pope Urban IV",
@@ -9196,10 +9196,10 @@ window.DIVE_DAYS = [
               "Urban 4",
               "Pope Urban 4"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Clement IV",
               "Pope Clement IV",
@@ -9208,10 +9208,10 @@ window.DIVE_DAYS = [
               "Clement 4",
               "Pope Clement 4"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gregory X",
               "Pope Gregory X",
@@ -9220,10 +9220,10 @@ window.DIVE_DAYS = [
               "Gregory 10",
               "Pope Gregory 10"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Innocent V",
               "Pope Innocent V",
@@ -9232,10 +9232,10 @@ window.DIVE_DAYS = [
               "Innocent 5",
               "Pope Innocent 5"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Adrian V",
               "Pope Adrian V",
@@ -9245,10 +9245,10 @@ window.DIVE_DAYS = [
               "Pope Adrian 5",
               "Hadrian V"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "John XXI",
               "Pope John XXI",
@@ -9257,10 +9257,10 @@ window.DIVE_DAYS = [
               "John 21",
               "Pope John 21"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Nicholas III",
               "Pope Nicholas III",
@@ -9269,10 +9269,10 @@ window.DIVE_DAYS = [
               "Nicholas 3",
               "Pope Nicholas 3"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Martin IV",
               "Pope Martin IV",
@@ -9281,10 +9281,10 @@ window.DIVE_DAYS = [
               "Martin 4",
               "Pope Martin 4"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Honorius IV",
               "Pope Honorius IV",
@@ -9293,10 +9293,10 @@ window.DIVE_DAYS = [
               "Honorius 4",
               "Pope Honorius 4"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Nicholas IV",
               "Pope Nicholas IV",
@@ -9305,10 +9305,10 @@ window.DIVE_DAYS = [
               "Nicholas 4",
               "Pope Nicholas 4"
             ],
-            "note": ""
+            "note": "13th-century pope."
           },
           {
-            "points": 100,
+            "points": 15,
             "forms": [
               "Celestine V",
               "Pope Celestine V",
@@ -9317,10 +9317,10 @@ window.DIVE_DAYS = [
               "Celestine 5",
               "Pope Celestine 5"
             ],
-            "note": ""
+            "note": "Hermit who resigned after five months. (13th century)"
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Boniface VIII",
               "Pope Boniface VIII",
@@ -9329,10 +9329,10 @@ window.DIVE_DAYS = [
               "Boniface 8",
               "Pope Boniface 8"
             ],
-            "note": ""
+            "note": "Issued Unam Sanctam and clashed with Philip IV of France. (13th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Benedict XI",
               "Pope Benedict XI",
@@ -9341,10 +9341,10 @@ window.DIVE_DAYS = [
               "Benedict 11",
               "Pope Benedict 11"
             ],
-            "note": ""
+            "note": "14th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Clement V",
               "Pope Clement V",
@@ -9353,10 +9353,10 @@ window.DIVE_DAYS = [
               "Clement 5",
               "Pope Clement 5"
             ],
-            "note": ""
+            "note": "Moved the papacy to Avignon. (14th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "John XXII",
               "Pope John XXII",
@@ -9365,10 +9365,10 @@ window.DIVE_DAYS = [
               "John 22",
               "Pope John 22"
             ],
-            "note": ""
+            "note": "Avignon pope who fought the Spiritual Franciscans. (14th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Benedict XII",
               "Pope Benedict XII",
@@ -9377,10 +9377,10 @@ window.DIVE_DAYS = [
               "Benedict 12",
               "Pope Benedict 12"
             ],
-            "note": ""
+            "note": "14th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Clement VI",
               "Pope Clement VI",
@@ -9389,10 +9389,10 @@ window.DIVE_DAYS = [
               "Clement 6",
               "Pope Clement 6"
             ],
-            "note": ""
+            "note": "14th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Innocent VI",
               "Pope Innocent VI",
@@ -9401,10 +9401,10 @@ window.DIVE_DAYS = [
               "Innocent 6",
               "Pope Innocent 6"
             ],
-            "note": ""
+            "note": "14th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Urban V",
               "Pope Urban V",
@@ -9413,10 +9413,10 @@ window.DIVE_DAYS = [
               "Urban 5",
               "Pope Urban 5"
             ],
-            "note": ""
+            "note": "14th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Gregory XI",
               "Pope Gregory XI",
@@ -9425,10 +9425,10 @@ window.DIVE_DAYS = [
               "Gregory 11",
               "Pope Gregory 11"
             ],
-            "note": ""
+            "note": "Returned the papacy from Avignon to Rome. (14th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Urban VI",
               "Pope Urban VI",
@@ -9437,10 +9437,10 @@ window.DIVE_DAYS = [
               "Urban 6",
               "Pope Urban 6"
             ],
-            "note": ""
+            "note": "His election sparked the Western Schism. (14th century)"
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Boniface IX",
               "Pope Boniface IX",
@@ -9449,10 +9449,10 @@ window.DIVE_DAYS = [
               "Boniface 9",
               "Pope Boniface 9"
             ],
-            "note": ""
+            "note": "14th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Innocent VII",
               "Pope Innocent VII",
@@ -9461,10 +9461,10 @@ window.DIVE_DAYS = [
               "Innocent 7",
               "Pope Innocent 7"
             ],
-            "note": ""
+            "note": "15th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gregory XII",
               "Pope Gregory XII",
@@ -9473,10 +9473,10 @@ window.DIVE_DAYS = [
               "Gregory 12",
               "Pope Gregory 12"
             ],
-            "note": ""
+            "note": "Resigned to end the Western Schism. (15th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Martin V",
               "Pope Martin V",
@@ -9485,10 +9485,10 @@ window.DIVE_DAYS = [
               "Martin 5",
               "Pope Martin 5"
             ],
-            "note": ""
+            "note": "Elected at the Council of Constance, ending the schism. (15th century)"
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Eugene IV",
               "Pope Eugene IV",
@@ -9497,10 +9497,10 @@ window.DIVE_DAYS = [
               "Eugene 4",
               "Pope Eugene 4"
             ],
-            "note": ""
+            "note": "15th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Nicholas V",
               "Pope Nicholas V",
@@ -9509,10 +9509,10 @@ window.DIVE_DAYS = [
               "Nicholas 5",
               "Pope Nicholas 5"
             ],
-            "note": ""
+            "note": "Founded the Vatican Library. (15th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Callixtus III",
               "Pope Callixtus III",
@@ -9521,10 +9521,10 @@ window.DIVE_DAYS = [
               "Callixtus 3",
               "Pope Callixtus 3"
             ],
-            "note": ""
+            "note": "15th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Pius II",
               "Pope Pius II",
@@ -9533,10 +9533,10 @@ window.DIVE_DAYS = [
               "Pius 2",
               "Pope Pius 2"
             ],
-            "note": ""
+            "note": "Humanist pope, born Enea Silvio Piccolomini. (15th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Paul II",
               "Pope Paul II",
@@ -9545,10 +9545,10 @@ window.DIVE_DAYS = [
               "Paul 2",
               "Pope Paul 2"
             ],
-            "note": ""
+            "note": "15th-century pope."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Sixtus IV",
               "Pope Sixtus IV",
@@ -9557,10 +9557,10 @@ window.DIVE_DAYS = [
               "Sixtus 4",
               "Pope Sixtus 4"
             ],
-            "note": ""
+            "note": "Built the Sistine Chapel. (15th century)"
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Innocent VIII",
               "Pope Innocent VIII",
@@ -9569,10 +9569,10 @@ window.DIVE_DAYS = [
               "Innocent 8",
               "Pope Innocent 8"
             ],
-            "note": ""
+            "note": "15th-century pope."
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Alexander VI",
               "Pope Alexander VI",
@@ -9581,10 +9581,10 @@ window.DIVE_DAYS = [
               "Alexander 6",
               "Pope Alexander 6"
             ],
-            "note": ""
+            "note": "Borgia pope, father of Cesare and Lucrezia. (15th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Pius III",
               "Pope Pius III",
@@ -9593,10 +9593,10 @@ window.DIVE_DAYS = [
               "Pius 3",
               "Pope Pius 3"
             ],
-            "note": ""
+            "note": "16th-century pope."
           },
           {
-            "points": 100,
+            "points": 10,
             "forms": [
               "Julius II",
               "Pope Julius II",
@@ -9605,10 +9605,10 @@ window.DIVE_DAYS = [
               "Julius 2",
               "Pope Julius 2"
             ],
-            "note": ""
+            "note": "Warrior pope who commissioned Michelangelo's ceiling. (16th century)"
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Leo X",
               "Pope Leo X",
@@ -9617,10 +9617,10 @@ window.DIVE_DAYS = [
               "Leo 10",
               "Pope Leo 10"
             ],
-            "note": ""
+            "note": "Medici pope during Luther's 95 Theses. (16th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Adrian VI",
               "Pope Adrian VI",
@@ -9630,10 +9630,10 @@ window.DIVE_DAYS = [
               "Pope Adrian 6",
               "Hadrian VI"
             ],
-            "note": ""
+            "note": "Last non-Italian pope until John Paul II. (16th century)"
           },
           {
-            "points": 100,
+            "points": 10,
             "forms": [
               "Clement VII",
               "Pope Clement VII",
@@ -9642,10 +9642,10 @@ window.DIVE_DAYS = [
               "Clement 7",
               "Pope Clement 7"
             ],
-            "note": ""
+            "note": "Medici pope during the Sack of Rome and Henry VIII's divorce. (16th century)"
           },
           {
-            "points": 60,
+            "points": 10,
             "forms": [
               "Paul III",
               "Pope Paul III",
@@ -9654,10 +9654,10 @@ window.DIVE_DAYS = [
               "Paul 3",
               "Pope Paul 3"
             ],
-            "note": ""
+            "note": "Called the Council of Trent. (16th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Julius III",
               "Pope Julius III",
@@ -9666,10 +9666,10 @@ window.DIVE_DAYS = [
               "Julius 3",
               "Pope Julius 3"
             ],
-            "note": ""
+            "note": "16th-century pope."
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Marcellus II",
               "Pope Marcellus II",
@@ -9678,10 +9678,10 @@ window.DIVE_DAYS = [
               "Marcellus 2",
               "Pope Marcellus 2"
             ],
-            "note": ""
+            "note": "16th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Paul IV",
               "Pope Paul IV",
@@ -9690,10 +9690,10 @@ window.DIVE_DAYS = [
               "Paul 4",
               "Pope Paul 4"
             ],
-            "note": ""
+            "note": "Issued the first Index of Forbidden Books. (16th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Pius IV",
               "Pope Pius IV",
@@ -9702,10 +9702,10 @@ window.DIVE_DAYS = [
               "Pius 4",
               "Pope Pius 4"
             ],
-            "note": ""
+            "note": "16th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Pius V",
               "Pope Pius V",
@@ -9714,10 +9714,10 @@ window.DIVE_DAYS = [
               "Pius 5",
               "Pope Pius 5"
             ],
-            "note": ""
+            "note": "Anti-Reformation pope later canonized. (16th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Gregory XIII",
               "Pope Gregory XIII",
@@ -9726,10 +9726,10 @@ window.DIVE_DAYS = [
               "Gregory 13",
               "Pope Gregory 13"
             ],
-            "note": ""
+            "note": "Introduced the Gregorian calendar. (16th century)"
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Sixtus V",
               "Pope Sixtus V",
@@ -9738,10 +9738,10 @@ window.DIVE_DAYS = [
               "Sixtus 5",
               "Pope Sixtus 5"
             ],
-            "note": ""
+            "note": "Reorganized the Curia and rebuilt Rome. (16th century)"
           },
           {
-            "points": 100,
+            "points": 85,
             "forms": [
               "Urban VII",
               "Pope Urban VII",
@@ -9750,10 +9750,10 @@ window.DIVE_DAYS = [
               "Urban 7",
               "Pope Urban 7"
             ],
-            "note": ""
+            "note": "16th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Gregory XIV",
               "Pope Gregory XIV",
@@ -9762,10 +9762,10 @@ window.DIVE_DAYS = [
               "Gregory 14",
               "Pope Gregory 14"
             ],
-            "note": ""
+            "note": "16th-century pope."
           },
           {
-            "points": 60,
+            "points": 85,
             "forms": [
               "Innocent IX",
               "Pope Innocent IX",
@@ -9774,10 +9774,10 @@ window.DIVE_DAYS = [
               "Innocent 9",
               "Pope Innocent 9"
             ],
-            "note": ""
+            "note": "16th-century pope."
           },
           {
-            "points": 100,
+            "points": 30,
             "forms": [
               "Clement VIII",
               "Pope Clement VIII",
@@ -9786,10 +9786,10 @@ window.DIVE_DAYS = [
               "Clement 8",
               "Pope Clement 8"
             ],
-            "note": ""
+            "note": "16th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Leo XI",
               "Pope Leo XI",
@@ -9798,10 +9798,10 @@ window.DIVE_DAYS = [
               "Leo 11",
               "Pope Leo 11"
             ],
-            "note": ""
+            "note": "17th-century pope."
           },
           {
-            "points": 60,
+            "points": 30,
             "forms": [
               "Paul V",
               "Pope Paul V",
@@ -9810,7 +9810,7 @@ window.DIVE_DAYS = [
               "Paul 5",
               "Pope Paul 5"
             ],
-            "note": ""
+            "note": "17th-century pope."
           },
           {
             "points": 30,
@@ -9822,10 +9822,10 @@ window.DIVE_DAYS = [
               "Gregory 15",
               "Pope Gregory 15"
             ],
-            "note": ""
+            "note": "17th-century pope."
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Urban VIII",
               "Pope Urban VIII",
@@ -9834,7 +9834,7 @@ window.DIVE_DAYS = [
               "Urban 8",
               "Pope Urban 8"
             ],
-            "note": ""
+            "note": "Pope during Galileo's trial. (17th century)"
           },
           {
             "points": 30,
@@ -9846,7 +9846,7 @@ window.DIVE_DAYS = [
               "Innocent 10",
               "Pope Innocent 10"
             ],
-            "note": ""
+            "note": "Subject of Vel\u00e1zquez's famous portrait. (17th century)"
           },
           {
             "points": 30,
@@ -9858,7 +9858,7 @@ window.DIVE_DAYS = [
               "Alexander 7",
               "Pope Alexander 7"
             ],
-            "note": ""
+            "note": "17th-century pope."
           },
           {
             "points": 30,
@@ -9870,10 +9870,10 @@ window.DIVE_DAYS = [
               "Clement 9",
               "Pope Clement 9"
             ],
-            "note": ""
+            "note": "17th-century pope."
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Clement X",
               "Pope Clement X",
@@ -9882,7 +9882,7 @@ window.DIVE_DAYS = [
               "Clement 10",
               "Pope Clement 10"
             ],
-            "note": ""
+            "note": "17th-century pope."
           },
           {
             "points": 30,
@@ -9894,10 +9894,10 @@ window.DIVE_DAYS = [
               "Innocent 11",
               "Pope Innocent 11"
             ],
-            "note": ""
+            "note": "17th-century pope."
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Alexander VIII",
               "Pope Alexander VIII",
@@ -9906,10 +9906,10 @@ window.DIVE_DAYS = [
               "Alexander 8",
               "Pope Alexander 8"
             ],
-            "note": ""
+            "note": "17th-century pope."
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Innocent XII",
               "Pope Innocent XII",
@@ -9918,7 +9918,7 @@ window.DIVE_DAYS = [
               "Innocent 12",
               "Pope Innocent 12"
             ],
-            "note": ""
+            "note": "17th-century pope."
           },
           {
             "points": 30,
@@ -9930,10 +9930,10 @@ window.DIVE_DAYS = [
               "Clement 11",
               "Pope Clement 11"
             ],
-            "note": ""
+            "note": "18th-century pope."
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Innocent XIII",
               "Pope Innocent XIII",
@@ -9942,7 +9942,7 @@ window.DIVE_DAYS = [
               "Innocent 13",
               "Pope Innocent 13"
             ],
-            "note": ""
+            "note": "18th-century pope."
           },
           {
             "points": 30,
@@ -9954,10 +9954,10 @@ window.DIVE_DAYS = [
               "Benedict 13",
               "Pope Benedict 13"
             ],
-            "note": ""
+            "note": "18th-century pope."
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Clement XII",
               "Pope Clement XII",
@@ -9966,7 +9966,7 @@ window.DIVE_DAYS = [
               "Clement 12",
               "Pope Clement 12"
             ],
-            "note": ""
+            "note": "18th-century pope."
           },
           {
             "points": 30,
@@ -9978,10 +9978,10 @@ window.DIVE_DAYS = [
               "Benedict 14",
               "Pope Benedict 14"
             ],
-            "note": ""
+            "note": "18th-century pope."
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Clement XIII",
               "Pope Clement XIII",
@@ -9990,7 +9990,7 @@ window.DIVE_DAYS = [
               "Clement 13",
               "Pope Clement 13"
             ],
-            "note": ""
+            "note": "18th-century pope."
           },
           {
             "points": 30,
@@ -10002,7 +10002,7 @@ window.DIVE_DAYS = [
               "Clement 14",
               "Pope Clement 14"
             ],
-            "note": ""
+            "note": "Suppressed the Jesuits in 1773. (18th century)"
           },
           {
             "points": 30,
@@ -10014,7 +10014,7 @@ window.DIVE_DAYS = [
               "Pius 6",
               "Pope Pius 6"
             ],
-            "note": ""
+            "note": "Died a prisoner of Napoleon's France. (18th century)"
           },
           {
             "points": 30,
@@ -10026,7 +10026,7 @@ window.DIVE_DAYS = [
               "Pius 7",
               "Pope Pius 7"
             ],
-            "note": ""
+            "note": "Crowned Napoleon and was imprisoned by him. (19th century)"
           },
           {
             "points": 30,
@@ -10038,7 +10038,7 @@ window.DIVE_DAYS = [
               "Leo 12",
               "Pope Leo 12"
             ],
-            "note": ""
+            "note": "19th-century pope."
           },
           {
             "points": 30,
@@ -10050,7 +10050,7 @@ window.DIVE_DAYS = [
               "Pius 8",
               "Pope Pius 8"
             ],
-            "note": ""
+            "note": "19th-century pope."
           },
           {
             "points": 30,
@@ -10062,10 +10062,10 @@ window.DIVE_DAYS = [
               "Gregory 16",
               "Pope Gregory 16"
             ],
-            "note": ""
+            "note": "Conservative pope who opposed liberalism. (19th century)"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Pius IX",
               "Pope Pius IX",
@@ -10074,10 +10074,10 @@ window.DIVE_DAYS = [
               "Pius 9",
               "Pope Pius 9"
             ],
-            "note": ""
+            "note": "Longest reign: 31 years; held Vatican I. (19th century)"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Leo XIII",
               "Pope Leo XIII",
@@ -10086,10 +10086,10 @@ window.DIVE_DAYS = [
               "Leo 13",
               "Pope Leo 13"
             ],
-            "note": ""
+            "note": "Wrote Rerum Novarum on labor and social justice. (19th century)"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Pius X",
               "Pope Pius X",
@@ -10098,7 +10098,7 @@ window.DIVE_DAYS = [
               "Pius 10",
               "Pope Pius 10"
             ],
-            "note": ""
+            "note": "Canonized pope who fought modernism. (20th century)"
           },
           {
             "points": 30,
@@ -10110,7 +10110,7 @@ window.DIVE_DAYS = [
               "Benedict 15",
               "Pope Benedict 15"
             ],
-            "note": ""
+            "note": "World War I pope who sought peace. (20th century)"
           },
           {
             "points": 30,
@@ -10122,10 +10122,10 @@ window.DIVE_DAYS = [
               "Pius 11",
               "Pope Pius 11"
             ],
-            "note": ""
+            "note": "Signed the Lateran Treaty, creating Vatican City. (20th century)"
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Pius XII",
               "Pope Pius XII",
@@ -10134,10 +10134,10 @@ window.DIVE_DAYS = [
               "Pius 12",
               "Pope Pius 12"
             ],
-            "note": ""
+            "note": "Pope through World War II. (20th century)"
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "John XXIII",
               "Pope John XXIII",
@@ -10146,10 +10146,10 @@ window.DIVE_DAYS = [
               "John 23",
               "Pope John 23"
             ],
-            "note": ""
+            "note": "Called the Second Vatican Council. (20th century)"
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "Paul VI",
               "Pope Paul VI",
@@ -10158,10 +10158,10 @@ window.DIVE_DAYS = [
               "Paul 6",
               "Pope Paul 6"
             ],
-            "note": ""
+            "note": "Finished Vatican II and traveled widely. (20th century)"
           },
           {
-            "points": 15,
+            "points": 10,
             "forms": [
               "John Paul I",
               "Pope John Paul I",
@@ -10170,7 +10170,7 @@ window.DIVE_DAYS = [
               "John Paul 1",
               "Pope John Paul 1"
             ],
-            "note": ""
+            "note": "Pope for just 33 days in 1978. (20th century)"
           },
           {
             "points": 10,
@@ -10183,7 +10183,7 @@ window.DIVE_DAYS = [
               "Pope John Paul 2",
               "Karol Wojtyla"
             ],
-            "note": ""
+            "note": "Polish pope (1978\u20132005) and first non-Italian in 455 years. (20th century)"
           },
           {
             "points": 10,
@@ -10196,7 +10196,7 @@ window.DIVE_DAYS = [
               "Pope Benedict 16",
               "Joseph Ratzinger"
             ],
-            "note": ""
+            "note": "Resigned in 2013, the first pope to do so in 600 years. (21st century)"
           },
           {
             "points": 10,
@@ -10207,7 +10207,7 @@ window.DIVE_DAYS = [
               "Saint Francis",
               "Jorge Mario Bergoglio"
             ],
-            "note": ""
+            "note": "First Jesuit and Latin American pope, 2013 to 2025. (21st century)"
           },
           {
             "points": 10,
@@ -10221,7 +10221,7 @@ window.DIVE_DAYS = [
               "Robert Prevost",
               "Robert Francis Prevost"
             ],
-            "note": ""
+            "note": "First American pope, elected in 2025. (21st century)"
           }
         ]
       },
@@ -10239,7 +10239,7 @@ window.DIVE_DAYS = [
             "note": "Alabama"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Cotton Plantation State",
               "The Cotton Plantation State",
@@ -10257,7 +10257,7 @@ window.DIVE_DAYS = [
             "note": "Alabama"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Heart of Dixie",
               "The Heart of Dixie"
@@ -10265,7 +10265,7 @@ window.DIVE_DAYS = [
             "note": "Alabama"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Lizard State",
               "The Lizard State",
@@ -10274,7 +10274,7 @@ window.DIVE_DAYS = [
             "note": "Alabama"
           },
           {
-            "points": 85,
+            "points": 15,
             "forms": [
               "Sweet Home Alabama",
               "The Sweet Home Alabama"
@@ -10291,7 +10291,7 @@ window.DIVE_DAYS = [
             "note": "Alabama"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Land of the Midnight Sun",
               "The Land of the Midnight Sun"
@@ -10307,7 +10307,7 @@ window.DIVE_DAYS = [
             "note": "Alaska"
           },
           {
-            "points": 85,
+            "points": 10,
             "forms": [
               "Last Frontier",
               "The Last Frontier"
@@ -10315,7 +10315,7 @@ window.DIVE_DAYS = [
             "note": "Alaska"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Seward's Folly",
               "The Seward's Folly",
@@ -10349,7 +10349,7 @@ window.DIVE_DAYS = [
             "note": "Alaska"
           },
           {
-            "points": 85,
+            "points": 100,
             "forms": [
               "Walrussia",
               "The Walrussia"
@@ -10383,7 +10383,7 @@ window.DIVE_DAYS = [
             "note": "American Samoa"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Apache State",
               "The Apache State",
@@ -10392,7 +10392,7 @@ window.DIVE_DAYS = [
             "note": "Arizona"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Aztec State",
               "The Aztec State",
@@ -10401,7 +10401,7 @@ window.DIVE_DAYS = [
             "note": "Arizona"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Baby State",
               "The Baby State",
@@ -10419,7 +10419,7 @@ window.DIVE_DAYS = [
             "note": "Arizona, Wisconsin"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Grand Canyon State",
               "The Grand Canyon State",
@@ -10436,7 +10436,7 @@ window.DIVE_DAYS = [
             "note": "Arizona"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Sand Hill State",
               "The Sand Hill State",
@@ -10445,7 +10445,7 @@ window.DIVE_DAYS = [
             "note": "Arizona"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Sunset State",
               "The Sunset State",
@@ -10454,7 +10454,7 @@ window.DIVE_DAYS = [
             "note": "Arizona"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Sweetheart State",
               "The Sweetheart State",
@@ -10463,7 +10463,7 @@ window.DIVE_DAYS = [
             "note": "Arizona"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Valentine State",
               "The Valentine State",
@@ -10472,7 +10472,7 @@ window.DIVE_DAYS = [
             "note": "Arizona"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Bear State",
               "The Bear State",
@@ -10481,7 +10481,7 @@ window.DIVE_DAYS = [
             "note": "Arkansas"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Bowie State",
               "The Bowie State",
@@ -10490,7 +10490,7 @@ window.DIVE_DAYS = [
             "note": "Arkansas"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Hot Springs State",
               "The Hot Springs State",
@@ -10499,7 +10499,7 @@ window.DIVE_DAYS = [
             "note": "Arkansas"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Land of Opportunity",
               "The Land of Opportunity"
@@ -10525,7 +10525,7 @@ window.DIVE_DAYS = [
             "note": "Arkansas"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Toothpick State",
               "The Toothpick State",
@@ -10534,7 +10534,7 @@ window.DIVE_DAYS = [
             "note": "Arkansas"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Wonder State",
               "The Wonder State",
@@ -10561,7 +10561,7 @@ window.DIVE_DAYS = [
             "note": "California"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Buffalo Plains State",
               "The Buffalo Plains State",
@@ -10579,7 +10579,7 @@ window.DIVE_DAYS = [
             "note": "Colorado"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Colorful Colorado",
               "The Colorful Colorado"
@@ -10587,7 +10587,7 @@ window.DIVE_DAYS = [
             "note": "Colorado"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Columbine State",
               "The Columbine State",
@@ -10596,7 +10596,7 @@ window.DIVE_DAYS = [
             "note": "Colorado"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Highest State",
               "The Highest State",
@@ -10605,7 +10605,7 @@ window.DIVE_DAYS = [
             "note": "Colorado"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Lead State",
               "The Lead State",
@@ -10622,7 +10622,7 @@ window.DIVE_DAYS = [
             "note": "Colorado, New Hampshire"
           },
           {
-            "points": 10,
+            "points": 60,
             "forms": [
               "Rocky Mountain Empire",
               "The Rocky Mountain Empire"
@@ -10648,7 +10648,7 @@ window.DIVE_DAYS = [
             "note": "Colorado, Nevada"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Ski Country USA",
               "The Ski Country USA"
@@ -10656,7 +10656,7 @@ window.DIVE_DAYS = [
             "note": "Colorado"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Switzerland of America",
               "The Switzerland of America"
@@ -10664,7 +10664,7 @@ window.DIVE_DAYS = [
             "note": "Colorado, New Hampshire, West Virginia"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Constitution State",
               "The Constitution State",
@@ -10673,7 +10673,7 @@ window.DIVE_DAYS = [
             "note": "Connecticut"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Nutmeg State",
               "The Nutmeg State",
@@ -10682,7 +10682,7 @@ window.DIVE_DAYS = [
             "note": "Connecticut"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Provision State",
               "The Provision State",
@@ -10691,7 +10691,7 @@ window.DIVE_DAYS = [
             "note": "Connecticut"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Blue Law State",
               "The Blue Law State",
@@ -10700,7 +10700,7 @@ window.DIVE_DAYS = [
             "note": "Connecticut"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Freestone State",
               "The Freestone State",
@@ -10717,7 +10717,7 @@ window.DIVE_DAYS = [
             "note": "Connecticut"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Chemical Capital of the World",
               "The Chemical Capital of the World"
@@ -10725,7 +10725,7 @@ window.DIVE_DAYS = [
             "note": "Delaware"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Corporate Capital",
               "The Corporate Capital"
@@ -10751,7 +10751,7 @@ window.DIVE_DAYS = [
             "note": "Delaware"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Blue Hen Chicken State",
               "The Blue Hen Chicken State",
@@ -10760,7 +10760,7 @@ window.DIVE_DAYS = [
             "note": "Delaware"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "First State",
               "The First State",
@@ -10786,7 +10786,7 @@ window.DIVE_DAYS = [
             "note": "Delaware"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Nation's Capital",
               "The Nation's Capital",
@@ -10795,7 +10795,7 @@ window.DIVE_DAYS = [
             "note": "District of Columbia"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "DMV",
               "The DMV"
@@ -10803,7 +10803,7 @@ window.DIVE_DAYS = [
             "note": "District of Columbia"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Inside the Beltway",
               "The Inside the Beltway"
@@ -10837,7 +10837,7 @@ window.DIVE_DAYS = [
             "note": "Florida"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Flower State",
               "The Flower State",
@@ -10846,7 +10846,7 @@ window.DIVE_DAYS = [
             "note": "Florida"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Gulf State",
               "The Gulf State",
@@ -10855,7 +10855,7 @@ window.DIVE_DAYS = [
             "note": "Florida"
           },
           {
-            "points": 30,
+            "points": 100,
             "forms": [
               "Gunshine State",
               "The Gunshine State",
@@ -10882,7 +10882,7 @@ window.DIVE_DAYS = [
             "note": "Florida"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Palm Tree State",
               "The Palm Tree State",
@@ -10891,7 +10891,7 @@ window.DIVE_DAYS = [
             "note": "Florida"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Peninsula State",
               "The Peninsula State",
@@ -10900,7 +10900,7 @@ window.DIVE_DAYS = [
             "note": "Florida"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Peninsular State",
               "The Peninsular State",
@@ -10909,7 +10909,7 @@ window.DIVE_DAYS = [
             "note": "Florida"
           },
           {
-            "points": 30,
+            "points": 100,
             "forms": [
               "Plywood State",
               "The Plywood State",
@@ -10927,7 +10927,7 @@ window.DIVE_DAYS = [
             "note": "Florida, South Dakota"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Free State of Florida",
               "The Free State of Florida"
@@ -10935,7 +10935,7 @@ window.DIVE_DAYS = [
             "note": "Florida"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Cracker State",
               "The Cracker State",
@@ -10944,7 +10944,7 @@ window.DIVE_DAYS = [
             "note": "Georgia"
           },
           {
-            "points": 10,
+            "points": 30,
             "forms": [
               "Empire State of the South",
               "The Empire State of the South"
@@ -10952,7 +10952,7 @@ window.DIVE_DAYS = [
             "note": "Georgia"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Goober State",
               "The Goober State",
@@ -11003,7 +11003,7 @@ window.DIVE_DAYS = [
             "note": "Hawaii"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Paradise of the Pacific",
               "The Paradise of the Pacific"
@@ -11011,7 +11011,7 @@ window.DIVE_DAYS = [
             "note": "Hawaii"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Pineapple State",
               "The Pineapple State",
@@ -11020,7 +11020,7 @@ window.DIVE_DAYS = [
             "note": "Hawaii"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Rainbow State",
               "The Rainbow State",
@@ -11029,7 +11029,7 @@ window.DIVE_DAYS = [
             "note": "Hawaii"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Youngest State",
               "The Youngest State",
@@ -11038,7 +11038,7 @@ window.DIVE_DAYS = [
             "note": "Hawaii"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "808 State",
               "The 808 State",
@@ -11056,7 +11056,7 @@ window.DIVE_DAYS = [
             "note": "Idaho"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Gem of the Mountains",
               "The Gem of the Mountains"
@@ -11081,7 +11081,7 @@ window.DIVE_DAYS = [
             "note": "Idaho"
           },
           {
-            "points": 85,
+            "points": 10,
             "forms": [
               "Land of Lincoln",
               "The Land of Lincoln"
@@ -11098,7 +11098,7 @@ window.DIVE_DAYS = [
             "note": "Illinois"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Corn State",
               "The Corn State",
@@ -11107,7 +11107,7 @@ window.DIVE_DAYS = [
             "note": "Illinois"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Garden of the West",
               "The Garden of the West"
@@ -11115,7 +11115,7 @@ window.DIVE_DAYS = [
             "note": "Illinois"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Hoosier State",
               "The Hoosier State",
@@ -11124,7 +11124,7 @@ window.DIVE_DAYS = [
             "note": "Indiana"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Crossroads of America",
               "The Crossroads of America"
@@ -11141,7 +11141,7 @@ window.DIVE_DAYS = [
             "note": "Iowa"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "America's Heartland",
               "The America's Heartland",
@@ -11150,7 +11150,7 @@ window.DIVE_DAYS = [
             "note": "Kansas"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Central State",
               "The Central State",
@@ -11159,7 +11159,7 @@ window.DIVE_DAYS = [
             "note": "Kansas"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Dorothy's Home",
               "The Dorothy's Home",
@@ -11220,7 +11220,7 @@ window.DIVE_DAYS = [
             "note": "Kansas"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Breadbasket of the World",
               "The Breadbasket of the World"
@@ -11228,7 +11228,7 @@ window.DIVE_DAYS = [
             "note": "Kansas"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Bluegrass State",
               "The Bluegrass State",
@@ -11237,7 +11237,7 @@ window.DIVE_DAYS = [
             "note": "Kentucky"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Corn-cracker State",
               "The Corn-cracker State",
@@ -11246,7 +11246,7 @@ window.DIVE_DAYS = [
             "note": "Kentucky"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Dark and Bloody Ground State",
               "The Dark and Bloody Ground State",
@@ -11255,7 +11255,7 @@ window.DIVE_DAYS = [
             "note": "Kentucky"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Hemp State",
               "The Hemp State",
@@ -11264,7 +11264,7 @@ window.DIVE_DAYS = [
             "note": "Kentucky"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Tobacco State",
               "The Tobacco State",
@@ -11291,7 +11291,7 @@ window.DIVE_DAYS = [
             "note": "Louisiana"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Pelican State",
               "The Pelican State",
@@ -11300,7 +11300,7 @@ window.DIVE_DAYS = [
             "note": "Louisiana"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Sportsman's Paradise",
               "The Sportsman's Paradise",
@@ -11318,7 +11318,7 @@ window.DIVE_DAYS = [
             "note": "Maine"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Vacationland",
               "The Vacationland"
@@ -11326,7 +11326,7 @@ window.DIVE_DAYS = [
             "note": "Maine"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Lumber State",
               "The Lumber State",
@@ -11335,7 +11335,7 @@ window.DIVE_DAYS = [
             "note": "Maine"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Sunrise State",
               "The Sunrise State",
@@ -11352,7 +11352,7 @@ window.DIVE_DAYS = [
             "note": "Maryland"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Chesapeake State",
               "The Chesapeake State",
@@ -11361,7 +11361,7 @@ window.DIVE_DAYS = [
             "note": "Maryland"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Cockade State",
               "The Cockade State",
@@ -11370,7 +11370,7 @@ window.DIVE_DAYS = [
             "note": "Maryland"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Monumental State",
               "The Monumental State",
@@ -11388,7 +11388,7 @@ window.DIVE_DAYS = [
             "note": "Maryland"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Oyster State",
               "The Oyster State",
@@ -11397,7 +11397,7 @@ window.DIVE_DAYS = [
             "note": "Maryland"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Queen State",
               "The Queen State",
@@ -11406,7 +11406,7 @@ window.DIVE_DAYS = [
             "note": "Maryland"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Terrapin State",
               "The Terrapin State",
@@ -11415,7 +11415,7 @@ window.DIVE_DAYS = [
             "note": "Maryland"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Baked Bean State",
               "The Baked Bean State",
@@ -11424,7 +11424,7 @@ window.DIVE_DAYS = [
             "note": "Massachusetts"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Codfish State",
               "The Codfish State",
@@ -11433,7 +11433,7 @@ window.DIVE_DAYS = [
             "note": "Massachusetts"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Bay State",
               "The Bay State",
@@ -11460,7 +11460,7 @@ window.DIVE_DAYS = [
             "note": "Massachusetts"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Spirit of America",
               "The Spirit of America"
@@ -11468,7 +11468,7 @@ window.DIVE_DAYS = [
             "note": "Massachusetts"
           },
           {
-            "points": 85,
+            "points": 15,
             "forms": [
               "Taxachusetts",
               "The Taxachusetts"
@@ -11476,7 +11476,7 @@ window.DIVE_DAYS = [
             "note": "Massachusetts"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Great Lakes State",
               "The Great Lakes State",
@@ -11485,7 +11485,7 @@ window.DIVE_DAYS = [
             "note": "Michigan"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Water Wonderland",
               "The Water Wonderland"
@@ -11510,7 +11510,7 @@ window.DIVE_DAYS = [
             "note": "Michigan"
           },
           {
-            "points": 30,
+            "points": 15,
             "forms": [
               "Mitten State",
               "The Mitten State",
@@ -11519,7 +11519,7 @@ window.DIVE_DAYS = [
             "note": "Michigan"
           },
           {
-            "points": 10,
+            "points": 30,
             "forms": [
               "Gopher State",
               "The Gopher State",
@@ -11540,7 +11540,7 @@ window.DIVE_DAYS = [
             "note": "Minnesota"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "New England of the West",
               "The New England of the West"
@@ -11548,7 +11548,7 @@ window.DIVE_DAYS = [
             "note": "Minnesota"
           },
           {
-            "points": 10,
+            "points": 30,
             "forms": [
               "North Star State",
               "The North Star State",
@@ -11557,7 +11557,7 @@ window.DIVE_DAYS = [
             "note": "Minnesota"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "State of Hockey",
               "The State of Hockey"
@@ -11565,7 +11565,7 @@ window.DIVE_DAYS = [
             "note": "Minnesota"
           },
           {
-            "points": 85,
+            "points": 15,
             "forms": [
               "Minnesnowta",
               "The Minnesnowta"
@@ -11573,7 +11573,7 @@ window.DIVE_DAYS = [
             "note": "Minnesota"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Bread and Butter State",
               "The Bread and Butter State",
@@ -11618,7 +11618,7 @@ window.DIVE_DAYS = [
             "note": "Mississippi"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Bullion State",
               "The Bullion State",
@@ -11627,7 +11627,7 @@ window.DIVE_DAYS = [
             "note": "Missouri"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Show-Me State",
               "The Show-Me State",
@@ -11636,7 +11636,7 @@ window.DIVE_DAYS = [
             "note": "Missouri"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Gateway to the West",
               "The Gateway to the West"
@@ -11661,7 +11661,7 @@ window.DIVE_DAYS = [
             "note": "Missouri"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Iron Mountain State",
               "The Iron Mountain State",
@@ -11678,7 +11678,7 @@ window.DIVE_DAYS = [
             "note": "Missouri"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Cave State",
               "The Cave State",
@@ -11687,7 +11687,7 @@ window.DIVE_DAYS = [
             "note": "Missouri"
           },
           {
-            "points": 85,
+            "points": 10,
             "forms": [
               "Big Sky Country",
               "The Big Sky Country"
@@ -11695,7 +11695,7 @@ window.DIVE_DAYS = [
             "note": "Montana"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Last Best Place",
               "The Last Best Place"
@@ -11712,7 +11712,7 @@ window.DIVE_DAYS = [
             "note": "Montana"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Land of the Shining Mountains",
               "The Land of the Shining Mountains"
@@ -11720,7 +11720,7 @@ window.DIVE_DAYS = [
             "note": "Montana"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Antelope State",
               "The Antelope State",
@@ -11729,7 +11729,7 @@ window.DIVE_DAYS = [
             "note": "Nebraska"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Beef State",
               "The Beef State",
@@ -11747,7 +11747,7 @@ window.DIVE_DAYS = [
             "note": "Nebraska"
           },
           {
-            "points": 30,
+            "points": 100,
             "forms": [
               "Bug-eating State",
               "The Bug-eating State",
@@ -11756,7 +11756,7 @@ window.DIVE_DAYS = [
             "note": "Nebraska"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Blackwater State",
               "The Blackwater State",
@@ -11765,7 +11765,7 @@ window.DIVE_DAYS = [
             "note": "Nebraska"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Good Life",
               "The Good Life"
@@ -11773,7 +11773,7 @@ window.DIVE_DAYS = [
             "note": "Nebraska"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Tree Planters State",
               "The Tree Planters State",
@@ -11800,7 +11800,7 @@ window.DIVE_DAYS = [
             "note": "Nevada"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Casino State",
               "The Casino State",
@@ -11809,7 +11809,7 @@ window.DIVE_DAYS = [
             "note": "Nevada"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Granite State",
               "The Granite State",
@@ -11836,7 +11836,7 @@ window.DIVE_DAYS = [
             "note": "New Hampshire"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Garbage State",
               "The Garbage State",
@@ -11845,7 +11845,7 @@ window.DIVE_DAYS = [
             "note": "New Jersey"
           },
           {
-            "points": 85,
+            "points": 15,
             "forms": [
               "Armpit of America",
               "The Armpit of America"
@@ -11853,7 +11853,7 @@ window.DIVE_DAYS = [
             "note": "New Jersey, Ohio"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Garden State",
               "The Garden State",
@@ -11870,7 +11870,7 @@ window.DIVE_DAYS = [
             "note": "New Jersey"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Cornerstone State",
               "The Cornerstone State",
@@ -11879,7 +11879,7 @@ window.DIVE_DAYS = [
             "note": "New Jersey"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Suburban State",
               "The Suburban State",
@@ -11888,7 +11888,7 @@ window.DIVE_DAYS = [
             "note": "New Jersey"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Land of Enchantment",
               "The Land of Enchantment"
@@ -11896,7 +11896,7 @@ window.DIVE_DAYS = [
             "note": "New Mexico"
           },
           {
-            "points": 10,
+            "points": 60,
             "forms": [
               "Land of Sunshine",
               "The Land of Sunshine"
@@ -11922,7 +11922,7 @@ window.DIVE_DAYS = [
             "note": "New York"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Apple State",
               "The Apple State",
@@ -11931,7 +11931,7 @@ window.DIVE_DAYS = [
             "note": "New York"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Dairy State",
               "The Dairy State",
@@ -11940,7 +11940,7 @@ window.DIVE_DAYS = [
             "note": "New York, Wisconsin"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "First in Flight",
               "The First in Flight"
@@ -11948,7 +11948,7 @@ window.DIVE_DAYS = [
             "note": "North Carolina"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "First in Freedom",
               "The First in Freedom"
@@ -11965,7 +11965,7 @@ window.DIVE_DAYS = [
             "note": "North Carolina"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Tar Heel State",
               "The Tar Heel State",
@@ -11974,7 +11974,7 @@ window.DIVE_DAYS = [
             "note": "North Carolina"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Turpentine State",
               "The Turpentine State",
@@ -12018,7 +12018,7 @@ window.DIVE_DAYS = [
             "note": "North Dakota"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Sioux State",
               "The Sioux State",
@@ -12052,7 +12052,7 @@ window.DIVE_DAYS = [
             "note": "Northern Mariana Islands"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Buckeye State",
               "The Buckeye State",
@@ -12061,7 +12061,7 @@ window.DIVE_DAYS = [
             "note": "Ohio"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Birthplace of Aviation",
               "The Birthplace of Aviation"
@@ -12077,7 +12077,7 @@ window.DIVE_DAYS = [
             "note": "Ohio"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Native America",
               "The Native America"
@@ -12119,7 +12119,7 @@ window.DIVE_DAYS = [
             "note": "Oregon"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Webfoot State",
               "The Webfoot State",
@@ -12128,7 +12128,7 @@ window.DIVE_DAYS = [
             "note": "Oregon"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Keystone State",
               "The Keystone State",
@@ -12146,7 +12146,7 @@ window.DIVE_DAYS = [
             "note": "Pennsylvania"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Coal State",
               "The Coal State",
@@ -12155,7 +12155,7 @@ window.DIVE_DAYS = [
             "note": "Pennsylvania"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Railroad State",
               "The Railroad State",
@@ -12164,7 +12164,7 @@ window.DIVE_DAYS = [
             "note": "Pennsylvania"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Elk State",
               "The Elk State",
@@ -12173,7 +12173,7 @@ window.DIVE_DAYS = [
             "note": "Pennsylvania"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Isla del Encanto",
               "The Isla del Encanto",
@@ -12182,7 +12182,7 @@ window.DIVE_DAYS = [
             "note": "Puerto Rico"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Borinquen",
               "The Borinquen"
@@ -12190,7 +12190,7 @@ window.DIVE_DAYS = [
             "note": "Puerto Rico"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Little Rhody",
               "The Little Rhody"
@@ -12215,7 +12215,7 @@ window.DIVE_DAYS = [
             "note": "Rhode Island"
           },
           {
-            "points": 85,
+            "points": 100,
             "forms": [
               "Licentious Republic",
               "The Licentious Republic"
@@ -12223,7 +12223,7 @@ window.DIVE_DAYS = [
             "note": "Rhode Island"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Smallest State",
               "The Smallest State",
@@ -12241,7 +12241,7 @@ window.DIVE_DAYS = [
             "note": "South Carolina"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Iodine Products State",
               "The Iodine Products State",
@@ -12250,7 +12250,7 @@ window.DIVE_DAYS = [
             "note": "South Carolina"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Artesian State",
               "The Artesian State",
@@ -12259,7 +12259,7 @@ window.DIVE_DAYS = [
             "note": "South Dakota"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Blizzard State",
               "The Blizzard State",
@@ -12294,7 +12294,7 @@ window.DIVE_DAYS = [
             "note": "South Dakota"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Big Bend State",
               "The Big Bend State",
@@ -12303,7 +12303,7 @@ window.DIVE_DAYS = [
             "note": "Tennessee"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Butternut State",
               "The Butternut State",
@@ -12312,7 +12312,7 @@ window.DIVE_DAYS = [
             "note": "Tennessee"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Hog and Hominy State",
               "The Hog and Hominy State",
@@ -12329,7 +12329,7 @@ window.DIVE_DAYS = [
             "note": "Tennessee"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Volunteer State",
               "The Volunteer State",
@@ -12381,7 +12381,7 @@ window.DIVE_DAYS = [
             "note": "Utah"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Mormon State",
               "The Mormon State",
@@ -12390,7 +12390,7 @@ window.DIVE_DAYS = [
             "note": "Utah"
           },
           {
-            "points": 30,
+            "points": 85,
             "forms": [
               "Friendly State",
               "The Friendly State",
@@ -12408,7 +12408,7 @@ window.DIVE_DAYS = [
             "note": "Vermont"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Maple State",
               "The Maple State",
@@ -12425,7 +12425,7 @@ window.DIVE_DAYS = [
             "note": "Vermont"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Mother of Presidents",
               "The Mother of Presidents"
@@ -12433,7 +12433,7 @@ window.DIVE_DAYS = [
             "note": "Virginia"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Mother of States",
               "The Mother of States"
@@ -12441,7 +12441,7 @@ window.DIVE_DAYS = [
             "note": "Virginia"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "Old Dominion",
               "The Old Dominion"
@@ -12449,7 +12449,7 @@ window.DIVE_DAYS = [
             "note": "Virginia"
           },
           {
-            "points": 30,
+            "points": 10,
             "forms": [
               "Evergreen State",
               "The Evergreen State",
@@ -12467,7 +12467,7 @@ window.DIVE_DAYS = [
             "note": "West Virginia"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Panhandle State",
               "The Panhandle State",
@@ -12476,7 +12476,7 @@ window.DIVE_DAYS = [
             "note": "West Virginia"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Almost Heaven",
               "The Almost Heaven"
@@ -12493,7 +12493,7 @@ window.DIVE_DAYS = [
             "note": "Wisconsin"
           },
           {
-            "points": 85,
+            "points": 30,
             "forms": [
               "America's Dairyland",
               "The America's Dairyland",
@@ -12502,7 +12502,7 @@ window.DIVE_DAYS = [
             "note": "Wisconsin"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Traitor State",
               "The Traitor State",
@@ -12511,7 +12511,7 @@ window.DIVE_DAYS = [
             "note": "Wisconsin"
           },
           {
-            "points": 30,
+            "points": 60,
             "forms": [
               "Cheese State",
               "The Cheese State",
@@ -12538,7 +12538,7 @@ window.DIVE_DAYS = [
             "note": "Wyoming"
           },
           {
-            "points": 85,
+            "points": 60,
             "forms": [
               "Forever West",
               "The Forever West"

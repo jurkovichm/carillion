@@ -269,7 +269,7 @@ resolve=function(typed,match,timedOut){
 function catchShareText(spoilers=false){
   const fishCount=roundLog.reduce((total,record)=>total+(record?.catches?.length||0),0);
   const heading=`CARILLION 🎣${spoilers?' - ANSWERS (SPOILERS!)':''}\n${matchDay.label} · ${modeLabel()}\n${score} points · ${fishCount} fish`;
-  const rarityEmoji={10:'⬜',15:'🟩',30:'🟦',60:'🟪',85:'🟧',100:'🟨'};
+  const rarityEmoji={10:'🥏',15:'😛',30:'🎓',60:'🧠',85:'🧬',100:'🤯'};
   const rounds=questions.map((question,i)=>{
     const record=roundLog[i],catches=record?.catches||[];
     if(spoilers){
@@ -282,7 +282,11 @@ function catchShareText(spoilers=false){
     const empty=({boot:'🥾',skeleton:'🦴',bottle:'🍾'})[record?.loot?.kind]||'➖';
     return emoji||empty;
   });
-  return `${heading}${spoilers?'\n\n':'\n'}${rounds.join(spoilers?'\n\n':' ')}\n\nhttps://jurkovichm.github.io/carillion/`;
+  if(!spoilers){
+    const date=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(matchDay.id+'T00:00:00Z')).replace('Sept','Sep');
+    return `Carillion ${date}\n${rounds.join('')}\n${score} pts`;
+  }
+  return `${heading}\n\n${rounds.join('\n\n')}\n\nhttps://jurkovichm.github.io/carillion/`;
 }
 function copyCatchFallback(text){
   const field=document.createElement('textarea'),previous=document.activeElement;

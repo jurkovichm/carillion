@@ -13,6 +13,15 @@ bridgeImage.onload=()=>{
  ctx.putImageData(pixels,0,0);bridgeReady=true;
 };
 bridgeImage.src='assets/fishing-world-extended.png';
+const observatoryImage=new Image();
+const observatoryPixels=document.createElement('canvas');
+observatoryPixels.width=96;observatoryPixels.height=64;
+let observatoryReady=false;
+observatoryImage.onload=()=>{
+ const ctx=observatoryPixels.getContext('2d');ctx.imageSmoothingEnabled=false;
+ ctx.drawImage(observatoryImage,0,0,96,64);observatoryReady=true;
+};
+observatoryImage.src='assets/observatory.png';
 const fishSprites = {};
 const fishFiles = {10:'Cenrarchidae/Panfish/bluegill_panfish.png',15:'Percidae/Perch/yellow_perch.png',30:'Cenrarchidae/Bass/large_mouth_bass.png',60:'Percidae/Walleye/walleye.png',85:'Ictaluridae/Catfish/channel_catfish.png',100:'Esocidae/Muskie/muskie.png'};
 Object.entries(fishFiles).forEach(([points,path])=>{const img=new Image();img.src='sprites/NewRiverFishAssetPack1.0/'+path;fishSprites[points]=img;});
@@ -75,6 +84,12 @@ animateScene = function(now){
  const scale=Math.max(w/worldWidth,h/worldHeight),iw=worldWidth*scale,ih=worldHeight*scale,ox=(w-iw)/2;
  const worldY=Math.max(h-ih,Math.min(0,h*.44-(bridgeOffset+392)*scale));
  if(bridgeReady)p.drawImage(bridgePixels,ox,worldY,iw,ih);
+ // Keep the hill landmark in view across aspect ratios and keyboard changes.
+ if(observatoryReady){
+   const besideHUD=mobile&&document.body.classList.contains('playing');
+   const width=Math.round(Math.min(w*(besideHUD?.11:.27),220,h*.3));
+   p.drawImage(observatoryPixels,Math.round(w*(besideHUD?.01:.025)),Math.round(h*.016),width,Math.round(width*2/3));
+ }
  const oy=worldY+bridgeOffset*scale;
  p.save();p.translate(ox,oy);p.scale(scale,scale);
  $('#catchCaption').style.left=Math.max(12,ox+135*scale)+'px';$('#catchCaption').style.right='auto';
