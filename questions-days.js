@@ -1,1304 +1,12553 @@
-// Dated question sets. Points are editorial game tiers, not survey frequencies.
-// Source links are shown with the postgame answer banks.
-(() => {
-  const september28 = window.DIVE_QUESTIONS;
-  const september29 = [
-    {
-      prompt: "Man Eating Animals: name an animal discussed in the linked list.",
-      source: "https://en.wikipedia.org/wiki/Man-eating_animal",
-      sourceNote: "Includes species discussed as predators or attackers; not every attack is predatory. Related common names share one catch.",
-      answers: [
-        answer(10, "Tiger|Tigers|Bengal tiger"),
-        answer(10, "Lion|Lions|African lion"),
-        answer(15, "Leopard|Leopards"),
-        answer(30, "Jaguar|Jaguars"),
-        answer(30, "Cougar|Cougars|Puma|Mountain lion"),
-        answer(15, "Wolf|Wolves|Gray wolf|Grey wolf"),
-        answer(30, "Dingo|Dingoes|Dingos"),
-        answer(60, "Domestic dog|Dog|Dogs"),
-        answer(60, "Coyote|Coyotes|Coywolf"),
-        answer(85, "Jackal|Jackals"),
-        answer(10, "Polar bear|Polar bears"),
-        answer(15, "Brown bear|Brown bears|Grizzly|Grizzly bear|Bear|Bears"),
-        answer(30, "American black bear|Black bear|Black bears"),
-        answer(85, "Asian black bear|Asiatic black bear"),
-        answer(85, "Sloth bear"),
-        answer(30, "Spotted hyena|Hyena|Hyenas|Hyaena"),
-        answer(60, "Striped hyena"),
-        answer(60, "Pig|Pigs|Hog|Hogs|Wild boar|Wild pig|Feral hog"),
-        answer(60, "Human|Humans|Homo sapiens"),
-        answer(85, "Chimpanzee|Chimp|Chimps|Chimpanzees"),
-        answer(100, "Rat|Rats"),
-        answer(10, "Nile crocodile|Crocodile|Crocodiles|Croc"),
-        answer(30, "Saltwater crocodile|Salt water crocodile|Saltie"),
-        answer(85, "Mugger crocodile|Mugger|Marsh crocodile"),
-        answer(15, "American alligator|Alligator|Alligators|Gator"),
-        answer(30, "Reticulated python|Python|Pythons"),
-        answer(60, "Burmese python"),
-        answer(85, "African rock python|Rock python|Southern African rock python"),
-        answer(100, "Australian scrub python|Scrub python|Amethystine python"),
-        answer(60, "Komodo dragon|Komodo dragons"),
-        answer(10, "Great white shark|Great white|Shark|Sharks"),
-        answer(30, "Tiger shark"),
-        answer(30, "Bull shark"),
-        answer(60, "Oceanic whitetip shark|Oceanic white tip shark"),
-        answer(60, "African crowned eagle|Crowned eagle|Eagle", "The source discusses evidence of predation on children."),
-        answer(85, "Martial eagle"),
-        answer(100, "Haast's eagle|Haasts eagle", "Extinct; human predation is proposed, not certain."),
-        answer(30, "Piranha|Piranhas|Red-bellied piranha|Red bellied piranha"),
-        answer(85, "Goonch catfish|Goonch|Catfish", "The source describes reported cases."),
-        answer(100, "Wels catfish|Wels", "The source describes reported cases."),
-        answer(100, "Redtail catfish|Red tail catfish", "Suspected involvement in a ferry disaster, not confirmed predation."),
-        answer(100, "Piraiba|Piraiba catfish", "Suspected involvement in a ferry disaster, not confirmed predation."),
-        answer(85, "Giant grouper|Grouper"),
-        answer(100, "Atlantic goliath grouper|Goliath grouper"),
-        answer(100, "Humboldt squid|Squid", "The source describes alleged attacks.")
-      ]
-    },
-    {
-      prompt: "Name a Harry Potter character.",
-      source: "https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters",
-      sourceNote: "Characters from the linked list; common aliases and unambiguous surnames accepted.",
-      answers: [
-        answer(85, "Hannah Abbott|Abbott"),
-        answer(60, "Ludo Bagman|Bagman"),
-        answer(60, "Bathilda Bagshot|Bagshot"),
-        answer(85, "Katie Bell|Bell"),
-        answer(60, "Cuthbert Binns|Binns"),
-        answer(60, "Regulus Black"),
-        answer(15, "Sirius Black"),
-        answer(60, "Susan Bones|Bones"),
-        answer(60, "Terry Boot|Boot"),
-        answer(85, "Lavender Brown|Brown"),
-        answer(60, "Frank Bryce|Bryce"),
-        answer(60, "Charity Burbage|Burbage"),
-        answer(85, "Alecto Carrow"),
-        answer(60, "Amycus Carrow"),
-        answer(60, "Cho Chang|Chang"),
-        answer(85, "Michael Corner|Corner"),
-        answer(60, "Vincent Crabbe|Crabbe"),
-        answer(60, "Colin Creevey|Creevey"),
-        answer(85, "Bartemius Crouch Sr|Barty Crouch Sr|Barty Crouch Senior|Bartemius Crouch Senior|Sr"),
-        answer(60, "Barty Crouch Jr|Bartemius Crouch Jr|Barty Crouch Junior|Jr"),
-        answer(60, "John Dawlish|Dawlish"),
-        answer(85, "Fleur Delacour|Delacour"),
-        answer(60, "Dedalus Diggle|Diggle"),
-        answer(60, "Amos Diggory"),
-        answer(85, "Cedric Diggory"),
-        answer(60, "Elphias Doge|Doge"),
-        answer(60, "Antonin Dolohov|Dolohov"),
-        answer(85, "Aberforth Dumbledore"),
-        answer(10, "Albus Dumbledore|Dumbledore"),
-        answer(60, "Ariana Dumbledore"),
-        answer(85, "Dudley Dursley"),
-        answer(60, "Marge Dursley"),
-        answer(60, "Petunia Dursley"),
-        answer(85, "Vernon Dursley"),
-        answer(60, "Marietta Edgecombe|Edgecombe"),
-        answer(60, "Arabella Figg|Figg"),
-        answer(85, "Argus Filch|Filch"),
-        answer(60, "Justin Finch-Fletchley|Finch-Fletchley"),
-        answer(60, "Seamus Finnigan|Finnigan"),
-        answer(85, "Mundungus Fletcher|Fletcher"),
-        answer(60, "Filius Flitwick|Flitwick"),
-        answer(60, "Cornelius Fudge|Fudge"),
-        answer(85, "Anthony Goldstein|Goldstein"),
-        answer(60, "Gregory Goyle|Goyle"),
-        answer(10, "Hermione Granger|Hermione"),
-        answer(85, "Hugo Granger-Weasley|Hugo Weasley"),
-        answer(60, "Rose Granger-Weasley|Rose Weasley"),
-        answer(60, "Percival Graves|Graves"),
-        answer(85, "Astoria Greengrass|Greengrass"),
-        answer(60, "Fenrir Greyback|Greyback"),
-        answer(60, "Gellert Grindelwald|Grindelwald"),
-        answer(85, "Wilhelmina Grubbly-Plank|Grubbly-Plank"),
-        answer(60, "Godric Gryffindor|Gryffindor"),
-        answer(10, "Rubeus Hagrid|Hagrid"),
-        answer(85, "Rolanda Hooch|Hooch"),
-        answer(60, "Mafalda Hopkirk|Hopkirk"),
-        answer(60, "Helga Hufflepuff|Hufflepuff"),
-        answer(85, "Angelina Johnson|Johnson"),
-        answer(60, "Lee Jordan|Jordan"),
-        answer(60, "Bertha Jorkins|Jorkins"),
-        answer(85, "Igor Karkaroff|Karkaroff"),
-        answer(60, "Viktor Krum|Krum"),
-        answer(15, "Bellatrix Lestrange|Lestrange"),
-        answer(85, "Gilderoy Lockhart|Lockhart"),
-        answer(60, "Augusta Longbottom"),
-        answer(15, "Neville Longbottom"),
-        answer(15, "Luna Lovegood"),
-        answer(60, "Xenophilius Lovegood"),
-        answer(15, "Remus Lupin"),
-        answer(85, "Teddy Lupin"),
-        answer(60, "Ernie Macmillan|Macmillan"),
-        answer(60, "Walden Macnair|Macnair"),
-        answer(15, "Draco Malfoy"),
-        answer(60, "Lucius Malfoy"),
-        answer(60, "Narcissa Malfoy"),
-        answer(85, "Olympe Maxime|Maxime"),
-        answer(15, "Minerva McGonagall|McGonagall"),
-        answer(60, "Cormac McLaggen|McLaggen"),
-        answer(85, "Alastor Moody|Mad Eye Moody|Mad-Eye|Moody"),
-        answer(60, "Garrick Ollivander|Ollivander"),
-        answer(60, "Pansy Parkinson|Parkinson"),
-        answer(85, "Padma Patil"),
-        answer(60, "Parvati Patil"),
-        answer(60, "Peter Pettigrew|Wormtail|Pettigrew"),
-        answer(85, "Irma Pince|Pince"),
-        answer(60, "Poppy Pomfrey|Pomfrey"),
-        answer(10, "Harry Potter|Harry"),
-        answer(85, "James Potter"),
-        answer(60, "Lily Potter"),
-        answer(60, "Quirinus Quirrell|Quirrell"),
-        answer(85, "Rowena Ravenclaw|Ravenclaw"),
-        answer(60, "Augustus Rookwood|Rookwood"),
-        answer(60, "Thorfinn Rowle|Rowle"),
-        answer(85, "Newt Scamander|Scamander"),
-        answer(60, "Rufus Scrimgeour|Scrimgeour"),
-        answer(60, "Kingsley Shacklebolt|Shacklebolt"),
-        answer(85, "Stan Shunpike|Shunpike"),
-        answer(60, "Rita Skeeter|Skeeter"),
-        answer(60, "Horace Slughorn|Slughorn"),
-        answer(85, "Salazar Slytherin|Slytherin"),
-        answer(60, "Hepzibah Smith"),
-        answer(60, "Zacharias Smith"),
-        answer(15, "Severus Snape|Snape"),
-        answer(60, "Alicia Spinnet|Spinnet"),
-        answer(60, "Pomona Sprout|Sprout"),
-        answer(85, "Dean Thomas|Thomas"),
-        answer(60, "Pius Thicknesse|Thicknesse"),
-        answer(60, "Tom"),
-        answer(85, "Andromeda Tonks"),
-        answer(60, "Nymphadora Tonks|Tonks"),
-        answer(60, "Ted Tonks"),
-        answer(85, "Sybill Trelawney|Trelawney"),
-        answer(60, "Dolores Umbridge|Umbridge"),
-        answer(10, "Voldemort|Lord Voldemort|Tom Riddle|Tom Marvolo Riddle|You Know Who|He Who Must Not Be Named"),
-        answer(85, "Myrtle Warren|Moaning Myrtle|Myrtle|Warren"),
-        answer(60, "Arthur Weasley"),
-        answer(60, "Bill Weasley|William Weasley"),
-        answer(85, "Charlie Weasley"),
-        answer(15, "Fred Weasley"),
-        answer(15, "George Weasley"),
-        answer(15, "Ginny Weasley|Ginevra Weasley"),
-        answer(60, "Molly Weasley"),
-        answer(60, "Percy Weasley"),
-        answer(10, "Ron Weasley|Ron|Ronald Weasley"),
-        answer(60, "Oliver Wood|Wood"),
-        answer(60, "Corban Yaxley|Yaxley"),
-        answer(85, "Blaise Zabini|Zabini"),
-        answer(60, "Aragog"),
-        answer(60, "The Bloody Baron|Baron"),
-        answer(15, "Dobby"),
-        answer(60, "The Fat Friar|Friar"),
-        answer(60, "Fawkes"),
-        answer(85, "Firenze"),
-        answer(60, "The Grey Lady|Grey Lady|Helena Ravenclaw"),
-        answer(60, "Griphook"),
-        answer(85, "Hedwig"),
-        answer(60, "Kreacher"),
-        answer(60, "Muriel"),
-        answer(85, "Nagini"),
-        answer(60, "Nearly Headless Nick (Sir Nicholas de Mimsy-Porpington)|Nearly Headless Nick|Sir Nicholas de Mimsy Porpington|Nicholas de Mimsy Porpington|Mimsy-Porpington)"),
-        answer(60, "Peeves"),
-        answer(85, "Madam Rosmerta|Rosmerta"),
-        answer(60, "Winky"),
-        answer(60, "Mr Granger"),
-        answer(85, "Mrs Granger"),
-        answer(60, "James Sirius Potter"),
-        answer(60, "Albus Severus Potter"),
-        answer(85, "Lily Luna Potter")
-      ]
-    },
-    {
-      prompt: "Almost Swears: name a minced oath (e.g. \"Fudge!\").",
-      source: "https://en.wiktionary.org/wiki/Category:English_minced_oaths",
-      sourceNote: "English minced oaths from both pages of the linked category.",
-      answers: [
-        answer(100, "a-double-s"),
-        answer(60, "adsbud"),
-        answer(60, "a-hole"),
-        answer(60, "asked"),
-        answer(100, "B"),
-        answer(60, "bally"),
-        answer(60, "bar steward"),
-        answer(60, "bass-ackwards"),
-        answer(100, "bastich"),
-        answer(60, "bedad"),
-        answer(60, "begob"),
-        answer(60, "begorra"),
-        answer(100, "bejeebers"),
-        answer(60, "berk"),
-        answer(60, "bish"),
-        answer(60, "blanky"),
-        answer(100, "bleeding"),
-        answer(15, "blimey"),
-        answer(60, "blimming"),
-        answer(60, "blinking"),
-        answer(100, "blooming"),
-        answer(60, "blooming heck"),
-        answer(60, "bother"),
-        answer(60, "bullspit"),
-        answer(100, "bushwah"),
-        answer(60, "by gad"),
-        answer(60, "by George"),
-        answer(60, "by ginger"),
-        answer(100, "by golly"),
-        answer(60, "by guess or by golly"),
-        answer(60, "by guess or by gosh"),
-        answer(60, "by gum"),
-        answer(100, "by gummy"),
-        answer(60, "by jingo"),
-        answer(60, "by jings"),
-        answer(60, "by Jove"),
-        answer(100, "by juckies"),
-        answer(60, "by Jupiter"),
-        answer(60, "byrlady"),
-        answer(60, "cheese and crackers"),
-        answer(100, "cheese and rice"),
-        answer(60, "chuffing hell"),
-        answer(60, "confound it"),
-        answer(60, "consarn it"),
-        answer(100, "cor"),
-        answer(60, "cor blimey"),
-        answer(60, "cornography"),
-        answer(60, "count"),
-        answer(15, "crikey"),
-        answer(60, "criminy"),
-        answer(60, "crimony"),
-        answer(60, "cripes"),
-        answer(100, "crivvens"),
-        answer(60, "crud"),
-        answer(60, "dadgum"),
-        answer(60, "dadgummit"),
-        answer(100, "dagnabbit"),
-        answer(60, "dagnammit"),
-        answer(10, "dang"),
-        answer(60, "dang it"),
-        answer(100, "dangnabbit"),
-        answer(10, "darn"),
-        answer(60, "darn it"),
-        answer(60, "dash"),
-        answer(100, "dash it"),
-        answer(60, "delay no more"),
-        answer(60, "deuced"),
-        answer(60, "deucedly"),
-        answer(100, "diphead"),
-        answer(60, "doggone"),
-        answer(60, "doggonit"),
-        answer(60, "doofbag"),
-        answer(100, "drat"),
-        answer(60, "eff"),
-        answer(60, "effing"),
-        answer(60, "egad"),
-        answer(100, "emeff"),
-        answer(60, "emeffer"),
-        answer(60, "emmereffer"),
-        answer(60, "fark"),
-        answer(100, "feck"),
-        answer(60, "flaming"),
-        answer(60, "flip"),
-        answer(60, "flipping"),
-        answer(100, "flogging"),
-        answer(60, "foo"),
-        answer(60, "for cripes' sake"),
-        answer(60, "for crying out loud"),
-        answer(100, "for goodness' sake"),
-        answer(60, "forkhead"),
-        answer(60, "fornicating"),
-        answer(60, "for Pete's sake|for Petes sake"),
-        answer(100, "for pity's sake|for pitys sake"),
-        answer(60, "frak"),
-        answer(15, "freaking"),
-        answer(60, "freaking gosh"),
-        answer(15, "frick"),
-        answer(60, "fricking"),
-        answer(60, "frigging"),
-        answer(60, "fsck"),
-        answer(100, "fuddle-duddle"),
-        answer(10, "fudge"),
-        answer(60, "fudgebag"),
-        answer(60, "fudging"),
-        answer(100, "fugghead"),
-        answer(60, "fuggheaded"),
-        answer(60, "fuggheadedness"),
-        answer(60, "fugging"),
-        answer(100, "gadsbud"),
-        answer(60, "Gadslid"),
-        answer(60, "gadzooks"),
-        answer(60, "gall dang"),
-        answer(100, "galldang"),
-        answer(60, "gee"),
-        answer(60, "gee whiz"),
-        answer(60, "gee willikers"),
-        answer(15, "geez"),
-        answer(60, "geez Louise"),
-        answer(60, "give a fig"),
-        answer(60, "give a hoot"),
-        answer(100, "goldang"),
-        answer(60, "goldangit"),
-        answer(60, "goldarn"),
-        answer(60, "goldarnit"),
-        answer(15, "golly"),
-        answer(60, "golly gee"),
-        answer(60, "good golly"),
-        answer(60, "good gracious"),
-        answer(100, "goodness gracious"),
-        answer(60, "gorblimey"),
-        answer(60, "Gordon Bennett"),
-        answer(10, "gosh"),
-        answer(100, "gosh all hemlock"),
-        answer(60, "goshdang"),
-        answer(60, "goshdangit"),
-        answer(60, "goshdarn"),
-        answer(100, "goshdarnit"),
-        answer(60, "go to Putney on a pig"),
-        answer(60, "great balls of fire"),
-        answer(10, "heck"),
-        answer(100, "heckin'"),
-        answer(60, "hecking"),
-        answer(60, "holy buckets"),
-        answer(60, "holy cow"),
-        answer(100, "holy crud"),
-        answer(60, "holy mackerel"),
-        answer(60, "holy moley"),
-        answer(60, "holy smoke"),
-        answer(100, "ish"),
-        answer(60, "jack squat"),
-        answer(60, "jeepers"),
-        answer(60, "jeepers creepers"),
-        answer(100, "jeepers peepers"),
-        answer(60, "jeezy-peezy"),
-        answer(60, "Jesum Crow"),
-        answer(60, "Jiminy Cricket"),
-        answer(100, "Judas"),
-        answer(60, "Judas Priest"),
-        answer(60, "ken oath"),
-        answer(60, "lawks"),
-        answer(100, "lawks a-mercy"),
-        answer(60, "let's go, Brandon|lets go, Brandon"),
-        answer(60, "macrohard"),
-        answer(60, "mollyfogging"),
-        answer(100, "mothereffer"),
-        answer(60, "mothereffing"),
-        answer(60, "motherflipper"),
-        answer(60, "motherflipping"),
-        answer(100, "mothertrucker"),
-        answer(60, "mothertrucking"),
-        answer(60, "mutha phucka"),
-        answer(60, "my goodness"),
-        answer(100, "'nation"),
-        answer(60, "odds bud"),
-        answer(60, "ods bodikin"),
-        answer(60, "ods bodikins"),
-        answer(100, "odsbodikins"),
-        answer(60, "ods bud"),
-        answer(60, "oh my goodness gracious"),
-        answer(60, "phonography"),
-        answer(100, "plutteranails"),
-        answer(60, "pooh"),
-        answer(60, "Sam Hill"),
-        answer(60, "'sblood"),
-        answer(100, "'sbodikins"),
-        answer(60, "'sdeath"),
-        answer(60, "'sfoot"),
-        answer(60, "'sheart"),
-        answer(100, "shipload"),
-        answer(10, "shoot"),
-        answer(60, "shucks"),
-        answer(60, "shucky"),
-        answer(100, "shut the fridge"),
-        answer(60, "shut the front door"),
-        answer(60, "'snails"),
-        answer(60, "son of a bachelor"),
-        answer(100, "son of a gun"),
-        answer(60, "sonova"),
-        answer(60, "splutter"),
-        answer(60, "stinking"),
-        answer(100, "strewth"),
-        answer(15, "sugar"),
-        answer(60, "tarnal"),
-        answer(60, "tarnation"),
-        answer(100, "the feezy"),
-        answer(60, "the heck out of"),
-        answer(60, "the snot out of"),
-        answer(60, "tinker's darn|tinkers darn"),
-        answer(100, "w-anchor"),
-        answer(60, "what the hey"),
-        answer(60, "yuck fou"),
-        answer(60, "zooks"),
-        answer(100, "zooterkins"),
-        answer(60, "zounds")
-      ]
-    },
-    {
-      prompt: "Name a cloud type.",
-      source: "https://en.wikipedia.org/wiki/List_of_cloud_types",
-      sourceNote: "Includes genera, species, varieties, supplementary features and named cloud formations.",
-      answers: [
-        answer(10, "Cumulus|Cumulus cloud|Cumulus clouds"),
-        answer(10, "Stratus|Stratus cloud|Stratus clouds"),
-        answer(10, "Cirrus|Cirrus cloud|Cirrus clouds"),
-        answer(30, "Cumulonimbus|Cumulonimbus cloud|Cumulonimbus clouds"),
-        answer(30, "Altocumulus|Altocumulus cloud|Altocumulus clouds"),
-        answer(30, "Altostratus|Altostratus cloud|Altostratus clouds"),
-        answer(30, "Nimbostratus|Nimbostratus cloud|Nimbostratus clouds"),
-        answer(30, "Stratocumulus|Stratocumulus cloud|Stratocumulus clouds"),
-        answer(30, "Cirrocumulus|Cirrocumulus cloud|Cirrocumulus clouds"),
-        answer(30, "Cirrostratus|Cirrostratus cloud|Cirrostratus clouds"),
-        answer(60, "Castellanus"),
-        answer(60, "Congestus"),
-        answer(60, "Fibratus"),
-        answer(60, "Floccus"),
-        answer(60, "Fractus"),
-        answer(60, "Humilis"),
-        answer(60, "Lenticularis|Lenticular cloud|Lenticular"),
-        answer(60, "Mediocris"),
-        answer(60, "Nebulosus"),
-        answer(60, "Spissatus"),
-        answer(60, "Stratiformis"),
-        answer(60, "Uncinus"),
-        answer(60, "Volutus|Roll cloud"),
-        answer(60, "Calvus"),
-        answer(60, "Capillatus"),
-        answer(60, "Opacus"),
-        answer(60, "Perlucidus"),
-        answer(60, "Translucidus"),
-        answer(60, "Duplicatus"),
-        answer(60, "Intortus"),
-        answer(60, "Lacunosus"),
-        answer(60, "Radiatus"),
-        answer(60, "Undulatus"),
-        answer(60, "Vertebratus"),
-        answer(60, "Arcus|Shelf cloud"),
-        answer(60, "Asperitas"),
-        answer(60, "Cavum|Fallstreak hole|Hole punch cloud"),
-        answer(60, "Cauda"),
-        answer(60, "Fluctus|Kelvin Helmholtz cloud"),
-        answer(60, "Incus|Anvil cloud"),
-        answer(60, "Mamma|Mammatus|Mammatus cloud"),
-        answer(60, "Murus|Wall cloud"),
-        answer(60, "Tuba|Funnel cloud"),
-        answer(60, "Pannus"),
-        answer(60, "Pileus"),
-        answer(60, "Velum"),
-        answer(60, "Virga"),
-        answer(60, "Praecipitatio"),
-        answer(85, "Cirrus fibratus"),
-        answer(85, "Cirrus uncinus"),
-        answer(85, "Cirrus spissatus"),
-        answer(85, "Cirrus castellanus"),
-        answer(85, "Cirrus floccus"),
-        answer(100, "Cirrus fibratus intortus"),
-        answer(100, "Cirrus fibratus vertebratus"),
-        answer(100, "Cirrus fibratus radiatus"),
-        answer(100, "Cirrus uncinus radiatus"),
-        answer(100, "Cirrus fibratus duplicatus"),
-        answer(100, "Cirrus uncinus duplicatus"),
-        answer(85, "Cirrus cirrocumulogenitus"),
-        answer(85, "Cirrus altocumulogenitus"),
-        answer(85, "Cirrus cumulonimbogenitus"),
-        answer(85, "Cirrus homogenitus"),
-        answer(85, "Cirrus cirrostratomutatus"),
-        answer(85, "Cirrus homomutatus"),
-        answer(85, "Cirrocumulus stratiformis"),
-        answer(85, "Cirrocumulus lenticularis"),
-        answer(85, "Cirrocumulus castellanus"),
-        answer(85, "Cirrocumulus floccus"),
-        answer(100, "Cirrocumulus stratiformis undulatus"),
-        answer(100, "Cirrocumulus lenticularis undulatus"),
-        answer(100, "Cirrocumulus stratiformis lacunosus"),
-        answer(100, "Cirrocumulus castellanus lacunosus"),
-        answer(100, "Cirrocumulus floccus lacunosus"),
-        answer(85, "Cirrocumulus cirromutatus"),
-        answer(85, "Cirrocumulus cirrostratomutatus"),
-        answer(85, "Cirrocumulus altocumulomutatus"),
-        answer(85, "Cirrocumulus homomutatus"),
-        answer(85, "Cirrostratus fibratus"),
-        answer(85, "Cirrostratus nebulosus"),
-        answer(100, "Cirrostratus fibratus duplicatus"),
-        answer(100, "Cirrostratus fibratus undulatus"),
-        answer(85, "Cirrostratus cirrocumulogenitus"),
-        answer(85, "Cirrostratus cumulonimbogenitus"),
-        answer(85, "Cirrostratus cirromutatus"),
-        answer(85, "Cirrostratus cirrocumulomutatus"),
-        answer(85, "Cirrostratus altostratomutatus"),
-        answer(85, "Cirrostratus homomutatus"),
-        answer(85, "Altocumulus stratiformis"),
-        answer(85, "Altocumulus lenticularis"),
-        answer(85, "Altocumulus volutus"),
-        answer(85, "Altocumulus castellanus"),
-        answer(85, "Altocumulus floccus"),
-        answer(100, "Altocumulus stratiformis translucidus"),
-        answer(100, "Altocumulus stratiformis perlucidus"),
-        answer(100, "Altocumulus stratiformis opacus"),
-        answer(100, "Altocumulus stratiformis translucidus radiatus"),
-        answer(100, "Altocumulus stratiformis perlucidus radiatus"),
-        answer(100, "Altocumulus stratiformis opacus radiatus"),
-        answer(100, "Altocumulus stratiformis translucidus duplicatus"),
-        answer(100, "Altocumulus stratiformis perlucidus duplicatus"),
-        answer(100, "Altocumulus stratiformis opacus duplicatus"),
-        answer(100, "Altocumulus lenticularis duplicatus"),
-        answer(100, "Altocumulus stratiformis translucidus undulatus"),
-        answer(100, "Altocumulus stratiformis perlucidus undulatus"),
-        answer(100, "Altocumulus stratiformis opacus undulatus"),
-        answer(100, "Altocumulus lenticularis undulatus"),
-        answer(100, "Altocumulus stratiformis translucidus lacunosus"),
-        answer(100, "Altocumulus stratiformis perlucidus lacunosus"),
-        answer(100, "Altocumulus stratiformis opacus lacunosus"),
-        answer(100, "Altocumulus castellanus lacunosus"),
-        answer(100, "Altocumulus floccus lacunosus"),
-        answer(85, "Altocumulus cumulogenitus"),
-        answer(85, "Altocumulus cumulonimbogenitus"),
-        answer(85, "Altocumulus cirrocumulomutatus"),
-        answer(85, "Altocumulus altostratomutatus"),
-        answer(85, "Altocumulus nimbostratomutatus"),
-        answer(85, "Altocumulus stratocumulomutatus"),
-        answer(85, "Altostratus translucidus"),
-        answer(85, "Altostratus opacus"),
-        answer(100, "Altostratus translucidus radiatus"),
-        answer(100, "Altostratus opacus radiatus"),
-        answer(100, "Altostratus translucidus duplicatus"),
-        answer(100, "Altostratus opacus duplicatus"),
-        answer(100, "Altostratus translucidus undulatus"),
-        answer(100, "Altostratus opacus undulatus"),
-        answer(85, "Altostratus altocumulogenitus"),
-        answer(85, "Altostratus cumulonimbogenitus"),
-        answer(85, "Altostratus cirrostratomutatus"),
-        answer(85, "Altostratus nimbostratomutatus"),
-        answer(85, "Cumulonimbus calvus"),
-        answer(85, "Cumulonimbus capillatus"),
-        answer(85, "Cumulonimbus altocumulogenitus"),
-        answer(85, "Cumulonimbus altostratogenitus"),
-        answer(85, "Cumulonimbus nimbostratogenitus"),
-        answer(85, "Cumulonimbus stratocumulogenitus"),
-        answer(85, "Cumulonimbus flammagenitus"),
-        answer(85, "Cumulonimbus cumulomutatus"),
-        answer(85, "Cumulus congestus"),
-        answer(100, "Cumulus congestus flammagenitus"),
-        answer(85, "Nimbostratus cumulogenitus"),
-        answer(85, "Nimbostratus cumulonimbogenitus"),
-        answer(85, "Nimbostratus altostratomutatus"),
-        answer(85, "Nimbostratus altocumulomutatus"),
-        answer(85, "Nimbostratus stratocumulomutatus"),
-        answer(85, "Cumulus mediocris"),
-        answer(100, "Cumulus mediocris radiatus"),
-        answer(85, "Stratocumulus stratiformis"),
-        answer(85, "Stratocumulus lenticularis"),
-        answer(85, "Stratocumulus volutus"),
-        answer(85, "Stratocumulus floccus"),
-        answer(85, "Stratocumulus castellanus"),
-        answer(100, "Stratocumulus stratiformis translucidus"),
-        answer(100, "Stratocumulus stratiformis perlucidus"),
-        answer(100, "Stratocumulus stratiformis opacus"),
-        answer(100, "Stratocumulus stratiformis translucidus radiatus"),
-        answer(100, "Stratocumulus stratiformis perlucidus radiatus"),
-        answer(100, "Stratocumulus stratiformis opacus radiatus"),
-        answer(100, "Stratocumulus stratiformis translucidus duplicatus"),
-        answer(100, "Stratocumulus stratiformis perlucidus duplicatus"),
-        answer(100, "Stratocumulus stratiformis opacus duplicatus"),
-        answer(100, "Stratocumulus lenticularis duplicatus"),
-        answer(100, "Stratocumulus stratiformis translucidus undulatus"),
-        answer(100, "Stratocumulus stratiformis perlucidus undulatus"),
-        answer(100, "Stratocumulus stratiformis opacus undulatus"),
-        answer(100, "Stratocumulus lenticularis undulatus"),
-        answer(100, "Stratocumulus stratiformis translucidus lacunosus"),
-        answer(100, "Stratocumulus stratiformis perlucidus lacunosus"),
-        answer(100, "Stratocumulus stratiformis opacus lacunosus"),
-        answer(100, "Stratocumulus castellanus lacunosus"),
-        answer(100, "Stratocumulus floccus lacunosus"),
-        answer(85, "Stratocumulus cumulogenitus"),
-        answer(85, "Stratocumulus nimbostratogenitus"),
-        answer(85, "Stratocumulus cumulonimbogenitus"),
-        answer(85, "Stratocumulus altostratogenitus"),
-        answer(85, "Stratocumulus nimbostratomutatus"),
-        answer(85, "Stratocumulus altocumulomutatus"),
-        answer(85, "Stratocumulus stratomutatus"),
-        answer(85, "Cumulus fractus"),
-        answer(85, "Cumulus humilis"),
-        answer(100, "Cumulus humilis radiatus"),
-        answer(85, "Cumulus stratocumulogenitus"),
-        answer(85, "Cumulus homogenitus"),
-        answer(85, "Cumulus stratocumulomutatus"),
-        answer(85, "Cumulus stratomutatus"),
-        answer(85, "Cumulus cataractagenitus"),
-        answer(85, "Stratus nebulosus"),
-        answer(85, "Stratus fractus"),
-        answer(100, "Stratus nebulosus translucidus"),
-        answer(100, "Stratus nebulosus opacus"),
-        answer(100, "Stratus nebulosus translucidus undulatus"),
-        answer(100, "Stratus nebulosus opacus undulatus"),
-        answer(85, "Stratus nimbostratogenitus"),
-        answer(85, "Stratus cumulogenitus"),
-        answer(85, "Stratus cumulonimbogenitus"),
-        answer(85, "Stratus cataractagenitus"),
-        answer(85, "Stratus silvagenitus"),
-        answer(85, "Stratus homogenitus"),
-        answer(85, "Stratus stratocumulomutatus"),
-        answer(60, "Noctilucent|Noctilucent cloud|Polar mesospheric cloud|Night shining cloud"),
-        answer(85, "Nacreous|Nacreous cloud|Mother of pearl cloud|Polar stratospheric cloud"),
-        answer(30, "Fog"),
-        answer(60, "Mist"),
-        answer(30, "Contrail|Contrails|Condensation trail"),
-        answer(60, "Pyrocumulus|Fire cloud"),
-        answer(85, "Pyrocumulonimbus")
-      ]
-    },
-    {
-      prompt: "Name a 2025-season NFL All-Pro.",
-      source: "https://www.pro-football-reference.com/years/2025/allpro.htm",
-      sourceNote: "First/second teams and conference selections are accepted. PFR access was restricted; selections were cross-checked with AP, PFWA and PFF published teams.",
-      answers: [
-        answer(10, "Matthew Stafford|Matt Stafford|Stafford"),
-        answer(10, "Bijan Robinson|Robinson"),
-        answer(10, "Kyle Juszczyk|Juszczyk"),
-        answer(10, "Puka Nacua|Nacua"),
-        answer(10, "Jaxon Smith-Njigba|Jaxon SmithNjigba|JSN|Smith-Njigba"),
-        answer(10, "Ja'Marr Chase|JaMarr Chase|Chase"),
-        answer(10, "Christian McCaffrey|CMC|McCaffrey"),
-        answer(10, "Trey McBride|McBride"),
-        answer(30, "Garett Bolles|Bolles"),
-        answer(30, "Joe Thuney|Thuney"),
-        answer(30, "Creed Humphrey|Humphrey"),
-        answer(30, "Quinn Meinerz|Meinerz"),
-        answer(30, "Penei Sewell|Sewell"),
-        answer(30, "Myles Garrett|Garrett"),
-        answer(30, "Will Anderson Jr|Will Anderson|Anderson"),
-        answer(30, "Micah Parsons|Parsons"),
-        answer(30, "Jeffery Simmons|Simmons"),
-        answer(30, "Zach Allen|Allen"),
-        answer(30, "Jack Campbell|Campbell"),
-        answer(30, "Jordyn Brooks|Brooks"),
-        answer(30, "Derek Stingley Jr|Derek Stingley|Stingley"),
-        answer(30, "Quinyon Mitchell|Mitchell"),
-        answer(30, "Cooper DeJean|DeJean"),
-        answer(30, "Kyle Hamilton|Hamilton"),
-        answer(30, "Kevin Byard|Kevin Byard III|Byard"),
-        answer(60, "Will Reichard|Reichard"),
-        answer(60, "Jordan Stout|Stout"),
-        answer(60, "Ray Davis"),
-        answer(60, "Chimere Dike|Dike"),
-        answer(60, "Devon Key|Key"),
-        answer(60, "Ross Matiscik|Matiscik"),
-        answer(60, "Drake Maye|Maye"),
-        answer(60, "James Cook|James Cook III|Cook"),
-        answer(60, "Patrick Ricard|Ricard"),
-        answer(60, "George Pickens|Pickens"),
-        answer(60, "Chris Olave|Olave"),
-        answer(60, "Amon-Ra St. Brown|AmonRa St Brown|Brown"),
-        answer(60, "Kyle Pitts|Pitts"),
-        answer(60, "Trent Williams"),
-        answer(60, "Quenton Nelson|Nelson"),
-        answer(60, "Aaron Brewer|Brewer"),
-        answer(60, "Chris Lindstrom|Lindstrom"),
-        answer(60, "Darnell Wright|Wright"),
-        answer(60, "Aidan Hutchinson|Hutchinson"),
-        answer(60, "Danielle Hunter|Hunter"),
-        answer(60, "Brian Burns|Burns"),
-        answer(60, "Leonard Williams"),
-        answer(60, "Cameron Heyward|Heyward"),
-        answer(60, "Ernest Jones IV|Ernest Jones"),
-        answer(60, "Devin Lloyd|Lloyd"),
-        answer(60, "Devon Witherspoon|Witherspoon"),
-        answer(60, "Patrick Surtain II|Patrick Surtain|Pat Surtain|Pat Surtain II|Surtain"),
-        answer(60, "Derwin James|Derwin James Jr|James"),
-        answer(60, "Jessie Bates|Jessie Bates III|Bates"),
-        answer(60, "Talanoa Hufanga|Hufanga"),
-        answer(60, "Xavier McKinney|McKinney"),
-        answer(60, "Brandon Aubrey|Aubrey"),
-        answer(60, "Michael Dickson|Dickson"),
-        answer(60, "KaVontae Turpin|Turpin"),
-        answer(60, "Marcus Jones"),
-        answer(60, "Del'Shawn Phillips|DelShawn Phillips|Phillips"),
-        answer(60, "Andrew DePaola|DePaola"),
-        answer(85, "Jonathan Taylor|Taylor"),
-        answer(85, "Nik Bonitto|Bonitto"),
-        answer(85, "Quinnen Williams"),
-        answer(85, "Jaycee Horn|Horn"),
-        answer(85, "Cameron Dicker|Dicker"),
-        answer(85, "Tress Way|Way"),
-        answer(85, "De'Von Achane|DeVon Achane|Achane"),
-        answer(85, "Reggie Gilliam|Gilliam"),
-        answer(85, "Nico Collins|Collins"),
-        answer(85, "George Kittle|Kittle"),
-        answer(85, "Tristan Wirfs|Wirfs"),
-        answer(85, "Kobie Turner|Turner"),
-        answer(85, "Zack Baun|Baun"),
-        answer(85, "Devin Bush|Devin Bush Jr|Bush"),
-        answer(85, "Demario Davis"),
-        answer(85, "Cedric Gray|Gray"),
-        answer(85, "Sauce Gardner|Ahmad Gardner|Gardner"),
-        answer(85, "Mike Jackson|Michael Jackson|Jackson"),
-        answer(85, "Jalen Pitre|Pitre"),
-        answer(85, "Antonio Johnson|Johnson"),
-        answer(85, "Ja'Quan McMillian|JaQuan McMillian|McMillian"),
-        answer(85, "Daniel Whelan|Whelan"),
-        answer(85, "Austin McNamara|McNamara"),
-        answer(85, "Rex Sunahara|Sunahara"),
-        answer(85, "Hogan Hatten|Hatten"),
-        answer(85, "Carson Bruener|Bruener"),
-        answer(85, "Kene Nwangwu|Nwangwu"),
-        answer(85, "Isaiah Williams"),
-        answer(85, "Travis Kelce|Kelce"),
-        answer(85, "Dion Dawkins|Dawkins"),
-        answer(85, "Cam Little|Cameron Little|Little"),
-        answer(85, "Drew Dalman|Dalman"),
-        answer(85, "Tuli Tuipulotu|Tuipulotu"),
-        answer(85, "Byron Young|Young"),
-        answer(85, "Xavier Watts|Watts"),
-        answer(85, "Rashid Shaheed|Shaheed"),
-        answer(85, "Luke Gifford|Gifford")
-      ]
-    },
-    {
-      prompt: "Name a pope.",
-      source: "https://en.wikipedia.org/wiki/List_of_popes",
-      sourceNote: "Roman or Arabic numerals accepted. Antipopes excluded; repeated reigns count as one person.",
-      answers: [
-        answer(10, "Peter|Pope Peter|St Peter|Saint Peter|Simon Peter"),
-        answer(60, "Linus|Pope Linus|St Linus|Saint Linus"),
-        answer(60, "Anacletus|Pope Anacletus|St Anacletus|Saint Anacletus|Cletus"),
-        answer(100, "Clement I|Pope Clement I|St Clement I|Saint Clement I|Clement 1|Pope Clement 1"),
-        answer(60, "Evaristus|Pope Evaristus|St Evaristus|Saint Evaristus"),
-        answer(60, "Alexander I|Pope Alexander I|St Alexander I|Saint Alexander I|Alexander 1|Pope Alexander 1"),
-        answer(100, "Sixtus I|Pope Sixtus I|St Sixtus I|Saint Sixtus I|Sixtus 1|Pope Sixtus 1"),
-        answer(60, "Telesphorus|Pope Telesphorus|St Telesphorus|Saint Telesphorus"),
-        answer(60, "Hyginus|Pope Hyginus|St Hyginus|Saint Hyginus"),
-        answer(100, "Pius I|Pope Pius I|St Pius I|Saint Pius I|Pius 1|Pope Pius 1"),
-        answer(60, "Anicetus|Pope Anicetus|St Anicetus|Saint Anicetus"),
-        answer(60, "Soter|Pope Soter|St Soter|Saint Soter"),
-        answer(100, "Eleutherius|Pope Eleutherius|St Eleutherius|Saint Eleutherius"),
-        answer(60, "Victor I|Pope Victor I|St Victor I|Saint Victor I|Victor 1|Pope Victor 1"),
-        answer(60, "Zephyrinus|Pope Zephyrinus|St Zephyrinus|Saint Zephyrinus"),
-        answer(100, "Callixtus I|Pope Callixtus I|St Callixtus I|Saint Callixtus I|Callixtus 1|Pope Callixtus 1"),
-        answer(60, "Urban I|Pope Urban I|St Urban I|Saint Urban I|Urban 1|Pope Urban 1"),
-        answer(60, "Pontian|Pope Pontian|St Pontian|Saint Pontian"),
-        answer(100, "Anterus|Pope Anterus|St Anterus|Saint Anterus"),
-        answer(60, "Fabian|Pope Fabian|St Fabian|Saint Fabian"),
-        answer(60, "Cornelius|Pope Cornelius|St Cornelius|Saint Cornelius"),
-        answer(100, "Lucius I|Pope Lucius I|St Lucius I|Saint Lucius I|Lucius 1|Pope Lucius 1"),
-        answer(60, "Stephen I|Pope Stephen I|St Stephen I|Saint Stephen I|Stephen 1|Pope Stephen 1"),
-        answer(60, "Sixtus II|Pope Sixtus II|St Sixtus II|Saint Sixtus II|Sixtus 2|Pope Sixtus 2"),
-        answer(100, "Dionysius|Pope Dionysius|St Dionysius|Saint Dionysius"),
-        answer(60, "Felix I|Pope Felix I|St Felix I|Saint Felix I|Felix 1|Pope Felix 1"),
-        answer(60, "Eutychian|Pope Eutychian|St Eutychian|Saint Eutychian"),
-        answer(100, "Caius|Pope Caius|St Caius|Saint Caius|Gaius"),
-        answer(60, "Marcellinus|Pope Marcellinus|St Marcellinus|Saint Marcellinus"),
-        answer(60, "Marcellus I|Pope Marcellus I|St Marcellus I|Saint Marcellus I|Marcellus 1|Pope Marcellus 1"),
-        answer(100, "Eusebius|Pope Eusebius|St Eusebius|Saint Eusebius"),
-        answer(60, "Miltiades|Pope Miltiades|St Miltiades|Saint Miltiades|Melchiades"),
-        answer(60, "Sylvester I|Pope Sylvester I|St Sylvester I|Saint Sylvester I|Sylvester 1|Pope Sylvester 1"),
-        answer(100, "Mark|Pope Mark|St Mark|Saint Mark"),
-        answer(60, "Julius I|Pope Julius I|St Julius I|Saint Julius I|Julius 1|Pope Julius 1"),
-        answer(60, "Liberius|Pope Liberius|St Liberius|Saint Liberius"),
-        answer(100, "Damasus I|Pope Damasus I|St Damasus I|Saint Damasus I|Damasus 1|Pope Damasus 1"),
-        answer(60, "Siricius|Pope Siricius|St Siricius|Saint Siricius"),
-        answer(60, "Anastasius I|Pope Anastasius I|St Anastasius I|Saint Anastasius I|Anastasius 1|Pope Anastasius 1"),
-        answer(100, "Innocent I|Pope Innocent I|St Innocent I|Saint Innocent I|Innocent 1|Pope Innocent 1"),
-        answer(60, "Zosimus|Pope Zosimus|St Zosimus|Saint Zosimus"),
-        answer(60, "Boniface I|Pope Boniface I|St Boniface I|Saint Boniface I|Boniface 1|Pope Boniface 1"),
-        answer(100, "Celestine I|Pope Celestine I|St Celestine I|Saint Celestine I|Celestine 1|Pope Celestine 1"),
-        answer(60, "Sixtus III|Pope Sixtus III|St Sixtus III|Saint Sixtus III|Sixtus 3|Pope Sixtus 3"),
-        answer(60, "Leo I|Pope Leo I|St Leo I|Saint Leo I|Leo 1|Pope Leo 1|Leo the Great"),
-        answer(100, "Hilarius|Pope Hilarius|St Hilarius|Saint Hilarius"),
-        answer(60, "Simplicius|Pope Simplicius|St Simplicius|Saint Simplicius"),
-        answer(60, "Felix III|Pope Felix III|St Felix III|Saint Felix III|Felix 3|Pope Felix 3"),
-        answer(100, "Gelasius I|Pope Gelasius I|St Gelasius I|Saint Gelasius I|Gelasius 1|Pope Gelasius 1"),
-        answer(60, "Anastasius II|Pope Anastasius II|St Anastasius II|Saint Anastasius II|Anastasius 2|Pope Anastasius 2"),
-        answer(60, "Symmachus|Pope Symmachus|St Symmachus|Saint Symmachus"),
-        answer(100, "Hormisdas|Pope Hormisdas|St Hormisdas|Saint Hormisdas"),
-        answer(60, "John I|Pope John I|St John I|Saint John I|John 1|Pope John 1"),
-        answer(60, "Felix IV|Pope Felix IV|St Felix IV|Saint Felix IV|Felix 4|Pope Felix 4"),
-        answer(100, "Boniface II|Pope Boniface II|St Boniface II|Saint Boniface II|Boniface 2|Pope Boniface 2"),
-        answer(60, "John II|Pope John II|St John II|Saint John II|John 2|Pope John 2"),
-        answer(60, "Agapetus I|Pope Agapetus I|St Agapetus I|Saint Agapetus I|Agapetus 1|Pope Agapetus 1"),
-        answer(100, "Silverius|Pope Silverius|St Silverius|Saint Silverius"),
-        answer(60, "Vigilius|Pope Vigilius|St Vigilius|Saint Vigilius"),
-        answer(60, "Pelagius I|Pope Pelagius I|St Pelagius I|Saint Pelagius I|Pelagius 1|Pope Pelagius 1"),
-        answer(100, "John III|Pope John III|St John III|Saint John III|John 3|Pope John 3"),
-        answer(60, "Benedict I|Pope Benedict I|St Benedict I|Saint Benedict I|Benedict 1|Pope Benedict 1"),
-        answer(60, "Pelagius II|Pope Pelagius II|St Pelagius II|Saint Pelagius II|Pelagius 2|Pope Pelagius 2"),
-        answer(100, "Gregory I|Pope Gregory I|St Gregory I|Saint Gregory I|Gregory 1|Pope Gregory 1|Gregory the Great"),
-        answer(60, "Sabinian|Pope Sabinian|St Sabinian|Saint Sabinian"),
-        answer(60, "Boniface III|Pope Boniface III|St Boniface III|Saint Boniface III|Boniface 3|Pope Boniface 3"),
-        answer(100, "Boniface IV|Pope Boniface IV|St Boniface IV|Saint Boniface IV|Boniface 4|Pope Boniface 4"),
-        answer(60, "Adeodatus I|Pope Adeodatus I|St Adeodatus I|Saint Adeodatus I|Adeodatus 1|Pope Adeodatus 1|Deusdedit"),
-        answer(60, "Boniface V|Pope Boniface V|St Boniface V|Saint Boniface V|Boniface 5|Pope Boniface 5"),
-        answer(100, "Honorius I|Pope Honorius I|St Honorius I|Saint Honorius I|Honorius 1|Pope Honorius 1"),
-        answer(60, "Severinus|Pope Severinus|St Severinus|Saint Severinus"),
-        answer(60, "John IV|Pope John IV|St John IV|Saint John IV|John 4|Pope John 4"),
-        answer(100, "Theodore I|Pope Theodore I|St Theodore I|Saint Theodore I|Theodore 1|Pope Theodore 1"),
-        answer(60, "Martin I|Pope Martin I|St Martin I|Saint Martin I|Martin 1|Pope Martin 1"),
-        answer(60, "Eugene I|Pope Eugene I|St Eugene I|Saint Eugene I|Eugene 1|Pope Eugene 1"),
-        answer(100, "Vitalian|Pope Vitalian|St Vitalian|Saint Vitalian"),
-        answer(60, "Adeodatus II|Pope Adeodatus II|St Adeodatus II|Saint Adeodatus II|Adeodatus 2|Pope Adeodatus 2"),
-        answer(60, "Donus|Pope Donus|St Donus|Saint Donus"),
-        answer(100, "Agatho|Pope Agatho|St Agatho|Saint Agatho"),
-        answer(60, "Leo II|Pope Leo II|St Leo II|Saint Leo II|Leo 2|Pope Leo 2"),
-        answer(60, "Benedict II|Pope Benedict II|St Benedict II|Saint Benedict II|Benedict 2|Pope Benedict 2"),
-        answer(100, "John V|Pope John V|St John V|Saint John V|John 5|Pope John 5"),
-        answer(60, "Conon|Pope Conon|St Conon|Saint Conon"),
-        answer(60, "Sergius I|Pope Sergius I|St Sergius I|Saint Sergius I|Sergius 1|Pope Sergius 1"),
-        answer(100, "John VI|Pope John VI|St John VI|Saint John VI|John 6|Pope John 6"),
-        answer(60, "John VII|Pope John VII|St John VII|Saint John VII|John 7|Pope John 7"),
-        answer(60, "Sisinnius|Pope Sisinnius|St Sisinnius|Saint Sisinnius"),
-        answer(100, "Constantine|Pope Constantine|St Constantine|Saint Constantine"),
-        answer(60, "Gregory II|Pope Gregory II|St Gregory II|Saint Gregory II|Gregory 2|Pope Gregory 2"),
-        answer(60, "Gregory III|Pope Gregory III|St Gregory III|Saint Gregory III|Gregory 3|Pope Gregory 3"),
-        answer(100, "Zachary|Pope Zachary|St Zachary|Saint Zachary"),
-        answer(60, "Stephen II|Pope Stephen II|St Stephen II|Saint Stephen II|Stephen 2|Pope Stephen 2"),
-        answer(60, "Paul I|Pope Paul I|St Paul I|Saint Paul I|Paul 1|Pope Paul 1"),
-        answer(100, "Stephen III|Pope Stephen III|St Stephen III|Saint Stephen III|Stephen 3|Pope Stephen 3"),
-        answer(60, "Adrian I|Pope Adrian I|St Adrian I|Saint Adrian I|Adrian 1|Pope Adrian 1|Hadrian I"),
-        answer(60, "Leo III|Pope Leo III|St Leo III|Saint Leo III|Leo 3|Pope Leo 3"),
-        answer(100, "Stephen IV|Pope Stephen IV|St Stephen IV|Saint Stephen IV|Stephen 4|Pope Stephen 4"),
-        answer(60, "Paschal I|Pope Paschal I|St Paschal I|Saint Paschal I|Paschal 1|Pope Paschal 1"),
-        answer(60, "Eugene II|Pope Eugene II|St Eugene II|Saint Eugene II|Eugene 2|Pope Eugene 2"),
-        answer(100, "Valentine|Pope Valentine|St Valentine|Saint Valentine"),
-        answer(60, "Gregory IV|Pope Gregory IV|St Gregory IV|Saint Gregory IV|Gregory 4|Pope Gregory 4"),
-        answer(60, "Sergius II|Pope Sergius II|St Sergius II|Saint Sergius II|Sergius 2|Pope Sergius 2"),
-        answer(100, "Leo IV|Pope Leo IV|St Leo IV|Saint Leo IV|Leo 4|Pope Leo 4"),
-        answer(60, "Benedict III|Pope Benedict III|St Benedict III|Saint Benedict III|Benedict 3|Pope Benedict 3"),
-        answer(60, "Nicholas I|Pope Nicholas I|St Nicholas I|Saint Nicholas I|Nicholas 1|Pope Nicholas 1"),
-        answer(100, "Adrian II|Pope Adrian II|St Adrian II|Saint Adrian II|Adrian 2|Pope Adrian 2|Hadrian II"),
-        answer(60, "John VIII|Pope John VIII|St John VIII|Saint John VIII|John 8|Pope John 8"),
-        answer(60, "Marinus I|Pope Marinus I|St Marinus I|Saint Marinus I|Marinus 1|Pope Marinus 1"),
-        answer(100, "Adrian III|Pope Adrian III|St Adrian III|Saint Adrian III|Adrian 3|Pope Adrian 3|Hadrian III"),
-        answer(60, "Stephen V|Pope Stephen V|St Stephen V|Saint Stephen V|Stephen 5|Pope Stephen 5"),
-        answer(60, "Formosus|Pope Formosus|St Formosus|Saint Formosus"),
-        answer(100, "Boniface VI|Pope Boniface VI|St Boniface VI|Saint Boniface VI|Boniface 6|Pope Boniface 6"),
-        answer(60, "Stephen VI|Pope Stephen VI|St Stephen VI|Saint Stephen VI|Stephen 6|Pope Stephen 6"),
-        answer(60, "Romanus|Pope Romanus|St Romanus|Saint Romanus"),
-        answer(100, "Theodore II|Pope Theodore II|St Theodore II|Saint Theodore II|Theodore 2|Pope Theodore 2"),
-        answer(60, "John IX|Pope John IX|St John IX|Saint John IX|John 9|Pope John 9"),
-        answer(60, "Benedict IV|Pope Benedict IV|St Benedict IV|Saint Benedict IV|Benedict 4|Pope Benedict 4"),
-        answer(100, "Leo V|Pope Leo V|St Leo V|Saint Leo V|Leo 5|Pope Leo 5"),
-        answer(60, "Sergius III|Pope Sergius III|St Sergius III|Saint Sergius III|Sergius 3|Pope Sergius 3"),
-        answer(60, "Anastasius III|Pope Anastasius III|St Anastasius III|Saint Anastasius III|Anastasius 3|Pope Anastasius 3"),
-        answer(100, "Lando|Pope Lando|St Lando|Saint Lando"),
-        answer(60, "John X|Pope John X|St John X|Saint John X|John 10|Pope John 10"),
-        answer(60, "Leo VI|Pope Leo VI|St Leo VI|Saint Leo VI|Leo 6|Pope Leo 6"),
-        answer(100, "Stephen VII|Pope Stephen VII|St Stephen VII|Saint Stephen VII|Stephen 7|Pope Stephen 7"),
-        answer(60, "John XI|Pope John XI|St John XI|Saint John XI|John 11|Pope John 11"),
-        answer(60, "Leo VII|Pope Leo VII|St Leo VII|Saint Leo VII|Leo 7|Pope Leo 7"),
-        answer(100, "Stephen VIII|Pope Stephen VIII|St Stephen VIII|Saint Stephen VIII|Stephen 8|Pope Stephen 8"),
-        answer(60, "Marinus II|Pope Marinus II|St Marinus II|Saint Marinus II|Marinus 2|Pope Marinus 2"),
-        answer(60, "Agapetus II|Pope Agapetus II|St Agapetus II|Saint Agapetus II|Agapetus 2|Pope Agapetus 2"),
-        answer(100, "John XII|Pope John XII|St John XII|Saint John XII|John 12|Pope John 12"),
-        answer(60, "Benedict V|Pope Benedict V|St Benedict V|Saint Benedict V|Benedict 5|Pope Benedict 5"),
-        answer(60, "Leo VIII|Pope Leo VIII|St Leo VIII|Saint Leo VIII|Leo 8|Pope Leo 8"),
-        answer(100, "John XIII|Pope John XIII|St John XIII|Saint John XIII|John 13|Pope John 13"),
-        answer(60, "Benedict VI|Pope Benedict VI|St Benedict VI|Saint Benedict VI|Benedict 6|Pope Benedict 6"),
-        answer(60, "Benedict VII|Pope Benedict VII|St Benedict VII|Saint Benedict VII|Benedict 7|Pope Benedict 7"),
-        answer(100, "John XIV|Pope John XIV|St John XIV|Saint John XIV|John 14|Pope John 14"),
-        answer(60, "John XV|Pope John XV|St John XV|Saint John XV|John 15|Pope John 15"),
-        answer(60, "Gregory V|Pope Gregory V|St Gregory V|Saint Gregory V|Gregory 5|Pope Gregory 5"),
-        answer(100, "Sylvester II|Pope Sylvester II|St Sylvester II|Saint Sylvester II|Sylvester 2|Pope Sylvester 2"),
-        answer(60, "John XVII|Pope John XVII|St John XVII|Saint John XVII|John 17|Pope John 17"),
-        answer(60, "John XVIII|Pope John XVIII|St John XVIII|Saint John XVIII|John 18|Pope John 18"),
-        answer(100, "Sergius IV|Pope Sergius IV|St Sergius IV|Saint Sergius IV|Sergius 4|Pope Sergius 4"),
-        answer(60, "Benedict VIII|Pope Benedict VIII|St Benedict VIII|Saint Benedict VIII|Benedict 8|Pope Benedict 8"),
-        answer(60, "John XIX|Pope John XIX|St John XIX|Saint John XIX|John 19|Pope John 19"),
-        answer(100, "Benedict IX|Pope Benedict IX|St Benedict IX|Saint Benedict IX|Benedict 9|Pope Benedict 9"),
-        answer(60, "Sylvester III|Pope Sylvester III|St Sylvester III|Saint Sylvester III|Sylvester 3|Pope Sylvester 3"),
-        answer(60, "Gregory VI|Pope Gregory VI|St Gregory VI|Saint Gregory VI|Gregory 6|Pope Gregory 6"),
-        answer(100, "Clement II|Pope Clement II|St Clement II|Saint Clement II|Clement 2|Pope Clement 2"),
-        answer(60, "Damasus II|Pope Damasus II|St Damasus II|Saint Damasus II|Damasus 2|Pope Damasus 2"),
-        answer(60, "Leo IX|Pope Leo IX|St Leo IX|Saint Leo IX|Leo 9|Pope Leo 9"),
-        answer(100, "Victor II|Pope Victor II|St Victor II|Saint Victor II|Victor 2|Pope Victor 2"),
-        answer(60, "Stephen IX|Pope Stephen IX|St Stephen IX|Saint Stephen IX|Stephen 9|Pope Stephen 9"),
-        answer(60, "Nicholas II|Pope Nicholas II|St Nicholas II|Saint Nicholas II|Nicholas 2|Pope Nicholas 2"),
-        answer(100, "Alexander II|Pope Alexander II|St Alexander II|Saint Alexander II|Alexander 2|Pope Alexander 2"),
-        answer(60, "Gregory VII|Pope Gregory VII|St Gregory VII|Saint Gregory VII|Gregory 7|Pope Gregory 7"),
-        answer(60, "Victor III|Pope Victor III|St Victor III|Saint Victor III|Victor 3|Pope Victor 3"),
-        answer(100, "Urban II|Pope Urban II|St Urban II|Saint Urban II|Urban 2|Pope Urban 2"),
-        answer(60, "Paschal II|Pope Paschal II|St Paschal II|Saint Paschal II|Paschal 2|Pope Paschal 2"),
-        answer(60, "Gelasius II|Pope Gelasius II|St Gelasius II|Saint Gelasius II|Gelasius 2|Pope Gelasius 2"),
-        answer(100, "Callixtus II|Pope Callixtus II|St Callixtus II|Saint Callixtus II|Callixtus 2|Pope Callixtus 2"),
-        answer(60, "Honorius II|Pope Honorius II|St Honorius II|Saint Honorius II|Honorius 2|Pope Honorius 2"),
-        answer(60, "Innocent II|Pope Innocent II|St Innocent II|Saint Innocent II|Innocent 2|Pope Innocent 2"),
-        answer(100, "Celestine II|Pope Celestine II|St Celestine II|Saint Celestine II|Celestine 2|Pope Celestine 2"),
-        answer(60, "Lucius II|Pope Lucius II|St Lucius II|Saint Lucius II|Lucius 2|Pope Lucius 2"),
-        answer(60, "Eugene III|Pope Eugene III|St Eugene III|Saint Eugene III|Eugene 3|Pope Eugene 3"),
-        answer(100, "Anastasius IV|Pope Anastasius IV|St Anastasius IV|Saint Anastasius IV|Anastasius 4|Pope Anastasius 4"),
-        answer(60, "Adrian IV|Pope Adrian IV|St Adrian IV|Saint Adrian IV|Adrian 4|Pope Adrian 4|Hadrian IV"),
-        answer(60, "Alexander III|Pope Alexander III|St Alexander III|Saint Alexander III|Alexander 3|Pope Alexander 3"),
-        answer(100, "Lucius III|Pope Lucius III|St Lucius III|Saint Lucius III|Lucius 3|Pope Lucius 3"),
-        answer(60, "Urban III|Pope Urban III|St Urban III|Saint Urban III|Urban 3|Pope Urban 3"),
-        answer(60, "Gregory VIII|Pope Gregory VIII|St Gregory VIII|Saint Gregory VIII|Gregory 8|Pope Gregory 8"),
-        answer(100, "Clement III|Pope Clement III|St Clement III|Saint Clement III|Clement 3|Pope Clement 3"),
-        answer(60, "Celestine III|Pope Celestine III|St Celestine III|Saint Celestine III|Celestine 3|Pope Celestine 3"),
-        answer(60, "Innocent III|Pope Innocent III|St Innocent III|Saint Innocent III|Innocent 3|Pope Innocent 3"),
-        answer(100, "Honorius III|Pope Honorius III|St Honorius III|Saint Honorius III|Honorius 3|Pope Honorius 3"),
-        answer(60, "Gregory IX|Pope Gregory IX|St Gregory IX|Saint Gregory IX|Gregory 9|Pope Gregory 9"),
-        answer(60, "Celestine IV|Pope Celestine IV|St Celestine IV|Saint Celestine IV|Celestine 4|Pope Celestine 4"),
-        answer(100, "Innocent IV|Pope Innocent IV|St Innocent IV|Saint Innocent IV|Innocent 4|Pope Innocent 4"),
-        answer(60, "Alexander IV|Pope Alexander IV|St Alexander IV|Saint Alexander IV|Alexander 4|Pope Alexander 4"),
-        answer(60, "Urban IV|Pope Urban IV|St Urban IV|Saint Urban IV|Urban 4|Pope Urban 4"),
-        answer(100, "Clement IV|Pope Clement IV|St Clement IV|Saint Clement IV|Clement 4|Pope Clement 4"),
-        answer(60, "Gregory X|Pope Gregory X|St Gregory X|Saint Gregory X|Gregory 10|Pope Gregory 10"),
-        answer(60, "Innocent V|Pope Innocent V|St Innocent V|Saint Innocent V|Innocent 5|Pope Innocent 5"),
-        answer(100, "Adrian V|Pope Adrian V|St Adrian V|Saint Adrian V|Adrian 5|Pope Adrian 5|Hadrian V"),
-        answer(60, "John XXI|Pope John XXI|St John XXI|Saint John XXI|John 21|Pope John 21"),
-        answer(60, "Nicholas III|Pope Nicholas III|St Nicholas III|Saint Nicholas III|Nicholas 3|Pope Nicholas 3"),
-        answer(100, "Martin IV|Pope Martin IV|St Martin IV|Saint Martin IV|Martin 4|Pope Martin 4"),
-        answer(60, "Honorius IV|Pope Honorius IV|St Honorius IV|Saint Honorius IV|Honorius 4|Pope Honorius 4"),
-        answer(60, "Nicholas IV|Pope Nicholas IV|St Nicholas IV|Saint Nicholas IV|Nicholas 4|Pope Nicholas 4"),
-        answer(100, "Celestine V|Pope Celestine V|St Celestine V|Saint Celestine V|Celestine 5|Pope Celestine 5"),
-        answer(60, "Boniface VIII|Pope Boniface VIII|St Boniface VIII|Saint Boniface VIII|Boniface 8|Pope Boniface 8"),
-        answer(60, "Benedict XI|Pope Benedict XI|St Benedict XI|Saint Benedict XI|Benedict 11|Pope Benedict 11"),
-        answer(100, "Clement V|Pope Clement V|St Clement V|Saint Clement V|Clement 5|Pope Clement 5"),
-        answer(60, "John XXII|Pope John XXII|St John XXII|Saint John XXII|John 22|Pope John 22"),
-        answer(60, "Benedict XII|Pope Benedict XII|St Benedict XII|Saint Benedict XII|Benedict 12|Pope Benedict 12"),
-        answer(100, "Clement VI|Pope Clement VI|St Clement VI|Saint Clement VI|Clement 6|Pope Clement 6"),
-        answer(60, "Innocent VI|Pope Innocent VI|St Innocent VI|Saint Innocent VI|Innocent 6|Pope Innocent 6"),
-        answer(60, "Urban V|Pope Urban V|St Urban V|Saint Urban V|Urban 5|Pope Urban 5"),
-        answer(100, "Gregory XI|Pope Gregory XI|St Gregory XI|Saint Gregory XI|Gregory 11|Pope Gregory 11"),
-        answer(60, "Urban VI|Pope Urban VI|St Urban VI|Saint Urban VI|Urban 6|Pope Urban 6"),
-        answer(60, "Boniface IX|Pope Boniface IX|St Boniface IX|Saint Boniface IX|Boniface 9|Pope Boniface 9"),
-        answer(100, "Innocent VII|Pope Innocent VII|St Innocent VII|Saint Innocent VII|Innocent 7|Pope Innocent 7"),
-        answer(60, "Gregory XII|Pope Gregory XII|St Gregory XII|Saint Gregory XII|Gregory 12|Pope Gregory 12"),
-        answer(60, "Martin V|Pope Martin V|St Martin V|Saint Martin V|Martin 5|Pope Martin 5"),
-        answer(100, "Eugene IV|Pope Eugene IV|St Eugene IV|Saint Eugene IV|Eugene 4|Pope Eugene 4"),
-        answer(60, "Nicholas V|Pope Nicholas V|St Nicholas V|Saint Nicholas V|Nicholas 5|Pope Nicholas 5"),
-        answer(60, "Callixtus III|Pope Callixtus III|St Callixtus III|Saint Callixtus III|Callixtus 3|Pope Callixtus 3"),
-        answer(100, "Pius II|Pope Pius II|St Pius II|Saint Pius II|Pius 2|Pope Pius 2"),
-        answer(60, "Paul II|Pope Paul II|St Paul II|Saint Paul II|Paul 2|Pope Paul 2"),
-        answer(60, "Sixtus IV|Pope Sixtus IV|St Sixtus IV|Saint Sixtus IV|Sixtus 4|Pope Sixtus 4"),
-        answer(100, "Innocent VIII|Pope Innocent VIII|St Innocent VIII|Saint Innocent VIII|Innocent 8|Pope Innocent 8"),
-        answer(60, "Alexander VI|Pope Alexander VI|St Alexander VI|Saint Alexander VI|Alexander 6|Pope Alexander 6"),
-        answer(60, "Pius III|Pope Pius III|St Pius III|Saint Pius III|Pius 3|Pope Pius 3"),
-        answer(100, "Julius II|Pope Julius II|St Julius II|Saint Julius II|Julius 2|Pope Julius 2"),
-        answer(60, "Leo X|Pope Leo X|St Leo X|Saint Leo X|Leo 10|Pope Leo 10"),
-        answer(60, "Adrian VI|Pope Adrian VI|St Adrian VI|Saint Adrian VI|Adrian 6|Pope Adrian 6|Hadrian VI"),
-        answer(100, "Clement VII|Pope Clement VII|St Clement VII|Saint Clement VII|Clement 7|Pope Clement 7"),
-        answer(60, "Paul III|Pope Paul III|St Paul III|Saint Paul III|Paul 3|Pope Paul 3"),
-        answer(60, "Julius III|Pope Julius III|St Julius III|Saint Julius III|Julius 3|Pope Julius 3"),
-        answer(100, "Marcellus II|Pope Marcellus II|St Marcellus II|Saint Marcellus II|Marcellus 2|Pope Marcellus 2"),
-        answer(60, "Paul IV|Pope Paul IV|St Paul IV|Saint Paul IV|Paul 4|Pope Paul 4"),
-        answer(60, "Pius IV|Pope Pius IV|St Pius IV|Saint Pius IV|Pius 4|Pope Pius 4"),
-        answer(100, "Pius V|Pope Pius V|St Pius V|Saint Pius V|Pius 5|Pope Pius 5"),
-        answer(60, "Gregory XIII|Pope Gregory XIII|St Gregory XIII|Saint Gregory XIII|Gregory 13|Pope Gregory 13"),
-        answer(60, "Sixtus V|Pope Sixtus V|St Sixtus V|Saint Sixtus V|Sixtus 5|Pope Sixtus 5"),
-        answer(100, "Urban VII|Pope Urban VII|St Urban VII|Saint Urban VII|Urban 7|Pope Urban 7"),
-        answer(60, "Gregory XIV|Pope Gregory XIV|St Gregory XIV|Saint Gregory XIV|Gregory 14|Pope Gregory 14"),
-        answer(60, "Innocent IX|Pope Innocent IX|St Innocent IX|Saint Innocent IX|Innocent 9|Pope Innocent 9"),
-        answer(100, "Clement VIII|Pope Clement VIII|St Clement VIII|Saint Clement VIII|Clement 8|Pope Clement 8"),
-        answer(60, "Leo XI|Pope Leo XI|St Leo XI|Saint Leo XI|Leo 11|Pope Leo 11"),
-        answer(60, "Paul V|Pope Paul V|St Paul V|Saint Paul V|Paul 5|Pope Paul 5"),
-        answer(30, "Gregory XV|Pope Gregory XV|St Gregory XV|Saint Gregory XV|Gregory 15|Pope Gregory 15"),
-        answer(30, "Urban VIII|Pope Urban VIII|St Urban VIII|Saint Urban VIII|Urban 8|Pope Urban 8"),
-        answer(30, "Innocent X|Pope Innocent X|St Innocent X|Saint Innocent X|Innocent 10|Pope Innocent 10"),
-        answer(30, "Alexander VII|Pope Alexander VII|St Alexander VII|Saint Alexander VII|Alexander 7|Pope Alexander 7"),
-        answer(30, "Clement IX|Pope Clement IX|St Clement IX|Saint Clement IX|Clement 9|Pope Clement 9"),
-        answer(30, "Clement X|Pope Clement X|St Clement X|Saint Clement X|Clement 10|Pope Clement 10"),
-        answer(30, "Innocent XI|Pope Innocent XI|St Innocent XI|Saint Innocent XI|Innocent 11|Pope Innocent 11"),
-        answer(30, "Alexander VIII|Pope Alexander VIII|St Alexander VIII|Saint Alexander VIII|Alexander 8|Pope Alexander 8"),
-        answer(30, "Innocent XII|Pope Innocent XII|St Innocent XII|Saint Innocent XII|Innocent 12|Pope Innocent 12"),
-        answer(30, "Clement XI|Pope Clement XI|St Clement XI|Saint Clement XI|Clement 11|Pope Clement 11"),
-        answer(30, "Innocent XIII|Pope Innocent XIII|St Innocent XIII|Saint Innocent XIII|Innocent 13|Pope Innocent 13"),
-        answer(30, "Benedict XIII|Pope Benedict XIII|St Benedict XIII|Saint Benedict XIII|Benedict 13|Pope Benedict 13"),
-        answer(30, "Clement XII|Pope Clement XII|St Clement XII|Saint Clement XII|Clement 12|Pope Clement 12"),
-        answer(30, "Benedict XIV|Pope Benedict XIV|St Benedict XIV|Saint Benedict XIV|Benedict 14|Pope Benedict 14"),
-        answer(30, "Clement XIII|Pope Clement XIII|St Clement XIII|Saint Clement XIII|Clement 13|Pope Clement 13"),
-        answer(30, "Clement XIV|Pope Clement XIV|St Clement XIV|Saint Clement XIV|Clement 14|Pope Clement 14"),
-        answer(30, "Pius VI|Pope Pius VI|St Pius VI|Saint Pius VI|Pius 6|Pope Pius 6"),
-        answer(30, "Pius VII|Pope Pius VII|St Pius VII|Saint Pius VII|Pius 7|Pope Pius 7"),
-        answer(30, "Leo XII|Pope Leo XII|St Leo XII|Saint Leo XII|Leo 12|Pope Leo 12"),
-        answer(30, "Pius VIII|Pope Pius VIII|St Pius VIII|Saint Pius VIII|Pius 8|Pope Pius 8"),
-        answer(30, "Gregory XVI|Pope Gregory XVI|St Gregory XVI|Saint Gregory XVI|Gregory 16|Pope Gregory 16"),
-        answer(30, "Pius IX|Pope Pius IX|St Pius IX|Saint Pius IX|Pius 9|Pope Pius 9"),
-        answer(30, "Leo XIII|Pope Leo XIII|St Leo XIII|Saint Leo XIII|Leo 13|Pope Leo 13"),
-        answer(30, "Pius X|Pope Pius X|St Pius X|Saint Pius X|Pius 10|Pope Pius 10"),
-        answer(30, "Benedict XV|Pope Benedict XV|St Benedict XV|Saint Benedict XV|Benedict 15|Pope Benedict 15"),
-        answer(30, "Pius XI|Pope Pius XI|St Pius XI|Saint Pius XI|Pius 11|Pope Pius 11"),
-        answer(15, "Pius XII|Pope Pius XII|St Pius XII|Saint Pius XII|Pius 12|Pope Pius 12"),
-        answer(15, "John XXIII|Pope John XXIII|St John XXIII|Saint John XXIII|John 23|Pope John 23"),
-        answer(15, "Paul VI|Pope Paul VI|St Paul VI|Saint Paul VI|Paul 6|Pope Paul 6"),
-        answer(15, "John Paul I|Pope John Paul I|St John Paul I|Saint John Paul I|John Paul 1|Pope John Paul 1"),
-        answer(10, "John Paul II|Pope John Paul II|St John Paul II|Saint John Paul II|John Paul 2|Pope John Paul 2|Karol Wojtyla"),
-        answer(10, "Benedict XVI|Pope Benedict XVI|St Benedict XVI|Saint Benedict XVI|Benedict 16|Pope Benedict 16|Joseph Ratzinger"),
-        answer(10, "Francis|Pope Francis|St Francis|Saint Francis|Jorge Mario Bergoglio"),
-        answer(10, "Leo XIV|Pope Leo XIV|St Leo XIV|Saint Leo XIV|Leo 14|Pope Leo 14|Robert Prevost|Robert Francis Prevost")
-      ]
-    },
-    {
-      prompt: "Name a US State or Territory Nickname.",
-      source: "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_nicknames",
-      sourceNote: "Includes historical nicknames, territories and Washington, DC. A nickname shared by states counts once.",
-      answers: [
-        answer(85, "Alabama the Beautiful|The Alabama the Beautiful", "Alabama"),
-        answer(30, "Cotton Plantation State|The Cotton Plantation State|Cotton Plantation", "Alabama"),
-        answer(30, "Cotton State|The Cotton State|Cotton", "Alabama"),
-        answer(85, "Heart of Dixie|The Heart of Dixie", "Alabama"),
-        answer(30, "Lizard State|The Lizard State|Lizard", "Alabama"),
-        answer(85, "Sweet Home Alabama|The Sweet Home Alabama", "Alabama"),
-        answer(30, "Yellowhammer State|The Yellowhammer State|Yellowhammer", "Alabama"),
-        answer(85, "Land of the Midnight Sun|The Land of the Midnight Sun", "Alaska"),
-        answer(85, "Land of the Noonday Moon|The Land of the Noonday Moon", "Alaska"),
-        answer(85, "Last Frontier|The Last Frontier", "Alaska"),
-        answer(85, "Seward's Folly|The Seward's Folly|Sewards Folly", "Alaska"),
-        answer(85, "Seward's Ice Box|The Seward's Ice Box|Sewards Ice Box", "Alaska"),
-        answer(85, "Icebergia|The Icebergia", "Alaska"),
-        answer(85, "Polaria|The Polaria", "Alaska"),
-        answer(85, "Walrussia|The Walrussia", "Alaska"),
-        answer(85, "Johnson's Polar Bear Garden|The Johnson's Polar Bear Garden|Johnsons Polar Bear Garden", "Alaska"),
-        answer(85, "Motu o Fiafiaga|The Motu o Fiafiaga|Islands of Paradise", "American Samoa"),
-        answer(85, "Football Islands|The Football Islands", "American Samoa"),
-        answer(30, "Apache State|The Apache State|Apache", "Arizona"),
-        answer(30, "Aztec State|The Aztec State|Aztec", "Arizona"),
-        answer(30, "Baby State|The Baby State|Baby", "Arizona"),
-        answer(30, "Copper State|The Copper State|Copper", "Arizona, Wisconsin"),
-        answer(30, "Grand Canyon State|The Grand Canyon State|Grand Canyon", "Arizona"),
-        answer(85, "Italy of America|The Italy of America", "Arizona"),
-        answer(30, "Sand Hill State|The Sand Hill State|Sand Hill", "Arizona"),
-        answer(30, "Sunset State|The Sunset State|Sunset", "Arizona"),
-        answer(30, "Sweetheart State|The Sweetheart State|Sweetheart", "Arizona"),
-        answer(30, "Valentine State|The Valentine State|Valentine", "Arizona"),
-        answer(30, "Bear State|The Bear State|Bear", "Arkansas"),
-        answer(30, "Bowie State|The Bowie State|Bowie", "Arkansas"),
-        answer(30, "Hot Springs State|The Hot Springs State|Hot Springs", "Arkansas"),
-        answer(85, "Land of Opportunity|The Land of Opportunity", "Arkansas"),
-        answer(30, "Natural State|The Natural State|Natural", "Arkansas"),
-        answer(30, "Razorback State|The Razorback State|Razorback", "Arkansas"),
-        answer(30, "Toothpick State|The Toothpick State|Toothpick", "Arkansas"),
-        answer(30, "Wonder State|The Wonder State|Wonder", "Arkansas"),
-        answer(30, "El Dorado State|The El Dorado State|El Dorado", "California"),
-        answer(10, "Golden State|The Golden State|Golden", "California"),
-        answer(30, "Buffalo Plains State|The Buffalo Plains State|Buffalo Plains", "Colorado"),
-        answer(30, "Centennial State|The Centennial State|Centennial", "Colorado"),
-        answer(85, "Colorful Colorado|The Colorful Colorado", "Colorado"),
-        answer(30, "Columbine State|The Columbine State|Columbine", "Colorado"),
-        answer(30, "Highest State|The Highest State|Highest", "Colorado"),
-        answer(30, "Lead State|The Lead State|Lead", "Colorado, Missouri"),
-        answer(85, "Mother of Rivers|The Mother of Rivers", "Colorado, New Hampshire"),
-        answer(10, "Rocky Mountain Empire|The Rocky Mountain Empire", "Colorado"),
-        answer(30, "Rocky Mountain State|The Rocky Mountain State|Rocky Mountain", "Colorado"),
-        answer(30, "Silver State|The Silver State|Silver", "Colorado, Nevada"),
-        answer(85, "Ski Country USA|The Ski Country USA", "Colorado"),
-        answer(85, "Switzerland of America|The Switzerland of America", "Colorado, New Hampshire, West Virginia"),
-        answer(30, "Constitution State|The Constitution State|Constitution", "Connecticut"),
-        answer(30, "Nutmeg State|The Nutmeg State|Nutmeg", "Connecticut"),
-        answer(30, "Provision State|The Provision State|Provision", "Connecticut"),
-        answer(30, "Blue Law State|The Blue Law State|Blue Law", "Connecticut"),
-        answer(30, "Freestone State|The Freestone State|Freestone", "Connecticut"),
-        answer(85, "Land of Steady Habits|The Land of Steady Habits", "Connecticut"),
-        answer(85, "Chemical Capital of the World|The Chemical Capital of the World", "Delaware"),
-        answer(85, "Corporate Capital|The Corporate Capital", "Delaware"),
-        answer(30, "Diamond State|The Diamond State|Diamond", "Delaware"),
-        answer(30, "Blue Hen State|The Blue Hen State|Blue Hen", "Delaware"),
-        answer(30, "Blue Hen Chicken State|The Blue Hen Chicken State|Blue Hen Chicken", "Delaware"),
-        answer(30, "First State|The First State|First", "Delaware"),
-        answer(10, "Peach State|The Peach State|Peach", "Delaware, Georgia"),
-        answer(85, "Small Wonder|The Small Wonder", "Delaware"),
-        answer(85, "Nation's Capital|The Nation's Capital|Nations Capital", "District of Columbia"),
-        answer(85, "DMV|The DMV", "District of Columbia"),
-        answer(85, "Inside the Beltway|The Inside the Beltway", "District of Columbia"),
-        answer(85, "End Taxation Without Representation|The End Taxation Without Representation", "District of Columbia"),
-        answer(30, "Alligator State|The Alligator State|Alligator", "Florida"),
-        answer(30, "Everglade State|The Everglade State|Everglade", "Florida"),
-        answer(30, "Flower State|The Flower State|Flower", "Florida"),
-        answer(30, "Gulf State|The Gulf State|Gulf", "Florida"),
-        answer(30, "Gunshine State|The Gunshine State|Gunshine", "Florida"),
-        answer(30, "Orange State|The Orange State|Orange", "Florida"),
-        answer(30, "Citrus State|The Citrus State|Citrus", "Florida"),
-        answer(30, "Palm Tree State|The Palm Tree State|Palm Tree", "Florida"),
-        answer(30, "Peninsula State|The Peninsula State|Peninsula", "Florida"),
-        answer(30, "Peninsular State|The Peninsular State|Peninsular", "Florida"),
-        answer(30, "Plywood State|The Plywood State|Plywood", "Florida"),
-        answer(10, "Sunshine State|The Sunshine State|Sunshine", "Florida, South Dakota"),
-        answer(85, "Free State of Florida|The Free State of Florida", "Florida"),
-        answer(30, "Cracker State|The Cracker State|Cracker", "Georgia"),
-        answer(10, "Empire State of the South|The Empire State of the South", "Georgia"),
-        answer(30, "Goober State|The Goober State|Goober", "Georgia"),
-        answer(85, "State of Adventure|The State of Adventure", "Georgia"),
-        answer(85, "Tano y Chamorro|The Tano y Chamorro|Land of the Chamorro", "Guam"),
-        answer(85, "Hub of the Pacific|The Hub of the Pacific", "Guam"),
-        answer(85, "Gateway to Micronesia|The Gateway to Micronesia", "Guam"),
-        answer(10, "Aloha State|The Aloha State|Aloha", "Hawaii"),
-        answer(85, "Paradise of the Pacific|The Paradise of the Pacific", "Hawaii"),
-        answer(30, "Pineapple State|The Pineapple State|Pineapple", "Hawaii"),
-        answer(30, "Rainbow State|The Rainbow State|Rainbow", "Hawaii"),
-        answer(30, "Youngest State|The Youngest State|Youngest", "Hawaii"),
-        answer(30, "808 State|The 808 State|808", "Hawaii"),
-        answer(30, "Gem State|The Gem State|Gem", "Idaho"),
-        answer(85, "Gem of the Mountains|The Gem of the Mountains", "Idaho"),
-        answer(85, "Little Ida|The Little Ida", "Idaho"),
-        answer(30, "Potato State|The Potato State|Potato", "Idaho"),
-        answer(85, "Land of Lincoln|The Land of Lincoln", "Illinois"),
-        answer(30, "Prairie State|The Prairie State|Prairie", "Illinois"),
-        answer(30, "Corn State|The Corn State|Corn", "Illinois"),
-        answer(85, "Garden of the West|The Garden of the West", "Illinois"),
-        answer(30, "Hoosier State|The Hoosier State|Hoosier", "Indiana"),
-        answer(85, "Crossroads of America|The Crossroads of America", "Indiana"),
-        answer(30, "Hawkeye State|The Hawkeye State|Hawkeye", "Iowa"),
-        answer(85, "America's Heartland|The America's Heartland|Americas Heartland", "Kansas"),
-        answer(30, "Central State|The Central State|Central", "Kansas"),
-        answer(85, "Dorothy's Home|The Dorothy's Home|Dorothys Home", "Kansas"),
-        answer(30, "Free State|The Free State|Free", "Kansas, Maryland"),
-        answer(85, "Midway USA|The Midway USA", "Kansas"),
-        answer(30, "Sunflower State|The Sunflower State|Sunflower", "Kansas"),
-        answer(30, "Wheat State|The Wheat State|Wheat", "Kansas"),
-        answer(85, "Bleeding Kansas|The Bleeding Kansas", "Kansas"),
-        answer(30, "Jayhawk State|The Jayhawk State|Jayhawk", "Kansas"),
-        answer(85, "Breadbasket of the World|The Breadbasket of the World", "Kansas"),
-        answer(30, "Bluegrass State|The Bluegrass State|Bluegrass", "Kentucky"),
-        answer(30, "Corn-cracker State|The Corn-cracker State|Corn-cracker", "Kentucky"),
-        answer(30, "Dark and Bloody Ground State|The Dark and Bloody Ground State|Dark and Bloody Ground", "Kentucky"),
-        answer(30, "Hemp State|The Hemp State|Hemp", "Kentucky"),
-        answer(30, "Tobacco State|The Tobacco State|Tobacco", "Kentucky"),
-        answer(30, "Bayou State|The Bayou State|Bayou", "Louisiana, Mississippi"),
-        answer(30, "Creole State|The Creole State|Creole", "Louisiana"),
-        answer(30, "Pelican State|The Pelican State|Pelican", "Louisiana"),
-        answer(85, "Sportsman's Paradise|The Sportsman's Paradise|Sportsmans Paradise", "Louisiana"),
-        answer(30, "Pine Tree State|The Pine Tree State|Pine Tree", "Maine"),
-        answer(85, "Vacationland|The Vacationland", "Maine"),
-        answer(30, "Lumber State|The Lumber State|Lumber", "Maine"),
-        answer(30, "Sunrise State|The Sunrise State|Sunrise", "Maine"),
-        answer(85, "America in Miniature|The America in Miniature", "Maryland"),
-        answer(30, "Chesapeake State|The Chesapeake State|Chesapeake", "Maryland"),
-        answer(30, "Cockade State|The Cockade State|Cockade", "Maryland"),
-        answer(30, "Monumental State|The Monumental State|Monumental", "Maryland"),
-        answer(30, "Old Line State|The Old Line State|Old Line", "Maryland"),
-        answer(30, "Oyster State|The Oyster State|Oyster", "Maryland"),
-        answer(30, "Queen State|The Queen State|Queen", "Maryland"),
-        answer(30, "Terrapin State|The Terrapin State|Terrapin", "Maryland"),
-        answer(30, "Baked Bean State|The Baked Bean State|Baked Bean", "Massachusetts"),
-        answer(30, "Codfish State|The Codfish State|Codfish", "Massachusetts"),
-        answer(30, "Bay State|The Bay State|Bay", "Massachusetts"),
-        answer(30, "Old Colony State|The Old Colony State|Old Colony", "Massachusetts"),
-        answer(30, "Pilgrim State|The Pilgrim State|Pilgrim", "Massachusetts"),
-        answer(85, "Spirit of America|The Spirit of America", "Massachusetts"),
-        answer(85, "Taxachusetts|The Taxachusetts", "Massachusetts"),
-        answer(30, "Great Lakes State|The Great Lakes State|Great Lakes", "Michigan"),
-        answer(85, "Water Wonderland|The Water Wonderland", "Michigan"),
-        answer(85, "Water-Winter Wonderland|The Water-Winter Wonderland", "Michigan"),
-        answer(30, "Wolverine State|The Wolverine State|Wolverine", "Michigan"),
-        answer(30, "Mitten State|The Mitten State|Mitten", "Michigan"),
-        answer(10, "Gopher State|The Gopher State|Gopher", "Minnesota"),
-        answer(10, "Land of 10,000 Lakes|The Land of 10,000 Lakes|Land of 10000 Lakes|Land of Ten Thousand Lakes|10000 Lakes|10,000 Lakes", "Minnesota"),
-        answer(85, "New England of the West|The New England of the West", "Minnesota"),
-        answer(10, "North Star State|The North Star State|North Star", "Minnesota"),
-        answer(85, "State of Hockey|The State of Hockey", "Minnesota"),
-        answer(85, "Minnesnowta|The Minnesnowta", "Minnesota"),
-        answer(30, "Bread and Butter State|The Bread and Butter State|Bread and Butter", "Minnesota"),
-        answer(30, "Loon State|The Loon State|Loon", "Minnesota"),
-        answer(30, "Hospitality State|The Hospitality State|Hospitality", "Mississippi"),
-        answer(30, "Magnolia State|The Magnolia State|Magnolia", "Mississippi"),
-        answer(85, "Birthplace of America's Music|The Birthplace of America's Music|Birthplace of Americas Music", "Mississippi"),
-        answer(30, "Bullion State|The Bullion State|Bullion", "Missouri"),
-        answer(30, "Show-Me State|The Show-Me State|Show-Me", "Missouri"),
-        answer(85, "Gateway to the West|The Gateway to the West", "Missouri"),
-        answer(30, "Ozark State|The Ozark State|Ozark", "Missouri"),
-        answer(85, "Mother of the West|The Mother of the West", "Missouri"),
-        answer(30, "Iron Mountain State|The Iron Mountain State|Iron Mountain", "Missouri"),
-        answer(85, "Pennsylvania of the West|The Pennsylvania of the West", "Missouri"),
-        answer(30, "Cave State|The Cave State|Cave", "Missouri"),
-        answer(85, "Big Sky Country|The Big Sky Country", "Montana"),
-        answer(85, "Last Best Place|The Last Best Place", "Montana"),
-        answer(30, "Treasure State|The Treasure State|Treasure", "Montana"),
-        answer(85, "Land of the Shining Mountains|The Land of the Shining Mountains", "Montana"),
-        answer(30, "Antelope State|The Antelope State|Antelope", "Nebraska"),
-        answer(30, "Beef State|The Beef State|Beef", "Nebraska"),
-        answer(30, "Cornhusker State|The Cornhusker State|Cornhusker", "Nebraska"),
-        answer(30, "Bug-eating State|The Bug-eating State|Bug-eating", "Nebraska"),
-        answer(30, "Blackwater State|The Blackwater State|Blackwater", "Nebraska"),
-        answer(85, "Good Life|The Good Life", "Nebraska"),
-        answer(30, "Tree Planters State|The Tree Planters State|Tree Planters", "Nebraska"),
-        answer(30, "Battle Born State|The Battle Born State|Battle Born", "Nevada"),
-        answer(30, "Sagebrush State|The Sagebrush State|Sagebrush", "Nevada"),
-        answer(30, "Casino State|The Casino State|Casino", "Nevada"),
-        answer(30, "Granite State|The Granite State|Granite", "New Hampshire"),
-        answer(30, "Live Free or Die State|The Live Free or Die State|Live Free or Die", "New Hampshire"),
-        answer(30, "White Mountain State|The White Mountain State|White Mountain", "New Hampshire"),
-        answer(30, "Garbage State|The Garbage State|Garbage", "New Jersey"),
-        answer(85, "Armpit of America|The Armpit of America", "New Jersey, Ohio"),
-        answer(30, "Garden State|The Garden State|Garden", "New Jersey"),
-        answer(85, "Crossroads of the Revolution|The Crossroads of the Revolution", "New Jersey"),
-        answer(30, "Cornerstone State|The Cornerstone State|Cornerstone", "New Jersey"),
-        answer(30, "Suburban State|The Suburban State|Suburban", "New Jersey"),
-        answer(85, "Land of Enchantment|The Land of Enchantment", "New Mexico"),
-        answer(10, "Land of Sunshine|The Land of Sunshine", "New Mexico"),
-        answer(10, "Empire State|The Empire State|Empire", "New York"),
-        answer(30, "Excelsior State|The Excelsior State|Excelsior", "New York"),
-        answer(30, "Apple State|The Apple State|Apple", "New York"),
-        answer(30, "Dairy State|The Dairy State|Dairy", "New York, Wisconsin"),
-        answer(85, "First in Flight|The First in Flight", "North Carolina"),
-        answer(85, "First in Freedom|The First in Freedom", "North Carolina"),
-        answer(30, "Old North State|The Old North State|Old North", "North Carolina"),
-        answer(30, "Tar Heel State|The Tar Heel State|Tar Heel", "North Carolina"),
-        answer(30, "Turpentine State|The Turpentine State|Turpentine", "North Carolina"),
-        answer(85, "Variety Vacationland|The Variety Vacationland", "North Carolina"),
-        answer(30, "Flickertail State|The Flickertail State|Flickertail", "North Dakota"),
-        answer(30, "Peace Garden State|The Peace Garden State|Peace Garden", "North Dakota"),
-        answer(30, "Rough Rider State|The Rough Rider State|Rough Rider", "North Dakota"),
-        answer(30, "Sioux State|The Sioux State|Sioux", "North Dakota"),
-        answer(85, "Heaven on Earth|The Heaven on Earth", "North Dakota"),
-        answer(85, "Håfa Adai|The Håfa Adai", "Northern Mariana Islands"),
-        answer(85, "America's Best Kept Secret|The America's Best Kept Secret|Americas Best Kept Secret", "Northern Mariana Islands"),
-        answer(30, "Buckeye State|The Buckeye State|Buckeye", "Ohio"),
-        answer(85, "Birthplace of Aviation|The Birthplace of Aviation", "Ohio"),
-        answer(85, "Heart of It All|The Heart of It All", "Ohio"),
-        answer(85, "Native America|The Native America", "Oklahoma"),
-        answer(85, "Land of the Red Man|The Land of the Red Man", "Oklahoma"),
-        answer(30, "Sooner State|The Sooner State|Sooner", "Oklahoma"),
-        answer(30, "Beaver State|The Beaver State|Beaver", "Oregon"),
-        answer(85, "Pacific Wonderland|The Pacific Wonderland", "Oregon"),
-        answer(30, "Webfoot State|The Webfoot State|Webfoot", "Oregon"),
-        answer(30, "Keystone State|The Keystone State|Keystone", "Pennsylvania"),
-        answer(30, "Quaker State|The Quaker State|Quaker", "Pennsylvania"),
-        answer(30, "Coal State|The Coal State|Coal", "Pennsylvania"),
-        answer(30, "Railroad State|The Railroad State|Railroad", "Pennsylvania"),
-        answer(30, "Elk State|The Elk State|Elk", "Pennsylvania"),
-        answer(85, "Isla del Encanto|The Isla del Encanto|Island of Enchantment", "Puerto Rico"),
-        answer(85, "Borinquen|The Borinquen", "Puerto Rico"),
-        answer(85, "Little Rhody|The Little Rhody", "Rhode Island"),
-        answer(30, "Ocean State|The Ocean State|Ocean", "Rhode Island"),
-        answer(85, "Rogues Island|The Rogues Island", "Rhode Island"),
-        answer(85, "Licentious Republic|The Licentious Republic", "Rhode Island"),
-        answer(30, "Smallest State|The Smallest State|Smallest", "Rhode Island"),
-        answer(30, "Palmetto State|The Palmetto State|Palmetto", "South Carolina"),
-        answer(30, "Iodine Products State|The Iodine Products State|Iodine Products", "South Carolina"),
-        answer(30, "Artesian State|The Artesian State|Artesian", "South Dakota"),
-        answer(30, "Blizzard State|The Blizzard State|Blizzard", "South Dakota"),
-        answer(30, "Coyote State|The Coyote State|Coyote", "South Dakota"),
-        answer(85, "Land of Infinite Variety|The Land of Infinite Variety", "South Dakota"),
-        answer(30, "Mount Rushmore State|The Mount Rushmore State|Mount Rushmore", "South Dakota"),
-        answer(30, "Big Bend State|The Big Bend State|Big Bend", "Tennessee"),
-        answer(30, "Butternut State|The Butternut State|Butternut", "Tennessee"),
-        answer(30, "Hog and Hominy State|The Hog and Hominy State|Hog and Hominy", "Tennessee"),
-        answer(85, "Mother of Southwestern Statesmen|The Mother of Southwestern Statesmen", "Tennessee"),
-        answer(30, "Volunteer State|The Volunteer State|Volunteer", "Tennessee"),
-        answer(10, "Lone Star State|The Lone Star State|Lone Star", "Texas"),
-        answer(85, "America's Caribbean|The America's Caribbean|Americas Caribbean", "U.S. Virgin Islands"),
-        answer(85, "American Paradise|The American Paradise", "U.S. Virgin Islands"),
-        answer(30, "Beehive State|The Beehive State|Beehive", "Utah"),
-        answer(85, "Crossroads of the West|The Crossroads of the West", "Utah"),
-        answer(30, "Mormon State|The Mormon State|Mormon", "Utah"),
-        answer(30, "Friendly State|The Friendly State|Friendly", "Utah"),
-        answer(30, "Green Mountain State|The Green Mountain State|Green Mountain", "Vermont"),
-        answer(30, "Maple State|The Maple State|Maple", "Vermont"),
-        answer(85, "Brave Little State of Vermont|The Brave Little State of Vermont", "Vermont"),
-        answer(85, "Mother of Presidents|The Mother of Presidents", "Virginia"),
-        answer(85, "Mother of States|The Mother of States", "Virginia"),
-        answer(85, "Old Dominion|The Old Dominion", "Virginia"),
-        answer(30, "Evergreen State|The Evergreen State|Evergreen", "Washington"),
-        answer(30, "Mountain State|The Mountain State|Mountain", "West Virginia"),
-        answer(30, "Panhandle State|The Panhandle State|Panhandle", "West Virginia"),
-        answer(85, "Almost Heaven|The Almost Heaven", "West Virginia"),
-        answer(30, "Badger State|The Badger State|Badger", "Wisconsin"),
-        answer(85, "America's Dairyland|The America's Dairyland|Americas Dairyland", "Wisconsin"),
-        answer(30, "Traitor State|The Traitor State|Traitor", "Wisconsin"),
-        answer(30, "Cheese State|The Cheese State|Cheese", "Wisconsin"),
-        answer(30, "Cowboy State|The Cowboy State|Cowboy", "Wyoming"),
-        answer(30, "Equality State|The Equality State|Equality", "Wyoming"),
-        answer(85, "Forever West|The Forever West", "Wyoming")
-      ]
-    },
-  ];
-  window.DIVE_DAYS = [
-    { id: '2026-09-28', label: '28 Sept 2026', questions: september28 },
-    { id: '2026-09-29', label: '29 Sept 2026', questions: september29 }
-  ];
-  window.DIVE_QUESTIONS = september29;
-})();
+// Generated by scripts/build_questions.py. Edit question-packs instead.
+window.DIVE_DAYS = [
+  {
+    "id": "2026-09-28",
+    "label": "28 Sept 2026",
+    "questions": [
+      {
+        "prompt": "Name a Minnesota Intercollegiate Athletic Conference (MIAC) school.",
+        "source": "https://miacathletics.com/sports/2022/4/20/members-index.aspx",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Carleton College",
+              "Carleton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "St. Olaf College",
+              "St Olaf",
+              "Saint Olaf"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Macalester College",
+              "Macalester"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Augsburg University",
+              "Augsburg"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Bethel University",
+              "Bethel"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Gustavus Adolphus College",
+              "Gustavus",
+              "Gustavus Adolphus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Hamline University",
+              "Hamline"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Concordia College",
+              "Concordia Moorhead",
+              "Concordia-Moorhead"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "College of Saint Benedict",
+              "Saint Benedict",
+              "St. Benedict",
+              "CSB"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "St. Catherine University",
+              "Saint Catherine",
+              "St Catherine",
+              "St. Kate's",
+              "St Kates"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Saint John's University",
+              "St. John's",
+              "St Johns",
+              "SJU"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Saint Mary's University of Minnesota",
+              "Saint Mary's",
+              "St. Mary's",
+              "St Marys"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The College of St. Scholastica",
+              "College of St. Scholastica",
+              "St. Scholastica",
+              "CSS"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a county in Minnesota.",
+        "source": "https://mn.gov/portal/government/local/counties/",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Hennepin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Ramsey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Dakota"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Anoka"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "St. Louis",
+              "Saint Louis",
+              "Saint Louis County"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Olmsted"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Washington"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Stearns"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Wright"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Scott"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blue Earth"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Crow Wing"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Otter Tail"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Beltrami"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Clay"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Carver"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sherburne"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rice"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Steele"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Goodhue"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Aitkin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Becker"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brown"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Carlton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cass"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chippewa"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chisago"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Clearwater"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cook"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cottonwood"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dodge"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Douglas"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Faribault"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fillmore"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Freeborn"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Grant"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Houston"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hubbard"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Isanti"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Itasca"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jackson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kanabec"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kandiyohi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kittson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Koochiching"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lake"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lincoln"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lyon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marshall"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Martin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "McLeod"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Meeker"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Morrison"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mower"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Murray"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nicollet"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nobles"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Norman"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pennington"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pine"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pipestone"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Polk"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pope"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Redwood"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Renville"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rock"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Roseau"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sibley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stevens"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Swift"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Todd"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Traverse"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wabasha"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wadena"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Waseca"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Watonwan"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wilkin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Winona"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yellow Medicine"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Big Stone"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lake of the Woods"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lac qui Parle",
+              "Lac Qui Parle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Le Sueur"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mahnomen"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Red Lake"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mille Lacs",
+              "Mille Lacs County"
+            ],
+            "note": "The name means \u2018a thousand lakes\u2019 in French."
+          }
+        ]
+      },
+      {
+        "prompt": "Name an academic building at Carleton College.",
+        "source": "https://cdn.carleton.edu/uploads/sites/782/2024/09/Map_11x14_2024-v5.pdf",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Gould Library",
+              "Laurence McKinley Gould Library"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Anderson Hall",
+              "Anderson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Olin Hall",
+              "Olin Hall of Science",
+              "Olin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Weitz Center for Creativity",
+              "Weitz Center",
+              "Weitz"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Boliou Hall",
+              "Boliou"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Laird Hall",
+              "Laird"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Leighton Hall",
+              "Leighton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Willis Hall",
+              "Willis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Center for Mathematics and Computing",
+              "CMC",
+              "Math and Computing Center"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Language and Dining Center",
+              "Language & Dining Center",
+              "LDC"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Goodsell Observatory",
+              "Goodsell"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hulings Hall",
+              "Hulings"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hasenstab Hall",
+              "Hasenstab"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Music Hall"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Severance Hall",
+              "Severance"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sayles-Hill Campus Center",
+              "Sayles-Hill",
+              "Sayles Hill"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Scoville Hall",
+              "Scoville"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Skinner Memorial Chapel",
+              "Skinner Chapel"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "von Klemperer Classroom",
+              "von Klemperer"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nourse Hall",
+              "Nourse"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mudd Hall of Science",
+              "Mudd Hall"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Myers Hall",
+              "Myers"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Burton Hall",
+              "Burton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Concert Hall",
+              "Carleton Concert Hall"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cowling Gymnasium",
+              "Cowling"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "West Gymnasium",
+              "West Gym"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a famous Carleton College alum listed on Wikipedia.",
+        "source": "https://en.wikipedia.org/wiki/List_of_Carleton_College_people",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Thorstein Veblen",
+              "Veblen"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Pierce Butler"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Melvin Laird",
+              "Melvin R. Laird"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Jimmy Chin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Jonathan Capehart"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Christopher Kratt",
+              "Chris Kratt"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Kai Bird"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "T. J. Stiles",
+              "TJ Stiles",
+              "T.J. Stiles"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Walter Alvarez"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Anthony Downs"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "John F. Harris",
+              "John Harris"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Naomi Kritzer"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Peter Tork",
+              "Peter Tork of the Monkees"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Laura Veirs"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kao Kalia Yang"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Patricia C. Wrede",
+              "Patricia Collins Wrede",
+              "Patricia Wrede"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Maya Dusenbery"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jack El-Hai",
+              "Jack Elhai"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Michael Gartner"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Helene Wecker"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Karen Tei Yamashita"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eugenie Moore Anderson",
+              "Eugenie Anderson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rush Holt Jr.",
+              "Rush Holt"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Michael Armacost"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fue Lee"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Jane Elizabeth Hodgson",
+              "Jane Hodgson"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a person who has received a knighthood.",
+        "source": "https://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Sir Paul McCartney",
+              "Paul McCartney"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Sir Elton John",
+              "Elton John"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Sir David Attenborough",
+              "David Attenborough"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Sir Ian McKellen",
+              "Ian McKellen"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Sir Patrick Stewart",
+              "Patrick Stewart"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Sir Lewis Hamilton",
+              "Lewis Hamilton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Sir Anthony Hopkins",
+              "Anthony Hopkins"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Sir Michael Caine",
+              "Michael Caine"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Sir Mick Jagger",
+              "Mick Jagger"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Sir Andy Murray",
+              "Andy Murray"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Sir Mo Farah",
+              "Mo Farah",
+              "Mohamed Farah"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Sir Tim Berners-Lee",
+              "Tim Berners-Lee"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sir Alec Guinness",
+              "Alec Guinness"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sir Sean Connery",
+              "Sean Connery"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sir Roger Moore",
+              "Roger Moore"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sir Christopher Lee",
+              "Christopher Lee"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sir Isaac Newton",
+              "Isaac Newton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sir Christopher Wren",
+              "Christopher Wren"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sir Francis Drake",
+              "Francis Drake"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sir Walter Raleigh",
+              "Walter Raleigh"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sir Chris Hoy",
+              "Chris Hoy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sir Steve Redgrave",
+              "Steve Redgrave"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sir Jackie Stewart",
+              "Jackie Stewart"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sir Ringo Starr",
+              "Ringo Starr"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sir Viv Richards",
+              "Viv Richards"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sir James Dyson",
+              "James Dyson"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a major offered by Carleton College in 2026\u201327.",
+        "source": "https://cdn.carleton.edu/uploads/sites/875/2025/09/Carleton_AcademicCatalog_2025-26.pdf",
+        "sourceNote": "The 2026\u201327 catalog was not available in the public registrar catalog when this pack was prepared; this set follows the latest published 2025\u201326 catalog.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Biology"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Chemistry"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Computer Science",
+              "CS"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Economics"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "English"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "History"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Mathematics",
+              "Math"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Psychology"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Political Science"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Africana Studies"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "American Studies"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Art History",
+              "Art and Art History"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Asian Studies"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Cinema and Media Studies",
+              "Cinema & Media Studies",
+              "CAMS"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Classics"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Environmental Studies"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Geology"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Linguistics"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Music"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Philosophy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cognitive Science",
+              "Cognitive Studies",
+              "CogSci"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "French and Francophone Studies"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gender, Women's and Sexuality Studies",
+              "GWSS",
+              "Women's and Gender Studies"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "German"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mathematics and Statistics",
+              "Math and Statistics"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Physics and Astronomy",
+              "Physics"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Religion"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sociology and Anthropology",
+              "Sociology & Anthropology",
+              "SOAN"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Spanish"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Theater",
+              "Theatre"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Latin American Studies",
+              "LTAM"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Special Major",
+              "Self-designed major"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Archaeology"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "International Relations"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a Seattle Seahawks wide receiver rostered for 2026\u201327, including the practice squad.",
+        "source": "https://www.seahawks.com/team/players-roster/",
+        "sourceNote": "Roster snapshot checked September 27, 2026. The team can change this list during the season.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Jaxon Smith-Njigba",
+              "JSN"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Cooper Kupp"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Rashid Shaheed"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Tory Horton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Montorie Foster Jr.",
+              "Montorie Foster"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jake Bobo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Irv Charles",
+              "Irvin Charles"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Emmanuel Henderson Jr.",
+              "Emmanuel Henderson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Julian Hicks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ricky White III",
+              "Ricky White"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Malick Meiga"
+            ],
+            "note": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-09-29",
+    "label": "29 Sept 2026",
+    "questions": [
+      {
+        "prompt": "Man Eating Animals: name an animal discussed in the linked list.",
+        "source": "https://en.wikipedia.org/wiki/Man-eating_animal",
+        "sourceNote": "Includes species discussed as predators or attackers; not every attack is predatory. Related common names share one catch.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Tiger",
+              "Tigers",
+              "Bengal tiger"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Lion",
+              "Lions",
+              "African lion"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Leopard",
+              "Leopards"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jaguar",
+              "Jaguars"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cougar",
+              "Cougars",
+              "Puma",
+              "Mountain lion"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Wolf",
+              "Wolves",
+              "Gray wolf",
+              "Grey wolf"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Dingo",
+              "Dingoes",
+              "Dingos"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Domestic dog",
+              "Dog",
+              "Dogs"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Coyote",
+              "Coyotes",
+              "Coywolf"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jackal",
+              "Jackals"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Polar bear",
+              "Polar bears"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Brown bear",
+              "Brown bears",
+              "Grizzly",
+              "Grizzly bear",
+              "Bear",
+              "Bears"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "American black bear",
+              "Black bear",
+              "Black bears"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Asian black bear",
+              "Asiatic black bear"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sloth bear"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Spotted hyena",
+              "Hyena",
+              "Hyenas",
+              "Hyaena"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Striped hyena"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pig",
+              "Pigs",
+              "Hog",
+              "Hogs",
+              "Wild boar",
+              "Wild pig",
+              "Feral hog"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Human",
+              "Humans",
+              "Homo sapiens"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chimpanzee",
+              "Chimp",
+              "Chimps",
+              "Chimpanzees"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Rat",
+              "Rats"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Nile crocodile",
+              "Crocodile",
+              "Crocodiles",
+              "Croc"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Saltwater crocodile",
+              "Salt water crocodile",
+              "Saltie"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mugger crocodile",
+              "Mugger",
+              "Marsh crocodile"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "American alligator",
+              "Alligator",
+              "Alligators",
+              "Gator"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Reticulated python",
+              "Python",
+              "Pythons"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Burmese python"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "African rock python",
+              "Rock python",
+              "Southern African rock python"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Australian scrub python",
+              "Scrub python",
+              "Amethystine python"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Komodo dragon",
+              "Komodo dragons"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Great white shark",
+              "Great white",
+              "Shark",
+              "Sharks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tiger shark"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bull shark"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Oceanic whitetip shark",
+              "Oceanic white tip shark"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "African crowned eagle",
+              "Crowned eagle",
+              "Eagle"
+            ],
+            "note": "The source discusses evidence of predation on children."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Martial eagle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Haast's eagle",
+              "Haasts eagle"
+            ],
+            "note": "Extinct; human predation is proposed, not certain."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Piranha",
+              "Piranhas",
+              "Red-bellied piranha",
+              "Red bellied piranha"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Goonch catfish",
+              "Goonch",
+              "Catfish"
+            ],
+            "note": "The source describes reported cases."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Wels catfish",
+              "Wels"
+            ],
+            "note": "The source describes reported cases."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Redtail catfish",
+              "Red tail catfish"
+            ],
+            "note": "Suspected involvement in a ferry disaster, not confirmed predation."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Piraiba",
+              "Piraiba catfish"
+            ],
+            "note": "Suspected involvement in a ferry disaster, not confirmed predation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Giant grouper",
+              "Grouper"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Atlantic goliath grouper",
+              "Goliath grouper"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Humboldt squid",
+              "Squid"
+            ],
+            "note": "The source describes alleged attacks."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a Harry Potter character.",
+        "source": "https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters",
+        "sourceNote": "Characters from the linked list; common aliases and unambiguous surnames accepted.",
+        "answers": [
+          {
+            "points": 85,
+            "forms": [
+              "Hannah Abbott",
+              "Abbott"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ludo Bagman",
+              "Bagman"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bathilda Bagshot",
+              "Bagshot"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Katie Bell",
+              "Bell"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cuthbert Binns",
+              "Binns"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Regulus Black"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Sirius Black"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Susan Bones",
+              "Bones"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Terry Boot",
+              "Boot"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lavender Brown",
+              "Brown"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Frank Bryce",
+              "Bryce"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charity Burbage",
+              "Burbage"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alecto Carrow"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Amycus Carrow"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cho Chang",
+              "Chang"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Michael Corner",
+              "Corner"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vincent Crabbe",
+              "Crabbe"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Colin Creevey",
+              "Creevey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bartemius Crouch Sr",
+              "Barty Crouch Sr",
+              "Barty Crouch Senior",
+              "Bartemius Crouch Senior",
+              "Sr"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Barty Crouch Jr",
+              "Bartemius Crouch Jr",
+              "Barty Crouch Junior",
+              "Jr"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John Dawlish",
+              "Dawlish"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fleur Delacour",
+              "Delacour"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dedalus Diggle",
+              "Diggle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Amos Diggory"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cedric Diggory"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Elphias Doge",
+              "Doge"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Antonin Dolohov",
+              "Dolohov"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aberforth Dumbledore"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Albus Dumbledore",
+              "Dumbledore"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ariana Dumbledore"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dudley Dursley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marge Dursley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Petunia Dursley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vernon Dursley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marietta Edgecombe",
+              "Edgecombe"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Arabella Figg",
+              "Figg"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Argus Filch",
+              "Filch"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Justin Finch-Fletchley",
+              "Finch-Fletchley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Seamus Finnigan",
+              "Finnigan"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mundungus Fletcher",
+              "Fletcher"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Filius Flitwick",
+              "Flitwick"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cornelius Fudge",
+              "Fudge"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Anthony Goldstein",
+              "Goldstein"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory Goyle",
+              "Goyle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Hermione Granger",
+              "Hermione"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hugo Granger-Weasley",
+              "Hugo Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rose Granger-Weasley",
+              "Rose Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Percival Graves",
+              "Graves"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Astoria Greengrass",
+              "Greengrass"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fenrir Greyback",
+              "Greyback"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gellert Grindelwald",
+              "Grindelwald"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wilhelmina Grubbly-Plank",
+              "Grubbly-Plank"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Godric Gryffindor",
+              "Gryffindor"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Rubeus Hagrid",
+              "Hagrid"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rolanda Hooch",
+              "Hooch"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mafalda Hopkirk",
+              "Hopkirk"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Helga Hufflepuff",
+              "Hufflepuff"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Angelina Johnson",
+              "Johnson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lee Jordan",
+              "Jordan"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bertha Jorkins",
+              "Jorkins"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Igor Karkaroff",
+              "Karkaroff"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Viktor Krum",
+              "Krum"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Bellatrix Lestrange",
+              "Lestrange"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gilderoy Lockhart",
+              "Lockhart"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Augusta Longbottom"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Neville Longbottom"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Luna Lovegood"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Xenophilius Lovegood"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Remus Lupin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Teddy Lupin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ernie Macmillan",
+              "Macmillan"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Walden Macnair",
+              "Macnair"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Draco Malfoy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lucius Malfoy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Narcissa Malfoy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Olympe Maxime",
+              "Maxime"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Minerva McGonagall",
+              "McGonagall"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cormac McLaggen",
+              "McLaggen"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alastor Moody",
+              "Mad Eye Moody",
+              "Mad-Eye",
+              "Moody"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Garrick Ollivander",
+              "Ollivander"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pansy Parkinson",
+              "Parkinson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Padma Patil"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Parvati Patil"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Peter Pettigrew",
+              "Wormtail",
+              "Pettigrew"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Irma Pince",
+              "Pince"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Poppy Pomfrey",
+              "Pomfrey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Harry Potter",
+              "Harry"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "James Potter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lily Potter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quirinus Quirrell",
+              "Quirrell"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rowena Ravenclaw",
+              "Ravenclaw"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Augustus Rookwood",
+              "Rookwood"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Thorfinn Rowle",
+              "Rowle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Newt Scamander",
+              "Scamander"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rufus Scrimgeour",
+              "Scrimgeour"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kingsley Shacklebolt",
+              "Shacklebolt"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stan Shunpike",
+              "Shunpike"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rita Skeeter",
+              "Skeeter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Horace Slughorn",
+              "Slughorn"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Salazar Slytherin",
+              "Slytherin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hepzibah Smith"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zacharias Smith"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Severus Snape",
+              "Snape"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Alicia Spinnet",
+              "Spinnet"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pomona Sprout",
+              "Sprout"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dean Thomas",
+              "Thomas"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pius Thicknesse",
+              "Thicknesse"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tom"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Andromeda Tonks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nymphadora Tonks",
+              "Tonks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ted Tonks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sybill Trelawney",
+              "Trelawney"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dolores Umbridge",
+              "Umbridge"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Voldemort",
+              "Lord Voldemort",
+              "Tom Riddle",
+              "Tom Marvolo Riddle",
+              "You Know Who",
+              "He Who Must Not Be Named"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Myrtle Warren",
+              "Moaning Myrtle",
+              "Myrtle",
+              "Warren"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Arthur Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bill Weasley",
+              "William Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Charlie Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Fred Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "George Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Ginny Weasley",
+              "Ginevra Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Molly Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Percy Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Ron Weasley",
+              "Ron",
+              "Ronald Weasley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Oliver Wood",
+              "Wood"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Corban Yaxley",
+              "Yaxley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Blaise Zabini",
+              "Zabini"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Aragog"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Bloody Baron",
+              "Baron"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Dobby"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Fat Friar",
+              "Friar"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fawkes"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Firenze"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Grey Lady",
+              "Grey Lady",
+              "Helena Ravenclaw"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Griphook"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hedwig"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kreacher"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Muriel"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nagini"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nearly Headless Nick (Sir Nicholas de Mimsy-Porpington)",
+              "Nearly Headless Nick",
+              "Sir Nicholas de Mimsy Porpington",
+              "Nicholas de Mimsy Porpington",
+              "Mimsy-Porpington)"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Peeves"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Madam Rosmerta",
+              "Rosmerta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Winky"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mr Granger"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mrs Granger"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "James Sirius Potter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Albus Severus Potter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lily Luna Potter"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Almost Swears: name a minced oath (e.g. \"Fudge!\").",
+        "source": "https://en.wiktionary.org/wiki/Category:English_minced_oaths",
+        "sourceNote": "English minced oaths from both pages of the linked category.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "a-double-s"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "adsbud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "a-hole"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "asked"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "B"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "bally"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "bar steward"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "bass-ackwards"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "bastich"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "bedad"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "begob"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "begorra"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "bejeebers"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "berk"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "bish"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "blanky"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "bleeding"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "blimey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "blimming"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "blinking"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "blooming"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "blooming heck"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "bother"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "bullspit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "bushwah"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by gad"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by George"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by ginger"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "by golly"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by guess or by golly"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by guess or by gosh"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by gum"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "by gummy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by jingo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by jings"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by Jove"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "by juckies"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "by Jupiter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "byrlady"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "cheese and crackers"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "cheese and rice"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "chuffing hell"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "confound it"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "consarn it"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "cor"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "cor blimey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "cornography"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "count"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "crikey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "criminy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "crimony"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "cripes"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "crivvens"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "crud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "dadgum"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "dadgummit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "dagnabbit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "dagnammit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "dang"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "dang it"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "dangnabbit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "darn"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "darn it"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "dash"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "dash it"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "delay no more"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "deuced"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "deucedly"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "diphead"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "doggone"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "doggonit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "doofbag"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "drat"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "eff"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "effing"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "egad"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "emeff"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "emeffer"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "emmereffer"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "fark"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "feck"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "flaming"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "flip"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "flipping"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "flogging"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "foo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "for cripes' sake"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "for crying out loud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "for goodness' sake"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "forkhead"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "fornicating"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "for Pete's sake",
+              "for Petes sake"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "for pity's sake",
+              "for pitys sake"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "frak"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "freaking"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "freaking gosh"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "frick"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "fricking"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "frigging"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "fsck"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "fuddle-duddle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "fudge"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "fudgebag"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "fudging"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "fugghead"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "fuggheaded"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "fuggheadedness"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "fugging"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "gadsbud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gadslid"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "gadzooks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "gall dang"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "galldang"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "gee"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "gee whiz"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "gee willikers"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "geez"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "geez Louise"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "give a fig"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "give a hoot"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "goldang"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "goldangit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "goldarn"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "goldarnit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "golly"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "golly gee"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "good golly"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "good gracious"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "goodness gracious"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "gorblimey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gordon Bennett"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "gosh"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "gosh all hemlock"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "goshdang"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "goshdangit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "goshdarn"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "goshdarnit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "go to Putney on a pig"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "great balls of fire"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "heck"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "heckin'"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "hecking"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "holy buckets"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "holy cow"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "holy crud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "holy mackerel"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "holy moley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "holy smoke"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ish"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "jack squat"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "jeepers"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "jeepers creepers"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "jeepers peepers"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "jeezy-peezy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jesum Crow"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jiminy Cricket"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Judas"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Judas Priest"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ken oath"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "lawks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "lawks a-mercy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "let's go, Brandon",
+              "lets go, Brandon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "macrohard"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "mollyfogging"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "mothereffer"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "mothereffing"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "motherflipper"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "motherflipping"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "mothertrucker"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "mothertrucking"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "mutha phucka"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "my goodness"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "'nation"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "odds bud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ods bodikin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ods bodikins"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "odsbodikins"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ods bud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "oh my goodness gracious"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "phonography"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "plutteranails"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "pooh"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sam Hill"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "'sblood"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "'sbodikins"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "'sdeath"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "'sfoot"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "'sheart"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "shipload"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "shoot"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "shucks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "shucky"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "shut the fridge"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "shut the front door"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "'snails"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "son of a bachelor"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "son of a gun"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "sonova"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "splutter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "stinking"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "strewth"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "sugar"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "tarnal"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "tarnation"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "the feezy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "the heck out of"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "the snot out of"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "tinker's darn",
+              "tinkers darn"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "w-anchor"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "what the hey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "yuck fou"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "zooks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "zooterkins"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "zounds"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a cloud type.",
+        "source": "https://en.wikipedia.org/wiki/List_of_cloud_types",
+        "sourceNote": "Includes genera, species, varieties, supplementary features and named cloud formations.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Cumulus",
+              "Cumulus cloud",
+              "Cumulus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Stratus",
+              "Stratus cloud",
+              "Stratus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Cirrus",
+              "Cirrus cloud",
+              "Cirrus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cumulonimbus",
+              "Cumulonimbus cloud",
+              "Cumulonimbus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Altocumulus",
+              "Altocumulus cloud",
+              "Altocumulus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Altostratus",
+              "Altostratus cloud",
+              "Altostratus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nimbostratus",
+              "Nimbostratus cloud",
+              "Nimbostratus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stratocumulus",
+              "Stratocumulus cloud",
+              "Stratocumulus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cirrocumulus",
+              "Cirrocumulus cloud",
+              "Cirrocumulus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cirrostratus",
+              "Cirrostratus cloud",
+              "Cirrostratus clouds"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Castellanus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Congestus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fibratus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Floccus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fractus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Humilis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lenticularis",
+              "Lenticular cloud",
+              "Lenticular"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mediocris"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nebulosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spissatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stratiformis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Uncinus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Volutus",
+              "Roll cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Calvus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Capillatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Opacus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Perlucidus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Translucidus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Intortus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vertebratus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Arcus",
+              "Shelf cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Asperitas"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cavum",
+              "Fallstreak hole",
+              "Hole punch cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cauda"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fluctus",
+              "Kelvin Helmholtz cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Incus",
+              "Anvil cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mamma",
+              "Mammatus",
+              "Mammatus cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Murus",
+              "Wall cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tuba",
+              "Funnel cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pannus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pileus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Velum"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Virga"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Praecipitatio"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus fibratus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus uncinus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus spissatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus castellanus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus floccus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrus fibratus intortus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrus fibratus vertebratus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrus fibratus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrus uncinus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrus fibratus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrus uncinus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus cirrocumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus altocumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus cumulonimbogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus homogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus cirrostratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrus homomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus stratiformis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus lenticularis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus castellanus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus floccus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrocumulus stratiformis undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrocumulus lenticularis undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrocumulus stratiformis lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrocumulus castellanus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrocumulus floccus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus cirromutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus cirrostratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus altocumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrocumulus homomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus fibratus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus nebulosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrostratus fibratus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cirrostratus fibratus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus cirrocumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus cumulonimbogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus cirromutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus cirrocumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus altostratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cirrostratus homomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratiformis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus lenticularis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus volutus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus castellanus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus floccus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis translucidus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis perlucidus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis opacus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis translucidus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis perlucidus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis opacus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis translucidus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis perlucidus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis opacus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus lenticularis duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis translucidus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis perlucidus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis opacus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus lenticularis undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis translucidus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis perlucidus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus stratiformis opacus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus castellanus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altocumulus floccus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus cumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus cumulonimbogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus cirrocumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus altostratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus nimbostratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altocumulus stratocumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus translucidus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus opacus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altostratus translucidus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altostratus opacus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altostratus translucidus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altostratus opacus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altostratus translucidus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Altostratus opacus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus altocumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus cumulonimbogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus cirrostratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Altostratus nimbostratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulonimbus calvus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulonimbus capillatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulonimbus altocumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulonimbus altostratogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulonimbus nimbostratogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulonimbus stratocumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulonimbus flammagenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulonimbus cumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus congestus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cumulus congestus flammagenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nimbostratus cumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nimbostratus cumulonimbogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nimbostratus altostratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nimbostratus altocumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nimbostratus stratocumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus mediocris"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cumulus mediocris radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratiformis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus lenticularis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus volutus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus floccus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus castellanus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis translucidus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis opacus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis translucidus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis opacus radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis translucidus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis opacus duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus lenticularis duplicatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis translucidus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis opacus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus lenticularis undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis translucidus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis perlucidus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus stratiformis opacus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus castellanus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratocumulus floccus lacunosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus cumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus nimbostratogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus cumulonimbogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus altostratogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus nimbostratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus altocumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratocumulus stratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus fractus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus humilis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cumulus humilis radiatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus stratocumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus homogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus stratocumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus stratomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cumulus cataractagenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus nebulosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus fractus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratus nebulosus translucidus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratus nebulosus opacus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratus nebulosus translucidus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stratus nebulosus opacus undulatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus nimbostratogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus cumulogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus cumulonimbogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus cataractagenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus silvagenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus homogenitus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stratus stratocumulomutatus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Noctilucent",
+              "Noctilucent cloud",
+              "Polar mesospheric cloud",
+              "Night shining cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nacreous",
+              "Nacreous cloud",
+              "Mother of pearl cloud",
+              "Polar stratospheric cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fog"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mist"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Contrail",
+              "Contrails",
+              "Condensation trail"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pyrocumulus",
+              "Fire cloud"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pyrocumulonimbus"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a 2025-season NFL All-Pro.",
+        "source": "https://www.pro-football-reference.com/years/2025/allpro.htm",
+        "sourceNote": "First/second teams and conference selections are accepted. PFR access was restricted; selections were cross-checked with AP, PFWA and PFF published teams.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Matthew Stafford",
+              "Matt Stafford",
+              "Stafford"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Bijan Robinson",
+              "Robinson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Kyle Juszczyk",
+              "Juszczyk"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Puka Nacua",
+              "Nacua"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Jaxon Smith-Njigba",
+              "Jaxon SmithNjigba",
+              "JSN",
+              "Smith-Njigba"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Ja'Marr Chase",
+              "JaMarr Chase",
+              "Chase"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Christian McCaffrey",
+              "CMC",
+              "McCaffrey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Trey McBride",
+              "McBride"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Garett Bolles",
+              "Bolles"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Joe Thuney",
+              "Thuney"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Creed Humphrey",
+              "Humphrey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Quinn Meinerz",
+              "Meinerz"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Penei Sewell",
+              "Sewell"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Myles Garrett",
+              "Garrett"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Will Anderson Jr",
+              "Will Anderson",
+              "Anderson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Micah Parsons",
+              "Parsons"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jeffery Simmons",
+              "Simmons"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Zach Allen",
+              "Allen"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jack Campbell",
+              "Campbell"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jordyn Brooks",
+              "Brooks"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Derek Stingley Jr",
+              "Derek Stingley",
+              "Stingley"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Quinyon Mitchell",
+              "Mitchell"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cooper DeJean",
+              "DeJean"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kyle Hamilton",
+              "Hamilton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kevin Byard",
+              "Kevin Byard III",
+              "Byard"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Will Reichard",
+              "Reichard"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jordan Stout",
+              "Stout"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ray Davis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chimere Dike",
+              "Dike"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Devon Key",
+              "Key"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ross Matiscik",
+              "Matiscik"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Drake Maye",
+              "Maye"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "James Cook",
+              "James Cook III",
+              "Cook"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Patrick Ricard",
+              "Ricard"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "George Pickens",
+              "Pickens"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chris Olave",
+              "Olave"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Amon-Ra St. Brown",
+              "AmonRa St Brown",
+              "Brown"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kyle Pitts",
+              "Pitts"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Trent Williams"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quenton Nelson",
+              "Nelson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Aaron Brewer",
+              "Brewer"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chris Lindstrom",
+              "Lindstrom"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Darnell Wright",
+              "Wright"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Aidan Hutchinson",
+              "Hutchinson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Danielle Hunter",
+              "Hunter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brian Burns",
+              "Burns"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leonard Williams"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cameron Heyward",
+              "Heyward"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ernest Jones IV",
+              "Ernest Jones"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Devin Lloyd",
+              "Lloyd"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Devon Witherspoon",
+              "Witherspoon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Patrick Surtain II",
+              "Patrick Surtain",
+              "Pat Surtain",
+              "Pat Surtain II",
+              "Surtain"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Derwin James",
+              "Derwin James Jr",
+              "James"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jessie Bates",
+              "Jessie Bates III",
+              "Bates"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Talanoa Hufanga",
+              "Hufanga"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Xavier McKinney",
+              "McKinney"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brandon Aubrey",
+              "Aubrey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Michael Dickson",
+              "Dickson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "KaVontae Turpin",
+              "Turpin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marcus Jones"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Del'Shawn Phillips",
+              "DelShawn Phillips",
+              "Phillips"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Andrew DePaola",
+              "DePaola"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jonathan Taylor",
+              "Taylor"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nik Bonitto",
+              "Bonitto"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quinnen Williams"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jaycee Horn",
+              "Horn"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cameron Dicker",
+              "Dicker"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tress Way",
+              "Way"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "De'Von Achane",
+              "DeVon Achane",
+              "Achane"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Reggie Gilliam",
+              "Gilliam"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nico Collins",
+              "Collins"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "George Kittle",
+              "Kittle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tristan Wirfs",
+              "Wirfs"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kobie Turner",
+              "Turner"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zack Baun",
+              "Baun"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Devin Bush",
+              "Devin Bush Jr",
+              "Bush"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Demario Davis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cedric Gray",
+              "Gray"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sauce Gardner",
+              "Ahmad Gardner",
+              "Gardner"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mike Jackson",
+              "Michael Jackson",
+              "Jackson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jalen Pitre",
+              "Pitre"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Antonio Johnson",
+              "Johnson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ja'Quan McMillian",
+              "JaQuan McMillian",
+              "McMillian"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Daniel Whelan",
+              "Whelan"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Austin McNamara",
+              "McNamara"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rex Sunahara",
+              "Sunahara"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hogan Hatten",
+              "Hatten"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Carson Bruener",
+              "Bruener"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kene Nwangwu",
+              "Nwangwu"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Isaiah Williams"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Travis Kelce",
+              "Kelce"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dion Dawkins",
+              "Dawkins"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cam Little",
+              "Cameron Little",
+              "Little"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Drew Dalman",
+              "Dalman"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tuli Tuipulotu",
+              "Tuipulotu"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Byron Young",
+              "Young"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Xavier Watts",
+              "Watts"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rashid Shaheed",
+              "Shaheed"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Luke Gifford",
+              "Gifford"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a pope.",
+        "source": "https://en.wikipedia.org/wiki/List_of_popes",
+        "sourceNote": "Roman or Arabic numerals accepted. Antipopes excluded; repeated reigns count as one person.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Peter",
+              "Pope Peter",
+              "St Peter",
+              "Saint Peter",
+              "Simon Peter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Linus",
+              "Pope Linus",
+              "St Linus",
+              "Saint Linus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anacletus",
+              "Pope Anacletus",
+              "St Anacletus",
+              "Saint Anacletus",
+              "Cletus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clement I",
+              "Pope Clement I",
+              "St Clement I",
+              "Saint Clement I",
+              "Clement 1",
+              "Pope Clement 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Evaristus",
+              "Pope Evaristus",
+              "St Evaristus",
+              "Saint Evaristus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Alexander I",
+              "Pope Alexander I",
+              "St Alexander I",
+              "Saint Alexander I",
+              "Alexander 1",
+              "Pope Alexander 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sixtus I",
+              "Pope Sixtus I",
+              "St Sixtus I",
+              "Saint Sixtus I",
+              "Sixtus 1",
+              "Pope Sixtus 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Telesphorus",
+              "Pope Telesphorus",
+              "St Telesphorus",
+              "Saint Telesphorus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hyginus",
+              "Pope Hyginus",
+              "St Hyginus",
+              "Saint Hyginus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pius I",
+              "Pope Pius I",
+              "St Pius I",
+              "Saint Pius I",
+              "Pius 1",
+              "Pope Pius 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anicetus",
+              "Pope Anicetus",
+              "St Anicetus",
+              "Saint Anicetus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Soter",
+              "Pope Soter",
+              "St Soter",
+              "Saint Soter"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Eleutherius",
+              "Pope Eleutherius",
+              "St Eleutherius",
+              "Saint Eleutherius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Victor I",
+              "Pope Victor I",
+              "St Victor I",
+              "Saint Victor I",
+              "Victor 1",
+              "Pope Victor 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zephyrinus",
+              "Pope Zephyrinus",
+              "St Zephyrinus",
+              "Saint Zephyrinus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Callixtus I",
+              "Pope Callixtus I",
+              "St Callixtus I",
+              "Saint Callixtus I",
+              "Callixtus 1",
+              "Pope Callixtus 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Urban I",
+              "Pope Urban I",
+              "St Urban I",
+              "Saint Urban I",
+              "Urban 1",
+              "Pope Urban 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pontian",
+              "Pope Pontian",
+              "St Pontian",
+              "Saint Pontian"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Anterus",
+              "Pope Anterus",
+              "St Anterus",
+              "Saint Anterus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fabian",
+              "Pope Fabian",
+              "St Fabian",
+              "Saint Fabian"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cornelius",
+              "Pope Cornelius",
+              "St Cornelius",
+              "Saint Cornelius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lucius I",
+              "Pope Lucius I",
+              "St Lucius I",
+              "Saint Lucius I",
+              "Lucius 1",
+              "Pope Lucius 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stephen I",
+              "Pope Stephen I",
+              "St Stephen I",
+              "Saint Stephen I",
+              "Stephen 1",
+              "Pope Stephen 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sixtus II",
+              "Pope Sixtus II",
+              "St Sixtus II",
+              "Saint Sixtus II",
+              "Sixtus 2",
+              "Pope Sixtus 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Dionysius",
+              "Pope Dionysius",
+              "St Dionysius",
+              "Saint Dionysius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Felix I",
+              "Pope Felix I",
+              "St Felix I",
+              "Saint Felix I",
+              "Felix 1",
+              "Pope Felix 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eutychian",
+              "Pope Eutychian",
+              "St Eutychian",
+              "Saint Eutychian"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Caius",
+              "Pope Caius",
+              "St Caius",
+              "Saint Caius",
+              "Gaius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marcellinus",
+              "Pope Marcellinus",
+              "St Marcellinus",
+              "Saint Marcellinus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marcellus I",
+              "Pope Marcellus I",
+              "St Marcellus I",
+              "Saint Marcellus I",
+              "Marcellus 1",
+              "Pope Marcellus 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Eusebius",
+              "Pope Eusebius",
+              "St Eusebius",
+              "Saint Eusebius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Miltiades",
+              "Pope Miltiades",
+              "St Miltiades",
+              "Saint Miltiades",
+              "Melchiades"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sylvester I",
+              "Pope Sylvester I",
+              "St Sylvester I",
+              "Saint Sylvester I",
+              "Sylvester 1",
+              "Pope Sylvester 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mark",
+              "Pope Mark",
+              "St Mark",
+              "Saint Mark"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Julius I",
+              "Pope Julius I",
+              "St Julius I",
+              "Saint Julius I",
+              "Julius 1",
+              "Pope Julius 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Liberius",
+              "Pope Liberius",
+              "St Liberius",
+              "Saint Liberius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Damasus I",
+              "Pope Damasus I",
+              "St Damasus I",
+              "Saint Damasus I",
+              "Damasus 1",
+              "Pope Damasus 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Siricius",
+              "Pope Siricius",
+              "St Siricius",
+              "Saint Siricius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anastasius I",
+              "Pope Anastasius I",
+              "St Anastasius I",
+              "Saint Anastasius I",
+              "Anastasius 1",
+              "Pope Anastasius 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Innocent I",
+              "Pope Innocent I",
+              "St Innocent I",
+              "Saint Innocent I",
+              "Innocent 1",
+              "Pope Innocent 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zosimus",
+              "Pope Zosimus",
+              "St Zosimus",
+              "Saint Zosimus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boniface I",
+              "Pope Boniface I",
+              "St Boniface I",
+              "Saint Boniface I",
+              "Boniface 1",
+              "Pope Boniface 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Celestine I",
+              "Pope Celestine I",
+              "St Celestine I",
+              "Saint Celestine I",
+              "Celestine 1",
+              "Pope Celestine 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sixtus III",
+              "Pope Sixtus III",
+              "St Sixtus III",
+              "Saint Sixtus III",
+              "Sixtus 3",
+              "Pope Sixtus 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo I",
+              "Pope Leo I",
+              "St Leo I",
+              "Saint Leo I",
+              "Leo 1",
+              "Pope Leo 1",
+              "Leo the Great"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hilarius",
+              "Pope Hilarius",
+              "St Hilarius",
+              "Saint Hilarius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Simplicius",
+              "Pope Simplicius",
+              "St Simplicius",
+              "Saint Simplicius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Felix III",
+              "Pope Felix III",
+              "St Felix III",
+              "Saint Felix III",
+              "Felix 3",
+              "Pope Felix 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Gelasius I",
+              "Pope Gelasius I",
+              "St Gelasius I",
+              "Saint Gelasius I",
+              "Gelasius 1",
+              "Pope Gelasius 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anastasius II",
+              "Pope Anastasius II",
+              "St Anastasius II",
+              "Saint Anastasius II",
+              "Anastasius 2",
+              "Pope Anastasius 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Symmachus",
+              "Pope Symmachus",
+              "St Symmachus",
+              "Saint Symmachus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hormisdas",
+              "Pope Hormisdas",
+              "St Hormisdas",
+              "Saint Hormisdas"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John I",
+              "Pope John I",
+              "St John I",
+              "Saint John I",
+              "John 1",
+              "Pope John 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Felix IV",
+              "Pope Felix IV",
+              "St Felix IV",
+              "Saint Felix IV",
+              "Felix 4",
+              "Pope Felix 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Boniface II",
+              "Pope Boniface II",
+              "St Boniface II",
+              "Saint Boniface II",
+              "Boniface 2",
+              "Pope Boniface 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John II",
+              "Pope John II",
+              "St John II",
+              "Saint John II",
+              "John 2",
+              "Pope John 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Agapetus I",
+              "Pope Agapetus I",
+              "St Agapetus I",
+              "Saint Agapetus I",
+              "Agapetus 1",
+              "Pope Agapetus 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Silverius",
+              "Pope Silverius",
+              "St Silverius",
+              "Saint Silverius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vigilius",
+              "Pope Vigilius",
+              "St Vigilius",
+              "Saint Vigilius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pelagius I",
+              "Pope Pelagius I",
+              "St Pelagius I",
+              "Saint Pelagius I",
+              "Pelagius 1",
+              "Pope Pelagius 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "John III",
+              "Pope John III",
+              "St John III",
+              "Saint John III",
+              "John 3",
+              "Pope John 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict I",
+              "Pope Benedict I",
+              "St Benedict I",
+              "Saint Benedict I",
+              "Benedict 1",
+              "Pope Benedict 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pelagius II",
+              "Pope Pelagius II",
+              "St Pelagius II",
+              "Saint Pelagius II",
+              "Pelagius 2",
+              "Pope Pelagius 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Gregory I",
+              "Pope Gregory I",
+              "St Gregory I",
+              "Saint Gregory I",
+              "Gregory 1",
+              "Pope Gregory 1",
+              "Gregory the Great"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sabinian",
+              "Pope Sabinian",
+              "St Sabinian",
+              "Saint Sabinian"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boniface III",
+              "Pope Boniface III",
+              "St Boniface III",
+              "Saint Boniface III",
+              "Boniface 3",
+              "Pope Boniface 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Boniface IV",
+              "Pope Boniface IV",
+              "St Boniface IV",
+              "Saint Boniface IV",
+              "Boniface 4",
+              "Pope Boniface 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Adeodatus I",
+              "Pope Adeodatus I",
+              "St Adeodatus I",
+              "Saint Adeodatus I",
+              "Adeodatus 1",
+              "Pope Adeodatus 1",
+              "Deusdedit"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boniface V",
+              "Pope Boniface V",
+              "St Boniface V",
+              "Saint Boniface V",
+              "Boniface 5",
+              "Pope Boniface 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Honorius I",
+              "Pope Honorius I",
+              "St Honorius I",
+              "Saint Honorius I",
+              "Honorius 1",
+              "Pope Honorius 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Severinus",
+              "Pope Severinus",
+              "St Severinus",
+              "Saint Severinus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John IV",
+              "Pope John IV",
+              "St John IV",
+              "Saint John IV",
+              "John 4",
+              "Pope John 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Theodore I",
+              "Pope Theodore I",
+              "St Theodore I",
+              "Saint Theodore I",
+              "Theodore 1",
+              "Pope Theodore 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Martin I",
+              "Pope Martin I",
+              "St Martin I",
+              "Saint Martin I",
+              "Martin 1",
+              "Pope Martin 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eugene I",
+              "Pope Eugene I",
+              "St Eugene I",
+              "Saint Eugene I",
+              "Eugene 1",
+              "Pope Eugene 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Vitalian",
+              "Pope Vitalian",
+              "St Vitalian",
+              "Saint Vitalian"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Adeodatus II",
+              "Pope Adeodatus II",
+              "St Adeodatus II",
+              "Saint Adeodatus II",
+              "Adeodatus 2",
+              "Pope Adeodatus 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Donus",
+              "Pope Donus",
+              "St Donus",
+              "Saint Donus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Agatho",
+              "Pope Agatho",
+              "St Agatho",
+              "Saint Agatho"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo II",
+              "Pope Leo II",
+              "St Leo II",
+              "Saint Leo II",
+              "Leo 2",
+              "Pope Leo 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict II",
+              "Pope Benedict II",
+              "St Benedict II",
+              "Saint Benedict II",
+              "Benedict 2",
+              "Pope Benedict 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "John V",
+              "Pope John V",
+              "St John V",
+              "Saint John V",
+              "John 5",
+              "Pope John 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Conon",
+              "Pope Conon",
+              "St Conon",
+              "Saint Conon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sergius I",
+              "Pope Sergius I",
+              "St Sergius I",
+              "Saint Sergius I",
+              "Sergius 1",
+              "Pope Sergius 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "John VI",
+              "Pope John VI",
+              "St John VI",
+              "Saint John VI",
+              "John 6",
+              "Pope John 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John VII",
+              "Pope John VII",
+              "St John VII",
+              "Saint John VII",
+              "John 7",
+              "Pope John 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sisinnius",
+              "Pope Sisinnius",
+              "St Sisinnius",
+              "Saint Sisinnius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Constantine",
+              "Pope Constantine",
+              "St Constantine",
+              "Saint Constantine"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory II",
+              "Pope Gregory II",
+              "St Gregory II",
+              "Saint Gregory II",
+              "Gregory 2",
+              "Pope Gregory 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory III",
+              "Pope Gregory III",
+              "St Gregory III",
+              "Saint Gregory III",
+              "Gregory 3",
+              "Pope Gregory 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Zachary",
+              "Pope Zachary",
+              "St Zachary",
+              "Saint Zachary"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stephen II",
+              "Pope Stephen II",
+              "St Stephen II",
+              "Saint Stephen II",
+              "Stephen 2",
+              "Pope Stephen 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Paul I",
+              "Pope Paul I",
+              "St Paul I",
+              "Saint Paul I",
+              "Paul 1",
+              "Pope Paul 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stephen III",
+              "Pope Stephen III",
+              "St Stephen III",
+              "Saint Stephen III",
+              "Stephen 3",
+              "Pope Stephen 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Adrian I",
+              "Pope Adrian I",
+              "St Adrian I",
+              "Saint Adrian I",
+              "Adrian 1",
+              "Pope Adrian 1",
+              "Hadrian I"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo III",
+              "Pope Leo III",
+              "St Leo III",
+              "Saint Leo III",
+              "Leo 3",
+              "Pope Leo 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stephen IV",
+              "Pope Stephen IV",
+              "St Stephen IV",
+              "Saint Stephen IV",
+              "Stephen 4",
+              "Pope Stephen 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Paschal I",
+              "Pope Paschal I",
+              "St Paschal I",
+              "Saint Paschal I",
+              "Paschal 1",
+              "Pope Paschal 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eugene II",
+              "Pope Eugene II",
+              "St Eugene II",
+              "Saint Eugene II",
+              "Eugene 2",
+              "Pope Eugene 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Valentine",
+              "Pope Valentine",
+              "St Valentine",
+              "Saint Valentine"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory IV",
+              "Pope Gregory IV",
+              "St Gregory IV",
+              "Saint Gregory IV",
+              "Gregory 4",
+              "Pope Gregory 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sergius II",
+              "Pope Sergius II",
+              "St Sergius II",
+              "Saint Sergius II",
+              "Sergius 2",
+              "Pope Sergius 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Leo IV",
+              "Pope Leo IV",
+              "St Leo IV",
+              "Saint Leo IV",
+              "Leo 4",
+              "Pope Leo 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict III",
+              "Pope Benedict III",
+              "St Benedict III",
+              "Saint Benedict III",
+              "Benedict 3",
+              "Pope Benedict 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nicholas I",
+              "Pope Nicholas I",
+              "St Nicholas I",
+              "Saint Nicholas I",
+              "Nicholas 1",
+              "Pope Nicholas 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Adrian II",
+              "Pope Adrian II",
+              "St Adrian II",
+              "Saint Adrian II",
+              "Adrian 2",
+              "Pope Adrian 2",
+              "Hadrian II"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John VIII",
+              "Pope John VIII",
+              "St John VIII",
+              "Saint John VIII",
+              "John 8",
+              "Pope John 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marinus I",
+              "Pope Marinus I",
+              "St Marinus I",
+              "Saint Marinus I",
+              "Marinus 1",
+              "Pope Marinus 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Adrian III",
+              "Pope Adrian III",
+              "St Adrian III",
+              "Saint Adrian III",
+              "Adrian 3",
+              "Pope Adrian 3",
+              "Hadrian III"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stephen V",
+              "Pope Stephen V",
+              "St Stephen V",
+              "Saint Stephen V",
+              "Stephen 5",
+              "Pope Stephen 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Formosus",
+              "Pope Formosus",
+              "St Formosus",
+              "Saint Formosus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Boniface VI",
+              "Pope Boniface VI",
+              "St Boniface VI",
+              "Saint Boniface VI",
+              "Boniface 6",
+              "Pope Boniface 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stephen VI",
+              "Pope Stephen VI",
+              "St Stephen VI",
+              "Saint Stephen VI",
+              "Stephen 6",
+              "Pope Stephen 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Romanus",
+              "Pope Romanus",
+              "St Romanus",
+              "Saint Romanus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Theodore II",
+              "Pope Theodore II",
+              "St Theodore II",
+              "Saint Theodore II",
+              "Theodore 2",
+              "Pope Theodore 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John IX",
+              "Pope John IX",
+              "St John IX",
+              "Saint John IX",
+              "John 9",
+              "Pope John 9"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict IV",
+              "Pope Benedict IV",
+              "St Benedict IV",
+              "Saint Benedict IV",
+              "Benedict 4",
+              "Pope Benedict 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Leo V",
+              "Pope Leo V",
+              "St Leo V",
+              "Saint Leo V",
+              "Leo 5",
+              "Pope Leo 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sergius III",
+              "Pope Sergius III",
+              "St Sergius III",
+              "Saint Sergius III",
+              "Sergius 3",
+              "Pope Sergius 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anastasius III",
+              "Pope Anastasius III",
+              "St Anastasius III",
+              "Saint Anastasius III",
+              "Anastasius 3",
+              "Pope Anastasius 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lando",
+              "Pope Lando",
+              "St Lando",
+              "Saint Lando"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John X",
+              "Pope John X",
+              "St John X",
+              "Saint John X",
+              "John 10",
+              "Pope John 10"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo VI",
+              "Pope Leo VI",
+              "St Leo VI",
+              "Saint Leo VI",
+              "Leo 6",
+              "Pope Leo 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stephen VII",
+              "Pope Stephen VII",
+              "St Stephen VII",
+              "Saint Stephen VII",
+              "Stephen 7",
+              "Pope Stephen 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John XI",
+              "Pope John XI",
+              "St John XI",
+              "Saint John XI",
+              "John 11",
+              "Pope John 11"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo VII",
+              "Pope Leo VII",
+              "St Leo VII",
+              "Saint Leo VII",
+              "Leo 7",
+              "Pope Leo 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stephen VIII",
+              "Pope Stephen VIII",
+              "St Stephen VIII",
+              "Saint Stephen VIII",
+              "Stephen 8",
+              "Pope Stephen 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marinus II",
+              "Pope Marinus II",
+              "St Marinus II",
+              "Saint Marinus II",
+              "Marinus 2",
+              "Pope Marinus 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Agapetus II",
+              "Pope Agapetus II",
+              "St Agapetus II",
+              "Saint Agapetus II",
+              "Agapetus 2",
+              "Pope Agapetus 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "John XII",
+              "Pope John XII",
+              "St John XII",
+              "Saint John XII",
+              "John 12",
+              "Pope John 12"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict V",
+              "Pope Benedict V",
+              "St Benedict V",
+              "Saint Benedict V",
+              "Benedict 5",
+              "Pope Benedict 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo VIII",
+              "Pope Leo VIII",
+              "St Leo VIII",
+              "Saint Leo VIII",
+              "Leo 8",
+              "Pope Leo 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "John XIII",
+              "Pope John XIII",
+              "St John XIII",
+              "Saint John XIII",
+              "John 13",
+              "Pope John 13"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict VI",
+              "Pope Benedict VI",
+              "St Benedict VI",
+              "Saint Benedict VI",
+              "Benedict 6",
+              "Pope Benedict 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict VII",
+              "Pope Benedict VII",
+              "St Benedict VII",
+              "Saint Benedict VII",
+              "Benedict 7",
+              "Pope Benedict 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "John XIV",
+              "Pope John XIV",
+              "St John XIV",
+              "Saint John XIV",
+              "John 14",
+              "Pope John 14"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John XV",
+              "Pope John XV",
+              "St John XV",
+              "Saint John XV",
+              "John 15",
+              "Pope John 15"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory V",
+              "Pope Gregory V",
+              "St Gregory V",
+              "Saint Gregory V",
+              "Gregory 5",
+              "Pope Gregory 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sylvester II",
+              "Pope Sylvester II",
+              "St Sylvester II",
+              "Saint Sylvester II",
+              "Sylvester 2",
+              "Pope Sylvester 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John XVII",
+              "Pope John XVII",
+              "St John XVII",
+              "Saint John XVII",
+              "John 17",
+              "Pope John 17"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John XVIII",
+              "Pope John XVIII",
+              "St John XVIII",
+              "Saint John XVIII",
+              "John 18",
+              "Pope John 18"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sergius IV",
+              "Pope Sergius IV",
+              "St Sergius IV",
+              "Saint Sergius IV",
+              "Sergius 4",
+              "Pope Sergius 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict VIII",
+              "Pope Benedict VIII",
+              "St Benedict VIII",
+              "Saint Benedict VIII",
+              "Benedict 8",
+              "Pope Benedict 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John XIX",
+              "Pope John XIX",
+              "St John XIX",
+              "Saint John XIX",
+              "John 19",
+              "Pope John 19"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Benedict IX",
+              "Pope Benedict IX",
+              "St Benedict IX",
+              "Saint Benedict IX",
+              "Benedict 9",
+              "Pope Benedict 9"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sylvester III",
+              "Pope Sylvester III",
+              "St Sylvester III",
+              "Saint Sylvester III",
+              "Sylvester 3",
+              "Pope Sylvester 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory VI",
+              "Pope Gregory VI",
+              "St Gregory VI",
+              "Saint Gregory VI",
+              "Gregory 6",
+              "Pope Gregory 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clement II",
+              "Pope Clement II",
+              "St Clement II",
+              "Saint Clement II",
+              "Clement 2",
+              "Pope Clement 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Damasus II",
+              "Pope Damasus II",
+              "St Damasus II",
+              "Saint Damasus II",
+              "Damasus 2",
+              "Pope Damasus 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo IX",
+              "Pope Leo IX",
+              "St Leo IX",
+              "Saint Leo IX",
+              "Leo 9",
+              "Pope Leo 9"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Victor II",
+              "Pope Victor II",
+              "St Victor II",
+              "Saint Victor II",
+              "Victor 2",
+              "Pope Victor 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stephen IX",
+              "Pope Stephen IX",
+              "St Stephen IX",
+              "Saint Stephen IX",
+              "Stephen 9",
+              "Pope Stephen 9"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nicholas II",
+              "Pope Nicholas II",
+              "St Nicholas II",
+              "Saint Nicholas II",
+              "Nicholas 2",
+              "Pope Nicholas 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Alexander II",
+              "Pope Alexander II",
+              "St Alexander II",
+              "Saint Alexander II",
+              "Alexander 2",
+              "Pope Alexander 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory VII",
+              "Pope Gregory VII",
+              "St Gregory VII",
+              "Saint Gregory VII",
+              "Gregory 7",
+              "Pope Gregory 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Victor III",
+              "Pope Victor III",
+              "St Victor III",
+              "Saint Victor III",
+              "Victor 3",
+              "Pope Victor 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Urban II",
+              "Pope Urban II",
+              "St Urban II",
+              "Saint Urban II",
+              "Urban 2",
+              "Pope Urban 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Paschal II",
+              "Pope Paschal II",
+              "St Paschal II",
+              "Saint Paschal II",
+              "Paschal 2",
+              "Pope Paschal 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gelasius II",
+              "Pope Gelasius II",
+              "St Gelasius II",
+              "Saint Gelasius II",
+              "Gelasius 2",
+              "Pope Gelasius 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Callixtus II",
+              "Pope Callixtus II",
+              "St Callixtus II",
+              "Saint Callixtus II",
+              "Callixtus 2",
+              "Pope Callixtus 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Honorius II",
+              "Pope Honorius II",
+              "St Honorius II",
+              "Saint Honorius II",
+              "Honorius 2",
+              "Pope Honorius 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Innocent II",
+              "Pope Innocent II",
+              "St Innocent II",
+              "Saint Innocent II",
+              "Innocent 2",
+              "Pope Innocent 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Celestine II",
+              "Pope Celestine II",
+              "St Celestine II",
+              "Saint Celestine II",
+              "Celestine 2",
+              "Pope Celestine 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lucius II",
+              "Pope Lucius II",
+              "St Lucius II",
+              "Saint Lucius II",
+              "Lucius 2",
+              "Pope Lucius 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eugene III",
+              "Pope Eugene III",
+              "St Eugene III",
+              "Saint Eugene III",
+              "Eugene 3",
+              "Pope Eugene 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Anastasius IV",
+              "Pope Anastasius IV",
+              "St Anastasius IV",
+              "Saint Anastasius IV",
+              "Anastasius 4",
+              "Pope Anastasius 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Adrian IV",
+              "Pope Adrian IV",
+              "St Adrian IV",
+              "Saint Adrian IV",
+              "Adrian 4",
+              "Pope Adrian 4",
+              "Hadrian IV"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Alexander III",
+              "Pope Alexander III",
+              "St Alexander III",
+              "Saint Alexander III",
+              "Alexander 3",
+              "Pope Alexander 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lucius III",
+              "Pope Lucius III",
+              "St Lucius III",
+              "Saint Lucius III",
+              "Lucius 3",
+              "Pope Lucius 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Urban III",
+              "Pope Urban III",
+              "St Urban III",
+              "Saint Urban III",
+              "Urban 3",
+              "Pope Urban 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory VIII",
+              "Pope Gregory VIII",
+              "St Gregory VIII",
+              "Saint Gregory VIII",
+              "Gregory 8",
+              "Pope Gregory 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clement III",
+              "Pope Clement III",
+              "St Clement III",
+              "Saint Clement III",
+              "Clement 3",
+              "Pope Clement 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Celestine III",
+              "Pope Celestine III",
+              "St Celestine III",
+              "Saint Celestine III",
+              "Celestine 3",
+              "Pope Celestine 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Innocent III",
+              "Pope Innocent III",
+              "St Innocent III",
+              "Saint Innocent III",
+              "Innocent 3",
+              "Pope Innocent 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Honorius III",
+              "Pope Honorius III",
+              "St Honorius III",
+              "Saint Honorius III",
+              "Honorius 3",
+              "Pope Honorius 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory IX",
+              "Pope Gregory IX",
+              "St Gregory IX",
+              "Saint Gregory IX",
+              "Gregory 9",
+              "Pope Gregory 9"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Celestine IV",
+              "Pope Celestine IV",
+              "St Celestine IV",
+              "Saint Celestine IV",
+              "Celestine 4",
+              "Pope Celestine 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Innocent IV",
+              "Pope Innocent IV",
+              "St Innocent IV",
+              "Saint Innocent IV",
+              "Innocent 4",
+              "Pope Innocent 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Alexander IV",
+              "Pope Alexander IV",
+              "St Alexander IV",
+              "Saint Alexander IV",
+              "Alexander 4",
+              "Pope Alexander 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Urban IV",
+              "Pope Urban IV",
+              "St Urban IV",
+              "Saint Urban IV",
+              "Urban 4",
+              "Pope Urban 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clement IV",
+              "Pope Clement IV",
+              "St Clement IV",
+              "Saint Clement IV",
+              "Clement 4",
+              "Pope Clement 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory X",
+              "Pope Gregory X",
+              "St Gregory X",
+              "Saint Gregory X",
+              "Gregory 10",
+              "Pope Gregory 10"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Innocent V",
+              "Pope Innocent V",
+              "St Innocent V",
+              "Saint Innocent V",
+              "Innocent 5",
+              "Pope Innocent 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Adrian V",
+              "Pope Adrian V",
+              "St Adrian V",
+              "Saint Adrian V",
+              "Adrian 5",
+              "Pope Adrian 5",
+              "Hadrian V"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John XXI",
+              "Pope John XXI",
+              "St John XXI",
+              "Saint John XXI",
+              "John 21",
+              "Pope John 21"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nicholas III",
+              "Pope Nicholas III",
+              "St Nicholas III",
+              "Saint Nicholas III",
+              "Nicholas 3",
+              "Pope Nicholas 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Martin IV",
+              "Pope Martin IV",
+              "St Martin IV",
+              "Saint Martin IV",
+              "Martin 4",
+              "Pope Martin 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Honorius IV",
+              "Pope Honorius IV",
+              "St Honorius IV",
+              "Saint Honorius IV",
+              "Honorius 4",
+              "Pope Honorius 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nicholas IV",
+              "Pope Nicholas IV",
+              "St Nicholas IV",
+              "Saint Nicholas IV",
+              "Nicholas 4",
+              "Pope Nicholas 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Celestine V",
+              "Pope Celestine V",
+              "St Celestine V",
+              "Saint Celestine V",
+              "Celestine 5",
+              "Pope Celestine 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boniface VIII",
+              "Pope Boniface VIII",
+              "St Boniface VIII",
+              "Saint Boniface VIII",
+              "Boniface 8",
+              "Pope Boniface 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict XI",
+              "Pope Benedict XI",
+              "St Benedict XI",
+              "Saint Benedict XI",
+              "Benedict 11",
+              "Pope Benedict 11"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clement V",
+              "Pope Clement V",
+              "St Clement V",
+              "Saint Clement V",
+              "Clement 5",
+              "Pope Clement 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John XXII",
+              "Pope John XXII",
+              "St John XXII",
+              "Saint John XXII",
+              "John 22",
+              "Pope John 22"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benedict XII",
+              "Pope Benedict XII",
+              "St Benedict XII",
+              "Saint Benedict XII",
+              "Benedict 12",
+              "Pope Benedict 12"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clement VI",
+              "Pope Clement VI",
+              "St Clement VI",
+              "Saint Clement VI",
+              "Clement 6",
+              "Pope Clement 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Innocent VI",
+              "Pope Innocent VI",
+              "St Innocent VI",
+              "Saint Innocent VI",
+              "Innocent 6",
+              "Pope Innocent 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Urban V",
+              "Pope Urban V",
+              "St Urban V",
+              "Saint Urban V",
+              "Urban 5",
+              "Pope Urban 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Gregory XI",
+              "Pope Gregory XI",
+              "St Gregory XI",
+              "Saint Gregory XI",
+              "Gregory 11",
+              "Pope Gregory 11"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Urban VI",
+              "Pope Urban VI",
+              "St Urban VI",
+              "Saint Urban VI",
+              "Urban 6",
+              "Pope Urban 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boniface IX",
+              "Pope Boniface IX",
+              "St Boniface IX",
+              "Saint Boniface IX",
+              "Boniface 9",
+              "Pope Boniface 9"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Innocent VII",
+              "Pope Innocent VII",
+              "St Innocent VII",
+              "Saint Innocent VII",
+              "Innocent 7",
+              "Pope Innocent 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory XII",
+              "Pope Gregory XII",
+              "St Gregory XII",
+              "Saint Gregory XII",
+              "Gregory 12",
+              "Pope Gregory 12"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Martin V",
+              "Pope Martin V",
+              "St Martin V",
+              "Saint Martin V",
+              "Martin 5",
+              "Pope Martin 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Eugene IV",
+              "Pope Eugene IV",
+              "St Eugene IV",
+              "Saint Eugene IV",
+              "Eugene 4",
+              "Pope Eugene 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nicholas V",
+              "Pope Nicholas V",
+              "St Nicholas V",
+              "Saint Nicholas V",
+              "Nicholas 5",
+              "Pope Nicholas 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Callixtus III",
+              "Pope Callixtus III",
+              "St Callixtus III",
+              "Saint Callixtus III",
+              "Callixtus 3",
+              "Pope Callixtus 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pius II",
+              "Pope Pius II",
+              "St Pius II",
+              "Saint Pius II",
+              "Pius 2",
+              "Pope Pius 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Paul II",
+              "Pope Paul II",
+              "St Paul II",
+              "Saint Paul II",
+              "Paul 2",
+              "Pope Paul 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sixtus IV",
+              "Pope Sixtus IV",
+              "St Sixtus IV",
+              "Saint Sixtus IV",
+              "Sixtus 4",
+              "Pope Sixtus 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Innocent VIII",
+              "Pope Innocent VIII",
+              "St Innocent VIII",
+              "Saint Innocent VIII",
+              "Innocent 8",
+              "Pope Innocent 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Alexander VI",
+              "Pope Alexander VI",
+              "St Alexander VI",
+              "Saint Alexander VI",
+              "Alexander 6",
+              "Pope Alexander 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pius III",
+              "Pope Pius III",
+              "St Pius III",
+              "Saint Pius III",
+              "Pius 3",
+              "Pope Pius 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Julius II",
+              "Pope Julius II",
+              "St Julius II",
+              "Saint Julius II",
+              "Julius 2",
+              "Pope Julius 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo X",
+              "Pope Leo X",
+              "St Leo X",
+              "Saint Leo X",
+              "Leo 10",
+              "Pope Leo 10"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Adrian VI",
+              "Pope Adrian VI",
+              "St Adrian VI",
+              "Saint Adrian VI",
+              "Adrian 6",
+              "Pope Adrian 6",
+              "Hadrian VI"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clement VII",
+              "Pope Clement VII",
+              "St Clement VII",
+              "Saint Clement VII",
+              "Clement 7",
+              "Pope Clement 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Paul III",
+              "Pope Paul III",
+              "St Paul III",
+              "Saint Paul III",
+              "Paul 3",
+              "Pope Paul 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Julius III",
+              "Pope Julius III",
+              "St Julius III",
+              "Saint Julius III",
+              "Julius 3",
+              "Pope Julius 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Marcellus II",
+              "Pope Marcellus II",
+              "St Marcellus II",
+              "Saint Marcellus II",
+              "Marcellus 2",
+              "Pope Marcellus 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Paul IV",
+              "Pope Paul IV",
+              "St Paul IV",
+              "Saint Paul IV",
+              "Paul 4",
+              "Pope Paul 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pius IV",
+              "Pope Pius IV",
+              "St Pius IV",
+              "Saint Pius IV",
+              "Pius 4",
+              "Pope Pius 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pius V",
+              "Pope Pius V",
+              "St Pius V",
+              "Saint Pius V",
+              "Pius 5",
+              "Pope Pius 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory XIII",
+              "Pope Gregory XIII",
+              "St Gregory XIII",
+              "Saint Gregory XIII",
+              "Gregory 13",
+              "Pope Gregory 13"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sixtus V",
+              "Pope Sixtus V",
+              "St Sixtus V",
+              "Saint Sixtus V",
+              "Sixtus 5",
+              "Pope Sixtus 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Urban VII",
+              "Pope Urban VII",
+              "St Urban VII",
+              "Saint Urban VII",
+              "Urban 7",
+              "Pope Urban 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gregory XIV",
+              "Pope Gregory XIV",
+              "St Gregory XIV",
+              "Saint Gregory XIV",
+              "Gregory 14",
+              "Pope Gregory 14"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Innocent IX",
+              "Pope Innocent IX",
+              "St Innocent IX",
+              "Saint Innocent IX",
+              "Innocent 9",
+              "Pope Innocent 9"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clement VIII",
+              "Pope Clement VIII",
+              "St Clement VIII",
+              "Saint Clement VIII",
+              "Clement 8",
+              "Pope Clement 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo XI",
+              "Pope Leo XI",
+              "St Leo XI",
+              "Saint Leo XI",
+              "Leo 11",
+              "Pope Leo 11"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Paul V",
+              "Pope Paul V",
+              "St Paul V",
+              "Saint Paul V",
+              "Paul 5",
+              "Pope Paul 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gregory XV",
+              "Pope Gregory XV",
+              "St Gregory XV",
+              "Saint Gregory XV",
+              "Gregory 15",
+              "Pope Gregory 15"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Urban VIII",
+              "Pope Urban VIII",
+              "St Urban VIII",
+              "Saint Urban VIII",
+              "Urban 8",
+              "Pope Urban 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Innocent X",
+              "Pope Innocent X",
+              "St Innocent X",
+              "Saint Innocent X",
+              "Innocent 10",
+              "Pope Innocent 10"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Alexander VII",
+              "Pope Alexander VII",
+              "St Alexander VII",
+              "Saint Alexander VII",
+              "Alexander 7",
+              "Pope Alexander 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Clement IX",
+              "Pope Clement IX",
+              "St Clement IX",
+              "Saint Clement IX",
+              "Clement 9",
+              "Pope Clement 9"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Clement X",
+              "Pope Clement X",
+              "St Clement X",
+              "Saint Clement X",
+              "Clement 10",
+              "Pope Clement 10"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Innocent XI",
+              "Pope Innocent XI",
+              "St Innocent XI",
+              "Saint Innocent XI",
+              "Innocent 11",
+              "Pope Innocent 11"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Alexander VIII",
+              "Pope Alexander VIII",
+              "St Alexander VIII",
+              "Saint Alexander VIII",
+              "Alexander 8",
+              "Pope Alexander 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Innocent XII",
+              "Pope Innocent XII",
+              "St Innocent XII",
+              "Saint Innocent XII",
+              "Innocent 12",
+              "Pope Innocent 12"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Clement XI",
+              "Pope Clement XI",
+              "St Clement XI",
+              "Saint Clement XI",
+              "Clement 11",
+              "Pope Clement 11"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Innocent XIII",
+              "Pope Innocent XIII",
+              "St Innocent XIII",
+              "Saint Innocent XIII",
+              "Innocent 13",
+              "Pope Innocent 13"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Benedict XIII",
+              "Pope Benedict XIII",
+              "St Benedict XIII",
+              "Saint Benedict XIII",
+              "Benedict 13",
+              "Pope Benedict 13"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Clement XII",
+              "Pope Clement XII",
+              "St Clement XII",
+              "Saint Clement XII",
+              "Clement 12",
+              "Pope Clement 12"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Benedict XIV",
+              "Pope Benedict XIV",
+              "St Benedict XIV",
+              "Saint Benedict XIV",
+              "Benedict 14",
+              "Pope Benedict 14"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Clement XIII",
+              "Pope Clement XIII",
+              "St Clement XIII",
+              "Saint Clement XIII",
+              "Clement 13",
+              "Pope Clement 13"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Clement XIV",
+              "Pope Clement XIV",
+              "St Clement XIV",
+              "Saint Clement XIV",
+              "Clement 14",
+              "Pope Clement 14"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pius VI",
+              "Pope Pius VI",
+              "St Pius VI",
+              "Saint Pius VI",
+              "Pius 6",
+              "Pope Pius 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pius VII",
+              "Pope Pius VII",
+              "St Pius VII",
+              "Saint Pius VII",
+              "Pius 7",
+              "Pope Pius 7"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Leo XII",
+              "Pope Leo XII",
+              "St Leo XII",
+              "Saint Leo XII",
+              "Leo 12",
+              "Pope Leo 12"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pius VIII",
+              "Pope Pius VIII",
+              "St Pius VIII",
+              "Saint Pius VIII",
+              "Pius 8",
+              "Pope Pius 8"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gregory XVI",
+              "Pope Gregory XVI",
+              "St Gregory XVI",
+              "Saint Gregory XVI",
+              "Gregory 16",
+              "Pope Gregory 16"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pius IX",
+              "Pope Pius IX",
+              "St Pius IX",
+              "Saint Pius IX",
+              "Pius 9",
+              "Pope Pius 9"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Leo XIII",
+              "Pope Leo XIII",
+              "St Leo XIII",
+              "Saint Leo XIII",
+              "Leo 13",
+              "Pope Leo 13"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pius X",
+              "Pope Pius X",
+              "St Pius X",
+              "Saint Pius X",
+              "Pius 10",
+              "Pope Pius 10"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Benedict XV",
+              "Pope Benedict XV",
+              "St Benedict XV",
+              "Saint Benedict XV",
+              "Benedict 15",
+              "Pope Benedict 15"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pius XI",
+              "Pope Pius XI",
+              "St Pius XI",
+              "Saint Pius XI",
+              "Pius 11",
+              "Pope Pius 11"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Pius XII",
+              "Pope Pius XII",
+              "St Pius XII",
+              "Saint Pius XII",
+              "Pius 12",
+              "Pope Pius 12"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "John XXIII",
+              "Pope John XXIII",
+              "St John XXIII",
+              "Saint John XXIII",
+              "John 23",
+              "Pope John 23"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Paul VI",
+              "Pope Paul VI",
+              "St Paul VI",
+              "Saint Paul VI",
+              "Paul 6",
+              "Pope Paul 6"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "John Paul I",
+              "Pope John Paul I",
+              "St John Paul I",
+              "Saint John Paul I",
+              "John Paul 1",
+              "Pope John Paul 1"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "John Paul II",
+              "Pope John Paul II",
+              "St John Paul II",
+              "Saint John Paul II",
+              "John Paul 2",
+              "Pope John Paul 2",
+              "Karol Wojtyla"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Benedict XVI",
+              "Pope Benedict XVI",
+              "St Benedict XVI",
+              "Saint Benedict XVI",
+              "Benedict 16",
+              "Pope Benedict 16",
+              "Joseph Ratzinger"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Francis",
+              "Pope Francis",
+              "St Francis",
+              "Saint Francis",
+              "Jorge Mario Bergoglio"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Leo XIV",
+              "Pope Leo XIV",
+              "St Leo XIV",
+              "Saint Leo XIV",
+              "Leo 14",
+              "Pope Leo 14",
+              "Robert Prevost",
+              "Robert Francis Prevost"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a US State or Territory Nickname.",
+        "source": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_nicknames",
+        "sourceNote": "Includes historical nicknames, territories and Washington, DC. A nickname shared by states counts once.",
+        "answers": [
+          {
+            "points": 85,
+            "forms": [
+              "Alabama the Beautiful",
+              "The Alabama the Beautiful"
+            ],
+            "note": "Alabama"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cotton Plantation State",
+              "The Cotton Plantation State",
+              "Cotton Plantation"
+            ],
+            "note": "Alabama"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cotton State",
+              "The Cotton State",
+              "Cotton"
+            ],
+            "note": "Alabama"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Heart of Dixie",
+              "The Heart of Dixie"
+            ],
+            "note": "Alabama"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lizard State",
+              "The Lizard State",
+              "Lizard"
+            ],
+            "note": "Alabama"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sweet Home Alabama",
+              "The Sweet Home Alabama"
+            ],
+            "note": "Alabama"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Yellowhammer State",
+              "The Yellowhammer State",
+              "Yellowhammer"
+            ],
+            "note": "Alabama"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Land of the Midnight Sun",
+              "The Land of the Midnight Sun"
+            ],
+            "note": "Alaska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Land of the Noonday Moon",
+              "The Land of the Noonday Moon"
+            ],
+            "note": "Alaska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Last Frontier",
+              "The Last Frontier"
+            ],
+            "note": "Alaska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Seward's Folly",
+              "The Seward's Folly",
+              "Sewards Folly"
+            ],
+            "note": "Alaska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Seward's Ice Box",
+              "The Seward's Ice Box",
+              "Sewards Ice Box"
+            ],
+            "note": "Alaska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Icebergia",
+              "The Icebergia"
+            ],
+            "note": "Alaska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Polaria",
+              "The Polaria"
+            ],
+            "note": "Alaska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Walrussia",
+              "The Walrussia"
+            ],
+            "note": "Alaska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Johnson's Polar Bear Garden",
+              "The Johnson's Polar Bear Garden",
+              "Johnsons Polar Bear Garden"
+            ],
+            "note": "Alaska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Motu o Fiafiaga",
+              "The Motu o Fiafiaga",
+              "Islands of Paradise"
+            ],
+            "note": "American Samoa"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Football Islands",
+              "The Football Islands"
+            ],
+            "note": "American Samoa"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Apache State",
+              "The Apache State",
+              "Apache"
+            ],
+            "note": "Arizona"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Aztec State",
+              "The Aztec State",
+              "Aztec"
+            ],
+            "note": "Arizona"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Baby State",
+              "The Baby State",
+              "Baby"
+            ],
+            "note": "Arizona"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Copper State",
+              "The Copper State",
+              "Copper"
+            ],
+            "note": "Arizona, Wisconsin"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Grand Canyon State",
+              "The Grand Canyon State",
+              "Grand Canyon"
+            ],
+            "note": "Arizona"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Italy of America",
+              "The Italy of America"
+            ],
+            "note": "Arizona"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sand Hill State",
+              "The Sand Hill State",
+              "Sand Hill"
+            ],
+            "note": "Arizona"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sunset State",
+              "The Sunset State",
+              "Sunset"
+            ],
+            "note": "Arizona"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sweetheart State",
+              "The Sweetheart State",
+              "Sweetheart"
+            ],
+            "note": "Arizona"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Valentine State",
+              "The Valentine State",
+              "Valentine"
+            ],
+            "note": "Arizona"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bear State",
+              "The Bear State",
+              "Bear"
+            ],
+            "note": "Arkansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bowie State",
+              "The Bowie State",
+              "Bowie"
+            ],
+            "note": "Arkansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hot Springs State",
+              "The Hot Springs State",
+              "Hot Springs"
+            ],
+            "note": "Arkansas"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Land of Opportunity",
+              "The Land of Opportunity"
+            ],
+            "note": "Arkansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Natural State",
+              "The Natural State",
+              "Natural"
+            ],
+            "note": "Arkansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Razorback State",
+              "The Razorback State",
+              "Razorback"
+            ],
+            "note": "Arkansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Toothpick State",
+              "The Toothpick State",
+              "Toothpick"
+            ],
+            "note": "Arkansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Wonder State",
+              "The Wonder State",
+              "Wonder"
+            ],
+            "note": "Arkansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "El Dorado State",
+              "The El Dorado State",
+              "El Dorado"
+            ],
+            "note": "California"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Golden State",
+              "The Golden State",
+              "Golden"
+            ],
+            "note": "California"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Buffalo Plains State",
+              "The Buffalo Plains State",
+              "Buffalo Plains"
+            ],
+            "note": "Colorado"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Centennial State",
+              "The Centennial State",
+              "Centennial"
+            ],
+            "note": "Colorado"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Colorful Colorado",
+              "The Colorful Colorado"
+            ],
+            "note": "Colorado"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Columbine State",
+              "The Columbine State",
+              "Columbine"
+            ],
+            "note": "Colorado"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Highest State",
+              "The Highest State",
+              "Highest"
+            ],
+            "note": "Colorado"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lead State",
+              "The Lead State",
+              "Lead"
+            ],
+            "note": "Colorado, Missouri"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mother of Rivers",
+              "The Mother of Rivers"
+            ],
+            "note": "Colorado, New Hampshire"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Rocky Mountain Empire",
+              "The Rocky Mountain Empire"
+            ],
+            "note": "Colorado"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rocky Mountain State",
+              "The Rocky Mountain State",
+              "Rocky Mountain"
+            ],
+            "note": "Colorado"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Silver State",
+              "The Silver State",
+              "Silver"
+            ],
+            "note": "Colorado, Nevada"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ski Country USA",
+              "The Ski Country USA"
+            ],
+            "note": "Colorado"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Switzerland of America",
+              "The Switzerland of America"
+            ],
+            "note": "Colorado, New Hampshire, West Virginia"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Constitution State",
+              "The Constitution State",
+              "Constitution"
+            ],
+            "note": "Connecticut"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nutmeg State",
+              "The Nutmeg State",
+              "Nutmeg"
+            ],
+            "note": "Connecticut"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Provision State",
+              "The Provision State",
+              "Provision"
+            ],
+            "note": "Connecticut"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blue Law State",
+              "The Blue Law State",
+              "Blue Law"
+            ],
+            "note": "Connecticut"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Freestone State",
+              "The Freestone State",
+              "Freestone"
+            ],
+            "note": "Connecticut"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Land of Steady Habits",
+              "The Land of Steady Habits"
+            ],
+            "note": "Connecticut"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chemical Capital of the World",
+              "The Chemical Capital of the World"
+            ],
+            "note": "Delaware"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Corporate Capital",
+              "The Corporate Capital"
+            ],
+            "note": "Delaware"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Diamond State",
+              "The Diamond State",
+              "Diamond"
+            ],
+            "note": "Delaware"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blue Hen State",
+              "The Blue Hen State",
+              "Blue Hen"
+            ],
+            "note": "Delaware"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blue Hen Chicken State",
+              "The Blue Hen Chicken State",
+              "Blue Hen Chicken"
+            ],
+            "note": "Delaware"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "First State",
+              "The First State",
+              "First"
+            ],
+            "note": "Delaware"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Peach State",
+              "The Peach State",
+              "Peach"
+            ],
+            "note": "Delaware, Georgia"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Small Wonder",
+              "The Small Wonder"
+            ],
+            "note": "Delaware"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nation's Capital",
+              "The Nation's Capital",
+              "Nations Capital"
+            ],
+            "note": "District of Columbia"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DMV",
+              "The DMV"
+            ],
+            "note": "District of Columbia"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Inside the Beltway",
+              "The Inside the Beltway"
+            ],
+            "note": "District of Columbia"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "End Taxation Without Representation",
+              "The End Taxation Without Representation"
+            ],
+            "note": "District of Columbia"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Alligator State",
+              "The Alligator State",
+              "Alligator"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Everglade State",
+              "The Everglade State",
+              "Everglade"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Flower State",
+              "The Flower State",
+              "Flower"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gulf State",
+              "The Gulf State",
+              "Gulf"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gunshine State",
+              "The Gunshine State",
+              "Gunshine"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Orange State",
+              "The Orange State",
+              "Orange"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Citrus State",
+              "The Citrus State",
+              "Citrus"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Palm Tree State",
+              "The Palm Tree State",
+              "Palm Tree"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Peninsula State",
+              "The Peninsula State",
+              "Peninsula"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Peninsular State",
+              "The Peninsular State",
+              "Peninsular"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Plywood State",
+              "The Plywood State",
+              "Plywood"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Sunshine State",
+              "The Sunshine State",
+              "Sunshine"
+            ],
+            "note": "Florida, South Dakota"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Free State of Florida",
+              "The Free State of Florida"
+            ],
+            "note": "Florida"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cracker State",
+              "The Cracker State",
+              "Cracker"
+            ],
+            "note": "Georgia"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Empire State of the South",
+              "The Empire State of the South"
+            ],
+            "note": "Georgia"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Goober State",
+              "The Goober State",
+              "Goober"
+            ],
+            "note": "Georgia"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "State of Adventure",
+              "The State of Adventure"
+            ],
+            "note": "Georgia"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tano y Chamorro",
+              "The Tano y Chamorro",
+              "Land of the Chamorro"
+            ],
+            "note": "Guam"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hub of the Pacific",
+              "The Hub of the Pacific"
+            ],
+            "note": "Guam"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gateway to Micronesia",
+              "The Gateway to Micronesia"
+            ],
+            "note": "Guam"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Aloha State",
+              "The Aloha State",
+              "Aloha"
+            ],
+            "note": "Hawaii"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Paradise of the Pacific",
+              "The Paradise of the Pacific"
+            ],
+            "note": "Hawaii"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pineapple State",
+              "The Pineapple State",
+              "Pineapple"
+            ],
+            "note": "Hawaii"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rainbow State",
+              "The Rainbow State",
+              "Rainbow"
+            ],
+            "note": "Hawaii"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Youngest State",
+              "The Youngest State",
+              "Youngest"
+            ],
+            "note": "Hawaii"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "808 State",
+              "The 808 State",
+              "808"
+            ],
+            "note": "Hawaii"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gem State",
+              "The Gem State",
+              "Gem"
+            ],
+            "note": "Idaho"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gem of the Mountains",
+              "The Gem of the Mountains"
+            ],
+            "note": "Idaho"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Little Ida",
+              "The Little Ida"
+            ],
+            "note": "Idaho"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Potato State",
+              "The Potato State",
+              "Potato"
+            ],
+            "note": "Idaho"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Land of Lincoln",
+              "The Land of Lincoln"
+            ],
+            "note": "Illinois"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Prairie State",
+              "The Prairie State",
+              "Prairie"
+            ],
+            "note": "Illinois"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Corn State",
+              "The Corn State",
+              "Corn"
+            ],
+            "note": "Illinois"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Garden of the West",
+              "The Garden of the West"
+            ],
+            "note": "Illinois"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hoosier State",
+              "The Hoosier State",
+              "Hoosier"
+            ],
+            "note": "Indiana"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Crossroads of America",
+              "The Crossroads of America"
+            ],
+            "note": "Indiana"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hawkeye State",
+              "The Hawkeye State",
+              "Hawkeye"
+            ],
+            "note": "Iowa"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "America's Heartland",
+              "The America's Heartland",
+              "Americas Heartland"
+            ],
+            "note": "Kansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Central State",
+              "The Central State",
+              "Central"
+            ],
+            "note": "Kansas"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dorothy's Home",
+              "The Dorothy's Home",
+              "Dorothys Home"
+            ],
+            "note": "Kansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Free State",
+              "The Free State",
+              "Free"
+            ],
+            "note": "Kansas, Maryland"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Midway USA",
+              "The Midway USA"
+            ],
+            "note": "Kansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sunflower State",
+              "The Sunflower State",
+              "Sunflower"
+            ],
+            "note": "Kansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Wheat State",
+              "The Wheat State",
+              "Wheat"
+            ],
+            "note": "Kansas"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bleeding Kansas",
+              "The Bleeding Kansas"
+            ],
+            "note": "Kansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jayhawk State",
+              "The Jayhawk State",
+              "Jayhawk"
+            ],
+            "note": "Kansas"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Breadbasket of the World",
+              "The Breadbasket of the World"
+            ],
+            "note": "Kansas"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bluegrass State",
+              "The Bluegrass State",
+              "Bluegrass"
+            ],
+            "note": "Kentucky"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Corn-cracker State",
+              "The Corn-cracker State",
+              "Corn-cracker"
+            ],
+            "note": "Kentucky"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Dark and Bloody Ground State",
+              "The Dark and Bloody Ground State",
+              "Dark and Bloody Ground"
+            ],
+            "note": "Kentucky"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hemp State",
+              "The Hemp State",
+              "Hemp"
+            ],
+            "note": "Kentucky"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tobacco State",
+              "The Tobacco State",
+              "Tobacco"
+            ],
+            "note": "Kentucky"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bayou State",
+              "The Bayou State",
+              "Bayou"
+            ],
+            "note": "Louisiana, Mississippi"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Creole State",
+              "The Creole State",
+              "Creole"
+            ],
+            "note": "Louisiana"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pelican State",
+              "The Pelican State",
+              "Pelican"
+            ],
+            "note": "Louisiana"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sportsman's Paradise",
+              "The Sportsman's Paradise",
+              "Sportsmans Paradise"
+            ],
+            "note": "Louisiana"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pine Tree State",
+              "The Pine Tree State",
+              "Pine Tree"
+            ],
+            "note": "Maine"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vacationland",
+              "The Vacationland"
+            ],
+            "note": "Maine"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lumber State",
+              "The Lumber State",
+              "Lumber"
+            ],
+            "note": "Maine"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sunrise State",
+              "The Sunrise State",
+              "Sunrise"
+            ],
+            "note": "Maine"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "America in Miniature",
+              "The America in Miniature"
+            ],
+            "note": "Maryland"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Chesapeake State",
+              "The Chesapeake State",
+              "Chesapeake"
+            ],
+            "note": "Maryland"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cockade State",
+              "The Cockade State",
+              "Cockade"
+            ],
+            "note": "Maryland"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Monumental State",
+              "The Monumental State",
+              "Monumental"
+            ],
+            "note": "Maryland"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Old Line State",
+              "The Old Line State",
+              "Old Line"
+            ],
+            "note": "Maryland"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Oyster State",
+              "The Oyster State",
+              "Oyster"
+            ],
+            "note": "Maryland"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Queen State",
+              "The Queen State",
+              "Queen"
+            ],
+            "note": "Maryland"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Terrapin State",
+              "The Terrapin State",
+              "Terrapin"
+            ],
+            "note": "Maryland"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Baked Bean State",
+              "The Baked Bean State",
+              "Baked Bean"
+            ],
+            "note": "Massachusetts"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Codfish State",
+              "The Codfish State",
+              "Codfish"
+            ],
+            "note": "Massachusetts"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bay State",
+              "The Bay State",
+              "Bay"
+            ],
+            "note": "Massachusetts"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Old Colony State",
+              "The Old Colony State",
+              "Old Colony"
+            ],
+            "note": "Massachusetts"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pilgrim State",
+              "The Pilgrim State",
+              "Pilgrim"
+            ],
+            "note": "Massachusetts"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Spirit of America",
+              "The Spirit of America"
+            ],
+            "note": "Massachusetts"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Taxachusetts",
+              "The Taxachusetts"
+            ],
+            "note": "Massachusetts"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Great Lakes State",
+              "The Great Lakes State",
+              "Great Lakes"
+            ],
+            "note": "Michigan"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Water Wonderland",
+              "The Water Wonderland"
+            ],
+            "note": "Michigan"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Water-Winter Wonderland",
+              "The Water-Winter Wonderland"
+            ],
+            "note": "Michigan"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Wolverine State",
+              "The Wolverine State",
+              "Wolverine"
+            ],
+            "note": "Michigan"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mitten State",
+              "The Mitten State",
+              "Mitten"
+            ],
+            "note": "Michigan"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Gopher State",
+              "The Gopher State",
+              "Gopher"
+            ],
+            "note": "Minnesota"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Land of 10,000 Lakes",
+              "The Land of 10,000 Lakes",
+              "Land of 10000 Lakes",
+              "Land of Ten Thousand Lakes",
+              "10000 Lakes",
+              "10,000 Lakes"
+            ],
+            "note": "Minnesota"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "New England of the West",
+              "The New England of the West"
+            ],
+            "note": "Minnesota"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "North Star State",
+              "The North Star State",
+              "North Star"
+            ],
+            "note": "Minnesota"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "State of Hockey",
+              "The State of Hockey"
+            ],
+            "note": "Minnesota"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Minnesnowta",
+              "The Minnesnowta"
+            ],
+            "note": "Minnesota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bread and Butter State",
+              "The Bread and Butter State",
+              "Bread and Butter"
+            ],
+            "note": "Minnesota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Loon State",
+              "The Loon State",
+              "Loon"
+            ],
+            "note": "Minnesota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hospitality State",
+              "The Hospitality State",
+              "Hospitality"
+            ],
+            "note": "Mississippi"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Magnolia State",
+              "The Magnolia State",
+              "Magnolia"
+            ],
+            "note": "Mississippi"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Birthplace of America's Music",
+              "The Birthplace of America's Music",
+              "Birthplace of Americas Music"
+            ],
+            "note": "Mississippi"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bullion State",
+              "The Bullion State",
+              "Bullion"
+            ],
+            "note": "Missouri"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Show-Me State",
+              "The Show-Me State",
+              "Show-Me"
+            ],
+            "note": "Missouri"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gateway to the West",
+              "The Gateway to the West"
+            ],
+            "note": "Missouri"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ozark State",
+              "The Ozark State",
+              "Ozark"
+            ],
+            "note": "Missouri"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mother of the West",
+              "The Mother of the West"
+            ],
+            "note": "Missouri"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Iron Mountain State",
+              "The Iron Mountain State",
+              "Iron Mountain"
+            ],
+            "note": "Missouri"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pennsylvania of the West",
+              "The Pennsylvania of the West"
+            ],
+            "note": "Missouri"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cave State",
+              "The Cave State",
+              "Cave"
+            ],
+            "note": "Missouri"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Big Sky Country",
+              "The Big Sky Country"
+            ],
+            "note": "Montana"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Last Best Place",
+              "The Last Best Place"
+            ],
+            "note": "Montana"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Treasure State",
+              "The Treasure State",
+              "Treasure"
+            ],
+            "note": "Montana"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Land of the Shining Mountains",
+              "The Land of the Shining Mountains"
+            ],
+            "note": "Montana"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Antelope State",
+              "The Antelope State",
+              "Antelope"
+            ],
+            "note": "Nebraska"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Beef State",
+              "The Beef State",
+              "Beef"
+            ],
+            "note": "Nebraska"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cornhusker State",
+              "The Cornhusker State",
+              "Cornhusker"
+            ],
+            "note": "Nebraska"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bug-eating State",
+              "The Bug-eating State",
+              "Bug-eating"
+            ],
+            "note": "Nebraska"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blackwater State",
+              "The Blackwater State",
+              "Blackwater"
+            ],
+            "note": "Nebraska"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Good Life",
+              "The Good Life"
+            ],
+            "note": "Nebraska"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tree Planters State",
+              "The Tree Planters State",
+              "Tree Planters"
+            ],
+            "note": "Nebraska"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Battle Born State",
+              "The Battle Born State",
+              "Battle Born"
+            ],
+            "note": "Nevada"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sagebrush State",
+              "The Sagebrush State",
+              "Sagebrush"
+            ],
+            "note": "Nevada"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Casino State",
+              "The Casino State",
+              "Casino"
+            ],
+            "note": "Nevada"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Granite State",
+              "The Granite State",
+              "Granite"
+            ],
+            "note": "New Hampshire"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Live Free or Die State",
+              "The Live Free or Die State",
+              "Live Free or Die"
+            ],
+            "note": "New Hampshire"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "White Mountain State",
+              "The White Mountain State",
+              "White Mountain"
+            ],
+            "note": "New Hampshire"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Garbage State",
+              "The Garbage State",
+              "Garbage"
+            ],
+            "note": "New Jersey"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Armpit of America",
+              "The Armpit of America"
+            ],
+            "note": "New Jersey, Ohio"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Garden State",
+              "The Garden State",
+              "Garden"
+            ],
+            "note": "New Jersey"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Crossroads of the Revolution",
+              "The Crossroads of the Revolution"
+            ],
+            "note": "New Jersey"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cornerstone State",
+              "The Cornerstone State",
+              "Cornerstone"
+            ],
+            "note": "New Jersey"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Suburban State",
+              "The Suburban State",
+              "Suburban"
+            ],
+            "note": "New Jersey"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Land of Enchantment",
+              "The Land of Enchantment"
+            ],
+            "note": "New Mexico"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Land of Sunshine",
+              "The Land of Sunshine"
+            ],
+            "note": "New Mexico"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Empire State",
+              "The Empire State",
+              "Empire"
+            ],
+            "note": "New York"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Excelsior State",
+              "The Excelsior State",
+              "Excelsior"
+            ],
+            "note": "New York"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Apple State",
+              "The Apple State",
+              "Apple"
+            ],
+            "note": "New York"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Dairy State",
+              "The Dairy State",
+              "Dairy"
+            ],
+            "note": "New York, Wisconsin"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "First in Flight",
+              "The First in Flight"
+            ],
+            "note": "North Carolina"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "First in Freedom",
+              "The First in Freedom"
+            ],
+            "note": "North Carolina"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Old North State",
+              "The Old North State",
+              "Old North"
+            ],
+            "note": "North Carolina"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tar Heel State",
+              "The Tar Heel State",
+              "Tar Heel"
+            ],
+            "note": "North Carolina"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Turpentine State",
+              "The Turpentine State",
+              "Turpentine"
+            ],
+            "note": "North Carolina"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Variety Vacationland",
+              "The Variety Vacationland"
+            ],
+            "note": "North Carolina"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Flickertail State",
+              "The Flickertail State",
+              "Flickertail"
+            ],
+            "note": "North Dakota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Peace Garden State",
+              "The Peace Garden State",
+              "Peace Garden"
+            ],
+            "note": "North Dakota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rough Rider State",
+              "The Rough Rider State",
+              "Rough Rider"
+            ],
+            "note": "North Dakota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sioux State",
+              "The Sioux State",
+              "Sioux"
+            ],
+            "note": "North Dakota"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Heaven on Earth",
+              "The Heaven on Earth"
+            ],
+            "note": "North Dakota"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "H\u00e5fa Adai",
+              "The H\u00e5fa Adai"
+            ],
+            "note": "Northern Mariana Islands"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "America's Best Kept Secret",
+              "The America's Best Kept Secret",
+              "Americas Best Kept Secret"
+            ],
+            "note": "Northern Mariana Islands"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Buckeye State",
+              "The Buckeye State",
+              "Buckeye"
+            ],
+            "note": "Ohio"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Birthplace of Aviation",
+              "The Birthplace of Aviation"
+            ],
+            "note": "Ohio"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Heart of It All",
+              "The Heart of It All"
+            ],
+            "note": "Ohio"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Native America",
+              "The Native America"
+            ],
+            "note": "Oklahoma"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Land of the Red Man",
+              "The Land of the Red Man"
+            ],
+            "note": "Oklahoma"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sooner State",
+              "The Sooner State",
+              "Sooner"
+            ],
+            "note": "Oklahoma"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Beaver State",
+              "The Beaver State",
+              "Beaver"
+            ],
+            "note": "Oregon"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pacific Wonderland",
+              "The Pacific Wonderland"
+            ],
+            "note": "Oregon"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Webfoot State",
+              "The Webfoot State",
+              "Webfoot"
+            ],
+            "note": "Oregon"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Keystone State",
+              "The Keystone State",
+              "Keystone"
+            ],
+            "note": "Pennsylvania"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Quaker State",
+              "The Quaker State",
+              "Quaker"
+            ],
+            "note": "Pennsylvania"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Coal State",
+              "The Coal State",
+              "Coal"
+            ],
+            "note": "Pennsylvania"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Railroad State",
+              "The Railroad State",
+              "Railroad"
+            ],
+            "note": "Pennsylvania"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Elk State",
+              "The Elk State",
+              "Elk"
+            ],
+            "note": "Pennsylvania"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Isla del Encanto",
+              "The Isla del Encanto",
+              "Island of Enchantment"
+            ],
+            "note": "Puerto Rico"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Borinquen",
+              "The Borinquen"
+            ],
+            "note": "Puerto Rico"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Little Rhody",
+              "The Little Rhody"
+            ],
+            "note": "Rhode Island"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ocean State",
+              "The Ocean State",
+              "Ocean"
+            ],
+            "note": "Rhode Island"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rogues Island",
+              "The Rogues Island"
+            ],
+            "note": "Rhode Island"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Licentious Republic",
+              "The Licentious Republic"
+            ],
+            "note": "Rhode Island"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Smallest State",
+              "The Smallest State",
+              "Smallest"
+            ],
+            "note": "Rhode Island"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Palmetto State",
+              "The Palmetto State",
+              "Palmetto"
+            ],
+            "note": "South Carolina"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Iodine Products State",
+              "The Iodine Products State",
+              "Iodine Products"
+            ],
+            "note": "South Carolina"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Artesian State",
+              "The Artesian State",
+              "Artesian"
+            ],
+            "note": "South Dakota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blizzard State",
+              "The Blizzard State",
+              "Blizzard"
+            ],
+            "note": "South Dakota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Coyote State",
+              "The Coyote State",
+              "Coyote"
+            ],
+            "note": "South Dakota"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Land of Infinite Variety",
+              "The Land of Infinite Variety"
+            ],
+            "note": "South Dakota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mount Rushmore State",
+              "The Mount Rushmore State",
+              "Mount Rushmore"
+            ],
+            "note": "South Dakota"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Big Bend State",
+              "The Big Bend State",
+              "Big Bend"
+            ],
+            "note": "Tennessee"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Butternut State",
+              "The Butternut State",
+              "Butternut"
+            ],
+            "note": "Tennessee"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hog and Hominy State",
+              "The Hog and Hominy State",
+              "Hog and Hominy"
+            ],
+            "note": "Tennessee"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mother of Southwestern Statesmen",
+              "The Mother of Southwestern Statesmen"
+            ],
+            "note": "Tennessee"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Volunteer State",
+              "The Volunteer State",
+              "Volunteer"
+            ],
+            "note": "Tennessee"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Lone Star State",
+              "The Lone Star State",
+              "Lone Star"
+            ],
+            "note": "Texas"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "America's Caribbean",
+              "The America's Caribbean",
+              "Americas Caribbean"
+            ],
+            "note": "U.S. Virgin Islands"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "American Paradise",
+              "The American Paradise"
+            ],
+            "note": "U.S. Virgin Islands"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Beehive State",
+              "The Beehive State",
+              "Beehive"
+            ],
+            "note": "Utah"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Crossroads of the West",
+              "The Crossroads of the West"
+            ],
+            "note": "Utah"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mormon State",
+              "The Mormon State",
+              "Mormon"
+            ],
+            "note": "Utah"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Friendly State",
+              "The Friendly State",
+              "Friendly"
+            ],
+            "note": "Utah"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Green Mountain State",
+              "The Green Mountain State",
+              "Green Mountain"
+            ],
+            "note": "Vermont"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Maple State",
+              "The Maple State",
+              "Maple"
+            ],
+            "note": "Vermont"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brave Little State of Vermont",
+              "The Brave Little State of Vermont"
+            ],
+            "note": "Vermont"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mother of Presidents",
+              "The Mother of Presidents"
+            ],
+            "note": "Virginia"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mother of States",
+              "The Mother of States"
+            ],
+            "note": "Virginia"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Old Dominion",
+              "The Old Dominion"
+            ],
+            "note": "Virginia"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Evergreen State",
+              "The Evergreen State",
+              "Evergreen"
+            ],
+            "note": "Washington"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mountain State",
+              "The Mountain State",
+              "Mountain"
+            ],
+            "note": "West Virginia"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Panhandle State",
+              "The Panhandle State",
+              "Panhandle"
+            ],
+            "note": "West Virginia"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Almost Heaven",
+              "The Almost Heaven"
+            ],
+            "note": "West Virginia"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Badger State",
+              "The Badger State",
+              "Badger"
+            ],
+            "note": "Wisconsin"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "America's Dairyland",
+              "The America's Dairyland",
+              "Americas Dairyland"
+            ],
+            "note": "Wisconsin"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Traitor State",
+              "The Traitor State",
+              "Traitor"
+            ],
+            "note": "Wisconsin"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cheese State",
+              "The Cheese State",
+              "Cheese"
+            ],
+            "note": "Wisconsin"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cowboy State",
+              "The Cowboy State",
+              "Cowboy"
+            ],
+            "note": "Wyoming"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Equality State",
+              "The Equality State",
+              "Equality"
+            ],
+            "note": "Wyoming"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Forever West",
+              "The Forever West"
+            ],
+            "note": "Wyoming"
+          }
+        ]
+      }
+    ]
+  }
+];
+window.DIVE_QUESTIONS = window.DIVE_DAYS.at(-1).questions;

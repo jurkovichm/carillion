@@ -1,0 +1,207 @@
+ANSWER,Blurb,Worth
+Cumulus|Cumulus cloud|Cumulus clouds,,10
+Stratus|Stratus cloud|Stratus clouds,,10
+Cirrus|Cirrus cloud|Cirrus clouds,,10
+Cumulonimbus|Cumulonimbus cloud|Cumulonimbus clouds,,30
+Altocumulus|Altocumulus cloud|Altocumulus clouds,,30
+Altostratus|Altostratus cloud|Altostratus clouds,,30
+Nimbostratus|Nimbostratus cloud|Nimbostratus clouds,,30
+Stratocumulus|Stratocumulus cloud|Stratocumulus clouds,,30
+Cirrocumulus|Cirrocumulus cloud|Cirrocumulus clouds,,30
+Cirrostratus|Cirrostratus cloud|Cirrostratus clouds,,30
+Castellanus,,60
+Congestus,,60
+Fibratus,,60
+Floccus,,60
+Fractus,,60
+Humilis,,60
+Lenticularis|Lenticular cloud|Lenticular,,60
+Mediocris,,60
+Nebulosus,,60
+Spissatus,,60
+Stratiformis,,60
+Uncinus,,60
+Volutus|Roll cloud,,60
+Calvus,,60
+Capillatus,,60
+Opacus,,60
+Perlucidus,,60
+Translucidus,,60
+Duplicatus,,60
+Intortus,,60
+Lacunosus,,60
+Radiatus,,60
+Undulatus,,60
+Vertebratus,,60
+Arcus|Shelf cloud,,60
+Asperitas,,60
+Cavum|Fallstreak hole|Hole punch cloud,,60
+Cauda,,60
+Fluctus|Kelvin Helmholtz cloud,,60
+Incus|Anvil cloud,,60
+Mamma|Mammatus|Mammatus cloud,,60
+Murus|Wall cloud,,60
+Tuba|Funnel cloud,,60
+Pannus,,60
+Pileus,,60
+Velum,,60
+Virga,,60
+Praecipitatio,,60
+Cirrus fibratus,,85
+Cirrus uncinus,,85
+Cirrus spissatus,,85
+Cirrus castellanus,,85
+Cirrus floccus,,85
+Cirrus fibratus intortus,,100
+Cirrus fibratus vertebratus,,100
+Cirrus fibratus radiatus,,100
+Cirrus uncinus radiatus,,100
+Cirrus fibratus duplicatus,,100
+Cirrus uncinus duplicatus,,100
+Cirrus cirrocumulogenitus,,85
+Cirrus altocumulogenitus,,85
+Cirrus cumulonimbogenitus,,85
+Cirrus homogenitus,,85
+Cirrus cirrostratomutatus,,85
+Cirrus homomutatus,,85
+Cirrocumulus stratiformis,,85
+Cirrocumulus lenticularis,,85
+Cirrocumulus castellanus,,85
+Cirrocumulus floccus,,85
+Cirrocumulus stratiformis undulatus,,100
+Cirrocumulus lenticularis undulatus,,100
+Cirrocumulus stratiformis lacunosus,,100
+Cirrocumulus castellanus lacunosus,,100
+Cirrocumulus floccus lacunosus,,100
+Cirrocumulus cirromutatus,,85
+Cirrocumulus cirrostratomutatus,,85
+Cirrocumulus altocumulomutatus,,85
+Cirrocumulus homomutatus,,85
+Cirrostratus fibratus,,85
+Cirrostratus nebulosus,,85
+Cirrostratus fibratus duplicatus,,100
+Cirrostratus fibratus undulatus,,100
+Cirrostratus cirrocumulogenitus,,85
+Cirrostratus cumulonimbogenitus,,85
+Cirrostratus cirromutatus,,85
+Cirrostratus cirrocumulomutatus,,85
+Cirrostratus altostratomutatus,,85
+Cirrostratus homomutatus,,85
+Altocumulus stratiformis,,85
+Altocumulus lenticularis,,85
+Altocumulus volutus,,85
+Altocumulus castellanus,,85
+Altocumulus floccus,,85
+Altocumulus stratiformis translucidus,,100
+Altocumulus stratiformis perlucidus,,100
+Altocumulus stratiformis opacus,,100
+Altocumulus stratiformis translucidus radiatus,,100
+Altocumulus stratiformis perlucidus radiatus,,100
+Altocumulus stratiformis opacus radiatus,,100
+Altocumulus stratiformis translucidus duplicatus,,100
+Altocumulus stratiformis perlucidus duplicatus,,100
+Altocumulus stratiformis opacus duplicatus,,100
+Altocumulus lenticularis duplicatus,,100
+Altocumulus stratiformis translucidus undulatus,,100
+Altocumulus stratiformis perlucidus undulatus,,100
+Altocumulus stratiformis opacus undulatus,,100
+Altocumulus lenticularis undulatus,,100
+Altocumulus stratiformis translucidus lacunosus,,100
+Altocumulus stratiformis perlucidus lacunosus,,100
+Altocumulus stratiformis opacus lacunosus,,100
+Altocumulus castellanus lacunosus,,100
+Altocumulus floccus lacunosus,,100
+Altocumulus cumulogenitus,,85
+Altocumulus cumulonimbogenitus,,85
+Altocumulus cirrocumulomutatus,,85
+Altocumulus altostratomutatus,,85
+Altocumulus nimbostratomutatus,,85
+Altocumulus stratocumulomutatus,,85
+Altostratus translucidus,,85
+Altostratus opacus,,85
+Altostratus translucidus radiatus,,100
+Altostratus opacus radiatus,,100
+Altostratus translucidus duplicatus,,100
+Altostratus opacus duplicatus,,100
+Altostratus translucidus undulatus,,100
+Altostratus opacus undulatus,,100
+Altostratus altocumulogenitus,,85
+Altostratus cumulonimbogenitus,,85
+Altostratus cirrostratomutatus,,85
+Altostratus nimbostratomutatus,,85
+Cumulonimbus calvus,,85
+Cumulonimbus capillatus,,85
+Cumulonimbus altocumulogenitus,,85
+Cumulonimbus altostratogenitus,,85
+Cumulonimbus nimbostratogenitus,,85
+Cumulonimbus stratocumulogenitus,,85
+Cumulonimbus flammagenitus,,85
+Cumulonimbus cumulomutatus,,85
+Cumulus congestus,,85
+Cumulus congestus flammagenitus,,100
+Nimbostratus cumulogenitus,,85
+Nimbostratus cumulonimbogenitus,,85
+Nimbostratus altostratomutatus,,85
+Nimbostratus altocumulomutatus,,85
+Nimbostratus stratocumulomutatus,,85
+Cumulus mediocris,,85
+Cumulus mediocris radiatus,,100
+Stratocumulus stratiformis,,85
+Stratocumulus lenticularis,,85
+Stratocumulus volutus,,85
+Stratocumulus floccus,,85
+Stratocumulus castellanus,,85
+Stratocumulus stratiformis translucidus,,100
+Stratocumulus stratiformis perlucidus,,100
+Stratocumulus stratiformis opacus,,100
+Stratocumulus stratiformis translucidus radiatus,,100
+Stratocumulus stratiformis perlucidus radiatus,,100
+Stratocumulus stratiformis opacus radiatus,,100
+Stratocumulus stratiformis translucidus duplicatus,,100
+Stratocumulus stratiformis perlucidus duplicatus,,100
+Stratocumulus stratiformis opacus duplicatus,,100
+Stratocumulus lenticularis duplicatus,,100
+Stratocumulus stratiformis translucidus undulatus,,100
+Stratocumulus stratiformis perlucidus undulatus,,100
+Stratocumulus stratiformis opacus undulatus,,100
+Stratocumulus lenticularis undulatus,,100
+Stratocumulus stratiformis translucidus lacunosus,,100
+Stratocumulus stratiformis perlucidus lacunosus,,100
+Stratocumulus stratiformis opacus lacunosus,,100
+Stratocumulus castellanus lacunosus,,100
+Stratocumulus floccus lacunosus,,100
+Stratocumulus cumulogenitus,,85
+Stratocumulus nimbostratogenitus,,85
+Stratocumulus cumulonimbogenitus,,85
+Stratocumulus altostratogenitus,,85
+Stratocumulus nimbostratomutatus,,85
+Stratocumulus altocumulomutatus,,85
+Stratocumulus stratomutatus,,85
+Cumulus fractus,,85
+Cumulus humilis,,85
+Cumulus humilis radiatus,,100
+Cumulus stratocumulogenitus,,85
+Cumulus homogenitus,,85
+Cumulus stratocumulomutatus,,85
+Cumulus stratomutatus,,85
+Cumulus cataractagenitus,,85
+Stratus nebulosus,,85
+Stratus fractus,,85
+Stratus nebulosus translucidus,,100
+Stratus nebulosus opacus,,100
+Stratus nebulosus translucidus undulatus,,100
+Stratus nebulosus opacus undulatus,,100
+Stratus nimbostratogenitus,,85
+Stratus cumulogenitus,,85
+Stratus cumulonimbogenitus,,85
+Stratus cataractagenitus,,85
+Stratus silvagenitus,,85
+Stratus homogenitus,,85
+Stratus stratocumulomutatus,,85
+Noctilucent|Noctilucent cloud|Polar mesospheric cloud|Night shining cloud,,60
+Nacreous|Nacreous cloud|Mother of pearl cloud|Polar stratospheric cloud,,85
+Fog,,30
+Mist,,60
+Contrail|Contrails|Condensation trail,,30
+Pyrocumulus|Fire cloud,,60
+Pyrocumulonimbus,,85

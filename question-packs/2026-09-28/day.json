@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-28",
+  "label": "28 Sept 2026",
+  "questions": [
+    {
+      "prompt": "Name a Minnesota Intercollegiate Athletic Conference (MIAC) school.",
+      "source": "https://miacathletics.com/sports/2022/4/20/members-index.aspx",
+      "csv": "01-miac-schools.csv"
+    },
+    {
+      "prompt": "Name a county in Minnesota.",
+      "source": "https://mn.gov/portal/government/local/counties/",
+      "csv": "02-minnesota-counties.csv"
+    },
+    {
+      "prompt": "Name an academic building at Carleton College.",
+      "source": "https://cdn.carleton.edu/uploads/sites/782/2024/09/Map_11x14_2024-v5.pdf",
+      "csv": "03-carleton-buildings.csv"
+    },
+    {
+      "prompt": "Name a famous Carleton College alum listed on Wikipedia.",
+      "source": "https://en.wikipedia.org/wiki/List_of_Carleton_College_people",
+      "csv": "04-carleton-alumni.csv"
+    },
+    {
+      "prompt": "Name a person who has received a knighthood.",
+      "source": "https://en.wikipedia.org/wiki/Order_of_the_British_Empire",
+      "csv": "05-knighthoods.csv"
+    },
+    {
+      "prompt": "Name a major offered by Carleton College in 2026–27.",
+      "source": "https://cdn.carleton.edu/uploads/sites/875/2025/09/Carleton_AcademicCatalog_2025-26.pdf",
+      "sourceNote": "The 2026–27 catalog was not available in the public registrar catalog when this pack was prepared; this set follows the latest published 2025–26 catalog.",
+      "csv": "06-carleton-majors.csv"
+    },
+    {
+      "prompt": "Name a Seattle Seahawks wide receiver rostered for 2026–27, including the practice squad.",
+      "source": "https://www.seahawks.com/team/players-roster/",
+      "sourceNote": "Roster snapshot checked September 27, 2026. The team can change this list during the season.",
+      "csv": "07-seahawks-receivers.csv"
+    }
+  ]
+}

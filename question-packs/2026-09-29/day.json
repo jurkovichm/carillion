@@ -1,0 +1,48 @@
+{
+  "id": "2026-09-29",
+  "label": "29 Sept 2026",
+  "questions": [
+    {
+      "prompt": "Man Eating Animals: name an animal discussed in the linked list.",
+      "source": "https://en.wikipedia.org/wiki/Man-eating_animal",
+      "sourceNote": "Includes species discussed as predators or attackers; not every attack is predatory. Related common names share one catch.",
+      "csv": "01-man-eating-animals.csv"
+    },
+    {
+      "prompt": "Name a Harry Potter character.",
+      "source": "https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters",
+      "sourceNote": "Characters from the linked list; common aliases and unambiguous surnames accepted.",
+      "csv": "02-harry-potter-characters.csv"
+    },
+    {
+      "prompt": "Almost Swears: name a minced oath (e.g. \"Fudge!\").",
+      "source": "https://en.wiktionary.org/wiki/Category:English_minced_oaths",
+      "sourceNote": "English minced oaths from both pages of the linked category.",
+      "csv": "03-almost-swears.csv"
+    },
+    {
+      "prompt": "Name a cloud type.",
+      "source": "https://en.wikipedia.org/wiki/List_of_cloud_types",
+      "sourceNote": "Includes genera, species, varieties, supplementary features and named cloud formations.",
+      "csv": "04-cloud-types.csv"
+    },
+    {
+      "prompt": "Name a 2025-season NFL All-Pro.",
+      "source": "https://www.pro-football-reference.com/years/2025/allpro.htm",
+      "sourceNote": "First/second teams and conference selections are accepted. PFR access was restricted; selections were cross-checked with AP, PFWA and PFF published teams.",
+      "csv": "05-nfl-all-pros.csv"
+    },
+    {
+      "prompt": "Name a pope.",
+      "source": "https://en.wikipedia.org/wiki/List_of_popes",
+      "sourceNote": "Roman or Arabic numerals accepted. Antipopes excluded; repeated reigns count as one person.",
+      "csv": "06-popes.csv"
+    },
+    {
+      "prompt": "Name a US State or Territory Nickname.",
+      "source": "https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_nicknames",
+      "sourceNote": "Includes historical nicknames, territories and Washington, DC. A nickname shared by states counts once.",
+      "csv": "07-state-territory-nicknames.csv"
+    }
+  ]
+}

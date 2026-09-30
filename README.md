@@ -1,5 +1,9 @@
 # CARILLION — the daily catch
 
+## Editing Questions
+
+Question research lives in `question-packs/YYYY-MM-DD/`, with one CSV per question using `ANSWER,Blurb,Worth`. See [the question-pack guide](question-packs/README.md) for aliases, research handoff, and adding new days. Run `python3 scripts/build_questions.py` after editing to regenerate the game's data.
+
 A seven-prompt pixel-art fishing game. Serve this folder with any static server (for example, `python3 -m http.server 4173`) and open `http://localhost:4173`. Serving the files is required for the canvas artwork processing.
 
 The original curated prompts, aliases, and rarity values are in `questions.js`. Answer matching, confirmation-based autocorrect, and the expandable post-game answer bank remain in `index.html`. `fishing-game.js` controls multi-answer rounds and extends the summary with every catch. The stationary bridge and lake are drawn by `fishing.js`; `fishing-sprites.js` handles playable characters, rewards, and loot. Responsive presentation lives in `fishing.css`.
