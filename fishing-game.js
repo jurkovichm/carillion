@@ -227,7 +227,7 @@ function reelCatch(item,endsQuestion){
     updateFishingHUD();unlockRewards();
     $('#answerResult').dataset.rank=item.kind==='fish'?rankClass(item.points):item.kind==='bottle'?'rank-bottle':'rank-miss';
     $('#answerTier').textContent=item.kind==='fish'?scoreTiers[item.points]:item.kind==='bottle'?'A NOTE FROM CARLETON':'BETTER LUCK NEXT CAST';
-    $('#acceptedAnswer').textContent=item.kind==='fish'?'“'+item.name+'”':item.name;
+    $('#acceptedAnswer').textContent=item.name;
     $('#answerPoints').textContent=item.kind==='fish'?`1 FISH × ${item.points} RARITY = +${item.points} PTS`:item.kind==='bottle'?'A LITTLE WISDOM · 0 PTS':'−5 PTS';
     $('#answerNote').textContent=item.fact?.text||(item.match?(item.match.note||postAnswerFact(round,item.match)):'No fish this question. The lake sent a consolation prize.');
     $('#descendNote').classList.add('hidden');$('#answerResult').classList.remove('hidden');
