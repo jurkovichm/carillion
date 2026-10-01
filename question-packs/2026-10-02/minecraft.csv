@@ -1,0 +1,30 @@
+ANSWER,Blurb,Worth
+Fell From A High Place|Fall Damage|Falling|Fell|High Place|Gravity|Fall,Died from falling too far. Most common death in the game.,10
+Drowned|Drowning|Underwater|Ran Out Of Air|Drown,Ran out of air underwater. Classic new player death.,10
+Swam In Lava|Tried To Swim In Lava|Lava|Swimming In Lava|Molten,Tried to swim in lava. Instant regret in the Nether.,10
+Blown Up By Creeper|Creeper|Creeper Explosion|Blown Up|Exploded By Creeper|Creeper Blast,Hssss... BOOM. The iconic Minecraft jump scare.,10
+Slain By Zombie|Zombie|Killed By Zombie|Zombie Kill|Undead,Slain by a zombie. Day 1 classic.,10
+Shot By Skeleton|Skeleton|Skeleton Arrow|Shot|Arrow|Skeleton Shot,Shot by a skeleton. The aimbot skeletons.,10
+Went Up In Flames|Burned To Death|Fire|Burned|Stood In Fire|Flames,Stood in fire too long. Fire tick damage.,10
+Suffocated In A Wall|Suffocation|Suffocated|Buried|Stuck In Wall|Sand Suffocation|Gravel Suffocation,Suffocated in a wall. Sand/gravel or getting stuck.,30
+Starved To Death|Starvation|Starved|Hunger|Starve,Starved to death. Forgot to eat.,30
+Hit The Ground Too Hard|Elytra Kinetic Energy|Kinetic Energy|Flew Into Wall|Elytra Crash|Crashed With Elytra,Experienced kinetic energy. Flying into a mountain with elytra.,60
+Was Slain By Spider|Spider|Cave Spider|Spider Kill,Slain by spider. Poisonous if it's a cave spider.,30
+Was Slain By Enderman|Enderman|Enderman Kill|Looked At Enderman,Slain by Enderman. Don't look at them.,30
+Was Shot By Ghast|Fireballed By Ghast|Ghast|Ghast Fireball|Fireball,Fireballed by Ghast. In the Nether.,60
+Fell Out Of The World|Void|Fell Into Void|End Void|Void Death,Fell out of the world. In the End or with a glitch.,60
+Was Pricked To Death|Cactus|Cactus Death|Pricked By Cactus|Desert Cactus,Was pricked to death. Cactus in the desert.,85
+Was Roasted In Dragon's Breath|Dragon's Breath|Ender Dragon Breath|Dragon Breath,Roasted in dragon's breath. Ender Dragon fight.,85
+Withered Away|Wither Effect|Wither|Withered|Wither Rose,Withered away. Wither effect from skeleton or rose.,85
+Froze To Death|Powder Snow|Frozen|Freeze|Powder Snow Death|Snow Trap,Froze to death inside powder snow. Snowy mountains.,85
+Was Struck By Lightning|Lightning|Thunder|Lightning Strike|Struck,Struck by lightning. Rare during thunderstorms or channeling trident.,85
+Was Pricked By Sweet Berry Bush|Sweet Berry Bush|Berry Bush|Berries|Sweet Berries|Berry Bush Death,Pricked to death by sweet berry bush. Taiga biome bushes.,85
+Was Impaled On Stalagmite|Stalagmite|Fell On Dripstone|Dripstone Stalagmite|Fell Onto Stalagmite|Pointed Dripstone,Fell onto a stalagmite. Pointed dripstone on the floor.,85
+Obliterated By Sonic Shriek|Sonic Boom|Warden|Sonic Shriek|Warden Sonic|Warden Blast|Deep Dark Warden,Obliterated by sonically-charged shriek. The Warden in Deep Dark.,85
+Was Killed By Intentional Game Design|Bed Explosion|Nether Bed|End Bed|Intentional Game Design|Bed In Nether|Tried To Sleep In Nether,Was killed by [Intentional Game Design]. Trying to sleep in Nether/End.,85
+Was Squashed By Falling Anvil|Falling Anvil|Anvil|Anvil Crush|Anvil Drop,Squashed by a falling anvil. Anvils obey gravity.,100
+Was Skewered By Falling Stalactite|Falling Stalactite|Stalactite|Falling Dripstone|Dripstone Falling|Stalactite Crush,Skewered by falling stalactite. Pointed dripstone from ceiling.,85
+Was Killed Trying To Hurt|Thorns|Thorns Enchantment|Thorns Kill|Killed By Thorns,Killed trying to hurt mob with thorns. Thorns enchantment.,85
+Was Stung To Death|Bee|Bee Sting|Stung By Bee|Bees,Stung to death by bees. Anger the hive.,85
+Was Squashed By Falling Block|Falling Block|Falling Sand|Falling Gravel|Sand Crush|Concrete Powder,Squashed by falling block. Sand/gravel/concrete above you.,60
+Was Rammed By Goat|Goat|Goat Ram|Rammed|Goat Attack|Goat Ramming,Was rammed by a goat. Goats ram you off mountains.,100

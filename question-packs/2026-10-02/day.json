@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-02",
+  "label": "2 Oct 2026",
+  "questions": [
+    {
+      "prompt": "Things E-40 says Nope to in \"Choices\"",
+      "source": "https://genius.com/E-40-choices-yup-lyrics",
+      "sourceNote": "Exact phrases from the song's call-and-response; common shortened forms and aliases accepted where unambiguous.",
+      "csv": "08-e40-nope.csv"
+    },
+    {
+      "prompt": "Pillars of Islam",
+      "source": "https://en.wikipedia.org/wiki/Five_Pillars_of_Islam",
+      "sourceNote": "The five core duties; English or Arabic names and common aliases accepted where unambiguous.",
+      "csv": "09-pillars-of-islam.csv"
+    },
+    {
+      "prompt": "Teams LeBron has played for",
+      "source": "https://en.wikipedia.org/wiki/LeBron_James",
+      "sourceNote": "NBA teams, high school, AAU, and USA Basketball teams accepted; common short names and aliases accepted where unambiguous.",
+      "csv": "10-lebron-teams.csv"
+    },
+    {
+      "prompt": "Ways to die in Minecraft",
+      "source": "https://minecraft.fandom.com/wiki/Damage#Death_messages",
+      "sourceNote": "Official in-game death messages and damage types; common aliases and shortened forms accepted where unambiguous.",
+      "csv": "minecraft.csv"
+    },
+    {
+      "prompt": "Infinity Stones",
+      "source": "",
+      "sourceNote": "There are 6. Name one.",
+      "csv": "15-infinity-stones.csv"
+    },
+    {
+      "prompt": "Things E-40 says Yup to in \"Choices\"",
+      "source": "https://genius.com/E-40-choices-yup-lyrics",
+      "sourceNote": "Exact phrases from the song's call-and-response; common shortened forms and aliases accepted where unambiguous.",
+      "csv": "13-e40-yup.csv"
+    },
+    {
+      "prompt": "Type as many digits of \u03c0 as you can",
+      "source": "",
+      "sourceNote": "Digits 1\u20136 score normally; every digit beyond the 6th is worth 100 points.",
+      "csv": "14-pi-digits.csv"
+    }
+  ]
+}

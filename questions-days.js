@@ -14402,6 +14402,1739 @@ window.DIVE_DAYS = [
         ]
       }
     ]
+  },
+  {
+    "id": "2026-10-02",
+    "label": "2 Oct 2026",
+    "questions": [
+      {
+        "prompt": "Things E-40 says Nope to in \"Choices\"",
+        "source": "https://genius.com/E-40-choices-yup-lyrics",
+        "sourceNote": "Exact phrases from the song's call-and-response; common shortened forms and aliases accepted where unambiguous.",
+        "answers": [
+          {
+            "points": 60,
+            "forms": [
+              "Ever told on someone",
+              "Ever told on a n****",
+              "Told on someone",
+              "Told on a n****",
+              "Ever snitched",
+              "Snitching",
+              "Snitched",
+              "Told on a homie"
+            ],
+            "note": "Opening line of Choices; E-40 says nope to snitching."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ever set someone up",
+              "Ever set a n**** up",
+              "Set someone up",
+              "Set a n**** up",
+              "Set up someone",
+              "Setup someone"
+            ],
+            "note": "Second nope; E-40 denies setting people up."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "You a sap",
+              "Are you a sap",
+              "You a sap?",
+              "A sap",
+              "Sap?"
+            ],
+            "note": "Asking if he's a fool; he says nope."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Broke",
+              "Are you broke",
+              "You broke?",
+              "Broke?",
+              "Are you broke?"
+            ],
+            "note": "Are you broke? He says nope - he's got money."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Let me hold a couple dollars",
+              "Hold a couple dollars",
+              "Let me hold a few dollars",
+              "Can I borrow money",
+              "Borrow a couple dollars",
+              "Hold some money"
+            ],
+            "note": "Request to borrow money; he declines."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "You a loser",
+              "You a loser?",
+              "Are you a loser",
+              "Loser?",
+              "Loser"
+            ],
+            "note": "Direct question about being a loser; he says nope. Pair with Winner (yup)."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Starvin'",
+              "Starving",
+              "Starving?",
+              "Are you starving",
+              "Hungry?",
+              "Are you hungry",
+              "Starvin?"
+            ],
+            "note": "Asking if he's hungry/broke; he says nope."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "You still sell dope",
+              "Still sell dope",
+              "Do you still sell dope",
+              "Sell dope?",
+              "You still sell dope?"
+            ],
+            "note": "Asking if he still sells drugs; he says nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "You in love with the h**",
+              "In love with the h**",
+              "In love with a h**",
+              "You in love with a h**",
+              "In love with the hoe"
+            ],
+            "note": "Asking if he's in love with a woman; he says nope."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "You gon' cry if she leave",
+              "Cry if she leave",
+              "You gonna cry if she leaves",
+              "Gon cry if she leave",
+              "Cry when she leaves"
+            ],
+            "note": "Would he cry if she left? Nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Traitor",
+              "Are you a traitor",
+              "You a traitor",
+              "Traitor?",
+              "A traitor"
+            ],
+            "note": "Asking if he's a traitor; he says nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Slippin'",
+              "Slipping",
+              "Are you slipping",
+              "Slippin?",
+              "You slippin?"
+            ],
+            "note": "Asking if he's slipping up; he says nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Slow",
+              "Are you slow",
+              "You slow?",
+              "Slow?",
+              "You slow"
+            ],
+            "note": "Are you slow? Nope."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Your team weak",
+              "Team weak",
+              "Is your team weak",
+              "Your team weak?",
+              "My team weak?"
+            ],
+            "note": "Asking if his team is weak; he says nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Never been a sucka",
+              "Never been a sucka or a",
+              "Never been a sucka or a p****",
+              "Been a sucka",
+              "Never been a sucka or a p**** (nope)",
+              "Never been a sucka or a b****"
+            ],
+            "note": "Has he ever been weak? Nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Scared of the dark",
+              "Scared of dark",
+              "Afraid of the dark",
+              "Scared of the dark?",
+              "Are you scared of the dark"
+            ],
+            "note": "Afraid of the dark? Nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stock rims on a scraper",
+              "Stock rims",
+              "Stock rims on the scrape",
+              "Factory rims",
+              "Stock rims on a scraper (nope)",
+              "Stock wheels"
+            ],
+            "note": "Stock rims on a scraper? Nope - he runs custom rims."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sleep",
+              "Do you sleep",
+              "You sleep?",
+              "Sleep?",
+              "Do you sleep? (nope)"
+            ],
+            "note": "Does he sleep? Nope - always active."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Narc",
+              "Are you a narc",
+              "You a narc",
+              "Narc?",
+              "A narc",
+              "Informant",
+              "You an informant"
+            ],
+            "note": "Is he an informant? Nope."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Never leave the house without my strap",
+              "Leave the house without my strap",
+              "Leave without my strap",
+              "Go out without strap",
+              "Leave house without strap"
+            ],
+            "note": "Does he ever leave unarmed? Nope."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Got some property",
+              "Got property",
+              "Own property",
+              "Do you own property",
+              "Got some property? (nope)",
+              "Got a little property"
+            ],
+            "note": "Asking if he owns just a little property; he says nope - he owns a lot."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "You softer than a sock",
+              "Softer than a sock",
+              "Soft as a sock",
+              "You soft like a sock",
+              "You softer than a sock?"
+            ],
+            "note": "Are you soft? Nope."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Shallow",
+              "Are you shallow",
+              "You shallow",
+              "Shallow?",
+              "You shallow?"
+            ],
+            "note": "Are you shallow? Nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Still live in the trap",
+              "Live in the trap",
+              "Still in the trap",
+              "Still live in the trap?",
+              "You still live in the trap"
+            ],
+            "note": "Does he still live in the trap? Nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hater",
+              "Are you a hater",
+              "You a hater",
+              "Hater?",
+              "A hater"
+            ],
+            "note": "Are you a hater? Nope."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lazy",
+              "Are you lazy",
+              "You lazy?",
+              "Lazy?",
+              "Are you lazy?"
+            ],
+            "note": "Are you lazy? Nope."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Poodle in my blood",
+              "Poodle blood",
+              "Poodle in blood",
+              "Poodle in my blood (nope)",
+              "Got poodle in blood"
+            ],
+            "note": "Is he soft? Poodle in blood? Nope."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Got a little Gouda",
+              "Little Gouda",
+              "Got a little cheese",
+              "Got a little Gouda? (nope)",
+              "Small cheese"
+            ],
+            "note": "Do you have just a little money? Nope - he has a lot."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gossip like a broad",
+              "Gossip like a girl",
+              "Gossip like a broad?",
+              "Gossiping like a broad",
+              "Gossip like a broad (nope)"
+            ],
+            "note": "Does he gossip? Nope."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Sober as a gopher",
+              "Sober",
+              "Are you sober",
+              "Sober as a gopher?",
+              "Sober as a gopher (nope)"
+            ],
+            "note": "Nope."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Star Wars",
+              "Like Star Wars",
+              "Into Star Wars",
+              "Star Wars?",
+              "Star Wars (nope)",
+              "Star Wars fan"
+            ],
+            "note": "Nope."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was it ripe",
+              "Was it ripe?",
+              "Ripe?",
+              "Was it ripe (nope)"
+            ],
+            "note": "Was it ripe? Nope."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Not a BB or a pellet gun",
+              "BB gun",
+              "Pellet gun",
+              "BB or pellet gun",
+              "Not a BB gun",
+              "Not a pellet gun",
+              "BB or pellet"
+            ],
+            "note": "Is his gun a BB gun? Nope - long barrel base drum."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wear a wire and a camera",
+              "Wear a wire",
+              "Wearing a wire",
+              "Wire and a camera",
+              "Wear a wire and camera",
+              "Wear a wire and a camera? (nope)"
+            ],
+            "note": "Does he wear a wire? Nope - ears to the scanner."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was it love at first sight",
+              "Love at first sight",
+              "Love at first sight?",
+              "Was it love at first sight? (nope)"
+            ],
+            "note": "Was it love at first sight? Nope."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "If I get into it won't run",
+              "If I get into it will run",
+              "If I get into it, won't run",
+              "Get into it won't run",
+              "If I get into it I won't run",
+              "Won't run if I get into it",
+              "Run from a fight"
+            ],
+            "note": "If he gets into a fight will he run? Nope - he'll give a fair one."
+          }
+        ]
+      },
+      {
+        "prompt": "Pillars of Islam",
+        "source": "https://en.wikipedia.org/wiki/Five_Pillars_of_Islam",
+        "sourceNote": "The five core duties; English or Arabic names and common aliases accepted where unambiguous.",
+        "answers": [
+          {
+            "points": 85,
+            "forms": [
+              "Shahada",
+              "Shahadah",
+              "Shahada (Profession of Faith)",
+              "Profession of Faith",
+              "Declaration of Faith",
+              "Kalima",
+              "Kalimah",
+              "Faith",
+              "Iman",
+              "First Pillar",
+              "Tawhid",
+              "Testimony of Faith"
+            ],
+            "note": "Declaration that there is no god but God and Muhammad is His messenger."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Salah",
+              "Salat",
+              "Salaah",
+              "Prayer",
+              "Daily Prayer",
+              "Five Daily Prayers",
+              "Second Pillar",
+              "Namaz",
+              "Salawat",
+              "Salat al-Fajr etc"
+            ],
+            "note": "Five daily ritual prayers required of Muslims."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zakat",
+              "Zakah",
+              "Zakath",
+              "Almsgiving",
+              "Alms",
+              "Charity",
+              "Obligatory Charity",
+              "Third Pillar",
+              "Zakat al-Mal",
+              "Almsgiving (Zakat)"
+            ],
+            "note": "Obligatory charitable giving, typically 2.5% of wealth."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sawm",
+              "Saum",
+              "Fasting",
+              "Fasting in Ramadan",
+              "Ramadan Fast",
+              "Roza",
+              "Fourth Pillar",
+              "Fast",
+              "Ramadan",
+              "Fasting (Sawm)",
+              "Sawm Ramadan"
+            ],
+            "note": "Fasting during Ramadan from dawn to sunset."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hajj",
+              "Hadj",
+              "Haj",
+              "Pilgrimage",
+              "Pilgrimage to Mecca",
+              "Hajj Pilgrimage",
+              "Fifth Pillar",
+              "Mecca Pilgrimage",
+              "Hajj to Mecca",
+              "Hajj Pilgrimage to Mecca"
+            ],
+            "note": "Pilgrimage to Mecca at least once if able."
+          }
+        ]
+      },
+      {
+        "prompt": "Teams LeBron has played for",
+        "source": "https://en.wikipedia.org/wiki/LeBron_James",
+        "sourceNote": "NBA teams, high school, AAU, and USA Basketball teams accepted; common short names and aliases accepted where unambiguous.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Cleveland Cavaliers",
+              "Cavs",
+              "Cleveland",
+              "CLE Cavaliers",
+              "Cleveland Cavs",
+              "Cavs Cleveland",
+              "Cleveland Cavaliers (2003-2010, 2014-2018)"
+            ],
+            "note": "NBA team; LeBron's original team, two stints 2003-2010 and 2014-2018, championship 2016."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Miami Heat",
+              "Heat",
+              "MIA Heat",
+              "Miami",
+              "Miami Heat (2010-2014)",
+              "The Heat"
+            ],
+            "note": "NBA team 2010-2014; won two championships."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Los Angeles Lakers",
+              "Lakers",
+              "LAL",
+              "LA Lakers",
+              "Los Angeles",
+              "LA Lakers (2018-present)",
+              "Lakers Los Angeles"
+            ],
+            "note": "NBA team since 2018; championship 2020."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "USA Basketball",
+              "Team USA",
+              "US Olympic Team",
+              "USA Olympic Basketball",
+              "United States National Team",
+              "USA National Team",
+              "USAB",
+              "Team USA Basketball",
+              "USA Men's National Team",
+              "Olympic Team USA"
+            ],
+            "note": "National team; gold medals 2008, 2012, 2024."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "St. Vincent\u2013St. Mary High School",
+              "St. Vincent-St. Mary",
+              "SVSM",
+              "St. Vincent St. Mary",
+              "Saint Vincent Saint Mary",
+              "St Vincent St Mary Fighting Irish",
+              "SVSM Fighting Irish",
+              "St. Vincent-St. Mary Fighting Irish",
+              "Akron SVSM",
+              "SVSM High School"
+            ],
+            "note": "High school in Akron, Ohio; three state titles."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Philadelphia 76ers",
+              "Sixers",
+              "76ers",
+              "Philly 76ers",
+              "Philadelphia",
+              "Philadelphia 76ers (2026-present)",
+              "76ers Philly"
+            ],
+            "note": "Technically he hasn't played for them yet..."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Oakland Soldiers",
+              "Oakland Soldiers AAU",
+              "Soldiers",
+              "Oakland Soldiers (AAU)",
+              "Oakland Soldiers Basketball",
+              "LeBron Oakland Soldiers"
+            ],
+            "note": "Elite AAU team in 2001 summer with Kendrick Perkins etc."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Northeast Ohio Shooting Stars",
+              "NE Ohio Shooting Stars",
+              "NEO Shooting Stars",
+              "Ohio Shooting Stars",
+              "Shooting Stars",
+              "Northeast Ohio Shooting Stars AAU",
+              "NEO Shooting Stars AAU"
+            ],
+            "note": "LeBron's early AAU team in Ohio."
+          }
+        ]
+      },
+      {
+        "prompt": "Ways to die in Minecraft",
+        "source": "https://minecraft.fandom.com/wiki/Damage#Death_messages",
+        "sourceNote": "Official in-game death messages and damage types; common aliases and shortened forms accepted where unambiguous.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Fell From A High Place",
+              "Fall Damage",
+              "Falling",
+              "Fell",
+              "High Place",
+              "Gravity",
+              "Fall"
+            ],
+            "note": "Died from falling too far. Most common death in the game."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Drowned",
+              "Drowning",
+              "Underwater",
+              "Ran Out Of Air",
+              "Drown"
+            ],
+            "note": "Ran out of air underwater. Classic new player death."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Swam In Lava",
+              "Tried To Swim In Lava",
+              "Lava",
+              "Swimming In Lava",
+              "Molten"
+            ],
+            "note": "Tried to swim in lava. Instant regret in the Nether."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Blown Up By Creeper",
+              "Creeper",
+              "Creeper Explosion",
+              "Blown Up",
+              "Exploded By Creeper",
+              "Creeper Blast"
+            ],
+            "note": "Hssss... BOOM. The iconic Minecraft jump scare."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Slain By Zombie",
+              "Zombie",
+              "Killed By Zombie",
+              "Zombie Kill",
+              "Undead"
+            ],
+            "note": "Slain by a zombie. Day 1 classic."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Shot By Skeleton",
+              "Skeleton",
+              "Skeleton Arrow",
+              "Shot",
+              "Arrow",
+              "Skeleton Shot"
+            ],
+            "note": "Shot by a skeleton. The aimbot skeletons."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Went Up In Flames",
+              "Burned To Death",
+              "Fire",
+              "Burned",
+              "Stood In Fire",
+              "Flames"
+            ],
+            "note": "Stood in fire too long. Fire tick damage."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Suffocated In A Wall",
+              "Suffocation",
+              "Suffocated",
+              "Buried",
+              "Stuck In Wall",
+              "Sand Suffocation",
+              "Gravel Suffocation"
+            ],
+            "note": "Suffocated in a wall. Sand/gravel or getting stuck."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Starved To Death",
+              "Starvation",
+              "Starved",
+              "Hunger",
+              "Starve"
+            ],
+            "note": "Starved to death. Forgot to eat."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hit The Ground Too Hard",
+              "Elytra Kinetic Energy",
+              "Kinetic Energy",
+              "Flew Into Wall",
+              "Elytra Crash",
+              "Crashed With Elytra"
+            ],
+            "note": "Experienced kinetic energy. Flying into a mountain with elytra."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Was Slain By Spider",
+              "Spider",
+              "Cave Spider",
+              "Spider Kill"
+            ],
+            "note": "Slain by spider. Poisonous if it's a cave spider."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Was Slain By Enderman",
+              "Enderman",
+              "Enderman Kill",
+              "Looked At Enderman"
+            ],
+            "note": "Slain by Enderman. Don't look at them."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Was Shot By Ghast",
+              "Fireballed By Ghast",
+              "Ghast",
+              "Ghast Fireball",
+              "Fireball"
+            ],
+            "note": "Fireballed by Ghast. In the Nether."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fell Out Of The World",
+              "Void",
+              "Fell Into Void",
+              "End Void",
+              "Void Death"
+            ],
+            "note": "Fell out of the world. In the End or with a glitch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was Pricked To Death",
+              "Cactus",
+              "Cactus Death",
+              "Pricked By Cactus",
+              "Desert Cactus"
+            ],
+            "note": "Was pricked to death. Cactus in the desert."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was Roasted In Dragon's Breath",
+              "Dragon's Breath",
+              "Ender Dragon Breath",
+              "Dragon Breath"
+            ],
+            "note": "Roasted in dragon's breath. Ender Dragon fight."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Withered Away",
+              "Wither Effect",
+              "Wither",
+              "Withered",
+              "Wither Rose"
+            ],
+            "note": "Withered away. Wither effect from skeleton or rose."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Froze To Death",
+              "Powder Snow",
+              "Frozen",
+              "Freeze",
+              "Powder Snow Death",
+              "Snow Trap"
+            ],
+            "note": "Froze to death inside powder snow. Snowy mountains."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was Struck By Lightning",
+              "Lightning",
+              "Thunder",
+              "Lightning Strike",
+              "Struck"
+            ],
+            "note": "Struck by lightning. Rare during thunderstorms or channeling trident."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was Pricked By Sweet Berry Bush",
+              "Sweet Berry Bush",
+              "Berry Bush",
+              "Berries",
+              "Sweet Berries",
+              "Berry Bush Death"
+            ],
+            "note": "Pricked to death by sweet berry bush. Taiga biome bushes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was Impaled On Stalagmite",
+              "Stalagmite",
+              "Fell On Dripstone",
+              "Dripstone Stalagmite",
+              "Fell Onto Stalagmite",
+              "Pointed Dripstone"
+            ],
+            "note": "Fell onto a stalagmite. Pointed dripstone on the floor."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Obliterated By Sonic Shriek",
+              "Sonic Boom",
+              "Warden",
+              "Sonic Shriek",
+              "Warden Sonic",
+              "Warden Blast",
+              "Deep Dark Warden"
+            ],
+            "note": "Obliterated by sonically-charged shriek. The Warden in Deep Dark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was Killed By Intentional Game Design",
+              "Bed Explosion",
+              "Nether Bed",
+              "End Bed",
+              "Intentional Game Design",
+              "Bed In Nether",
+              "Tried To Sleep In Nether"
+            ],
+            "note": "Was killed by [Intentional Game Design]. Trying to sleep in Nether/End."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Was Squashed By Falling Anvil",
+              "Falling Anvil",
+              "Anvil",
+              "Anvil Crush",
+              "Anvil Drop"
+            ],
+            "note": "Squashed by a falling anvil. Anvils obey gravity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was Skewered By Falling Stalactite",
+              "Falling Stalactite",
+              "Stalactite",
+              "Falling Dripstone",
+              "Dripstone Falling",
+              "Stalactite Crush"
+            ],
+            "note": "Skewered by falling stalactite. Pointed dripstone from ceiling."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was Killed Trying To Hurt",
+              "Thorns",
+              "Thorns Enchantment",
+              "Thorns Kill",
+              "Killed By Thorns"
+            ],
+            "note": "Killed trying to hurt mob with thorns. Thorns enchantment."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was Stung To Death",
+              "Bee",
+              "Bee Sting",
+              "Stung By Bee",
+              "Bees"
+            ],
+            "note": "Stung to death by bees. Anger the hive."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Was Squashed By Falling Block",
+              "Falling Block",
+              "Falling Sand",
+              "Falling Gravel",
+              "Sand Crush",
+              "Concrete Powder"
+            ],
+            "note": "Squashed by falling block. Sand/gravel/concrete above you."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Was Rammed By Goat",
+              "Goat",
+              "Goat Ram",
+              "Rammed",
+              "Goat Attack",
+              "Goat Ramming"
+            ],
+            "note": "Was rammed by a goat. Goats ram you off mountains."
+          }
+        ]
+      },
+      {
+        "prompt": "Infinity Stones",
+        "source": "",
+        "sourceNote": "There are 6. Name one.",
+        "answers": [
+          {
+            "points": 60,
+            "forms": [
+              "Space Stone",
+              "Tesseract",
+              "Blue Space Stone",
+              "Blue Stone",
+              "Space",
+              "Cube"
+            ],
+            "note": "The Space Stone, housed in the Tesseract. Blue. Lets you teleport anywhere."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Power Stone",
+              "Orb",
+              "Purple Power Stone",
+              "Purple Stone",
+              "Power",
+              "The Orb"
+            ],
+            "note": "The Power Stone, in the Orb. Purple. Destroys anything it touches."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Time Stone",
+              "Eye Of Agamotto",
+              "Green Time Stone",
+              "Green Stone",
+              "Time",
+              "Agamotto"
+            ],
+            "note": "The Time Stone, in the Eye of Agamotto. Green. Controls time. Dr. Strange."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mind Stone",
+              "Scepter",
+              "Yellow Mind Stone",
+              "Yellow Stone",
+              "Mind",
+              "Loki's Scepter",
+              "Vision's Stone"
+            ],
+            "note": "The Mind Stone, in Loki's Scepter / Vision's forehead. Yellow. Controls minds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Reality Stone",
+              "Aether",
+              "Red Reality Stone",
+              "Red Stone",
+              "Reality",
+              "The Aether"
+            ],
+            "note": "The Reality Stone, as the Aether. Red. Warps reality. Thor: Dark World."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Soul Stone",
+              "Orange Soul Stone",
+              "Orange Stone",
+              "Soul",
+              "Vormir",
+              "Soul Stone Vormir"
+            ],
+            "note": "The Soul Stone on Vormir. Orange. Requires a soul for a soul."
+          }
+        ]
+      },
+      {
+        "prompt": "Things E-40 says Yup to in \"Choices\"",
+        "source": "https://genius.com/E-40-choices-yup-lyrics",
+        "sourceNote": "Exact phrases from the song's call-and-response; common shortened forms and aliases accepted where unambiguous.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Ever squeezed the trigger",
+              "Ever squeezed a trigger",
+              "Squeezed the trigger",
+              "Squeezed a trigger",
+              "Ever squeezed trigger",
+              "Pulled the trigger",
+              "Squeezed the trigger (yup)"
+            ],
+            "note": "Ever fired a gun; E-40 says yup."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Winner",
+              "Are you a winner",
+              "You a winner",
+              "Winner?",
+              "A winner",
+              "You a winner? (yup)"
+            ],
+            "note": "Are you a winner? Yup - paired with Loser (nope)."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Dinner",
+              "Have dinner",
+              "Eating dinner",
+              "Dinner?",
+              "Got dinner",
+              "Dinner (yup)",
+              "Dinner? (yup)"
+            ],
+            "note": "Do you have dinner? Yup - paired with Starvin' (nope). Too Clever trap: seems obscure but everyone remembers it."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ever helped a brother out when he was down on his luck",
+              "Helped a brother out",
+              "Helped brother when down",
+              "Helped a brother out when down on his luck",
+              "Helped a brother when down on luck",
+              "Helped brother out when down"
+            ],
+            "note": "Helped a brother in need; yup."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "I'm a thug",
+              "Thug",
+              "b**** I'm a thug",
+              "I'm a thug (yup)",
+              "A thug",
+              "Thug? (yup)"
+            ],
+            "note": "Is he a thug? Yup."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "She bringin' you the dough",
+              "She brings dough",
+              "Bringing dough",
+              "She bring you dough",
+              "She bringing you the dough",
+              "She bringin dough"
+            ],
+            "note": "Does she bring money? Yup."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "You gon' fly overseas",
+              "Fly overseas",
+              "Gonna fly overseas",
+              "Fly overseas?",
+              "You going overseas",
+              "Fly overseas (yup)"
+            ],
+            "note": "Will he travel abroad? Yup."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Loyal to my soil you're not a faker",
+              "Loyal to my soil",
+              "Not a faker",
+              "Loyal to soil",
+              "Loyal to my soil not a faker",
+              "Loyal to my soil, not a faker",
+              "Loyal to my soil (yup)"
+            ],
+            "note": "Is he loyal? Yup."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Have money have heart",
+              "Money and heart",
+              "Have money have heart (yup)",
+              "Have money, have heart",
+              "Money have heart"
+            ],
+            "note": "Does he have money and heart? Yup."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Trippin'",
+              "Tripping",
+              "Are you tripping",
+              "Trippin?",
+              "You trippin?",
+              "Trippin' (yup)"
+            ],
+            "note": "Is he tripping? Yup - after Slippin' (nope)."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "You solid as a rock",
+              "Solid as a rock",
+              "Solid like rock",
+              "You solid as a rock?",
+              "Solid as rock",
+              "Solid as a rock (yup)"
+            ],
+            "note": "Is he solid? Yup."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "You respected in the street neeh",
+              "Respected in the street",
+              "Respected in streets",
+              "Respected in the stree-neets",
+              "Respected in the stree-neets?",
+              "Respected in the streets",
+              "Respected in street neeh"
+            ],
+            "note": "Is he respected? Yup."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Drive a Maserati",
+              "Maserati",
+              "Driving Maserati",
+              "Drive a Maserati?",
+              "Maserati (yup)",
+              "Drive a Maserati (yup)"
+            ],
+            "note": "Does he drive a Maserati? Yup - after Got some property (nope)."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "You ever go back",
+              "Ever go back",
+              "Go back",
+              "You ever go back?",
+              "Ever go back to trap",
+              "Go back to trap"
+            ],
+            "note": "Does he ever go back to trap? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "You a boss player you a mack",
+              "Boss player",
+              "You a boss player",
+              "You a mack",
+              "Boss player mack",
+              "You a boss player, you a mack?",
+              "Boss player you a mack"
+            ],
+            "note": "Is he a boss player/mack? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Y'all still be poppin' y'all collars",
+              "Poppin collars",
+              "Pop collars",
+              "Still pop collars",
+              "Popping collars",
+              "Y'all pop collars",
+              "Poppin y'all collars"
+            ],
+            "note": "Do they still pop collars? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Paint wetter than a lake",
+              "Paint wetter than lake",
+              "Wet paint like lake",
+              "Paint wet like lake",
+              "Paint wetter than a lake (yup)"
+            ],
+            "note": "Is paint wetter than a lake? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Now you cleaner than a bar of Dove soap",
+              "Cleaner than Dove soap",
+              "Cleaner than a bar of Dove soap",
+              "Clean as Dove soap",
+              "Cleaner than Dove",
+              "Cleaner than Dove soap (yup)"
+            ],
+            "note": "Is he clean now? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Got a thumper got a Ruger",
+              "Thumper Ruger",
+              "Got a thumper",
+              "Got a Ruger",
+              "Thumper and Ruger",
+              "Got a thumper, got a Ruger?",
+              "Thumper Ruger (yup)"
+            ],
+            "note": "Does he have a big gun? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wanna see a player get paper",
+              "See a player get paper",
+              "Wanna see player get money",
+              "Wanna see a player get paper?",
+              "Player get paper"
+            ],
+            "note": "Wanna see him get money? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bust moves hella active in the streets",
+              "Active in the streets",
+              "Bust moves active",
+              "Hella active in streets",
+              "Active in the streets?",
+              "Bust moves",
+              "Hella active"
+            ],
+            "note": "Is he active in streets? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Shark",
+              "Are you a shark",
+              "Shark?",
+              "A shark",
+              "Shark (yup)"
+            ],
+            "note": "Is he a shark? Yup - after Narc (nope)."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Higher than a rollercoaster",
+              "High like rollercoaster",
+              "Higher than rollercoaster",
+              "Higher than a rollercoaster?",
+              "High as rollercoaster",
+              "Higher than rollercoaster (yup)"
+            ],
+            "note": "Is he high? Yup - after Sober as a gopher (nope)."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Did she ride you like a bike",
+              "Ride you like a bike",
+              "Ride like bike",
+              "Did she ride like a bike",
+              "Ride you like a bike? (yup)"
+            ],
+            "note": "Did she ride you like a bike? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Trained to go",
+              "Trained to go?",
+              "Trained to go (yup)",
+              "Ready to go",
+              "Trained"
+            ],
+            "note": "Is he trained to go? Yup."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "I'ma give someone fair one",
+              "Give someone fair one",
+              "Fair one",
+              "Give fair one",
+              "Give a n**** fair one",
+              "Give someone a fair one",
+              "Fair one (yup)"
+            ],
+            "note": "Will he give a fair fight? Yup - after If I get into it won't run (nope)."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Got something that'd drive a h** crazy",
+              "Drive a h** crazy",
+              "Got d*** that'll drive a h** crazy",
+              "D that drives h** crazy",
+              "Drive h** crazy",
+              "Something that drives h** crazy",
+              "Got d*** that drives h** crazy"
+            ],
+            "note": "Does he have something that drives a h** crazy? Yup."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Check a h** like a smog",
+              "Check a b**** like a smog",
+              "Check h** like smog check",
+              "Smog check",
+              "Check a h** like a smog (yup)",
+              "Check a b**** like smog"
+            ],
+            "note": "Does he check a h** like a smog check? Yup."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Yoda",
+              "Like Yoda",
+              "Are you Yoda",
+              "Yoda?",
+              "Yoda (yup)",
+              "Wise like Yoda"
+            ],
+            "note": "Is he wise like Yoda? Yup - after Star Wars (nope)."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Shoot someone in his nap",
+              "Shoot a m**********a in his nap",
+              "Shoot someone while sleeping",
+              "Shoot in his nap",
+              "Shoot someone in his nap (yup)"
+            ],
+            "note": "Would he shoot someone in his nap? Yup."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Blowin' cookie never coughin' like a rookie",
+              "Blowing cookie",
+              "Never coughing like a rookie",
+              "Cookie no cough",
+              "Blowin cookie",
+              "Blowin cookie (yup)",
+              "Blowing cookie never coughing"
+            ],
+            "note": "Blowing cookie without coughing like a rookie? Yup."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Was it tight",
+              "Was her p**** tight",
+              "Tight?",
+              "Was it tight? (yup)",
+              "Was it tight (yup)",
+              "Was it tight? (yup) - explicit"
+            ],
+            "note": "Was it tight? Yup - after Was it ripe (nope)."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Di-neep",
+              "Deep",
+              "D-neep",
+              "d***neep",
+              "Deep (E-40 slang)",
+              "Di-neep (yup)",
+              "D-neep (yup)",
+              "Deep (yup)"
+            ],
+            "note": "Is he deep? Yup - after Shallow (nope). E-40 slang di-neep."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "But a long barrel base drum",
+              "Long barrel base drum",
+              "Base drum long barrel",
+              "Long barrel",
+              "Long barrel base drum (yup)",
+              "Base drum"
+            ],
+            "note": "Does he have a long barrel base drum (big gun)? Yup - after BB gun (nope)."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ears to the scanner",
+              "Ears to scanner",
+              "Listening to scanner",
+              "Scanner ears",
+              "Ears to the scanner (yup)",
+              "Ears to scanner (yup)"
+            ],
+            "note": "Ears to the scanner? Yup - after Wear a wire (nope)."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Chi-neep",
+              "Cheap",
+              "C-neep",
+              "Chineep",
+              "Chi-neep (yup)",
+              "Cheap (E-40 slang)",
+              "C-neep (yup)"
+            ],
+            "note": "Is he cheap? Yup - he says yup even though he means he is expensive? Most obscure yup, E-40 slang chi-neep."
+          }
+        ]
+      },
+      {
+        "prompt": "Type as many digits of \u03c0 as you can",
+        "source": "",
+        "sourceNote": "Digits 1\u20136 score normally; every digit beyond the 6th is worth 100 points.",
+        "answers": [
+          {
+            "points": 15,
+            "forms": [
+              "3",
+              "3.",
+              "3,0",
+              "pi 3",
+              "\u03c0 3",
+              "3...",
+              "Three"
+            ],
+            "note": "First digit of pi before decimal. Why did you type this?"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "3.1",
+              "3,1",
+              "31",
+              "pi 3.1",
+              "\u03c0 3.1",
+              "3.1..."
+            ],
+            "note": "Pi rounded to 1 decimal place"
+          },
+          {
+            "points": 10,
+            "forms": [
+              "3.14",
+              "3,14",
+              "314",
+              "pi 3.14",
+              "\u03c0 3.14",
+              "3.14..."
+            ],
+            "note": "Pi rounded to 2 decimal places"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "3.141",
+              "3,141",
+              "3141",
+              "pi 3.141",
+              "\u03c0 3.141",
+              "3.141..."
+            ],
+            "note": "Pi rounded to 3 decimal places"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "3.1415",
+              "3,1415",
+              "31415",
+              "pi 3.1415",
+              "\u03c0 3.1415",
+              "3.1415..."
+            ],
+            "note": "Pi rounded to 4 decimal places"
+          },
+          {
+            "points": 60,
+            "forms": [
+              "3.14159",
+              "3,14159",
+              "314159",
+              "pi 3.14159",
+              "\u03c0 3.14159",
+              "3.14159..."
+            ],
+            "note": "Pi rounded to 5 decimal places"
+          },
+          {
+            "points": 60,
+            "forms": [
+              "3.141592",
+              "3,141592",
+              "3141592",
+              "pi 3.141592",
+              "\u03c0 3.141592",
+              "3.141592..."
+            ],
+            "note": "Pi rounded to 6 decimal places"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "3.1415926",
+              "3,1415926",
+              "31415926",
+              "pi 3.1415926",
+              "\u03c0 3.1415926",
+              "3.1415926..."
+            ],
+            "note": "Pi to 7 decimal places"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.14159265",
+              "3,14159265",
+              "314159265",
+              "pi 3.14159265",
+              "\u03c0 3.14159265",
+              "3.14159265..."
+            ],
+            "note": "Pi to 8 decimal places!"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.141592653",
+              "3,141592653",
+              "3141592653",
+              "pi 3.141592653",
+              "\u03c0 3.141592653",
+              "3.141592653..."
+            ],
+            "note": "Pi to 9 decimal places!! worth 100 points"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.1415926535",
+              "3,1415926535",
+              "31415926535",
+              "pi 3.1415926535",
+              "\u03c0 3.1415926535",
+              "3.1415926535..."
+            ],
+            "note": "Pi to 10 decimal places - beyond 7th digit worth 100 points"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.14159265358",
+              "3,14159265358",
+              "314159265358",
+              "pi 3.14159265358",
+              "\u03c0 3.14159265358",
+              "3.14159265358..."
+            ],
+            "note": "Pi to 11 decimal places - beyond 7th digit worth 100 points"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.141592653589",
+              "3,141592653589",
+              "3141592653589",
+              "pi 3.141592653589",
+              "\u03c0 3.141592653589",
+              "3.141592653589..."
+            ],
+            "note": "Pi to 12 decimal places - beyond 7th digit worth 100 points"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.1415926535897",
+              "3,1415926535897",
+              "31415926535897",
+              "pi 3.1415926535897",
+              "\u03c0 3.1415926535897",
+              "3.1415926535897..."
+            ],
+            "note": "Pi to 13 decimal places - beyond 7th digit worth 100 points"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.14159265358979",
+              "3,14159265358979",
+              "314159265358979",
+              "pi 3.14159265358979",
+              "\u03c0 3.14159265358979",
+              "3.14159265358979..."
+            ],
+            "note": "Pi to 14 decimal places - beyond 7th digit worth 100 points"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.141592653589793",
+              "3,141592653589793",
+              "3141592653589793",
+              "pi 3.141592653589793",
+              "\u03c0 3.141592653589793",
+              "3.141592653589793..."
+            ],
+            "note": "Pi to 15 decimal places - beyond 7th digit worth 100 points"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.1415926535897932",
+              "3,1415926535897932",
+              "31415926535897932",
+              "pi 3.1415926535897932",
+              "\u03c0 3.1415926535897932",
+              "3.1415926535897932..."
+            ],
+            "note": "Pi to 16 decimal places - beyond 7th digit worth 100 points"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.14159265358979323",
+              "3,14159265358979323",
+              "314159265358979323",
+              "pi 3.14159265358979323",
+              "\u03c0 3.14159265358979323",
+              "3.14159265358979323..."
+            ],
+            "note": "Pi to 17 decimal places - beyond 7th digit worth 100 points"
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3.141592653589793238",
+              "3,141592653589793238",
+              "3141592653589793238",
+              "pi 3.141592653589793238",
+              "\u03c0 3.141592653589793238",
+              "3.141592653589793238..."
+            ],
+            "note": "Pi to 18 decimal places - beyond 7th digit worth 100 points"
+          }
+        ]
+      }
+    ]
   }
 ];
 window.DIVE_QUESTIONS = window.DIVE_DAYS.at(-1).questions;
