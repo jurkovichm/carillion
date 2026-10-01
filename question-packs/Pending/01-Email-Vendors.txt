@@ -1,0 +1,21 @@
+ANSWER,Blurb,Worth
+Gmail|Google Mail|gmail,Google's free webmail service.,10
+Outlook|Outlook.com|Microsoft Outlook|Hotmail,Microsoft's webmail service.,10
+Yahoo Mail|Yahoo|Yahoo! Mail,Yahoo's webmail service.,10
+AOL Mail|AOL|AIM Mail,AOL's webmail service.,30
+Proton Mail|ProtonMail|Proton,An encrypted webmail service based in Switzerland.,30
+Zoho Mail|Zoho,Zoho's webmail service for businesses and individuals.,60
+GMX|GMX Mail,A German free webmail service.,60
+Mail.com|Mail.com,A free webmail service offering many domain choices.,60
+iCloud Mail|iCloud|Apple Mail,Apple's webmail service for iCloud users.,30
+Fastmail|FastMail,An independent paid webmail service.,85
+Hushmail|Hushmail,A privacy-focused encrypted webmail service.,85
+Tutanota|Tuta|Tutanota Mail,A secure encrypted webmail service from Germany.,85
+Yandex Mail|Yandex|Yandex.Mail,A Russian webmail service.,60
+Mail.ru|Mail.ru|Mailru,A Russian webmail service.,60
+Rediffmail|Rediff|Rediff Mail,An Indian webmail service.,85
+Lycos Mail|Lycos|Lycosmail,An older webmail service.,85
+Juno|Juno Online|Juno Mail,An older email service provider.,85
+EarthLink|EarthLink Mail,An American webmail service.,85
+Comcast|Comcast Mail|Xfinity Mail,Comcast's webmail service for customers.,60
+Verizon|Verizon Mail|AOL Mail (Verizon),Verizon's webmail service.,85

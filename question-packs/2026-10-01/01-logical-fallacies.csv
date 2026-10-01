@@ -1,0 +1,40 @@
+ANSWER,Blurb,Worth
+Ad hominem|ad hominem,Attacking the person rather than the argument.,10
+Straw man|strawman|straw man argument,Misrepresenting an opponent's argument to make it easier to attack.,10
+Appeal to authority|argumentum ad verecundiam|appeal to false authority,Relying on an authority figure's opinion rather than evidence.,10
+Appeal to ignorance|argumentum ad ignorantiam,Claiming something is true because it hasn't been proven false.,10
+False dilemma|false dichotomy|either-or fallacy,Presenting only two options when more exist.,10
+Slippery slope|slippery slope argument,Claiming one small action will lead to a chain of disastrous events.,10
+Circular reasoning|circular argument|begging the question,Using the conclusion as a premise in the argument.,10
+Hasty generalization|hasty generalisation,Drawing a broad conclusion from insufficient evidence.,10
+Red herring|red herring fallacy,Introducing an irrelevant topic to divert attention.,30
+Tu quoque|tu quoque|appeal to hypocrisy,Deflecting criticism by accusing the accuser of the same fault.,30
+Bandwagon fallacy|argumentum ad populum|appeal to popularity,Claiming something is true because many people believe it.,30
+Appeal to emotion|argumentum ad passiones,Manipulating emotions instead of using valid reasoning.,30
+Appeal to pity|argumentum ad misericordiam,Exploiting pity or guilt to win an argument.,30
+Appeal to fear|argumentum ad metum,Using fear to persuade rather than evidence.,30
+Appeal to tradition|argumentum ad antiquitatem,Claiming something is correct because it's always been done that way.,60
+Appeal to novelty|argumentum ad novitatem,Claiming something is better because it's new.,60
+Appeal to nature|argumentum ad naturam,Claiming something is good because it's natural.,60
+Appeal to consequence|argumentum ad consequentiam,Arguing a premise is true or false based on its consequences.,60
+Equivocation|equivocation fallacy,Using a word with different meanings in the same argument.,30
+Non sequitur|non sequitur,Drawing a conclusion that doesn't follow from the premises.,30
+Post hoc ergo propter hoc|post hoc,"Assuming that because one event followed another, it was caused by it.",30
+Correlation does not imply causation|correlation fallacy|cum hoc ergo propter hoc,Assuming that correlation between two events means one caused the other.,30
+Missing the point|ignoratio elenchi,Proving a different conclusion than the one being argued.,60
+Complex question|loaded question|plurium interrogationum|loaded question fallacy,Asking a question with an unjustified assumption built in.,60
+False analogy|weak analogy|false analogy fallacy,Comparing two things that aren't sufficiently similar.,30
+Texas sharpshooter|Texas sharpshooter fallacy,Selecting data that supports a conclusion while ignoring the rest.,85
+Survivorship bias|survivorship bias,Focusing on successful examples while ignoring failures.,60
+Cherry picking|cherry picking|suppressed evidence,Selecting only evidence that supports a position.,30
+Base rate fallacy|base rate neglect,Ignoring general statistical information in favor of specific details.,85
+Gambler's fallacy|Monte Carlo fallacy,Believing past random events affect future random events.,60
+Sunk cost fallacy|sunk cost|Concorde fallacy,Continuing a course of action because of past investment.,30
+Anchoring bias|anchoring|anchoring effect,Relying too heavily on the first piece of information.,60
+Dunning-Kruger effect|Dunning-Kruger,Overestimating one's competence due to lack of knowledge.,60
+No true Scotsman|no true Scotsman,Redefining a group to exclude counterexamples.,85
+Motte and bailey|motte and bailey doctrine,Defending a modest claim while actually advancing a stronger one.,85
+Kettle logic|kettle logic,Using multiple inconsistent arguments to defend a position.,85
+Poisoning the well|poisoning the well,Preemptively discrediting an opponent before they speak.,85
+Guilt by association|association fallacy|guilt by association fallacy,Discrediting an argument because of who supports it.,85
+Nirvana fallacy|perfect solution fallacy,Rejecting a solution because it isn't perfect.,85

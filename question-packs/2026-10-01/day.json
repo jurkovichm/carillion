@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-01",
+  "label": "1 Oct 2026",
+  "questions": [
+    {
+      "prompt": "Name a logical fallacy.",
+      "source": "https://en.wikipedia.org/wiki/List_of_fallacies",
+      "sourceNote": "Common formal and informal fallacies accepted. Closely related names share one catch.",
+      "csv": "01-logical-fallacies.csv"
+    },
+    {
+      "prompt": "Name a Christian denomination.",
+      "source": "https://en.wikipedia.org/wiki/List_of_Christian_denominations",
+      "sourceNote": "Denominational families, churches and communions from the linked list; aliases accepted where unambiguous.",
+      "csv": "02-christian-denominations.csv"
+    },
+    {
+      "prompt": "Name a webmail provider.",
+      "source": "https://en.wikipedia.org/wiki/Comparison_of_webmail_providers",
+      "sourceNote": "Public webmail services and providers accepted. Current or widely recognized former names share one catch.",
+      "csv": "03-webmail-providers.csv"
+    },
+    {
+      "prompt": "Name a US state capital.",
+      "source": "https://en.wikipedia.org/wiki/List_of_capitals_in_the_United_States",
+      "sourceNote": "US state capitals accepted; state names are aliases only when the capital shares the state name.",
+      "csv": "04-us-capitals.csv"
+    },
+    {
+      "prompt": "Name a medical specialty.",
+      "source": "https://en.wikipedia.org/wiki/Medical_specialty",
+      "sourceNote": "Recognized specialties and subspecialties accepted; common abbreviations accepted where unambiguous.",
+      "csv": "05-medical-specialties.csv"
+    },
+    {
+      "prompt": "Name a simple machine.",
+      "source": "https://en.wikipedia.org/wiki/Simple_machine",
+      "sourceNote": "The classical simple machines and common named forms accepted.",
+      "csv": "06-simple-machines.csv"
+    },
+    {
+      "prompt": "Name one of the original 13 Italian brainrot characters.",
+      "source": "https://en.wikipedia.org/wiki/Italian_brainrot",
+      "sourceNote": "The 13 original characters only; shortened names accepted where unambiguous.",
+      "csv": "07-italian-brainrot.csv"
+    }
+  ]
+}

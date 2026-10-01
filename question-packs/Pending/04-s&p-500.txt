@@ -1,0 +1,533 @@
+ANSWER,Blurb,Worth
+Apple|Apple Inc.,The iPhone and Mac maker.,10
+Microsoft|Microsoft Corporation,The Windows and Office software giant.,10
+Amazon|Amazon.com|Amazon.com Inc.,The e-commerce and cloud computing giant.,10
+Alphabet|Google|Alphabet Inc.,The parent company of Google.,10
+Meta|Facebook|Meta Platforms,The parent company of Facebook.,10
+Tesla|Tesla Inc.,The electric vehicle and clean energy company.,10
+Nvidia|NVIDIA|NVIDIA Corporation,The graphics processing unit and AI chip maker.,10
+Berkshire Hathaway|Berkshire Hathaway Inc.,Warren Buffett's conglomerate.,30
+JPMorgan Chase|JPMorgan Chase & Co.,A major American bank.,30
+Johnson & Johnson|Johnson & Johnson,The pharmaceutical and consumer goods company.,30
+Visa|Visa Inc.,The payments technology company.,30
+Mastercard|Mastercard Incorporated,The payments technology company.,30
+Walmart|Walmart Inc.,The multinational retail corporation.,10
+Procter & Gamble|Procter & Gamble|P&G,The consumer goods company.,30
+Exxon Mobil|ExxonMobil|Exxon Mobil Corporation,The multinational oil and gas corporation.,30
+Chevron|Chevron Corporation,The multinational energy corporation.,30
+Home Depot|The Home Depot|Home Depot,The home improvement retailer.,30
+Coca-Cola|The Coca-Cola Company|Coca Cola,The beverage company.,10
+PepsiCo|PepsiCo Inc.,The food and beverage company.,10
+McDonald's|McDonald's Corporation,The fast food company.,10
+Disney|Walt Disney|The Walt Disney Company,The entertainment conglomerate.,10
+Netflix|Netflix Inc.,The streaming service.,10
+Intel|Intel Corporation,The semiconductor chip maker.,10
+AMD|Advanced Micro Devices|Advanced Micro Devices Inc.,The semiconductor company.,30
+Cisco|Cisco Systems,The networking technology company.,30
+Oracle|Oracle Corporation,The database software company.,30
+Salesforce|Salesforce.com|Salesforce Inc.,The cloud-based software company.,30
+Adobe|Adobe Inc.,The creative software company.,30
+PayPal|PayPal Holdings,The online payments company.,30
+Pfizer|Pfizer Inc.,The pharmaceutical company.,30
+Moderna|Moderna Inc.,The biotechnology company.,30
+Ford|Ford Motor Company,The automobile manufacturer.,10
+General Motors|GM|General Motors Company,The automobile manufacturer.,30
+Boeing|The Boeing Company,The aerospace company.,30
+Caterpillar|Caterpillar Inc.,The construction machinery company.,30
+Goldman Sachs|The Goldman Sachs Group,The investment bank.,30
+Morgan Stanley|Morgan Stanley,The investment bank.,30
+American Express|Amex|American Express Company,The financial services company.,30
+IBM|International Business Machines,The technology and consulting company.,10
+General Electric|GE|General Electric Company,The multinational conglomerate.,30
+UPS|United Parcel Service,The logistics company.,30
+FedEx|FedEx Corporation|Federal Express,The logistics company.,30
+Nike|Nike Inc.,The athletic footwear and apparel company.,10
+Starbucks|Starbucks Corporation,The coffeehouse chain.,10
+Costco|Costco Wholesale,The membership warehouse club.,30
+Target|Target Corporation,The retail corporation.,30
+Lowe's|Lowe's Companies,The home improvement retailer.,30
+3M|3M Company|Minnesota Mining and Manufacturing,The manufacturing conglomerate.,30
+Honeywell|Honeywell International,The technology and manufacturing company.,30
+Lockheed Martin|Lockheed Martin Corporation,The aerospace and defense company.,30
+Raytheon|RTX|Raytheon Technologies,The aerospace and defense company.,30
+Abbott Laboratories|Abbott,The medical devices and health care company.,60
+AbbVie|AbbVie Inc.,The biopharmaceutical company.,60
+Accenture|Accenture plc,The consulting and professional services company.,60
+AES Corporation|AES|The AES Corporation,The power generation and utility company.,85
+A. O. Smith|A.O. Smith|A. O. Smith Corporation,The water heating equipment manufacturer.,85
+Advanced Micro Devices|AMD,The semiconductor company.,60
+Agilent Technologies|Agilent,The analytical instruments company.,85
+Air Products|Air Products and Chemicals,The industrial gases company.,60
+Akamai Technologies|Akamai,The content delivery network company.,60
+Alaska Air Group|Alaska Air|Alaska Airlines,The airline holding company.,60
+Albemarle|Albemarle Corporation,The specialty chemicals company.,85
+Alexandria Real Estate Equities|Alexandria|ARE,The real estate investment trust.,85
+Align Technology|Align|Invisalign,The orthodontic device company.,60
+Allegion|Allegion plc,The security products company.,85
+Alliant Energy|Alliant|Alliant Energy Corporation,The utility company.,85
+Allstate|The Allstate Corporation|Allstate Insurance,The insurance company.,60
+Ally Financial|Ally|Ally Bank,The digital financial services company.,85
+Altria|Altria Group|Philip Morris USA,The tobacco company.,60
+Amazon|Amazon.com,The e-commerce and cloud computing giant.,10
+Amcor|Amcor plc,The packaging company.,85
+Ameren|Ameren Corporation,The utility company.,85
+American Airlines|American Airlines Group,The airline holding company.,60
+American Electric Power|AEP|American Electric Power Company,The utility company.,85
+American Express|Amex,The financial services company.,30
+American International Group|AIG,The insurance company.,60
+American Tower|American Tower Corporation,The real estate investment trust.,60
+American Water Works|American Water|American Water Works Company,The water utility company.,85
+Ameriprise Financial|Ameriprise,The financial services company.,85
+AmerisourceBergen|Cencora|AmerisourceBergen Corporation,The pharmaceutical distribution company.,85
+AMETEK|AMETEK Inc.,The electronic instruments company.,85
+Amgen|Amgen Inc.,The biopharmaceutical company.,60
+Amphenol|Amphenol Corporation,The electronic connector company.,85
+Analog Devices|Analog Devices Inc.,The semiconductor company.,60
+Ansys|Ansys Inc.,The simulation software company.,85
+Aon|Aon plc,The professional services company.,85
+APA Corporation|APA|Apache Corporation,The oil and gas company.,85
+Apollo Global Management|Apollo,The alternative investment management company.,85
+Apple|Apple Inc.,The iPhone and Mac maker.,10
+Applied Materials|Applied Materials Inc.,The semiconductor equipment company.,60
+Aptiv|Aptiv PLC,The automotive technology company.,85
+Arch Capital Group|Arch Capital|Arch,The insurance company.,85
+Archer-Daniels-Midland|ADM|Archer Daniels Midland,The food processing company.,85
+Arista Networks|Arista,The networking company.,85
+Arthur J. Gallagher & Co.|Arthur J. Gallagher|Gallagher,The insurance brokerage company.,85
+Assurant|Assurant Inc.,The risk management company.,85
+AT&T|AT&T Inc.,The telecommunications company.,10
+Atmos Energy|Atmos Energy Corporation,The natural gas distribution company.,85
+AutoZone|AutoZone Inc.,The auto parts retailer.,60
+AvalonBay Communities|AvalonBay,The real estate investment trust.,85
+Avantor|Avantor Inc.,The life sciences company.,85
+Avery Dennison|Avery Dennison Corporation,The labeling and packaging company.,85
+Axon Enterprise|Axon|Taser,The law enforcement technology company.,60
+Baker Hughes|Baker Hughes Company,The oil field services company.,60
+Ball Corporation|Ball|Ball Corp,The packaging company.,85
+Bank of America|Bank of America Corporation|BofA,The multinational bank.,10
+Baxter International|Baxter,The health care company.,60
+Becton Dickinson|BD|Becton Dickinson and Company,The medical technology company.,60
+Berkshire Hathaway|Berkshire Hathaway Inc.,Warren Buffett's conglomerate.,30
+Best Buy|Best Buy Co.,The consumer electronics retailer.,30
+Bio-Rad Laboratories|Bio-Rad,The life science research company.,85
+Biogen|Biogen Inc.,The biotechnology company.,60
+BlackRock|BlackRock Inc.,The investment management company.,60
+Block|Square|Block Inc.,The financial services and digital payments company.,60
+Boeing|The Boeing Company,The aerospace company.,30
+Booking Holdings|Booking|Priceline,The travel technology company.,60
+BorgWarner|BorgWarner Inc.,The automotive components company.,85
+Boston Scientific|Boston Scientific Corporation,The medical device company.,60
+Bristol-Myers Squibb|Bristol Myers Squibb|BMS,The pharmaceutical company.,60
+Broadcom|Broadcom Inc.,The semiconductor company.,60
+Broadridge Financial Solutions|Broadridge,The financial technology company.,85
+Brown & Brown|Brown & Brown Inc.,The insurance brokerage company.,85
+Brown-Forman|Brown-Forman Corporation,The beverage company.,85
+Builders FirstSource|Builders FirstSource Inc.,The building materials company.,85
+Bunge|Bunge Global|Bunge Limited,The agribusiness company.,85
+C.H. Robinson|CH Robinson|C.H. Robinson Worldwide,The logistics company.,85
+Cadence Design Systems|Cadence,The electronic design automation company.,85
+Caesars Entertainment|Caesars,The casino and hospitality company.,85
+Camden Property Trust|Camden|Camden Property,The real estate investment trust.,85
+Campbell Soup|Campbell's|Campbell Soup Company,The food company.,85
+Capital One|Capital One Financial,The bank holding company.,60
+Cardinal Health|Cardinal Health Inc.,The health care services company.,60
+CarMax|CarMax Inc.,The used car retailer.,85
+Carnival|Carnival Corporation|Carnival Cruise Line,The cruise line company.,60
+Carrier|Carrier Global,The air conditioning and refrigeration company.,85
+Caterpillar|Caterpillar Inc.,The construction machinery company.,30
+Cboe Global Markets|Cboe|Chicago Board Options Exchange,The options exchange company.,85
+CBRE|CBRE Group,The commercial real estate services company.,60
+CDW|CDW Corporation,The technology solutions company.,85
+Celanese|Celanese Corporation,The specialty materials company.,85
+Cencora|AmerisourceBergen,The pharmaceutical distribution company.,85
+Centene|Centene Corporation,The managed health care company.,85
+CenterPoint Energy|CenterPoint,The utility company.,85
+Ceridian|Dayforce|Ceridian HCM,The human capital management software company.,85
+CF Industries|CF Industries Holdings,The fertilizer company.,85
+Charles River Laboratories|Charles River,The pharmaceutical research company.,85
+Charles Schwab|Charles Schwab Corporation|Schwab,The financial services company.,60
+Charter Communications|Charter|Spectrum,The telecommunications company.,60
+Chevron|Chevron Corporation,The multinational energy corporation.,30
+Chipotle|Chipotle Mexican Grill,The fast casual restaurant chain.,60
+Chubb|Chubb Limited,The insurance company.,60
+Church & Dwight|Church and Dwight,The consumer goods company.,85
+Cigna|Cigna Group|Cigna Corporation,The health insurance company.,60
+Cincinnati Financial|Cincinnati Financial Corporation,The insurance company.,85
+Cintas|Cintas Corporation,The business services company.,85
+Cisco|Cisco Systems,The networking technology company.,30
+Citigroup|Citi|Citigroup Inc.,The multinational bank.,30
+Citizens Financial Group|Citizens Bank|Citizens Financial,The bank holding company.,85
+Clorox|The Clorox Company,The consumer goods company.,60
+CME Group|CME|Chicago Mercantile Exchange,The financial exchange company.,85
+CMS Energy|CMS Energy Corporation,The utility company.,85
+Coca-Cola|The Coca-Cola Company|Coca Cola,The beverage company.,10
+Cognizant|Cognizant Technology Solutions,The IT consulting company.,60
+Coherent|Coherent Corp|II-VI,The laser and optics company.,85
+Colgate-Palmolive|Colgate|Colgate Palmolive,The consumer goods company.,60
+Comcast|Comcast Corporation|Xfinity,The telecommunications conglomerate.,30
+Comerica|Comerica Incorporated,The financial services company.,85
+Conagra Brands|Conagra|ConAgra,The packaged foods company.,85
+ConocoPhillips|ConocoPhillips,The oil and gas company.,30
+Consolidated Edison|Con Edison|ConEd,The utility company.,60
+Constellation Brands|Constellation Brands Inc.,The beverage alcohol company.,85
+Constellation Energy|Constellation|Constellation Energy Corporation,The energy company.,85
+Cooper Companies|The Cooper Companies|CooperVision,The medical device company.,85
+Copart|Copart Inc.,The online vehicle auction company.,85
+Corning|Corning Inc.,The glass and ceramics company.,60
+Corteva|Corteva Agriscience,The agricultural chemical company.,85
+Costco|Costco Wholesale,The membership warehouse club.,30
+Coterra|Coterra Energy|Cabot Oil & Gas,The oil and gas company.,85
+Crown Castle|Crown Castle Inc.,The communications infrastructure company.,85
+CSX|CSX Corporation,The railroad company.,60
+Cummins|Cummins Inc.,The engine and power generation company.,60
+CVS Health|CVS|CVS Caremark,The health care company.,30
+Danaher|Danaher Corporation,The life sciences and diagnostics company.,60
+Darden Restaurants|Darden|Olive Garden,The restaurant company.,85
+Darling Ingredients|Darling,The food processing company.,85
+DaVita|DaVita Inc.,The kidney care company.,85
+Deckers Outdoor|Deckers|UGG|Hoka,The footwear company.,85
+Deere & Company|John Deere|Deere,The agricultural machinery company.,30
+Delta Air Lines|Delta|Delta Airlines,The airline company.,30
+DENTSPLY SIRONA|Dentsply Sirona,The dental equipment company.,85
+Devon Energy|Devon|Devon Energy Corporation,The oil and gas company.,60
+Dexcom|DexCom Inc.,The continuous glucose monitoring company.,85
+Diamondback Energy|Diamondback|FANG,The oil and gas company.,85
+Digital Realty|Digital Realty Trust,The data center real estate investment trust.,85
+Dillard's|Dillard's Inc.,The department store chain.,85
+Discover Financial|Discover|Discover Financial Services,The financial services company.,60
+Dollar General|Dollar General Corporation,The discount retailer.,60
+Dollar Tree|Dollar Tree Inc.,The discount variety store chain.,60
+Dominion Energy|Dominion|Dominion Energy Inc.,The utility company.,60
+Domino's|Domino's Pizza,The pizza restaurant chain.,60
+DoorDash|DoorDash Inc.,The food delivery company.,60
+Dover|Dover Corporation,The industrial products company.,85
+Dow|Dow Inc.|Dow Chemical,The chemical company.,60
+DTE Energy|DTE|DTE Energy Company,The utility company.,85
+Duke Energy|Duke Energy Corporation,The utility company.,60
+DuPont|DuPont de Nemours,The chemical company.,60
+DXC Technology|DXC,The IT services company.,85
+E*TRADE|E-Trade|Morgan Stanley E*TRADE,The online brokerage company.,85
+Eastman Chemical|Eastman|Eastman Chemical Company,The specialty materials company.,85
+Eaton|Eaton Corporation|Eaton Corp,The power management company.,60
+eBay|eBay Inc.,The online marketplace company.,30
+Ecolab|Ecolab Inc.,The water and hygiene company.,60
+Edison International|Edison|Southern California Edison,The utility company.,85
+Edwards Lifesciences|Edwards|Edwards Lifesciences Corporation,The medical device company.,85
+Elevance Health|Anthem|Elevance,The health insurance company.,60
+Emerson Electric|Emerson|Emerson Electric Co.,The technology and engineering company.,60
+Enphase Energy|Enphase|Enphase Energy Inc.,The solar energy company.,85
+Entergy|Entergy Corporation,The utility company.,85
+EOG Resources|EOG|EOG Resources Inc.,The oil and gas company.,60
+EPAM Systems|EPAM,The software engineering company.,85
+Equifax|Equifax Inc.,The credit reporting company.,60
+Equinix|Equinix Inc.,The data center company.,85
+Equitable Holdings|Equitable|Equitable Holdings Inc.,The financial services company.,85
+EQT|EQT Corporation,The natural gas company.,85
+Essex Property Trust|Essex|Essex Property,The real estate investment trust.,85
+Estée Lauder|Estee Lauder|The Estée Lauder Companies,The cosmetics company.,60
+Etsy|Etsy Inc.,The e-commerce company.,60
+Everest Group|Everest|Everest Re,The reinsurance company.,85
+Evergy|Evergy Inc.,The utility company.,85
+Eversource Energy|Eversource,The utility company.,85
+Exelon|Exelon Corporation,The utility company.,60
+Expedia|Expedia Group,The travel technology company.,60
+Expeditors|Expeditors International,The logistics company.,85
+Extra Space Storage|Extra Space,The self-storage company.,85
+Exxon Mobil|ExxonMobil|Exxon Mobil Corporation,The multinational oil and gas corporation.,30
+F5|F5 Networks|F5 Inc.,The application security company.,85
+FactSet|FactSet Research Systems,The financial data company.,85
+Fair Isaac|FICO|Fair Isaac Corporation,The analytics software company.,85
+Fastenal|Fastenal Company,The industrial supplies company.,60
+FedEx|FedEx Corporation|Federal Express,The logistics company.,30
+FedEx Freight|FedEx Freight,The freight shipping company.,85
+Ferguson|Ferguson Enterprises|Ferguson plc,The plumbing and heating products company.,85
+Fidelity National Information Services|FIS|Fidelity National Information,The financial technology company.,85
+Fifth Third Bancorp|Fifth Third Bank|Fifth Third,The bank holding company.,85
+First Solar|First Solar Inc.,The solar panel manufacturer.,85
+FirstEnergy|FirstEnergy Corp.,The utility company.,85
+Fiserv|Fiserv Inc.,The financial services technology company.,60
+FleetCor|Corpay|FleetCor Technologies,The commercial payments company.,85
+FMC|FMC Corporation,The agricultural sciences company.,85
+Ford|Ford Motor Company,The automobile manufacturer.,10
+Fortinet|Fortinet Inc.,The cybersecurity company.,60
+Fortive|Fortive Corporation,The industrial technology company.,85
+Fox|Fox Corporation|Fox Corp,The media company.,60
+Franklin Resources|Franklin Templeton|Franklin Resources Inc.,The investment management company.,85
+Freeport-McMoRan|Freeport|Freeport-McMoRan Inc.,The mining company.,60
+Gartner|Gartner Inc.,The research and advisory company.,85
+GE HealthCare|GE HealthCare Technologies,The medical imaging company.,60
+Gen Digital|NortonLifeLock|Gen Digital Inc.,The cybersecurity company.,85
+General Dynamics|General Dynamics Corporation,The aerospace and defense company.,60
+General Electric|GE|General Electric Company,The multinational conglomerate.,30
+General Mills|General Mills Inc.,The food company.,60
+General Motors|GM|General Motors Company,The automobile manufacturer.,30
+Genuine Parts|Genuine Parts Company|NAPA,The auto parts distributor.,85
+Gilead Sciences|Gilead|Gilead Sciences Inc.,The biopharmaceutical company.,60
+Global Payments|Global Payments Inc.,The payment technology company.,85
+GlobalFoundries|GlobalFoundries Inc.,The semiconductor foundry company.,85
+Globe Life|Globe Life Inc.,The insurance company.,85
+Gartner|Gartner Inc.,The research and advisory company.,85
+Goldman Sachs|The Goldman Sachs Group,The investment bank.,30
+Halliburton|Halliburton Company,The oil field services company.,60
+Hartford|The Hartford|Hartford Financial Services,The insurance company.,60
+Hasbro|Hasbro Inc.,The toy and game company.,60
+HCA Healthcare|HCA|Hospital Corporation of America,The hospital operator.,60
+Healthpeak Properties|Healthpeak|HCP,The real estate investment trust.,85
+Henry Schein|Henry Schein Inc.,The health care products company.,85
+Hershey|The Hershey Company|Hershey's,The chocolate company.,60
+Hess|Hess Corporation,The oil and gas company.,60
+Hewlett Packard Enterprise|HPE|Hewlett Packard Enterprise Company,The enterprise information technology company.,60
+Hologic|Hologic Inc.,The medical device company.,85
+Home Depot|The Home Depot|Home Depot,The home improvement retailer.,30
+Honeywell|Honeywell International,The technology and manufacturing company.,30
+Hormel Foods|Hormel|Hormel Foods Corporation,The food company.,85
+Host Hotels & Resorts|Host Hotels|Host Hotels and Resorts,The real estate investment trust.,85
+Howmet Aerospace|Howmet|Howmet Aerospace Inc.,The aerospace components company.,85
+HP|HP Inc.|Hewlett-Packard,The personal computer company.,30
+Hubbell|Hubbell Incorporated,The electrical equipment company.,85
+Huntington Bancshares|Huntington Bank|Huntington,The bank holding company.,85
+Huntington Ingalls Industries|Huntington Ingalls|HII,The shipbuilding company.,85
+IBM|International Business Machines,The technology and consulting company.,10
+IDEX|IDEX Corporation,The industrial products company.,85
+IDEXX Laboratories|IDEXX|IDEXX Labs,The veterinary diagnostics company.,85
+Illinois Tool Works|ITW|Illinois Tool Works Inc.,The industrial products company.,85
+Incyte|Incyte Corporation,The biopharmaceutical company.,85
+Ingersoll Rand|Ingersoll Rand Inc.,The industrial equipment company.,60
+Insulet|Insulet Corporation|Omnipod,The medical device company.,85
+Intel|Intel Corporation,The semiconductor chip maker.,10
+Intercontinental Exchange|ICE|Intercontinental Exchange Inc.,The financial exchange company.,85
+International Flavors & Fragrances|IFF|International Flavors and Fragrances,The flavor and fragrance company.,85
+International Paper|International Paper Company,The paper and packaging company.,60
+Interpublic Group|IPG|Interpublic Group of Companies,The advertising company.,85
+Intuit|Intuit Inc.,The financial software company.,60
+Intuitive Surgical|Intuitive|Intuitive Surgical Inc.,The robotic surgery company.,85
+Invitation Homes|Invitation Homes Inc.,The single-family rental company.,85
+IQVIA|IQVIA Holdings,The health care data company.,85
+Iron Mountain|Iron Mountain Incorporated,The storage and information management company.,85
+J.B. Hunt|JB Hunt|J.B. Hunt Transport Services,The transportation company.,85
+Jack Henry & Associates|Jack Henry,The financial technology company.,85
+Jacobs Solutions|Jacobs|Jacobs Engineering,The engineering company.,85
+Johnson & Johnson|Johnson & Johnson,The pharmaceutical and consumer goods company.,30
+Johnson Controls|Johnson Controls International,The building technology company.,60
+JPMorgan Chase|JPMorgan Chase & Co.,A major American bank.,30
+Juniper Networks|Juniper|Juniper Networks Inc.,The networking company.,85
+Kellanova|Kellogg's|Kellanova,The food company.,60
+Keurig Dr Pepper|Keurig Dr Pepper Inc.,The beverage company.,60
+KeyCorp|KeyBank|KeyCorp,The bank holding company.,85
+Keysight Technologies|Keysight,The electronic test and measurement company.,85
+Kimberly-Clark|Kimberly-Clark Corporation,The personal care company.,60
+Kimco Realty|Kimco|Kimco Realty Corporation,The real estate investment trust.,85
+Kinder Morgan|Kinder Morgan Inc.,The energy infrastructure company.,60
+KLA|KLA Corporation|KLA-Tencor,The semiconductor equipment company.,85
+Kraft Heinz|The Kraft Heinz Company|Kraft,The food company.,60
+Kroger|The Kroger Co.,The grocery store chain.,60
+L3Harris|L3Harris Technologies,The defense and aerospace company.,85
+Labcorp|Laboratory Corporation of America,The medical laboratory company.,60
+Lam Research|Lam Research Corporation,The semiconductor equipment company.,60
+Lamb Weston|Lamb Weston Holdings,The frozen potato products company.,85
+Las Vegas Sands|Las Vegas Sands Corp.,The casino and resort company.,85
+Leidos|Leidos Holdings,The defense and technology company.,85
+Lennar|Lennar Corporation,The home construction company.,60
+Lennox International|Lennox|Lennox International Inc.,The HVAC company.,85
+Liberty Media|Liberty Media Corporation,The media company.,85
+Linde|Linde plc,The industrial gases company.,60
+Live Nation|Live Nation Entertainment,The live entertainment company.,60
+LKQ|LKQ Corporation,The auto parts company.,85
+Lockheed Martin|Lockheed Martin Corporation,The aerospace and defense company.,30
+Loews|Loews Corporation,The conglomerate company.,85
+Lowe's|Lowe's Companies,The home improvement retailer.,30
+Lululemon|Lululemon Athletica,The athletic apparel company.,60
+LyondellBasell|LyondellBasell Industries,The chemical company.,85
+M&T Bank|M&T Bank Corporation,The bank holding company.,85
+Marathon Petroleum|Marathon Petroleum Corporation,The oil refining company.,60
+MarketAxess|MarketAxess Holdings,The electronic trading platform company.,85
+Marriott|Marriott International,The hospitality company.,60
+Martin Marietta|Martin Marietta Materials,The building materials company.,85
+Masco|Masco Corporation,The building products company.,85
+Mastercard|Mastercard Incorporated,The payments technology company.,30
+Match Group|Match|Match Group Inc.,The online dating company.,85
+McCormick|McCormick & Company,The spice and flavor company.,60
+McDonald's|McDonald's Corporation,The fast food company.,10
+McKesson|McKesson Corporation,The pharmaceutical distribution company.,60
+Medtronic|Medtronic plc,The medical device company.,60
+Merck|Merck & Co.|MSD,The pharmaceutical company.,10
+Meta|Facebook|Meta Platforms,The parent company of Facebook.,10
+MetLife|MetLife Inc.,The insurance company.,60
+MGM Resorts|MGM|MGM Resorts International,The casino and resort company.,85
+Microchip Technology|Microchip|Microchip Technology Inc.,The semiconductor company.,85
+Micron Technology|Micron|Micron Technology Inc.,The semiconductor company.,60
+Microsoft|Microsoft Corporation,The Windows and Office software giant.,10
+Mid-America Apartments|MAA|Mid-America Apartment Communities,The real estate investment trust.,85
+Moderna|Moderna Inc.,The biotechnology company.,30
+Mohawk Industries|Mohawk|Mohawk Industries Inc.,The flooring company.,85
+Molson Coors|Molson Coors Beverage Company,The beverage company.,85
+Mondelez|Mondelez International|Oreo|Nabisco,The snack food company.,60
+Monolithic Power Systems|Monolithic Power|MPS,The semiconductor company.,85
+Monster Beverage|Monster|Monster Beverage Corporation,The energy drink company.,85
+Moody's|Moody's Corporation,The credit rating company.,60
+Morgan Stanley|Morgan Stanley,The investment bank.,30
+Mosaic|The Mosaic Company,The fertilizer company.,85
+Motorola Solutions|Motorola Solutions Inc.,The communications equipment company.,85
+MSCI|MSCI Inc.,The financial index company.,85
+Nasdaq|Nasdaq Inc.,The stock exchange company.,60
+National Grid|National Grid plc,The utility company.,85
+Nasdaq|Nasdaq Inc.,The stock exchange company.,60
+Newell Brands|Newell|Newell Brands Inc.,The consumer goods company.,85
+Newmont|Newmont Corporation,The gold mining company.,60
+News Corp|News Corporation,The media company.,85
+NextEra Energy|NextEra|NextEra Energy Inc.,The utility company.,60
+Nike|Nike Inc.,The athletic footwear and apparel company.,10
+NiSource|NiSource Inc.,The utility company.,85
+Nordson|Nordson Corporation,The precision dispensing company.,85
+Norfolk Southern|Norfolk Southern Corporation,The railroad company.,60
+Northern Trust|Northern Trust Corporation,The financial services company.,85
+Northrop Grumman|Northrop Grumman Corporation,The aerospace and defense company.,60
+Norwegian Cruise Line|NCL|Norwegian Cruise Line Holdings,The cruise line company.,85
+NRG Energy|NRG|NRG Energy Inc.,The energy company.,85
+Nucor|Nucor Corporation,The steel company.,60
+NVIDIA|Nvidia|NVIDIA Corporation,The graphics processing unit and AI chip maker.,10
+NVR|NVR Inc.,The home construction company.,85
+O'Reilly Automotive|O'Reilly|O'Reilly Auto Parts,The auto parts retailer.,60
+Occidental Petroleum|Oxy|Occidental Petroleum Corporation,The oil and gas company.,60
+Old Dominion Freight Line|Old Dominion|ODFL,The freight shipping company.,85
+Omnicom|Omnicom Group,The advertising company.,85
+ONEOK|ONEOK Inc.,The natural gas company.,85
+Oracle|Oracle Corporation,The database software company.,30
+Otis|Otis Worldwide|Otis Elevator,The elevator and escalator company.,60
+Ovintiv|Ovintiv Inc.,The oil and gas company.,85
+PACCAR|PACCAR Inc.|Kenworth|Peterbilt,The truck manufacturer.,85
+Packaging Corporation of America|PCA|Packaging Corp of America,The packaging company.,85
+Palantir|Palantir Technologies,The data analytics company.,60
+Palo Alto Networks|Palo Alto|Palo Alto Networks Inc.,The cybersecurity company.,60
+Paramount Global|Paramount|Paramount Global,The media company.,60
+Parker-Hannifin|Parker|Parker Hannifin,The motion and control technologies company.,85
+Paychex|Paychex Inc.,The payroll and HR company.,85
+Paycom|Paycom Software,The payroll software company.,85
+PayPal|PayPal Holdings,The online payments company.,30
+Pentair|Pentair plc,The water treatment company.,85
+PepsiCo|PepsiCo Inc.,The food and beverage company.,10
+Pfizer|Pfizer Inc.,The pharmaceutical company.,30
+PG&E|Pacific Gas and Electric|PG&E Corporation,The utility company.,60
+Philip Morris International|Philip Morris|PMI,The tobacco company.,60
+Phillips 66|Phillips 66,The energy company.,60
+Pinnacle West Capital|Pinnacle West|APS,The utility company.,85
+PNC Financial Services|PNC|PNC Bank,The bank holding company.,60
+Pool Corporation|Pool Corp,The swimming pool supplies company.,85
+PPG Industries|PPG|PPG Industries Inc.,The coatings company.,85
+PPL|PPL Corporation,The utility company.,85
+Principal Financial|Principal|Principal Financial Group,The financial services company.,85
+Procter & Gamble|Procter & Gamble|P&G,The consumer goods company.,30
+Progressive|The Progressive Corporation|Progressive Insurance,The insurance company.,60
+Prologis|Prologis Inc.,The logistics real estate company.,85
+Prudential Financial|Prudential|Prudential Financial Inc.,The financial services company.,60
+Public Service Enterprise Group|PSEG|Public Service Enterprise Group,The utility company.,85
+Public Storage|Public Storage,The self-storage company.,85
+PulteGroup|Pulte|PulteGroup Inc.,The home construction company.,85
+Qorvo|Qorvo Inc.,The semiconductor company.,85
+Qualcomm|Qualcomm Incorporated,The semiconductor company.,60
+Quanta Services|Quanta|Quanta Services Inc.,The infrastructure services company.,85
+Quest Diagnostics|Quest|Quest Diagnostics Inc.,The medical laboratory company.,60
+Ralph Lauren|Ralph Lauren Corporation,The fashion company.,85
+Raymond James|Raymond James Financial,The financial services company.,85
+RTX|Raytheon Technologies|Raytheon,The aerospace and defense company.,30
+Regency Centers|Regency|Regency Centers Corporation,The real estate investment trust.,85
+Regeneron|Regeneron Pharmaceuticals,The biotechnology company.,60
+Regions Financial|Regions Bank|Regions Financial Corporation,The bank holding company.,85
+Republic Services|Republic Services Inc.,The waste management company.,60
+ResMed|ResMed Inc.,The medical device company.,85
+Revvity|Revvity Inc.|PerkinElmer,The life sciences company.,85
+Robert Half|Robert Half International,The staffing company.,85
+Rockwell Automation|Rockwell|Rockwell Automation Inc.,The industrial automation company.,85
+Rollins|Rollins Inc.|Orkin,The pest control company.,85
+Roper Technologies|Roper|Roper Technologies Inc.,The industrial technology company.,85
+Ross Stores|Ross|Ross Dress for Less,The discount retailer.,85
+Royal Caribbean|Royal Caribbean Group|Royal Caribbean Cruises,The cruise line company.,60
+RTX|Raytheon Technologies|Raytheon,The aerospace and defense company.,30
+S&P Global|S&P Global Inc.,The financial information company.,60
+Salesforce|Salesforce.com|Salesforce Inc.,The cloud-based software company.,30
+SBA Communications|SBA|SBA Communications Corporation,The communications infrastructure company.,85
+Schlumberger|SLB|Schlumberger Limited,The oil field services company.,60
+Seagate Technology|Seagate|Seagate Technology Holdings,The data storage company.,85
+Sempra|Sempra Energy|Sempra,The utility company.,60
+ServiceNow|ServiceNow Inc.,The cloud computing company.,60
+Sherwin-Williams|Sherwin-Williams Company|Sherwin Williams,The paint company.,60
+Simon Property Group|Simon|Simon Property Group Inc.,The shopping mall company.,60
+Skyworks Solutions|Skyworks|Skyworks Solutions Inc.,The semiconductor company.,85
+Snap|Snap Inc.|Snapchat,The social media company.,60
+Solventum|Solventum Corporation|3M Health Care,The health care company.,85
+Southern Company|Southern Company|Southern Co,The utility company.,60
+Southwest Airlines|Southwest|Southwest Airlines Co.,The airline company.,30
+Stanley Black & Decker|Stanley Black & Decker Inc.|Stanley,The tools and hardware company.,60
+Starbucks|Starbucks Corporation,The coffeehouse chain.,10
+State Street|State Street Corporation|State Street Corp,The financial services company.,60
+Steel Dynamics|Steel Dynamics Inc.,The steel company.,85
+Stryker|Stryker Corporation,The medical device company.,60
+Super Micro Computer|Supermicro|Super Micro Computer Inc.,The server technology company.,85
+Synchrony Financial|Synchrony|Synchrony Financial,The consumer financial services company.,85
+Synopsys|Synopsys Inc.,The electronic design automation company.,85
+Sysco|Sysco Corporation,The food distribution company.,60
+T-Mobile|T-Mobile US|T-Mobile US Inc.,The telecommunications company.,30
+Take-Two Interactive|Take-Two|Take-Two Interactive Software,The video game company.,60
+Tapestry|Tapestry Inc.|Coach,The fashion company.,85
+Target|Target Corporation,The retail corporation.,30
+TE Connectivity|TE|TE Connectivity Ltd.,The connectivity and sensor company.,85
+Teledyne|Teledyne Technologies,The instrumentation company.,85
+Telsey Advisory Group|Telsey|Telsey Advisory Group,The research and advisory company.,85
+Teradyne|Teradyne Inc.,The semiconductor test equipment company.,85
+Tesla|Tesla Inc.,The electric vehicle and clean energy company.,10
+Texas Instruments|TI|Texas Instruments Incorporated,The semiconductor company.,60
+Textron|Textron Inc.,The aerospace and defense company.,85
+The Cooper Companies|CooperCompanies|CooperVision,The medical device company.,85
+Thermo Fisher|Thermo Fisher Scientific,The scientific equipment company.,60
+TJX|TJX Companies|TJ Maxx|Marshalls,The discount retailer.,60
+Tractor Supply|Tractor Supply Company|TSC,The farm and ranch retailer.,85
+Trane Technologies|Trane|Trane Technologies plc,The HVAC company.,85
+TransDigm|TransDigm Group,The aerospace components company.,85
+Travelers|The Travelers Companies|Travelers Insurance,The insurance company.,60
+Truist|Truist Financial|BB&T|SunTrust,The bank holding company.,85
+Tyler Technologies|Tyler|Tyler Technologies Inc.,The government software company.,85
+Tyson Foods|Tyson|Tyson Foods Inc.,The food company.,60
+U.S. Bancorp|US Bank|U.S. Bank,The bank holding company.,60
+Uber|Uber Technologies,The ride-hailing and delivery company.,30
+UDR|UDR Inc.,The real estate investment trust.,85
+Ulta Beauty|Ulta|Ulta Beauty Inc.,The beauty retailer.,85
+Union Pacific|Union Pacific Corporation|UP,The railroad company.,60
+United Airlines|United Airlines Holdings|United,The airline company.,30
+United Parcel Service|UPS|United Parcel Service Inc.,The logistics company.,30
+United Rentals|United Rentals Inc.|URI,The equipment rental company.,85
+UnitedHealth Group|UnitedHealth|UNH,The health insurance company.,30
+Universal Health Services|UHS|Universal Health Services Inc.,The hospital operator.,85
+Unum|Unum Group,The insurance company.,85
+Vail Resorts|Vail|Vail Resorts Inc.,The ski resort company.,85
+Valero|Valero Energy|Valero Energy Corporation,The oil refining company.,60
+Ventas|Ventas Inc.,The real estate investment trust.,85
+Verisk|Verisk Analytics,The data analytics company.,85
+Verizon|Verizon Communications,The telecommunications company.,10
+Vertex Pharmaceuticals|Vertex|Vertex Pharmaceuticals Inc.,The biopharmaceutical company.,60
+Viatris|Viatris Inc.|Mylan,The pharmaceutical company.,85
+Vici Properties|Vici|VICI Properties,The real estate investment trust.,85
+Visa|Visa Inc.,The payments technology company.,30
+Vistra|Vistra Corp|Vistra Energy,The energy company.,85
+W.W. Grainger|Grainger|W.W. Grainger Inc.,The industrial supplies company.,60
+Walgreens Boots Alliance|Walgreens|WBA,The pharmacy chain company.,30
+Walmart|Walmart Inc.,The multinational retail corporation.,10
+Walt Disney|Disney|The Walt Disney Company,The entertainment conglomerate.,10
+Warner Bros. Discovery|Warner Bros|WBD,The media company.,60
+Waste Management|WM|Waste Management Inc.,The waste management company.,60
+Waters|Waters Corporation,The analytical instruments company.,85
+WEC Energy Group|WEC|WEC Energy Group Inc.,The utility company.,85
+Wells Fargo|Wells Fargo & Company,The multinational bank.,30
+Welltower|Welltower Inc.,The real estate investment trust.,85
+West Pharmaceutical Services|West|West Pharmaceutical,The pharmaceutical packaging company.,85
+Western Digital|Western Digital Corporation|WD,The data storage company.,60
+Westinghouse Air Brake Technologies|Wabtec|Westinghouse Air Brake,The rail equipment company.,85
+Weyerhaeuser|Weyerhaeuser Company,The timberland company.,85
+Williams|The Williams Companies|Williams Companies,The energy infrastructure company.,60
+Willis Towers Watson|WTW|Willis Towers Watson plc,The advisory company.,85
+Wynn Resorts|Wynn|Wynn Resorts Limited,The casino and resort company.,85
+Xcel Energy|Xcel|Xcel Energy Inc.,The utility company.,60
+Xylem|Xylem Inc.,The water technology company.,85
+Yum! Brands|Yum Brands|Yum! Brands Inc.|KFC|Taco Bell|Pizza Hut,The fast food company.,60
+Zebra Technologies|Zebra|Zebra Technologies Corporation,The barcode and RFID company.,85
+Zimmer Biomet|Zimmer|Zimmer Biomet Holdings,The medical device company.,85
+Zoetis|Zoetis Inc.,The animal health company.,85

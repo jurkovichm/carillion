@@ -12548,6 +12548,1860 @@ window.DIVE_DAYS = [
         ]
       }
     ]
+  },
+  {
+    "id": "2026-10-01",
+    "label": "1 Oct 2026",
+    "questions": [
+      {
+        "prompt": "Name a logical fallacy.",
+        "source": "https://en.wikipedia.org/wiki/List_of_fallacies",
+        "sourceNote": "Common formal and informal fallacies accepted. Closely related names share one catch.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Ad hominem",
+              "ad hominem"
+            ],
+            "note": "Attacking the person rather than the argument."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Straw man",
+              "strawman",
+              "straw man argument"
+            ],
+            "note": "Misrepresenting an opponent's argument to make it easier to attack."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Appeal to authority",
+              "argumentum ad verecundiam",
+              "appeal to false authority"
+            ],
+            "note": "Relying on an authority figure's opinion rather than evidence."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Appeal to ignorance",
+              "argumentum ad ignorantiam"
+            ],
+            "note": "Claiming something is true because it hasn't been proven false."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "False dilemma",
+              "false dichotomy",
+              "either-or fallacy"
+            ],
+            "note": "Presenting only two options when more exist."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Slippery slope",
+              "slippery slope argument"
+            ],
+            "note": "Claiming one small action will lead to a chain of disastrous events."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Circular reasoning",
+              "circular argument",
+              "begging the question"
+            ],
+            "note": "Using the conclusion as a premise in the argument."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Hasty generalization",
+              "hasty generalisation"
+            ],
+            "note": "Drawing a broad conclusion from insufficient evidence."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Red herring",
+              "red herring fallacy"
+            ],
+            "note": "Introducing an irrelevant topic to divert attention."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tu quoque",
+              "tu quoque",
+              "appeal to hypocrisy"
+            ],
+            "note": "Deflecting criticism by accusing the accuser of the same fault."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bandwagon fallacy",
+              "argumentum ad populum",
+              "appeal to popularity"
+            ],
+            "note": "Claiming something is true because many people believe it."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Appeal to emotion",
+              "argumentum ad passiones"
+            ],
+            "note": "Manipulating emotions instead of using valid reasoning."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Appeal to pity",
+              "argumentum ad misericordiam"
+            ],
+            "note": "Exploiting pity or guilt to win an argument."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Appeal to fear",
+              "argumentum ad metum"
+            ],
+            "note": "Using fear to persuade rather than evidence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Appeal to tradition",
+              "argumentum ad antiquitatem"
+            ],
+            "note": "Claiming something is correct because it's always been done that way."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Appeal to novelty",
+              "argumentum ad novitatem"
+            ],
+            "note": "Claiming something is better because it's new."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Appeal to nature",
+              "argumentum ad naturam"
+            ],
+            "note": "Claiming something is good because it's natural."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Appeal to consequence",
+              "argumentum ad consequentiam"
+            ],
+            "note": "Arguing a premise is true or false based on its consequences."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Equivocation",
+              "equivocation fallacy"
+            ],
+            "note": "Using a word with different meanings in the same argument."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Non sequitur",
+              "non sequitur"
+            ],
+            "note": "Drawing a conclusion that doesn't follow from the premises."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Post hoc ergo propter hoc",
+              "post hoc"
+            ],
+            "note": "Assuming that because one event followed another, it was caused by it."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Correlation does not imply causation",
+              "correlation fallacy",
+              "cum hoc ergo propter hoc"
+            ],
+            "note": "Assuming that correlation between two events means one caused the other."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Missing the point",
+              "ignoratio elenchi"
+            ],
+            "note": "Proving a different conclusion than the one being argued."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Complex question",
+              "loaded question",
+              "plurium interrogationum",
+              "loaded question fallacy"
+            ],
+            "note": "Asking a question with an unjustified assumption built in."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "False analogy",
+              "weak analogy",
+              "false analogy fallacy"
+            ],
+            "note": "Comparing two things that aren't sufficiently similar."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Texas sharpshooter",
+              "Texas sharpshooter fallacy"
+            ],
+            "note": "Selecting data that supports a conclusion while ignoring the rest."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Survivorship bias",
+              "survivorship bias"
+            ],
+            "note": "Focusing on successful examples while ignoring failures."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cherry picking",
+              "cherry picking",
+              "suppressed evidence"
+            ],
+            "note": "Selecting only evidence that supports a position."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Base rate fallacy",
+              "base rate neglect"
+            ],
+            "note": "Ignoring general statistical information in favor of specific details."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gambler's fallacy",
+              "Monte Carlo fallacy"
+            ],
+            "note": "Believing past random events affect future random events."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sunk cost fallacy",
+              "sunk cost",
+              "Concorde fallacy"
+            ],
+            "note": "Continuing a course of action because of past investment."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anchoring bias",
+              "anchoring",
+              "anchoring effect"
+            ],
+            "note": "Relying too heavily on the first piece of information."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dunning-Kruger effect",
+              "Dunning-Kruger"
+            ],
+            "note": "Overestimating one's competence due to lack of knowledge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "No true Scotsman",
+              "no true Scotsman"
+            ],
+            "note": "Redefining a group to exclude counterexamples."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Motte and bailey",
+              "motte and bailey doctrine"
+            ],
+            "note": "Defending a modest claim while actually advancing a stronger one."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kettle logic",
+              "kettle logic"
+            ],
+            "note": "Using multiple inconsistent arguments to defend a position."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Poisoning the well",
+              "poisoning the well"
+            ],
+            "note": "Preemptively discrediting an opponent before they speak."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Guilt by association",
+              "association fallacy",
+              "guilt by association fallacy"
+            ],
+            "note": "Discrediting an argument because of who supports it."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nirvana fallacy",
+              "perfect solution fallacy"
+            ],
+            "note": "Rejecting a solution because it isn't perfect."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a Christian denomination.",
+        "source": "https://en.wikipedia.org/wiki/List_of_Christian_denominations",
+        "sourceNote": "Denominational families, churches and communions from the linked list; aliases accepted where unambiguous.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Catholic",
+              "Roman Catholic",
+              "Catholicism"
+            ],
+            "note": "The largest Christian denomination led by the Pope."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Orthodox",
+              "Eastern Orthodox",
+              "Eastern Orthodoxy"
+            ],
+            "note": "The second-largest Christian communion originating from the Byzantine tradition."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Protestant",
+              "Protestantism"
+            ],
+            "note": "The branch of Christianity that emerged from the Reformation."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Anglican",
+              "Anglicanism",
+              "Episcopal",
+              "Episcopalian"
+            ],
+            "note": "The tradition originating from the Church of England."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Baptist",
+              "Baptists"
+            ],
+            "note": "A Protestant tradition emphasizing believer's baptism."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Methodist",
+              "Methodism"
+            ],
+            "note": "A Protestant tradition founded by John Wesley."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Lutheran",
+              "Lutheranism"
+            ],
+            "note": "A Protestant tradition originating from Martin Luther's reforms."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Presbyterian",
+              "Presbyterianism"
+            ],
+            "note": "A Reformed tradition governed by elders."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pentecostal",
+              "Pentecostalism"
+            ],
+            "note": "A charismatic Christian movement emphasizing the Holy Spirit."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Adventist",
+              "Adventism",
+              "Seventh-day Adventist"
+            ],
+            "note": "A Protestant tradition emphasizing the Second Coming and the Sabbath."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anabaptist",
+              "Anabaptism"
+            ],
+            "note": "A radical Reformation tradition including Mennonites and Amish."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Congregational",
+              "Congregationalism"
+            ],
+            "note": "A Protestant tradition where each congregation governs itself; Minnesota Congregationalists founded Carleton College in 1866."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Churches of Christ",
+              "Church of Christ"
+            ],
+            "note": "A restorationist Christian tradition."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Evangelical",
+              "Evangelicalism"
+            ],
+            "note": "A Protestant movement emphasizing personal conversion and biblical authority."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Coptic",
+              "Coptic Orthodox",
+              "Coptic Church"
+            ],
+            "note": "An Oriental Orthodox church based in Egypt."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Armenian Orthodox",
+              "Armenian Apostolic",
+              "Armenian Church"
+            ],
+            "note": "An Oriental Orthodox church originating in Armenia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Syriac Orthodox",
+              "Syriac Orthodox Church"
+            ],
+            "note": "An Oriental Orthodox church from the Middle East."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ethiopian Orthodox",
+              "Ethiopian Orthodox Tewahedo"
+            ],
+            "note": "An Oriental Orthodox church based in Ethiopia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mennonite",
+              "Mennonites"
+            ],
+            "note": "An Anabaptist tradition known for pacifism and simple living."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Quaker",
+              "Quakers",
+              "Religious Society of Friends"
+            ],
+            "note": "A Protestant tradition emphasizing inner light and silent worship."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Amish",
+              "Amish",
+              "Amish Mennonite"
+            ],
+            "note": "An Anabaptist group known for simple living and separation from the world."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Salvation Army",
+              "The Salvation Army"
+            ],
+            "note": "A Methodist-derived Christian church known for charitable work."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Unitarian",
+              "Unitarianism"
+            ],
+            "note": "A liberal Christian tradition rejecting the Trinity."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jehovah's Witnesses",
+              "Jehovah's Witness"
+            ],
+            "note": "A restorationist Christian denomination known for door-to-door evangelism."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mormon",
+              "Mormonism",
+              "Latter-day Saint",
+              "LDS Church"
+            ],
+            "note": "A restorationist tradition founded by Joseph Smith."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Church of England",
+              "Anglican Church",
+              "C of E"
+            ],
+            "note": "The established church of England."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Greek Orthodox",
+              "Greek Orthodox Church"
+            ],
+            "note": "An Eastern Orthodox church based in Greece."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Russian Orthodox",
+              "Russian Orthodox Church"
+            ],
+            "note": "An Eastern Orthodox church based in Russia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Maronite",
+              "Maronite Catholic",
+              "Maronite Church"
+            ],
+            "note": "An Eastern Catholic church based in Lebanon."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Melkite",
+              "Melkite Greek Catholic"
+            ],
+            "note": "An Eastern Catholic church from the Middle East."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chaldean",
+              "Chaldean Catholic",
+              "Chaldean Church"
+            ],
+            "note": "An Eastern Catholic church from Iraq."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Assyrian Church of the East",
+              "Church of the East",
+              "Assyrian Church"
+            ],
+            "note": "An ancient Christian church from Mesopotamia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Old Catholic",
+              "Old Catholic Church"
+            ],
+            "note": "A group of independent Catholic churches."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Plymouth Brethren",
+              "Brethren",
+              "Open Brethren"
+            ],
+            "note": "A conservative Protestant movement."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Waldensian",
+              "Waldensians",
+              "Waldensian Church"
+            ],
+            "note": "A pre-Reformation Christian movement."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hussite",
+              "Hussites",
+              "Moravian Church"
+            ],
+            "note": "A pre-Reformation Christian movement from Bohemia."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lollard",
+              "Lollards"
+            ],
+            "note": "A pre-Reformation Christian movement from England."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a webmail provider.",
+        "source": "https://en.wikipedia.org/wiki/Comparison_of_webmail_providers",
+        "sourceNote": "Public webmail services and providers accepted. Current or widely recognized former names share one catch.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Gmail",
+              "Google Mail",
+              "gmail"
+            ],
+            "note": "Google's free webmail service."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Outlook",
+              "Outlook.com",
+              "Microsoft Outlook",
+              "Hotmail"
+            ],
+            "note": "Microsoft's webmail service."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Yahoo Mail",
+              "Yahoo",
+              "Yahoo! Mail"
+            ],
+            "note": "Yahoo's webmail service."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AOL Mail",
+              "AOL",
+              "AIM Mail"
+            ],
+            "note": "AOL's webmail service."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Proton Mail",
+              "ProtonMail",
+              "Proton"
+            ],
+            "note": "An encrypted webmail service based in Switzerland."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zoho Mail",
+              "Zoho"
+            ],
+            "note": "Zoho's webmail service for businesses and individuals."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GMX",
+              "GMX Mail"
+            ],
+            "note": "A German free webmail service."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mail.com",
+              "Mail.com"
+            ],
+            "note": "A free webmail service offering many domain choices."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "iCloud Mail",
+              "iCloud",
+              "Apple Mail"
+            ],
+            "note": "Apple's webmail service for iCloud users."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fastmail",
+              "FastMail"
+            ],
+            "note": "An independent paid webmail service."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hushmail",
+              "Hushmail"
+            ],
+            "note": "A privacy-focused encrypted webmail service."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tutanota",
+              "Tuta",
+              "Tutanota Mail"
+            ],
+            "note": "A secure encrypted webmail service from Germany."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yandex Mail",
+              "Yandex",
+              "Yandex.Mail"
+            ],
+            "note": "A Russian webmail service."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mail.ru",
+              "Mail.ru",
+              "Mailru"
+            ],
+            "note": "A Russian webmail service."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rediffmail",
+              "Rediff",
+              "Rediff Mail"
+            ],
+            "note": "An Indian webmail service."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lycos Mail",
+              "Lycos",
+              "Lycosmail"
+            ],
+            "note": "An older webmail service."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Juno",
+              "Juno Online",
+              "Juno Mail"
+            ],
+            "note": "An older email service provider."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "EarthLink",
+              "EarthLink Mail"
+            ],
+            "note": "An American webmail service."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Comcast",
+              "Comcast Mail",
+              "Xfinity Mail"
+            ],
+            "note": "Comcast's webmail service for customers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Verizon",
+              "Verizon Mail",
+              "AOL Mail (Verizon)"
+            ],
+            "note": "Verizon's webmail service."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a US state capital.",
+        "source": "https://en.wikipedia.org/wiki/List_of_capitals_in_the_United_States",
+        "sourceNote": "US state capitals accepted; state names are aliases only when the capital shares the state name.",
+        "answers": [
+          {
+            "points": 30,
+            "forms": [
+              "Montgomery"
+            ],
+            "note": "Capital of Alabama."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Juneau"
+            ],
+            "note": "Capital of Alaska."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Phoenix"
+            ],
+            "note": "Capital of Arizona."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Little Rock"
+            ],
+            "note": "Capital of Arkansas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sacramento"
+            ],
+            "note": "Capital of California."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Denver"
+            ],
+            "note": "Capital of Colorado."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hartford"
+            ],
+            "note": "Capital of Connecticut."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dover"
+            ],
+            "note": "Capital of Delaware."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tallahassee"
+            ],
+            "note": "Capital of Florida."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Atlanta"
+            ],
+            "note": "Capital of Georgia."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Honolulu"
+            ],
+            "note": "Capital of Hawaii."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boise"
+            ],
+            "note": "Capital of Idaho."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Springfield"
+            ],
+            "note": "Capital of Illinois."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Indianapolis"
+            ],
+            "note": "Capital of Indiana."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Des Moines"
+            ],
+            "note": "Capital of Iowa."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Topeka"
+            ],
+            "note": "Capital of Kansas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Frankfort"
+            ],
+            "note": "Capital of Kentucky."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Baton Rouge"
+            ],
+            "note": "Capital of Louisiana."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Augusta"
+            ],
+            "note": "Capital of Maine."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Annapolis"
+            ],
+            "note": "Capital of Maryland."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Boston"
+            ],
+            "note": "Capital of Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lansing"
+            ],
+            "note": "Capital of Michigan."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Saint Paul"
+            ],
+            "note": "Capital of Minnesota."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jackson"
+            ],
+            "note": "Capital of Mississippi."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jefferson City"
+            ],
+            "note": "Capital of Missouri."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Helena"
+            ],
+            "note": "Capital of Montana."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lincoln"
+            ],
+            "note": "Capital of Nebraska."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Carson City"
+            ],
+            "note": "Capital of Nevada."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Concord"
+            ],
+            "note": "Capital of New Hampshire."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Trenton"
+            ],
+            "note": "Capital of New Jersey."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Santa Fe"
+            ],
+            "note": "Capital of New Mexico."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Albany"
+            ],
+            "note": "Capital of New York."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Raleigh"
+            ],
+            "note": "Capital of North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bismarck"
+            ],
+            "note": "Capital of North Dakota."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Columbus"
+            ],
+            "note": "Capital of Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Oklahoma City"
+            ],
+            "note": "Capital of Oklahoma."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Salem"
+            ],
+            "note": "Capital of Oregon."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Harrisburg"
+            ],
+            "note": "Capital of Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Providence"
+            ],
+            "note": "Capital of Rhode Island."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Columbia"
+            ],
+            "note": "Capital of South Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pierre"
+            ],
+            "note": "Capital of South Dakota."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nashville"
+            ],
+            "note": "Capital of Tennessee."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Austin"
+            ],
+            "note": "Capital of Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Salt Lake City"
+            ],
+            "note": "Capital of Utah."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Montpelier"
+            ],
+            "note": "Capital of Vermont."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Richmond"
+            ],
+            "note": "Capital of Virginia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Olympia"
+            ],
+            "note": "Capital of Washington."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Charleston"
+            ],
+            "note": "Capital of West Virginia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Madison"
+            ],
+            "note": "Capital of Wisconsin."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cheyenne"
+            ],
+            "note": "Capital of Wyoming."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Washington D.C.",
+              "Washington, DC",
+              "Washington"
+            ],
+            "note": "Capital of the United States."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a medical specialty.",
+        "source": "https://en.wikipedia.org/wiki/Medical_specialty",
+        "sourceNote": "Recognized specialties and subspecialties accepted; common abbreviations accepted where unambiguous.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Cardiology",
+              "Cardiologist"
+            ],
+            "note": "The branch of medicine dealing with the heart and blood vessels."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Dermatology",
+              "Dermatologist"
+            ],
+            "note": "The branch of medicine dealing with the skin."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Neurology",
+              "Neurologist"
+            ],
+            "note": "The branch of medicine dealing with the nervous system."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Pediatrics",
+              "Pediatrician",
+              "Paediatrics"
+            ],
+            "note": "The branch of medicine dealing with children."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Oncology",
+              "Oncologist"
+            ],
+            "note": "The branch of medicine dealing with cancer."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Psychiatry",
+              "Psychiatrist"
+            ],
+            "note": "The branch of medicine dealing with mental health."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Orthopedics",
+              "Orthopedic surgery",
+              "Orthopaedics",
+              "Orthopaedic surgeon"
+            ],
+            "note": "The branch of medicine dealing with the musculoskeletal system."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Radiology",
+              "Radiologist"
+            ],
+            "note": "The branch of medicine using imaging to diagnose and treat disease."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Anesthesiology",
+              "Anesthesiologist",
+              "Anaesthesiology"
+            ],
+            "note": "The branch of medicine dealing with anesthesia and pain relief."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Obstetrics and gynecology",
+              "OB/GYN",
+              "Obstetrics and gynaecology"
+            ],
+            "note": "The branch of medicine dealing with pregnancy and the female reproductive system."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ophthalmology",
+              "Ophthalmologist"
+            ],
+            "note": "The branch of medicine dealing with the eyes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Otolaryngology",
+              "ENT",
+              "Ear nose and throat"
+            ],
+            "note": "The branch of medicine dealing with the ear nose and throat."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Urology",
+              "Urologist"
+            ],
+            "note": "The branch of medicine dealing with the urinary system."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gastroenterology",
+              "Gastroenterologist"
+            ],
+            "note": "The branch of medicine dealing with the digestive system."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Endocrinology",
+              "Endocrinologist"
+            ],
+            "note": "The branch of medicine dealing with hormones."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nephrology",
+              "Nephrologist"
+            ],
+            "note": "The branch of medicine dealing with the kidneys."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pulmonology",
+              "Pulmonologist"
+            ],
+            "note": "The branch of medicine dealing with the lungs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rheumatology",
+              "Rheumatologist"
+            ],
+            "note": "The branch of medicine dealing with autoimmune and inflammatory diseases."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hematology",
+              "Hematologist",
+              "Haematology"
+            ],
+            "note": "The branch of medicine dealing with blood."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Infectious diseases",
+              "Infectious disease specialist"
+            ],
+            "note": "The branch of medicine dealing with infections."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Family medicine",
+              "Family practice",
+              "General practice"
+            ],
+            "note": "The branch of medicine providing primary care for all ages."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Internal medicine",
+              "Internist"
+            ],
+            "note": "The branch of medicine dealing with adult diseases."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Emergency medicine",
+              "Emergency physician"
+            ],
+            "note": "The branch of medicine dealing with emergency care."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "General surgery",
+              "General surgeon"
+            ],
+            "note": "The branch of surgery dealing with a broad range of conditions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Neurosurgery",
+              "Neurosurgeon"
+            ],
+            "note": "The branch of surgery dealing with the nervous system."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Plastic surgery",
+              "Plastic surgeon"
+            ],
+            "note": "The branch of surgery dealing with reconstruction and cosmetics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cardiothoracic surgery",
+              "Cardiothoracic surgeon"
+            ],
+            "note": "The branch of surgery dealing with the heart and chest."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vascular surgery",
+              "Vascular surgeon"
+            ],
+            "note": "The branch of surgery dealing with blood vessels."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pediatric surgery",
+              "Paediatric surgeon"
+            ],
+            "note": "The branch of surgery dealing with children."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Colorectal surgery",
+              "Colorectal surgeon",
+              "Proctology"
+            ],
+            "note": "The branch of surgery dealing with the colon and rectum."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Transplant surgery",
+              "Transplant surgeon"
+            ],
+            "note": "The branch of surgery dealing with organ transplants."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Trauma surgery",
+              "Trauma surgeon"
+            ],
+            "note": "The branch of surgery dealing with traumatic injuries."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Surgical oncology",
+              "Surgical oncologist"
+            ],
+            "note": "The branch of surgery dealing with cancer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pathology",
+              "Pathologist"
+            ],
+            "note": "The branch of medicine dealing with the diagnosis of disease."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Clinical pathology",
+              "Clinical pathologist"
+            ],
+            "note": "The branch of pathology dealing with laboratory analysis."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Anatomic pathology",
+              "Anatomic pathologist"
+            ],
+            "note": "The branch of pathology dealing with tissue examination."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Forensic pathology",
+              "Forensic pathologist"
+            ],
+            "note": "The branch of pathology dealing with legal investigations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Neonatology",
+              "Neonatologist"
+            ],
+            "note": "The branch of pediatrics dealing with newborns."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geriatrics",
+              "Geriatrician"
+            ],
+            "note": "The branch of medicine dealing with the elderly."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Palliative care",
+              "Palliative medicine"
+            ],
+            "note": "The branch of medicine dealing with pain and symptom relief."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hospice and palliative medicine",
+              "Hospice medicine"
+            ],
+            "note": "The branch of medicine dealing with end-of-life care."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sports medicine",
+              "Sports medicine specialist"
+            ],
+            "note": "The branch of medicine dealing with athletic injuries."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Physical medicine and rehabilitation",
+              "Physiatry",
+              "PM&R"
+            ],
+            "note": "The branch of medicine dealing with rehabilitation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pain medicine",
+              "Pain management",
+              "Pain specialist"
+            ],
+            "note": "The branch of medicine dealing with chronic pain."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sleep medicine",
+              "Sleep specialist"
+            ],
+            "note": "The branch of medicine dealing with sleep disorders."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Allergy and immunology",
+              "Allergist",
+              "Immunologist"
+            ],
+            "note": "The branch of medicine dealing with allergies and immune disorders."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Medical genetics",
+              "Clinical genetics",
+              "Geneticist"
+            ],
+            "note": "The branch of medicine dealing with inherited conditions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nuclear medicine",
+              "Nuclear medicine specialist"
+            ],
+            "note": "The branch of medicine using radioactive substances for diagnosis and treatment."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Radiation oncology",
+              "Radiation oncologist"
+            ],
+            "note": "The branch of medicine using radiation to treat cancer."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Interventional radiology",
+              "Interventional radiologist"
+            ],
+            "note": "The branch of radiology using imaging to guide procedures."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Addiction medicine",
+              "Addiction specialist"
+            ],
+            "note": "The branch of medicine dealing with substance abuse."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Critical care medicine",
+              "Intensivist",
+              "ICU specialist"
+            ],
+            "note": "The branch of medicine dealing with critically ill patients."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Occupational medicine",
+              "Occupational health"
+            ],
+            "note": "The branch of medicine dealing with workplace health."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Aerospace medicine",
+              "Aviation medicine",
+              "Flight surgeon"
+            ],
+            "note": "The branch of medicine dealing with aviation and space travel."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Undersea and hyperbaric medicine",
+              "Hyperbaric medicine"
+            ],
+            "note": "The branch of medicine dealing with diving and hyperbaric oxygen therapy."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tropical medicine",
+              "Tropical disease specialist"
+            ],
+            "note": "The branch of medicine dealing with tropical diseases."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Travel medicine",
+              "Travel medicine specialist"
+            ],
+            "note": "The branch of medicine dealing with travel-related health."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a simple machine.",
+        "source": "https://en.wikipedia.org/wiki/Simple_machine",
+        "sourceNote": "The classical simple machines and common named forms accepted.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Lever",
+              "lever"
+            ],
+            "note": "A rigid bar that pivots on a fulcrum to multiply force."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Pulley",
+              "pulley"
+            ],
+            "note": "A wheel with a grooved rim that uses a rope or cable to lift loads."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wheel and axle",
+              "wheel and axle"
+            ],
+            "note": "A wheel attached to a smaller axle so they rotate together."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Inclined plane",
+              "inclined plane",
+              "ramp"
+            ],
+            "note": "A flat surface set at an angle to raise loads with less force."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Wedge",
+              "wedge"
+            ],
+            "note": "A triangular tool that converts force into splitting or cutting action."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Screw",
+              "screw"
+            ],
+            "note": "An inclined plane wrapped around a cylinder that converts rotation into linear force."
+          }
+        ]
+      },
+      {
+        "prompt": "Name one of the original 13 Italian brainrot characters.",
+        "source": "https://en.wikipedia.org/wiki/Italian_brainrot",
+        "sourceNote": "The 13 original characters only; shortened names accepted where unambiguous.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Tralalero Tralala",
+              "Tralalero"
+            ],
+            "note": "A three-legged shark wearing Nike sneakers that walks on land."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Bombardiro Crocodilo",
+              "Bombardiro Crocodilo"
+            ],
+            "note": "A crocodile-bomber plane hybrid with explosive antics."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Tung Tung Tung Sahur",
+              "Tung Tung Tung Sahur"
+            ],
+            "note": "A wooden humanoid that echoes the onomatopoeic calls of Sahur."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Ballerina Cappuccina",
+              "Ballerina Cappuccina"
+            ],
+            "note": "A cappuccino mug in a tutu, pirouetting through the madness."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Cappuccino Assassino",
+              "Cappuccino Assassino"
+            ],
+            "note": "A deadly espresso cup with a penchant for mischief."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bombombini Gusini",
+              "Bombombini Gusini"
+            ],
+            "note": "An explosive goose whose Grenade Egg is devastating."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lirili Larila",
+              "Lirili Larila"
+            ],
+            "note": "A singing cactus-elephant hybrid with charming musical abilities."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Chimpanzini Bananini",
+              "Chimpanzini Bananini"
+            ],
+            "note": "An indestructible chimpanzee with a banana as a head."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Brr Brr Patapim",
+              "Brr Brr Patapim"
+            ],
+            "note": "A ballet-dancing frog with a graceful combat style."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bobritto Bandito",
+              "Bobritto Bandito"
+            ],
+            "note": "A burrito bandit causing culinary chaos."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Trippi Troppi",
+              "Trippi Troppi"
+            ],
+            "note": "A psychedelic mushroom-frog with mind-bending psychic abilities."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Trulimero Trulicina",
+              "Trulimero Trulicina"
+            ],
+            "note": "A balloon pig that inflates for defense."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "La Vaca Saturno Saturnita",
+              "La Vaca Saturno Saturnita",
+              "Vaca Saturno Saturnita"
+            ],
+            "note": "A cosmic cow orbiting Saturn with devastating space-themed attacks."
+          }
+        ]
+      }
+    ]
   }
 ];
 window.DIVE_QUESTIONS = window.DIVE_DAYS.at(-1).questions;

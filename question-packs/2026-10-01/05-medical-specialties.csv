@@ -1,0 +1,58 @@
+ANSWER,Blurb,Worth
+Cardiology|Cardiologist,The branch of medicine dealing with the heart and blood vessels.,10
+Dermatology|Dermatologist,The branch of medicine dealing with the skin.,10
+Neurology|Neurologist,The branch of medicine dealing with the nervous system.,10
+Pediatrics|Pediatrician|Paediatrics,The branch of medicine dealing with children.,10
+Oncology|Oncologist,The branch of medicine dealing with cancer.,10
+Psychiatry|Psychiatrist,The branch of medicine dealing with mental health.,10
+Orthopedics|Orthopedic surgery|Orthopaedics|Orthopaedic surgeon,The branch of medicine dealing with the musculoskeletal system.,30
+Radiology|Radiologist,The branch of medicine using imaging to diagnose and treat disease.,10
+Anesthesiology|Anesthesiologist|Anaesthesiology,The branch of medicine dealing with anesthesia and pain relief.,30
+Obstetrics and gynecology|OB/GYN|Obstetrics and gynaecology,The branch of medicine dealing with pregnancy and the female reproductive system.,30
+Ophthalmology|Ophthalmologist,The branch of medicine dealing with the eyes.,30
+Otolaryngology|ENT|Ear nose and throat,The branch of medicine dealing with the ear nose and throat.,60
+Urology|Urologist,The branch of medicine dealing with the urinary system.,30
+Gastroenterology|Gastroenterologist,The branch of medicine dealing with the digestive system.,30
+Endocrinology|Endocrinologist,The branch of medicine dealing with hormones.,30
+Nephrology|Nephrologist,The branch of medicine dealing with the kidneys.,60
+Pulmonology|Pulmonologist,The branch of medicine dealing with the lungs.,60
+Rheumatology|Rheumatologist,The branch of medicine dealing with autoimmune and inflammatory diseases.,60
+Hematology|Hematologist|Haematology,The branch of medicine dealing with blood.,60
+Infectious diseases|Infectious disease specialist,The branch of medicine dealing with infections.,60
+Family medicine|Family practice|General practice,The branch of medicine providing primary care for all ages.,30
+Internal medicine|Internist,The branch of medicine dealing with adult diseases.,30
+Emergency medicine|Emergency physician,The branch of medicine dealing with emergency care.,30
+General surgery|General surgeon,The branch of surgery dealing with a broad range of conditions.,30
+Neurosurgery|Neurosurgeon,The branch of surgery dealing with the nervous system.,60
+Plastic surgery|Plastic surgeon,The branch of surgery dealing with reconstruction and cosmetics.,30
+Cardiothoracic surgery|Cardiothoracic surgeon,The branch of surgery dealing with the heart and chest.,60
+Vascular surgery|Vascular surgeon,The branch of surgery dealing with blood vessels.,60
+Pediatric surgery|Paediatric surgeon,The branch of surgery dealing with children.,60
+Colorectal surgery|Colorectal surgeon|Proctology,The branch of surgery dealing with the colon and rectum.,85
+Transplant surgery|Transplant surgeon,The branch of surgery dealing with organ transplants.,85
+Trauma surgery|Trauma surgeon,The branch of surgery dealing with traumatic injuries.,60
+Surgical oncology|Surgical oncologist,The branch of surgery dealing with cancer.,85
+Pathology|Pathologist,The branch of medicine dealing with the diagnosis of disease.,60
+Clinical pathology|Clinical pathologist,The branch of pathology dealing with laboratory analysis.,85
+Anatomic pathology|Anatomic pathologist,The branch of pathology dealing with tissue examination.,85
+Forensic pathology|Forensic pathologist,The branch of pathology dealing with legal investigations.,85
+Neonatology|Neonatologist,The branch of pediatrics dealing with newborns.,85
+Geriatrics|Geriatrician,The branch of medicine dealing with the elderly.,60
+Palliative care|Palliative medicine,The branch of medicine dealing with pain and symptom relief.,60
+Hospice and palliative medicine|Hospice medicine,The branch of medicine dealing with end-of-life care.,85
+Sports medicine|Sports medicine specialist,The branch of medicine dealing with athletic injuries.,60
+Physical medicine and rehabilitation|Physiatry|PM&R,The branch of medicine dealing with rehabilitation.,85
+Pain medicine|Pain management|Pain specialist,The branch of medicine dealing with chronic pain.,60
+Sleep medicine|Sleep specialist,The branch of medicine dealing with sleep disorders.,60
+Allergy and immunology|Allergist|Immunologist,The branch of medicine dealing with allergies and immune disorders.,60
+Medical genetics|Clinical genetics|Geneticist,The branch of medicine dealing with inherited conditions.,60
+Nuclear medicine|Nuclear medicine specialist,The branch of medicine using radioactive substances for diagnosis and treatment.,85
+Radiation oncology|Radiation oncologist,The branch of medicine using radiation to treat cancer.,60
+Interventional radiology|Interventional radiologist,The branch of radiology using imaging to guide procedures.,85
+Addiction medicine|Addiction specialist,The branch of medicine dealing with substance abuse.,85
+Critical care medicine|Intensivist|ICU specialist,The branch of medicine dealing with critically ill patients.,60
+Occupational medicine|Occupational health,The branch of medicine dealing with workplace health.,85
+Aerospace medicine|Aviation medicine|Flight surgeon,The branch of medicine dealing with aviation and space travel.,100
+Undersea and hyperbaric medicine|Hyperbaric medicine,The branch of medicine dealing with diving and hyperbaric oxygen therapy.,100
+Tropical medicine|Tropical disease specialist,The branch of medicine dealing with tropical diseases.,100
+Travel medicine|Travel medicine specialist,The branch of medicine dealing with travel-related health.,100

@@ -1,0 +1,14 @@
+ANSWER,Blurb,Worth
+Tralalero Tralala|Tralalero,A three-legged shark wearing Nike sneakers that walks on land.,10
+Bombardiro Crocodilo|Bombardiro Crocodilo,A crocodile-bomber plane hybrid with explosive antics.,10
+Tung Tung Tung Sahur|Tung Tung Tung Sahur,A wooden humanoid that echoes the onomatopoeic calls of Sahur.,10
+Ballerina Cappuccina|Ballerina Cappuccina,A cappuccino mug in a tutu, pirouetting through the madness.,10
+Cappuccino Assassino|Cappuccino Assassino,A deadly espresso cup with a penchant for mischief.,10
+Bombombini Gusini|Bombombini Gusini,An explosive goose whose Grenade Egg is devastating.,30
+Lirili Larila|Lirili Larila,A singing cactus-elephant hybrid with charming musical abilities.,30
+Chimpanzini Bananini|Chimpanzini Bananini,An indestructible chimpanzee with a banana as a head.,30
+Brr Brr Patapim|Brr Brr Patapim,A ballet-dancing frog with a graceful combat style.,30
+Bobritto Bandito|Bobritto Bandito,A burrito bandit causing culinary chaos.,30
+Trippi Troppi|Trippi Troppi,A psychedelic mushroom-frog with mind-bending psychic abilities.,60
+Trulimero Trulicina|Trulimero Trulicina,A balloon pig that inflates for defense.,85
+La Vaca Saturno Saturnita|La Vaca Saturno Saturnita|Vaca Saturno Saturnita,A cosmic cow orbiting Saturn with devastating space-themed attacks.,100
