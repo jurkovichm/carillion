@@ -16141,7 +16141,7 @@ window.DIVE_DAYS = [
     "label": "03 Oct 2026",
     "questions": [
       {
-        "prompt": "Name a NATO phonetic alphabet term.",
+        "prompt": "Name a NATO phonetic alphabet word. (e.g. 'Alpha', etc.)",
         "source": "https://en.wikipedia.org/wiki/NATO_phonetic_alphabet",
         "sourceNote": "The 26 code words; spelling variants (Alfa/Alpha, Juliett/Juliet, Whiskey/Whisky, X-ray/Xray) accepted.",
         "answers": [
@@ -17143,7 +17143,7 @@ window.DIVE_DAYS = [
         ]
       },
       {
-        "prompt": "Name an Advice Animal meme.",
+        "prompt": "Name an Advice Animal meme. (Those square Top-Text/Bottom-Text memes like Bad Luck Brian. Not always animal-based.)",
         "source": "https://knowyourmeme.com/memes/6701",
         "sourceNote": "Named Advice Animal characters; shortened and alternate names accepted. Closely related names share one catch.",
         "answers": [
