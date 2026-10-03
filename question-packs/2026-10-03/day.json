@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-20",
+  "label": "20 Oct 2026",
+  "questions": [
+    {
+      "prompt": "Name a NATO phonetic alphabet term.",
+      "source": "https://en.wikipedia.org/wiki/NATO_phonetic_alphabet",
+      "sourceNote": "The 26 code words; spelling variants (Alfa/Alpha, Juliett/Juliet, Whiskey/Whisky, X-ray/Xray) accepted.",
+      "csv": "01-nato-phonetic-alphabet.csv"
+    },
+    {
+      "prompt": "Name a US Founding Father.",
+      "source": "https://en.wikipedia.org/wiki/Founding_Fathers_of_the_United_States",
+      "sourceNote": "Signers of the Declaration of Independence or the Constitution, plus John Jay. Full names accepted; surnames accepted when unambiguous.",
+      "csv": "02-founding-fathers.csv"
+    },
+    {
+      "prompt": "Name a member of the Fellowship of the Ring.",
+      "source": "https://en.wikipedia.org/wiki/The_Fellowship_of_the_Ring",
+      "sourceNote": "The nine original members; first names, surnames and common nicknames accepted.",
+      "csv": "03-fellowship-of-the-ring.csv"
+    },
+    {
+      "prompt": "Name an Advice Animal meme.",
+      "source": "https://knowyourmeme.com/memes/6701",
+      "sourceNote": "Named Advice Animal characters; shortened and alternate names accepted. Closely related names share one catch.",
+      "csv": "04-advice-animals.csv"
+    },
+    {
+      "prompt": "Name a gift from the 12 Days of Christmas.",
+      "source": "https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)",
+      "sourceNote": "The twelve gifts; singular, plural and alternate wordings accepted.",
+      "csv": "05-twelve-days-gifts.csv"
+    },
+    {
+      "prompt": "Name a country the Prime Meridian passes through.",
+      "source": "https://en.wikipedia.org/wiki/Prime_meridian_(Greenwich)",
+      "sourceNote": "The eight countries crossed by the Greenwich meridian; common names accepted.",
+      "csv": "06-prime-meridian-countries.csv"
+    },
+    {
+      "prompt": "Name a light source mentioned in \"All of the Lights\" by Kanye West.",
+      "source": "https://en.wikipedia.org/wiki/All_of_the_Lights",
+      "sourceNote": "Light sources named in the song's lyrics; singular and plural forms accepted.",
+      "csv": "07-all-of-the-lights.csv"
+    }
+  ]
+}
