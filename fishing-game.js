@@ -65,9 +65,8 @@ function installFishingUI(){
   $('#answerResult').setAttribute('role','status');
   $('#descendNote').setAttribute('role','status');
   $('#playAgain').textContent='BACK TO THE RIVER';
-  $('#summaryScreen .summary-head').insertAdjacentHTML('afterend',`<div class="summary-share" role="group" aria-label="Share results"><div class="share-buttons"><button type="button" id="copyScore">Copy score</button><button type="button" id="copyAnswers">Copy answers (spoilers!)</button></div><p id="shareStatus" role="status"></p><textarea id="sharePreview" class="hidden" readonly aria-label="Results to copy" rows="8"></textarea></div>`);
-  $('#copyScore').onclick=()=>copyCatchSummary(false);
-  $('#copyAnswers').onclick=()=>copyCatchSummary(true);
+  $('#summaryScreen .summary-head').insertAdjacentHTML('afterend',`<div class="summary-share" role="group" aria-label="Share results"><div class="share-buttons"><button type="button" id="copyScore">Copy score</button></div><p id="shareStatus" role="status"></p><textarea id="sharePreview" class="hidden" readonly aria-label="Results to copy" rows="8"></textarea></div>`);
+  $('#copyScore').onclick=()=>copyCatchSummary();
   selectFisherman(selectedFisherman);
   characterSpritesReady.then(()=>{$('#assetStatus').textContent='';selectFisherman(selectedFisherman);}).catch(error=>{assetFailure=true;$('#assetStatus').textContent=error.message+' Reload to try again.';$('#confirmCharacter').disabled=true;});
 }
@@ -266,27 +265,17 @@ resolve=function(typed,match,timedOut){
   if(match&&roundState.phase==='question'){$('#answerInput').value=typed;$('#answerForm').requestSubmit();}
 };
 
-function catchShareText(spoilers=false){
-  const fishCount=roundLog.reduce((total,record)=>total+(record?.catches?.length||0),0);
-  const heading=`CARILLION 🎣${spoilers?' - ANSWERS (SPOILERS!)':''}\n${matchDay.label} · ${modeLabel()}\n${score} points · ${fishCount} fish`;
+function catchShareText(){
+  const date=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(matchDay.id+'T00:00:00Z')).replace('Sept','Sep');
   const rarityEmoji={10:'🥏',15:'😛',30:'🎓',60:'🧠',85:'🧬',100:'🤯'};
   const rounds=questions.map((question,i)=>{
     const record=roundLog[i],catches=record?.catches||[];
-    if(spoilers){
-      const answers=catches.length?catches.map(c=>`- ${c.name} (${signedPoints(c.points)} pts)`).join('\n'):'- No correct answers';
-      const loot=record?.loot?`\n- ${record.loot.name} (${signedPoints(record.loot.points)} pts)`:'';
-      return `${i+1}. ${question.prompt}\n${answers}${loot}`;
-    }
     const best=catches.reduce((top,c)=>!top||c.points>top.points?c:top,null);
     const emoji=best?(rarityEmoji[best.points]||'🐟'):'';
     const empty=({boot:'🥾',skeleton:'🦴',bottle:'🍾'})[record?.loot?.kind]||'➖';
     return emoji||empty;
   });
-  if(!spoilers){
-    const date=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(matchDay.id+'T00:00:00Z')).replace('Sept','Sep');
-    return `Carillion ${date}\n${rounds.join('')}\n${score} pts`;
-  }
-  return `${heading}\n\n${rounds.join('\n\n')}\n\nhttps://jurkovichm.github.io/carillion/`;
+  return `Carillion ${date}\n${rounds.join('')}\n${score} pts`;
 }
 function copyCatchFallback(text){
   const field=document.createElement('textarea'),previous=document.activeElement;
@@ -295,9 +284,9 @@ function copyCatchFallback(text){
   try{return document.execCommand('copy');}catch{return false;}
   finally{field.remove();previous?.focus({preventScroll:true});}
 }
-async function copyCatchSummary(spoilers){
+async function copyCatchSummary(){
   if(roundState.phase!=='summary')return;
-  const text=catchShareText(spoilers),buttons=[$('#copyScore'),$('#copyAnswers')];
+  const text=catchShareText(),buttons=[$('#copyScore')];
   buttons.forEach(button=>button.disabled=true);
   $('#shareStatus').textContent='';$('#sharePreview').classList.add('hidden');
   let copied=false;
@@ -307,7 +296,7 @@ async function copyCatchSummary(spoilers){
   if(!copied)copied=copyCatchFallback(text);
   buttons.forEach(button=>button.disabled=false);
   if(roundState.phase!=='summary')return;
-  $('#shareStatus').textContent=copied?(spoilers?'Answers copied (spoilers!)':'Score copied'):'Clipboard unavailable. Your text is selected below.';
+  $('#shareStatus').textContent=copied?'Score copied':'Clipboard unavailable. Your text is selected below.';
   if(!copied){
     const preview=$('#sharePreview');preview.value=text;preview.classList.remove('hidden');preview.focus({preventScroll:true});preview.select();
   }
@@ -327,10 +316,14 @@ showSummary=function(){
   const gear=document.createElement('p');gear.className='earned-gear';gear.textContent=rewardStage?['','Graduation cap earned','Cap + gown earned','Cap + gown + distinction ribbons earned'][rewardStage]:'Next milestone: graduation cap at 200 points';$('#summaryDepth').after(gear);
   $('#catchList').querySelectorAll('.catch-row').forEach((detail,i)=>{
     const record=roundLog[i];if(!record)return;
-    detail.querySelector('.catch-answer').textContent=record.catches.length?record.catches.length+' fish':record.loot?.name||'No catch';
-    const points=detail.querySelector('.catch-points');points.textContent=signedPoints(record.points);points.removeAttribute('data-rank');
+    const answerEl=detail.querySelector('.catch-answer');
+    if(record.catches.length)answerEl.innerHTML=record.catches.map(c=>`<span class="catch-name" data-rank="${rankClass(c.points)}">${escapeHTML(c.name)}</span>`).join(', ');
+    else answerEl.textContent=record.loot?.name||'No catch';
+    const points=detail.querySelector('.catch-points');points.textContent=signedPoints(record.points);
+    const best=record.catches.reduce((top,c)=>!top||c.points>top.points?c:top,null);
+    if(best)points.dataset.rank=rankClass(best.points);else points.removeAttribute('data-rank');
     const list=document.createElement('div');list.className='round-catches';
-    list.innerHTML='<h3>YOUR CATCH</h3>'+record.catches.map(c=>`<div><span>${escapeHTML(c.name)}</span><b>${signedPoints(c.points)}</b></div>`).join('');
+    list.innerHTML='<h3>YOUR CATCH</h3>'+record.catches.map(c=>`<div><span>${escapeHTML(c.name)}</span><b data-rank="${rankClass(c.points)}">${signedPoints(c.points)}</b></div>`).join('');
     if(record.loot){list.innerHTML+=`<div><span>${escapeHTML(record.loot.name)}</span><b>${signedPoints(record.loot.points)}</b></div>`;if(record.loot.fact)list.innerHTML+=`<p>${escapeHTML(record.loot.fact.text)} <a href="${escapeHTML(record.loot.fact.source)}" target="_blank" rel="noreferrer">Source</a></p>`;}
     detail.querySelector('.catch-body').prepend(list);
     detail.querySelectorAll('.bank-answer').forEach(row=>{if(record.catches.some(c=>c.name===row.querySelector('span')?.textContent))row.classList.add('caught-answer');});
