@@ -16135,6 +16135,1632 @@ window.DIVE_DAYS = [
         ]
       }
     ]
+  },
+  {
+    "id": "2026-10-03",
+    "label": "03 Oct 2026",
+    "questions": [
+      {
+        "prompt": "Name a NATO phonetic alphabet term.",
+        "source": "https://en.wikipedia.org/wiki/NATO_phonetic_alphabet",
+        "sourceNote": "The 26 code words; spelling variants (Alfa/Alpha, Juliett/Juliet, Whiskey/Whisky, X-ray/Xray) accepted.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Alfa",
+              "Alpha"
+            ],
+            "note": "Code word for A; 'Alfa' is the official spelling."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Bravo"
+            ],
+            "note": "Code word for B."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Charlie"
+            ],
+            "note": "Code word for C."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Delta"
+            ],
+            "note": "Code word for D."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Echo"
+            ],
+            "note": "Code word for E."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Foxtrot"
+            ],
+            "note": "Code word for F, named for a ballroom dance. Easy to remember from Whiskey Tango Foxtrot."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Golf"
+            ],
+            "note": "Code word for G."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hotel"
+            ],
+            "note": "Code word for H."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Tango"
+            ],
+            "note": "Code word for T, named for a dance. Easy to remember from Whiskey Tango Foxtrot."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kilo"
+            ],
+            "note": "Code word for K."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lima"
+            ],
+            "note": "Code word for L, named for Peru's capital."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mike"
+            ],
+            "note": "Code word for M."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Romeo"
+            ],
+            "note": "Code word for R."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Victor"
+            ],
+            "note": "Code word for V."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Whiskey",
+              "Whisky"
+            ],
+            "note": "Code word for W. Easy to remember from Whiskey Tango Foxtrot."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "India"
+            ],
+            "note": "Code word for I."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Juliett",
+              "Juliet"
+            ],
+            "note": "Code word for J; spelled with two t's so it isn't silent in French."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "November"
+            ],
+            "note": "Code word for N, the only month name in the alphabet."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Oscar"
+            ],
+            "note": "Code word for O."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Papa"
+            ],
+            "note": "Code word for P."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sierra"
+            ],
+            "note": "Code word for S."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Uniform"
+            ],
+            "note": "Code word for U."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Quebec"
+            ],
+            "note": "Code word for Q, pronounced 'keh-BECK'."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "X-ray",
+              "Xray",
+              "X ray"
+            ],
+            "note": "Code word for X."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yankee"
+            ],
+            "note": "Code word for Y."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zulu"
+            ],
+            "note": "Code word for Z, also used for UTC time."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a US Founding Father.",
+        "source": "https://en.wikipedia.org/wiki/Founding_Fathers_of_the_United_States",
+        "sourceNote": "Signers of the Declaration of Independence or the Constitution, plus John Jay. Full names accepted; surnames accepted when unambiguous.",
+        "answers": [
+          {
+            "points": 85,
+            "forms": [
+              "Josiah Bartlett",
+              "Bartlett"
+            ],
+            "note": "Signed the Declaration of Independence for New Hampshire."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Whipple",
+              "Whipple"
+            ],
+            "note": "Signed the Declaration of Independence for New Hampshire."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Matthew Thornton",
+              "Thornton"
+            ],
+            "note": "Signed the Declaration of Independence for New Hampshire."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Samuel Adams"
+            ],
+            "note": "Boston patriot and Declaration signer."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "John Adams"
+            ],
+            "note": "Pushed for independence in Congress and became the second president."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "John Hancock",
+              "Hancock"
+            ],
+            "note": "President of the Continental Congress; known for his large signature."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Robert Treat Paine",
+              "Paine"
+            ],
+            "note": "Signed the Declaration of Independence for Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Elbridge Gerry",
+              "Gerry"
+            ],
+            "note": "Declaration signer; later vice president, namesake of 'gerrymandering'."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stephen Hopkins",
+              "Hopkins"
+            ],
+            "note": "Signed the Declaration of Independence for Rhode Island."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Ellery",
+              "Ellery"
+            ],
+            "note": "Signed the Declaration of Independence for Rhode Island."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Roger Sherman",
+              "Sherman"
+            ],
+            "note": "Signed the Declaration and Constitution (and the Articles of Confederation)."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Samuel Huntington",
+              "Huntington"
+            ],
+            "note": "Signed the Declaration of Independence for Connecticut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Williams",
+              "Williams"
+            ],
+            "note": "Signed the Declaration of Independence for Connecticut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Oliver Wolcott",
+              "Wolcott"
+            ],
+            "note": "Signed the Declaration of Independence for Connecticut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Floyd",
+              "Floyd"
+            ],
+            "note": "Signed the Declaration of Independence for New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Philip Livingston"
+            ],
+            "note": "Signed the Declaration of Independence for New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Francis Lewis",
+              "Lewis"
+            ],
+            "note": "Signed the Declaration of Independence for New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lewis Morris"
+            ],
+            "note": "Signed the Declaration of Independence for New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Richard Stockton",
+              "Stockton"
+            ],
+            "note": "Signed the Declaration of Independence for New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "John Witherspoon",
+              "Witherspoon"
+            ],
+            "note": "Only clergyman to sign the Declaration; president of Princeton."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Francis Hopkinson",
+              "Hopkinson"
+            ],
+            "note": "Declaration signer credited with designing an early U.S. flag."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "John Hart",
+              "Hart"
+            ],
+            "note": "Signed the Declaration of Independence for New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Abraham Clark",
+              "Clark"
+            ],
+            "note": "Signed the Declaration of Independence for New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Robert Morris"
+            ],
+            "note": "Financier of the Revolution who signed both the Declaration and the Constitution."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benjamin Rush",
+              "Rush"
+            ],
+            "note": "Physician who signed the Declaration for Pennsylvania."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Benjamin Franklin",
+              "Franklin"
+            ],
+            "note": "Statesman and inventor who signed both the Declaration and the Constitution."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "John Morton",
+              "Morton"
+            ],
+            "note": "Signed the Declaration of Independence for Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "George Clymer",
+              "Clymer"
+            ],
+            "note": "Signed both the Declaration and the Constitution for Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "James Smith",
+              "Smith"
+            ],
+            "note": "Signed the Declaration of Independence for Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "George Taylor",
+              "Taylor"
+            ],
+            "note": "Signed the Declaration of Independence for Pennsylvania."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "James Wilson",
+              "Wilson"
+            ],
+            "note": "Signed both the Declaration and the Constitution for Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "George Ross",
+              "Ross"
+            ],
+            "note": "Signed the Declaration of Independence for Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Caesar Rodney",
+              "Rodney"
+            ],
+            "note": "His overnight ride helped break Delaware's tie on independence."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "George Read",
+              "Read"
+            ],
+            "note": "Signed both the Declaration and the Constitution for Delaware."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thomas McKean",
+              "McKean"
+            ],
+            "note": "Signed the Declaration of Independence for Delaware."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Samuel Chase",
+              "Chase"
+            ],
+            "note": "Signed the Declaration of Independence for Maryland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Paca",
+              "Paca"
+            ],
+            "note": "Signed the Declaration of Independence for Maryland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thomas Stone",
+              "Stone"
+            ],
+            "note": "Signed the Declaration of Independence for Maryland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Charles Carroll of Carrollton",
+              "Charles Carroll",
+              "Carrollton"
+            ],
+            "note": "The last surviving Declaration signer."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "George Wythe",
+              "Wythe"
+            ],
+            "note": "Signed the Declaration of Independence for Virginia."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Richard Henry Lee"
+            ],
+            "note": "Proposed the resolution for independence."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Thomas Jefferson",
+              "Jefferson"
+            ],
+            "note": "Depends on who you ask."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benjamin Harrison",
+              "Harrison"
+            ],
+            "note": "Virginia signer whose son and great-grandson became presidents."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thomas Nelson Jr.",
+              "Thomas Nelson",
+              "Nelson"
+            ],
+            "note": "Signed the Declaration of Independence for Virginia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Francis Lightfoot Lee"
+            ],
+            "note": "Signed the Declaration of Independence for Virginia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Carter Braxton",
+              "Braxton"
+            ],
+            "note": "Signed the Declaration of Independence for Virginia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Hooper",
+              "Hooper"
+            ],
+            "note": "Signed the Declaration of Independence for North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Joseph Hewes",
+              "Hewes"
+            ],
+            "note": "Signed the Declaration of Independence for North Carolina."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John Penn",
+              "Penn"
+            ],
+            "note": "Signed the Declaration of Independence for North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Edward Rutledge"
+            ],
+            "note": "Signed the Declaration of Independence for South Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thomas Heyward Jr.",
+              "Thomas Heyward",
+              "Heyward"
+            ],
+            "note": "Signed the Declaration of Independence for South Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thomas Lynch Jr.",
+              "Thomas Lynch",
+              "Lynch"
+            ],
+            "note": "Signed the Declaration of Independence for South Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Arthur Middleton",
+              "Middleton"
+            ],
+            "note": "Signed the Declaration of Independence for South Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Button Gwinnett",
+              "Gwinnett"
+            ],
+            "note": "Georgia signer whose rare autograph is among the most valuable."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lyman Hall",
+              "Hall"
+            ],
+            "note": "Signed the Declaration of Independence for Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "George Walton",
+              "Walton"
+            ],
+            "note": "Signed the Declaration of Independence for Georgia."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "George Washington",
+              "Washington"
+            ],
+            "note": "Commanded the Continental Army and became the first president; signed the Constitution."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Alexander Hamilton",
+              "Hamilton"
+            ],
+            "note": "WHAT'S HIS NAME MAN?"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "James Madison",
+              "Madison"
+            ],
+            "note": "Father of the Constitution and fourth president."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gouverneur Morris"
+            ],
+            "note": "Penned much of the final text of the Constitution, including the Preamble."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Gunning Bedford Jr.",
+              "Gunning Bedford",
+              "Bedford"
+            ],
+            "note": "Delaware delegate who signed the Constitution."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Richard Bassett",
+              "Bassett"
+            ],
+            "note": "Signed the Constitution for Delaware."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Jacob Broom",
+              "Broom"
+            ],
+            "note": "Signed the Constitution for Delaware. Did not use a broom."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "John Dickinson",
+              "Dickinson"
+            ],
+            "note": "Delaware delegate known as the 'Penman of the Revolution'; signed the Constitution."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nathaniel Gorham",
+              "Gorham"
+            ],
+            "note": "Signed the Constitution for Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rufus King",
+              "King"
+            ],
+            "note": "Signed the Constitution for Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "William Samuel Johnson",
+              "Johnson"
+            ],
+            "note": "Signed the Constitution for Connecticut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jonathan Dayton",
+              "Dayton"
+            ],
+            "note": "Signed the Constitution for New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Livingston"
+            ],
+            "note": "Signed the Constitution for New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "David Brearley",
+              "Brearley"
+            ],
+            "note": "Signed the Constitution for New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Paterson",
+              "Paterson"
+            ],
+            "note": "Author of the New Jersey Plan; signed the Constitution."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thomas Mifflin",
+              "Mifflin"
+            ],
+            "note": "Pennsylvania delegate who signed the Constitution."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thomas FitzSimons",
+              "FitzSimons"
+            ],
+            "note": "Signed the Constitution for Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jared Ingersoll",
+              "Ingersoll"
+            ],
+            "note": "Signed the Constitution for Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Daniel Carroll",
+              "Carroll"
+            ],
+            "note": "Maryland delegate who signed the Constitution."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "James McHenry",
+              "McHenry"
+            ],
+            "note": "Signed the Constitution for Maryland."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Daniel of St. Thomas Jenifer",
+              "Daniel Jenifer",
+              "Jenifer"
+            ],
+            "note": "Maryland delegate who signed the Constitution; known for his memorable name."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "John Blair",
+              "Blair"
+            ],
+            "note": "Signed the Constitution for Virginia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hugh Williamson",
+              "Williamson"
+            ],
+            "note": "Signed the Constitution for North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Blount",
+              "Blount"
+            ],
+            "note": "Signed the Constitution for North Carolina."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Richard Dobbs Spaight",
+              "Richard Spaight",
+              "Spaight"
+            ],
+            "note": "Signed the Constitution for North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "John Rutledge"
+            ],
+            "note": "Signed the Constitution for South Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Charles Pinckney"
+            ],
+            "note": "Signed the Constitution for South Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Charles Cotesworth Pinckney",
+              "C. C. Pinckney"
+            ],
+            "note": "Signed the Constitution for South Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pierce Butler",
+              "Butler"
+            ],
+            "note": "Signed the Constitution for South Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Abraham Baldwin",
+              "Baldwin"
+            ],
+            "note": "Signed the Constitution for Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Few",
+              "Few"
+            ],
+            "note": "Signed the Constitution for Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nicholas Gilman",
+              "Gilman"
+            ],
+            "note": "Signed the Constitution for New Hampshire."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "John Langdon",
+              "Langdon"
+            ],
+            "note": "Signed the Constitution for New Hampshire."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "John Jay",
+              "Jay"
+            ],
+            "note": "Federalist Papers co-author and first chief justice; not a signer of either document."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a member of the Fellowship of the Ring.",
+        "source": "https://en.wikipedia.org/wiki/The_Fellowship_of_the_Ring",
+        "sourceNote": "The nine original members; first names, surnames and common nicknames accepted.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Frodo Baggins",
+              "Frodo"
+            ],
+            "note": "The hobbit Ring-bearer."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Gandalf",
+              "Gandalf the Grey",
+              "Mithrandir"
+            ],
+            "note": "The wizard who guides the Fellowship."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Samwise Gamgee",
+              "Sam",
+              "Samwise",
+              "Sam Gamgee"
+            ],
+            "note": "Frodo's loyal gardener and friend."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Aragorn",
+              "Strider",
+              "Elessar"
+            ],
+            "note": "Ranger and heir of Isildur."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Legolas",
+              "Legolas Greenleaf"
+            ],
+            "note": "Elf archer of Mirkwood."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gimli",
+              "Gimli son of Gloin"
+            ],
+            "note": "Dwarf warrior, son of Gloin."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boromir"
+            ],
+            "note": "Man of Gondor and son of Denethor."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Meriadoc Brandybuck",
+              "Merry",
+              "Merry Brandybuck",
+              "Meriadoc"
+            ],
+            "note": "Hobbit cousin of Frodo and Pippin."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Peregrin Took",
+              "Pippin",
+              "Pippin Took",
+              "Peregrin"
+            ],
+            "note": "Hobbit cousin of Frodo and Merry."
+          }
+        ]
+      },
+      {
+        "prompt": "Name an Advice Animal meme.",
+        "source": "https://knowyourmeme.com/memes/6701",
+        "sourceNote": "Named Advice Animal characters; shortened and alternate names accepted. Closely related names share one catch.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Bad Luck Brian"
+            ],
+            "note": "Teen in a sweater vest with a run of misfortune."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Scumbag Steve"
+            ],
+            "note": "Man in a hat who behaves selfishly."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Good Guy Greg",
+              "Good Guy Gregory"
+            ],
+            "note": "Friendly guy meant as the opposite of Scumbag Steve."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Success Kid"
+            ],
+            "note": "Toddler with a clenched fist after a small win."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Overly Attached Girlfriend",
+              "OAG"
+            ],
+            "note": "Clingy girlfriend with an intense stare."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Philosoraptor"
+            ],
+            "note": "Thinking velociraptor who poses odd philosophical questions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Forever Alone"
+            ],
+            "note": "Rage comic face about loneliness."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Y U No Guy",
+              "Y U No",
+              "Why You No"
+            ],
+            "note": "Rage comic character demanding 'Y U NO' things."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Advice Dog"
+            ],
+            "note": "The original advice animal, a colorful-background dog giving advice."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Insanity Wolf"
+            ],
+            "note": "Wolf offering reckless, extreme advice."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Courage Wolf"
+            ],
+            "note": "Wolf offering bold, encouraging advice."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Condescending Wonka",
+              "Creepy Wonka"
+            ],
+            "note": "Willy Wonka with a smug face."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Socially Awkward Penguin"
+            ],
+            "note": "Penguin who is awkward in social situations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Confession Bear"
+            ],
+            "note": "Sun bear leaning on a log, admitting guilty thoughts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Paranoid Parrot"
+            ],
+            "note": "Parrot that worries about everything."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ridiculously Photogenic Guy",
+              "Zeddie Little"
+            ],
+            "note": "Runner who shows up looking great in a photo."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "First World Problems",
+              "First World Problems Girl",
+              "Whiny Girl"
+            ],
+            "note": "Crying woman who complains about minor annoyances."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Actual Advice Mallard",
+              "Good Advice Mallard"
+            ],
+            "note": "Mallard on a color wheel who gives real advice."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Scumbag Stacy"
+            ],
+            "note": "The female counterpart to Scumbag Steve."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Annoying Facebook Girl"
+            ],
+            "note": "Woman who posts irritating updates."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Conspiracy Keanu"
+            ],
+            "note": "Keanu Reeves wondering about conspiracies."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Business Cat"
+            ],
+            "note": "Cat in a suit and tie with workplace jokes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Foul Bachelor Frog",
+              "Bachelor Frog"
+            ],
+            "note": "Frog who lives with careless bachelor habits."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sheltering Suburban Mom"
+            ],
+            "note": "Overprotective mother character."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hipster Barista"
+            ],
+            "note": "Coffee-shop hipster with ironic opinions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Unhelpful High School Teacher"
+            ],
+            "note": "Teacher with unhelpful classroom lines."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Third World Success Kid"
+            ],
+            "note": "Child celebrating a small victory in a hard setting."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Skeptical Baby"
+            ],
+            "note": "Baby giving a doubtful look."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ermahgerd",
+              "Ermahgerd Girl",
+              "Gersberms"
+            ],
+            "note": "Girl excitedly hugging books, with comic misspellings."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Misunderstood D-Bag",
+              "Misunderstood Mitch"
+            ],
+            "note": "Popped-collar frat guy who excuses his behavior."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Overly Manly Man"
+            ],
+            "note": "Intense man with a macho persona."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lame Pun Coon"
+            ],
+            "note": "Raccoon that tells groan-worthy puns."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pickup Line Panda"
+            ],
+            "note": "Panda with terrible pickup lines."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Scumbag Brain"
+            ],
+            "note": "Brain that sabotages you at the worst moments."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Malicious Advice Mallard",
+              "Angry Advice Mallard"
+            ],
+            "note": "Mallard giving harmful advice, opposite of the helpful one."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Socially Awesome Penguin"
+            ],
+            "note": "Penguin who is smooth in social situations, the opposite of the awkward one."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Liberal Redneck"
+            ],
+            "note": "Rural character with unexpected progressive views."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Good Guy Steve"
+            ],
+            "note": "Friendly counterpart to Scumbag Steve."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rich Raven"
+            ],
+            "note": "Raven dressed in formal wear with fancy tastes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sudden Clarity Clarence"
+            ],
+            "note": "Man having sudden realizations about everyday things."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Redneck Randal"
+            ],
+            "note": "Man in a hat with country stereotype jokes."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a gift from the 12 Days of Christmas.",
+        "source": "https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)",
+        "sourceNote": "The twelve gifts; singular, plural and alternate wordings accepted.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Partridge in a pear tree",
+              "Partridge",
+              "A partridge",
+              "A partridge in a pear tree",
+              "Pear tree",
+              "Partridge in a pear"
+            ],
+            "note": "The gift on day one."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Turtle doves",
+              "Turtle dove",
+              "Turtledoves",
+              "Doves"
+            ],
+            "note": "The gift on day two."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "French hens",
+              "French hen",
+              "Hens"
+            ],
+            "note": "The gift on day three."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Calling birds",
+              "Colly birds",
+              "Collie birds",
+              "Calling bird",
+              "Colly bird"
+            ],
+            "note": "The gift on day four (originally 'colly' birds)."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gold rings",
+              "Golden rings",
+              "Gold ring",
+              "Golden ring",
+              "Rings"
+            ],
+            "note": "The gift on day five."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Geese a-laying",
+              "Geese",
+              "Goose",
+              "Geese a laying",
+              "Laying geese",
+              "Geese laying"
+            ],
+            "note": "The gift on day six."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Swans a-swimming",
+              "Swans",
+              "Swan",
+              "Swans a swimming",
+              "Swimming swans"
+            ],
+            "note": "The gift on day seven."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Maids a-milking",
+              "Maids",
+              "Milkmaids",
+              "Maids a milking",
+              "Milking maids"
+            ],
+            "note": "The gift on day eight."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ladies dancing",
+              "Ladies",
+              "Dancing ladies",
+              "Lady dancing"
+            ],
+            "note": "The gift on day nine."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lords a-leaping",
+              "Lords",
+              "Lords a leaping",
+              "Leaping lords"
+            ],
+            "note": "The gift on day ten."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pipers piping",
+              "Pipers",
+              "Piper",
+              "Piping pipers"
+            ],
+            "note": "Ayo"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Drummers drumming",
+              "Drummers",
+              "Drummer",
+              "Drumming drummers"
+            ],
+            "note": "The gift on day twelve."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a country the Prime Meridian passes through.",
+        "source": "https://en.wikipedia.org/wiki/Prime_meridian_(Greenwich)",
+        "sourceNote": "The eight countries crossed by the Greenwich meridian; common names accepted.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "United Kingdom",
+              "UK",
+              "Great Britain",
+              "Britain",
+              "England",
+              "U.K."
+            ],
+            "note": "Greenwich in England is the home of the line."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "France"
+            ],
+            "note": "The line runs north to south through the western part of the country."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Spain"
+            ],
+            "note": "The line meets the Mediterranean coast in eastern Spain."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Algeria"
+            ],
+            "note": "The first North African country along the line, heading south."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ghana"
+            ],
+            "note": "The line passes through the port city of Tema."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mali"
+            ],
+            "note": "A large West African country crossed by the line."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Togo"
+            ],
+            "note": "A narrow West African country crossed by the line."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Burkina Faso",
+              "Upper Volta"
+            ],
+            "note": "A landlocked West African country crossed by the line."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a light source mentioned in \"All of the Lights\" by Kanye West.",
+        "source": "https://en.wikipedia.org/wiki/All_of_the_Lights",
+        "sourceNote": "Light sources named in the song's lyrics; singular and plural forms accepted.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Lights",
+              "Light",
+              "The lights"
+            ],
+            "note": "The generic light named in the song's title."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flashlights",
+              "Flashlight",
+              "Flash light",
+              "Flash lights"
+            ],
+            "note": "Handheld battery-powered lights."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spotlights",
+              "Spotlight",
+              "Spot light",
+              "Spot lights"
+            ],
+            "note": "Focused beams that single out a performer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Street lights",
+              "Street light",
+              "Streetlights",
+              "Streetlight",
+              "Street lamp",
+              "Street lamps",
+              "Streetlamp",
+              "Streetlamps"
+            ],
+            "note": "Lamps lining roads at night."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Strobe lights",
+              "Strobe light",
+              "Strobes",
+              "Strobe"
+            ],
+            "note": "Rapid flashing lights used at clubs and concerts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cop lights",
+              "Cop light",
+              "Police lights",
+              "Police light",
+              "Cop car lights",
+              "Police car lights"
+            ],
+            "note": "Emergency lights on police cars."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Shooting stars",
+              "Shooting star",
+              "Falling stars",
+              "Falling star",
+              "Meteors",
+              "Meteor"
+            ],
+            "note": "Meteors streaking across the night sky."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fast cars",
+              "Fast car",
+              "Cars",
+              "Car",
+              "Car headlights",
+              "Headlights"
+            ],
+            "note": "Rhymes with Shooting Stars. Unclear if a light source; hopefully headlights are on."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Vegas",
+              "Las Vegas",
+              "Las Vegas lights",
+              "Vegas lights",
+              "The Vegas Strip"
+            ],
+            "note": "He wants the all of the lights until it is quote Vegas everywhere we are unquote"
+          }
+        ]
+      }
+    ]
   }
 ];
 window.DIVE_QUESTIONS = window.DIVE_DAYS.at(-1).questions;
