@@ -8,9 +8,10 @@ bridgeImage.onload=()=>{
  ctx.drawImage(bridgeImage,0,0,320,534);
  // One fixed pixel grid and palette: no blended shades within a pixel.
  const palette=['#073d40','#084b52','#0b5968','#11687b','#177d88','#26989b','#48b9b1','#77cbbc','#113e2d','#175535','#216944','#287d46','#36964c','#4aaa51','#68b957','#87ca63','#a6d875','#c0e58f','#343b3b','#465452','#5c6d63','#819382','#a6b49a','#cbd1af','#e5dfb9','#49382d','#634632','#815a39','#a17143','#bc9155','#d5ad6c','#efcd87'].map(c=>[1,3,5].map(i=>parseInt(c.slice(i,i+2),16)));
- const pixels=ctx.getImageData(0,0,320,534);
+ try{const pixels=ctx.getImageData(0,0,320,534);
  for(let i=0;i<pixels.data.length;i+=4){let best=palette[0],distance=Infinity;for(const color of palette){const d=(pixels.data[i]-color[0])**2+(pixels.data[i+1]-color[1])**2+(pixels.data[i+2]-color[2])**2;if(d<distance){distance=d;best=color}}pixels.data[i]=best[0];pixels.data[i+1]=best[1];pixels.data[i+2]=best[2];}
- ctx.putImageData(pixels,0,0);bridgeReady=true;
+ ctx.putImageData(pixels,0,0);}catch(error){/* file:// pages taint the canvas; keep the unquantized bridge. */}
+ bridgeReady=true;
 };
 bridgeImage.src='assets/fishing-world-extended.png';
 const observatoryImage=new Image();
@@ -103,8 +104,8 @@ animateScene = function(now){
  p.strokeStyle='#e3ecd870';p.beginPath();p.ellipse(bobX,bobY+7,18+Math.sin(t*3)*5,5,0,0,Math.PI*2);p.stroke();
  if(typeof shoreCatches!=='undefined')shoreCatches.forEach((item,i)=>{const pos=shoreCatchPosition(i);drawCatchItem(item,pos.x,pos.y,i%2?.15:-.12);});
  if(fishingCatch?.revealed){
-   const a=reducedFishingMotion?1:Math.max(0,Math.min(1,(now-fishingCatch.revealedAt)/CATCH_FLIGHT_MS)),target=fishingCatch.target;
-   drawCatchItem(fishingCatch,1100+(target.x-1100)*a,756+(target.y-756)*a-Math.sin(a*Math.PI)*275,reducedFishingMotion?0:-.6+a*1.1);
+   const quick=typeof isQuickMode==='function'&&isQuickMode(),a=reducedFishingMotion||quick?1:Math.max(0,Math.min(1,(now-fishingCatch.revealedAt)/CATCH_FLIGHT_MS)),target=fishingCatch.target;
+   drawCatchItem(fishingCatch,1100+(target.x-1100)*a,756+(target.y-756)*a-Math.sin(a*Math.PI)*275,reducedFishingMotion||quick?0:-.6+a*1.1);
  }
  p.restore();
 };

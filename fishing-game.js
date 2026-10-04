@@ -7,6 +7,15 @@ const bottleFacts=[
   {text:'Students have been stealing and revealing the Schiller bust since 1957.',source:'https://hhfinals.dgah.sites.carleton.edu/mascots/schiller/index.html'}
 ];
 const shoreCatches=[];
+// Quick mode (Settings): skips the catch pause and animations so runs can be tested fast.
+let quickMode=false;
+try{quickMode=localStorage.getItem('carillion-quick-mode')==='on';}catch{}
+function isQuickMode(){return quickMode;}
+function setQuickMode(on){
+  quickMode=!!on;document.body.classList.toggle('quick-mode',quickMode);
+  try{localStorage.setItem('carillion-quick-mode',quickMode?'on':'off');}catch{}
+}
+document.body.classList.toggle('quick-mode',quickMode);
 const roundState={phase:'home',remainingMs:ROUND_MS,deadline:0,peakScore:0,epoch:0,record:null};
 let lastBottleFact=-1,assetFailure=false;
 let selectedDay=window.DIVE_DAYS.at(-1),selectedMode='single';
@@ -22,20 +31,19 @@ const legacyShow=show;
 close=function(){modal.classList.remove('open');};
 show=function(title,body){
   if(roundState.phase==='question')pauseRoundClock();
+  if(title==='SETTINGS'){
+    body=body.replace('Catch sounds, bottle narration, and the post-game song.','Catch sounds and the post-game song.')
+      +`<p class="quick-setting"><label><input type="checkbox" id="quickMode"${quickMode?' checked':''}> Quick mode</label></p><p>Skips the catch pause and animations, for testing.</p>`;
+  }
   legacyShow(title,body);
 };
+modal.addEventListener('change',e=>{if(e.target.id==='quickMode')setQuickMode(e.target.checked);});
 const modalChanges=new MutationObserver(()=>{
   if(!modal.classList.contains('open')&&roundState.phase==='question'&&!timer)resumeRoundClock();
 });
 modalChanges.observe(modal,{attributes:true,attributeFilter:['class']});
 
 function stopSpeech(){if('speechSynthesis' in window)window.speechSynthesis.cancel();}
-function speakFact(fact){
-  stopSpeech();
-  if(!soundEnabled||!('speechSynthesis' in window)||!('SpeechSynthesisUtterance' in window))return;
-  const utterance=new SpeechSynthesisUtterance(fact.text);utterance.rate=.95;
-  window.speechSynthesis.speak(utterance);
-}
 const previousSoundButton=soundButton;
 soundButton=function(){previousSoundButton();if(!soundEnabled){stopSpeech();almaMater.pause();}};
 
@@ -231,7 +239,6 @@ function reelCatch(item,endsQuestion){
     $('#answerNote').textContent=item.fact?.text||(item.match?(item.match.note||postAnswerFact(round,item.match)):'No fish this question. The lake sent a consolation prize.');
     $('#descendNote').classList.add('hidden');$('#answerResult').classList.remove('hidden');
     fx(item.kind==='fish'?'answer':item.kind==='bottle'?'surface':'miss',Math.max(0,item.points));
-    if(item.fact)speakFact(item.fact);
     // Start landing from the actual reveal so delayed timers cannot skip the flight.
     later(()=>{
       shoreCatches.push(item);if(item.kind==='fish')caughtFish.push(item);
@@ -240,8 +247,8 @@ function reelCatch(item,endsQuestion){
       if(used.size===questions[round].answers.length){roundState.record.reason='all-caught';completeQuestion();return;}
       $('#lastCatch').textContent=item.name+' · '+scoreTiers[item.points]+' · +'+item.points;
       $('#lastCatch').classList.remove('hidden');showQuestionInput();
-    },CATCH_FLIGHT_MS+CATCH_SETTLE_MS);
-  },CATCH_REVEAL_MS);
+    },quickMode?0:CATCH_FLIGHT_MS+CATCH_SETTLE_MS);
+  },quickMode?0:CATCH_REVEAL_MS);
 }
 function completeQuestion(keepResult=false){
   pauseRoundClock();roundState.phase='roundEnd';fishingBusy=false;
@@ -322,10 +329,13 @@ showSummary=function(){
       :'<span class="answer-none">No answer</span>';
     const points=detail.querySelector('.catch-points');points.textContent=signedPoints(record.points);
     // One catch: color the total by its rarity. Several: the total is a sum, so keep it neutral.
-    if(record.catches.length===1)points.dataset.rank=rankClass(record.catches[0].points);else points.removeAttribute('data-rank');
+    const lootRank=record.loot?(record.loot.points<0?'rank-miss':'rank-bottle'):'';
+    if(record.catches.length===1)points.dataset.rank=rankClass(record.catches[0].points);
+    else if(!record.catches.length&&lootRank)points.dataset.rank=lootRank;
+    else points.removeAttribute('data-rank');
     const list=document.createElement('div');list.className='round-catches';
     list.innerHTML='<h3>YOUR CATCH</h3>'+record.catches.map(c=>`<div data-rank="${rankClass(c.points)}"><span>${escapeHTML(c.name)}</span><b>${signedPoints(c.points)}</b></div>`).join('');
-    if(record.loot){list.innerHTML+=`<div><span>${escapeHTML(record.loot.name)}</span><b>${signedPoints(record.loot.points)}</b></div>`;if(record.loot.fact)list.innerHTML+=`<p>${escapeHTML(record.loot.fact.text)} <a href="${escapeHTML(record.loot.fact.source)}" target="_blank" rel="noreferrer">Source</a></p>`;}
+    if(record.loot){list.innerHTML+=`<div data-rank="${lootRank}"><span>${escapeHTML(record.loot.name)}</span><b>${signedPoints(record.loot.points)}</b></div>`;if(record.loot.fact)list.innerHTML+=`<p>${escapeHTML(record.loot.fact.text)} <a href="${escapeHTML(record.loot.fact.source)}" target="_blank" rel="noreferrer">Source</a></p>`;}
     detail.querySelector('.catch-body').prepend(list);
     detail.querySelectorAll('.bank-answer').forEach(row=>{if(record.catches.some(c=>c.name===row.querySelector('span')?.textContent))row.classList.add('caught-answer');});
   });
