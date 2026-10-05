@@ -14,8 +14,8 @@ try {
 catch {
 }
 let rewardStage = 0;
-const characterFrames = [], lootFrames = {};
-function sampleSprite(image, x, y, width, height, targetHeight) {
+const characterFrames = [], lootFrames = {}, fishSprites = {};
+function sampleSprite(image, x, y, width, height, targetHeight, maxWidth = Infinity) {
   const source = document.createElement('canvas');
   source.width = width;
   source.height = height;
@@ -34,15 +34,14 @@ function sampleSprite(image, x, y, width, height, targetHeight) {
   if (left > right)
     return source;
   const sprite = document.createElement('canvas');
-  sprite.height = targetHeight;
-  sprite.width = Math.max(1, Math.round((right - left + 1) / (bottom - top + 1) * targetHeight));
+  const ratio = (right - left + 1) / (bottom - top + 1);
+  sprite.height = Math.max(1, Math.min(targetHeight, Math.round(maxWidth / ratio)));
+  sprite.width = Math.max(1, Math.round(ratio * sprite.height));
   const out = sprite.getContext('2d');
   out.imageSmoothingEnabled = false;
   out.drawImage(source, left, top, right - left + 1, bottom - top + 1, 0, 0, sprite.width, sprite.height);
-  const pixels = out.getImageData(0, 0, sprite.width, sprite.height);
-  for (let i = 3; i < pixels.data.length; i += 4)
-    pixels.data[i] = pixels.data[i] > 128 ? 255 : 0;
-  out.putImageData(pixels, 0, 0);
+  // Keep the generated artwork's native edge detail. The previous 32-pixel
+  // reduction and binary-alpha pass made every catch look overly chunky.
   return sprite;
 }
 const characterAtlas = new Image();
@@ -62,12 +61,24 @@ const characterSpritesReady = new Promise((resolve, reject) => {
   characterAtlas.onerror = () => reject(new Error('Character artwork could not load.'));
 });
 characterAtlas.src = 'assets/fishermen-atlas.png';
-const lootAtlas = new Image();
-lootAtlas.onload = () => {
-  const cw = Math.floor(lootAtlas.naturalWidth / 3), ch = lootAtlas.naturalHeight;
-  ['boot', 'skeleton', 'bottle'].forEach((kind, col) => lootFrames[kind] = sampleSprite(lootAtlas, col * cw, 0, cw, ch, 32));
+// New lake-themed fish and loot share one crisp, transparent sprite pipeline.
+const catchSpriteFiles = {
+  10: 'sunny-crappie', 15: 'derpy-goldfish', 30: 'bass',
+  60: 'walleye', 85: 'rainbow-trout', 100: 'pike',
+  boot: 'old-boot', bottle: 'message-bottle', skeleton: 'skeleton-fish'
 };
-lootAtlas.src = 'assets/loot-atlas.png';
+const catchSpritesReady = Promise.all(Object.entries(catchSpriteFiles).map(([key, file]) => new Promise((resolve, reject) => {
+  const image = new Image();
+  image.onload = () => {
+    const fish = Number.isFinite(Number(key));
+    const sprite = sampleSprite(image, 0, 0, image.naturalWidth, image.naturalHeight, 128, fish ? (Number(key) < 60 ? 192 : 240) : 192);
+    (fish ? fishSprites : lootFrames)[key] = sprite;
+    resolve();
+  };
+  image.onerror = () => reject(new Error(`Catch artwork could not load: ${file}`));
+  image.src = `assets/catches/${file}.png`;
+})));
+catchSpritesReady.catch(() => {});
 function drawFisherman(time, tension = 0, pull = 0, resting = false) {
   const sprite = characterFrames[rewardStage]?.[selectedFisherman];
   // Pivot at planted feet: the angler leans back as the rod sweeps upward.

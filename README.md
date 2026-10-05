@@ -19,6 +19,7 @@ The application is static HTML, CSS, and JavaScript. It has no backend, npm buil
 - **Single-cast** is the default: the first correct answer ends the question, and the result remains until Next Cast.
 - **Multi-cast** accepts multiple unique answers until time runs out or the player finishes the question. Aliases of a caught answer cannot score again.
 - Answers score 10, 15, 30, 60, 85, or 100 points. These are curated rarity tiers. Spelling suggestions require another submission to confirm.
+- Settings includes a CRT effect slider (0–100%) with live scanlines, phosphor texture, and edge shading. Its strength is saved across visits.
 - The answer clock pauses during catches and settings dialogs. Bites last 0.65s (10), 2.4s (15), 1s (30), 1.8s (60), 3.4s (85), or 4.4s (100), then the revealed catch lands in a woven basket over another 1.5s. The float dips and runs, the rod bends under tension, and the angler yanks back to set the hook before pumping the rod and reeling the fish in with a splash. A visible downstream current carries broken highlights and dark troughs into small bank-side eddies. It is masked to the water and stays still with reduced motion. Reduced motion shortens this sequence; Settings → Quick mode skips it.
 - An empty question earns a boot or skeleton for −5 points. Give Up has a 10% chance of a zero-point bottle containing a sourced Carleton fact. Ending after a successful catch has no penalty. Scores may be negative.
 - Graduation gear unlocks at 200, 300, and 350 points, using the highest score reached during the game. Gear survives later penalties and resets for the next game.
@@ -33,7 +34,7 @@ The application is static HTML, CSS, and JavaScript. It has no backend, npm buil
 | `fishing.css` | Fishing presentation and responsive overrides |
 | `game-core.js` | Shared DOM helpers, sound, answer matching, legacy fact fallbacks, answer-bank rendering |
 | `game-ui.js` | Settings interactions and the Schiller companion |
-| `fishing-sprites.js` | Angler/loot atlas sampling and sprite drawing |
+| `fishing-sprites.js` | Angler atlas and fish/loot sprite sampling and drawing |
 | `fishing.js` | Canvas scene, viewport sizing, fish drawing, and catch animation |
 | `fishing-game.js` | Gameplay state, clock, day/mode selection, catches, rewards, and sharing |
 | `question-packs/` | Editable daily question manifests and CSVs |
@@ -65,4 +66,4 @@ node tests/game.cjs
 
 Browser tests require Playwright and an installed browser. Set `PLAYWRIGHT_MODULE` to its module path if it is not locally installed, and `BROWSER_CHANNEL=msedge` or `chrome` to use an installed browser. They start a temporary local server and check desktop, mobile, landscape, and reduced-motion layouts, both cast modes, catch timing, sharing, settings pauses, and quick-mode penalties. Screenshots are written to `/private/tmp`.
 
-Artwork lives in `assets/` and `sprites/`; see [art notes](assets/FISHING-ART.md). The active fish come from `sprites/NewRiverFishAssetPack1.0`.
+Artwork lives in `assets/` and `sprites/`; see [art notes](assets/FISHING-ART.md). The active fish and loot are original lake-themed pixel sprites in `assets/catches/`; their generation prompts are recorded alongside them.

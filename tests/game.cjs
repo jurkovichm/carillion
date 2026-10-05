@@ -21,7 +21,31 @@ const server = http.createServer((req, res) => {
       page.on('pageerror', error => errors.push(error.message));
       await page.clock.install();
       await page.goto(`http://127.0.0.1:${server.address().port}/index.html`);
-      await page.evaluate(() => characterSpritesReady);
+      await page.evaluate(() => Promise.all([characterSpritesReady, catchSpritesReady]));
+      assert(await page.evaluate(() => [...Object.values(fishSprites), ...Object.values(lootFrames)].length === 9));
+      assert(await page.evaluate(() => [...Object.values(fishSprites), ...Object.values(lootFrames)].every(sprite => {
+        const data = sprite.getContext('2d').getImageData(0, 0, sprite.width, sprite.height).data;
+        return data.some((value, index) => index % 4 === 3 && value > 0)
+          && data.some((value, index) => index % 4 === 3 && value === 0);
+      })));
+      // CRT changes immediately, supports keyboard adjustment, and survives reloads.
+      await page.getByRole('button', { name: 'Open settings' }).click();
+      await page.locator('#crtStrength').focus();
+      await page.locator('#crtStrength').press('End');
+      assert.equal(await page.locator('#crtValue').textContent(), '100%');
+      assert.equal(await page.locator('#crtEffect').evaluate(el => getComputedStyle(el).opacity), '1');
+      assert.equal(await page.locator('#crtEffect').evaluate(el => getComputedStyle(el).pointerEvents), 'none');
+      await page.screenshot({ path: `/private/tmp/carillion-crt-settings-${width}.png` });
+      await page.reload();
+      await page.evaluate(() => Promise.all([characterSpritesReady, catchSpritesReady]));
+      await page.getByRole('button', { name: 'Open settings' }).click();
+      assert.equal(await page.locator('#crtStrength').inputValue(), '100');
+      await page.locator('#crtStrength').focus();
+      await page.locator('#crtStrength').press('Home');
+      assert.equal(await page.locator('#crtValue').textContent(), 'Off');
+      assert.equal(await page.locator('#crtEffect').isVisible(), false);
+      assert.equal(await page.evaluate(() => localStorage.getItem('carillion-crt-strength')), '0');
+      await page.getByRole('button', { name: 'Close', exact: true }).click();
       assert.equal(await page.locator('[name=castMode]:checked').inputValue(), 'single');
       assert.equal(await page.locator('#selectDay').inputValue(), await page.evaluate(() => window.DIVE_DAYS.at(-1).id));
       await page.locator('#selectDay').selectOption('2026-09-29');

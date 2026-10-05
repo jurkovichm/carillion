@@ -49,11 +49,15 @@ function show(title, body) {
     pauseRoundClock();
   if (title === 'SETTINGS')
     body = body.replace('Catch sounds, bottle narration, and the post-game song.', 'Catch sounds and the post-game song.')
+      + `<div class="crt-setting"><label for="crtStrength">CRT effect <output id="crtValue" for="crtStrength">${crtStrength ? crtStrength + '%' : 'Off'}</output></label><input id="crtStrength" type="range" min="0" max="100" step="1" value="${crtStrength}" aria-valuetext="${crtStrength ? crtStrength + '%' : 'Off'}" aria-describedby="crtDescription"><div class="crt-range-labels"><span>Off</span><span>Strong</span></div><p id="crtDescription">Scanlines, phosphor texture, and soft screen edges.</p></div>`
       + `<p class="quick-setting"><label><input type="checkbox" id="quickMode"${quickMode ? ' checked' : ''}> Quick mode</label></p><p>Skips the catch pause and animations, for testing.</p>`;
   content.innerHTML = `<h2>${title}</h2>${body}`;
   modal.classList.add('open');
   fx('tap');
 }
+modal.addEventListener('input', e => {
+  if (e.target.id === 'crtStrength') setCrtStrength(e.target.value);
+});
 modal.addEventListener('change', e => {
   if (e.target.id === 'quickMode')
     setQuickMode(e.target.checked);
@@ -273,7 +277,7 @@ async function begin() {
   roundState.phase = 'loading';
   $('#begin').disabled = true;
   try {
-    await Promise.all([characterSpritesReady, basketSpritesReady]);
+    await Promise.all([characterSpritesReady, basketSpritesReady, catchSpritesReady]);
   }
   catch {
     assetFailure = true;

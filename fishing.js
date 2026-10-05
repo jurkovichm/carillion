@@ -101,13 +101,6 @@ observatoryImage.onload = () => {
   observatoryReady = true;
 };
 observatoryImage.src = 'assets/observatory.png';
-const fishSprites = {};
-const fishFiles = { 10: 'Cenrarchidae/Panfish/bluegill_panfish.png', 15: 'Percidae/Perch/yellow_perch.png', 30: 'Cenrarchidae/Bass/large_mouth_bass.png', 60: 'Percidae/Walleye/walleye.png', 85: 'Ictaluridae/Catfish/channel_catfish.png', 100: 'Esocidae/Muskie/muskie.png' };
-Object.entries(fishFiles).forEach(([points, path]) => {
-  const img = new Image();
-  img.src = 'sprites/NewRiverFishAssetPack1.0/' + path;
-  fishSprites[points] = img;
-});
 // Matched back/front atlas layers let the wicker occlude the catch naturally.
 const basketAtlas = new Image();
 const basket = { x: 180, y: 480, width: 225, height: 225, mouthY: 467.5 };
@@ -125,10 +118,9 @@ function drawBasketLayer(front = false) {
 }
 const caughtFish = [];
 let fishingCatch = null;
-const fishColors = { 10: '#b5c4a2', 15: '#e6a354', 30: '#68c9cf', 60: '#e67668', 85: '#b99be9', 100: '#ffe080' };
 const reducedFishingMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 // Bobber keyframes: [progress, horizontal run, depth, line tension].
-// Perch toys with the bait; catfish makes a heavy run; muskie feints then surges.
+// Goldfish toys with the bait; trout makes a heavy run; pike feints then surges.
 const BITE_ORIGIN = { x: 1040, y: 920 };
 const BITE_PROFILES = {
   10: { duration: 650, beats: [[0,0,0,0],[.3,3,5,.15],[.65,8,18,.55],[1,12,28,.8]] },
@@ -196,40 +188,16 @@ function updateFishingViewport() {
   resizeScene();
 }
 function drawCatchFish(x, y, points, rotation = 0) {
+  const sprite = fishSprites[points];
+  if (!sprite) return;
   const p = paint, s = 2 * (1 + points / 180) * (innerWidth < 650 ? 1.6 : 1);
   p.save();
   p.translate(x, y);
   p.rotate(rotation);
   p.scale(s, s);
-  const sprite = fishSprites[points];
-  if (sprite?.complete && sprite.naturalWidth) {
-    p.imageSmoothingEnabled = false;
-    const width = points >= 60 ? 65 : 45, height = width * sprite.naturalHeight / sprite.naturalWidth;
-    p.drawImage(sprite, -width / 2, -height / 2, width, height);
-    p.restore();
-    return;
-  }
-  p.fillStyle = '#16392c70';
-  p.fillRect(-15, 7, 32, 4);
-  p.fillStyle = fishColors[points];
-  p.beginPath();
-  p.moveTo(-13, 0);
-  p.lineTo(-22, -9);
-  p.lineTo(-22, 9);
-  p.closePath();
-  p.fill();
-  p.fillRect(-13, -7, 24, 14);
-  p.fillRect(-8, -10, 15, 20);
-  p.fillRect(11, -4, 5, 8);
-  p.fillStyle = '#fff5ce99';
-  p.fillRect(-6, -6, 14, 3);
-  p.fillRect(-7, 5, 16, 3);
-  p.fillStyle = '#234039';
-  p.fillRect(8, -4, 3, 3);
-  p.fillRect(-4, -2, 2, 5);
-  p.fillRect(1, -2, 2, 5);
-  p.fillStyle = fishColors[points];
-  p.fillRect(-5, -14, 7, 5);
+  p.imageSmoothingEnabled = false;
+  const width = points >= 60 ? 65 : 45, height = width * sprite.height / sprite.width;
+  p.drawImage(sprite, -width / 2, -height / 2, width, height);
   p.restore();
 }
 function shoreCatchPosition(index) {

@@ -1,4 +1,25 @@
 // Shared settings, modal, and companion interactions.
+// Adjustable CRT finish applies to scenery and interface without intercepting input.
+let crtStrength = 25;
+try {
+  const saved = localStorage.getItem('carillion-crt-strength');
+  if (saved !== null && Number.isFinite(Number(saved))) crtStrength = Number(saved);
+} catch {}
+function setCrtStrength(value, persist = true) {
+  crtStrength = Math.max(0, Math.min(100, Math.round(Number(value) || 0)));
+  const effect = $('#crtEffect');
+  effect.style.setProperty('--crt-strength', crtStrength / 100);
+  effect.hidden = crtStrength === 0;
+  const label = crtStrength ? `${crtStrength}%` : 'Off';
+  const slider = $('#crtStrength'), output = $('#crtValue');
+  if (slider) { slider.value = crtStrength; slider.setAttribute('aria-valuetext', label); }
+  if (output) output.textContent = label;
+  if (persist) {
+    try { localStorage.setItem('carillion-crt-strength', String(crtStrength)); } catch {}
+  }
+}
+setCrtStrength(crtStrength, false);
+
 $('#modal').onclick = e => {
   if (e.target === modal)
     close();

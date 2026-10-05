@@ -1,6 +1,6 @@
 # Fishing characters and loot
 
-Created with the built-in image-generation tool from the approved three-character concept sheet and the user's boot/skeleton/bottle reference. Sources remain unchanged. Atlases are sampled with nearest-neighbour scaling; character frames become 56-pixel-high sprites and loot becomes 32-pixel-high sprites. Character row gutters are recorded explicitly in `fishing-sprites.js`.
+Created with the built-in image-generation tool from the approved three-character concept sheet and new lake-themed catch concepts. Sources remain unchanged. Atlases are sampled with nearest-neighbour scaling; character frames become 56-pixel-high sprites and catches use a bounded pixel grid. Character row gutters are recorded explicitly in `fishing-sprites.js`.
 
 ## Character prompt
 
@@ -8,11 +8,23 @@ Create a production game character sprite atlas using the three approved fisherm
 
 Output: `fishermen-atlas.png`.
 
-## Loot prompt
+## Fish and loot sprites
 
-Extract and recreate the three reference fishing loot items as a clean pixel-art sprite strip with a transparent background: old brown boot on left, ivory fish skeleton in the middle, teal glass message bottle with cork on right. Exactly three equal-width cells in one horizontal row, centered items, clear margins, full silhouettes, no labels or shadows. Preserve reference designs, orientations, and colors; hard square pixels suitable for 32×32 icons. Wide 3:1 canvas.
+Original sprites were generated from scratch using the built-in image-generation tool, with `fishing-world-extended.png` as the style/palette reference and transparent backgrounds. Full prompts are saved in [catches/PROMPTS.md](catches/PROMPTS.md). The generated PNGs preserve their original alpha; the renderer trims transparent margins and samples a higher-resolution nearest-neighbour canvas so the generated detail remains visible at game scale.
 
-Output: `loot-atlas.png`.
+| Points / kind | File | Catch |
+| --- | --- | --- |
+| 10 | `catches/sunny-crappie.png` | Sunny / crappie |
+| 15 | `catches/derpy-goldfish.png` | Derpy goldfish |
+| 30 | `catches/bass.png` | Bass |
+| 60 | `catches/walleye.png` | Walleye |
+| 85 | `catches/rainbow-trout.png` | Rainbow trout |
+| 100 | `catches/pike.png` | Pike |
+| boot | `catches/old-boot.png` | Mossy old leather boot |
+| bottle | `catches/message-bottle.png` | Sea-green glass bottle with a scroll |
+| skeleton | `catches/skeleton-fish.png` | Ivory skeleton fish |
+
+Gameplay waits for all nine catch sprites before starting. Fish keep their rarity sizing during flight and in the basket.
 
 ## Catch basket
 
