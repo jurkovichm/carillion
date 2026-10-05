@@ -40,7 +40,7 @@ The application is static HTML, CSS, and JavaScript. It has no backend, npm buil
 | `scripts/build_questions.py` | Validates packs and generates `questions-days.js` |
 | `tests/` | Data, sharing, and browser regression checks |
 
-Scripts are ordinary browser scripts sharing global bindings. Keep their order in `index.html`: question data → core → UI → sprites → scene → gameplay. The scene starts one animation loop; gameplay owns the round lifecycle. `questions.js` remains as historical curated data and is no longer loaded by the game.
+Scripts are ordinary browser scripts sharing global bindings. Keep their order in `index.html`: question data → core → UI → sprites → scene → gameplay. The scene starts one animation loop; gameplay owns the round lifecycle.
 
 ## Edit questions
 
@@ -65,4 +65,4 @@ node tests/game.cjs
 
 Browser tests require Playwright and an installed browser. Set `PLAYWRIGHT_MODULE` to its module path if it is not locally installed, and `BROWSER_CHANNEL=msedge` or `chrome` to use an installed browser. They start a temporary local server and check desktop, mobile, landscape, and reduced-motion layouts, both cast modes, catch timing, sharing, settings pauses, and quick-mode penalties. Screenshots are written to `/private/tmp`.
 
-Artwork lives in `assets/` and `sprites/`; see [art notes](assets/FISHING-ART.md). The active fish come from `sprites/NewRiverFishAssetPack1.0`; other packs are retained as source assets.
+Artwork lives in `assets/` and `sprites/`; see [art notes](assets/FISHING-ART.md). The active fish come from `sprites/NewRiverFishAssetPack1.0`.
