@@ -118,10 +118,51 @@ function drawBasketLayer(front = false) {
 }
 const caughtFish = [];
 let fishingCatch = null;
+let fishingCast = null;
+let fishingLineInWater = false;
+let fishingLoon = null;
+const pregameAngler = { x: 950, y: 480, facing: 1, walking: false };
+let fishingSceneView = null;
 const reducedFishingMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 // Bobber keyframes: [progress, horizontal run, depth, line tension].
 // Goldfish toys with the bait; trout makes a heavy run; pike feints then surges.
 const BITE_ORIGIN = { x: 1040, y: 920 };
+const CAST_DURATION_MS = 850;
+function castingDelay() {
+  return reducedFishingMotion || isQuickMode() ? 0 : CAST_DURATION_MS;
+}
+function castingRodPose(progress, fromRest = false) {
+  const frames = [[0,fromRest ? -170 : 150,fromRest ? -205 : -160,0],[.28,-110,-230,-.11],[.5,210,-95,.075],[.75,165,-150,.025],[1,150,-160,0]];
+  let left = frames[0], right = frames.at(-1);
+  for (let i = 1; i < frames.length; i++) {
+    if (progress <= frames[i][0]) { left = frames[i - 1]; right = frames[i]; break; }
+  }
+  const fraction = Math.max(0, Math.min(1, (progress - left[0]) / (right[0] - left[0])));
+  const ease = fraction * fraction * (3 - 2 * fraction);
+  const mix = index => left[index] + (right[index] - left[index]) * ease;
+  return { tip: { x: mix(1), y: mix(2) }, lean: mix(3) };
+}
+function castingPose(now) {
+  const progress = Math.max(0, Math.min(1, (now - fishingCast.startedAt) / fishingCast.duration));
+  const rod = castingRodPose(progress, fishingCast.fromRest);
+  const hangingFloat = pose => ({
+    x: 950 + pose.tip.x * Math.cos(pose.lean) - pose.tip.y * Math.sin(pose.lean) - 20,
+    y: 480 + pose.tip.x * Math.sin(pose.lean) + pose.tip.y * Math.cos(pose.lean) + 52
+  });
+  let float;
+  if (progress < .36) {
+    const fraction = Math.min(1, progress / .28), retrieve = fraction * fraction * (3 - 2 * fraction);
+    const target = hangingFloat(rod);
+    float = fishingCast.fromRest ? target : { x: BITE_ORIGIN.x + (target.x - BITE_ORIGIN.x) * retrieve, y: BITE_ORIGIN.y + (target.y - BITE_ORIGIN.y) * retrieve };
+  } else {
+    const release = hangingFloat(castingRodPose(.36)), flight = Math.min(1, (progress - .36) / .56);
+    float = {
+      x: release.x + (BITE_ORIGIN.x - release.x) * (1 - (1 - flight) ** 2),
+      y: release.y + (BITE_ORIGIN.y - release.y) * flight ** 2 - 180 * 4 * flight * (1 - flight)
+    };
+  }
+  return { ...rod, progress, float };
+}
 const BITE_PROFILES = {
   10: { duration: 650, beats: [[0,0,0,0],[.3,3,5,.15],[.65,8,18,.55],[1,12,28,.8]] },
   15: { duration: 2400, beats: [[0,0,0,0],[.16,-8,9,.2],[.3,3,1,.05],[.46,12,15,.35],[.58,-6,2,.1],[.76,28,32,.7],[.88,14,11,.4],[1,35,42,.9]] },
@@ -216,6 +257,19 @@ function drawBasketCatches() {
     drawCatchItem(item, pos.x, pos.y, pos.rotation);
   });
 }
+function loonTheftPose(now) {
+  const progress = Math.max(0, Math.min(1, (now - fishingLoon.startedAt) / fishingLoon.duration));
+  const target = fishingLoon.target;
+  if (reducedFishingMotion || isQuickMode()) return { ...target, progress };
+  if (progress < .42) {
+    const f = progress / .42, ease = 1 - (1 - f) ** 2;
+    return { x: fishingLoon.entry.x + (target.x - fishingLoon.entry.x) * ease,
+      y: fishingLoon.entry.y + (target.y - fishingLoon.entry.y) * ease - 100 * Math.sin(f * Math.PI), progress };
+  }
+  const f = (progress - .42) / .58, ease = f * f * (3 - 2 * f);
+  return { x: target.x + (fishingLoon.exit.x - target.x) * ease,
+    y: target.y + (fishingLoon.exit.y - target.y) * ease - 100 * Math.sin(f * Math.PI), progress };
+}
 function drawWaterCurrent(now) {
   if (!waterMaskReady) return;
   const frame = reducedFishingMotion ? 0 : Math.floor(now / 40);
@@ -265,6 +319,7 @@ function drawWaterCurrent(now) {
 }
 function animateScene(now) {
   requestAnimationFrame(animateScene);
+  if (document.body.classList.contains('flappy-open')) return;
   const p = paint, w = fishingViewport.clientWidth, h = fishingViewport.clientHeight, t = reducedFishingMotion ? 0 : now / 1000, mobile = w < 650;
   p.setTransform(scene.width / w, 0, 0, scene.height / h, 0, 0);
   p.imageSmoothingEnabled = false;
@@ -286,11 +341,13 @@ function animateScene(now) {
     p.drawImage(observatoryPixels, Math.round(w * (besideHUD ? .01 : .025)), Math.round(h * .016), width, Math.round(width * 2 / 3));
   }
   const oy = worldY + bridgeOffset * scale;
+  fishingSceneView = { width: w, height: h, scale, ox, oy };
   p.save();
   p.translate(ox, oy);
   p.scale(scale, scale);
   const reeling = !!fishingCatch && !fishingCatch.revealed;
   const animated = !reducedFishingMotion && !isQuickMode();
+  const cast = fishingCast && animated ? castingPose(now) : null;
   const bite = reeling && animated ? bitePose(fishingCatch, now) : { x: BITE_ORIGIN.x, y: BITE_ORIGIN.y + Math.sin(t * 2) * 3, surfaceY: BITE_ORIGIN.y, depth: 0, tension: 0, tilt: 0, progress: 0 };
   // Rod and water share the same tension, so the line stays connected throughout.
   let landing = null;
@@ -313,17 +370,19 @@ function animateScene(now) {
       pull = (elapsed < 180 ? 1 : .78 + Math.cos((elapsed - 180) / 110) * .18) * settle;
     }
   }
-  const resting = !document.body.classList.contains('playing');
-  const rodTip = drawFisherman(t, tension, pull, resting);
-  const bobX = bite.x, bobY = bite.y;
+  const resting = !document.body.classList.contains('playing') || (!fishingLineInWater && !fishingCast && !fishingCatch);
+  const rodTip = drawFisherman(t, tension, pull, resting, cast,
+    document.body.classList.contains('playing') ? undefined : pregameAngler);
+  const bobX = cast ? cast.float.x : bite.x, bobY = cast ? cast.float.y : bite.y;
   const hookX = landing ? landing.x : bobX, hookY = landing ? landing.y : bobY;
   if (!resting) {
     p.strokeStyle = '#edf0c3b0';
     p.lineWidth = 2;
     p.beginPath();
     p.moveTo(rodTip.x, rodTip.y);
-    const slack = landing ? 18 : 65 * (1 - tension);
-    p.quadraticCurveTo((rodTip.x + hookX) / 2 + slack, (rodTip.y + hookY) / 2 + slack, hookX, hookY);
+    const unfurl = cast ? Math.sin(cast.progress * Math.PI) : 0;
+    const slack = landing ? 18 : 65 * (1 - tension) + unfurl * 90;
+    p.quadraticCurveTo((rodTip.x + hookX) / 2 + slack, (rodTip.y + hookY) / 2 + slack - unfurl * 140, hookX, hookY);
     p.stroke();
   }
   for (let i = 0; i < 7; i++) {
@@ -337,14 +396,14 @@ function animateScene(now) {
     // A submerged float disappears below the surface rather than hovering over it.
     const depth = bite.depth, visibility = Math.max(.12, 1 - depth / 35);
     p.save();
-    p.translate(bobX, bite.surfaceY + Math.min(depth, 8));
-    p.rotate(bite.tilt);
+    p.translate(bobX, cast ? cast.float.y : bite.surfaceY + Math.min(depth, 8));
+    p.rotate(cast ? Math.sin(cast.progress * Math.PI) * .7 : bite.tilt);
     p.globalAlpha = visibility;
     p.fillStyle = '#f1e2b0'; p.fillRect(-5, -14, 10, 14);
     p.fillStyle = '#ce7959'; p.fillRect(-5, 0, 10, 8);
     p.restore();
     // Expanding rings and the wake track the hidden fish, without revealing rarity.
-    const rings = reeling && animated ? 4 : 1;
+    const rings = cast ? 0 : reeling && animated ? 4 : 1;
     for (let i = 0; i < rings; i++) {
       const pulse = reeling && animated ? ((now - fishingCatch.startedAt) / 650 + i / rings) % 1 : .35;
       p.strokeStyle = `rgba(224,242,213,${(1 - pulse) * (reeling ? .55 : .3)})`;
@@ -359,6 +418,13 @@ function animateScene(now) {
         p.beginPath(); p.moveTo(bobX - 30, bite.surfaceY + 19); p.quadraticCurveTo(bobX - 45, bite.surfaceY + 6, bobX - 65, bite.surfaceY + 24); p.stroke();
       }
     }
+  }
+  // A small splash marks the float's touchdown before the bite starts.
+  if (cast && cast.progress > .92) {
+    const splash = (cast.progress - .92) / .08;
+    p.strokeStyle = `rgba(224,242,213,${1 - splash})`;
+    p.lineWidth = 3;
+    p.beginPath(); p.ellipse(BITE_ORIGIN.x, BITE_ORIGIN.y + 8, 12 + splash * 38, 3 + splash * 10, 0, 0, Math.PI * 2); p.stroke();
   }
   // Water droplets fan out from the breach and fall under gravity.
   if (landing && animated && landing.progress < .55) {
@@ -381,6 +447,11 @@ function animateScene(now) {
   }
   // Airborne fish pass above the rim; the final drop disappears behind it.
   drawBasketLayer(true);
+  if (fishingLoon) {
+    const bird = loonTheftPose(now);
+    if (fishingLoon.stolen) drawCatchItem(fishingLoon.fish, bird.x + 8, bird.y + 24, -.35 + (animated ? Math.sin(now / 70) * .07 : 0));
+    drawFlyingLoon(bird.x, bird.y, now - fishingLoon.startedAt);
+  }
   p.restore();
 }
 ;

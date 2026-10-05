@@ -17,6 +17,8 @@ const server = http.createServer((req, res) => {
     browser = await chromium.launch({ headless: true, ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}) });
     for (const [width, height, reduced] of [[1440, 900, false], [390, 844, false], [320, 568, true], [844, 390, false]]) {
       const page = await browser.newPage({ viewport: { width, height }, reducedMotion: reduced ? 'reduce' : 'no-preference' });
+      // The dedicated extras suite covers theft; these checks keep catches deterministic.
+      await page.addInitScript(() => { Math.random = () => .5; });
       const errors = [];
       page.on('pageerror', error => errors.push(error.message));
       await page.clock.install();
@@ -53,10 +55,53 @@ const server = http.createServer((req, res) => {
       await page.locator('#begin').click();
       await page.waitForFunction(() => roundState.phase === 'question' && bridgeReady);
       await page.clock.pauseAt(await page.evaluate(() => Date.now() + 100));
-      const submit = text => page.evaluate(text => { document.querySelector('#answerInput').value = text; document.querySelector('#answerForm').requestSubmit(); }, text);
-      await submit('zzzzzzzzzzzzzzzz');
+      assert.equal(await page.evaluate(() => fishingLineInWater), false);
+      await page.screenshot({path: `/private/tmp/carillion-before-first-cast-${width}.png`});
+      const startGuess = text => page.evaluate(text => {
+        document.querySelector('#answerInput').value = text;
+        document.querySelector('#answerForm').requestSubmit();
+        return fishingCast?.duration || 0;
+      }, text);
+      const submit = async text => {
+        const duration = await startGuess(text);
+        if (duration) await page.clock.runFor(duration);
+      };
+      // A spelling suggestion keeps the rod dry; only confirmation casts.
+      assert.equal(await startGuess('Tige'), 0);
+      assert.equal(await page.evaluate(() => roundState.phase), 'question');
+      assert.equal(await page.evaluate(() => fishingLineInWater), false);
+      assert.equal(await page.locator('#softFill').isVisible(), true);
+      assert.equal(await page.locator('#answerInput').isEnabled(), true);
+      assert.equal(await page.evaluate(() => score), 0);
+      assert.equal(await startGuess(await page.locator('#answerInput').inputValue()), reduced ? 0 : 850);
+      assert.equal(await page.evaluate(() => roundState.phase), reduced ? 'reeling' : 'casting');
+      await page.evaluate(async () => { returnToRiver(); await begin(); });
+      // Submitted guesses cast without consuming answer time or scoring.
+      const castDuration = await startGuess('zzzzzzzzzzzzzzzz');
+      assert.equal(castDuration, reduced ? 0 : 850);
+      if (!reduced) {
+        assert.equal(await page.evaluate(() => roundState.phase), 'casting');
+        assert.equal(await page.evaluate(() => fishingCast.fromRest), true);
+        assert(await page.evaluate(() => castingPose(fishingCast.startedAt).float.y < 480));
+        assert.equal(await page.evaluate(() => timer), null);
+        assert.equal(await page.locator('#answerInput').isEnabled(), false);
+        const remaining = await page.evaluate(() => roundState.remainingMs);
+        await page.evaluate(() => document.querySelector('#answerForm').requestSubmit());
+        await page.clock.runFor(238);
+        await page.screenshot({path: `/private/tmp/carillion-cast-back-${width}.png`});
+        await page.clock.runFor(187);
+        await page.screenshot({path: `/private/tmp/carillion-cast-forward-${width}.png`});
+        await page.clock.runFor(castDuration - 426);
+        assert.equal(await page.evaluate(() => roundState.phase), 'casting');
+        assert.equal(await page.evaluate(() => roundState.remainingMs), remaining);
+        assert.equal(await page.evaluate(() => score), 0);
+        assert.equal(await page.evaluate(() => fishingCatch), null);
+        await page.clock.runFor(1);
+        assert.equal(await page.evaluate(() => roundState.remainingMs), remaining);
+      }
       assert.equal(await page.locator('#answerInput').inputValue(), '');
       assert.equal(await page.evaluate(() => roundState.phase), 'question');
+      assert.equal(await page.evaluate(() => fishingLineInWater), true);
       assert.equal(await page.locator('#catchCaption').count(), 0);
       assert(await page.evaluate(() => basketAtlas.complete && basketAtlas.naturalWidth > 0));
       await page.clock.runFor(240);
@@ -73,6 +118,7 @@ const server = http.createServer((req, res) => {
 
       assert.equal(await page.evaluate(() => CATCH_FLIGHT_MS), reduced ? 0 : 1400);
       for (let question = 0; question < 7; question++) {
+        if (question) assert.equal(await page.evaluate(() => fishingLineInWater), false);
         await submit(await page.evaluate(() => questions[round].answers[0].forms[0]));
         const revealDelay = await page.evaluate(() => fishingCatch.revealDelay);
         const remaining = await page.evaluate(() => roundState.remainingMs);
@@ -127,6 +173,45 @@ const server = http.createServer((req, res) => {
       await page.waitForFunction(() => timer !== null);
       await page.clock.runFor(200);
       assert((await page.evaluate(() => roundState.remainingMs)) < paused);
+      // Give Up casts from the shoulder before revealing any consolation catch.
+      await page.evaluate(async () => { returnToRiver(); await begin(); });
+      await page.locator('#giveUpBtn').click();
+      const giveUpRemaining = await page.evaluate(() => roundState.remainingMs);
+      if (!reduced) {
+        assert.equal(await page.evaluate(() => roundState.phase), 'casting');
+        assert.equal(await page.evaluate(() => fishingCast.fromRest), true);
+        assert.equal(await page.evaluate(() => fishingCatch), null);
+        assert.equal(await page.evaluate(() => score), 0);
+        await page.clock.runFor(850);
+      }
+      assert.equal(await page.evaluate(() => roundState.phase), 'reeling');
+      assert.equal(await page.evaluate(() => roundState.remainingMs), giveUpRemaining);
+      const consolation = await page.evaluate(() => ({kind:fishingCatch.kind, points:fishingCatch.points, delay:fishingCatch.revealDelay}));
+      assert(['boot', 'bottle', 'skeleton'].includes(consolation.kind));
+      await page.clock.runFor(consolation.delay + 1600);
+      assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
+      assert.equal(await page.evaluate(() => score), consolation.points);
+      assert.equal(await page.evaluate(() => roundState.record.reason), 'giveup');
+      assert.equal(await page.evaluate(() => roundState.record.catches.length), 0);
+      assert.equal(await page.evaluate(() => shoreCatches.length), 1);
+      await page.evaluate(async () => { returnToRiver(); await begin(); });
+      // Leaving mid-cast cancels its answer and prevents it reaching a new game.
+      if (!reduced) {
+        const answer = await page.evaluate(() => questions[round].answers[0].forms[0]);
+        await startGuess(answer);
+        assert.equal(await page.evaluate(() => roundState.phase), 'casting');
+        await page.evaluate(async () => { returnToRiver(); await begin(); });
+        await page.clock.runFor(1000);
+        assert.equal(await page.evaluate(() => roundState.phase), 'question');
+        assert.equal(await page.evaluate(() => fishingCast), null);
+        assert.equal(await page.evaluate(() => fishingLineInWater), false);
+        assert.equal(await page.evaluate(() => score), 0);
+        assert.equal(await page.evaluate(() => used.size), 0);
+      }
+      // Quick mode resolves a guess without a cast, even with full motion enabled.
+      await page.evaluate(async () => { returnToRiver(); setQuickMode(true); await begin(); });
+      assert.equal(await startGuess('zzzzzzzzzzzzzzzz'), 0);
+      assert.equal(await page.evaluate(() => roundState.phase), 'question');
       // Quick mode still completes an empty timeout and records its penalty.
       await page.evaluate(async () => {
         returnToRiver();
@@ -173,7 +258,7 @@ const server = http.createServer((req, res) => {
         }
       }
       assert.deepEqual(errors, []);
-      console.log(`${width}x${height}: defaults, single-cast persistence, retries, timing, sharing, day switching and multi-cast passed`);
+      console.log(`${width}x${height}: casting, cancellation, defaults, retries, catch timing, sharing, day switching and multi-cast passed`);
       await page.close();
     }
   } finally { if (browser) await browser.close(); server.close(); }

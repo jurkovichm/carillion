@@ -3,6 +3,7 @@ let questions = window.DIVE_QUESTIONS;
 let round = 0, score = 0, depthScore = 0, timer = null, seconds = 25, used = new Set(), roundLog = [];
 const ROUND_MS = 25000;
 const BOTTLE_CHANCE = .10;
+const LOON_THEFT_CHANCE = .10;
 const bottleFacts = [
   { text: 'Carleton’s Cowling Arboretum covers about 800 acres.', source: 'https://athletics.carleton.edu/sports/2019/7/15/cowling-arboretum.aspx?id=6001' },
   { text: 'Goodsell Observatory was built in 1887.', source: 'https://cdn.carleton.edu/uploads/sites/190/2021/01/2015_16_Carleton_College_Catalog.pdf' },
@@ -195,6 +196,8 @@ document.addEventListener('keydown', e => {
   }
 }, true);
 function clearFishingTimers() {
+  fishingCast = null;
+  fishingLoon = null;
   clearInterval(timer);
   timer = null;
   catchTimers.forEach(clearTimeout);
@@ -274,10 +277,11 @@ function showQuestionInput() {
 async function begin() {
   if (roundState.phase !== 'home')
     return;
+  if (typeof resetPregameWalk === 'function') resetPregameWalk();
   roundState.phase = 'loading';
   $('#begin').disabled = true;
   try {
-    await Promise.all([characterSpritesReady, basketSpritesReady, catchSpritesReady]);
+    await Promise.all([characterSpritesReady, basketSpritesReady, catchSpritesReady, loonSpritesReady]);
   }
   catch {
     assetFailure = true;
@@ -321,6 +325,7 @@ async function begin() {
 }
 function next() {
   clearFishingTimers();
+  fishingLineInWater = false;
   stopSpeech();
   if (round >= questions.length) {
     showSummary();
@@ -343,11 +348,49 @@ function submitFishingAnswer(event) {
   tickRoundClock();
   if (roundState.phase !== 'question')
     return;
-  const typed = $('#answerInput').value.trim(), clean = normalizeAnswer(typed), q = questions[round];
+  const typed = $('#answerInput').value.trim(), clean = normalizeAnswer(typed);
   if (!clean)
     return;
+  const q = questions[round];
+  const exact = q.answers.some(answer => answer.forms.some(form => normalizeAnswer(form) === clean));
+  if (!exact) {
+    const candidate = softCandidate(q, clean);
+    if (candidate) {
+      showSoftFill(typed, candidate);
+      return;
+    }
+  }
+  castFishingLine(() => resolveFishingGuess(typed));
+}
+function castFishingLine(onLanded, message = 'Casting your guess…') {
+  const delay = castingDelay();
+  if (!delay) { fishingLineInWater = true; onLanded(); return; }
+  pauseRoundClock();
+  roundState.phase = 'casting';
+  fishingCatch = null;
+  fishingCast = { startedAt: performance.now(), duration: delay, fromRest: !fishingLineInWater };
+  clearInputHint();
+  $('#lastCatch').classList.add('hidden');
+  $('#answerInput').disabled = true;
+  $('#answerForm button').disabled = true;
+  $('#giveUpBtn').disabled = true;
+  $('#answer-dock').classList.add('hidden');
+  $('#roundActions').classList.add('hidden');
+  $('.prompt-card').classList.add('hidden');
+  $('#descendNote').textContent = message + ' · clock paused';
+  $('#descendNote').classList.remove('hidden');
+  later(() => {
+    fishingCast = null;
+    fishingLineInWater = true;
+    roundState.phase = 'question';
+    onLanded();
+  }, delay);
+}
+function resolveFishingGuess(typed) {
+  const clean = normalizeAnswer(typed), q = questions[round];
   const match = q.answers.find(answer => answer.forms.some(form => normalizeAnswer(form) === clean));
   if (!match) {
+    showQuestionInput();
     const candidate = softCandidate(q, clean);
     if (candidate)
       showSoftFill(typed, candidate);
@@ -359,6 +402,7 @@ function submitFishingAnswer(event) {
   }
   const identity = normalizeAnswer(match.forms[0]);
   if (used.has(identity)) {
+    showQuestionInput();
     $('#inputFeedback').textContent = 'Already caught — try a different answer.';
     $('#inputFeedback').classList.remove('hidden');
     $('#softFill').classList.add('hidden');
@@ -402,9 +446,14 @@ function finishQuestion(reason) {
   }
   const bottle = reason === 'giveup' && Math.random() < BOTTLE_CHANCE;
   const kind = bottle ? 'bottle' : Math.random() < .5 ? 'boot' : 'skeleton';
-  reelCatch({ kind, points: bottle ? 0 : -5, name: kind === 'boot' ? 'An old boot' : kind === 'skeleton' ? 'A skeleton fish' : 'A message in a bottle', fact: bottle ? chooseBottleFact() : null }, true);
+  const loot = { kind, points: bottle ? 0 : -5, name: kind === 'boot' ? 'An old boot' : kind === 'skeleton' ? 'A skeleton fish' : 'A message in a bottle', fact: bottle ? chooseBottleFact() : null };
+  if (reason === 'giveup')
+    castFishingLine(() => reelCatch(loot, true), 'One last cast…');
+  else
+    reelCatch(loot, true);
 }
 function reelCatch(item, endsQuestion) {
+  fishingLineInWater = true;
   roundState.phase = 'reeling';
   clearInputHint();
   $('#lastCatch').classList.add('hidden');
@@ -483,6 +532,13 @@ function reelCatch(item, endsQuestion) {
 }
 function completeQuestion(keepResult = false) {
   pauseRoundClock();
+  const record = roundState.record;
+  // Give Up's consolation catch is eligible too, even before the first fish.
+  const fish = record.catches.at(-1) || (record.reason === 'giveup' ? record.loot : null);
+  if (!record.loonChecked && fish && shoreCatches.includes(fish)) {
+    record.loonChecked = true;
+    if (Math.random() < LOON_THEFT_CHANCE) { stealFishWithLoon(fish); return; }
+  }
   roundState.phase = 'roundEnd';
   $('#answer-dock').classList.add('hidden');
   $('#roundActions').classList.add('hidden');
@@ -501,6 +557,48 @@ function completeQuestion(keepResult = false) {
   $('#descendBtn').classList.remove('hidden');
   $('#descendBtn').focus({ preventScroll: true });
   document.querySelectorAll('#steps i')[round]?.classList.add('done');
+}
+function stealFishWithLoon(fish) {
+  roundState.phase = 'loon';
+  clearInputHint();
+  for (const selector of ['#answer-dock', '#roundActions', '.prompt-card', '#answerResult', '#lastCatch', '#descendBtn']) $(selector).classList.add('hidden');
+  $('#descendNote').textContent = 'A loon has its eye on your catch… · clock paused';
+  $('#descendNote').classList.remove('hidden');
+  const pos = shoreCatchPosition(shoreCatches.indexOf(fish));
+  const view = fishingSceneView;
+  const left = view ? -view.ox / view.scale : 0, right = view ? (view.width - view.ox) / view.scale : 2048;
+  const duration = quickMode ? 1 : reducedFishingMotion ? 700 : 2800;
+  fishingLoon = { fish, startedAt: performance.now(), duration, stolen: false,
+    target: { x: pos.x - 8, y: pos.y - 24 }, entry: { x: right + 420, y: pos.y - 460 }, exit: { x: left - 420, y: pos.y - 320 } };
+  later(() => {
+    fishingLoon.stolen = true;
+    for (const list of [shoreCatches, caughtFish, roundState.record.catches]) {
+      const index = list.indexOf(fish); if (index >= 0) list.splice(index, 1);
+    }
+    if (roundState.record.loot === fish) roundState.record.loot = null;
+    score -= fish.points; depthScore = score * 10;
+    roundState.record.points -= fish.points;
+    roundState.record.meters = roundState.record.points * 10;
+    roundState.record.depthAfter = depthScore;
+    used.delete(normalizeAnswer(fish.name));
+    updateFishingHUD();
+    $('#descendNote').textContent = 'The loon stole your catch! Same question, another try.';
+    fx('miss');
+  }, quickMode || reducedFishingMotion ? 0 : duration * .42);
+  later(() => {
+    fishingLoon = null;
+    clearFishingTimers();
+    fishingLineInWater = false;
+    // Multi-cast keeps its other fish and duplicate protection while allowing this catch again.
+    const record = roundState.record;
+    record.reason = null; record.timedOut = false; record.loonChecked = false;
+    record.typed = record.catches.map(catchItem => catchItem.name).join(', ');
+    record.matched = record.catches.at(-1)?.match || null;
+    roundState.remainingMs = ROUND_MS;
+    showQuestionInput();
+    $('#inputFeedback').textContent = 'A loon took your catch! You get another try.';
+    $('#inputFeedback').classList.remove('hidden');
+  }, duration);
 }
 function descendNext() {
   if (roundState.phase !== 'roundEnd')
@@ -630,6 +728,8 @@ function showSummary() {
   });
 }
 function returnToRiver() {
+  if (typeof resetPregameWalk === 'function') resetPregameWalk();
+  fishingLineInWater = false;
   roundState.epoch++;
   clearFishingTimers();
   stopSpeech();

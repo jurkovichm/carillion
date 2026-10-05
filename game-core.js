@@ -173,7 +173,14 @@ function fx(name, points = 0) {
 function rankClass(points) {
   return points ? 'rank-' + points : 'rank-miss';
 }
+function numberedAmendment(typed) {
+  const topic = typed.replace(/^the\s+/, '').replace(/^amendment\s*/, '')
+    .replace(/\s*amendment$/, '').replace(/^(?:number|no)\s*/, '');
+  return /^\d+(?:st|nd|rd|th)?$/.test(topic) || /^[ivx]+$/.test(topic)
+    || /^(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|seventeenth|eighteenth|nineteenth|twentieth|twenty (?:first|second|third|fourth|fifth|sixth|seventh))$/.test(topic);
+}
 function softCandidate(q, typed) {
+  if (q.answerFormat === 'amendment-topic' && numberedAmendment(typed)) return null;
   const genericTokens = new Set(['sir', 'saint', 'st', 'the', 'of', 'and', 'college', 'university', 'hall', 'county', 'junior', 'jr', 'iii']);
   if (typed.length < 3 || genericTokens.has(typed))
     return null;
