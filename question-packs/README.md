@@ -50,4 +50,4 @@ python3 scripts/build_questions.py
 
 5. Reload the game and select the new day. For GitHub Pages, commit and push both the CSV pack and regenerated `questions-days.js`.
 
-No Python packages are needed. Compilation keeps browser data in a normal script, so CSV loading does not introduce a fetch/server requirement for local-file play. Invalid packs fail before replacing the browser data file. `questions.js` is retained as legacy data/helper code; edits to its answers will not change the compiled packs.
+No Python packages are needed. Compilation keeps browser data in a normal script, so CSV loading does not introduce a fetch/server requirement for local-file play. Invalid packs fail before replacing the browser data file. `questions.js` is retained as historical data and is not loaded by the game; edits to it will not change the compiled packs.

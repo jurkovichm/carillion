@@ -1,19 +1,68 @@
 # CARILLION — the daily catch
 
-## Editing Questions
+A Carleton-themed trivia game with pixel-art fishing. Choose a question day and one of three anglers, then play seven questions with 25 seconds of answer time each.
 
-Question research lives in `question-packs/YYYY-MM-DD/`, with one CSV per question using `ANSWER,Blurb,Worth`. See [the question-pack guide](question-packs/README.md) for aliases, research handoff, and adding new days. Run `python3 scripts/build_questions.py` after editing to regenerate the game's data.
+## Run locally
 
-A seven-prompt pixel-art fishing game. Serve this folder with any static server (for example, `python3 -m http.server 4173`) and open `http://localhost:4173`. Serving the files is required for the canvas artwork processing.
+Serve the repository with Python 3:
 
-The original curated prompts, aliases, and rarity values are in `questions.js`. Answer matching, confirmation-based autocorrect, and the expandable post-game answer bank remain in `index.html`. `fishing-game.js` controls multi-answer rounds and extends the summary with every catch. The stationary bridge and lake are drawn by `fishing.js`; `fishing-sprites.js` handles playable characters, rewards, and loot. Responsive presentation lives in `fishing.css`.
+```sh
+python3 -m http.server 4173 --bind 127.0.0.1
+```
 
-Each question has 25 seconds of answer time and accepts multiple unique answers. Aliases of an already caught answer do not score again. The clock preserves its remaining milliseconds during the 2.7-second catch sequence and resumes automatically. Rarity and points reveal 1.3 seconds into the catch. Fish use the original 10/15/30/60/85/100-point values, are twice their previous size, and pile up on the left bank. Reduced-motion preferences disable ambient movement and shorten the landing.
+Open `http://localhost:4173/index.html`. On macOS, double-click `play-game.command` to start a server on port 8000 and open the game. Use an HTTP server so canvas artwork can be sampled safely.
 
-Give Up or timeout on a question with no fish reels in a boot or skeleton for −5 points. Give Up on an empty question instead has a 10% chance of a bottle worth 0 points; timeout has no bottle chance. A bottle displays a sourced one-line Carleton fact and uses browser speech synthesis when available and sound is on. Muting cancels speech. Ending a question after a successful catch has no penalty. Negative scores are allowed.
+The application is static HTML, CSS, and JavaScript. It has no backend, npm build step, or required Python packages. Sound, angler, and quick-mode preferences are saved in browser local storage. Fonts load from Google Fonts; game artwork and audio are local.
 
-Choose the Lakeside Regular, Student Angler, or Old Professor before playing; the choice is remembered locally. Each has cumulative outfits at 200 (cap), 300 (cap and gown), and 350 (cap, gown, and ribbons). Gear is earned from the highest score reached during that game, survives later penalties, and resets for a new game. The front railing is redrawn above the character so the fisherman stands on the bridge deck.
+## Gameplay
 
-The summary retains all seven questions, the full answer bank, rarity ladder, answer facts, and sources. It adds per-question catches and loot, correct signed totals, caught-answer highlights, and earned gear. The score bar now compares against all unique curated answer points, since multiple answers are allowed.
+- **Single-cast** is the default: the first correct answer ends the question, and the result remains until Next Cast.
+- **Multi-cast** accepts multiple unique answers until time runs out or the player finishes the question. Aliases of a caught answer cannot score again.
+- Answers score 10, 15, 30, 60, 85, or 100 points. These are curated rarity tiers. Spelling suggestions require another submission to confirm.
+- The answer clock pauses during catches and settings dialogs. A normal catch reveals after 1.5 seconds, then lands over another 1.5 seconds. Reduced motion shortens this sequence; Settings → Quick mode skips it.
+- An empty question earns a boot or skeleton for −5 points. Give Up has a 10% chance of a zero-point bottle containing a sourced Carleton fact. Ending after a successful catch has no penalty. Scores may be negative.
+- Graduation gear unlocks at 200, 300, and 350 points, using the highest score reached during the game. Gear survives later penalties and resets for the next game.
+- The summary shows catches, the complete answer bank, facts, sources, and earned gear. Copy score produces a date, seven result emojis, and the score without answer spoilers.
 
-The bridge composition has been redrawn and is rendered on a fixed 320×534 grid with a 32-color palette and nearest-neighbour scaling. The scene extends vertically into empty grassy hills above and an open lake below; Schiller still floats alongside the game. Catches use the supplied `sprites/NewRiverFishAssetPack1.0` fish: bluegill, yellow perch, largemouth bass, walleye, channel catfish, and muskie. Character and loot artwork is in `assets/fishermen-atlas.png` and `assets/loot-atlas.png`; see `assets/FISHING-ART.md` for generation notes. The separate `fishing_free` pack is not used.
+## Code map
+
+| File | Responsibility |
+| --- | --- |
+| `index.html` | Page structure and ordered stylesheet/script loading |
+| `game.css` | Shared page, dialog, companion, and summary styles |
+| `fishing.css` | Fishing presentation and responsive overrides |
+| `game-core.js` | Shared DOM helpers, sound, answer matching, legacy fact fallbacks, answer-bank rendering |
+| `game-ui.js` | Settings interactions and the Schiller companion |
+| `fishing-sprites.js` | Angler/loot atlas sampling and sprite drawing |
+| `fishing.js` | Canvas scene, viewport sizing, fish drawing, and catch animation |
+| `fishing-game.js` | Gameplay state, clock, day/mode selection, catches, rewards, and sharing |
+| `question-packs/` | Editable daily question manifests and CSVs |
+| `scripts/build_questions.py` | Validates packs and generates `questions-days.js` |
+| `tests/` | Data, sharing, and browser regression checks |
+
+Scripts are ordinary browser scripts sharing global bindings. Keep their order in `index.html`: question data → core → UI → sprites → scene → gameplay. The scene starts one animation loop; gameplay owns the round lifecycle. `questions.js` remains as historical curated data and is no longer loaded by the game.
+
+## Edit questions
+
+Read the [question-pack guide](question-packs/README.md). Each dated folder contains a `day.json` and seven CSVs with `ANSWER,Blurb,Worth` columns. The latest dated pack is the default; players can select earlier days. Drafts in `Pending` are not compiled.
+
+```sh
+python3 scripts/build_questions.py --check
+python3 scripts/build_questions.py
+```
+
+Commit both the edited packs and regenerated `questions-days.js`. Do not edit the generated file directly.
+
+## Validate changes
+
+```sh
+python3 -B -m unittest discover -s tests -p 'test_*.py'
+python3 scripts/build_questions.py --check
+node tests/days.cjs
+node tests/share.cjs
+node tests/game.cjs
+```
+
+Browser tests require Playwright and an installed browser. Set `PLAYWRIGHT_MODULE` to its module path if it is not locally installed, and `BROWSER_CHANNEL=msedge` or `chrome` to use an installed browser. They start a temporary local server and check desktop, mobile, landscape, and reduced-motion layouts, both cast modes, catch timing, sharing, settings pauses, and quick-mode penalties. Screenshots are written to `/private/tmp`.
+
+Artwork lives in `assets/` and `sprites/`; see [art notes](assets/FISHING-ART.md). The active fish come from `sprites/NewRiverFishAssetPack1.0`; other packs are retained as source assets.

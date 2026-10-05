@@ -17,12 +17,11 @@ assert.equal(context.catchShareText(), 'Carillion 29 Sep 2026\n🥏🥏🎓😛�
 context.roundLog[0].catches.push({ points: 100, name: 'Rarer secret' });
 assert(context.catchShareText().split('\n')[1].startsWith('🤯'));
 assert(!context.catchShareText().includes('Secret'));
-assert(context.catchShareText(true).includes('Secret answer'));
-assert(context.catchShareText(true).includes('ANSWERS (SPOILERS!)'));
+assert.equal(context.catchShareText(true), context.catchShareText());
 for (const [kind, emoji] of [['boot', '🥾'], ['skeleton', '🦴'], ['bottle', '🍾']]) {
   context.roundLog[0] = { catches: [], loot: { kind } };
   assert(context.catchShareText().split('\n')[1].startsWith(emoji));
 }
 context.score = -30;
 assert(context.catchShareText().endsWith('-30 pts'));
-console.log('Exact share format, all rarity emojis, best catches, loot and spoilers passed.');
+console.log('Exact share format, all rarity emojis, best catches, loot and answer-free sharing passed.');

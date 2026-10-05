@@ -23,7 +23,8 @@ const server = http.createServer((req, res) => {
       await page.goto(`http://127.0.0.1:${server.address().port}/index.html`);
       await page.evaluate(() => characterSpritesReady);
       assert.equal(await page.locator('[name=castMode]:checked').inputValue(), 'single');
-      assert.equal(await page.locator('#selectDay').inputValue(), '2026-09-29');
+      assert.equal(await page.locator('#selectDay').inputValue(), await page.evaluate(() => window.DIVE_DAYS.at(-1).id));
+      await page.locator('#selectDay').selectOption('2026-09-29');
       await page.screenshot({ path: `/private/tmp/carillion-home-${width}.png` });
       await page.locator('#begin').click();
       await page.waitForFunction(() => roundState.phase === 'question' && bridgeReady);
@@ -56,7 +57,7 @@ const server = http.createServer((req, res) => {
       assert.equal(Array.from(share.split('\n')[1]).length, 7);
       assert.equal(share.split('\n').length, 3);
       assert(!share.includes('Tiger'));
-      assert((await page.evaluate(() => catchShareText(true))).includes('Tiger'));
+      assert.equal(await page.evaluate(() => catchShareText(true)), share);
       await page.locator('#playAgain').click();
       await page.locator('#selectDay').selectOption('2026-09-28');
       await page.locator('[name=castMode][value=multi]').check();
@@ -75,6 +76,28 @@ const server = http.createServer((req, res) => {
         roundLog[0].catches.push({ name: 'Rare test answer', points: 100 });
       });
       assert.equal(Array.from((await page.evaluate(() => catchShareText())).split('\n')[1])[0], '\uD83E\uDD2F');
+      // Settings must preserve the remaining answer time in an active question.
+      await page.evaluate(async () => { returnToRiver(); await begin(); });
+      await page.evaluate(() => show('SETTINGS', '<p>Settings</p>'));
+      const paused = await page.evaluate(() => roundState.remainingMs);
+      await page.clock.runFor(5000);
+      assert.equal(await page.evaluate(() => roundState.remainingMs), paused);
+      await page.evaluate(() => close());
+      await page.waitForFunction(() => timer !== null);
+      await page.clock.runFor(200);
+      assert((await page.evaluate(() => roundState.remainingMs)) < paused);
+      // Quick mode still completes an empty timeout and records its penalty.
+      await page.evaluate(async () => {
+        returnToRiver();
+        setQuickMode(true);
+        await begin();
+        finishQuestion('timeout');
+      });
+      await page.clock.runFor(100);
+      assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
+      assert.equal(await page.evaluate(() => score), -5);
+      assert.equal(await page.evaluate(() => roundState.record.catches.length), 0);
+      assert(['boot', 'skeleton'].includes(await page.evaluate(() => roundState.record.loot.kind)));
       assert.deepEqual(errors, []);
       console.log(`${width}x${height}: defaults, single-cast persistence, retries, timing, sharing, day switching and multi-cast passed`);
       await page.close();
