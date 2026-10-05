@@ -112,7 +112,7 @@ function installFishingUI() {
   $('#gameUI').removeAttribute('aria-live');
   $('#answerResult').setAttribute('role', 'status');
   $('#descendNote').setAttribute('role', 'status');
-  $('#playAgain').textContent = 'BACK TO THE RIVER';
+  $('#playAgain').textContent = 'BACK TO LYMAN LAKES';
   $('#summaryScreen .summary-head').insertAdjacentHTML('afterend', `<div class="summary-share" role="group" aria-label="Share results"><div class="share-buttons"><button type="button" id="copyScore">Copy score</button></div><p id="shareStatus" role="status"></p><textarea id="sharePreview" class="hidden" readonly aria-label="Results to copy" rows="8"></textarea></div>`);
   $('#copyScore').onclick = () => copyCatchSummary();
   selectFisherman(selectedFisherman);
@@ -211,7 +211,6 @@ function updateFishingHUD() {
   $('#score').textContent = score;
   $('#hudScore').textContent = score;
   $('#hudDepth').textContent = caughtFish.length;
-  $('#catchCaption').textContent = 'YOUR CATCH · ' + caughtFish.length + ' FISH';
   const count = roundState.record?.catches.length || 0;
   $('#roundCatchCount').textContent = count + ' fish this question';
   $('#giveUpBtn').textContent = count ? 'Finish question' : 'Give Up';
@@ -274,7 +273,7 @@ async function begin() {
   roundState.phase = 'loading';
   $('#begin').disabled = true;
   try {
-    await characterSpritesReady;
+    await Promise.all([characterSpritesReady, basketSpritesReady]);
   }
   catch {
     assetFailure = true;
@@ -415,9 +414,20 @@ function reelCatch(item, endsQuestion) {
   $('#descendBtn').classList.add('hidden');
   $('#descendNote').textContent = 'Something on the line… · clock paused';
   $('#descendNote').classList.remove('hidden');
-  fishingCatch = { ...item, revealed: false, revealedAt: null, target: shoreCatchPosition(shoreCatches.length) };
+  const revealDelay = catchRevealDelay(item);
+  fishingCatch = { ...item, startedAt: performance.now(), revealDelay, revealed: false, revealedAt: null, target: shoreCatchPosition(shoreCatches.length) };
+  // Suspense beats follow the float's runs; points remain hidden until the breach.
+  if (!quickMode && !reducedFishingMotion && item.kind === 'fish') {
+    const beats = BITE_PROFILES[item.points].beats;
+    beats.slice(1, -1).forEach(beat => later(() => {
+      $('#descendNote').textContent = (beat[3] > .7 ? 'Hold steady…' : beat[3] < .15 ? 'Wait for it…' : 'A tug on the line…') + ' · clock paused';
+      if (beat[3] > .4) { bubbleWash(.13, .008 + beat[3] * .012); waterNote(160 + beat[3] * 100, .12, .008, 0, 120); }
+    }, beat[0] * revealDelay));
+  }
   bubbleWash(.35, .012);
   later(() => {
+    const pose = !reducedFishingMotion && !quickMode ? bitePose(fishingCatch, performance.now()) : { x: BITE_ORIGIN.x, surfaceY: BITE_ORIGIN.y };
+    fishingCatch.surface = { x: pose.x, y: pose.surfaceY };
     fishingCatch.revealed = true;
     fishingCatch.revealedAt = performance.now();
     score += item.points;
@@ -465,7 +475,7 @@ function reelCatch(item, endsQuestion) {
       $('#lastCatch').classList.remove('hidden');
       showQuestionInput();
     }, quickMode ? 0 : CATCH_FLIGHT_MS + CATCH_SETTLE_MS);
-  }, quickMode ? 0 : CATCH_REVEAL_MS);
+  }, revealDelay);
 }
 function completeQuestion(keepResult = false) {
   pauseRoundClock();
@@ -633,7 +643,6 @@ function returnToRiver() {
   document.body.classList.remove('playing', 'showing-summary');
   $('#gameUI').classList.add('hidden');
   $('#summaryScreen').classList.add('hidden');
-  $('#catchCaption').textContent = 'YOUR CATCH · 0 FISH';
   $('#begin').focus();
 }
 installFishingUI();

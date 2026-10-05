@@ -33,15 +33,31 @@ const server = http.createServer((req, res) => {
       await submit('zzzzzzzzzzzzzzzz');
       assert.equal(await page.locator('#answerInput').inputValue(), '');
       assert.equal(await page.evaluate(() => roundState.phase), 'question');
-      assert.equal(await page.evaluate(() => CATCH_REVEAL_MS), reduced ? 300 : 1500);
+      assert.equal(await page.locator('#catchCaption').count(), 0);
+      assert(await page.evaluate(() => basketAtlas.complete && basketAtlas.naturalWidth > 0));
+      await page.clock.runFor(240);
+      const waterFrame = await page.evaluate(() => waterFlowFrame);
+      assert(await page.evaluate(() => waterMaskReady));
+      assert(await page.evaluate(() => {
+        const flow = waterFlowPixels.getContext('2d').getImageData(0, 0, 320, 534).data;
+        const mask = waterMask.getContext('2d').getImageData(0, 0, 320, 534).data;
+        return flow.every((value, index) => index % 4 !== 3 || !value || mask[index] === 255);
+      }));
+      assert(await page.evaluate(() => waterFlowPixels.getContext('2d').getImageData(0, 0, 320, 534).data.some((value, index) => index % 4 === 3 && value > 0)));
+      await page.clock.runFor(240);
+      assert(reduced ? (await page.evaluate(() => waterFlowFrame)) === waterFrame : (await page.evaluate(() => waterFlowFrame)) > waterFrame);
+
       assert.equal(await page.evaluate(() => CATCH_FLIGHT_MS), reduced ? 0 : 1400);
       for (let question = 0; question < 7; question++) {
         await submit(await page.evaluate(() => questions[round].answers[0].forms[0]));
-        await page.clock.runFor(reduced ? 299 : 1499);
+        const revealDelay = await page.evaluate(() => fishingCatch.revealDelay);
+        const remaining = await page.evaluate(() => roundState.remainingMs);
+        await page.clock.runFor(revealDelay - 1);
         assert.equal(await page.evaluate(() => fishingCatch.revealed), false);
         await page.clock.runFor(1);
         assert.equal(await page.evaluate(() => fishingCatch.revealed), true);
         assert.equal(await page.evaluate(() => shoreCatches.length), question);
+        assert.equal(await page.evaluate(() => roundState.remainingMs), remaining);
         await page.clock.runFor(1600);
         assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
         assert.equal(await page.locator('#descendBtn').textContent(), 'Next Cast');
@@ -66,6 +82,7 @@ const server = http.createServer((req, res) => {
       assert((await page.locator('#promptText').textContent()).includes('MIAC'));
       for (const text of ['Carleton', 'St Olaf']) { await submit(text); await page.clock.runFor(3200); }
       assert.equal(await page.evaluate(() => roundState.record.catches.length), 2);
+      await page.screenshot({ path: `/private/tmp/carillion-basket-${width}.png` });
       assert.equal(await page.evaluate(() => roundState.phase), 'question');
       await submit('Carleton');
       assert.equal(await page.locator('#answerInput').inputValue(), '');
@@ -98,6 +115,39 @@ const server = http.createServer((req, res) => {
       assert.equal(await page.evaluate(() => score), -5);
       assert.equal(await page.evaluate(() => roundState.record.catches.length), 0);
       assert(['boot', 'skeleton'].includes(await page.evaluate(() => roundState.record.loot.kind)));
+      // Exercise every rarity through its real answer path and delayed reveal.
+      if (width !== 844) {
+        const durations = {10: 650, 15: 2400, 30: 1000, 60: 1800, 85: 3400, 100: 4400};
+        for (const points of [10, 15, 30, 60, 85, 100]) {
+          const answer = await page.evaluate(async points => {
+            returnToRiver(); setQuickMode(false); selectedMode = 'single';
+            selectedDay = window.DIVE_DAYS.find(day => day.questions.some(q => q.answers.some(a => a.points === points)));
+            await begin();
+            round = questions.findIndex(q => q.answers.some(a => a.points === points)); next();
+            return questions[round].answers.find(a => a.points === points).forms[0];
+          }, points);
+          await submit(answer);
+          const duration = reduced ? 300 : durations[points];
+          assert.equal(await page.evaluate(() => fishingCatch.revealDelay), duration);
+          const remaining = await page.evaluate(() => roundState.remainingMs);
+          const middle = Math.floor(duration * .76);
+          await page.clock.runFor(middle);
+          assert.equal(await page.evaluate(() => score), 0);
+          assert.equal(await page.locator('#answerResult').isVisible(), false);
+          if (!reduced && [15, 85, 100].includes(points)) {
+            await page.screenshot({path: `/private/tmp/carillion-bite-${points}-${width}.png`});
+          }
+          await page.clock.runFor(duration - middle - 1);
+          assert.equal(await page.evaluate(() => fishingCatch.revealed), false);
+          await page.clock.runFor(1);
+          assert.equal(await page.evaluate(() => fishingCatch.revealed), true);
+          assert.equal(await page.evaluate(() => score), points);
+          assert.equal(await page.evaluate(() => roundState.remainingMs), remaining);
+          await page.clock.runFor(1600);
+          assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
+          assert.equal(await page.evaluate(() => shoreCatches.length), 1);
+        }
+      }
       assert.deepEqual(errors, []);
       console.log(`${width}x${height}: defaults, single-cast persistence, retries, timing, sharing, day switching and multi-cast passed`);
       await page.close();

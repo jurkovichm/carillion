@@ -13,3 +13,11 @@ Output: `fishermen-atlas.png`.
 Extract and recreate the three reference fishing loot items as a clean pixel-art sprite strip with a transparent background: old brown boot on left, ivory fish skeleton in the middle, teal glass message bottle with cork on right. Exactly three equal-width cells in one horizontal row, centered items, clear margins, full silhouettes, no labels or shadows. Preserve reference designs, orientations, and colors; hard square pixels suitable for 32×32 icons. Wide 3:1 canvas.
 
 Output: `loot-atlas.png`.
+
+## Catch basket
+
+`fishing-basket-atlas.png` was generated from the supplied wicker basket reference with its red and cream gingham cloth. The transparent atlas contains two aligned square cells: the complete empty basket, then its foreground wicker/cloth layer. `fishing.js` draws catches between the layers, keeps full-sized heads and tails protruding around the small opening, and brings airborne fish down behind the front rim. The basket is drawn at half its initial size on the sandy bank; mobile positioning leaves room for protruding full-sized fish. The original generated asset is retained outside the repository.
+
+## Bridge depth
+
+Draw the angler in front of the bridge deck. Then draw the transparent foreground timber layer traced on the original 320×534 grid: two horizontal logs and stepped vertical posts. Leave the board backing behind the legs; do not include neighboring board rows in the timber mask. Draw the moving rod/reel and fishing line afterward. Do not redraw the entire front face over the angler.
