@@ -1,0 +1,56 @@
+ANSWER,Blurb,Worth
+Run|Running,"One of Strava's three core sports, alongside riding and swimming.",10
+Trail Run|Trail running|Trail run activity,A separate running sport type for activity on trails.,30
+Walk|Walking,An on-foot activity type distinct from both running and hiking.,10
+Hike|Hiking,A separate foot-sport entry for hikes rather than ordinary walks.,10
+Wheelchair|Wheelchair activity|Wheelchair sport,"Listed among Strava's foot-sport activity types, despite using wheels.",85
+Ride|Cycling|Bike ride|Biking|Bicycling|Road cycling|Road biking,Strava's general cycling entry is one of its three core sport types.,10
+Mountain Bike Ride|Mountain biking|Mountain bike|MTB|Mountain bike riding,"Off-road mountain cycling has its own sport label, separate from the general Ride entry.",10
+Gravel Ride|Gravel cycling|Gravel biking|Gravel bike ride,Gravel cycling is a distinct type rather than being grouped only under Ride.,30
+Handcycle|Handcycling|Hand cycling|Handcycle ride,A cycling activity using a cycle powered by the rider's hands.,85
+E-Bike Ride|Ebike ride|Ebike|E bike|Electric bike|Electric bike ride|E biking,Electric-assisted cycling has a dedicated label rather than the ordinary Ride label.,30
+E-Mountain Bike Ride|E mountain biking|Electric mountain biking|Electric mountain bike ride|E MTB|EMTB|E mountain bike,Electric-assisted mountain biking is separate from both ordinary mountain biking and general e-bike riding.,60
+Velomobile|Velomobile ride|Velomobiling,A distinct cycling type for an enclosed human-powered vehicle.,100
+Canoe|Canoeing,Canoeing is listed separately from kayaking in Strava's water-sport activity menu.,30
+Kayak|Kayaking,Kayaking has its own water-sport label rather than being folded into canoeing.,30
+Kitesurf|Kitesurfing|Kite surfing|Kiteboarding|Kite boarding,A separate water-sport activity powered by a kite.,60
+Rowing|Row|Rowing activity,A supported water sport; virtual rowing can be uploaded rather than recorded directly in the app.,30
+Sailing|Sail,A supported water-sport type that can include an outdoor activity map.,60
+Stand Up Paddling|Stand up paddleboarding|Standup paddleboarding|Paddleboarding|Paddle boarding|SUP,The water-sport menu distinguishes stand-up paddling from both canoeing and kayaking.,30
+Surf|Surfing,Wave riding has its own water-sport activity label.,30
+Swim|Swimming,"One of the three core Strava sport types, alongside running and riding.",10
+Windsurf|Windsurfing|Wind surfing,"A separate sail-powered board sport, distinct from both surfing and sailing.",60
+Ice Skate|Ice skating|Ice skate activity,"Ice skating appears in the winter-sport group, distinct from inline skating.",60
+Alpine Ski|Alpine skiing|Downhill skiing|Downhill ski,Downhill skiing has its own entry alongside backcountry and Nordic skiing.,30
+Backcountry Ski|Backcountry skiing|Ski touring|Back country skiing,A separate winter-sport type for skiing away from groomed resort runs.,60
+Nordic Ski|Nordic skiing|Cross country skiing|Cross country ski|XC skiing,Strava's Nordic skiing label covers cross-country skiing rather than downhill skiing.,30
+Snowboard|Snowboarding,Snowboarding is listed separately from the skiing activity types.,30
+Snowshoe|Snowshoeing|Snow shoeing,Snowshoeing has a dedicated winter-sport activity label.,60
+Workout|General workout|Working out,A general activity type in Strava's other-sports group.,15
+Inline Skate|Inline skating|Rollerblading|Roller blading,An other-sports entry distinct from winter ice skating and roller skiing.,60
+Rock Climb|Rock climbing|Climbing,Rock climbing is a named sport type in the other-sports menu.,30
+Roller Ski|Roller skiing|Rollerskiing|Roller ski activity,The wheeled counterpart to skiing appears among other sports rather than winter sports.,85
+Table Tennis|Ping pong|Pingpong,Table tennis has its own label separate from court tennis.,60
+Golf|Golfing,Golf appears in Strava's other-sports group and can include an outdoor activity map.,60
+Skateboarding|Skateboard,Skateboarding is distinct from the inline-skating activity type.,60
+Football (Soccer)|Soccer|Association football|Football,"The Football entry specifically means soccer, rather than American football.",30
+Squash|Squash activity,"A racket-sport entry alongside tennis, badminton, racquetball, pickleball, and padel.",85
+Pilates|Pilates workout,Pilates is listed separately from yoga and general workouts.,60
+Badminton|Badminton activity,A supported racket-sport label within the other-sports group.,60
+Tennis|Court tennis,Court tennis is listed separately from table tennis.,30
+Pickleball|Pickle ball,Pickleball has a dedicated activity label rather than using the Tennis label.,60
+Crossfit|Cross fit|Crossfit workout,CrossFit is listed separately from general workouts and weight training.,30
+Racquetball|Racketball|Racquet ball,An indoor racket-sport label distinct from squash and tennis.,85
+Elliptical|Eliptical|Elliptical trainer|Elliptical workout|Elliptical training,The support article misspells this machine-workout label as Eliptical; standard spelling is also accepted.,60
+Stair Stepper|Stair stepping|Stair stepper workout|Stairmaster|Stair master,A machine-based exercise label in the other-sports activity menu.,85
+Weight Training|Weightlifting|Weight lifting|Lifting weights|Strength training,Resistance exercise has a dedicated label separate from general workouts.,10
+Yoga|Yoga workout,Yoga has its own sport type rather than being grouped under Workout.,30
+HIIT|High intensity interval training|High intensity interval workout,"The abbreviation stands for high-intensity interval training, a separate other-sports entry.",60
+Basketball|Basket ball,The support article lists basketball among its newer supported sport types.,60
+Padel|Padel tennis,Padel is a distinct racket-sport entry and one of the newer supported types.,85
+Volleyball|Volley ball,The support article lists volleyball among its newer supported sport types.,60
+Dance|Dancing|Dance workout,"Unlike the other newly listed sports, Dance does not include a map by default.",85
+Cricket|Cricket activity,Cricket is among the newer supported types and includes a map by default.,85
+Virtual Ride|Virtual cycling|Virtual bike ride|Virtual biking,A supported virtual type uploaded from another device or app rather than recorded directly in Strava.,30
+Virtual Run|Virtual running,A supported virtual type that the Strava mobile app does not record directly.,60
+Virtual Row|Virtual Rowing,Virtual rowing is supported through uploaded or synced activities rather than direct mobile-app recording.,85

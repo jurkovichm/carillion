@@ -17761,6 +17761,10475 @@ window.DIVE_DAYS = [
         ]
       }
     ]
+  },
+  {
+    "id": "2026-10-07",
+    "label": "7 Oct 2026",
+    "questions": [
+      {
+        "prompt": "Ways to score points in Sleeper Fantasy Football",
+        "source": "https://support.sleeper.com/en/articles/3998131-what-scoring-options-are-available",
+        "sourceNote": "All scoring stats in the supplied support article, checked 7 Oct 2026, including usual penalties and configurable bonuses. Repeated event names across team defense, IDP and special-teams team/player credit share one catch; passing/rushing/receiving two-point conversions also share one catch. Named distance bands, positional bonuses and game milestones count separately. League commissioners choose actual fantasy values; Worth instead estimates recall among fantasy-football players, from everyday stats to obscure custom options. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota. Bare Pick 6/Pick six refers to QB Pick 6 (the passer penalty); explicitly defensive interception-return aliases belong to Defensive touchdown. Bare INT/Interception/Interceptions defaults to Interception thrown (Passing INT); defensive/IDP/DST interception answers require explicit role wording rather than generic shorthand.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Passing Yards",
+              "Passing yard",
+              "Pass yards",
+              "Passing yardage"
+            ],
+            "note": "Passing distance can earn fantasy credit at the league's chosen yards-per-point rate."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Passing touchdown",
+              "Passing TD",
+              "Pass TD",
+              "Touchdown pass",
+              "Passing touchdowns",
+              "Pass touchdown"
+            ],
+            "note": "Awards credit for throwing a touchdown pass; the league chooses the fantasy value."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Passing first down",
+              "Passing 1st Down",
+              "Passing first downs",
+              "Pass first down"
+            ],
+            "note": "A separate setting credits a first down achieved through a pass."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Two-point conversion",
+              "2-Pt Conversion",
+              "2 point conversion",
+              "Two point conversions",
+              "2PC",
+              "Passing two point conversion",
+              "Rushing two point conversion",
+              "Receiving two point conversion"
+            ],
+            "note": "Passing, rushing, and receiving conversion credit are listed; all describe the same two-point scoring category here."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Interception thrown",
+              "Pass Intercepted",
+              "Thrown interception",
+              "Interceptions thrown",
+              "Throwing an interception",
+              "INT",
+              "INTs",
+              "Interception",
+              "Interceptions",
+              "Passing INT",
+              "Pass INT",
+              "Passing interception",
+              "Passing interceptions",
+              "QB INT",
+              "Quarterback interception"
+            ],
+            "note": "Usually costs the passer fantasy points; can stack with incompletion and pick-six penalties."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "QB Pick 6",
+              "Pick-six thrown",
+              "Pick 6 Thrown",
+              "Throwing a pick six",
+              "QB pick six",
+              "Quarterback pick six",
+              "Quarterback pick 6",
+              "Pick 6",
+              "Pick six",
+              "Pick6",
+              "Picksix"
+            ],
+            "note": "Usually a penalty for a pass intercepted and returned for a touchdown."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quarterback sacked",
+              "QB Sacked",
+              "Sack taken",
+              "Sacks taken"
+            ],
+            "note": "Usually a penalty against the quarterback, separate from defensive credit for making the sack."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "40+ Yard passing completion Bonus",
+              "40+ Yard Completion Bonus",
+              "40 plus Yard passing completion Bonus",
+              "40 plus Yard Completion Bonus"
+            ],
+            "note": "An optional big-play bonus credits a completed pass covering 40+ yards."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "40+ yard passing touchdown bonus",
+              "40+ Yard TD Bonus",
+              "40+ Yard touchdown Bonus",
+              "40 plus yard passing touchdown bonus",
+              "40 plus Yard TD Bonus",
+              "40 plus Yard touchdown Bonus"
+            ],
+            "note": "An optional big-play bonus credits a passing touchdown covering 40+ yards."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "50+ Yard passing touchdown Bonus",
+              "50+ Yard Pass TD Bonus",
+              "50+ Yard Pass touchdown Bonus",
+              "50 plus Yard passing touchdown Bonus",
+              "50 plus Yard Pass TD Bonus",
+              "50 plus Yard Pass touchdown Bonus"
+            ],
+            "note": "An optional big-play bonus credits a passing touchdown covering 50+ yards."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pass completion",
+              "Pass Completed",
+              "Completion",
+              "Completions",
+              "Completed pass",
+              "Completed passes"
+            ],
+            "note": "An optional efficiency setting awards a league-defined value for completed passes."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Incomplete pass"
+            ],
+            "note": "Usually a penalty setting; Sleeper says it can stack with an interception and a pick-six thrown."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pass attempt",
+              "Pass Attempts",
+              "Passing attempts",
+              "Pass attempted"
+            ],
+            "note": "Optional volume scoring counts passes attempted, rather than only completions or passing distance."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Rushing Yards",
+              "Rushing yard",
+              "Rush yards",
+              "Rushing yardage"
+            ],
+            "note": "Rushing distance can earn fantasy credit at the league's chosen yards-per-point rate."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Rushing touchdown",
+              "Rushing TD",
+              "Rush TD",
+              "Rushing touchdowns",
+              "Rush touchdown"
+            ],
+            "note": "Awards credit for carrying the ball into the end zone rather than catching a touchdown pass."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Quarterback rushing touchdown",
+              "QB Rushing TD",
+              "QB rushing touchdown",
+              "Quarterback rushing TD"
+            ],
+            "note": "A separate positional touchdown setting lets leagues give quarterbacks special rushing-touchdown credit."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rushing first down",
+              "Rushing 1st Down",
+              "Rushing first downs",
+              "Rush first down"
+            ],
+            "note": "A separate setting credits moving the chains with a rushing play."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "40+ Yard Rush Bonus",
+              "40+ Yard rushing Bonus",
+              "40 plus Yard Rush Bonus",
+              "40 plus Yard rushing Bonus"
+            ],
+            "note": "An optional big-play bonus credits a rushing play covering 40+ yards."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "40+ Yard Rush TD Bonus",
+              "40+ Yard rushing touchdown Bonus",
+              "40 plus Yard Rush TD Bonus",
+              "40 plus Yard rushing touchdown Bonus"
+            ],
+            "note": "An optional big-play bonus credits a rushing touchdown covering 40+ yards."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "50+ Yard Rush TD Bonus",
+              "50+ Yard rushing touchdown Bonus",
+              "50 plus Yard Rush TD Bonus",
+              "50 plus Yard rushing touchdown Bonus"
+            ],
+            "note": "An optional big-play bonus credits a rushing touchdown covering 50+ yards."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rushing attempt",
+              "Rush Attempts",
+              "Rushing attempts",
+              "Rush attempt",
+              "Carry",
+              "Carries"
+            ],
+            "note": "Optional volume scoring counts carries, independently of the yards gained."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Reception",
+              "Receptions",
+              "Catch",
+              "Catches",
+              "PPR",
+              "Point per reception",
+              "Points per reception"
+            ],
+            "note": "Per-catch credit supports PPR scoring; Sleeper also offers additional position-specific reception bonuses."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Receiving Yards",
+              "Receiving yard",
+              "Reception yards",
+              "Receiving yardage"
+            ],
+            "note": "Receiving distance can earn fantasy credit separately from the catch itself."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Receiving touchdown",
+              "Receiving TD",
+              "Reception TD",
+              "Receiving touchdowns",
+              "Touchdown reception",
+              "Reception touchdown"
+            ],
+            "note": "Awards credit to the player catching a touchdown pass."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Receiving first down",
+              "Receiving 1st Down",
+              "Receiving first downs",
+              "Reception first down"
+            ],
+            "note": "A separate setting credits a reception that produces a first down."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "0-4 Yard Reception Bonus",
+              "0 to 4 Yard Reception Bonus"
+            ],
+            "note": "Extra credit for a catch gaining 0-4 yards; only its applicable reception-distance band scores."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "5-9 Yard Reception Bonus",
+              "5 to 9 Yard Reception Bonus"
+            ],
+            "note": "Extra credit for a catch gaining 5-9 yards; only its applicable reception-distance band scores."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "10-19 Yard Reception Bonus",
+              "10 to 19 Yard Reception Bonus"
+            ],
+            "note": "Extra credit for a catch gaining 10-19 yards; only its applicable reception-distance band scores."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "20-29 Yard Reception Bonus",
+              "20 to 29 Yard Reception Bonus"
+            ],
+            "note": "Extra credit for a catch gaining 20-29 yards; only its applicable reception-distance band scores."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "30-39 Yard Reception Bonus",
+              "30 to 39 Yard Reception Bonus"
+            ],
+            "note": "Extra credit for a catch gaining 30-39 yards; only its applicable reception-distance band scores."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "40+ Yard Reception Bonus",
+              "40 plus Yard Reception Bonus"
+            ],
+            "note": "Extra credit for a catch gaining 40+ yards; only its applicable reception-distance band scores."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "40+ Yard Reception TD Bonus",
+              "40+ Yard Reception touchdown Bonus",
+              "40 plus Yard Reception TD Bonus",
+              "40 plus Yard Reception touchdown Bonus"
+            ],
+            "note": "An optional big-play bonus credits a receiving touchdown covering 40+ yards."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "50+ Yard Reception TD Bonus",
+              "50+ Yard Reception touchdown Bonus",
+              "50 plus Yard Reception TD Bonus",
+              "50 plus Yard Reception touchdown Bonus"
+            ],
+            "note": "An optional big-play bonus credits a receiving touchdown covering 50+ yards."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Reception Bonus - RB",
+              "running back reception bonus",
+              "running back PPR",
+              "running back premium",
+              "RB premium"
+            ],
+            "note": "Position-specific extra reception credit for a running back, on top of the general reception setting."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Reception Bonus - WR",
+              "wide receiver reception bonus",
+              "wide receiver PPR",
+              "wide receiver premium",
+              "WR premium"
+            ],
+            "note": "Position-specific extra reception credit for a wide receiver, on top of the general reception setting."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Reception Bonus - TE",
+              "tight end reception bonus",
+              "tight end PPR",
+              "tight end premium",
+              "TE premium"
+            ],
+            "note": "Position-specific extra reception credit for a tight end, on top of the general reception setting."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Extra point made",
+              "PAT Made",
+              "Extra point",
+              "Extra points",
+              "PAT",
+              "Point after touchdown",
+              "XP"
+            ],
+            "note": "Successful point-after-touchdown kicks have their own league-configurable scoring value."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Field goal made",
+              "FG Made",
+              "Field goal",
+              "Field goals",
+              "FG",
+              "Field goals made"
+            ],
+            "note": "Successful field goals can score directly, with additional distance-based options available."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Field goal made (0-19 yards)",
+              "FG Made (0-19 yards)",
+              "Made field goal 0-19 yards",
+              "Field goal made (0 to 19 yards)",
+              "FG Made (0 to 19 yards)",
+              "Made field goal 0 to 19 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for successful field goals in the 0-19 yards band."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Field goal made (20-29 yards)",
+              "FG Made (20-29 yards)",
+              "Made field goal 20-29 yards",
+              "Field goal made (20 to 29 yards)",
+              "FG Made (20 to 29 yards)",
+              "Made field goal 20 to 29 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for successful field goals in the 20-29 yards band."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Field goal made (30-39 yards)",
+              "FG Made (30-39 yards)",
+              "Made field goal 30-39 yards",
+              "Field goal made (30 to 39 yards)",
+              "FG Made (30 to 39 yards)",
+              "Made field goal 30 to 39 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for successful field goals in the 30-39 yards band."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Field goal made (40-49 yards)",
+              "FG Made (40-49 yards)",
+              "Made field goal 40-49 yards",
+              "Field goal made (40 to 49 yards)",
+              "FG Made (40 to 49 yards)",
+              "Made field goal 40 to 49 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for successful field goals in the 40-49 yards band."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Field goal made (50-59 yards)",
+              "FG Made (50-59 yards)",
+              "Made field goal 50-59 yards",
+              "Field goal made (50 to 59 yards)",
+              "FG Made (50 to 59 yards)",
+              "Made field goal 50 to 59 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for successful field goals in the 50-59 yards band."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Field goal made (60+ yards)",
+              "FG Made (60+ yards)",
+              "Made field goal 60+ yards",
+              "Field goal made (60 plus yards)",
+              "FG Made (60 plus yards)",
+              "Made field goal 60 plus yards"
+            ],
+            "note": "A dedicated kicking-distance setting for successful field goals in the 60+ yards band."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Field goal made (50+ yards)",
+              "FG Made (50+ yards)",
+              "Made field goal 50+ yards",
+              "Field goal made (50 plus yards)",
+              "FG Made (50 plus yards)",
+              "Made field goal 50 plus yards"
+            ],
+            "note": "A dedicated kicking-distance setting for successful field goals in the 50+ yards band."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Extra point missed",
+              "PAT Missed",
+              "Missed PAT",
+              "Missed extra point",
+              "Extra points missed"
+            ],
+            "note": "Usually a kicker penalty; a blocked extra-point attempt also counts as missed."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Field goal missed",
+              "FG Missed",
+              "Missed field goal",
+              "Missed FG",
+              "Field goals missed"
+            ],
+            "note": "Usually a kicker penalty; Sleeper also offers separate missed-kick distance bands."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Field goal missed (0-19 yards)",
+              "FG Missed (0-19 yards)",
+              "Missed field goal 0-19 yards",
+              "Field goal missed (0 to 19 yards)",
+              "FG Missed (0 to 19 yards)",
+              "Missed field goal 0 to 19 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for missed field goals in the 0-19 yards band."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Field goal missed (20-29 yards)",
+              "FG Missed (20-29 yards)",
+              "Missed field goal 20-29 yards",
+              "Field goal missed (20 to 29 yards)",
+              "FG Missed (20 to 29 yards)",
+              "Missed field goal 20 to 29 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for missed field goals in the 20-29 yards band."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Field goal missed (30-39 yards)",
+              "FG Missed (30-39 yards)",
+              "Missed field goal 30-39 yards",
+              "Field goal missed (30 to 39 yards)",
+              "FG Missed (30 to 39 yards)",
+              "Missed field goal 30 to 39 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for missed field goals in the 30-39 yards band."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Field goal missed (40-49 yards)",
+              "FG Missed (40-49 yards)",
+              "Missed field goal 40-49 yards",
+              "Field goal missed (40 to 49 yards)",
+              "FG Missed (40 to 49 yards)",
+              "Missed field goal 40 to 49 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for missed field goals in the 40-49 yards band."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Field goal missed (50-59 yards)",
+              "FG Missed (50-59 yards)",
+              "Missed field goal 50-59 yards",
+              "Field goal missed (50 to 59 yards)",
+              "FG Missed (50 to 59 yards)",
+              "Missed field goal 50 to 59 yards"
+            ],
+            "note": "A dedicated kicking-distance setting for missed field goals in the 50-59 yards band."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Field goal missed (50+ yards)",
+              "FG Missed (50+ yards)",
+              "Missed field goal 50+ yards",
+              "Field goal missed (50 plus yards)",
+              "FG Missed (50 plus yards)",
+              "Missed field goal 50 plus yards"
+            ],
+            "note": "A dedicated kicking-distance setting for missed field goals in the 50+ yards band."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Field goal missed (60+ yards)",
+              "FG Missed (60+ yards)",
+              "Missed field goal 60+ yards",
+              "Field goal missed (60 plus yards)",
+              "FG Missed (60 plus yards)",
+              "Missed field goal 60 plus yards"
+            ],
+            "note": "A dedicated kicking-distance setting for missed field goals in the 60+ yards band."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Field goal yards",
+              "Points per FG yard",
+              "Points per field goal yard",
+              "Field goal yardage"
+            ],
+            "note": "Per-yard kicking credit can score a field goal by its distance instead of a flat value."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Field goal yards beyond 30",
+              "Points per FG yard over 30",
+              "Field goal yards over 30",
+              "Points per field goal yard over 30"
+            ],
+            "note": "A special per-yard option counts only field-goal distance beyond the first 30 yards."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Defensive interception",
+              "Defensive interceptions",
+              "Intercepting a pass",
+              "Defensive INT",
+              "Defense INT",
+              "IDP INT",
+              "DST INT",
+              "D/ST INT",
+              "D/ST interception"
+            ],
+            "note": "Credits intercepting a pass, rather than throwing the interception; available for team defense and IDP."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Interception return yards",
+              "INT Return Yards",
+              "Interception return yardage",
+              "Interception return yard"
+            ],
+            "note": "Optional yardage credit measures distance gained after intercepting an opponent's pass."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fumble Recovery",
+              "Fumble recoveries",
+              "Recovering a fumble",
+              "Recovered fumble"
+            ],
+            "note": "Recovery credit is available for team defense and individual defensive players."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Fumble Return Yards"
+            ],
+            "note": "Optional yardage scoring measures distance gained after a fumble recovery."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Forced Fumble",
+              "Forced fumbles",
+              "Forcing a fumble",
+              "Fumble forced"
+            ],
+            "note": "Credits causing a fumble, whether or not the same defender recovers it."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Safety",
+              "Safeties",
+              "Defensive safety"
+            ],
+            "note": "A defensive scoring event that can receive its own fantasy value."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Blocked kick",
+              "Blocked punt",
+              "Blocked field goal",
+              "Blocked PAT",
+              "Block a kick",
+              "Kick block",
+              "Blocked Punt, PAT, or FG"
+            ],
+            "note": "Blocking a punt, field goal, or extra point is a listed defensive scoring option."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Blocked Kick Return Yards"
+            ],
+            "note": "A separate distance setting measures yards gained after a blocked kick."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Defensive touchdown",
+              "Defense TD",
+              "Defensive TD",
+              "Defense touchdown",
+              "IDP touchdown",
+              "IDP TD",
+              "Interception return touchdown",
+              "Interception return TD",
+              "Defensive pick six",
+              "Defensive pick 6",
+              "Pick six return",
+              "Pick 6 return"
+            ],
+            "note": "Touchdown credit is available for team defense and IDP; a pick-six is one example."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Two-point conversion return",
+              "2-Pt Conversion Returns",
+              "2 point conversion return",
+              "2 pt conversion return",
+              "Defensive two point conversion",
+              "Defensive 2 point conversion"
+            ],
+            "note": "Defensive return credit applies when an opponent's two-point try is returned for a score."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tackle",
+              "Tackles",
+              "Total tackle",
+              "Total tackles"
+            ],
+            "note": "Total tackle scoring is listed alongside separate solo and assisted tackle settings."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Solo Tackle",
+              "Solo tackles",
+              "Unassisted tackle"
+            ],
+            "note": "Solo tackle credit is separate from assisted-tackle credit in the scoring menu."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Assisted Tackle",
+              "Assisted tackles",
+              "Tackle assist",
+              "Tackle assists"
+            ],
+            "note": "Assisting on a tackle can earn its own league-defined fantasy value."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tackle for loss",
+              "Tackles for loss",
+              "TFL"
+            ],
+            "note": "A separate tackle setting credits bringing down a player behind the line of scrimmage."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sack",
+              "Sacks",
+              "Defensive sack",
+              "Sacking the quarterback"
+            ],
+            "note": "Credits sacking the opposing quarterback; available for team defense and IDP."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sack Yards"
+            ],
+            "note": "A separate distance setting scores the yardage lost on sacks."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Quarterback hit",
+              "Hit on QB",
+              "QB hit",
+              "QB hits",
+              "Quarterback hits"
+            ],
+            "note": "Quarterback pressure can earn credit through a hit even without a sack."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pass defended",
+              "Pass defense",
+              "Pass defences",
+              "Pass defenses",
+              "Pass deflection",
+              "Pass deflections",
+              "Pass breakup",
+              "Pass breakups",
+              "Passes defended",
+              "PD"
+            ],
+            "note": "A coverage setting credits breaking up a pass, separately from interceptions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Points Allowed 0",
+              "0 points allowed",
+              "Allowing 0 points",
+              "Shutout",
+              "Clean sheet",
+              "Zero points allowed",
+              "No points allowed"
+            ],
+            "note": "Team-defense scoring for conceding 0 points; only the applicable points-allowed band is credited."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Points Allowed 1-6",
+              "Points Allowed 1 to 6",
+              "1-6 points allowed",
+              "Allowing 1-6 points",
+              "1 to 6 points allowed",
+              "Allowing 1 to 6 points"
+            ],
+            "note": "Team-defense scoring for conceding 1-6 points; only the applicable points-allowed band is credited."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Points Allowed 7-13",
+              "Points Allowed 7 to 13",
+              "7-13 points allowed",
+              "Allowing 7-13 points",
+              "7 to 13 points allowed",
+              "Allowing 7 to 13 points"
+            ],
+            "note": "Team-defense scoring for conceding 7-13 points; only the applicable points-allowed band is credited."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Points Allowed 14-20",
+              "Points Allowed 14 to 20",
+              "14-20 points allowed",
+              "Allowing 14-20 points",
+              "14 to 20 points allowed",
+              "Allowing 14 to 20 points"
+            ],
+            "note": "Team-defense scoring for conceding 14-20 points; only the applicable points-allowed band is credited."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Points Allowed 21-27",
+              "Points Allowed 21 to 27",
+              "21-27 points allowed",
+              "Allowing 21-27 points",
+              "21 to 27 points allowed",
+              "Allowing 21 to 27 points"
+            ],
+            "note": "Team-defense scoring for conceding 21-27 points; only the applicable points-allowed band is credited."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Points Allowed 28-34",
+              "Points Allowed 28 to 34",
+              "28-34 points allowed",
+              "Allowing 28-34 points",
+              "28 to 34 points allowed",
+              "Allowing 28 to 34 points"
+            ],
+            "note": "Team-defense scoring for conceding 28-34 points; only the applicable points-allowed band is credited."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Points Allowed 35+",
+              "Points Allowed 35 plus",
+              "35+ points allowed",
+              "Allowing 35+ points",
+              "35 plus points allowed",
+              "Allowing 35 plus points"
+            ],
+            "note": "Team-defense scoring for conceding 35+ points; only the applicable points-allowed band is credited."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Points per point allowed"
+            ],
+            "note": "A configurable linear adjustment can change defensive fantasy points for each real point conceded."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Less Than 100 Total Yards Allowed",
+              "Less Than 100 yards allowed",
+              "Allowing Less Than 100 total yards"
+            ],
+            "note": "Team-defense scoring for allowing less than 100 total yards; yardage bands do not stack with one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "100-199 Total Yards Allowed",
+              "100 to 199 Total Yards Allowed",
+              "100-199 yards allowed",
+              "Allowing 100-199 total yards",
+              "100 to 199 yards allowed",
+              "Allowing 100 to 199 total yards"
+            ],
+            "note": "Team-defense scoring for allowing 100-199 total yards; yardage bands do not stack with one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "200-299 Total Yards Allowed",
+              "200 to 299 Total Yards Allowed",
+              "200-299 yards allowed",
+              "Allowing 200-299 total yards",
+              "200 to 299 yards allowed",
+              "Allowing 200 to 299 total yards"
+            ],
+            "note": "Team-defense scoring for allowing 200-299 total yards; yardage bands do not stack with one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "300-349 Total Yards Allowed",
+              "300 to 349 Total Yards Allowed",
+              "300-349 yards allowed",
+              "Allowing 300-349 total yards",
+              "300 to 349 yards allowed",
+              "Allowing 300 to 349 total yards"
+            ],
+            "note": "Team-defense scoring for allowing 300-349 total yards; yardage bands do not stack with one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "350-399 Total Yards Allowed",
+              "350 to 399 Total Yards Allowed",
+              "350-399 yards allowed",
+              "Allowing 350-399 total yards",
+              "350 to 399 yards allowed",
+              "Allowing 350 to 399 total yards"
+            ],
+            "note": "Team-defense scoring for allowing 350-399 total yards; yardage bands do not stack with one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "400-449 Total Yards Allowed",
+              "400 to 449 Total Yards Allowed",
+              "400-449 yards allowed",
+              "Allowing 400-449 total yards",
+              "400 to 449 yards allowed",
+              "Allowing 400 to 449 total yards"
+            ],
+            "note": "Team-defense scoring for allowing 400-449 total yards; yardage bands do not stack with one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "450-499 Total Yards Allowed",
+              "450 to 499 Total Yards Allowed",
+              "450-499 yards allowed",
+              "Allowing 450-499 total yards",
+              "450 to 499 yards allowed",
+              "Allowing 450 to 499 total yards"
+            ],
+            "note": "Team-defense scoring for allowing 450-499 total yards; yardage bands do not stack with one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "500-549 Total Yards Allowed",
+              "500 to 549 Total Yards Allowed",
+              "500-549 yards allowed",
+              "Allowing 500-549 total yards",
+              "500 to 549 yards allowed",
+              "Allowing 500 to 549 total yards"
+            ],
+            "note": "Team-defense scoring for allowing 500-549 total yards; yardage bands do not stack with one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "550+ Total Yards Allowed",
+              "550 plus Total Yards Allowed",
+              "550+ yards allowed",
+              "Allowing 550+ total yards",
+              "550 plus yards allowed",
+              "Allowing 550 plus total yards"
+            ],
+            "note": "Team-defense scoring for allowing 550+ total yards; yardage bands do not stack with one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Points per yard allowed"
+            ],
+            "note": "A configurable linear adjustment can change defensive fantasy points for each yard conceded."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Three-and-out",
+              "3 and Out",
+              "Three and outs",
+              "3 and outs"
+            ],
+            "note": "A drive-outcome setting rewards a defense for forcing three plays followed by a punt."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Fourth-down stop",
+              "4th Down Stop",
+              "Fourth down stops",
+              "Turnover on downs"
+            ],
+            "note": "A drive-outcome setting credits stopping the opponent on fourth down."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Forced Punt",
+              "Forced punts",
+              "Forcing a punt"
+            ],
+            "note": "A separate drive-outcome option credits making the opposing team punt."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Special teams touchdown",
+              "Special Teams TD",
+              "Return touchdown",
+              "Return TD",
+              "Punt return touchdown",
+              "Kick return touchdown",
+              "Kickoff return touchdown"
+            ],
+            "note": "Return-score credit can be awarded to the team unit or the individual player."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Special teams forced fumble",
+              "Special Teams Player Forced Fumble"
+            ],
+            "note": "Forcing a fumble on special teams can credit the unit or the player."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Special teams fumble recovery",
+              "Special Teams Player Fumble Recovery"
+            ],
+            "note": "Recovering a special-teams fumble can credit the unit or the player."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Special teams solo tackle",
+              "Special Teams Player Solo Tackle"
+            ],
+            "note": "A solo tackle on special teams can credit the unit or the player."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Punt return yards",
+              "Punt return yardage",
+              "Punt return yard",
+              "Player Punt Return Yards"
+            ],
+            "note": "Return distance after a punt can score for the unit or the individual returner."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kick return yards",
+              "Kickoff return yards",
+              "Kick return yardage",
+              "Player Kick Return Yards"
+            ],
+            "note": "Return distance after a kickoff can score for the unit or the individual returner."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Missed field goal return yards",
+              "Missed FG Return Yards",
+              "Missed field goal return yardage"
+            ],
+            "note": "Returning a missed field goal has its own listed distance-scoring option."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fumble",
+              "Fumbles",
+              "Fumbling"
+            ],
+            "note": "Usually a penalty for fumbling; it can apply on offense, defense, or special teams."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fumble lost",
+              "Lost fumble",
+              "Lost fumbles",
+              "Fumbles lost"
+            ],
+            "note": "Usually an additional penalty when a player's fumble is recovered by the opponent."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fumble recovery touchdown",
+              "Fumble Recovery TD",
+              "Fumble return touchdown",
+              "Fumble return TD"
+            ],
+            "note": "A fumble recovered for a touchdown has a separate miscellaneous scoring setting."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "100-199 Yard Rushing Game",
+              "100 to 199 Yard Rushing Game",
+              "100-199 rushing yards",
+              "100-199 rushing yards bonus",
+              "100-199 yard rushing bonus",
+              "100 to 199 rushing yards",
+              "100 to 199 rushing yards bonus",
+              "100 to 199 yard rushing bonus"
+            ],
+            "note": "A whole-game bonus for 100-199 rushing yards, distinct from ordinary per-yard scoring."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "200+ Yard Rushing Game",
+              "200 plus Yard Rushing Game",
+              "200+ rushing yards",
+              "200+ rushing yards bonus",
+              "200+ yard rushing bonus",
+              "200 plus rushing yards",
+              "200 plus rushing yards bonus",
+              "200 plus yard rushing bonus"
+            ],
+            "note": "A whole-game bonus for 200+ rushing yards, distinct from ordinary per-yard scoring."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "100-199 Yard Receiving Game",
+              "100 to 199 Yard Receiving Game",
+              "100-199 receiving yards",
+              "100-199 receiving yards bonus",
+              "100-199 yard receiving bonus",
+              "100 to 199 receiving yards",
+              "100 to 199 receiving yards bonus",
+              "100 to 199 yard receiving bonus"
+            ],
+            "note": "A whole-game bonus for 100-199 receiving yards, distinct from ordinary per-yard scoring."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "200+ Yard Receiving Game",
+              "200 plus Yard Receiving Game",
+              "200+ receiving yards",
+              "200+ receiving yards bonus",
+              "200+ yard receiving bonus",
+              "200 plus receiving yards",
+              "200 plus receiving yards bonus",
+              "200 plus yard receiving bonus"
+            ],
+            "note": "A whole-game bonus for 200+ receiving yards, distinct from ordinary per-yard scoring."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "300-399 Yard Passing Game",
+              "300 to 399 Yard Passing Game",
+              "300-399 passing yards",
+              "300-399 passing yards bonus",
+              "300-399 yard passing bonus",
+              "300 to 399 passing yards",
+              "300 to 399 passing yards bonus",
+              "300 to 399 yard passing bonus"
+            ],
+            "note": "A whole-game bonus for 300-399 passing yards, distinct from ordinary per-yard scoring."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "400+ Yard Passing Game",
+              "400 plus Yard Passing Game",
+              "400+ passing yards",
+              "400+ passing yards bonus",
+              "400+ yard passing bonus",
+              "400 plus passing yards",
+              "400 plus passing yards bonus",
+              "400 plus yard passing bonus"
+            ],
+            "note": "A whole-game bonus for 400+ passing yards, distinct from ordinary per-yard scoring."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "100-199 Combined Rush + Rec Yards",
+              "100-199 Combined rushing + receiving Yards",
+              "100 to 199 Combined Rush  plus Rec Yards",
+              "100 to 199 Combined rushing  plus receiving Yards",
+              "100-199 combined yards",
+              "100-199 scrimmage yards bonus",
+              "100-199 combined rushing and receiving yards",
+              "100 to 199 combined yards",
+              "100 to 199 scrimmage yards bonus",
+              "100 to 199 combined rushing and receiving yards"
+            ],
+            "note": "A game bonus for 100-199 combined rushing and receiving yards; either component can be zero."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "200+ Combined Rush + Rec Yards",
+              "200+ Combined rushing + receiving Yards",
+              "200 plus Combined Rush  plus Rec Yards",
+              "200 plus Combined rushing  plus receiving Yards",
+              "200+ combined yards",
+              "200+ scrimmage yards bonus",
+              "200+ combined rushing and receiving yards",
+              "200 plus combined yards",
+              "200 plus scrimmage yards bonus",
+              "200 plus combined rushing and receiving yards"
+            ],
+            "note": "A game bonus for 200+ combined rushing and receiving yards; either component can be zero."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "25+ Pass Completions",
+              "25 plus Pass Completions",
+              "25 completion bonus",
+              "25 completions",
+              "25 completed passes"
+            ],
+            "note": "A game-volume bonus activates at 25 or more completed passes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "20+ Carries",
+              "20 plus Carries",
+              "20 carry bonus",
+              "20 rushing attempts"
+            ],
+            "note": "A game-volume bonus activates at 20 or more rushing attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "1st Down Bonus - RB",
+              "first Down Bonus - RB",
+              "running back first down bonus",
+              "RB first down bonus"
+            ],
+            "note": "A positional bonus gives a running back extra credit for producing a first down."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "1st Down Bonus - WR",
+              "first Down Bonus - WR",
+              "wide receiver first down bonus",
+              "WR first down bonus"
+            ],
+            "note": "A positional bonus gives a wide receiver extra credit for producing a first down."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "1st Down Bonus - TE",
+              "first Down Bonus - TE",
+              "tight end first down bonus",
+              "TE first down bonus"
+            ],
+            "note": "A positional bonus gives a tight end extra credit for producing a first down."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "1st Down Bonus - QB",
+              "first Down Bonus - QB",
+              "quarterback first down bonus",
+              "QB first down bonus"
+            ],
+            "note": "A positional bonus gives a quarterback extra credit for producing a first down."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "10+ Tackle Bonus",
+              "10 plus Tackle Bonus"
+            ],
+            "note": "An individual-defender game bonus credits reaching 10 or more tackles."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "2+ Sack Bonus",
+              "2 plus Sack Bonus"
+            ],
+            "note": "An individual-defender game bonus credits reaching two or more sacks."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "3+ Pass Defended Bonus",
+              "3 plus Pass Defended Bonus"
+            ],
+            "note": "An individual-defender game bonus credits reaching three or more passes defended."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "50+ Yard Interception Return Bonus",
+              "50 plus Yard Interception Return Bonus"
+            ],
+            "note": "An individual-defender bonus credits an interception return of at least 50 yards."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "50+ Yard Fumble Return TD Bonus",
+              "50+ Yard Fumble Return touchdown Bonus",
+              "50 plus Yard Fumble Return TD Bonus",
+              "50 plus Yard Fumble Return touchdown Bonus"
+            ],
+            "note": "An individual-defender bonus credits a fumble-return touchdown covering at least 50 yards."
+          }
+        ]
+      },
+      {
+        "prompt": "Minor League Baseball Teams",
+        "source": "https://en.wikipedia.org/wiki/List_of_Minor_League_Baseball_leagues_and_teams",
+        "sourceNote": "All distinct names in the linked team tables as accessed 7 Oct 2026: affiliated full-season and rookie clubs, Arizona Fall League, partner, draft and non-partner leagues, including the listed women's league. This is a source-list snapshot, including announced 2027 identities and alignments, not a claim every listed name already played in 2026. Duplicate DSL Rockies entries share one catch. Full names and unambiguous nicknames accepted; MLB parent-club names alone do not count. Rarity reflects baseball-aware general recall with familiar Minnesota clubs rated lower. Springfield/Wichita former names verified at https://www.milb.com/springfield/news/springfield-cardinals-rebrand-to-ozarks-springbirds and https://www.milb.com/wichita/news/the-wind-surge-to-officially-rebrand-as-the-turbo-tubs ; upcoming NAPB alignment corroborated at https://www.naprobaseball.com/ . The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota.",
+        "answers": [
+          {
+            "points": 30,
+            "forms": [
+              "Cedar Rapids Kernels",
+              "Kernels"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Veterans Memorial Stadium."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Rocket City Trash Pandas",
+              "Trash Pandas"
+            ],
+            "note": "Ding ding ding"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Indianapolis Indians"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Victory Field."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Iowa Cubs"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Principal Park."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rochester Red Wings",
+              "Red Wings"
+            ],
+            "note": "Triple-A team listed in the International League; home park: ESL Ballpark."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "St. Paul Saints",
+              "Saints",
+              "Saint Paul Saints"
+            ],
+            "note": "Triple-A team listed in the International League; home park: CHS Field."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Worcester Red Sox"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Polar Park."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tacoma Rainiers",
+              "Rainiers"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Cheney Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Toledo Mud Hens",
+              "Mud Hens"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Fifth Third Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Buffalo Bisons",
+              "Bisons"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Sahlen Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Durham Bulls",
+              "Bulls"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Durham Bulls Athletic Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lehigh Valley IronPigs",
+              "IronPigs",
+              "Iron Pigs",
+              "Lehigh Valley Iron Pigs"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Coca-Cola Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Omaha Storm Chasers",
+              "Storm Chasers"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Werner Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Albuquerque Isotopes",
+              "Isotopes"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Rio Grande Credit Union Field at Isotopes Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sacramento River Cats"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Sutter Health Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Portland Sea Dogs",
+              "Sea Dogs"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: Hadlock Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Richmond Flying Squirrels",
+              "Flying Squirrels"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: CarMax Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Somerset Patriots"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: TD Bank Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Birmingham Barons",
+              "Barons"
+            ],
+            "note": "Double-A team listed in the Southern League; home park: Regions Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Montgomery Biscuits",
+              "Biscuits"
+            ],
+            "note": "Double-A team listed in the Southern League; home park: Dabos Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "San Antonio Missions",
+              "Missions"
+            ],
+            "note": "Double-A team listed in the Texas League; home park: Nelson W. Wolff Municipal Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dayton Dragons",
+              "Dragons"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Day Air Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fort Wayne TinCaps",
+              "TinCaps",
+              "Tin Caps",
+              "Fort Wayne Tin Caps"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Parkview Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lansing Lugnuts",
+              "Lugnuts"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Jackson Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wisconsin Timber Rattlers"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Neuroscience Group Field at Fox Cities Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brooklyn Cyclones",
+              "Cyclones"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: Maimonides Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charleston RiverDogs",
+              "RiverDogs",
+              "River Dogs",
+              "Charleston River Dogs"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: Joseph P. Riley Jr. Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fargo-Moorhead RedHawks",
+              "RedHawks",
+              "Red Hawks",
+              "Fargo-Moorhead Red Hawks"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: Newman Outdoor Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sioux Falls Canaries",
+              "Canaries"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: Sioux Falls Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Winnipeg Goldeyes",
+              "Goldeyes"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: Blue Cross Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Long Island Ducks"
+            ],
+            "note": "Team listed in the Atlantic League of Professional Baseball; home park: Fairfield Properties Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Billings Mustangs",
+              "Mustangs"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Dehler Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Trenton Thunder",
+              "Thunder"
+            ],
+            "note": "Team listed in the MLB Draft League; home park: Trenton Thunder Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charlotte Knights",
+              "Knights"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Truist Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Columbus Clippers",
+              "Clippers"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Huntington Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gwinnett Stripers",
+              "Stripers"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Gwinnett Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jacksonville Jumbo Shrimp",
+              "Jumbo Shrimp"
+            ],
+            "note": "Triple-A team listed in the International League; home park: VyStar Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Louisville Bats",
+              "Bats"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Louisville Slugger Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Memphis Redbirds",
+              "Redbirds"
+            ],
+            "note": "Triple-A team listed in the International League; home park: AutoZone Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nashville Sounds",
+              "Sounds"
+            ],
+            "note": "Triple-A team listed in the International League; home park: First Horizon Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Norfolk Tides",
+              "Tides"
+            ],
+            "note": "Triple-A team listed in the International League; home park: Harbor Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Scranton/Wilkes-Barre RailRiders",
+              "RailRiders",
+              "Rail Riders",
+              "Scranton/Wilkes-Barre Rail Riders",
+              "Scranton RailRiders",
+              "Wilkes Barre RailRiders"
+            ],
+            "note": "Triple-A team listed in the International League; home park: PNC Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Syracuse Mets"
+            ],
+            "note": "Triple-A team listed in the International League; home park: NBT Bank Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "El Paso Chihuahuas",
+              "Chihuahuas"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Southwest University Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Las Vegas Aviators",
+              "Aviators"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Las Vegas Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Oklahoma City Comets",
+              "Comets"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Chickasaw Bricktown Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Reno Aces",
+              "Aces"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Greater Nevada Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Round Rock Express",
+              "Express"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Dell Diamond."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Salt Lake Bees"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Ballpark at America First Square."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sugar Land Space Cowboys",
+              "Space Cowboys"
+            ],
+            "note": "Triple-A team listed in the Pacific Coast League; home park: Constellation Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Akron RubberDucks",
+              "RubberDucks",
+              "Rubber Ducks",
+              "Akron Rubber Ducks"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: 7 17 Credit Union Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altoona Curve",
+              "Curve"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: Peoples Natural Gas Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Binghamton Rumble Ponies",
+              "Rumble Ponies"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: Mirabito Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chesapeake Baysox",
+              "Baysox"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: Prince George's Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Erie SeaWolves",
+              "SeaWolves",
+              "Sea Wolves",
+              "Erie Sea Wolves"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: UPMC Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Harrisburg Senators",
+              "Senators"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: FNB Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hartford Yard Goats",
+              "Yard Goats"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: Dunkin' Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "New Hampshire Fisher Cats",
+              "Fisher Cats"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: Delta Dental Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Reading Fightin Phils",
+              "Fightin Phils"
+            ],
+            "note": "Double-A team listed in the Eastern League; home park: FirstEnergy Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Biloxi Shuckers",
+              "Shuckers"
+            ],
+            "note": "Double-A team listed in the Southern League; home park: Keesler Federal Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chattanooga Lookouts",
+              "Lookouts"
+            ],
+            "note": "Double-A team listed in the Southern League; home park: Erlanger Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Columbus Clingstones",
+              "Clingstones"
+            ],
+            "note": "Double-A team listed in the Southern League; home park: Pinnacle Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Knoxville Smokies",
+              "Smokies"
+            ],
+            "note": "Double-A team listed in the Southern League; home park: Covenant Health Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pensacola Blue Wahoos",
+              "Blue Wahoos"
+            ],
+            "note": "Double-A team listed in the Southern League; home park: Blue Wahoos Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Amarillo Sod Poodles",
+              "Sod Poodles"
+            ],
+            "note": "Double-A team listed in the Texas League; home park: Hodgetown."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Arkansas Travelers"
+            ],
+            "note": "Double-A team listed in the Texas League; home park: Dickey\u2013Stephens Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Corpus Christi Hooks",
+              "Hooks"
+            ],
+            "note": "Double-A team listed in the Texas League; home park: Whataburger Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Frisco RoughRiders",
+              "RoughRiders",
+              "Rough Riders",
+              "Frisco Rough Riders"
+            ],
+            "note": "Double-A team listed in the Texas League; home park: Riders Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Midland RockHounds",
+              "RockHounds",
+              "Rock Hounds",
+              "Midland Rock Hounds"
+            ],
+            "note": "Double-A team listed in the Texas League; home park: Momentum Bank Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Northwest Arkansas Naturals",
+              "Naturals"
+            ],
+            "note": "Double-A team listed in the Texas League; home park: Arvest Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tulsa Drillers",
+              "Drillers"
+            ],
+            "note": "Double-A team listed in the Texas League; home park: ONEOK Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Beloit Sky Carp",
+              "Sky Carp"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: ABC Supply Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Great Lakes Loons",
+              "Loons"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Dow Diamond."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lake County Captains",
+              "Captains"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Classic Auto Group Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Peoria Chiefs",
+              "Chiefs"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Dozer Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quad Cities River Bandits",
+              "River Bandits"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Modern Woodmen Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "South Bend Cubs"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: Four Winds Field at Coveleski Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "West Michigan Whitecaps",
+              "Whitecaps"
+            ],
+            "note": "High-A team listed in the Midwest League; home park: LMCU Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Asheville Tourists",
+              "Tourists"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: HomeTrust Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bowling Green Hot Rods",
+              "Hot Rods"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: Bowling Green Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Frederick Keys",
+              "Keys"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: Nymeo Field at Harry Grove Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Greensboro Grasshoppers",
+              "Grasshoppers"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: First National Bank Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Greenville Drive",
+              "Drive"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: Fluor Field at the West End."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hub City Spartanburgers",
+              "Spartanburgers"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: Fifth Third Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hudson Valley Renegades"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: Heritage Financial Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jersey Shore BlueClaws",
+              "BlueClaws",
+              "Blue Claws",
+              "Jersey Shore Blue Claws"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: ShoreTown Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rome Emperors",
+              "Emperors"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: AdventHealth Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wilmington Blue Rocks",
+              "Blue Rocks"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: Daniel S. Frawley Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Winston-Salem Dash",
+              "Dash"
+            ],
+            "note": "High-A team listed in the South Atlantic League; home park: Truist Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eugene Emeralds",
+              "Emeralds"
+            ],
+            "note": "High-A team listed in the Northwest League; home park: PK Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Everett AquaSox",
+              "AquaSox",
+              "Aqua Sox",
+              "Everett Aqua Sox"
+            ],
+            "note": "High-A team listed in the Northwest League; home park: Funko Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hillsboro Hops",
+              "Hops"
+            ],
+            "note": "High-A team listed in the Northwest League; home park: Hillsboro Hops Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spokane Indians"
+            ],
+            "note": "High-A team listed in the Northwest League; home park: Avista Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tri-City Dust Devils",
+              "Dust Devils"
+            ],
+            "note": "High-A team listed in the Northwest League; home park: Gesa Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vancouver Canadians",
+              "Canadians"
+            ],
+            "note": "High-A team listed in the Northwest League; home park: Rogers Field at Nat Bailey Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Augusta GreenJackets",
+              "GreenJackets",
+              "Green Jackets",
+              "Augusta Green Jackets"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: SRP Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Columbia Fireflies",
+              "Fireflies"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: Segra Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Delmarva Shorebirds",
+              "Shorebirds"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: Arthur W. Perdue Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fayetteville Woodpeckers",
+              "Woodpeckers"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: Segra Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fredericksburg Nationals"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: Virginia Credit Union Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hickory Crawdads",
+              "Crawdads"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: L. P. Frans Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kannapolis Cannon Ballers",
+              "Cannon Ballers"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: Atrium Health Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Myrtle Beach Pelicans",
+              "Pelicans"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: Pelicans Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bradenton Marauders",
+              "Marauders"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: LECOM Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Clearwater Threshers",
+              "Threshers"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: BayCare Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daytona Tortugas"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: Jackie Robinson Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dunedin Blue Jays"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: TD Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fort Myers Mighty Mussels",
+              "Mighty Mussels"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: Hammond Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jupiter Hammerheads",
+              "Hammerheads"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: Roger Dean Chevrolet Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lakeland Flying Tigers",
+              "Flying Tigers"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: Publix Field at Joker Marchant Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Palm Beach Cardinals"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: Roger Dean Chevrolet Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "St. Lucie Mets",
+              "Saint Lucie Mets"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: Clover Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tampa Tarpons",
+              "Tarpons"
+            ],
+            "note": "Single-A team listed in the Florida State League; home park: George M. Steinbrenner Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fresno Grizzlies",
+              "Grizzlies"
+            ],
+            "note": "Single-A team listed in the California League; home park: Chukchansi Park."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Inland Empire 66ers",
+              "66ers"
+            ],
+            "note": "Single-A team listed in the California League; home park: San Manuel Stadium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lake Elsinore Storm",
+              "Storm"
+            ],
+            "note": "Single-A team listed in the California League; home park: Lake Elsinore Diamond."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rancho Cucamonga Quakes",
+              "Quakes"
+            ],
+            "note": "Single-A team listed in the California League; home park: LoanMart Field."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "San Jose Giants"
+            ],
+            "note": "Single-A team listed in the California League; home park: Excite Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stockton Ports",
+              "Ports"
+            ],
+            "note": "Single-A team listed in the California League; home park: Banner Island Ballpark."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Visalia Rawhide",
+              "Rawhide"
+            ],
+            "note": "Single-A team listed in the California League; home park: Valley Strong Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ozarks Springbirds",
+              "Springbirds",
+              "Springfield Cardinals",
+              "Springfield Cards"
+            ],
+            "note": "The Springfield Cardinals announced this Ozarks identity in October 2026; the club remains a Cardinals affiliate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wichita Turbo Tubs",
+              "Turbo Tubs",
+              "Wichita Wind Surge",
+              "Wind Surge"
+            ],
+            "note": "The Wichita Wind Surge announced this Double-A Twins-affiliate name for the 2027 season."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hill City Howlers",
+              "Howlers"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: City Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Salem RidgeYaks",
+              "RidgeYaks",
+              "Ridge Yaks",
+              "Salem Ridge Yaks"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: Carilion Clinic Field at Salem Memorial Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wilson Warbirds",
+              "Warbirds"
+            ],
+            "note": "Single-A team listed in the Carolina League; home park: Wilson Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ontario Tower Buzzers",
+              "Tower Buzzers"
+            ],
+            "note": "Single-A team listed in the California League; home park: ONT Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Angels",
+              "Arizona Complex League Angels"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Los Angeles Angels; plays at Tempe Diablo Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Athletics",
+              "Arizona Complex League Athletics"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Athletics; plays at Fitch Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Brewers",
+              "Arizona Complex League Brewers"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Milwaukee Brewers; plays at American Family Fields of Phoenix."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Cubs",
+              "Arizona Complex League Cubs"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Chicago Cubs; plays at Sloan Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL D-backs",
+              "Arizona Complex League D-backs",
+              "ACL Diamondbacks",
+              "ACL Dbacks",
+              "Arizona Complex League Diamondbacks"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Arizona Diamondbacks; plays at Salt River Fields at Talking Stick."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Dodgers",
+              "Arizona Complex League Dodgers"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Los Angeles Dodgers; plays at Camelback Ranch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Giants",
+              "Arizona Complex League Giants"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the San Francisco Giants; plays at Scottsdale Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Guardians",
+              "Arizona Complex League Guardians"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Cleveland Guardians; plays at Goodyear Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Mariners",
+              "Arizona Complex League Mariners"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Seattle Mariners; plays at Peoria Sports Complex."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Padres",
+              "Arizona Complex League Padres"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the San Diego Padres; plays at Peoria Sports Complex."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Rangers",
+              "Arizona Complex League Rangers"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Texas Rangers; plays at Surprise Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Reds",
+              "Arizona Complex League Reds"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Cincinnati Reds; plays at Goodyear Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Rockies",
+              "Arizona Complex League Rockies"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Colorado Rockies; plays at Salt River Fields at Talking Stick."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL Royals",
+              "Arizona Complex League Royals"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Kansas City Royals; plays at Surprise Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ACL White Sox",
+              "Arizona Complex League White Sox"
+            ],
+            "note": "Rookie-level Arizona Complex League affiliate of the Chicago White Sox; plays at Camelback Ranch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Astros",
+              "Florida Complex League Astros"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Houston Astros; plays at Cacti Park of the Palm Beaches."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Blue Jays",
+              "Florida Complex League Blue Jays"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Toronto Blue Jays; plays at Bobby Mattick Training Center."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Braves",
+              "Florida Complex League Braves"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Atlanta Braves; plays at CoolToday Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Cardinals",
+              "Florida Complex League Cardinals"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the St. Louis Cardinals; plays at Roger Dean Chevrolet Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Marlins",
+              "Florida Complex League Marlins"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Miami Marlins; plays at Roger Dean Chevrolet Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Mets",
+              "Florida Complex League Mets"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the New York Mets; plays at Clover Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Nationals",
+              "Florida Complex League Nationals"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Washington Nationals; plays at Cacti Park of the Palm Beaches."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Orioles",
+              "Florida Complex League Orioles"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Baltimore Orioles; plays at Ed Smith Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Phillies",
+              "Florida Complex League Phillies"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Philadelphia Phillies; plays at Carpenter Complex."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Pirates",
+              "Florida Complex League Pirates"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Pittsburgh Pirates; plays at Pirate City."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Rays",
+              "Florida Complex League Rays"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Tampa Bay Rays; plays at Charlotte Sports Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Red Sox",
+              "Florida Complex League Red Sox"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Boston Red Sox; plays at JetBlue Park at Fenway South."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Tigers",
+              "Florida Complex League Tigers"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Detroit Tigers; plays at Tigertown."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Twins",
+              "Florida Complex League Twins"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the Minnesota Twins; plays at Lee County Sports Complex."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FCL Yankees",
+              "Florida Complex League Yankees"
+            ],
+            "note": "Rookie-level Florida Complex League affiliate of the New York Yankees; plays at Himes Complex."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Glendale Desert Dogs",
+              "Desert Dogs"
+            ],
+            "note": "Arizona Fall League prospect team; listed home park: Camelback Ranch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mesa Solar Sox",
+              "Solar Sox"
+            ],
+            "note": "Arizona Fall League prospect team; listed home park: Sloan Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Peoria Javelinas",
+              "Javelinas"
+            ],
+            "note": "Arizona Fall League prospect team; listed home park: Peoria Sports Complex."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Salt River Rafters"
+            ],
+            "note": "Arizona Fall League prospect team; listed home park: Salt River Fields at Talking Stick."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Scottsdale Scorpions",
+              "Scorpions"
+            ],
+            "note": "Arizona Fall League prospect team; listed home park: Scottsdale Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Surprise Saguaros"
+            ],
+            "note": "Arizona Fall League prospect team; listed home park: Surprise Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chicago Dogs"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: Impact Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gary SouthShore RailCats",
+              "RailCats",
+              "Rail Cats",
+              "Gary SouthShore Rail Cats"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: U.S. Steel Yard."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kansas City Monarchs",
+              "Monarchs"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: Legends Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lake Country DockHounds",
+              "DockHounds",
+              "Dock Hounds",
+              "Lake Country Dock Hounds"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: Wisconsin Brewing Company Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lincoln Saltdogs",
+              "Saltdogs"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: Haymarket Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Milwaukee Milkmen"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: Franklin Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sioux City Explorers",
+              "Explorers"
+            ],
+            "note": "Team listed in the American Association of Professional Baseball; home park: Security National Bank Field at Lewis & Clark Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Charleston Dirty Birds",
+              "Dirty Birds"
+            ],
+            "note": "Team listed in the Atlantic League of Professional Baseball; home park: GoMart Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hagerstown Flying Boxcars",
+              "Flying Boxcars"
+            ],
+            "note": "Team listed in the Atlantic League of Professional Baseball; home park: Meritus Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "High Point Rockers",
+              "Rockers"
+            ],
+            "note": "Team listed in the Atlantic League of Professional Baseball; home park: Truist Point."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lancaster Stormers",
+              "Stormers"
+            ],
+            "note": "Team listed in the Atlantic League of Professional Baseball; home park: Penn Medicine Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lexington Legends",
+              "Legends"
+            ],
+            "note": "Team listed in the Atlantic League of Professional Baseball; home park: CommonSpirit Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Southern Maryland Blue Crabs",
+              "Blue Crabs"
+            ],
+            "note": "Team listed in the Atlantic League of Professional Baseball; home park: Regency Furniture Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Staten Island FerryHawks",
+              "FerryHawks",
+              "Ferry Hawks",
+              "Staten Island Ferry Hawks"
+            ],
+            "note": "Team listed in the Atlantic League of Professional Baseball; home park: SIUH Community Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "York Revolution",
+              "Revolution"
+            ],
+            "note": "Team listed in the Atlantic League of Professional Baseball; home park: WellSpan Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brockton Rox",
+              "Rox"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Campanelli Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cleburne Railroaders",
+              "Railroaders"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: La Moderna Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Down East Bird Dawgs",
+              "Bird Dawgs"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Grainger Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Evansville Otters",
+              "Otters"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Bosse Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Florence Y'alls",
+              "Y'alls",
+              "Florence Yalls"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Thomas More Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gateway Grizzlies"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Arsenal BG Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Joliet Slammers",
+              "Slammers"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Slammers Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kane County Cougars"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Northwestern Medicine Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lake Erie Crushers"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: ForeFront Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mississippi Mud Monsters"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Trustmark Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "New Jersey Jackals"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Hinchliffe Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "New York Boulders",
+              "Boulders"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Clover Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ottawa Titans",
+              "Titans"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Ottawa Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Qu\u00e9bec Capitales"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Stade Canac."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Schaumburg Boomers",
+              "Boomers"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Wintrust Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sussex County Miners"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Skylands Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tri-City ValleyCats",
+              "ValleyCats",
+              "Valley Cats",
+              "Tri-City Valley Cats"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Joseph L. Bruno Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Trois-Rivi\u00e8res Aigles",
+              "Aigles"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Stade Quillorama."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Washington Wild Things",
+              "Wild Things"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: EQT Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Windy City ThunderBolts",
+              "ThunderBolts",
+              "Thunder Bolts",
+              "Windy City Thunder Bolts"
+            ],
+            "note": "Team listed in the National Association of Professional Baseball; home park: Ozinga Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Boise Hawks",
+              "Hawks"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Memorial Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Glacier Range Riders",
+              "Range Riders"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Glacier Bank Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Great Falls Voyagers",
+              "Voyagers"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Centene Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Idaho Falls Chukars",
+              "Chukars"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Melaleuca Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Long Beach Coast",
+              "Coast"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Blair Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Missoula PaddleHeads",
+              "PaddleHeads",
+              "Paddle Heads",
+              "Missoula Paddle Heads"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Ogren Park at Allegiance Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Modesto Roadsters",
+              "Roadsters"
+            ],
+            "note": "Team listed in the Pioneer League; home park: John Thurman Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Oakland Ballers",
+              "Ballers"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Raimondi Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ogden Raptors",
+              "Raptors"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Lindquist Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Yuba-Sutter Freebirds",
+              "Freebirds"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Bryant Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aberdeen IronBirds",
+              "IronBirds",
+              "Iron Birds",
+              "Aberdeen Iron Birds"
+            ],
+            "note": "Team listed in the MLB Draft League; home park: Ripken Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mahoning Valley Scrappers"
+            ],
+            "note": "Team listed in the MLB Draft League; home park: 7 17 Credit Union Field at Eastwood."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "State College Spikes"
+            ],
+            "note": "Team listed in the MLB Draft League; home park: Lubrano Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "West Virginia Black Bears"
+            ],
+            "note": "Team listed in the MLB Draft League; home park: Kendrick Family Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Williamsport Crosscutters",
+              "Crosscutters"
+            ],
+            "note": "Team listed in the MLB Draft League; home park: Journey Bank Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Barrie Baycats"
+            ],
+            "note": "Team listed in the Canadian Baseball League; home park: Athletic Kulture Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brantford Red Sox"
+            ],
+            "note": "Team listed in the Canadian Baseball League; home park: Arnold Anderson Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chatham-Kent Barnstormers",
+              "Barnstormers"
+            ],
+            "note": "Team listed in the Canadian Baseball League; home park: Fergie Jenkins Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Guelph Royals"
+            ],
+            "note": "Team listed in the Canadian Baseball League; home park: Hastings Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hamilton Cardinals"
+            ],
+            "note": "Team listed in the Canadian Baseball League; home park: Bernie Arbour Memorial Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kitchener Panthers",
+              "Panthers"
+            ],
+            "note": "Team listed in the Canadian Baseball League; home park: Jack Couch Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "London Majors",
+              "Majors"
+            ],
+            "note": "Team listed in the Canadian Baseball League; home park: Labatt Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Toronto Maple Leafs",
+              "Maple Leafs"
+            ],
+            "note": "Team listed in the Canadian Baseball League; home park: Dominico Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Welland Jackfish",
+              "Jackfish"
+            ],
+            "note": "Team listed in the Canadian Baseball League; home park: Welland Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alpine Cowboys",
+              "Cowboys"
+            ],
+            "note": "Team listed in the Pecos League; home park: Kokernot Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Austin Weirdos",
+              "Weirdos"
+            ],
+            "note": "Team listed in the Pecos League; home park: Parque Zaragosa."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bakersfield Train Robbers",
+              "Train Robbers"
+            ],
+            "note": "Team listed in the Pecos League; home park: Sam Lynn Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dublin Leprechauns",
+              "Leprechauns"
+            ],
+            "note": "Team listed in the Pecos League; home park: Fallon Sports Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Garden City Wind",
+              "Wind"
+            ],
+            "note": "Team listed in the Pecos League; home park: Clint Lightner Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Martinez Sturgeon",
+              "Sturgeon"
+            ],
+            "note": "Team listed in the Pecos League; home park: Waterfront Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Marysville Drakes",
+              "Drakes"
+            ],
+            "note": "Team listed in the Pecos League; home park: Bryant Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pecos Bills",
+              "Bills"
+            ],
+            "note": "Team listed in the Pecos League; home park: Cyclone Ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Roswell Invaders",
+              "Invaders"
+            ],
+            "note": "Team listed in the Pecos League; home park: Joe Baumann Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "San Rafael Pacifics",
+              "Pacifics"
+            ],
+            "note": "Team listed in the Pecos League; home park: Albert Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Santa Fe Fuego",
+              "Fuego"
+            ],
+            "note": "Team listed in the Pecos League; home park: Fort Marcy Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Trinidad Triggers",
+              "Triggers"
+            ],
+            "note": "Team listed in the Pecos League; home park: Central Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tucson Saguaros"
+            ],
+            "note": "Team listed in the Pecos League; home park: Kino Sports Complex."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vallejo Seaweed",
+              "Seaweed"
+            ],
+            "note": "Team listed in the Pecos League; home park: Wilson Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Birmingham Bloomfield Beavers",
+              "Beavers"
+            ],
+            "note": "Team listed in the United Shore Professional Baseball League; home park: UWM Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Eastside Diamond Hoppers",
+              "Diamond Hoppers"
+            ],
+            "note": "Team listed in the United Shore Professional Baseball League; home park: UWM Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Utica Unicorns",
+              "Unicorns"
+            ],
+            "note": "Team listed in the United Shore Professional Baseball League; home park: UWM Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Westside Woolly Mammoths",
+              "Woolly Mammoths"
+            ],
+            "note": "Team listed in the United Shore Professional Baseball League; home park: UWM Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Boston Hunters",
+              "Hunters"
+            ],
+            "note": "Listed in the Women's Pro Baseball League; the source assigns its home games to Robin Roberts Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Los Angeles Queens",
+              "Queens"
+            ],
+            "note": "Listed in the Women's Pro Baseball League; the source assigns its home games to Robin Roberts Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "New York Heights",
+              "Heights"
+            ],
+            "note": "Listed in the Women's Pro Baseball League; the source assigns its home games to Robin Roberts Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "San Francisco Firebells",
+              "Firebells"
+            ],
+            "note": "Listed in the Women's Pro Baseball League; the source assigns its home games to Robin Roberts Stadium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Angels",
+              "Dominican Summer League Angels"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Los Angeles Angels; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Astros",
+              "Dominican Summer League Astros"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Houston Astros; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Athletics",
+              "Dominican Summer League Athletics"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Oakland Athletics; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Blue Jays",
+              "Dominican Summer League Blue Jays"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Toronto Blue Jays; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Braves",
+              "Dominican Summer League Braves"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Atlanta Braves; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Brewers Blue",
+              "Dominican Summer League Brewers Blue"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Milwaukee Brewers; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Brewers Gold",
+              "Dominican Summer League Brewers Gold"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Milwaukee Brewers; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Cardinals Blue",
+              "Dominican Summer League Cardinals Blue"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the St. Louis Cardinals; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Cardinals Red",
+              "Dominican Summer League Cardinals Red"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the St. Louis Cardinals; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Rockies",
+              "Dominican Summer League Rockies"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Colorado Rockies; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Cubs Blue",
+              "Dominican Summer League Cubs Blue"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Chicago Cubs; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Cubs Red",
+              "Dominican Summer League Cubs Red"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Chicago Cubs; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Diamondbacks 1",
+              "Dominican Summer League Diamondbacks 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Arizona Diamondbacks; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Diamondbacks 2",
+              "Dominican Summer League Diamondbacks 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Arizona Diamondbacks; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Dodgers Bautista",
+              "Dominican Summer League Dodgers Bautista"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Los Angeles Dodgers; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Dodgers Shoemaker",
+              "Dominican Summer League Dodgers Shoemaker"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Los Angeles Dodgers; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Giants 1",
+              "Dominican Summer League Giants 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the San Francisco Giants; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Giants 2",
+              "Dominican Summer League Giants 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the San Francisco Giants; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Guardians 1",
+              "Dominican Summer League Guardians 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Cleveland Guardians; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Guardians 2",
+              "Dominican Summer League Guardians 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Cleveland Guardians; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Mariners",
+              "Dominican Summer League Mariners"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Seattle Mariners; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Marlins",
+              "Dominican Summer League Marlins"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Miami Marlins; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Mets 1",
+              "Dominican Summer League Mets 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the New York Mets; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Mets 2",
+              "Dominican Summer League Mets 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the New York Mets; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Nationals",
+              "Dominican Summer League Nationals"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Washington Nationals; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Orioles 1",
+              "Dominican Summer League Orioles 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Baltimore Orioles; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Orioles 2",
+              "Dominican Summer League Orioles 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Baltimore Orioles; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Padres",
+              "Dominican Summer League Padres"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the San Diego Padres; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Phillies Red",
+              "Dominican Summer League Phillies Red"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Philadelphia Phillies; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Phillies White",
+              "Dominican Summer League Phillies White"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Philadelphia Phillies; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Pirates 1",
+              "Dominican Summer League Pirates 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Pittsburgh Pirates; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Pirates 2",
+              "Dominican Summer League Pirates 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Pittsburgh Pirates; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Rangers 1",
+              "Dominican Summer League Rangers 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Texas Rangers; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Rangers 2",
+              "Dominican Summer League Rangers 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Texas Rangers; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Rays 1",
+              "Dominican Summer League Rays 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Tampa Bay Rays; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Rays 2",
+              "Dominican Summer League Rays 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Tampa Bay Rays; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Reds",
+              "Dominican Summer League Reds"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Cincinnati Reds; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Red Sox Blue",
+              "Dominican Summer League Red Sox Blue"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Boston Red Sox; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Red Sox Red",
+              "Dominican Summer League Red Sox Red"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Boston Red Sox; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Royals 1",
+              "Dominican Summer League Royals 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Kansas City Royals; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Royals 2",
+              "Dominican Summer League Royals 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Kansas City Royals; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Tigers 1",
+              "Dominican Summer League Tigers 1"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Detroit Tigers; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Tigers 2",
+              "Dominican Summer League Tigers 2"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Detroit Tigers; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Twins",
+              "Dominican Summer League Twins"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Minnesota Twins; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL White Sox",
+              "Dominican Summer League White Sox"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the Chicago White Sox; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DSL Yankees",
+              "Dominican Summer League Yankees"
+            ],
+            "note": "Rookie-level Dominican Summer League affiliate of the New York Yankees; based in the Dominican Republic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "RedPocket Mobiles",
+              "Mobiles"
+            ],
+            "note": "Team listed in the Pioneer League; home park: Traveling team."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Malone Border Hounds",
+              "Border Hounds"
+            ],
+            "note": "Team listed in the Empire Professional Baseball League; home park: American Legion Post 219 Veterans Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "North Country Thunderbirds",
+              "Thunderbirds"
+            ],
+            "note": "Team listed in the Empire Professional Baseball League; home park: Chip Cummings Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Saranac Lake Surge",
+              "Surge"
+            ],
+            "note": "Team listed in the Empire Professional Baseball League; home park: Petrova Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tupper Lake Riverpigs",
+              "Riverpigs"
+            ],
+            "note": "Team listed in the Empire Professional Baseball League; home park: Municipal Park."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Blackwell FlyCatchers",
+              "FlyCatchers",
+              "Fly Catchers",
+              "Blackwell Fly Catchers"
+            ],
+            "note": "Team listed in the Pecos League; home park: Morgan Field."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "North Platte 80s",
+              "80s"
+            ],
+            "note": "Team listed in the Pecos League; home park: Bill Wood Field."
+          }
+        ]
+      },
+      {
+        "prompt": "Bands of the Electromagnetic Spectrum",
+        "source": "https://science.nasa.gov/ems/",
+        "sourceNote": "The seven conventional main bands, not visible colors, instrument channels or named sub-bands; microwaves are a separate catch in this convention. Membership and order: https://science.nasa.gov/asset/webb/the-electromagnetic-spectrum-ems/ ; applications and facts: NASA's linked spectrum tour. Familiarity scores for a general school-science audience; no forced high tiers. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota.",
+        "answers": [
+          {
+            "points": 30,
+            "forms": [
+              "Radio waves",
+              "Radio",
+              "Radio wave",
+              "Radio radiation",
+              "Radio frequency",
+              "RF"
+            ],
+            "note": "From KRLX to your ears."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Microwaves",
+              "Microwave",
+              "Microwave radiation"
+            ],
+            "note": "They make frozen burritos."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Infrared",
+              "Infrared light",
+              "Infrared radiation",
+              "Infra red",
+              "IR"
+            ],
+            "note": "Beyond the red end of visible light; warm objects emit radiation in this region."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Visible light",
+              "Visible",
+              "Visible spectrum",
+              "Optical light",
+              "Optical spectrum",
+              "Visible radiation"
+            ],
+            "note": "The small portion of the spectrum detectable by human eyes, between infrared and ultraviolet."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ultraviolet",
+              "Ultraviolet light",
+              "Ultraviolet radiation",
+              "Ultra violet",
+              "UV"
+            ],
+            "note": "Shorter wavelengths than visible violet light; sunlight in this band can cause sunburn."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "X-rays",
+              "X ray",
+              "Xray",
+              "Xrays",
+              "X radiation",
+              "Roentgen rays"
+            ],
+            "note": "High-energy radiation between ultraviolet and gamma rays, familiar from medical imaging."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gamma rays",
+              "Gamma ray",
+              "Gamma",
+              "Gamma radiation"
+            ],
+            "note": "The highest-energy main band includes radiation associated with nuclear processes and energetic cosmic events."
+          }
+        ]
+      },
+      {
+        "prompt": "Idioms about something being obviously the case",
+        "source": "https://en.wiktionary.org/wiki/water_is_wet",
+        "sourceNote": "A non-exhaustive bank of English obvious-answer rhetorical questions, sarcastic reactions and idiomatic obviousness comparisons. Includes the supplied See also family, vulgar forms and older rare similes; spelling and ordinary grammatical variants share one catch. Basic words such as yes or obvious do not count. Additional families and meanings: https://en.wiktionary.org/wiki/is_the_sky_blue , https://en.wiktionary.org/wiki/Thesaurus:obvious , https://en.wiktionary.org/wiki/no_duh , https://en.wiktionary.org/wiki/plain_as_a_pikestaff , https://en.wiktionary.org/wiki/go_without_saying , https://en.wiktionary.org/wiki/needless_to_say and https://en.wiktionary.org/wiki/res_ipsa_loquitur . Rarity reflects contemporary general English recall; archaic similes score higher. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota.",
+        "answers": [
+          {
+            "points": 60,
+            "forms": [
+              "Water is wet",
+              "And water is wet",
+              "Is water wet"
+            ],
+            "note": "A sarcastic everyday truism used when someone announces something that needed no explanation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Does a bear shit in the woods",
+              "Do bears shit in the woods",
+              "Does a bear poop in the woods",
+              "Do bears poop in the woods",
+              "Does a bear crap in the woods",
+              "Do bears crap in the woods",
+              "Does a bear defecate in the woods",
+              "Bear shits in the woods",
+              "Bears shit in the woods"
+            ],
+            "note": "A deliberately obvious rhetorical question meaning yes; its usual wording is vulgar."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Is the Pope Catholic",
+              "Pope is Catholic",
+              "The Pope is Catholic"
+            ],
+            "note": "An emphatic yes delivered as a rhetorical question about the head of the Catholic Church."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Is the sky blue",
+              "The sky is blue",
+              "Sky is blue"
+            ],
+            "note": "Uses the familiar color of the daytime sky to answer a question with an obvious yes."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Does Dolly Parton sleep on her back",
+              "Dolly Parton sleeps on her back"
+            ],
+            "note": "A bawdy rhetorical question used to give an emphatic affirmative answer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Do fish swim",
+              "Does a fish swim",
+              "Fish swim"
+            ],
+            "note": "A rhetorical question whose ordinary answer is so predictable that it means of course."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Is snow white",
+              "Snow is white"
+            ],
+            "note": "Another obvious-answer rhetorical question, using the familiar appearance of snow."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dogs bark, cats meow",
+              "Dogs bark and cats meow",
+              "Dogs bark cats miaow",
+              "Dogs bark and cats miaow"
+            ],
+            "note": "Pairs two familiar animal sounds to mock a statement that reveals nothing surprising."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fork found in kitchen",
+              "Fork found in the kitchen",
+              "A fork found in a kitchen"
+            ],
+            "note": "An internet expression treating an unsurprising discovery as if it were news."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "People sit on chairs",
+              "People sit in chairs"
+            ],
+            "note": "An intentionally banal statement used sarcastically when something unsurprising is pointed out."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Captain Obvious",
+              "Thanks Captain Obvious",
+              "Thank you Captain Obvious"
+            ],
+            "note": "A sarcastic title for someone who explains what everyone can already see."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "No shit, Sherlock",
+              "No shit Sherlock Holmes",
+              "Thanks Sherlock",
+              "Thank you Sherlock"
+            ],
+            "note": "Mocks an obvious deduction by addressing its maker as the famous detective; the usual wording is vulgar."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "More at eleven",
+              "More at 11",
+              "Film at eleven",
+              "Film at 11",
+              "News at eleven",
+              "News at 11"
+            ],
+            "note": "Borrows a television news teaser to treat an obvious statement as mock breaking news."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Plain as day",
+              "As plain as day",
+              "Clear as day",
+              "As clear as day",
+              "Clear as daylight",
+              "As clear as daylight",
+              "Plain as daylight"
+            ],
+            "note": "Compares obviousness to the visibility of things in daylight."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Crystal clear",
+              "As clear as crystal",
+              "Clear as crystal"
+            ],
+            "note": "A transparency metaphor for a meaning or fact that is easy to understand."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Plain as the nose on your face",
+              "As plain as the nose on your face",
+              "Plain as the nose on one's face",
+              "As plain as the nose on one's face",
+              "Plain as the nose on my face",
+              "As plain as the nose on my face"
+            ],
+            "note": "Says a fact is as conspicuous as the nose sitting in the middle of a face."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Plain as a pikestaff",
+              "As plain as a pikestaff",
+              "Plain as a packstaff",
+              "As plain as a packstaff"
+            ],
+            "note": "An older comparison for something unmistakably evident; pikestaff is linked to the word packstaff."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Plain as porridge",
+              "As plain as porridge"
+            ],
+            "note": "A less familiar traditional simile for something evident or easy to understand."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Plain as a haystack",
+              "As plain as a haystack"
+            ],
+            "note": "An older obviousness comparison listed alongside other plain-as expressions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Plain as Dunstable highway",
+              "As plain as Dunstable highway"
+            ],
+            "note": "An old English comparison invoking a conspicuous highway to express obviousness."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Plain as print",
+              "As plain as print"
+            ],
+            "note": "An older comparison for something plainly visible or readily understood."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Plain as Salisbury",
+              "As plain as Salisbury"
+            ],
+            "note": "A rare historical plain-as expression recorded as a synonym for obvious."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Open-and-shut",
+              "Open and shut case",
+              "An open and shut case"
+            ],
+            "note": "Describes a matter whose evidence makes the conclusion straightforward."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cut and dried",
+              "Cut and dry"
+            ],
+            "note": "Describes a settled or clearly decided matter with little room for debate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Goes without saying",
+              "It goes without saying",
+              "Go without saying",
+              "Went without saying"
+            ],
+            "note": "Why would someone say this tho?"
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Needless to say"
+            ],
+            "note": "Why would someone say this tho?"
+          },
+          {
+            "points": 85,
+            "forms": [
+              "No duh",
+              "Duh",
+              "No doi",
+              "No doy",
+              "No der"
+            ],
+            "note": "A sarcastic reaction suggesting that the preceding observation was already glaringly apparent."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "No kidding",
+              "No kidding Sherlock"
+            ],
+            "note": "In sarcastic use, pretends surprise at something the speaker already considers obvious."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "You don't say",
+              "You do not say"
+            ],
+            "note": "Can feign astonishment to show that an observation is actually unsurprising."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "No really",
+              "Oh really"
+            ],
+            "note": "When delivered sarcastically, a mock expression of surprise at an obvious statement."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Res ipsa loquitur",
+              "The thing speaks for itself",
+              "It speaks for itself",
+              "Speaks for itself"
+            ],
+            "note": "A Latin expression meaning the thing speaks for itself; also used as a legal doctrine."
+          }
+        ]
+      },
+      {
+        "prompt": "English Verb Tenses",
+        "source": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-tense",
+        "sourceNote": "The conventional twelve classroom tense/aspect forms: present, past and will-future crossed with simple, continuous, perfect and perfect continuous. Linguistically English has two inflected tenses, so future here is the teaching convention. Progressive/continuous, simple word-order variants, preterite and pluperfect accepted where equivalent. Broad present/past/future labels and their tense variants map to the corresponding simple forms; moods, voices and going-to constructions are not separate catches. Past forms: https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-tense ; future forms: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/future-continuous-future-perfect and https://www.britishcouncil.org.mx/blog/future-perfect-continuous . Scores estimate recall of the form name, not how often its verbs occur. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota.",
+        "answers": [
+          {
+            "points": 60,
+            "forms": [
+              "Present simple",
+              "Present simple tense",
+              "Simple present",
+              "Simple present tense",
+              "Present",
+              "Present tense"
+            ],
+            "note": "Describes habits or general truths: I work; a third-person singular subject usually adds -s."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Present continuous",
+              "Present continuous tense",
+              "Continuous present",
+              "Continuous present tense",
+              "Present progressive",
+              "Present progressive tense"
+            ],
+            "note": "Uses am, is, or are plus an -ing form: I am working."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Present perfect",
+              "Present perfect tense",
+              "Perfect present",
+              "Perfect present tense",
+              "Present perfect simple",
+              "Present perfect simple tense",
+              "Perfect present simple"
+            ],
+            "note": "Uses have or has plus a past participle: I have worked."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Present perfect continuous",
+              "Present perfect continuous tense",
+              "Perfect continuous present",
+              "Perfect continuous present tense",
+              "Present perfect progressive",
+              "Present perfect progressive tense",
+              "Perfect progressive present",
+              "Perfect progressive present tense"
+            ],
+            "note": "Uses have or has been plus an -ing form: I have been working."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Past simple",
+              "Past simple tense",
+              "Simple past",
+              "Simple past tense",
+              "Preterite",
+              "Preterit",
+              "Simple preterite",
+              "Past",
+              "Past tense"
+            ],
+            "note": "Describes a completed past event: I worked; irregular verbs have their own past forms."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Past continuous",
+              "Past continuous tense",
+              "Continuous past",
+              "Continuous past tense",
+              "Past progressive",
+              "Past progressive tense"
+            ],
+            "note": "Uses was or were plus an -ing form: I was working."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Past perfect",
+              "Past perfect tense",
+              "Perfect past",
+              "Perfect past tense",
+              "Past perfect simple",
+              "Past perfect simple tense",
+              "Perfect past simple",
+              "Pluperfect",
+              "Pluperfect tense",
+              "Past pluperfect"
+            ],
+            "note": "Uses had plus a past participle for an earlier past event: I had worked."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Past perfect continuous",
+              "Past perfect continuous tense",
+              "Perfect continuous past",
+              "Perfect continuous past tense",
+              "Past perfect progressive",
+              "Past perfect progressive tense",
+              "Perfect progressive past",
+              "Perfect progressive past tense",
+              "Pluperfect continuous",
+              "Pluperfect progressive"
+            ],
+            "note": "Uses had been plus an -ing form for activity continuing before a past reference point."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Future simple",
+              "Future simple tense",
+              "Simple future",
+              "Simple future tense",
+              "Future",
+              "Future tense"
+            ],
+            "note": "The classroom will-future form uses will plus a base verb: I will work."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Future continuous",
+              "Future continuous tense",
+              "Continuous future",
+              "Continuous future tense",
+              "Future progressive",
+              "Future progressive tense"
+            ],
+            "note": "Uses will be plus an -ing form: I will be working."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Future perfect",
+              "Future perfect tense",
+              "Perfect future",
+              "Perfect future tense",
+              "Future perfect simple",
+              "Future perfect simple tense",
+              "Perfect future simple"
+            ],
+            "note": "Uses will have plus a past participle for completion before a future reference point."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Future perfect continuous",
+              "Future perfect continuous tense",
+              "Perfect continuous future",
+              "Perfect continuous future tense",
+              "Future perfect progressive",
+              "Future perfect progressive tense",
+              "Perfect progressive future",
+              "Perfect progressive future tense"
+            ],
+            "note": "Uses will have been plus an -ing form to emphasize duration up to a future reference point."
+          }
+        ]
+      },
+      {
+        "prompt": "Sports supported by Strava",
+        "source": "https://support.strava.com/en-us/articles/15402005-what-sport-types-does-strava-support",
+        "sourceNote": "Every named sport type in the supplied support article as accessed 7 Oct 2026, plus the three virtual types explicitly mentioned in its introduction. Virtual ride/run/rowing upload support does not imply direct mobile-app recording. Generic skiing is ambiguous among alpine, backcountry and Nordic; football means soccer here. Correct Elliptical spelling and the article's Eliptical spelling accepted. Scores estimate familiarity with Strava's activity menu among general recreational athletes, not physical difficulty. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Run",
+              "Running"
+            ],
+            "note": "One of Strava's three core sports, alongside riding and swimming."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Trail Run",
+              "Trail running",
+              "Trail run activity"
+            ],
+            "note": "A separate running sport type for activity on trails."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Walk",
+              "Walking"
+            ],
+            "note": "An on-foot activity type distinct from both running and hiking."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Hike",
+              "Hiking"
+            ],
+            "note": "A separate foot-sport entry for hikes rather than ordinary walks."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wheelchair",
+              "Wheelchair activity",
+              "Wheelchair sport"
+            ],
+            "note": "Listed among Strava's foot-sport activity types, despite using wheels."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Ride",
+              "Cycling",
+              "Bike ride",
+              "Biking",
+              "Bicycling",
+              "Road cycling",
+              "Road biking"
+            ],
+            "note": "Strava's general cycling entry is one of its three core sport types."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Mountain Bike Ride",
+              "Mountain biking",
+              "Mountain bike",
+              "MTB",
+              "Mountain bike riding"
+            ],
+            "note": "Off-road mountain cycling has its own sport label, separate from the general Ride entry."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gravel Ride",
+              "Gravel cycling",
+              "Gravel biking",
+              "Gravel bike ride"
+            ],
+            "note": "Gravel cycling is a distinct type rather than being grouped only under Ride."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Handcycle",
+              "Handcycling",
+              "Hand cycling",
+              "Handcycle ride"
+            ],
+            "note": "A cycling activity using a cycle powered by the rider's hands."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "E-Bike Ride",
+              "Ebike ride",
+              "Ebike",
+              "E bike",
+              "Electric bike",
+              "Electric bike ride",
+              "E biking"
+            ],
+            "note": "Electric-assisted cycling has a dedicated label rather than the ordinary Ride label."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "E-Mountain Bike Ride",
+              "E mountain biking",
+              "Electric mountain biking",
+              "Electric mountain bike ride",
+              "E MTB",
+              "EMTB",
+              "E mountain bike"
+            ],
+            "note": "Electric-assisted mountain biking is separate from both ordinary mountain biking and general e-bike riding."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Velomobile",
+              "Velomobile ride",
+              "Velomobiling"
+            ],
+            "note": "A distinct cycling type for an enclosed human-powered vehicle."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Canoe",
+              "Canoeing"
+            ],
+            "note": "Canoeing is listed separately from kayaking in Strava's water-sport activity menu."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kayak",
+              "Kayaking"
+            ],
+            "note": "Kayaking has its own water-sport label rather than being folded into canoeing."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kitesurf",
+              "Kitesurfing",
+              "Kite surfing",
+              "Kiteboarding",
+              "Kite boarding"
+            ],
+            "note": "A separate water-sport activity powered by a kite."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rowing",
+              "Row",
+              "Rowing activity"
+            ],
+            "note": "A supported water sport; virtual rowing can be uploaded rather than recorded directly in the app."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sailing",
+              "Sail"
+            ],
+            "note": "A supported water-sport type that can include an outdoor activity map."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stand Up Paddling",
+              "Stand up paddleboarding",
+              "Standup paddleboarding",
+              "Paddleboarding",
+              "Paddle boarding",
+              "SUP"
+            ],
+            "note": "The water-sport menu distinguishes stand-up paddling from both canoeing and kayaking."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Surf",
+              "Surfing"
+            ],
+            "note": "Wave riding has its own water-sport activity label."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Swim",
+              "Swimming"
+            ],
+            "note": "One of the three core Strava sport types, alongside running and riding."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Windsurf",
+              "Windsurfing",
+              "Wind surfing"
+            ],
+            "note": "A separate sail-powered board sport, distinct from both surfing and sailing."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ice Skate",
+              "Ice skating",
+              "Ice skate activity"
+            ],
+            "note": "Ice skating appears in the winter-sport group, distinct from inline skating."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Alpine Ski",
+              "Alpine skiing",
+              "Downhill skiing",
+              "Downhill ski"
+            ],
+            "note": "Downhill skiing has its own entry alongside backcountry and Nordic skiing."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Backcountry Ski",
+              "Backcountry skiing",
+              "Ski touring",
+              "Back country skiing"
+            ],
+            "note": "A separate winter-sport type for skiing away from groomed resort runs."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nordic Ski",
+              "Nordic skiing",
+              "Cross country skiing",
+              "Cross country ski",
+              "XC skiing"
+            ],
+            "note": "Strava's Nordic skiing label covers cross-country skiing rather than downhill skiing."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Snowboard",
+              "Snowboarding"
+            ],
+            "note": "Snowboarding is listed separately from the skiing activity types."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Snowshoe",
+              "Snowshoeing",
+              "Snow shoeing"
+            ],
+            "note": "Snowshoeing has a dedicated winter-sport activity label."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Workout",
+              "General workout",
+              "Working out"
+            ],
+            "note": "A general activity type in Strava's other-sports group."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Inline Skate",
+              "Inline skating",
+              "Rollerblading",
+              "Roller blading"
+            ],
+            "note": "An other-sports entry distinct from winter ice skating and roller skiing."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rock Climb",
+              "Rock climbing",
+              "Climbing"
+            ],
+            "note": "Rock climbing is a named sport type in the other-sports menu."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Roller Ski",
+              "Roller skiing",
+              "Rollerskiing",
+              "Roller ski activity"
+            ],
+            "note": "The wheeled counterpart to skiing appears among other sports rather than winter sports."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Table Tennis",
+              "Ping pong",
+              "Pingpong"
+            ],
+            "note": "Table tennis has its own label separate from court tennis."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Golf",
+              "Golfing"
+            ],
+            "note": "Golf appears in Strava's other-sports group and can include an outdoor activity map."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Skateboarding",
+              "Skateboard"
+            ],
+            "note": "Skateboarding is distinct from the inline-skating activity type."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Football (Soccer)",
+              "Soccer",
+              "Association football",
+              "Football"
+            ],
+            "note": "The Football entry specifically means soccer, rather than American football."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Squash",
+              "Squash activity"
+            ],
+            "note": "A racket-sport entry alongside tennis, badminton, racquetball, pickleball, and padel."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pilates",
+              "Pilates workout"
+            ],
+            "note": "Pilates is listed separately from yoga and general workouts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Badminton",
+              "Badminton activity"
+            ],
+            "note": "A supported racket-sport label within the other-sports group."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tennis",
+              "Court tennis"
+            ],
+            "note": "Court tennis is listed separately from table tennis."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pickleball",
+              "Pickle ball"
+            ],
+            "note": "Pickleball has a dedicated activity label rather than using the Tennis label."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Crossfit",
+              "Cross fit",
+              "Crossfit workout"
+            ],
+            "note": "CrossFit is listed separately from general workouts and weight training."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Racquetball",
+              "Racketball",
+              "Racquet ball"
+            ],
+            "note": "An indoor racket-sport label distinct from squash and tennis."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Elliptical",
+              "Eliptical",
+              "Elliptical trainer",
+              "Elliptical workout",
+              "Elliptical training"
+            ],
+            "note": "The support article misspells this machine-workout label as Eliptical; standard spelling is also accepted."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stair Stepper",
+              "Stair stepping",
+              "Stair stepper workout",
+              "Stairmaster",
+              "Stair master"
+            ],
+            "note": "A machine-based exercise label in the other-sports activity menu."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Weight Training",
+              "Weightlifting",
+              "Weight lifting",
+              "Lifting weights",
+              "Strength training"
+            ],
+            "note": "Resistance exercise has a dedicated label separate from general workouts."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Yoga",
+              "Yoga workout"
+            ],
+            "note": "Yoga has its own sport type rather than being grouped under Workout."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "HIIT",
+              "High intensity interval training",
+              "High intensity interval workout"
+            ],
+            "note": "The abbreviation stands for high-intensity interval training, a separate other-sports entry."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Basketball",
+              "Basket ball"
+            ],
+            "note": "The support article lists basketball among its newer supported sport types."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Padel",
+              "Padel tennis"
+            ],
+            "note": "Padel is a distinct racket-sport entry and one of the newer supported types."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Volleyball",
+              "Volley ball"
+            ],
+            "note": "The support article lists volleyball among its newer supported sport types."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dance",
+              "Dancing",
+              "Dance workout"
+            ],
+            "note": "Unlike the other newly listed sports, Dance does not include a map by default."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cricket",
+              "Cricket activity"
+            ],
+            "note": "Cricket is among the newer supported types and includes a map by default."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Virtual Ride",
+              "Virtual cycling",
+              "Virtual bike ride",
+              "Virtual biking"
+            ],
+            "note": "A supported virtual type uploaded from another device or app rather than recorded directly in Strava."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Virtual Run",
+              "Virtual running"
+            ],
+            "note": "A supported virtual type that the Strava mobile app does not record directly."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Virtual Row",
+              "Virtual Rowing"
+            ],
+            "note": "Virtual rowing is supported through uploaded or synced activities rather than direct mobile-app recording."
+          }
+        ]
+      },
+      {
+        "prompt": "Wordle-type Games",
+        "source": "https://dles.aukspot.com",
+        "sourceNote": "Broad daily-game scope requested: all 780 entries in the directory dataset retrieved 7 Oct 2026, including Connections-style games, crosswords, grids, logic and novelty games. This is the supplied directory's finite snapshot, not every daily game on the web; listing does not guarantee a site remains playable. Names, categories and gameplay facts checked against https://github.com/aukspot/dles and https://raw.githubusercontent.com/aukspot/dles/main/src/lib/data/dles.json (directory update dated 6 Oct 2026). Publisher prefixes may be omitted when unambiguous; domain-qualified names distinguish separate same-name variants. Generic franchise names alone do not count. Scores are editorial recall estimates for daily-puzzle players; established titles score lower and specialist variants higher, with no measured popularity claim. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota.",
+        "answers": [
+          {
+            "points": 85,
+            "forms": [
+              "23 Words",
+              "Twenty Three Words"
+            ],
+            "note": "Unscramble a sequence of 23 words while racing a timer."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "3Doku",
+              "3 Doku"
+            ],
+            "note": "A cube-shaped Sudoku puzzle uses the numbers one through sixteen."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "4 x 3",
+              "4x3",
+              "Four by three",
+              "Four x three"
+            ],
+            "note": "Sort words into four groups of three, with one word shared across the groups."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "7 Little Words",
+              "Seven Little Words"
+            ],
+            "note": "Combine letter tiles to construct answers matching short clues."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Absurdle"
+            ],
+            "note": "An adversarial Wordle variant changes its possible target to avoid an early solution."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ace Attorneydle"
+            ],
+            "note": "A collection of daily challenges based on the Ace Attorney games."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Actorle"
+            ],
+            "note": "An actor's film credits provide clues to their identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Actorle - Fill The Grid"
+            ],
+            "note": "A movies/tv trivia grid requires entries meeting the conditions at each row-and-column intersection."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Actorle - Storyboard"
+            ],
+            "note": "A daily ordering puzzle asks players to put movies/tv items in the correct time sequence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Actorle TV"
+            ],
+            "note": "Television credits and information revealed after guesses identify a hidden actor."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Adoptle"
+            ],
+            "note": "A photograph provides the clue to the name of a pet available for adoption."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Airport Guessr",
+              "AirportGuessr"
+            ],
+            "note": "Satellite imagery provides clues to an airport's identity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AITA Guesser"
+            ],
+            "note": "Predict the verdict reached on a Reddit Am I the Asshole post."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Alphalock"
+            ],
+            "note": "A word puzzle combines ideas from Wordle and Mastermind."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Amountle",
+              "Ballpark"
+            ],
+            "note": "Estimate how many objects were put in a container across timed daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Angle"
+            ],
+            "note": "Estimate the displayed angle with a limited number of attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anidle"
+            ],
+            "note": "An anime's specifications provide clues to its identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AniGuessr",
+              "Ani Guessr"
+            ],
+            "note": "A collection of daily challenges themed around Japanese animation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Animdle"
+            ],
+            "note": "A gradually sharpening video reveals an anime opening or closing sequence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anthropeum"
+            ],
+            "note": "Identify the historical period and geographical origin of a human-made artifact."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Antiwordle",
+              "Anti Wordle"
+            ],
+            "note": "The challenge reverses Wordle's objective: avoid completing the target word for as long as possible."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Archiguessr"
+            ],
+            "note": "Identify an architectural subject from a series of photographs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Artle"
+            ],
+            "note": "Identify an artist from examples of their artwork."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Auctimate"
+            ],
+            "note": "Estimate the sale prices of auction lots across five daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Avatardle"
+            ],
+            "note": "Daily guessing challenges draw on Avatar: The Last Airbender."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Babelle"
+            ],
+            "note": "A city's name is the clue to identifying its country."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Baddle"
+            ],
+            "note": "Deduce opposing army arrangements in a Wordle-inspired battlefield roguelike."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Balatrodle"
+            ],
+            "note": "Identify a Joker card from the video game Balatro."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ballot Blocks"
+            ],
+            "note": "Street-view imagery supplies clues to a neighborhood's vote in the 2024 US presidential election."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "BallotGuessr",
+              "Ballot Guessr"
+            ],
+            "note": "Predict a region's voting result using street-view imagery, across five daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bandle"
+            ],
+            "note": "Identify a song as its instruments are progressively added to the performance."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Basketball 5"
+            ],
+            "note": "A hub offering several basketball-themed daily challenges."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Batter Up"
+            ],
+            "note": "Recognize a baseball player from a silhouette of their batting stance."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bazaar Doku"
+            ],
+            "note": "A The Bazaar-themed daily trivia grid, requiring answers that meet its intersecting conditions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bean Sort"
+            ],
+            "note": "Separate colored beans until each container holds a single color."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Beat Me At Boggle"
+            ],
+            "note": "A Boggle-inspired word challenge searches for words in an arrangement of letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Beatdle"
+            ],
+            "note": "Listen to a drum pattern and reproduce it on a sequencer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bells & Whistles"
+            ],
+            "note": "Place two kinds of symbols so the grid satisfies its row and column totals."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Betweenle"
+            ],
+            "note": "Locate a hidden word lying between other words before using up the available guesses."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bibdle"
+            ],
+            "note": "A Bible verse supplies the clue to which book contains it."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Birdie Game"
+            ],
+            "note": "Cropped photographs and bird sounds provide clues to a bird's identity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Birdle"
+            ],
+            "note": "Identify the day's bird with a limited number of guesses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Blockle"
+            ],
+            "note": "A daily falling-block challenge uses a Tetris-style arrangement puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Blossom"
+            ],
+            "note": "Flower-arranged letters form twelve words, each including the central letter; longer words score better."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Blunderwall"
+            ],
+            "note": "Locate the concealed word on the Blunderwall within four attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boggdle"
+            ],
+            "note": "A Boggle-inspired word challenge searches for words in an arrangement of letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "BopMatch",
+              "Bop Match"
+            ],
+            "note": "Match a musician's popularity with another artist of similar popularity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Border guesser"
+            ],
+            "note": "A partially drawn national border is the clue to identifying a country."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boston Globe - Align"
+            ],
+            "note": "A words trivia grid requires entries meeting the conditions at each row-and-column intersection."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Box Office Game",
+              "BoxOfficeGame"
+            ],
+            "note": "Identify movies using clues from a particular weekend's box-office rankings."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bracket City",
+              "BracketCity"
+            ],
+            "note": "Solve nested bracketed clues to uncover the final answer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "BrainBashers Daily 30 Seconds",
+              "Brain Bashers Daily 30 Seconds"
+            ],
+            "note": "A short arithmetic challenge encourages solving questions within a half-minute target."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "BrainBashers Daily Puzzle",
+              "Brain Bashers Daily Puzzle"
+            ],
+            "note": "BrainBashers publishes a new brainteaser as its daily puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brainer"
+            ],
+            "note": "A weekday quiz combines creative questions across several subjects."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Breadle"
+            ],
+            "note": "The hidden five-letter word belongs to the world of food."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brickdle"
+            ],
+            "note": "Estimate the piece count of a photographed LEGO set."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Buzzled"
+            ],
+            "note": "Black and yellow hexagonal cells must satisfy sums around the board's edges."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cadgy"
+            ],
+            "note": "Choose one letter from each column to build a valid five-letter word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Calcle"
+            ],
+            "note": "Identify the missing numbers in an equation within five attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cancelwise"
+            ],
+            "note": "Eliminate numbers until the surviving tiles meet the required totals."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Capitalibrate"
+            ],
+            "note": "Estimate the distance and direction between two capital cities."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cardle"
+            ],
+            "note": "Identify a pictured car's manufacturer, model, and year."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CarGuesser",
+              "Car Guesser"
+            ],
+            "note": "Close-up car parts provide clues to the vehicle's manufacturer, model, and year."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cartoonguessr"
+            ],
+            "note": "Identify a cartoon character within fifteen guesses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cascadle"
+            ],
+            "note": "Five linked word puzzles increase in length from three letters to seven."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Categories"
+            ],
+            "note": "A daily grouping puzzle asks players to identify relationships between its words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Catfishing"
+            ],
+            "note": "Wikipedia categories supply clues to an article's identity over ten daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cell Tower"
+            ],
+            "note": "Finding words among a field of letters forms the basis of this daily search puzzle."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Celtix"
+            ],
+            "note": "Separate a colored Celtic knot into individual closed loops."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "cemantle"
+            ],
+            "note": "A semantic guessing puzzle uses closeness in meaning to guide players toward its target."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Centroid"
+            ],
+            "note": "Estimate the combined center of mass of shapes displayed on a grid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Centumth"
+            ],
+            "note": "Choose entries whose ranking is closest to the hundredth position in a category."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chainagram"
+            ],
+            "note": "Link two words by repeatedly changing a letter and rearranging the result."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chainle"
+            ],
+            "note": "Clue words point toward a connecting word across five scored daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chartle"
+            ],
+            "note": "A data chart provides clues to the identity of a country."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chemdle"
+            ],
+            "note": "The daily problem tests organic chemistry knowledge rather than word spelling."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chess.com Daily Puzzle"
+            ],
+            "note": "Chess.com's daily challenge asks players to solve a tactical chess position."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chessguessr",
+              "Chess Guessr"
+            ],
+            "note": "A chess position provides the starting point for guessing the next five moves."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chessle"
+            ],
+            "note": "Guess the complete sequence of moves in a chess opening."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chiddle"
+            ],
+            "note": "A Boggle-inspired word challenge searches for words in an arrangement of letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CHN LNK"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chroma"
+            ],
+            "note": "Match color labels to their corresponding colors over five daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chronle"
+            ],
+            "note": "A daily ordering puzzle asks players to put history items in the correct time sequence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chrono"
+            ],
+            "note": "Arrange historical events in their chronological order."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chrono NBA"
+            ],
+            "note": "A daily ordering puzzle asks players to put sports items in the correct time sequence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chrono NFL"
+            ],
+            "note": "A daily ordering puzzle asks players to put sports items in the correct time sequence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chrono USA"
+            ],
+            "note": "A daily ordering puzzle asks players to put history items in the correct time sequence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chronophoto"
+            ],
+            "note": "Estimate the year in which a historical photograph was taken."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CineLine",
+              "Cine Line"
+            ],
+            "note": "A daily ordering puzzle asks players to put movies/tv items in the correct time sequence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cinema Circuit"
+            ],
+            "note": "Build a chain of movie or acting connections to link the puzzle's starting and ending points."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cinematrix"
+            ],
+            "note": "Fill a movie grid with films satisfying the intersecting row and column criteria."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CineNerdle",
+              "Cine Nerdle"
+            ],
+            "note": "Movie-related clues form the basis of this daily film puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Circle Moon Puzzles"
+            ],
+            "note": "A hub collecting several daily logic challenges."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Clasherdle"
+            ],
+            "note": "A daily guessing challenge tests knowledge of Clash Royale."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ClickWord",
+              "Click Word"
+            ],
+            "note": "Place a supply of letter tiles on a board to build scoring words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cliffhanger"
+            ],
+            "note": "Hangman-style letter guesses reveal a hidden film title."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Clue Raider"
+            ],
+            "note": "Place people according to their clues to discover a concealed relic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Clue Tube"
+            ],
+            "note": "Comments from a popular YouTube video provide clues to the video's identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Clues By Sam",
+              "CluesBySam"
+            ],
+            "note": "A deduction puzzle asks players to identify criminals from statements about the characters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cluewords"
+            ],
+            "note": "Clues point toward word answers in this daily puzzle, rather than a pure letter-guessing task."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Coastle"
+            ],
+            "note": "Identify the featured roller coaster in a daily guessing challenge."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cobble"
+            ],
+            "note": "Construct two words that between them consume every supplied letter."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Codenames Daily"
+            ],
+            "note": "A daily grouping puzzle asks players to identify relationships between its words."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Coindle"
+            ],
+            "note": "Keep predicting coin flips correctly; only one attempt is available each day."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Colordle"
+            ],
+            "note": "Identify a color by its particular name from the game's accepted color list."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Colorfle"
+            ],
+            "note": "Work out which colors combine to produce the displayed target color."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ColorGuesser",
+              "Color Guesser"
+            ],
+            "note": "Match a color name to the actual hue it describes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Combinations"
+            ],
+            "note": "Combine groups of letters from a grid to construct words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Compound Your Joy"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Concludle"
+            ],
+            "note": "Successive clues narrow down a concealed answer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Conexo"
+            ],
+            "note": "A daily grouping puzzle asks players to identify relationships between its words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Connections Game"
+            ],
+            "note": "A daily grouping puzzle asks players to identify relationships between its words."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Contexto"
+            ],
+            "note": "Word guesses receive similarity rankings that help locate a hidden target word."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cosmeredle"
+            ],
+            "note": "A Cosmere character's book, world, and abilities supply clues to their identity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Costcodle"
+            ],
+            "note": "Estimate the price of a featured product sold by Costco."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Countryle"
+            ],
+            "note": "A hidden country is identified with attribute feedback after each guess."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Couples"
+            ],
+            "note": "Complete linked word pairs within three attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cracked Sudoku"
+            ],
+            "note": "Number-placement rules prohibit repetitions within outlined groups and along colored paths."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Craft Connections"
+            ],
+            "note": "Sort Minecraft items into four-item groups connected by a common feature."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CraftWord",
+              "Craft Word"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Crayondle"
+            ],
+            "note": "Identify the color of the day's featured crayon."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cropple"
+            ],
+            "note": "A cropped photograph hides an object; zooming out or requesting letters supplies further help."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Crossflip"
+            ],
+            "note": "Flip letter tiles to produce words linked to the day's theme."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Crosshare"
+            ],
+            "note": "A daily crossword challenge hosted at crosshare.org, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Crossherd"
+            ],
+            "note": "A daily crossword challenge hosted at crossherd.clevergoat.com, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Crosstune"
+            ],
+            "note": "A daily crossword puzzle uses musical or audio clues to help fill its answer grid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Crossword Club Daily"
+            ],
+            "note": "A daily crossword challenge hosted at crosswordclub.com, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Crosswordle"
+            ],
+            "note": "Reconstruct a grid of guesses that fits a supplied pattern of Wordle feedback."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "crosswordle.com"
+            ],
+            "note": "Tile swaps solve several intersecting Wordle-style word puzzles."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "crosswordle.org"
+            ],
+            "note": "Several intersecting words must be solved in a Wordle-style grid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Crowdle.gg"
+            ],
+            "note": "Predict the four leading survey answers to a prompt answered by ten thousand people."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "cryptle"
+            ],
+            "note": "Slide letter rows into positions that reveal a concealed word within five attempts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Curdle"
+            ],
+            "note": "Recognize a cheese from a close-up photograph."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cutle"
+            ],
+            "note": "Divide the displayed shape into parts as evenly as possible."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cyphr"
+            ],
+            "note": "Letter guesses complete words in successive rows of a pyramid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Akari"
+            ],
+            "note": "Place lights to illuminate a grid while satisfying the puzzle's logic constraints."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Analogy"
+            ],
+            "note": "Solve five daily analogy questions covering different subjects."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Crypticle"
+            ],
+            "note": "A Wordle-inspired cryptic challenge allows three attempts."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Daily Dozen Trivia"
+            ],
+            "note": "A nine-question daily quiz ranges across several subjects."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Fact or Fiction"
+            ],
+            "note": "Decide whether the day's claim is true or invented."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Fill-Ins"
+            ],
+            "note": "A daily crossword challenge hosted at azgames.io, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Gogen"
+            ],
+            "note": "A Boggle-inspired word challenge searches for words in an arrangement of letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Jingle"
+            ],
+            "note": "Identify a melody within five attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Orbs"
+            ],
+            "note": "Four daily trivia challenges offer a total of six orbs to collect."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Rinds"
+            ],
+            "note": "A daily cheese-identification challenge hides a different cheese."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Tens"
+            ],
+            "note": "Name the ten leading items belonging to the day's category."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daily Walkoff"
+            ],
+            "note": "Assign baseball players to matching trivia columns to complete the challenge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DayBrix",
+              "Day Brix"
+            ],
+            "note": "A daily falling-block challenge uses a Tetris-style arrangement puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Daydle"
+            ],
+            "note": "Identify the year of an event associated with today's calendar date."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Daydoku"
+            ],
+            "note": "Tile a calendar board while leaving today's date uncovered."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Decipher"
+            ],
+            "note": "Decode a cryptogram to uncover the concealed quotation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Decodex"
+            ],
+            "note": "Cryptographic decoding reveals a new quotation each day."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Definitions"
+            ],
+            "note": "Word swaps reconstruct three dictionary definitions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dialed - Color Game"
+            ],
+            "note": "Study a color briefly, then reconstruct it from memory; calendar mode supplies the daily challenge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dialed - Color Toon"
+            ],
+            "note": "Recall the correct color of a cartoon subject or logo from memory."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dialed - Shape Game"
+            ],
+            "note": "Remember a transformed shape and reproduce its position, rotation, and scale."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dialed - Sound Game"
+            ],
+            "note": "A heard tone becomes the target for a sound-memory reconstruction challenge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dialed - Time Game"
+            ],
+            "note": "Reproduce a previously experienced duration using memory rather than a visible timer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dimension Flux"
+            ],
+            "note": "Use supplied clues to resolve an interdimensional mystery."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Disney Heardle",
+              "DisneyHeardle"
+            ],
+            "note": "Recognize a Disney song from progressively revealed audio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Disorderly"
+            ],
+            "note": "Arrange the supplied items according to the day's ordering criterion."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Disordle"
+            ],
+            "note": "Use a described patient's symptoms to identify a disorder."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Doctordle"
+            ],
+            "note": "A patient's symptoms and history provide clues to a diagnosis."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dodeku"
+            ],
+            "note": "Numbers placed in a grid must produce the totals shown along its perimeter."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "DOGDLE"
+            ],
+            "note": "Identify the breed mixture of a featured shelter dog awaiting adoption."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Doggle"
+            ],
+            "note": "A dog's photograph provides clues to its breed."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Domino Fit"
+            ],
+            "note": "Arrange dominoes so their pip totals match the row and column requirements."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Doople"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Dordle"
+            ],
+            "note": "Two Wordle-style boards share the same guesses, so each guess must help solve both."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dotadle"
+            ],
+            "note": "Daily quizzes test recognition of characters from Dota."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dowsle"
+            ],
+            "note": "Word guesses provide feedback about both spelling and meaning to locate the target."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dungleon"
+            ],
+            "note": "Deduce the contents of a hidden dungeon within six attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Duolock Game"
+            ],
+            "note": "Solve two Alphalock word puzzles together, with an additional numerical Padlock mode available."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Duotrigordle"
+            ],
+            "note": "Thirty-two simultaneous word boards share the player's guesses."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Echo Chess"
+            ],
+            "note": "Capture black pieces; the moving piece takes on the identity of whatever it captures."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eightile"
+            ],
+            "note": "Unscramble progressively longer words, adding a letter after each success while a five-minute timer runs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Electle"
+            ],
+            "note": "A parliamentary seating diagram gives clues to a country and election year."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Elemingle"
+            ],
+            "note": "Identify a chemical element by making directional choices on cards."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Emoji Quiz - Movies"
+            ],
+            "note": "Emoji sequences encode film titles for players to identify."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Emoji Quiz - TV"
+            ],
+            "note": "Decode a sequence of emojis into the title of a television show."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Emoji Quiz - Video Games"
+            ],
+            "note": "Identify video-game titles represented by emoji clues."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Emoji Test"
+            ],
+            "note": "Emojis encode the concealed word that players must identify."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Enchant Worldle"
+            ],
+            "note": "Identify a Magic: The Gathering card within twenty attempts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "enclose.horse",
+              "Enclosehorse"
+            ],
+            "note": "Construct the largest possible enclosure around the horse."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Equations"
+            ],
+            "note": "Organize numbers into five three-number groups that each express a valid equation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eruptle"
+            ],
+            "note": "Name ten responses fitting a prompt in a Family Feud-inspired challenge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Estimania"
+            ],
+            "note": "Five daily real-world facts become numerical estimation questions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Estimate Me"
+            ],
+            "note": "Hand-counted quantities, such as objects in a jar, become estimation targets."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Estimatle"
+            ],
+            "note": "Five daily numerical estimation questions include comparison with global results."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Exodle"
+            ],
+            "note": "Identify an exotic weapon or armor item from Destiny."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Face Guessr"
+            ],
+            "note": "Recognize a notable person's face from a pixelated image."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Facedle"
+            ],
+            "note": "Recognize a famous person from a partly concealed portrait."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "faces"
+            ],
+            "note": "A blended celebrity portrait hides several movie stars whose names must be identified."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Factle"
+            ],
+            "note": "Identify and rank the five leading answers to a category within five attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Factle Sports"
+            ],
+            "note": "Identify and rank five leading answers within a sports-related category."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Far Out"
+            ],
+            "note": "Three daily estimation questions award better scores for answers closer to the truth."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Faustdle"
+            ],
+            "note": "Identify a featured character from One Piece."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fermi"
+            ],
+            "note": "Three daily numerical estimation problems cover different subjects."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fibble"
+            ],
+            "note": "Wordle-style feedback includes a deliberate lie that players must account for."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fields"
+            ],
+            "note": "Fill a board with colored fields while keeping them disconnected."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Figure"
+            ],
+            "note": "Remove every tile using a limited allowance of moves."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "FilmLink",
+              "Film Link"
+            ],
+            "note": "Build a chain of movie or acting connections to link the puzzle's starting and ending points."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Five Fold"
+            ],
+            "note": "A five-by-five grid must satisfy a set of rules that changes daily."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flag Connections"
+            ],
+            "note": "Group flags by characteristics they share with the featured flag."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flagdle"
+            ],
+            "note": "Recognize a country from its flag."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flagdoku"
+            ],
+            "note": "A geography trivia grid requires entries meeting the conditions at each row-and-column intersection."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flagged"
+            ],
+            "note": "Flag fragments identify countries, with collected flags added to a three-dimensional globe."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Flagle"
+            ],
+            "note": "Progressively revealed flag details help players identify a country."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flagle Game"
+            ],
+            "note": "Flag guesses reveal overlapping parts of the hidden flag within six attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flags Game"
+            ],
+            "note": "A flag's mixture of colors provides clues to its country."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FlashPopTiles",
+              "Flash Pop Tiles"
+            ],
+            "note": "Move through a grid by changing either color or shape at each step, but never both."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flickle"
+            ],
+            "note": "Video clips provide clues to a hidden film."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "FlipList Daily",
+              "Flip List Daily"
+            ],
+            "note": "Seven daily multiple-choice rounds ask players to recognize songs from short clips."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flipple"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Flipsies"
+            ],
+            "note": "Flip objects so they finish upright on the required landing target."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "FoodGuessr",
+              "Food Guessr"
+            ],
+            "note": "Identify the countries associated with pictured food dishes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Forgeous"
+            ],
+            "note": "A three-minute art challenge asks players to imitate a famous painting."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fortnitedle"
+            ],
+            "note": "A collection of daily challenges tests knowledge of Fortnite."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "FoxiMax",
+              "Foxi Max"
+            ],
+            "note": "Guess letters to reveal words; each incorrect guess introduces another word to solve."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Framed"
+            ],
+            "note": "Recognize a film from still images revealed during the guessing process."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Framedle"
+            ],
+            "note": "Identify the day's featured Warframe."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Framedle.com"
+            ],
+            "note": "A collection of daily challenges based on Warframe."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Freestyle"
+            ],
+            "note": "Find rhymes for a supplied word; longer multisyllabic rhymes earn better results."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "fridgle"
+            ],
+            "note": "Build a daily message with refrigerator-magnet-style words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fusele"
+            ],
+            "note": "Each row adds a different twist to a Wordle-style challenge."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Futbol 11"
+            ],
+            "note": "A hub offering multiple soccer-themed daily challenges."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Futdoku"
+            ],
+            "note": "Choose nine soccer players to complete a football trivia grid."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gamedle Artwork"
+            ],
+            "note": "A game's artwork supplies the clue to its identity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gamedle Character"
+            ],
+            "note": "Recognize a video-game character from artwork depicting them."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gamedle Classic",
+              "Gamedle"
+            ],
+            "note": "Identify a video game from gradually revealed cover artwork."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gamedle Guess"
+            ],
+            "note": "A video game's specifications provide clues to its title."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gamedle Keywords"
+            ],
+            "note": "Keywords provide clues to the identity of a video game."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gaps"
+            ],
+            "note": "Missing information and supplied clues guide guesses toward a film title."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gauntle"
+            ],
+            "note": "Race through eleven consecutive miniature daily games."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Genshindle"
+            ],
+            "note": "Identify a character from Genshin Impact."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GeoConnections",
+              "Geo Connections"
+            ],
+            "note": "Group geography-related entries according to a shared theme."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geodle"
+            ],
+            "note": "Identify a concealed country within seven guesses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geografind"
+            ],
+            "note": "Map hints help narrow down the identity of a mystery country."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GeoGrid",
+              "Geo Grid"
+            ],
+            "note": "A geography trivia grid requires entries meeting the conditions at each row-and-column intersection."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geonections"
+            ],
+            "note": "Street-view photographs provide the clues for grouping countries."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GeoPaint",
+              "Geo Paint"
+            ],
+            "note": "Name the color missing from a national flag over five daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GeoQuest",
+              "Geo Quest"
+            ],
+            "note": "Mark the positions of the featured countries on a world map."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geozee"
+            ],
+            "note": "Assign countries to suitable categories, with better matches producing higher scores."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gerrymandle"
+            ],
+            "note": "Redraw electoral districts on a grid to make the specified color win."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Giffle - Friends"
+            ],
+            "note": "Brief animated clips reveal clues to an episode of Friends."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Giffle - Simpsons"
+            ],
+            "note": "Brief animated clips reveal clues to an episode of The Simpsons."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gisnep"
+            ],
+            "note": "Column-specific letter choices help reconstruct a daily quotation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GlobeHoppr",
+              "Globe Hoppr"
+            ],
+            "note": "Link distant world cities through successive hops to nearby cities."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Globeiku"
+            ],
+            "note": "Supplied geographical clues guide guesses toward a country."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Globle"
+            ],
+            "note": "Locate a hidden country using geographical closeness rather than Wordle-style letter feedback."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Globle Capitals"
+            ],
+            "note": "Transfers Globle's geographical guessing idea from countries to capital cities."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Glyph"
+            ],
+            "note": "Overlaid letters create a glyph that conceals the target word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GnarlyQ",
+              "Gnarly Q"
+            ],
+            "note": "Choose five valid answers within a category while avoiding deliberately misleading choices."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Google Feud",
+              "GoogleFeud"
+            ],
+            "note": "Predict the completions of Google search queries."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gram Jam"
+            ],
+            "note": "Word-making swaps clear full rows or columns, with a target of fewer than twenty swaps."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Griddable"
+            ],
+            "note": "Construct a word grid from an unseen letter sequence while adding letters of your own."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Griddle"
+            ],
+            "note": "Place letters on a board to maximize a Scrabble-style word score."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gridogram"
+            ],
+            "note": "A Boggle-inspired word challenge searches for words in an arrangement of letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Guess My Word"
+            ],
+            "note": "Alphabetical before-or-after feedback guides the search for a secret word."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Guess The Angle"
+            ],
+            "note": "Estimate the displayed angle within four attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Guess The Audio"
+            ],
+            "note": "Brief song excerpts and additional clues help identify the music."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Guess The Book"
+            ],
+            "note": "Text excerpts and other details supply clues to a book's title."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Guess the Chain"
+            ],
+            "note": "A map of branch locations provides clues to a US chain's identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Guess The Game",
+              "GuessTheGame"
+            ],
+            "note": "Screenshots provide clues to the identity of a video game."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Guess The House"
+            ],
+            "note": "Property photographs and details provide evidence for estimating its price."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Guess The Logo"
+            ],
+            "note": "A progressively sharpening picture reveals a brand's logo."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Guess The Movie"
+            ],
+            "note": "Screenshots and supplementary details reveal clues to a film title."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Guess The Phrase"
+            ],
+            "note": "Clues point toward word answers in this daily puzzle, rather than a pure letter-guessing task."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "haggle"
+            ],
+            "note": "Estimate the prices of five featured products each day."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Halfsies"
+            ],
+            "note": "Divide an object into two equally weighted parts across five daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Harmonies: Music Connections"
+            ],
+            "note": "Discover four-item groups joined by a musical theme."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Harrypotterdle"
+            ],
+            "note": "A collection of daily challenges based on Harry Potter."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Headline"
+            ],
+            "note": "Identify the place associated with, or missing from, a news headline."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle 1950's",
+              "Heardle 1950s",
+              "Heardle 1950"
+            ],
+            "note": "Short song clips test recognition of music from the 1950s."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle 1960's",
+              "Heardle 1960s",
+              "Heardle 1960"
+            ],
+            "note": "Short song clips test recognition of music from the 1960s."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle 1970's",
+              "Heardle 1970s",
+              "Heardle 1970"
+            ],
+            "note": "Short song clips test recognition of music from the 1970s."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle 1980's",
+              "Heardle 1980s",
+              "Heardle 1980"
+            ],
+            "note": "Short song clips test recognition of music from the 1980s."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle 1990's",
+              "Heardle 1990s",
+              "Heardle 1990"
+            ],
+            "note": "Short song clips test recognition of music from the 1990s."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle 2000's",
+              "Heardle 2000s",
+              "Heardle 2000"
+            ],
+            "note": "Short song clips test recognition of music from the 2000s."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle 2010's",
+              "Heardle 2010s",
+              "Heardle 2010"
+            ],
+            "note": "Short song clips test recognition of music from the 2010s."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle 2020's",
+              "Heardle 2020s",
+              "Heardle 2020"
+            ],
+            "note": "Short song clips test recognition of music from the 2020s."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Heardle Daily",
+              "Heardle",
+              "Daily Heardle"
+            ],
+            "note": "Identify music from short audio clips in a daily Heardle-style challenge."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle K-pop"
+            ],
+            "note": "Short audio excerpts test recognition of K-pop songs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heardle TV Themes"
+            ],
+            "note": "Recognize television theme music from brief audio excerpts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "hello wordl"
+            ],
+            "note": "A Wordle variant allows different word lengths instead of restricting players to five letters."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hexcodle"
+            ],
+            "note": "Estimate the displayed color's six-digit hexadecimal code within five attempts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hexcodle Mini"
+            ],
+            "note": "An easier color-code challenge uses three hexadecimal digits instead of six."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "HexHunt",
+              "Hex Hunt"
+            ],
+            "note": "Locate places inside map hexagons; choosing smaller hexagons increases the potential reward."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hidden Mirrors"
+            ],
+            "note": "Reproduce a pattern in a daily challenge focused on symmetry."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hoopgrids"
+            ],
+            "note": "An NBA-themed daily trivia grid tests player knowledge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Horsle"
+            ],
+            "note": "A joke Wordle variant uses Horse as its answer every time."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "HOTSdle"
+            ],
+            "note": "Identify a featured hero from Heroes of the Storm."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Housle"
+            ],
+            "note": "Images of a property's individual features supply clues to its price."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "HowLongToBeat Daily Challenge",
+              "How Long To Beat Daily Challenge"
+            ],
+            "note": "Estimate the time required to finish a featured video game."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Huewords"
+            ],
+            "note": "Letter groups must fill a partitioned grid with five-letter words."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Humppadle"
+            ],
+            "note": "Recognize the original song behind a cover performed by Finnish band Elakelaiset."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "I Called Game"
+            ],
+            "note": "A historical NBA photograph supplies clues for six questions about the game."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Immaculate Footy"
+            ],
+            "note": "A sports trivia grid requires entries meeting the conditions at each row-and-column intersection."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Immaculate Grid: Baseball",
+              "Immaculate Grid",
+              "Baseball Immaculate Grid"
+            ],
+            "note": "Choose baseball players satisfying the conditions at each crossing of a sports grid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Immaculate Grid: Hockey",
+              "Hockey Immaculate Grid"
+            ],
+            "note": "Fill a hockey player grid using the conditions attached to its rows and columns."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Immaculate Grid: Men's Basketball",
+              "Basketball Immaculate Grid",
+              "Immaculate Grid Basketball",
+              "Immaculate Grid NBA"
+            ],
+            "note": "Fill a men's basketball grid with players satisfying intersecting row and column conditions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Immaculate Grid: Pro Football",
+              "Football Immaculate Grid",
+              "Immaculate Grid Football",
+              "Immaculate Grid NFL"
+            ],
+            "note": "Fill a professional-football grid with players matching both conditions at each intersection."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Immaculate Grid: Women's Basketball",
+              "Immaculate Grid WNBA",
+              "WNBA Immaculate Grid"
+            ],
+            "note": "A women's basketball version of the player-selection grid puzzle."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Isaacle"
+            ],
+            "note": "Daily quizzes test recognition of items from The Binding of Isaac."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Isaaconnect"
+            ],
+            "note": "Group items from The Binding of Isaac according to shared themes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jeopardy 6"
+            ],
+            "note": "A weekday quiz offers twelve multiple-choice questions in a Jeopardy-inspired format."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jigsaw Explorer"
+            ],
+            "note": "Reassemble the pieces of a daily jigsaw image hosted at jigsawexplorer.com."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jigsy"
+            ],
+            "note": "Scale and rotate shapes until they completely fill the puzzle grid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jihanki"
+            ],
+            "note": "Load a vending machine with all its products while respecting placement rules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jingle.rs"
+            ],
+            "note": "Recognize Old School RuneScape music and place it at the appropriate in-game location."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jojodle"
+            ],
+            "note": "Identify a Stand User from JoJo's Bizarre Adventure."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jumble Daily",
+              "Daily Jumble",
+              "Jumble"
+            ],
+            "note": "Unscramble letters to solve the daily Jumble word puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jumblie"
+            ],
+            "note": "Four themed words must consume every supplied letter exactly once."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Juxtastat"
+            ],
+            "note": "Compare two geographical regions and select the one that better meets a stated criterion."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Karat"
+            ],
+            "note": "Turn an ingot's rings until every side displays a word, within twenty-four turns."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Keyboard Lines"
+            ],
+            "note": "A keyboard swipe trail supplies the clue to a mystery word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Keyword"
+            ],
+            "note": "Letters completing vertical words reveal the target word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kickoff League"
+            ],
+            "note": "Chess pieces play out fictional soccer matches, combining movement with kicking the ball."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kinda Hard Golf"
+            ],
+            "note": "A daily golf-themed challenge hosted at kindahardgolf.com."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Knotilus"
+            ],
+            "note": "Find number sequences with Fibonacci-like relationships to solve the daily puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Krillion"
+            ],
+            "note": "Rare correct trivia answers let players descend deeper in the game."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kuromasu"
+            ],
+            "note": "Numbered clues determine which grid cells should be black or teal."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "LA Times Crossword"
+            ],
+            "note": "A daily crossword challenge hosted at latimes.com, with clues leading to grid answers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LA Times Jigsaw"
+            ],
+            "note": "Reassemble the pieces of a daily jigsaw image hosted at latimes.com."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LA Times Mini"
+            ],
+            "note": "A daily crossword challenge hosted at latimes.com, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LA Times Sudoku"
+            ],
+            "note": "A daily Sudoku-style number-placement challenge hosted at latimes.com."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LA Times Word Search"
+            ],
+            "note": "Finding words among a field of letters forms the basis of this daily search puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LA Times Wordflower"
+            ],
+            "note": "Form words from flower-arranged letters while always using the middle letter."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Landmarkd"
+            ],
+            "note": "A close-up photograph provides clues to a landmark's identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Landmarkr"
+            ],
+            "note": "Photographs supply clues to a geographical location's name."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Langle"
+            ],
+            "note": "Example sentences provide clues to an unfamiliar language."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lawndle"
+            ],
+            "note": "Plan an efficient route for mowing the day's lawn."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Letroso"
+            ],
+            "note": "A hidden word can contain as many as ten letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Letterboxdle"
+            ],
+            "note": "Letterboxd reviews provide clues to the identity of a movie."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lettered"
+            ],
+            "note": "Move letter tiles around a board to reveal a concealed phrase."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lettergrams"
+            ],
+            "note": "Build connected words from letter tiles while maximizing the score."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Letterinth"
+            ],
+            "note": "Finding words among a field of letters forms the basis of this daily search puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Letteripher"
+            ],
+            "note": "Letter guesses reveal the words in a category, with incorrect guesses consuming lives."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LetterLoop",
+              "Letter Loop"
+            ],
+            "note": "Eight circularly arranged letters form two five-letter words sharing their end letters."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lex.Games - By A Vowel",
+              "By A Vowel"
+            ],
+            "note": "Insert a different vowel into each of five jumbled words."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lex.Games - Conlextions",
+              "Conlextions"
+            ],
+            "note": "A daily grouping puzzle asks players to identify relationships between its words."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lex.Games - Lexicogs",
+              "Lexicogs"
+            ],
+            "note": "Clues point toward word answers in this daily puzzle, rather than a pure letter-guessing task."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lex.Games - Mini Crossword"
+            ],
+            "note": "A daily crossword challenge hosted at lex.games, with clues leading to grid answers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lex.Games - Six Appeal",
+              "Six Appeal"
+            ],
+            "note": "A six-letter guessing puzzle allows nonword guesses, though its target is a real word."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lex.Games - Square Dance",
+              "Square Dance"
+            ],
+            "note": "Add one letter to each supplied group to make a word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lexagon"
+            ],
+            "note": "Search a hexagonal letter grid for words, including its longest clue-linked word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lexicle"
+            ],
+            "note": "A word's meaning provides the clue to its identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "lichess.org Daily Puzzle"
+            ],
+            "note": "Lichess offers a daily chess-position challenge."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lingule"
+            ],
+            "note": "Identify the language of a supplied word within six attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LinkedIn - Crossclimb",
+              "Crossclimb",
+              "Linked In - Crossclimb"
+            ],
+            "note": "Solve clues and order their words into a ladder with one-letter changes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LinkedIn - Mini Sudoku",
+              "Mini Sudoku",
+              "Linked In - Mini Sudoku"
+            ],
+            "note": "A daily Sudoku-style number-placement challenge hosted at linkedin.com."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LinkedIn - Patches",
+              "Patches",
+              "Linked In - Patches"
+            ],
+            "note": "Partition a board into rectangles whose areas agree with the numbers inside them."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LinkedIn - Pinpoint",
+              "Pinpoint",
+              "Linked In - Pinpoint"
+            ],
+            "note": "Successively revealed clues point toward a shared category."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "LinkedIn - Queens",
+              "Queens",
+              "Linked In - Queens"
+            ],
+            "note": "Place queens while obeying constraints involving rows, columns, and colored regions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LinkedIn - Tango",
+              "Tango",
+              "Linked In - Tango"
+            ],
+            "note": "Fill the grid with suns and moons under row, column, and adjacency restrictions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LinkedIn - Wend",
+              "Wend",
+              "Linked In - Wend"
+            ],
+            "note": "Hidden words must be found so they divide the letter grid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LinkedIn - Zip",
+              "Zip",
+              "Linked In - Zip"
+            ],
+            "note": "Draw a path through the numbered cells in sequence, covering the grid."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LINKR"
+            ],
+            "note": "Join matching numbered endpoints across three daily puzzles."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Linxicon"
+            ],
+            "note": "Build a chain of meaning-related words to connect two starting words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lirdle"
+            ],
+            "note": "Every row of Wordle-style feedback contains one deliberate falsehood."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "list animals until failure"
+            ],
+            "note": "Name animals belonging to a specified kind before the timer expires."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Locatle"
+            ],
+            "note": "A photograph supplies clues to which country it shows."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lockle"
+            ],
+            "note": "Items or a quotation provide clues to a character from Deadlock."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Logiquiz"
+            ],
+            "note": "A quiz whose questions refer to one another provides five levels of logical difficulty."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LoLdle",
+              "Lo Ldle",
+              "LOL dle",
+              "League of Legends dle"
+            ],
+            "note": "Daily League of Legends challenges test knowledge of its champions and related clues."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Loopy"
+            ],
+            "note": "Number clues constrain a single loop drawn around the grid."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Loopy River"
+            ],
+            "note": "Draw one uninterrupted loop that visits every grid cell."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Luckle"
+            ],
+            "note": "Dice rolls aim for a target number across three daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lyricle"
+            ],
+            "note": "Printed lyrics supply clues to a song's identity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Magnitudle"
+            ],
+            "note": "One estimate answers a numerical trivia question; scoring depends on the error's magnitude."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mahjong Handle"
+            ],
+            "note": "Identify a Riichi Mahjong hand within six attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MapGame",
+              "Map Game"
+            ],
+            "note": "New map hints progressively narrow the search for a hidden country."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MapleWordle",
+              "Maple Wordle"
+            ],
+            "note": "Daily guessing challenges take their subject matter from MapleStory."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mapster"
+            ],
+            "note": "Draw a country's border and compare it with the actual outline."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MapTap",
+              "Map Tap"
+            ],
+            "note": "Five daily rounds ask players to pinpoint named cities on a world map."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Marathondle"
+            ],
+            "note": "Daily guessing challenges focus on the video game Marathon."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marveldle"
+            ],
+            "note": "Identify a featured character from the Marvel Cinematic Universe."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mathdle"
+            ],
+            "note": "Combine the supplied numbers and arithmetic operators to reach a target value."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mathler"
+            ],
+            "note": "Guess the hidden mathematical expression that evaluates to the supplied result."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Matle"
+            ],
+            "note": "Supply missing chess pieces to recreate a checkmate from an actual game."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mazele"
+            ],
+            "note": "Deduce a hidden route through a maze within six attempts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mazetangle"
+            ],
+            "note": "Travel between the red and blue tiles while maximizing the number of moves."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mcbirdle"
+            ],
+            "note": "A daily golf-themed challenge hosted at kendisc.com."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mcdle"
+            ],
+            "note": "A collection of daily challenges based on Minecraft."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MeloGuessr",
+              "Melo Guessr"
+            ],
+            "note": "Hear a song and identify its geographical origin on a map."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mentle"
+            ],
+            "note": "Speed is the goal in this series of arithmetic questions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Metaflora"
+            ],
+            "note": "Identify a plant using information about its evolutionary relationships to guesses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Metazooa"
+            ],
+            "note": "Identify an animal using information about its evolutionary relationships to guesses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Minecraftle"
+            ],
+            "note": "A crafting-themed puzzle tests knowledge of Minecraft recipes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mineswifter"
+            ],
+            "note": "A daily Minesweeper-style logic challenge hosted at mineswifter.com."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Minigolfle"
+            ],
+            "note": "A daily golf-themed challenge hosted at minigolfle.com."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Minute Cryptic",
+              "MinuteCryptic"
+            ],
+            "note": "Solve a compact daily cryptic clue rather than a full crossword grid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mislettered"
+            ],
+            "note": "Letter-by-letter guesses reveal a concealed word or phrase."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MLB Pickle",
+              "Pickle MLB"
+            ],
+            "note": "Identify a hidden Major League Baseball player within nine guesses."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Moneyline"
+            ],
+            "note": "Decide whether a factual number lies above or below a supplied threshold."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Monster Hunter-dle"
+            ],
+            "note": "Identify a creature from the Monster Hunter video-game series."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "More/Less"
+            ],
+            "note": "Compare quantities repeatedly; one wrong higher-or-lower choice ends the run."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "morsle"
+            ],
+            "note": "Decode a spoken Morse-code word; replaying the sound uses an additional attempt."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Morsle (decipher.wiki)"
+            ],
+            "note": "A Wordle-style puzzle uses Morse-code input to help beginners practice the code."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Motion Path"
+            ],
+            "note": "Watch a moving dot and reproduce its trajectory from memory."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Movie Grid"
+            ],
+            "note": "A movies/tv trivia grid requires entries meeting the conditions at each row-and-column intersection."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Movie Pyramid"
+            ],
+            "note": "Fill a pyramid with films that meet the condition attached to each row."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Movie Reveal"
+            ],
+            "note": "Choose clues to expose a hidden film, sacrificing points as clues are revealed."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Movie Snake"
+            ],
+            "note": "Supply films meeting paired conditions until every clue has been used."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Movie to Movie"
+            ],
+            "note": "Build a chain of movie or acting connections to link the puzzle's starting and ending points."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Moviedle"
+            ],
+            "note": "Identify a film using information and matching clues revealed after each guess."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Moviedle (from Histordle)"
+            ],
+            "note": "Identify the release years of featured movies."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Moviedle - Fill The Grid"
+            ],
+            "note": "A movies/tv trivia grid requires entries meeting the conditions at each row-and-column intersection."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Moviedle - Moviemoji"
+            ],
+            "note": "Emoji clues encode the name of a movie."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mowkoban"
+            ],
+            "note": "A lawn-mowing route puzzle rewards completing the task in few moves."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Murdle"
+            ],
+            "note": "Use clues and deduction to solve a daily murder mystery."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MusicVidle",
+              "Music Vidle"
+            ],
+            "note": "Selected frames from a music video provide clues to its song."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Narutodle"
+            ],
+            "note": "Daily character-guessing challenges draw on Naruto."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Neighborle"
+            ],
+            "note": "Name the countries sharing land borders with a highlighted country."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nerdcube - Carom"
+            ],
+            "note": "Slide pieces around a grid to reach a designated goal."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nerdcube - Dabble"
+            ],
+            "note": "Construct words on a compact customized Scrabble-style board to maximize points."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nerdle"
+            ],
+            "note": "An arithmetic equation takes the place of Wordle's hidden word."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Netflix - Bonza",
+              "Bonza"
+            ],
+            "note": "Join fragments into words that share a common theme."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Netflix - Crossover",
+              "Crossover"
+            ],
+            "note": "Swapping letters and emojis produces words answering the clues."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Netflix - Jigsaw"
+            ],
+            "note": "Move image pieces into their correct positions; the directory says no Netflix account is required."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Netflix - Shapes"
+            ],
+            "note": "Fit supplied shapes inside a silhouette; the directory says no Netflix account is required."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Netflix - Starstruck",
+              "Starstruck"
+            ],
+            "note": "Stars must satisfy row, column, and colored-region restrictions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Netflix - Sudoku"
+            ],
+            "note": "A daily Sudoku-style number-placement challenge hosted at netflix.com."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Netflix - Waywords",
+              "Waywords"
+            ],
+            "note": "Finding words among a field of letters forms the basis of this daily search puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "New Yorker - Catalogues"
+            ],
+            "note": "Identify the correct ordering of a set of items within five attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "New Yorker - Laugh Lines"
+            ],
+            "note": "A daily ordering puzzle asks players to put history items in the correct time sequence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "New Yorker - Shuffalo"
+            ],
+            "note": "Unscramble a letter wheel into a word, adding another letter after each success."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nodes"
+            ],
+            "note": "Connect dots to gradually reveal a picture."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Noggle"
+            ],
+            "note": "A daily logic challenge combines puzzle solving with educational and trivia elements."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "NonoDaily",
+              "Nono Daily"
+            ],
+            "note": "Number clues reveal which grid cells to fill, producing a daily nonogram picture."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nonodle"
+            ],
+            "note": "Number clues reveal which grid cells to fill, producing a daily nonogram picture."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nookle"
+            ],
+            "note": "Identify a villager from Animal Crossing."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "NounSense",
+              "Noun Sense"
+            ],
+            "note": "Predict a common noun that follows a supplied adjective, across ten daily words."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Number Crunch"
+            ],
+            "note": "Increment and match digits to clear the board; nine cycles back to one."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Number Island"
+            ],
+            "note": "Separate a numbered board into islands with the required sums."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Numble"
+            ],
+            "note": "Use the supplied numbers and arithmetic operations to reach the target number."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Numbobulate"
+            ],
+            "note": "Numbers and operators arranged in a square must combine into the target value."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "NYT Connections",
+              "Connections",
+              "New York Times Connections",
+              "NY Times Connections"
+            ],
+            "note": "Sixteen words must be separated into four groups linked by a shared idea."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "NYT Connections: Sports Edition",
+              "Connections: Sports Edition",
+              "New York Times Connections: Sports Edition",
+              "Sports Connections",
+              "NYT Sports Connections"
+            ],
+            "note": "A sports-themed Connections variant asks players to discover related groups of words."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "NYT Pips",
+              "Pips",
+              "New York Times Pips"
+            ],
+            "note": "Place dominoes on a board while satisfying the conditions of its marked regions."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "NYT Strands",
+              "Strands",
+              "New York Times Strands"
+            ],
+            "note": "Find theme-linked words in a letter grid, including a longer word called the spangram."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "NYT Sudoku",
+              "New York Times Sudoku"
+            ],
+            "note": "The New York Times version of the daily number-placement puzzle."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "NYT Wordle",
+              "Wordle",
+              "New York Times Wordle",
+              "NY Times Wordle"
+            ],
+            "note": "Six guesses identify a five-letter word; colored feedback marks correct letters and positions."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Octordle"
+            ],
+            "note": "Eight simultaneous Wordle-style boards make players divide their guesses among several hidden words."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Odle"
+            ],
+            "note": "Compose an ode about the day's subject using only the permitted letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "OEC Connectrade"
+            ],
+            "note": "Group exported products in fours according to the countries associated with them."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "OEC Pick 5"
+            ],
+            "note": "Name the five countries exporting the greatest amount of a specified product."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "OEC Tradle"
+            ],
+            "note": "A country's export profile provides clues to its identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Omiword"
+            ],
+            "note": "Arrange region-restricted letter tiles into four common words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "On the Record"
+            ],
+            "note": "A quotation supplies the clue for a weekday question, with a larger Friday set for the weekend."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "One Up Puzzle"
+            ],
+            "note": "A daily Sudoku-style number-placement challenge hosted at oneuppuzzle.com."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "One Word Search"
+            ],
+            "note": "Finding words among a field of letters forms the basis of this daily search puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Onepiecedle"
+            ],
+            "note": "Daily challenges test recognition of characters from One Piece."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ophex"
+            ],
+            "note": "Seven supplied numbers and their intervening operators must combine into a target value."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Orbits"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Originle"
+            ],
+            "note": "A featured video guest provides clues to their country."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "OWdle"
+            ],
+            "note": "Overwatch 2 challenges identify either a character or a conversation between characters."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Packle"
+            ],
+            "note": "Estimate how many circles can be packed into a displayed shape."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Padlock"
+            ],
+            "note": "A hidden-number puzzle combines ideas from Wordle and Mastermind."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pair Down"
+            ],
+            "note": "Remove one letter from each word; the removed letters must themselves form words."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Palwordle"
+            ],
+            "note": "Daily challenges take their subject matter from Palworld."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Parlorbox"
+            ],
+            "note": "Its logic challenge draws inspiration from the Parlor room puzzle in Blue Prince."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Parseword"
+            ],
+            "note": "Careful deduction solves a daily cryptic clue in a format intended to welcome beginners."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Passportle"
+            ],
+            "note": "A passport supplies clues to its issuing country."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Past Puzzle"
+            ],
+            "note": "Identify the year associated with supplied historical events within four attempts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Patchdle"
+            ],
+            "note": "A video game's patch notes provide clues to its title."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "pedantle"
+            ],
+            "note": "Identify a hidden Wikipedia article by uncovering words in its concealed text."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pell Puzzles"
+            ],
+            "note": "Draw paths between marked circles and crosses so the entire six-by-six grid is filled."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Per Night"
+            ],
+            "note": "Estimate the cost of one night's stay at a featured hotel."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Perceptle"
+            ],
+            "note": "Five short daily challenges test visual or perceptual intuition."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Perfect Pitch Puzzle"
+            ],
+            "note": "Recognize the first six musical notes after hearing a short melody."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Petalgrams"
+            ],
+            "note": "Flower-arranged letters form words and a pangram, with more letters added as play continues."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Phrasicle"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Phrasle"
+            ],
+            "note": "Letter-by-letter guesses uncover a concealed phrase."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Picsey"
+            ],
+            "note": "Reveal a hidden picture by turning over as few tiles as possible."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pikadoku"
+            ],
+            "note": "A Pokemon-themed daily trivia grid, requiring answers that meet its intersecting conditions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pimantle"
+            ],
+            "note": "A similarity graph displays word guesses alongside guesses made by other players."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pipcross"
+            ],
+            "note": "Place dice so their pips create a pattern satisfying the numbered clues."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "PIVOT"
+            ],
+            "note": "Rotate letters until the target word appears in the gold row."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pivots"
+            ],
+            "note": "Rotate sections of a board to put it into the required order."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pixletters"
+            ],
+            "note": "Pixel-grid representations of letters conceal the target word."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Planespottle"
+            ],
+            "note": "Identify an aircraft's manufacturer, type, and airline from its photograph."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Plausible"
+            ],
+            "note": "Choose an obscure word's real definition, then invent a false definition for the following day's word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Plotwords"
+            ],
+            "note": "Identify a movie while revealing as few plot keywords as possible."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pocket Puzzles"
+            ],
+            "note": "A collection offering several daily word challenges."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Poeltl"
+            ],
+            "note": "Identify an NBA player with feedback about attributes such as their team and position."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PokeCryptic",
+              "Poke Cryptic"
+            ],
+            "note": "A daily crossword challenge hosted at pokecryptic.com, with clues leading to grid answers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pokedle.com"
+            ],
+            "note": "Identify a Pokemon selected from across the franchise's generations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pokedle.net"
+            ],
+            "note": "A collection of daily quizzes tests recognition of Pokemon."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pokedoku",
+              "Poke doku"
+            ],
+            "note": "A Pokemon trivia grid asks for creatures matching intersecting categories."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pokegrid"
+            ],
+            "note": "Determine the combination of Pokemon characteristics represented in a grid."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pokerating"
+            ],
+            "note": "Identify an unknown Pokemon through successive guesses and information supplied by the puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pokle"
+            ],
+            "note": "Identify the five community cards in a daily Texas Hold'em puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Polygonle"
+            ],
+            "note": "Shapes stand for hidden letters in a Wordle-style puzzle with six attempts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ponder Club"
+            ],
+            "note": "A hub gathering a variety of daily games."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Poopguessr"
+            ],
+            "note": "Animal droppings supply the unusual clue to a species' identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Poople"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "PopCultured",
+              "Pop Cultured"
+            ],
+            "note": "Three pop-culture releases provide clues to a shared year."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Power Scadle"
+            ],
+            "note": "Compare two fictional characters and identify the stronger one."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Primel"
+            ],
+            "note": "The hidden target is a five-digit prime number rather than a five-letter word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Prince Chazz"
+            ],
+            "note": "A queen-moving chess character must capture pieces while avoiding capture itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Puckdoku"
+            ],
+            "note": "A hockey trivia grid asks for players who satisfy intersecting criteria."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pufferdle"
+            ],
+            "note": "Catch a Stardew Valley fish and identify the species caught."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "putt.day"
+            ],
+            "note": "A daily golf-themed challenge hosted at putt.day."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puttsies"
+            ],
+            "note": "A daily golf-themed challenge hosted at puttsies.dev."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Bongo",
+              "Bongo"
+            ],
+            "note": "Place letter tiles in a grid to construct six high-quality words."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Circuits",
+              "Circuits"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Crossword"
+            ],
+            "note": "A daily crossword challenge hosted at puzzmo.com, with clues leading to grid answers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Flipart",
+              "Flipart"
+            ],
+            "note": "Rotate shaped pieces until they fit inside the puzzle's frame."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Memoku",
+              "Memoku"
+            ],
+            "note": "A daily Sudoku-style number-placement challenge hosted at puzzmo.com."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Pile-Up Poker",
+              "Pile-Up Poker"
+            ],
+            "note": "Place cards in a grid to build scoring poker hands."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Really Bad Chess",
+              "Really Bad Chess"
+            ],
+            "note": "Randomized chess starting pieces turn checkmate into an unconventional daily challenge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Spelltower",
+              "Spelltower"
+            ],
+            "note": "Make words to remove tiles from a falling letter grid."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Typeshift",
+              "Typeshift"
+            ],
+            "note": "Sliding letter columns forms words, with every supplied letter eventually needing to be used."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puzzmo - Weather Memoku",
+              "Weather Memoku"
+            ],
+            "note": "A math/logic trivia grid requires entries meeting the conditions at each row-and-column intersection."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "QueenSweep",
+              "Queen Sweep"
+            ],
+            "note": "Number clues locate eight concealed queens."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quickflip"
+            ],
+            "note": "Flip tiles into an eight-letter word; two words are possible but only one is the target."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quintalist"
+            ],
+            "note": "Identify the five leading entries within five attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quintessential"
+            ],
+            "note": "Solve five horizontal words while minimizing tile swaps."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quiple"
+            ],
+            "note": "Sort the day's items into thematic groups of three."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quizl"
+            ],
+            "note": "A short daily general-trivia challenge contains five questions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quizmoji"
+            ],
+            "note": "Clues point toward word answers in this daily puzzle, rather than a pure letter-guessing task."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quolture"
+            ],
+            "note": "A quotation points to a movie in one round and a television show in another."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Quordle"
+            ],
+            "note": "A shared set of guesses solves four hidden words on parallel Wordle-style boards."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quotadle"
+            ],
+            "note": "A memorable quotation becomes the text for a daily typing challenge."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quotesed"
+            ],
+            "note": "Six quotations provide clues to the identity of a film."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "R6dle"
+            ],
+            "note": "Daily guessing challenges focus on Rainbow Six Siege."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rabbithole"
+            ],
+            "note": "Answers form a chain: each answer becomes part of the following question."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rackdle"
+            ],
+            "note": "Find a strong move from a tournament Scrabble position; moves are graded against the alternatives."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "RADDLE"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Radiordle"
+            ],
+            "note": "A medical image and supplementary hints provide evidence for a diagnosis."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rankle"
+            ],
+            "note": "Put six items into the correct ranking within four attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Real Bird Fake Bird"
+            ],
+            "note": "Seven daily prompts test whether names are genuine or invented, or belong to the required set."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Real Flag / Fake Flag"
+            ],
+            "note": "Decide whether each displayed flag is genuine or invented."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Redactle"
+            ],
+            "note": "Recover the identity of a heavily redacted Wikipedia article by supplying words that uncover its text."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Redividers - Storylines"
+            ],
+            "note": "One word fills an initial gap, then splits into pieces that complete later gaps."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Refiner"
+            ],
+            "note": "Classify the grid's numbers into groups satisfying several requirements."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "regexle.com"
+            ],
+            "note": "Fill a hexagonal character grid so its lines satisfy regular-expression clues."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "regexle.ithea.de"
+            ],
+            "note": "Test character strings to deduce a concealed regular expression."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ReHeardle",
+              "Re Heardle"
+            ],
+            "note": "Brief audio excerpts supply clues to a song's identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ReHeardle Video Games",
+              "Re Heardle Video Games"
+            ],
+            "note": "Recognize a video-game music track from short audio excerpts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "relatle.io"
+            ],
+            "note": "Link two musicians by building a chain through related artists."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Retro Game Trivia"
+            ],
+            "note": "Identify a retro video game associated with today's historical release date."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Revealed"
+            ],
+            "note": "Partly redacted descriptions provide clues to a concealed topic."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Reversle"
+            ],
+            "note": "Start from the solved word and work backward through a Wordle-style puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rewordio"
+            ],
+            "note": "Shift stacks of letters between columns to solve supplied clues."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rhyme Time"
+            ],
+            "note": "Identify three words whose endings rhyme with one another."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "riddl.ing"
+            ],
+            "note": "Five clues point toward the answer to a handmade daily riddle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Riffdle"
+            ],
+            "note": "Listen to a musical riff and identify the notes it contains."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ripple"
+            ],
+            "note": "Identify the chain of consequences associated with historical events."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "RNGdle"
+            ],
+            "note": "A random number from zero to one million scores according to its patterns and properties."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rogule"
+            ],
+            "note": "A new daily dungeon features emoji characters and roguelike exploration."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ronin"
+            ],
+            "note": "Place chess pieces in regions without allowing pieces of the same type to attack each other."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rotaboxes"
+            ],
+            "note": "Rotate picture tiles into the orientations that reveal the complete daily image."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Royal Family"
+            ],
+            "note": "Place chess pieces so every zone is occupied and no piece attacks another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Royaledle"
+            ],
+            "note": "A collection of daily challenges based on Clash Royale."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Runedle"
+            ],
+            "note": "Identify a featured non-player character from RuneScape."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Satle"
+            ],
+            "note": "Identify a city from satellite imagery that zooms out after guesses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "SatPin",
+              "Sat Pin"
+            ],
+            "note": "Satellite photographs guide the placement of pins on a world map."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "SatZoom",
+              "Sat Zoom"
+            ],
+            "note": "Satellite imagery provides clues to the identity of a city."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Scramble"
+            ],
+            "note": "Construct valid words from the scrambled letters available in each row."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Scrandle"
+            ],
+            "note": "Compare photographed stadium foods and their prices to predict which is more popular."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Scrokkdle"
+            ],
+            "note": "Connect tile-based poker hands on a board in a poker-and-Scrabble hybrid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Seadle"
+            ],
+            "note": "Identify the featured sea while minimizing the number of attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Searchle"
+            ],
+            "note": "Completing a Google search prompt reveals the day's secret word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "sedecordle"
+            ],
+            "note": "Sixteen parallel word boards use a common set of guesses."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Seedle"
+            ],
+            "note": "Place complementary garden tiles to construct the required garden."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Semantle"
+            ],
+            "note": "Semantic similarity scores guide players toward a hidden word rather than revealing its letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sequences"
+            ],
+            "note": "Deduce the number that comes next in a supplied sequence."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SetFury",
+              "Set Fury"
+            ],
+            "note": "Move through a grid to locate valid groups containing three to five tiles."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sexaginta-quattuordle",
+              "Sexagintaquattuordle"
+            ],
+            "note": "A large multi-board word puzzle asks players to solve 64 hidden words."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Shaple"
+            ],
+            "note": "Select the shape matching the displayed reference shape."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Shikaku of the day"
+            ],
+            "note": "Partition a board into rectangles whose areas match their enclosed numbers, across five daily puzzles."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Showdle"
+            ],
+            "note": "Narrow down attributes to identify a television show."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Shrinkle"
+            ],
+            "note": "Remove letters successively to form new words and uncover a hidden phrase."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Silksongdle"
+            ],
+            "note": "Daily guessing challenges focus on Hollow Knight: Silksong."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Silly Little Codes"
+            ],
+            "note": "Decode a concealed word or phrase from the day's code."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Size It Up"
+            ],
+            "note": "Resize an object using a real-world reference to judge its proper scale."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Size It Up - Geography"
+            ],
+            "note": "Geographical features become scaling targets, compared against reference objects."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Slate - Pears"
+            ],
+            "note": "Build words from pear-arranged letters; every fourth word unlocks a longest-word attempt."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Smashdle"
+            ],
+            "note": "Daily challenges test recognition of Super Smash Bros. characters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Smixed"
+            ],
+            "note": "Six supplied letters form progressively longer words, each beginning with a different letter."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Smush"
+            ],
+            "note": "Build words from nine letters with limited uses; every word must include the central letter."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Snapdle"
+            ],
+            "note": "Identify a card from Marvel Snap."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Songdle"
+            ],
+            "note": "Identify a playing song's artist, title, and release year."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Songle"
+            ],
+            "note": "Three songs provide clues to the year in which they were released."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Songless"
+            ],
+            "note": "Brief audio excerpts provide clues to a song's identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "SongSwipe",
+              "Song Swipe"
+            ],
+            "note": "Decide whether songs predate or follow a specified year, across ten daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sortdle"
+            ],
+            "note": "Move letters between tubes to form concealed words before exhausting the move allowance."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Soulsborndle"
+            ],
+            "note": "Boss attributes such as health and resistances provide clues to a Soulsborne boss's identity."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sound of Sliver"
+            ],
+            "note": "Pair song excerpts with the correct titles and artists."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "SpaceWord",
+              "Space Word"
+            ],
+            "note": "A daily crossword challenge hosted at spaceword.org, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spell Bee"
+            ],
+            "note": "Seven supplied letters form words that must always include the middle letter."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spellcheck"
+            ],
+            "note": "Listen to words and enter their correct spellings."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spellie"
+            ],
+            "note": "A Wordle-style challenge for younger spellers offers three difficulty settings."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spellify"
+            ],
+            "note": "Reveal selected letters to identify a Magic: The Gathering card."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Spelling Bee"
+            ],
+            "note": "Build words from seven supplied letters while always including the central letter; this listed version is a free alternative."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spelling Bee (Lessgames)"
+            ],
+            "note": "Spell spoken words, optionally requesting their definitions or example sentences."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spindle"
+            ],
+            "note": "Spin words to rearrange a letter grid until it displays the target word."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Spiredle"
+            ],
+            "note": "Identify a featured card from Slay the Spire."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "spiredle.net"
+            ],
+            "note": "A collection of daily challenges themed around Slay the Spire 2."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spongedle"
+            ],
+            "note": "Screenshots supply clues to an episode of SpongeBob SquarePants."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sporcle - Chess Attack"
+            ],
+            "note": "A randomized six-by-six chess board presents a checkmate challenge."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sporcle - Daily Acrostic"
+            ],
+            "note": "Sporcle's daily acrostic puzzle links clue answers to a larger concealed message."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sporcle - WorldPlay",
+              "Sporcle - World Play"
+            ],
+            "note": "Geographical exploration and successive clues help identify a hidden city."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Spot the differences"
+            ],
+            "note": "Compare two images and identify every discrepancy between them."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spotle"
+            ],
+            "note": "Identify a music artist using feedback from artist guesses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Squardle"
+            ],
+            "note": "Several interlocking hidden words share a grid in this Wordle-inspired puzzle."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Squaredle"
+            ],
+            "note": "Find adjoining-letter words in a grid rather than guessing a single hidden word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Squares"
+            ],
+            "note": "Search a Boggle-style letter arrangement for every permitted word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Squareword"
+            ],
+            "note": "A two-dimensional word-guessing grid requires solving words in both directions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Squeezy"
+            ],
+            "note": "Inserted letters transform supplied words and uncover a secret word, phrase, or name."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Squirdle Daily",
+              "Squirdle"
+            ],
+            "note": "Guess a Pokemon using feedback about its characteristics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Squishy Billiards"
+            ],
+            "note": "Special ball types change the billiards rules; hazardous marked balls must be avoided."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stackdle"
+            ],
+            "note": "Pile up shapes to maximize height without toppling the stack."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stackdown"
+            ],
+            "note": "Finding words among a field of letters forms the basis of this daily search puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stacked"
+            ],
+            "note": "Identify related groups whose sizes vary rather than using uniform groups."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stackle"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stardewdle"
+            ],
+            "note": "Identify a mystery crop from Stardew Valley."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stardle"
+            ],
+            "note": "The Wordle-style hidden word comes from astronomy."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stars"
+            ],
+            "note": "Place stars across a grid while keeping them from touching."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stat Mini Crossword"
+            ],
+            "note": "A daily crossword challenge hosted at statnews.com, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Statele"
+            ],
+            "note": "A geographical outline provides clues to a US state's identity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "StatPad Game",
+              "Stat Pad Game"
+            ],
+            "note": "Select MLB players to maximize a chosen statistic under row-specific requirements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "steamdle.com"
+            ],
+            "note": "A Steam review supplies clues to a video game's title."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "SteppedUpdle",
+              "Stepped Updle"
+            ],
+            "note": "Four consecutive word puzzles each grow by one letter, sharing a total allowance of twenty guesses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stepwords"
+            ],
+            "note": "Each word is an anagram of its predecessor with one additional letter."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Story Sleuth"
+            ],
+            "note": "A short synopsis and progressively revealed details point toward a book title."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Streetfighterdle"
+            ],
+            "note": "Identify a featured fighter from the Street Fighter series."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sudoker"
+            ],
+            "note": "Rearrange playing cards so rows and columns form higher-scoring poker hands."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sudoku Shift"
+            ],
+            "note": "A daily Sudoku-style number-placement challenge hosted at coffeefirst.games."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Summit Game"
+            ],
+            "note": "An initial clue leads to five connected words that complete the summit."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Summle"
+            ],
+            "note": "Reach a target using provided numbers and operations, with junior and hard modes available."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sumplete"
+            ],
+            "note": "Remove numbers from a grid until the remaining totals match the row and column targets."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Survivle"
+            ],
+            "note": "A reverse Wordle challenge rewards avoiding the correct word rather than finding it quickly."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Swapple"
+            ],
+            "note": "Letter swaps must leave a valid word in every row and column."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Swiftle"
+            ],
+            "note": "A Taylor Swift-themed audio guessing game tests recognition of her songs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Symble"
+            ],
+            "note": "Three randomly assigned symbols provide feedback whose meanings must be deciphered."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Synthmaze"
+            ],
+            "note": "Swap maze tiles to create an escape route for a rocket."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Takes"
+            ],
+            "note": "Keep capturing chess pieces until the board contains just one piece."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Talldle"
+            ],
+            "note": "Order famous people by height, from the shortest to the tallest."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tally Game"
+            ],
+            "note": "Divide numbered cells into groups whose values each add to ten."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TED - Cheat Sheet",
+              "Cheat Sheet"
+            ],
+            "note": "Clues help reconstruct a redacted question and find its answer."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TED - Letterbrew",
+              "Letterbrew"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TED - Spellcheck"
+            ],
+            "note": "Daily spelling challenges are produced with Spellcheck.xyz."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Temple"
+            ],
+            "note": "Flashing lights and timed clicks test estimates of duration or tempo."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Terradle"
+            ],
+            "note": "Identify a featured weapon from Terraria."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Terraformation"
+            ],
+            "note": "Assign the correct terrain types to a planet represented by a hexagonal grid."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TF2dle"
+            ],
+            "note": "Attribute clues identify Team Fortress 2 weapons, maps, cosmetics, or unusual effects."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TFTdle"
+            ],
+            "note": "Daily challenges test knowledge of Teamfight Tactics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Atlantic Crossword"
+            ],
+            "note": "A daily crossword challenge hosted at theatlantic.com, with clues leading to grid answers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The Daily Baffle"
+            ],
+            "note": "A collection brings together daily word and logic challenges."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Daily Burgle"
+            ],
+            "note": "Film plot descriptions supply words used to unlock a vault in a CineNerdle challenge."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Daily Spell"
+            ],
+            "note": "Drop letters into position to reconstruct a fictional headline."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Guardian - Cryptic Crossword"
+            ],
+            "note": "A daily crossword challenge hosted at theguardian.com, with clues leading to grid answers."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Guardian - Quick Crossword"
+            ],
+            "note": "A daily crossword challenge hosted at theguardian.com, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Magical Ferry"
+            ],
+            "note": "Transport passengers and belongings across water without leaving incompatible combinations together."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The New Daily - Trivia"
+            ],
+            "note": "Daily quizzes draw questions from several different categories."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The Split"
+            ],
+            "note": "Answer a question, then predict how other players responded; results appear after the day ends."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Wiki Game Daily",
+              "Wiki Game",
+              "The Wiki Game",
+              "Wikipedia Game"
+            ],
+            "note": "Navigate between Wikipedia articles using their links."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thingdle"
+            ],
+            "note": "A daily riddle leads to the identity of an everyday object."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thinky Dailies"
+            ],
+            "note": "Handmade puzzles of different kinds are linked through an ongoing story."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Thirdle"
+            ],
+            "note": "Solve three intersecting Wordle-style word puzzles."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Three Magic Words"
+            ],
+            "note": "Place letters in gaps to form three words over five daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Threepeat"
+            ],
+            "note": "The same three letters complete three different words, across three daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Thrice"
+            ],
+            "note": "Five daily trivia questions each address a different subject."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ThroughWord",
+              "Through Word"
+            ],
+            "note": "A daily grouping puzzle asks players to identify relationships between its words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Thruline"
+            ],
+            "note": "Four images share a connecting word that players must identify."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tic-Tac-Word"
+            ],
+            "note": "Theme-fitting word guesses create a three-in-a-row challenge inspired by tic-tac-toe."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tightrope"
+            ],
+            "note": "Nine timed trivia questions challenge players to finish without exhausting their lives."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tile Knight"
+            ],
+            "note": "Clear the board while avoiding landings on tiles that are already empty."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tiled Words"
+            ],
+            "note": "A daily crossword challenge hosted at tiledwords.com, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tiler"
+            ],
+            "note": "Designed tiles reconstruct overlapping words, with English and French play available."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tilt"
+            ],
+            "note": "Estimate how many supplied objects will balance the scale."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Timdle"
+            ],
+            "note": "A daily ordering puzzle asks players to put history items in the correct time sequence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Timdle Math"
+            ],
+            "note": "Place mathematical expressions in their correct positions along a number line."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Timdle Music"
+            ],
+            "note": "Audio excerpts provide clues for placing songs on a chronological timeline."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Time Machine (MLB)"
+            ],
+            "note": "A single game's box score supplies clues to its Major League Baseball season."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "TimeGuessr",
+              "Time Guessr"
+            ],
+            "note": "Historical photographs challenge players to identify both a location and a year."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Timeline"
+            ],
+            "note": "Identify the years of six historical events."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "TimeLine Game",
+              "Time Line Game"
+            ],
+            "note": "Put historical events into the sequence in which they occurred."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "TimeSwipe",
+              "Time Swipe"
+            ],
+            "note": "Decide whether each event falls before or after a supplied year."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Timingle"
+            ],
+            "note": "Changing daily beats accompany a challenge to time the instant a countdown reaches zero."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Toddle"
+            ],
+            "note": "A starting four-letter word preserves its letter order inside the hidden word or phrase."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Top 5"
+            ],
+            "note": "Name five leading entries belonging to the day's category."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tracell"
+            ],
+            "note": "Position letter tiles in a grid to uncover concealed text."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Traindle"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "TravelGuessr",
+              "Travel Guessr"
+            ],
+            "note": "Identify the locations of travel photographs across four daily rounds."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "travle",
+              "Travle game"
+            ],
+            "note": "Connect two countries by naming a route through neighboring countries."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Treasure Guessr"
+            ],
+            "note": "Progressively narrow the search for a location on a world map."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Triplets"
+            ],
+            "note": "Find card trios whose attributes are each entirely alike or entirely different."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "trms"
+            ],
+            "note": "Restore vowels to clues whose answers share the same remaining consonants."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Truncate"
+            ],
+            "note": "Extend a chain of tiles toward the opponent's base before they reach yours."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "TuneGuessr",
+              "Tune Guessr"
+            ],
+            "note": "Short song excerpts provide clues to their country of origin."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "TV Circuit"
+            ],
+            "note": "Build a chain of movie or acting connections to link the puzzle's starting and ending points."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TypeCircuit",
+              "Type Circuit"
+            ],
+            "note": "Quotes from games, films, and anime provide the text for a daily typing-speed challenge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Umadle"
+            ],
+            "note": "Daily guessing challenges are based on Umamusume."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Underline"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Unolingo"
+            ],
+            "note": "A daily crossword challenge hosted at games.usatoday.com, with clues leading to grid answers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Valodle"
+            ],
+            "note": "Daily challenges test knowledge of Valorant."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Verticle"
+            ],
+            "note": "A vertically arranged variation on Wordle's guessing format."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vexle"
+            ],
+            "note": "Reproduce a country's flag from memory rather than selecting it from a list."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Video Game Bandle"
+            ],
+            "note": "A MIDI band's performance provides clues to a video game and its music."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "VideoPuzzle",
+              "Video Puzzle"
+            ],
+            "note": "Tile swaps reconstruct a scrambled looping video."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Viewdle"
+            ],
+            "note": "A pictured view supplies clues to the country it depicts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vowel Play"
+            ],
+            "note": "Restore missing vowels to identify concealed words."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Vox Daily Crossword"
+            ],
+            "note": "A daily crossword challenge hosted at vox.com, with clues leading to grid answers."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "VTuble"
+            ],
+            "note": "Identify a featured virtual YouTuber."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Waffle"
+            ],
+            "note": "Swap letters in a small interlocking grid to complete its words."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wallstreetle"
+            ],
+            "note": "Stock-market information provides clues to a company's identity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wantedle"
+            ],
+            "note": "Locate a specified character among moving figures on the screen."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wardle"
+            ],
+            "note": "A collection of daily challenges based on War Thunder."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Washington Post Crossword"
+            ],
+            "note": "A daily crossword challenge hosted at washingtonpost.com, with clues leading to grid answers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Weakdle"
+            ],
+            "note": "Match attacking-type weaknesses to a Pokemon type."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Weakdoku"
+            ],
+            "note": "A Pokemon-themed daily trivia grid, requiring answers that meet its intersecting conditions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Weather Darts"
+            ],
+            "note": "Select cities whose current temperatures total a target; exceeding it causes a bust."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Weaver"
+            ],
+            "note": "Change one letter at a time to build a chain between the starting and ending words."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Weddle"
+            ],
+            "note": "Identify a hidden NFL player within eight attempts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Weighsies"
+            ],
+            "note": "Estimate how many objects are needed to balance another object on a scale."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "werdel"
+            ],
+            "note": "International Phonetic Alphabet representations make pronunciation the basis of this Wordle variant."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WhenTaken",
+              "When Taken"
+            ],
+            "note": "A photograph challenges players to work out where and when it was taken."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WhenTaken Movies",
+              "When Taken Movies"
+            ],
+            "note": "Identify where and when a featured movie scene was filmed."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Whereabouts?"
+            ],
+            "note": "Identify the countries containing five marked points on a world map."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WhereTaken",
+              "Where Taken"
+            ],
+            "note": "Identify the country shown in a photograph; wrong answers provide geographical feedback."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WhereTaken USA",
+              "Where Taken USA"
+            ],
+            "note": "A photograph provides clues to which US state it depicts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Which year"
+            ],
+            "note": "Photographs become clues for estimating the year they were taken."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Whodle"
+            ],
+            "note": "Frames, audio, or dialogue transcripts provide clues to a Doctor Who episode."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wikitrivia"
+            ],
+            "note": "Put historical events in order along a timeline."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wildlife Sudoku"
+            ],
+            "note": "Choose nine animals that satisfy the conditions of a trivia grid."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Worchle"
+            ],
+            "note": "Find concealed keywords in three word-search challenges of increasing difficulty."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Box"
+            ],
+            "note": "Swap letters until every row and column contains a valid word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Chain"
+            ],
+            "note": "Build a chain of related words between two initially unrelated endpoints."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Chase"
+            ],
+            "note": "Each attempt receives a new clue word while narrowing the search for the hidden word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Connection"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Grid"
+            ],
+            "note": "Fill cells with words meeting the requirements of their intersecting row and column."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Ladder"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Peaks"
+            ],
+            "note": "Letter feedback indicates whether target letters lie earlier or later in the alphabet."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Salad"
+            ],
+            "note": "Find theme-related words in a four-by-four letter grid."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word to your Mother"
+            ],
+            "note": "Two opening guesses and their feedback define the possible Wordle answers to recover."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Waffle"
+            ],
+            "note": "Letter swaps produce valid words across both rows and columns."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word Zip"
+            ],
+            "note": "Alternate between two letter pools while constructing as many words as possible."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "word.golf"
+            ],
+            "note": "Choose meaning-related words from a grid to connect the starting and target words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Word500"
+            ],
+            "note": "Feedback counts correctly and incorrectly placed letters without identifying which letters they are."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WordAll",
+              "Word All"
+            ],
+            "note": "Recover every possible Wordle answer from the supplied opening clues."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordamid"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordcell"
+            ],
+            "note": "A ball travels around a board collecting letters needed for concealed words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordcrux"
+            ],
+            "note": "A daily crossword challenge hosted at wordcrux.com, with clues leading to grid answers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordfall"
+            ],
+            "note": "A Boggle-inspired word challenge searches for words in an arrangement of letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordga"
+            ],
+            "note": "Build words of at least four letters using the day's supplied letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordgy"
+            ],
+            "note": "Compound words and two-word phrases reveal five concealed words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordiply"
+            ],
+            "note": "Find long words containing a supplied word, with a limited number of attempts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordistance"
+            ],
+            "note": "Distance feedback from word guesses guides the search for a mystery word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordless"
+            ],
+            "note": "Wordle-style puzzles use several different word lengths."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WordLink",
+              "Word Link"
+            ],
+            "note": "A daily word-chain challenge links words according to the puzzle's connection rules."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordloop"
+            ],
+            "note": "Arrange segments around a circle so neighboring pairs produce valid words."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "words for days"
+            ],
+            "note": "Word combinations create new concepts while pursuing a daily objective."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WordSmyth",
+              "Word Smyth"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wordspan"
+            ],
+            "note": "Relative alphabetical positions of neighboring letters guide the search for a five-letter word."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WordWavr",
+              "Word Wavr"
+            ],
+            "note": "A five-letter word is concealed inside a wave representation."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Worldle"
+            ],
+            "note": "Identify a country from its silhouette; guesses provide geographical feedback."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wormle"
+            ],
+            "note": "Finding words among a field of letters forms the basis of this daily search puzzle."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Worpel"
+            ],
+            "note": "Identify a player from the Australian Football League."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wowdle"
+            ],
+            "note": "A collection of daily challenges based on World of Warcraft."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WRDLINK"
+            ],
+            "note": "A daily word-ladder challenge connects words through small changes to their letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WrestlePlay",
+              "Wrestle Play"
+            ],
+            "note": "A hub offering multiple wrestling-themed daily challenges."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wridges"
+            ],
+            "note": "A Boggle-inspired word challenge searches for words in an arrangement of letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wrodeo"
+            ],
+            "note": "Guess missing words to reconstruct a quotation or book passage from partially visible text."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "xdle"
+            ],
+            "note": "Identify a number from one to 999 using mathematical feedback within six guesses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Year To Beat"
+            ],
+            "note": "Identify music-video release years across five daily rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yeardle"
+            ],
+            "note": "Historical events provide clues to a common year."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yearly Daily"
+            ],
+            "note": "Identify the years of events that occurred on today's month and day."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yellow Yellow"
+            ],
+            "note": "Win by producing entirely yellow feedback tiles rather than Wordle's usual all-green solution."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "YGOdle"
+            ],
+            "note": "Daily guessing challenges draw on the Yu-Gi-Oh! card game."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zaggle"
+            ],
+            "note": "A Boggle-inspired word challenge searches for words in an arrangement of letters."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Zaku Chess"
+            ],
+            "note": "Fantasy pixel-art characters play chess on a board rotated a quarter-turn."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zebra Puzzles"
+            ],
+            "note": "Five daily logic puzzles progress through increasing levels of difficulty."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zeldadle"
+            ],
+            "note": "Daily challenges test knowledge of the Zelda games."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zeldle"
+            ],
+            "note": "A collection of daily challenges based on the Zelda series."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zonday"
+            ],
+            "note": "Estimate the price of a featured Amazon product."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ZoomOut",
+              "Zoom Out"
+            ],
+            "note": "A tightly cropped screenshot provides clues to a video game's identity."
+          }
+        ]
+      }
+    ]
   }
 ];
 window.DIVE_QUESTIONS = window.DIVE_DAYS.at(-1).questions;

@@ -1,0 +1,125 @@
+ANSWER,Blurb,Worth
+Passing Yards|Passing yard|Pass yards|Passing yardage,Passing distance can earn fantasy credit at the league's chosen yards-per-point rate.,10
+Passing touchdown|Passing TD|Pass TD|Touchdown pass|Passing touchdowns|Pass touchdown,Awards credit for throwing a touchdown pass; the league chooses the fantasy value.,10
+Passing first down|Passing 1st Down|Passing first downs|Pass first down,A separate setting credits a first down achieved through a pass.,60
+Two-point conversion|2-Pt Conversion|2 point conversion|Two point conversions|2PC|Passing two point conversion|Rushing two point conversion|Receiving two point conversion,"Passing, rushing, and receiving conversion credit are listed; all describe the same two-point scoring category here.",30
+Interception thrown|Pass Intercepted|Thrown interception|Interceptions thrown|Throwing an interception|INT|INTs|Interception|Interceptions|Passing INT|Pass INT|Passing interception|Passing interceptions|QB INT|Quarterback interception,Usually costs the passer fantasy points; can stack with incompletion and pick-six penalties.,15
+QB Pick 6|Pick-six thrown|Pick 6 Thrown|Throwing a pick six|QB pick six|Quarterback pick six|Quarterback pick 6|Pick 6|Pick six|Pick6|Picksix,Usually a penalty for a pass intercepted and returned for a touchdown.,60
+Quarterback sacked|QB Sacked|Sack taken|Sacks taken,"Usually a penalty against the quarterback, separate from defensive credit for making the sack.",60
+40+ Yard passing completion Bonus|40+ Yard Completion Bonus|40 plus Yard passing completion Bonus|40 plus Yard Completion Bonus,An optional big-play bonus credits a completed pass covering 40+ yards.,100
+40+ yard passing touchdown bonus|40+ Yard TD Bonus|40+ Yard touchdown Bonus|40 plus yard passing touchdown bonus|40 plus Yard TD Bonus|40 plus Yard touchdown Bonus,An optional big-play bonus credits a passing touchdown covering 40+ yards.,100
+50+ Yard passing touchdown Bonus|50+ Yard Pass TD Bonus|50+ Yard Pass touchdown Bonus|50 plus Yard passing touchdown Bonus|50 plus Yard Pass TD Bonus|50 plus Yard Pass touchdown Bonus,An optional big-play bonus credits a passing touchdown covering 50+ yards.,100
+Pass completion|Pass Completed|Completion|Completions|Completed pass|Completed passes,An optional efficiency setting awards a league-defined value for completed passes.,85
+Incomplete pass,Usually a penalty setting; Sleeper says it can stack with an interception and a pick-six thrown.,100
+Pass attempt|Pass Attempts|Passing attempts|Pass attempted,"Optional volume scoring counts passes attempted, rather than only completions or passing distance.",100
+Rushing Yards|Rushing yard|Rush yards|Rushing yardage,Rushing distance can earn fantasy credit at the league's chosen yards-per-point rate.,10
+Rushing touchdown|Rushing TD|Rush TD|Rushing touchdowns|Rush touchdown,Awards credit for carrying the ball into the end zone rather than catching a touchdown pass.,10
+Quarterback rushing touchdown|QB Rushing TD|QB rushing touchdown|Quarterback rushing TD,A separate positional touchdown setting lets leagues give quarterbacks special rushing-touchdown credit.,100
+Rushing first down|Rushing 1st Down|Rushing first downs|Rush first down,A separate setting credits moving the chains with a rushing play.,60
+40+ Yard Rush Bonus|40+ Yard rushing Bonus|40 plus Yard Rush Bonus|40 plus Yard rushing Bonus,An optional big-play bonus credits a rushing play covering 40+ yards.,100
+40+ Yard Rush TD Bonus|40+ Yard rushing touchdown Bonus|40 plus Yard Rush TD Bonus|40 plus Yard rushing touchdown Bonus,An optional big-play bonus credits a rushing touchdown covering 40+ yards.,100
+50+ Yard Rush TD Bonus|50+ Yard rushing touchdown Bonus|50 plus Yard Rush TD Bonus|50 plus Yard rushing touchdown Bonus,An optional big-play bonus credits a rushing touchdown covering 50+ yards.,100
+Rushing attempt|Rush Attempts|Rushing attempts|Rush attempt|Carry|Carries,"Optional volume scoring counts carries, independently of the yards gained.",85
+Reception|Receptions|Catch|Catches|PPR|Point per reception|Points per reception,Per-catch credit supports PPR scoring; Sleeper also offers additional position-specific reception bonuses.,30
+Receiving Yards|Receiving yard|Reception yards|Receiving yardage,Receiving distance can earn fantasy credit separately from the catch itself.,10
+Receiving touchdown|Receiving TD|Reception TD|Receiving touchdowns|Touchdown reception|Reception touchdown,Awards credit to the player catching a touchdown pass.,10
+Receiving first down|Receiving 1st Down|Receiving first downs|Reception first down,A separate setting credits a reception that produces a first down.,60
+0-4 Yard Reception Bonus|0 to 4 Yard Reception Bonus,Extra credit for a catch gaining 0-4 yards; only its applicable reception-distance band scores.,100
+5-9 Yard Reception Bonus|5 to 9 Yard Reception Bonus,Extra credit for a catch gaining 5-9 yards; only its applicable reception-distance band scores.,100
+10-19 Yard Reception Bonus|10 to 19 Yard Reception Bonus,Extra credit for a catch gaining 10-19 yards; only its applicable reception-distance band scores.,100
+20-29 Yard Reception Bonus|20 to 29 Yard Reception Bonus,Extra credit for a catch gaining 20-29 yards; only its applicable reception-distance band scores.,100
+30-39 Yard Reception Bonus|30 to 39 Yard Reception Bonus,Extra credit for a catch gaining 30-39 yards; only its applicable reception-distance band scores.,100
+40+ Yard Reception Bonus|40 plus Yard Reception Bonus,Extra credit for a catch gaining 40+ yards; only its applicable reception-distance band scores.,100
+40+ Yard Reception TD Bonus|40+ Yard Reception touchdown Bonus|40 plus Yard Reception TD Bonus|40 plus Yard Reception touchdown Bonus,An optional big-play bonus credits a receiving touchdown covering 40+ yards.,100
+50+ Yard Reception TD Bonus|50+ Yard Reception touchdown Bonus|50 plus Yard Reception TD Bonus|50 plus Yard Reception touchdown Bonus,An optional big-play bonus credits a receiving touchdown covering 50+ yards.,100
+Reception Bonus - RB|running back reception bonus|running back PPR|running back premium|RB premium,"Position-specific extra reception credit for a running back, on top of the general reception setting.",85
+Reception Bonus - WR|wide receiver reception bonus|wide receiver PPR|wide receiver premium|WR premium,"Position-specific extra reception credit for a wide receiver, on top of the general reception setting.",85
+Reception Bonus - TE|tight end reception bonus|tight end PPR|tight end premium|TE premium,"Position-specific extra reception credit for a tight end, on top of the general reception setting.",85
+Extra point made|PAT Made|Extra point|Extra points|PAT|Point after touchdown|XP,Successful point-after-touchdown kicks have their own league-configurable scoring value.,30
+Field goal made|FG Made|Field goal|Field goals|FG|Field goals made,"Successful field goals can score directly, with additional distance-based options available.",30
+Field goal made (0-19 yards)|FG Made (0-19 yards)|Made field goal 0-19 yards|Field goal made (0 to 19 yards)|FG Made (0 to 19 yards)|Made field goal 0 to 19 yards,A dedicated kicking-distance setting for successful field goals in the 0-19 yards band.,85
+Field goal made (20-29 yards)|FG Made (20-29 yards)|Made field goal 20-29 yards|Field goal made (20 to 29 yards)|FG Made (20 to 29 yards)|Made field goal 20 to 29 yards,A dedicated kicking-distance setting for successful field goals in the 20-29 yards band.,85
+Field goal made (30-39 yards)|FG Made (30-39 yards)|Made field goal 30-39 yards|Field goal made (30 to 39 yards)|FG Made (30 to 39 yards)|Made field goal 30 to 39 yards,A dedicated kicking-distance setting for successful field goals in the 30-39 yards band.,85
+Field goal made (40-49 yards)|FG Made (40-49 yards)|Made field goal 40-49 yards|Field goal made (40 to 49 yards)|FG Made (40 to 49 yards)|Made field goal 40 to 49 yards,A dedicated kicking-distance setting for successful field goals in the 40-49 yards band.,85
+Field goal made (50-59 yards)|FG Made (50-59 yards)|Made field goal 50-59 yards|Field goal made (50 to 59 yards)|FG Made (50 to 59 yards)|Made field goal 50 to 59 yards,A dedicated kicking-distance setting for successful field goals in the 50-59 yards band.,85
+Field goal made (60+ yards)|FG Made (60+ yards)|Made field goal 60+ yards|Field goal made (60 plus yards)|FG Made (60 plus yards)|Made field goal 60 plus yards,A dedicated kicking-distance setting for successful field goals in the 60+ yards band.,85
+Field goal made (50+ yards)|FG Made (50+ yards)|Made field goal 50+ yards|Field goal made (50 plus yards)|FG Made (50 plus yards)|Made field goal 50 plus yards,A dedicated kicking-distance setting for successful field goals in the 50+ yards band.,85
+Extra point missed|PAT Missed|Missed PAT|Missed extra point|Extra points missed,Usually a kicker penalty; a blocked extra-point attempt also counts as missed.,60
+Field goal missed|FG Missed|Missed field goal|Missed FG|Field goals missed,Usually a kicker penalty; Sleeper also offers separate missed-kick distance bands.,60
+Field goal missed (0-19 yards)|FG Missed (0-19 yards)|Missed field goal 0-19 yards|Field goal missed (0 to 19 yards)|FG Missed (0 to 19 yards)|Missed field goal 0 to 19 yards,A dedicated kicking-distance setting for missed field goals in the 0-19 yards band.,100
+Field goal missed (20-29 yards)|FG Missed (20-29 yards)|Missed field goal 20-29 yards|Field goal missed (20 to 29 yards)|FG Missed (20 to 29 yards)|Missed field goal 20 to 29 yards,A dedicated kicking-distance setting for missed field goals in the 20-29 yards band.,100
+Field goal missed (30-39 yards)|FG Missed (30-39 yards)|Missed field goal 30-39 yards|Field goal missed (30 to 39 yards)|FG Missed (30 to 39 yards)|Missed field goal 30 to 39 yards,A dedicated kicking-distance setting for missed field goals in the 30-39 yards band.,100
+Field goal missed (40-49 yards)|FG Missed (40-49 yards)|Missed field goal 40-49 yards|Field goal missed (40 to 49 yards)|FG Missed (40 to 49 yards)|Missed field goal 40 to 49 yards,A dedicated kicking-distance setting for missed field goals in the 40-49 yards band.,100
+Field goal missed (50-59 yards)|FG Missed (50-59 yards)|Missed field goal 50-59 yards|Field goal missed (50 to 59 yards)|FG Missed (50 to 59 yards)|Missed field goal 50 to 59 yards,A dedicated kicking-distance setting for missed field goals in the 50-59 yards band.,100
+Field goal missed (50+ yards)|FG Missed (50+ yards)|Missed field goal 50+ yards|Field goal missed (50 plus yards)|FG Missed (50 plus yards)|Missed field goal 50 plus yards,A dedicated kicking-distance setting for missed field goals in the 50+ yards band.,100
+Field goal missed (60+ yards)|FG Missed (60+ yards)|Missed field goal 60+ yards|Field goal missed (60 plus yards)|FG Missed (60 plus yards)|Missed field goal 60 plus yards,A dedicated kicking-distance setting for missed field goals in the 60+ yards band.,100
+Field goal yards|Points per FG yard|Points per field goal yard|Field goal yardage,Per-yard kicking credit can score a field goal by its distance instead of a flat value.,85
+Field goal yards beyond 30|Points per FG yard over 30|Field goal yards over 30|Points per field goal yard over 30,A special per-yard option counts only field-goal distance beyond the first 30 yards.,100
+Defensive interception|Defensive interceptions|Intercepting a pass|Defensive INT|Defense INT|IDP INT|DST INT|D/ST INT|D/ST interception,"Credits intercepting a pass, rather than throwing the interception; available for team defense and IDP.",100
+Interception return yards|INT Return Yards|Interception return yardage|Interception return yard,Optional yardage credit measures distance gained after intercepting an opponent's pass.,100
+Fumble Recovery|Fumble recoveries|Recovering a fumble|Recovered fumble,Recovery credit is available for team defense and individual defensive players.,60
+Fumble Return Yards,Optional yardage scoring measures distance gained after a fumble recovery.,100
+Forced Fumble|Forced fumbles|Forcing a fumble|Fumble forced,"Credits causing a fumble, whether or not the same defender recovers it.",60
+Safety|Safeties|Defensive safety,A defensive scoring event that can receive its own fantasy value.,30
+"Blocked kick|Blocked punt|Blocked field goal|Blocked PAT|Block a kick|Kick block|Blocked Punt, PAT, or FG","Blocking a punt, field goal, or extra point is a listed defensive scoring option.",60
+Blocked Kick Return Yards,A separate distance setting measures yards gained after a blocked kick.,100
+Defensive touchdown|Defense TD|Defensive TD|Defense touchdown|IDP touchdown|IDP TD|Interception return touchdown|Interception return TD|Defensive pick six|Defensive pick 6|Pick six return|Pick 6 return,Touchdown credit is available for team defense and IDP; a pick-six is one example.,30
+Two-point conversion return|2-Pt Conversion Returns|2 point conversion return|2 pt conversion return|Defensive two point conversion|Defensive 2 point conversion,Defensive return credit applies when an opponent's two-point try is returned for a score.,60
+Tackle|Tackles|Total tackle|Total tackles,Total tackle scoring is listed alongside separate solo and assisted tackle settings.,60
+Solo Tackle|Solo tackles|Unassisted tackle,Solo tackle credit is separate from assisted-tackle credit in the scoring menu.,60
+Assisted Tackle|Assisted tackles|Tackle assist|Tackle assists,Assisting on a tackle can earn its own league-defined fantasy value.,85
+Tackle for loss|Tackles for loss|TFL,A separate tackle setting credits bringing down a player behind the line of scrimmage.,100
+Sack|Sacks|Defensive sack|Sacking the quarterback,Credits sacking the opposing quarterback; available for team defense and IDP.,30
+Sack Yards,A separate distance setting scores the yardage lost on sacks.,100
+Quarterback hit|Hit on QB|QB hit|QB hits|Quarterback hits,Quarterback pressure can earn credit through a hit even without a sack.,100
+Pass defended|Pass defense|Pass defences|Pass defenses|Pass deflection|Pass deflections|Pass breakup|Pass breakups|Passes defended|PD,"A coverage setting credits breaking up a pass, separately from interceptions.",100
+Points Allowed 0|0 points allowed|Allowing 0 points|Shutout|Clean sheet|Zero points allowed|No points allowed,Team-defense scoring for conceding 0 points; only the applicable points-allowed band is credited.,85
+Points Allowed 1-6|Points Allowed 1 to 6|1-6 points allowed|Allowing 1-6 points|1 to 6 points allowed|Allowing 1 to 6 points,Team-defense scoring for conceding 1-6 points; only the applicable points-allowed band is credited.,85
+Points Allowed 7-13|Points Allowed 7 to 13|7-13 points allowed|Allowing 7-13 points|7 to 13 points allowed|Allowing 7 to 13 points,Team-defense scoring for conceding 7-13 points; only the applicable points-allowed band is credited.,85
+Points Allowed 14-20|Points Allowed 14 to 20|14-20 points allowed|Allowing 14-20 points|14 to 20 points allowed|Allowing 14 to 20 points,Team-defense scoring for conceding 14-20 points; only the applicable points-allowed band is credited.,85
+Points Allowed 21-27|Points Allowed 21 to 27|21-27 points allowed|Allowing 21-27 points|21 to 27 points allowed|Allowing 21 to 27 points,Team-defense scoring for conceding 21-27 points; only the applicable points-allowed band is credited.,85
+Points Allowed 28-34|Points Allowed 28 to 34|28-34 points allowed|Allowing 28-34 points|28 to 34 points allowed|Allowing 28 to 34 points,Team-defense scoring for conceding 28-34 points; only the applicable points-allowed band is credited.,85
+Points Allowed 35+|Points Allowed 35 plus|35+ points allowed|Allowing 35+ points|35 plus points allowed|Allowing 35 plus points,Team-defense scoring for conceding 35+ points; only the applicable points-allowed band is credited.,85
+Points per point allowed,A configurable linear adjustment can change defensive fantasy points for each real point conceded.,85
+Less Than 100 Total Yards Allowed|Less Than 100 yards allowed|Allowing Less Than 100 total yards,Team-defense scoring for allowing less than 100 total yards; yardage bands do not stack with one another.,85
+100-199 Total Yards Allowed|100 to 199 Total Yards Allowed|100-199 yards allowed|Allowing 100-199 total yards|100 to 199 yards allowed|Allowing 100 to 199 total yards,Team-defense scoring for allowing 100-199 total yards; yardage bands do not stack with one another.,85
+200-299 Total Yards Allowed|200 to 299 Total Yards Allowed|200-299 yards allowed|Allowing 200-299 total yards|200 to 299 yards allowed|Allowing 200 to 299 total yards,Team-defense scoring for allowing 200-299 total yards; yardage bands do not stack with one another.,85
+300-349 Total Yards Allowed|300 to 349 Total Yards Allowed|300-349 yards allowed|Allowing 300-349 total yards|300 to 349 yards allowed|Allowing 300 to 349 total yards,Team-defense scoring for allowing 300-349 total yards; yardage bands do not stack with one another.,85
+350-399 Total Yards Allowed|350 to 399 Total Yards Allowed|350-399 yards allowed|Allowing 350-399 total yards|350 to 399 yards allowed|Allowing 350 to 399 total yards,Team-defense scoring for allowing 350-399 total yards; yardage bands do not stack with one another.,85
+400-449 Total Yards Allowed|400 to 449 Total Yards Allowed|400-449 yards allowed|Allowing 400-449 total yards|400 to 449 yards allowed|Allowing 400 to 449 total yards,Team-defense scoring for allowing 400-449 total yards; yardage bands do not stack with one another.,85
+450-499 Total Yards Allowed|450 to 499 Total Yards Allowed|450-499 yards allowed|Allowing 450-499 total yards|450 to 499 yards allowed|Allowing 450 to 499 total yards,Team-defense scoring for allowing 450-499 total yards; yardage bands do not stack with one another.,85
+500-549 Total Yards Allowed|500 to 549 Total Yards Allowed|500-549 yards allowed|Allowing 500-549 total yards|500 to 549 yards allowed|Allowing 500 to 549 total yards,Team-defense scoring for allowing 500-549 total yards; yardage bands do not stack with one another.,85
+550+ Total Yards Allowed|550 plus Total Yards Allowed|550+ yards allowed|Allowing 550+ total yards|550 plus yards allowed|Allowing 550 plus total yards,Team-defense scoring for allowing 550+ total yards; yardage bands do not stack with one another.,85
+Points per yard allowed,A configurable linear adjustment can change defensive fantasy points for each yard conceded.,85
+Three-and-out|3 and Out|Three and outs|3 and outs,A drive-outcome setting rewards a defense for forcing three plays followed by a punt.,100
+Fourth-down stop|4th Down Stop|Fourth down stops|Turnover on downs,A drive-outcome setting credits stopping the opponent on fourth down.,100
+Forced Punt|Forced punts|Forcing a punt,A separate drive-outcome option credits making the opposing team punt.,100
+Special teams touchdown|Special Teams TD|Return touchdown|Return TD|Punt return touchdown|Kick return touchdown|Kickoff return touchdown,Return-score credit can be awarded to the team unit or the individual player.,85
+Special teams forced fumble|Special Teams Player Forced Fumble,Forcing a fumble on special teams can credit the unit or the player.,85
+Special teams fumble recovery|Special Teams Player Fumble Recovery,Recovering a special-teams fumble can credit the unit or the player.,85
+Special teams solo tackle|Special Teams Player Solo Tackle,A solo tackle on special teams can credit the unit or the player.,85
+Punt return yards|Punt return yardage|Punt return yard|Player Punt Return Yards,Return distance after a punt can score for the unit or the individual returner.,85
+Kick return yards|Kickoff return yards|Kick return yardage|Player Kick Return Yards,Return distance after a kickoff can score for the unit or the individual returner.,85
+Missed field goal return yards|Missed FG Return Yards|Missed field goal return yardage,Returning a missed field goal has its own listed distance-scoring option.,85
+Fumble|Fumbles|Fumbling,"Usually a penalty for fumbling; it can apply on offense, defense, or special teams.",30
+Fumble lost|Lost fumble|Lost fumbles|Fumbles lost,Usually an additional penalty when a player's fumble is recovered by the opponent.,60
+Fumble recovery touchdown|Fumble Recovery TD|Fumble return touchdown|Fumble return TD,A fumble recovered for a touchdown has a separate miscellaneous scoring setting.,85
+100-199 Yard Rushing Game|100 to 199 Yard Rushing Game|100-199 rushing yards|100-199 rushing yards bonus|100-199 yard rushing bonus|100 to 199 rushing yards|100 to 199 rushing yards bonus|100 to 199 yard rushing bonus,"A whole-game bonus for 100-199 rushing yards, distinct from ordinary per-yard scoring.",85
+200+ Yard Rushing Game|200 plus Yard Rushing Game|200+ rushing yards|200+ rushing yards bonus|200+ yard rushing bonus|200 plus rushing yards|200 plus rushing yards bonus|200 plus yard rushing bonus,"A whole-game bonus for 200+ rushing yards, distinct from ordinary per-yard scoring.",85
+100-199 Yard Receiving Game|100 to 199 Yard Receiving Game|100-199 receiving yards|100-199 receiving yards bonus|100-199 yard receiving bonus|100 to 199 receiving yards|100 to 199 receiving yards bonus|100 to 199 yard receiving bonus,"A whole-game bonus for 100-199 receiving yards, distinct from ordinary per-yard scoring.",85
+200+ Yard Receiving Game|200 plus Yard Receiving Game|200+ receiving yards|200+ receiving yards bonus|200+ yard receiving bonus|200 plus receiving yards|200 plus receiving yards bonus|200 plus yard receiving bonus,"A whole-game bonus for 200+ receiving yards, distinct from ordinary per-yard scoring.",85
+300-399 Yard Passing Game|300 to 399 Yard Passing Game|300-399 passing yards|300-399 passing yards bonus|300-399 yard passing bonus|300 to 399 passing yards|300 to 399 passing yards bonus|300 to 399 yard passing bonus,"A whole-game bonus for 300-399 passing yards, distinct from ordinary per-yard scoring.",85
+400+ Yard Passing Game|400 plus Yard Passing Game|400+ passing yards|400+ passing yards bonus|400+ yard passing bonus|400 plus passing yards|400 plus passing yards bonus|400 plus yard passing bonus,"A whole-game bonus for 400+ passing yards, distinct from ordinary per-yard scoring.",85
+100-199 Combined Rush + Rec Yards|100-199 Combined rushing + receiving Yards|100 to 199 Combined Rush  plus Rec Yards|100 to 199 Combined rushing  plus receiving Yards|100-199 combined yards|100-199 scrimmage yards bonus|100-199 combined rushing and receiving yards|100 to 199 combined yards|100 to 199 scrimmage yards bonus|100 to 199 combined rushing and receiving yards,A game bonus for 100-199 combined rushing and receiving yards; either component can be zero.,85
+200+ Combined Rush + Rec Yards|200+ Combined rushing + receiving Yards|200 plus Combined Rush  plus Rec Yards|200 plus Combined rushing  plus receiving Yards|200+ combined yards|200+ scrimmage yards bonus|200+ combined rushing and receiving yards|200 plus combined yards|200 plus scrimmage yards bonus|200 plus combined rushing and receiving yards,A game bonus for 200+ combined rushing and receiving yards; either component can be zero.,85
+25+ Pass Completions|25 plus Pass Completions|25 completion bonus|25 completions|25 completed passes,A game-volume bonus activates at 25 or more completed passes.,85
+20+ Carries|20 plus Carries|20 carry bonus|20 rushing attempts,A game-volume bonus activates at 20 or more rushing attempts.,85
+1st Down Bonus - RB|first Down Bonus - RB|running back first down bonus|RB first down bonus,A positional bonus gives a running back extra credit for producing a first down.,60
+1st Down Bonus - WR|first Down Bonus - WR|wide receiver first down bonus|WR first down bonus,A positional bonus gives a wide receiver extra credit for producing a first down.,60
+1st Down Bonus - TE|first Down Bonus - TE|tight end first down bonus|TE first down bonus,A positional bonus gives a tight end extra credit for producing a first down.,60
+1st Down Bonus - QB|first Down Bonus - QB|quarterback first down bonus|QB first down bonus,A positional bonus gives a quarterback extra credit for producing a first down.,60
+10+ Tackle Bonus|10 plus Tackle Bonus,An individual-defender game bonus credits reaching 10 or more tackles.,100
+2+ Sack Bonus|2 plus Sack Bonus,An individual-defender game bonus credits reaching two or more sacks.,100
+3+ Pass Defended Bonus|3 plus Pass Defended Bonus,An individual-defender game bonus credits reaching three or more passes defended.,100
+50+ Yard Interception Return Bonus|50 plus Yard Interception Return Bonus,An individual-defender bonus credits an interception return of at least 50 yards.,100
+50+ Yard Fumble Return TD Bonus|50+ Yard Fumble Return touchdown Bonus|50 plus Yard Fumble Return TD Bonus|50 plus Yard Fumble Return touchdown Bonus,An individual-defender bonus credits a fumble-return touchdown covering at least 50 yards.,100

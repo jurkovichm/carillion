@@ -116,9 +116,9 @@ const root = path.join(__dirname, '..');
       assert.equal(await page.evaluate(() => used.size), 0);
       assert.equal(await page.evaluate(() => fishingLineInWater), false);
       assert.equal(await page.evaluate(() => roundState.record.catches.length), 0);
-      await page.evaluate(() => { Math.random = () => .1; });
+      await page.evaluate(() => { Math.random = () => 0; });
       await submit('Hennepin'); await land();
-      assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd'); // exact 10% boundary does not steal.
+      assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd'); // Even a forced theft roll cannot steal again on retry.
       assert.equal(await page.evaluate(() => score), 25);
       // High-point fish get the same 10% chance; the next attempt keeps the same question.
       const rareAnswer = await page.evaluate(async () => {

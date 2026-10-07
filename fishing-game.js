@@ -591,7 +591,8 @@ function stealFishWithLoon(fish) {
     fishingLineInWater = false;
     // Multi-cast keeps its other fish and duplicate protection while allowing this catch again.
     const record = roundState.record;
-    record.reason = null; record.timedOut = false; record.loonChecked = false;
+    // Keep the completed check so this question cannot suffer another theft on retry.
+    record.reason = null; record.timedOut = false;
     record.typed = record.catches.map(catchItem => catchItem.name).join(', ');
     record.matched = record.catches.at(-1)?.match || null;
     roundState.remainingMs = ROUND_MS;

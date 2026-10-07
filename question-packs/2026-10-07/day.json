@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-07",
+  "label": "7 Oct 2026",
+  "questions": [
+    {
+      "prompt": "Ways to score points in Sleeper Fantasy Football",
+      "csv": "01-sleeper-fantasy-football.csv",
+      "source": "https://support.sleeper.com/en/articles/3998131-what-scoring-options-are-available",
+      "sourceNote": "All scoring stats in the supplied support article, checked 7 Oct 2026, including usual penalties and configurable bonuses. Repeated event names across team defense, IDP and special-teams team/player credit share one catch; passing/rushing/receiving two-point conversions also share one catch. Named distance bands, positional bonuses and game milestones count separately. League commissioners choose actual fantasy values; Worth instead estimates recall among fantasy-football players, from everyday stats to obscure custom options. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota. Bare Pick 6/Pick six refers to QB Pick 6 (the passer penalty); explicitly defensive interception-return aliases belong to Defensive touchdown. Bare INT/Interception/Interceptions defaults to Interception thrown (Passing INT); defensive/IDP/DST interception answers require explicit role wording rather than generic shorthand."
+    },
+    {
+      "prompt": "Minor League Baseball Teams",
+      "csv": "02-minor-league-baseball-teams.csv",
+      "source": "https://en.wikipedia.org/wiki/List_of_Minor_League_Baseball_leagues_and_teams",
+      "sourceNote": "All distinct names in the linked team tables as accessed 7 Oct 2026: affiliated full-season and rookie clubs, Arizona Fall League, partner, draft and non-partner leagues, including the listed women's league. This is a source-list snapshot, including announced 2027 identities and alignments, not a claim every listed name already played in 2026. Duplicate DSL Rockies entries share one catch. Full names and unambiguous nicknames accepted; MLB parent-club names alone do not count. Rarity reflects baseball-aware general recall with familiar Minnesota clubs rated lower. Springfield/Wichita former names verified at https://www.milb.com/springfield/news/springfield-cardinals-rebrand-to-ozarks-springbirds and https://www.milb.com/wichita/news/the-wind-surge-to-officially-rebrand-as-the-turbo-tubs ; upcoming NAPB alignment corroborated at https://www.naprobaseball.com/ . The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota."
+    },
+    {
+      "prompt": "Bands of the Electromagnetic Spectrum",
+      "csv": "03-electromagnetic-spectrum.csv",
+      "source": "https://science.nasa.gov/ems/",
+      "sourceNote": "The seven conventional main bands, not visible colors, instrument channels or named sub-bands; microwaves are a separate catch in this convention. Membership and order: https://science.nasa.gov/asset/webb/the-electromagnetic-spectrum-ems/ ; applications and facts: NASA's linked spectrum tour. Familiarity scores for a general school-science audience; no forced high tiers. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota."
+    },
+    {
+      "prompt": "Idioms about something being obviously the case",
+      "csv": "04-obviousness-idioms.csv",
+      "source": "https://en.wiktionary.org/wiki/water_is_wet",
+      "sourceNote": "A non-exhaustive bank of English obvious-answer rhetorical questions, sarcastic reactions and idiomatic obviousness comparisons. Includes the supplied See also family, vulgar forms and older rare similes; spelling and ordinary grammatical variants share one catch. Basic words such as yes or obvious do not count. Additional families and meanings: https://en.wiktionary.org/wiki/is_the_sky_blue , https://en.wiktionary.org/wiki/Thesaurus:obvious , https://en.wiktionary.org/wiki/no_duh , https://en.wiktionary.org/wiki/plain_as_a_pikestaff , https://en.wiktionary.org/wiki/go_without_saying , https://en.wiktionary.org/wiki/needless_to_say and https://en.wiktionary.org/wiki/res_ipsa_loquitur . Rarity reflects contemporary general English recall; archaic similes score higher. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota."
+    },
+    {
+      "prompt": "English Verb Tenses",
+      "csv": "05-english-verb-tenses.csv",
+      "source": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-tense",
+      "sourceNote": "The conventional twelve classroom tense/aspect forms: present, past and will-future crossed with simple, continuous, perfect and perfect continuous. Linguistically English has two inflected tenses, so future here is the teaching convention. Progressive/continuous, simple word-order variants, preterite and pluperfect accepted where equivalent. Broad present/past/future labels and their tense variants map to the corresponding simple forms; moods, voices and going-to constructions are not separate catches. Past forms: https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-tense ; future forms: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/future-continuous-future-perfect and https://www.britishcouncil.org.mx/blog/future-perfect-continuous . Scores estimate recall of the form name, not how often its verbs occur. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota."
+    },
+    {
+      "prompt": "Sports supported by Strava",
+      "csv": "06-strava-sports.csv",
+      "source": "https://support.strava.com/en-us/articles/15402005-what-sport-types-does-strava-support",
+      "sourceNote": "Every named sport type in the supplied support article as accessed 7 Oct 2026, plus the three virtual types explicitly mentioned in its introduction. Virtual ride/run/rowing upload support does not imply direct mobile-app recording. Generic skiing is ambiguous among alpine, backcountry and Nordic; football means soccer here. Correct Elliptical spelling and the article's Eliptical spelling accepted. Scores estimate familiarity with Strava's activity menu among general recreational athletes, not physical difficulty. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota."
+    },
+    {
+      "prompt": "Wordle-type Games",
+      "csv": "07-wordle-type-games.csv",
+      "source": "https://dles.aukspot.com",
+      "sourceNote": "Broad daily-game scope requested: all 780 entries in the directory dataset retrieved 7 Oct 2026, including Connections-style games, crosswords, grids, logic and novelty games. This is the supplied directory's finite snapshot, not every daily game on the web; listing does not guarantee a site remains playable. Names, categories and gameplay facts checked against https://github.com/aukspot/dles and https://raw.githubusercontent.com/aukspot/dles/main/src/lib/data/dles.json (directory update dated 6 Oct 2026). Publisher prefixes may be omitted when unambiguous; domain-qualified names distinguish separate same-name variants. Generic franchise names alone do not count. Scores are editorial recall estimates for daily-puzzle players; established titles score lower and specialist variants higher, with no measured popularity claim. The ordinary rarity ladder is 10, 30, 60, 85, 100; 15 (QUIRKY) is reserved for familiar, deceptively obvious answers that feel clever or unexpected, with no quota."
+    }
+  ]
+}

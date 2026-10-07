@@ -30,7 +30,7 @@ Cumulus|Cumulus cloud,A cloud type with a puffy appearance.,10
 
 - **ANSWER:** Canonical answer first. Optional accepted aliases follow, separated by `|`. All aliases on a row earn just one catch. Do not put different scoring answers on the same row.
 - **Blurb:** Optional short fact shown after the catch and in the answer bank. Leave blank when no fact is available. Existing Carleton questions also retain their legacy fallback facts.
-- **Worth:** One of `10`, `15`, `30`, `60`, `85`, `100`. These are editorial rarity tiers, not measured answer frequencies. Higher means rarer.
+- **Worth:** One of `10`, `15`, `30`, `60`, `85`, `100`. The ordinary editorial rarity ladder is `10 → 30 → 60 → 85 → 100`: higher means rarer, without implying measured answer frequencies. Reserve `15` (**QUIRKY**) for a familiar, deceptively obvious answer that feels clever or unexpected but is not obscure. It is a special exception, not an intermediate rarity tier; use it sparingly with no quota.
 
 CSV means comma-separated columns, not pipe-separated columns. A spreadsheet handles commas, quotation marks, and line breaks inside cells automatically. Export as UTF-8 CSV. Capitalization, accents, and punctuation are normalized by the game's existing matching rules. Keep aliases unique within each question.
 
