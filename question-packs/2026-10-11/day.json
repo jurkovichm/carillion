@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-11",
+  "label": "11 Oct 2026",
+  "questions": [
+    {
+      "prompt": "Name an animal whose name starts with K",
+      "csv": "01-k-animals.csv",
+      "source": "https://krillionanswers.com/questions/name-an-animal-whose-name-starts-with-k/",
+      "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-an-animal-whose-name-starts-with-k/answers. Original source scores preserved exactly at the user’s request, including 15-point QUIRKY entries; no curated rescoring. Open category: all 39 recorded animals, including Kitten; this is the source bank, not an exhaustive zoological list. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported."
+    },
+    {
+      "prompt": "Name a country in Africa",
+      "csv": "02-african-countries.csv",
+      "source": "https://krillionanswers.com/questions/name-a-country-in-africa/",
+      "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-country-in-africa/answers. Original source scores preserved exactly at the user’s request, including 15-point QUIRKY entries; no curated rescoring. All 55 source entries, including disputed Western Sahara. Congo without qualification maps to Democratic Republic of the Congo (30), rather than Republic of the Congo (85). Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported."
+    },
+    {
+      "prompt": "Name a pasta shape",
+      "csv": "03-pasta-shapes.csv",
+      "source": "https://krillionanswers.com/questions/name-a-pasta-shape/",
+      "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-pasta-shape/answers. Original source scores preserved exactly at the user’s request, including 15-point QUIRKY entries; no curated rescoring. All 57 recorded shapes and pasta types, including source entries Couscous and Gnocchi; not an exhaustive catalogue. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported."
+    },
+    {
+      "prompt": "Name a Pixar feature film",
+      "csv": "04-pixar-films.csv",
+      "source": "https://krillionanswers.com/questions/name-a-pixar-feature-film/",
+      "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-pixar-feature-film/answers. Original source scores preserved exactly at the user’s request, including 15-point QUIRKY entries; no curated rescoring. All 31 recorded feature-film titles; historical archive membership retained. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported."
+    },
+    {
+      "prompt": "Name a letter of the Greek alphabet",
+      "csv": "05-greek-letters.csv",
+      "source": "https://krillionanswers.com/questions/name-a-letter-of-the-greek-alphabet/",
+      "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-17/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-letter-of-the-greek-alphabet/answers. Original source scores preserved exactly at the user’s request, including 15-point QUIRKY entries; no curated rescoring. All 29 source entries: the 24 standard letters plus historical San, Digamma, Koppa, Sampi and Stigma. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported."
+    },
+    {
+      "prompt": "Name a US state capital",
+      "csv": "06-us-state-capitals.csv",
+      "source": "https://krillionanswers.com/questions/name-a-us-state-capital/",
+      "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-17/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-us-state-capital/answers. Original source scores preserved exactly at the user’s request, including 15-point QUIRKY entries; no curated rescoring. All 50 state capitals; Washington DC excluded as it is not a state capital. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported."
+    },
+    {
+      "prompt": "Name an instrument found in a symphony orchestra",
+      "csv": "07-orchestra-instruments.csv",
+      "source": "https://krillionanswers.com/questions/name-an-instrument-found-in-a-symphony-orchestra/",
+      "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-an-instrument-found-in-a-symphony-orchestra/answers. Original source scores preserved exactly at the user’s request, including 15-point QUIRKY entries; no curated rescoring. All 51 recorded instruments, including specialist orchestral instruments and the general Drums entry. Broad clarinet, flute, trombone, tuba and oboe forms remain their basic instruments. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported."
+    }
+  ]
+}

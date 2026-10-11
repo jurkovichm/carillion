@@ -28230,6 +28230,2274 @@ window.DIVE_DAYS = [
         ]
       }
     ]
+  },
+  {
+    "id": "2026-10-11",
+    "label": "11 Oct 2026",
+    "questions": [
+      {
+        "prompt": "Name an animal whose name starts with K",
+        "source": "https://krillionanswers.com/questions/name-an-animal-whose-name-starts-with-k/",
+        "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-an-animal-whose-name-starts-with-k/answers. Original source scores preserved exactly at the user\u2019s request, including 15-point QUIRKY entries; no curated rescoring. Open category: all 39 recorded animals, including Kitten; this is the source bank, not an exhaustive zoological list. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "Kouprey"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kagu"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kakariki"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kangaroo rat"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kea"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kermode bear"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kiang"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Killdeer"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kinkajou"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kit fox"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Klipspringer"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Knifefish"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kob"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Koel"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kori bustard"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kowari"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Krait"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kultarr"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kunekune"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Katydid"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kestrel"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "King crab"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "King penguin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kingsnake"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kite"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kodiak bear"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kookaburra"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kudu"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Killer whale"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "King cobra"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kingfisher"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kitten"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kiwi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Koi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Komodo dragon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Kakapo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Krill"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Kangaroo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Koala"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a country in Africa",
+        "source": "https://krillionanswers.com/questions/name-a-country-in-africa/",
+        "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-country-in-africa/answers. Original source scores preserved exactly at the user\u2019s request, including 15-point QUIRKY entries; no curated rescoring. All 55 source entries, including disputed Western Sahara. Congo without qualification maps to Democratic Republic of the Congo (30), rather than Republic of the Congo (85). Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+              "Sao Tome"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Burundi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cabo Verde",
+              "Cape Verde"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Central African Republic"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Comoros"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Equatorial Guinea"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Eritrea"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Eswatini",
+              "Swaziland"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Guinea-Bissau"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lesotho"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mauritania"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mauritius"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Republic of the Congo",
+              "Congo Brazzaville"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Seychelles"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Western Sahara"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Angola"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Benin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Botswana"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Burkina Faso"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gabon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gambia",
+              "The Gambia"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Guinea"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ivory Coast",
+              "C\u00f4te d\u2019Ivoire"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Liberia"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Malawi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mozambique"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Namibia"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Niger"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sierra Leone"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "South Sudan"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Togo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zambia"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Algeria"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cameroon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Chad"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Democratic Republic of the Congo",
+              "DR Congo",
+              "DRC",
+              "Congo",
+              "Congo Kinshasa"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Djibouti"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ethiopia"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ghana"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Libya"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Madagascar"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mali"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Morocco"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rwanda"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Senegal"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Somalia"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sudan"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tanzania"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tunisia"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Uganda"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Zimbabwe"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Egypt"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Kenya"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Nigeria"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "South Africa"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a pasta shape",
+        "source": "https://krillionanswers.com/questions/name-a-pasta-shape/",
+        "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-pasta-shape/answers. Original source scores preserved exactly at the user\u2019s request, including 15-point QUIRKY entries; no curated rescoring. All 57 recorded shapes and pasta types, including source entries Couscous and Gnocchi; not an exhaustive catalogue. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "Su filindeu"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Acini di pepe"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Anelli"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bigoli"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Calamarata"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cappelletti"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Casarecce"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cavatelli"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fideo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fregola"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Garganelli"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lumache"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mafaldine"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Malloreddus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Paccheri"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pici"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Radiatori"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Spatzle",
+              "Spaetzle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stelline"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Strozzapreti"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tortiglioni"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Trenette"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Trofie"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Agnolotti"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Alphabet pasta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Campanelle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cannelloni"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cavatappi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ditalini"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gemelli"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Manicotti"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mostaccioli"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pappardelle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pastina"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rotelle",
+              "Wagon wheels"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tagliatelle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vermicelli"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Angel hair",
+              "Capellini"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Conchiglie",
+              "Shells"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Farfalle",
+              "Bow tie",
+              "Bow ties"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fettuccine",
+              "Fettucine"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fusilli"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gnocchi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lasagna",
+              "Lasagne"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Linguine"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Orzo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ravioli"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rigatoni"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rotini"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tortellini"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ziti"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Bucatini"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Couscous"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Orecchiette"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Macaroni"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Penne"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Spaghetti"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a Pixar feature film",
+        "source": "https://krillionanswers.com/questions/name-a-pixar-feature-film/",
+        "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-pixar-feature-film/answers. Original source scores preserved exactly at the user\u2019s request, including 15-point QUIRKY entries; no curated rescoring. All 31 recorded feature-film titles; historical archive membership retained. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "Elio"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cars 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Onward"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cars 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Elemental"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hoppers"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Incredibles 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lightyear"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Toy Story 4"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Toy Story 5"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Turning Red"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "A Bug's Life"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Brave"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cars"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Coco"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Finding Dory"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Inside Out 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Luca"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Monsters University"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ratatouille"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Soul"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Good Dinosaur"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Toy Story 2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Toy Story 3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "WALL-E",
+              "Walle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Finding Nemo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Inside Out"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Monsters, Inc."
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "The Incredibles",
+              "Incredibles"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Toy Story"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Up"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a letter of the Greek alphabet",
+        "source": "https://krillionanswers.com/questions/name-a-letter-of-the-greek-alphabet/",
+        "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-17/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-letter-of-the-greek-alphabet/answers. Original source scores preserved exactly at the user\u2019s request, including 15-point QUIRKY entries; no curated rescoring. All 29 source entries: the 24 standard letters plus historical San, Digamma, Koppa, Sampi and Stigma. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "San"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Digamma"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Koppa",
+              "Qoppa"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sampi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stigma"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Psi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Upsilon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Chi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Epsilon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Eta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Iota"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kappa"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lambda",
+              "Lamda"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mu"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nu"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Phi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rho"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sigma"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tau"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Theta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Xi"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Zeta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Omicron"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Alpha"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Beta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Delta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Gamma"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Omega"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Pi"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name a US state capital",
+        "source": "https://krillionanswers.com/questions/name-a-us-state-capital/",
+        "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-17/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-a-us-state-capital/answers. Original source scores preserved exactly at the user\u2019s request, including 15-point QUIRKY entries; no curated rescoring. All 50 state capitals; Washington DC excluded as it is not a state capital. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "Montpelier"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bismarck"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Carson City"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Concord"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dover"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Frankfort"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Helena"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jefferson City"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Topeka"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Annapolis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Augusta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Baton Rouge"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boise"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charleston"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cheyenne"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Columbia"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Des Moines"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Harrisburg"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hartford"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jackson"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Juneau"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lansing"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lincoln"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Little Rock"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Montgomery"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Oklahoma City"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Olympia"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Providence"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Salem"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Santa Fe"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "St. Paul"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Trenton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Atlanta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Columbus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Denver"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Honolulu"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Indianapolis"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Madison"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nashville"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Phoenix"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Raleigh"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Richmond"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Salt Lake City"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Springfield"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tallahassee"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Pierre"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Albany"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Austin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Boston"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Sacramento"
+            ],
+            "note": ""
+          }
+        ]
+      },
+      {
+        "prompt": "Name an instrument found in a symphony orchestra",
+        "source": "https://krillionanswers.com/questions/name-an-instrument-found-in-a-symphony-orchestra/",
+        "sourceNote": "Imported from https://krillionanswers.com/archive/2026-07-16/ on 11 Oct 2026. Complete recorded answer bank retrieved via https://krillionanswers.com/api/questions/name-an-instrument-found-in-a-symphony-orchestra/answers. Original source scores preserved exactly at the user\u2019s request, including 15-point QUIRKY entries; no curated rescoring. All 51 recorded instruments, including specialist orchestral instruments and the general Drums entry. Broad clarinet, flute, trombone, tuba and oboe forms remain their basic instruments. Common unambiguous aliases added without changing scores. Blurbs intentionally blank; source quips were not imported.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "Wagner tuba"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alto flute"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bass clarinet"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bass oboe"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bass trombone"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Basset horn"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Castanets"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Celesta"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Contrabass clarinet"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Contrabassoon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cornet"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Crotales"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "E-flat clarinet"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Euphonium"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Harpsichord"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mandolin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Oboe d'amore"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sleigh bells"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vibraphone"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wood block"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bass drum"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bassoon"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cymbals"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "English horn",
+              "Cor anglais"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Glockenspiel"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gong"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marimba"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Organ"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Piccolo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Saxophone"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Snare drum"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tambourine"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Timpani",
+              "Kettledrums",
+              "Kettle drums"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tubular bells",
+              "Chimes"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Xylophone"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cello"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Clarinet"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Double bass",
+              "Contrabass",
+              "Upright bass"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Drums"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "French horn",
+              "Horn"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Harp"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Oboe"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Piano"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Trombone"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tuba"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Viola"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Cowbell"
+            ],
+            "note": ""
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Triangle"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Flute"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Trumpet"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Violin"
+            ],
+            "note": ""
+          }
+        ]
+      }
+    ]
   }
 ];
 window.DIVE_QUESTIONS = window.DIVE_DAYS.at(-1).questions;
