@@ -103,7 +103,9 @@ const loonSpritesReady = new Promise((resolve, reject) => {
       const sprite = document.createElement('canvas'); sprite.width = 240; sprite.height = 160;
       sprite.getContext('2d').imageSmoothingEnabled = false;
       sprite.getContext('2d').drawImage(cell, 0, 0, 240, 160);
-      loonFrames.push({ sprite, beak: { x: ((count ? eyeX / count : fallback[0]) + 112) * 240 / width, y: (count ? eyeY / count : fallback[1]) * 160 / height } });
+      const beak = { x: ((count ? eyeX / count : fallback[0]) + 112) * 240 / width, y: (count ? eyeY / count : fallback[1]) * 160 / height };
+      // Grip at the middle of the bill, slightly below the eye; the bill tip is the flight anchor.
+      loonFrames.push({ sprite, beak, mouth: { x: beak.x - 10, y: beak.y + 3 } });
     }
     resolve();
   };
@@ -111,16 +113,61 @@ const loonSpritesReady = new Promise((resolve, reject) => {
 });
 loonSpritesReady.catch(() => {});
 loonAtlas.src = 'assets/loon-flight-atlas.png';
-function drawFlyingLoon(x, y, time, heading = -1) {
-  const frame = loonFrames[reducedFishingMotion || isQuickMode() ? 1 : Math.floor(time / 90) % 4];
+function drawHeldCatch(ctx, item, x, y, width, rotation) {
+  const sprite = item.kind === 'fish' ? fishSprites[item.points] : lootFrames[item.kind];
+  if (!sprite) return;
+  const height = width * sprite.height / sprite.width;
+  ctx.save(); ctx.translate(x, y); ctx.rotate(rotation); ctx.imageSmoothingEnabled = false;
+  // The bill grips the body (or bottle neck), rather than leaving a gap above it.
+  ctx.drawImage(sprite, -width * .5, -height * (item.kind === 'bottle' ? .18 : .45), width, height);
+  ctx.restore();
+}
+function loonGripPosition(frame, x, y, scale, heading = -1) {
+  return { x: x + (frame.mouth.x - frame.beak.x) * scale * heading,
+    y: y + (frame.mouth.y - frame.beak.y) * scale };
+}
+function drawLoonWithCatch(ctx, frame, x, y, scale, heading, item, time, catchWidth) {
   if (!frame) return;
-  const scale = 1.75;
-  paint.save(); paint.translate(x, y); paint.scale(heading, 1);
-  paint.imageSmoothingEnabled = false;
-  paint.drawImage(frame.sprite, -frame.beak.x * scale, -frame.beak.y * scale, frame.sprite.width * scale, frame.sprite.height * scale);
-  paint.restore();
+  if (item) {
+    const grip = loonGripPosition(frame, x, y, scale, heading);
+    const sway = reducedFishingMotion ? 0 : Math.sin(time / 180) * .065;
+    drawHeldCatch(ctx, item, grip.x, grip.y, catchWidth, (item.kind === 'fish' ? 1.12 : .12) + sway);
+  }
+  // Draw the bill over the catch so its jaws visibly overlap the grip point.
+  ctx.save(); ctx.translate(x, y); ctx.scale(heading * scale, scale); ctx.imageSmoothingEnabled = false;
+  ctx.drawImage(frame.sprite, -frame.beak.x, -frame.beak.y); ctx.restore();
+}
+function drawFlyingLoon(x, y, time, heading = -1, item = null) {
+  const frame = loonFrames[reducedFishingMotion || isQuickMode() ? 1 : Math.floor(time / 90) % 4];
+  const catchSprite = item && (item.kind === 'fish' ? fishSprites[item.points] : lootFrames[item.kind]);
+  const catchWidth = item?.kind === 'fish' ? (item.points >= 60 ? 65 : 45) * 2 * (1 + item.points / 180) * (innerWidth < 650 ? 1.6 : 1) : catchSprite ? (item.kind === 'skeleton' ? 90 : 100) * catchSprite.width / catchSprite.height : 80;
+  drawLoonWithCatch(paint, frame, x, y, 1.75, heading, item, time, catchWidth);
+}
+function drawExploringSwimmer(time, position) {
+  const frame = reducedFishingMotion || !position.walking ? 1 : Math.floor(time * 9) % 4;
+  const swimmer = typeof loonSwimmerFrames !== 'undefined' ? loonSwimmerFrames[selectedFisherman]?.[frame] : null;
+  const sprite = swimmer || characterFrames[0]?.[selectedFisherman];
+  if (!sprite) return;
+  const p = paint, height = 130, width = height * sprite.width / sprite.height;
+  const bob = reducedFishingMotion ? 0 : Math.sin(time * 6) * 2;
+  p.save();p.translate(position.x, position.y + bob);p.scale(position.facing || 1, 1);
+  // Clip at the actual waterline: the submerged half shares the river behind it.
+  p.save();p.beginPath();p.rect(-160,-150,320,150);p.clip();
+  if (!swimmer) p.rotate(Math.PI / 2);
+  p.drawImage(sprite,-width/2,-height*.53,width,height);p.restore();
+  p.fillStyle='#77cbbc';
+  for(let i=0;i<5;i++){
+    const ripple=reducedFishingMotion?0:Math.round(Math.sin(time*8+i)*2);
+    p.fillRect(-width*.5+i*width*.2, ripple, 12, 3);
+  }
+  if(position.walking){
+    p.fillStyle='#cbd1af';
+    for(let i=0;i<3;i++)p.fillRect(-width*.5-18-i*20,3+i%2*5,12,3);
+  }
+  p.restore();
 }
 function drawFisherman(time, tension = 0, pull = 0, resting = false, cast = null, position = { x: 950, y: 480 }) {
+  if (position.swimming) { drawExploringSwimmer(time, position); drawBridgeOverSwimmer(); return {x:position.x,y:position.y}; }
   const sprite = characterFrames[rewardStage]?.[selectedFisherman];
   // Pivot at planted feet: the angler leans back as the rod sweeps upward.
   const lean = cast ? cast.lean : reducedFishingMotion ? 0 : position.walking ? Math.sin(time * 12) * .02 : -tension * .045 - pull * .25 + Math.sin(time * 14) * .008 * tension;
@@ -136,7 +183,7 @@ function drawFisherman(time, tension = 0, pull = 0, resting = false, cast = null
   paint.translate(position.x, position.y);
   paint.scale(facing, 1);
   paint.rotate(lean);
-  if (resting) {
+  if (resting && !position.handsFree) {
     // A straight, unloaded rod rests across the shoulder behind the neck.
     // Drawing it before the sprite lets the shoulder and hand cover it naturally.
     paint.strokeStyle = '#d6b56d'; paint.lineWidth = 5;
@@ -145,7 +192,11 @@ function drawFisherman(time, tension = 0, pull = 0, resting = false, cast = null
     paint.beginPath(); paint.moveTo(58, -111); paint.lineTo(35, -120); paint.stroke();
   }
   paint.imageSmoothingEnabled = false;
-  if (position.walking && !reducedFishingMotion) {
+  if (position.seated) {
+    const torso = Math.round(sprite.height * .78);
+    const seatedHeight = actorHeight * .78;
+    paint.drawImage(sprite, 0, 0, sprite.width, torso, -actorWidth / 2, -seatedHeight, actorWidth, seatedHeight);
+  } else if (position.walking && !reducedFishingMotion) {
     const cut = Math.round(sprite.height * .76), legs = sprite.height - cut;
     const torsoHeight = actorHeight * cut / sprite.height;
     paint.drawImage(sprite, 0, 0, sprite.width, cut, -actorWidth / 2, -actorHeight, actorWidth, torsoHeight);
@@ -158,7 +209,9 @@ function drawFisherman(time, tension = 0, pull = 0, resting = false, cast = null
       paint.restore();
     }
   } else paint.drawImage(sprite, -actorWidth / 2, -actorHeight, actorWidth, actorHeight);
+  if (typeof drawAnglerSunglasses === 'function') drawAnglerSunglasses(actorWidth, position.seated ? actorHeight * .74 : actorHeight);
   paint.restore();
+  if (position.handsFree) return tip;
   // Redraw the traced timber layer using the same grid and origin as the world.
   // Transparent spaces leave the legs in front of the board backing.
   if (bridgeReady)

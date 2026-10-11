@@ -41,7 +41,7 @@ document.addEventListener('click', e => {
   }
 });
 modal.addEventListener('click', e => {
-  if (e.target.id === 'gotIt' || e.target.id === 'wardrobeDone')
+  if (e.target.id === 'wardrobeDone')
     close();
   if (e.target.id === 'toggleSound') {
     soundEnabled = !soundEnabled;

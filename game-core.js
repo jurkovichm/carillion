@@ -20,6 +20,7 @@ function saveSoundPreference() {
 }
 let soundEnabled = soundPreference(), audioCtx = null;
 function soundButton() {
+  if (typeof setLoonSoundEnabled === 'function') setLoonSoundEnabled(soundEnabled);
   const b = $('#soundBtn');
   b.textContent = soundEnabled ? '🔊' : '🔇';
   b.title = soundEnabled ? 'Sound on' : 'Sound off';

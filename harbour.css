@@ -1,0 +1,43 @@
+.wallet { position:absolute; top:max(14px,env(safe-area-inset-top)); left:14px; z-index:85; display:flex; gap:9px; align-items:center; padding:9px 12px; color:#efcd87; background:#102f29ed; border:2px solid #bc9155; box-shadow:0 4px #071e1e; pointer-events:none; font-family:monospace; }
+.playing .wallet { top:22px; left:14px; width:104px; height:62px; padding:7px; gap:6px; }
+.playing .wallet svg { width:22px; flex-shrink:0; }
+.playing .wallet b { font-size:15px; }
+.playing .wallet small { font-size:8px; }
+.playing .hud { left:126px; right:82px; width:auto; max-width:660px; transform:none; }
+.wallet svg { width:30px; height:26px; image-rendering:pixelated; }
+.wallet small { display:block; font-size:9px; letter-spacing:.12em; }
+.wallet b { display:block; font-size:18px; margin-top:3px; }
+.harbour-prompt,.harbour-caption button,.shoppe-panel button { min-height:44px; padding:12px 16px; font:14px monospace; color:#f5e8be; background:#163c31f2; border:2px solid #bc9155; cursor:pointer; box-shadow:0 3px #071e1e; }
+.harbour-prompt { position:absolute; z-index:91; bottom:110px; left:50%; transform:translateX(-50%); max-width:90%; }
+.harbour-caption { position:absolute; z-index:91; bottom:20px; left:50%; transform:translateX(-50%); width:min(90%,650px); padding:12px; text-align:center; color:#f5e8be; background:#102f29eb; border:2px solid #bc9155; font:14px/1.5 monospace; }
+.harbour-caption p { margin:0 0 8px; }
+#fishmongerTotal { color:#a6ef86; font-size:12px; }
+.shoppe-panel { position:absolute; z-index:91; bottom:max(14px,env(safe-area-inset-bottom)); left:50%; transform:translateX(-50%); width:min(94%,650px); box-sizing:border-box; max-height:49%; overflow:auto; padding:14px; background:#102f29f5; color:#f5e8be; border:2px solid #bc9155; font:13px/1.4 monospace; text-align:center; }
+.shoppe-panel h2 { font:22px monospace; margin:0 0 6px; }
+.shoppe-panel p { margin:6px 0 12px; }
+.shoppe-items { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin-bottom:10px; }
+.shoppe-items button { min-width:0; overflow-wrap:anywhere; }
+.shoppe-items b,.shoppe-items small { display:block; margin-top:6px; }
+.shoppe-items small { font-size:11px; line-height:1.4; color:#cbd1af; }
+.shoppe-panel button:disabled { opacity:.5; cursor:default; }
+.culvers { display:block; padding:4px; color:white; background:#0B5091; font:bold italic 18px Georgia,serif; }
+.harbour-active #home,.harbour-active .wordmark,.harbour-active .fishing-caption,.harbour-active .pregame-walk,.harbour-active .walk-menu,.harbour-active .schiller-companion { visibility:hidden!important; pointer-events:none; }
+.exploring.showing-summary .pregame-walk { display:flex!important; }
+.exploring.showing-summary .walk-menu { display:block!important; }
+.harbour-active.showing-summary .pregame-walk,.harbour-active.showing-summary .walk-menu { display:none!important; }
+#harbourSaveStatus { position:absolute; z-index:95; top:80px; left:14px; right:14px; color:#ffcf96; font:12px monospace; pointer-events:none; }
+#harbourSaveStatus:empty { display:none; }
+[hidden].harbour-prompt,[hidden].harbour-caption,[hidden].shoppe-panel { display:none; }
+@media(max-width:650px) { .wallet { padding:6px 8px; } .wallet b { font-size:15px; } .wallet svg { width:24px; } .playing .wallet { top:16px; left:8px; width:80px; height:48px; padding:5px; gap:4px; }
+.playing .wallet svg { width:16px; }
+.playing .wallet small { font-size:7px; }
+.playing .wallet b { font-size:13px; }
+.playing .hud { left:96px; right:50px; gap:4px; }
+.playing .hud-depth,.playing .hud-score { width:42px; padding:8px 5px; flex-shrink:0; }
+.playing .hud-progress #steps { gap:2px; } .shoppe-panel { padding:10px; } .shoppe-panel h2 { font-size:18px; } .shoppe-items { gap:5px; } .shoppe-items button { padding:8px 4px; font-size:12px; } .shoppe-items small { font-size:10px; } }
+@media(max-height:450px) { .shoppe-panel { left:auto; right:12px; transform:none; width:40%; max-height:75%; padding:10px; } .shoppe-panel h2 { font-size:17px; } .shoppe-items { gap:5px; } .shoppe-items button { padding:7px 3px; font-size:12px; } .shoppe-items small { font-size:10px; } .culvers { font-size:14px; } }
+
+.fishmonger-receipt { color:#a6ef86; font:13px/1.5 monospace; letter-spacing:0; }
+
+/* Keep the painted river free of screen-space scanline/phosphor grids. */
+body.harbour-active .crt-effect { display: none; }

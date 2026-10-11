@@ -12,19 +12,48 @@ function prepareBridgeForeground() {
   ctx.clearRect(0, 0, 320, 534);
   ctx.save();
   ctx.beginPath();
-  // Two rails: exclude the pale board rows immediately below each log.
+  // Trace every front rail, including both sloping approaches. Board decking
+  // stays behind the angler; only the near-side timber covers their legs.
+  const rail = points => {
+    ctx.moveTo(...points[0]);
+    for (const point of points.slice(1)) ctx.lineTo(...point);
+    ctx.closePath();
+  };
+  rail([[86,243],[123,231],[126,235],[87,248]]);
+  rail([[86,252],[123,240],[126,244],[87,257]]);
   ctx.rect(127, 233, 63, 5);
   ctx.rect(127, 241, 63, 4);
-  // Stepped caps and side shadows belong to the posts, not adjacent boards.
-  ctx.rect(148, 231, 5, 29);
-  ctx.rect(147, 233, 1, 27);
-  ctx.rect(121, 231, 5, 2);
-  ctx.rect(120, 233, 7, 27);
-  ctx.rect(191, 231, 5, 2);
-  ctx.rect(190, 233, 7, 27);
+  rail([[195,231],[241,246],[242,251],[194,236]]);
+  rail([[195,240],[241,255],[242,260],[194,245]]);
+  // Caps, posts, and their side shadows on the same native pixel grid.
+  ctx.rect(83, 242, 6, 27);
+  ctx.rect(120, 231, 7, 29);
+  ctx.rect(147, 231, 6, 29);
+  ctx.rect(190, 231, 7, 29);
+  ctx.rect(239, 245, 6, 26);
   ctx.clip();
   ctx.drawImage(bridgePixels, 0, 0);
   ctx.restore();
+}
+// All timber occludes swimmers on the lower river plane, while walkers use
+// only the existing near railing layer. Preserve holes between the actual rails.
+const bridgeWaterForeground = document.createElement('canvas');
+bridgeWaterForeground.width=320;bridgeWaterForeground.height=534;
+function prepareBridgeWaterForeground() {
+  const ctx=bridgeWaterForeground.getContext('2d');
+  ctx.clearRect(0,0,320,534);
+  ctx.drawImage(bridgePixels,0,0);
+  const frame=ctx.getImageData(0,0,320,534),d=frame.data;
+  for(let y=0;y<534;y++)for(let x=0;x<320;x++){
+    const i=(y*320+x)*4,r=d[i],g=d[i+1],b=d[i+2];
+    const timber=x>=82&&x<=246&&y>=211&&y<=272&&r>g*1.06&&g>b*1.1;
+    const deck=x>=122&&x<=196&&y>=232&&y<=258;
+    if(!timber&&!deck)d[i+3]=0;
+  }
+  ctx.putImageData(frame,0,0);
+}
+function drawBridgeOverSwimmer() {
+  if(bridgeReady)paint.drawImage(bridgeWaterForeground,0,-1107,2048,534*6.4);
 }
 let bridgeReady = false;
 const waterMask = document.createElement('canvas');
@@ -86,21 +115,10 @@ bridgeImage.onload = () => {
   catch (error) { /* file:// pages taint the canvas; keep the unquantized bridge. */
   }
   prepareBridgeForeground();
+  try { prepareBridgeWaterForeground(); } catch {}
   bridgeReady = true;
 };
 bridgeImage.src = 'assets/fishing-world-extended.png';
-const observatoryImage = new Image();
-const observatoryPixels = document.createElement('canvas');
-observatoryPixels.width = 96;
-observatoryPixels.height = 64;
-let observatoryReady = false;
-observatoryImage.onload = () => {
-  const ctx = observatoryPixels.getContext('2d');
-  ctx.imageSmoothingEnabled = false;
-  ctx.drawImage(observatoryImage, 0, 0, 96, 64);
-  observatoryReady = true;
-};
-observatoryImage.src = 'assets/observatory.png';
 // Matched back/front atlas layers let the wicker occlude the catch naturally.
 const basketAtlas = new Image();
 const basket = { x: 180, y: 480, width: 225, height: 225, mouthY: 467.5 };
@@ -258,7 +276,7 @@ function drawBasketCatches() {
   });
 }
 function loonTheftPose(now) {
-  const progress = Math.max(0, Math.min(1, (now - fishingLoon.startedAt) / fishingLoon.duration));
+  const progress = fishingLoon.pausedProgress ?? Math.max(0, Math.min(1, (now - fishingLoon.startedAt) / fishingLoon.duration));
   const target = fishingLoon.target;
   if (reducedFishingMotion || isQuickMode()) return { ...target, progress };
   if (progress < .42) {
@@ -317,34 +335,32 @@ function drawWaterCurrent(now) {
   ctx.drawImage(waterMask, 0, 0);
   ctx.globalCompositeOperation = 'source-over';
 }
-function animateScene(now) {
-  requestAnimationFrame(animateScene);
-  if (document.body.classList.contains('flappy-open')) return;
+function animateScene(now, detailedCapture = false) {
+  if (!detailedCapture) requestAnimationFrame(animateScene);
+  if (typeof isQuickMode !== 'function' || document.body.classList.contains('flappy-open')) return;
   const p = paint, w = fishingViewport.clientWidth, h = fishingViewport.clientHeight, t = reducedFishingMotion ? 0 : now / 1000, mobile = w < 650;
   p.setTransform(scene.width / w, 0, 0, scene.height / h, 0, 0);
   p.imageSmoothingEnabled = false;
   p.fillStyle = '#143f36';
   p.fillRect(0, 0, w, h);
+  if (typeof renderHarbourScene === 'function' && renderHarbourScene(now, w, h)) return;
   // Extended world uses the same horizontal grid; the bridge band begins 1107 units down.
   const worldWidth = 2048, worldHeight = worldWidth * 534 / 320, bridgeOffset = 1107;
   const scale = Math.max(w / worldWidth, h / worldHeight), iw = worldWidth * scale, ih = worldHeight * scale, ox = (w - iw) / 2;
   const worldY = Math.max(h - ih, Math.min(0, h * .44 - (bridgeOffset + 392) * scale));
   if (bridgeReady) {
-    p.drawImage(bridgePixels, ox, worldY, iw, ih);
-    drawWaterCurrent(now);
-    p.drawImage(waterFlowPixels, ox, worldY, iw, ih);
-  }
-  // Keep the hill landmark in view across aspect ratios and keyboard changes.
-  if (observatoryReady) {
-    const besideHUD = mobile && document.body.classList.contains('playing');
-    const width = Math.round(Math.min(w * (besideHUD ? .11 : .27), 220, h * .3));
-    p.drawImage(observatoryPixels, Math.round(w * (besideHUD ? .01 : .025)), Math.round(h * .016), width, Math.round(width * 2 / 3));
+    p.drawImage(themedScenery(detailedCapture ? bridgeImage : bridgePixels), ox, worldY, iw, ih);
+    if (!detailedCapture) {
+      drawWaterCurrent(now);
+      p.drawImage(waterFlowPixels, ox, worldY, iw, ih);
+    }
   }
   const oy = worldY + bridgeOffset * scale;
   fishingSceneView = { width: w, height: h, scale, ox, oy };
   p.save();
   p.translate(ox, oy);
   p.scale(scale, scale);
+  if (typeof drawDownstreamExtension === 'function') drawDownstreamExtension(now);
   const reeling = !!fishingCatch && !fishingCatch.revealed;
   const animated = !reducedFishingMotion && !isQuickMode();
   const cast = fishingCast && animated ? castingPose(now) : null;
@@ -371,7 +387,8 @@ function animateScene(now) {
     }
   }
   const resting = !document.body.classList.contains('playing') || (!fishingLineInWater && !fishingCast && !fishingCatch);
-  const rodTip = drawFisherman(t, tension, pull, resting, cast,
+  const anglerInFront = !document.body.classList.contains('playing') && pregameAngler.y > basket.y + basket.height * .45;
+  const rodTip = anglerInFront ? { x: 0, y: 0 } : drawFisherman(t, tension, pull, resting, cast,
     document.body.classList.contains('playing') ? undefined : pregameAngler);
   const bobX = cast ? cast.float.x : bite.x, bobY = cast ? cast.float.y : bite.y;
   const hookX = landing ? landing.x : bobX, hookY = landing ? landing.y : bobY;
@@ -447,12 +464,17 @@ function animateScene(now) {
   }
   // Airborne fish pass above the rim; the final drop disappears behind it.
   drawBasketLayer(true);
+  const actorAfterCanoe = anglerInFront && typeof DOCK_CANOE !== 'undefined' && pregameAngler.y > DOCK_CANOE.y;
+  if (anglerInFront && !actorAfterCanoe) drawFisherman(t, 0, 0, true, null, pregameAngler);
   if (fishingLoon) {
     const bird = loonTheftPose(now);
-    if (fishingLoon.stolen) drawCatchItem(fishingLoon.fish, bird.x + 8, bird.y + 24, -.35 + (animated ? Math.sin(now / 70) * .07 : 0));
-    drawFlyingLoon(bird.x, bird.y, now - fishingLoon.startedAt);
+    drawFlyingLoon(bird.x, bird.y, now - fishingLoon.startedAt, -1, fishingLoon.stolen ? fishingLoon.fish : null);
   }
+  if (typeof drawRiverShop === 'function') drawRiverShop(now);
+  if (typeof drawDockCanoe === 'function') drawDockCanoe(now);
+  if (actorAfterCanoe) drawFisherman(t, 0, 0, true, null, pregameAngler);
   p.restore();
+  if (typeof updateCanoePrompt === 'function') updateCanoePrompt();
 }
 ;
 updateFishingViewport();

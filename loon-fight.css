@@ -1,0 +1,27 @@
+.loon-overlay{position:fixed;inset:0;z-index:80;color:#f7f1d8;pointer-events:none}
+.loon-panel{position:absolute;left:50%;bottom:max(24px,env(safe-area-inset-bottom));transform:translateX(-50%);width:min(560px,calc(100% - 32px));padding:20px;background:#123b30ed;border:4px solid #819382;box-shadow:4px 4px 0 #11271b,-4px -4px 0 #11271b;text-align:center;pointer-events:auto}
+.loon-panel h2{margin:0 0 12px;color:#efcd87;font-size:clamp(20px,4vw,30px)}
+.loon-panel p{line-height:1.5;letter-spacing:.08em}.loon-buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:16px}
+.loon-overlay button{font:inherit;cursor:pointer;background:#e8c879;color:#233c2b;border:3px solid #efcd87;box-shadow:3px 3px 0 #49382d;padding:12px 18px;min-height:48px;font-weight:bold;pointer-events:auto;touch-action:manipulation}
+.loon-overlay button.secondary{background:#123b30;color:#f7f1d8;border-color:#819382}.loon-overlay button:focus-visible{outline:3px solid #fff;outline-offset:4px}
+.loon-overlay.chasing{pointer-events:auto;background:#073d40}
+.loon-overlay.chasing .loon-panel{inset:0;width:100%;height:100%;padding:0;transform:none;border:0;box-shadow:none;background:none;pointer-events:none}
+#loonCourse{position:absolute;inset:0;width:100%;height:100%;display:block;image-rendering:pixelated;touch-action:none;pointer-events:auto}
+.loon-overlay.chasing h2{position:absolute;top:max(22px,env(safe-area-inset-top));left:20px;right:20px;text-shadow:3px 3px #11271b;pointer-events:none}
+.loon-overlay.chasing #loonMessage{position:absolute;bottom:92px;left:16px;right:16px;text-shadow:2px 2px #11271b;font-size:clamp(11px,2vw,15px);pointer-events:none}
+.loon-overlay.chasing .loon-buttons{position:absolute;bottom:max(22px,env(safe-area-inset-bottom));left:16px;right:16px;pointer-events:none}
+body.loon-chase .crt-effect{position:fixed;z-index:90}
+.loon-overlay.result #loonMessage{bottom:110px;padding:14px;background:#11271bd9;border:2px solid #819382}
+@media(max-height:480px){.loon-panel{padding:12px;bottom:16px}.loon-panel p{margin:6px}.loon-overlay.chasing h2{top:12px;font-size:20px;text-align:left;right:auto}.loon-overlay.chasing #loonMessage{bottom:68px;font-size:11px}.loon-overlay.chasing .loon-buttons{bottom:12px}.loon-overlay button{padding:8px 14px;min-height:42px}}
+
+.loon-overlay .loon-sfx{position:absolute;top:max(18px,env(safe-area-inset-top));right:12px;padding:7px 9px;min-height:34px;font-size:10px;letter-spacing:.05em;pointer-events:auto}
+.loon-overlay.chasing h2{left:16px;right:86px;text-align:left}
+@media(max-height:480px){.loon-overlay .loon-sfx{top:12px}}
+
+.loon-overlay[data-phase="entering"] h2,.loon-overlay[data-phase="entering"] #loonMessage,.loon-overlay[data-phase="entering"] .loon-buttons,.loon-overlay[data-phase="entering"] .loon-sfx,.loon-overlay[data-phase="punch"] h2,.loon-overlay[data-phase="punch"] #loonMessage,.loon-overlay[data-phase="punch"] .loon-buttons{visibility:hidden}
+
+.loon-overlay .loon-pause { position:absolute; top:max(18px,env(safe-area-inset-top)); right:92px; min-height:34px; padding:7px 12px; font-size:12px; pointer-events:auto; }
+.loon-overlay.chasing h2 { right:146px; }
+.loon-overlay.paused #loonMessage,.loon-overlay.paused .loon-buttons,.loon-overlay.paused .loon-pause { visibility:visible; }
+.loon-overlay.paused #loonMessage { background:#11271bed; border:2px solid #819382; padding:12px; }
+@media(max-height:480px) { .loon-overlay .loon-pause { top:12px; } }

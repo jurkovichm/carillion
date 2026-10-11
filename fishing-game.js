@@ -33,9 +33,8 @@ function setQuickMode(on) {
 document.body.classList.toggle('quick-mode', quickMode);
 const roundState = { phase: 'home', remainingMs: ROUND_MS, deadline: 0, peakScore: 0, epoch: 0, record: null };
 let lastBottleFact = -1, assetFailure = false;
-let selectedDay = window.DIVE_DAYS.at(-1), selectedMode = 'single';
-let matchDay = selectedDay, matchMode = selectedMode;
-const modeLabel = () => matchMode === 'single' ? 'Single-cast' : 'Multi-cast';
+let selectedDay = window.DIVE_DAYS.at(-1);
+let matchDay = selectedDay;
 function postAnswerFact(index, item) {
   return matchDay.id === '2026-09-28' ? legacyAnswerFact(index, item) : item.note || questions[index].answerNote || '';
 }
@@ -50,6 +49,7 @@ function show(title, body) {
     pauseRoundClock();
   if (title === 'SETTINGS')
     body = body.replace('Catch sounds, bottle narration, and the post-game song.', 'Catch sounds and the post-game song.')
+      + themeSettingsMarkup()
       + `<div class="crt-setting"><label for="crtStrength">CRT effect <output id="crtValue" for="crtStrength">${crtStrength ? crtStrength + '%' : 'Off'}</output></label><input id="crtStrength" type="range" min="0" max="100" step="1" value="${crtStrength}" aria-valuetext="${crtStrength ? crtStrength + '%' : 'Off'}" aria-describedby="crtDescription"><div class="crt-range-labels"><span>Off</span><span>Strong</span></div><p id="crtDescription">Scanlines, phosphor texture, and soft screen edges.</p></div>`
       + `<p class="quick-setting"><label><input type="checkbox" id="quickMode"${quickMode ? ' checked' : ''}> Quick mode</label></p><p>Skips the catch pause and animations, for testing.</p>`;
   content.innerHTML = `<h2>${title}</h2>${body}`;
@@ -73,8 +73,8 @@ function stopSpeech() {
     window.speechSynthesis.cancel();
 }
 function installFishingUI() {
-  $('#home').insertAdjacentHTML('afterbegin', `<button class="choose-angler" id="chooseAngler" type="button"><canvas width="40" height="56" aria-hidden="true"></canvas><span>YOUR ANGLER<br><b id="selectedAnglerName"></b><small>Change character →</small></span></button>`);
-  $('#chooseAngler').insertAdjacentHTML('afterend', `<div class="pregame-settings"><label class="day-label" for="selectDay">Select Day</label><select id="selectDay">${[...window.DIVE_DAYS].reverse().map(day => `<option value="${day.id}">${day.label}</option>`).join('')}</select><fieldset class="cast-mode"><legend>Cast mode</legend><label><input type="radio" name="castMode" value="single" checked><span>Single-cast</span></label><label><input type="radio" name="castMode" value="multi"><span>Multi-cast</span></label></fieldset></div>`);
+  $('.controls-top').insertAdjacentHTML('beforeend', `<button class="angler-control" id="chooseAngler" type="button" aria-haspopup="dialog"><canvas width="40" height="56" aria-hidden="true"></canvas><span>ANGLER<small id="selectedAnglerName"></small></span></button>`);
+  $('#home').insertAdjacentHTML('afterbegin', `<div class="pregame-settings"><label class="day-label" for="selectDay">Select Day</label><select id="selectDay">${[...window.DIVE_DAYS].reverse().map(day => `<option value="${day.id}">${day.label}</option>`).join('')}</select></div>`);
   $('#selectDay').value = selectedDay.id;
   $('#selectDay').onchange = () => {
     if (roundState.phase === 'home') {
@@ -82,10 +82,6 @@ function installFishingUI() {
       $('#home .bottomrow>span').textContent = selectedDay.label;
     }
   };
-  document.querySelectorAll('[name="castMode"]').forEach(input => input.onchange = () => {
-    if (roundState.phase === 'home' && input.checked)
-      selectedMode = input.value;
-  });
   $('#home .bottomrow>span').textContent = selectedDay.label;
   $('#gameUI').insertAdjacentHTML('beforeend', `<div class="round-actions hidden" id="roundActions"><span id="roundCatchCount">0 fish this question</span><button id="giveUpBtn" type="button">Give Up</button></div><div class="last-catch hidden" id="lastCatch" role="status"></div><div class="reward-toast hidden" id="rewardToast" role="status"></div>`);
   $('#game').insertAdjacentHTML('beforeend', `<section class="character-picker hidden" id="characterPicker" role="dialog" aria-modal="true" aria-labelledby="pickerTitle"><div class="character-picker-panel"><button class="close" id="closePicker" aria-label="Close character selection">×</button><small class="picker-eyebrow">A QUIET RIVER. YOUR OWN STORY.</small><h2 id="pickerTitle">Choose your angler</h2><p>Same game. Three ways to fish.</p><div class="character-grid">${fishermanChoices.map((c, i) => `<button class="character-choice" type="button" data-character="${i}" aria-pressed="false"><canvas width="64" height="80" aria-hidden="true"></canvas><strong>${c.name}</strong><span>${c.description}</span></button>`).join('')}</div><div class="wardrobe-preview"><canvas id="wardrobePreview" width="120" height="70" aria-hidden="true"></canvas><span>Earn your graduation gear<br><small>200 · cap &nbsp; 300 · gown &nbsp; 350 · ribbons</small></span></div><button class="picker-confirm" id="confirmCharacter">FISH AS STUDENT →</button><p class="asset-status" id="assetStatus" role="status">Loading your anglers…</p></div></section>`);
@@ -112,7 +108,6 @@ function installFishingUI() {
     clearInputHint();
     $('#lastCatch').classList.add('hidden');
   };
-  $('#howBtn').onclick = () => show('HOW TO FISH', `<p>Seven questions, 25 seconds per question. Single-cast ends each question on your first correct answer; your result stays until Next Cast. Multi-cast lets you keep catching different answers until time runs out.</p><p>Wrong answers clear so you can try again. Spelling suggestions ask you to confirm. The clock pauses during a catch; rarity and points stay secret until the fish breaks the surface.</p><p>Ending with no fish catches a boot or skeleton for −5 points. Give Up on an empty round has a 10% chance of a zero-point bottle with a Carleton fact. Once you have caught a fish, ending the question carries no penalty.</p><p>Earn a cap at 200, a gown at 300, and ribbons at 350 points. Earned gear stays until the next game.</p><button class="action" id="gotIt">LET’S FISH</button>`);
   $('#summaryScreen').setAttribute('aria-label', 'Fishing summary');
   $('#gameUI').removeAttribute('aria-live');
   $('#answerResult').setAttribute('role', 'status');
@@ -127,7 +122,7 @@ function installFishingUI() {
   }).catch(error => {
     assetFailure = true;
     $('#assetStatus').textContent = error.message + ' Reload to try again.';
-    $('#confirmCharacter').disabled = true;
+    $('#begin').disabled = true;
   });
 }
 function drawPreview(canvas, stage, index) {
@@ -167,6 +162,8 @@ function selectFisherman(index) {
 function openCharacterPicker() {
   if (roundState.phase !== 'home')
     return;
+  if(document.body.classList.contains('harbour-active')) return;
+  stopPregameWalk();
   $('#characterPicker').classList.remove('hidden');
   document.querySelector(`.character-choice[data-character="${selectedFisherman}"]`).focus();
 }
@@ -176,7 +173,7 @@ function closeCharacterPicker() {
 }
 // Keep Escape and keyboard focus within the character picker.
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') {
+  if (e.key === 'Escape' && (!$('#characterPicker').classList.contains('hidden') || modal.classList.contains('open'))) {
     e.stopImmediatePropagation();
     if (!$('#characterPicker').classList.contains('hidden'))
       closeCharacterPicker();
@@ -196,6 +193,7 @@ document.addEventListener('keydown', e => {
   }
 }, true);
 function clearFishingTimers() {
+  cancelLoonFight();
   fishingCast = null;
   fishingLoon = null;
   clearInterval(timer);
@@ -286,14 +284,14 @@ async function begin() {
   catch {
     assetFailure = true;
     roundState.phase = 'home';
-    openCharacterPicker();
+    $('#assetStatus').textContent = 'Could not load the game art. Reload to try again.';
     $('#begin').disabled = false;
     return;
   }
   if (assetFailure)
     return;
+  if (typeof newHarbourGame === 'function') newHarbourGame();
   matchDay = selectedDay;
-  matchMode = selectedMode;
   questions = matchDay.questions;
   roundState.epoch++;
   clearFishingTimers();
@@ -336,7 +334,7 @@ function next() {
   roundState.record = { question: questions[round].prompt, typed: '', points: 0, meters: 0, depthAfter: depthScore, timedOut: false, matched: null, catches: [], loot: null, reason: null };
   roundLog[round] = roundState.record;
   $('#promptText').textContent = questions[round].prompt;
-  $('.rarity').textContent = matchMode === 'single' ? 'Single-cast · Rarity reveals at the surface.' : 'Multi-cast · Rarity reveals at the surface.';
+  $('.rarity').textContent = 'Rarity reveals at the surface.';
   $('#lastCatch').classList.add('hidden');
   clearInputHint();
   showQuestionInput();
@@ -352,7 +350,9 @@ function submitFishingAnswer(event) {
   if (!clean)
     return;
   const q = questions[round];
-  const exact = q.answers.some(answer => answer.forms.some(form => normalizeAnswer(form) === clean));
+  const matched = q.answers.find(answer => answer.forms.some(form => normalizeAnswer(form) === clean));
+  const exact = !!matched;
+  if (matched && rejectUsedFishingAnswer(matched)) return;
   if (!exact) {
     const candidate = softCandidate(q, clean);
     if (candidate) {
@@ -361,6 +361,15 @@ function submitFishingAnswer(event) {
     }
   }
   castFishingLine(() => resolveFishingGuess(typed));
+}
+function rejectUsedFishingAnswer(match) {
+  const identity = normalizeAnswer(match.forms[0]);
+  if (!used.has(identity)) return false;
+  showQuestionInput();
+  $('#inputFeedback').textContent = roundState.record.stolenAnswers?.has(identity) ? 'The loon stole that answer — try a different one.' : 'Already caught — try a different answer.';
+  $('#inputFeedback').classList.remove('hidden');
+  $('#softFill').classList.add('hidden');
+  return true;
 }
 function castFishingLine(onLanded, message = 'Casting your guess…') {
   const delay = castingDelay();
@@ -401,19 +410,11 @@ function resolveFishingGuess(typed) {
     return;
   }
   const identity = normalizeAnswer(match.forms[0]);
-  if (used.has(identity)) {
-    showQuestionInput();
-    $('#inputFeedback').textContent = 'Already caught — try a different answer.';
-    $('#inputFeedback').classList.remove('hidden');
-    $('#softFill').classList.add('hidden');
-    $('#answerInput').value = '';
-    return;
-  }
+  if (rejectUsedFishingAnswer(match)) return;
   used.add(identity);
   pauseRoundClock();
-  if (matchMode === 'single')
-    roundState.record.reason = 'caught';
-  reelCatch({ kind: 'fish', points: match.points, name: match.forms[0], match, typed }, matchMode === 'single');
+  roundState.record.reason = 'caught';
+  reelCatch({ kind: 'fish', points: match.points, name: match.forms[0], match, typed });
 }
 function unlockRewards() {
   roundState.peakScore = Math.max(roundState.peakScore, score);
@@ -448,11 +449,11 @@ function finishQuestion(reason) {
   const kind = bottle ? 'bottle' : Math.random() < .5 ? 'boot' : 'skeleton';
   const loot = { kind, points: bottle ? 0 : -5, name: kind === 'boot' ? 'An old boot' : kind === 'skeleton' ? 'A skeleton fish' : 'A message in a bottle', fact: bottle ? chooseBottleFact() : null };
   if (reason === 'giveup')
-    castFishingLine(() => reelCatch(loot, true), 'One last cast…');
+    castFishingLine(() => reelCatch(loot), 'One last cast…');
   else
-    reelCatch(loot, true);
+    reelCatch(loot);
 }
-function reelCatch(item, endsQuestion) {
+function reelCatch(item) {
   fishingLineInWater = true;
   roundState.phase = 'reeling';
   clearInputHint();
@@ -515,18 +516,7 @@ function reelCatch(item, endsQuestion) {
         caughtFish.push(item);
       fishingCatch = null;
       updateFishingHUD();
-      if (endsQuestion) {
-        completeQuestion(true);
-        return;
-      }
-      if (used.size === questions[round].answers.length) {
-        roundState.record.reason = 'all-caught';
-        completeQuestion();
-        return;
-      }
-      $('#lastCatch').textContent = item.name + ' · ' + scoreTiers[item.points] + ' · +' + item.points;
-      $('#lastCatch').classList.remove('hidden');
-      showQuestionInput();
+      completeQuestion(true);
     }, quickMode ? 0 : CATCH_FLIGHT_MS + CATCH_SETTLE_MS);
   }, revealDelay);
 }
@@ -535,7 +525,7 @@ function completeQuestion(keepResult = false) {
   const record = roundState.record;
   // Give Up's consolation catch is eligible too, even before the first fish.
   const fish = record.catches.at(-1) || (record.reason === 'giveup' ? record.loot : null);
-  if (!record.loonChecked && fish && shoreCatches.includes(fish)) {
+  if (round === 6 && !record.loonChecked && fish && shoreCatches.includes(fish)) {
     record.loonChecked = true;
     if (Math.random() < LOON_THEFT_CHANCE) { stealFishWithLoon(fish); return; }
   }
@@ -553,18 +543,25 @@ function completeQuestion(keepResult = false) {
     $('#answerNote').textContent = record.reason === 'timeout' ? 'Time’s up. Your catch is safe.' : 'Your catch is safe. On to the next spot.';
   }
   $('#answerResult').classList.remove('hidden');
-  $('#descendBtn').textContent = matchMode === 'single' ? 'Next Cast' : round === questions.length - 1 ? 'REVIEW THE CATCH →' : 'NEXT QUESTION →';
+  $('#descendBtn').textContent = 'Next Cast';
   $('#descendBtn').classList.remove('hidden');
   $('#descendBtn').focus({ preventScroll: true });
   document.querySelectorAll('#steps i')[round]?.classList.add('done');
 }
 function stealFishWithLoon(fish) {
+  pauseRoundClock();
   roundState.phase = 'loon';
   clearInputHint();
   for (const selector of ['#answer-dock', '#roundActions', '.prompt-card', '#answerResult', '#lastCatch', '#descendBtn']) $(selector).classList.add('hidden');
-  $('#descendNote').textContent = 'A loon has its eye on your catch… · clock paused';
-  $('#descendNote').classList.remove('hidden');
-  const pos = shoreCatchPosition(shoreCatches.indexOf(fish));
+  letLoonSteal(fish);
+}
+function letLoonSteal(fish) {
+  roundState.phase = 'loon';
+  $('#descendNote').classList.add('hidden');
+  if (soundEnabled) soundContext();
+  loonSound('call');
+  const shoreIndex = shoreCatches.indexOf(fish);
+  const pos = shoreCatchPosition(shoreIndex);
   const view = fishingSceneView;
   const left = view ? -view.ox / view.scale : 0, right = view ? (view.width - view.ox) / view.scale : 2048;
   const duration = quickMode ? 1 : reducedFishingMotion ? 700 : 2800;
@@ -572,34 +569,46 @@ function stealFishWithLoon(fish) {
     target: { x: pos.x - 8, y: pos.y - 24 }, entry: { x: right + 420, y: pos.y - 460 }, exit: { x: left - 420, y: pos.y - 320 } };
   later(() => {
     fishingLoon.stolen = true;
-    for (const list of [shoreCatches, caughtFish, roundState.record.catches]) {
-      const index = list.indexOf(fish); if (index >= 0) list.splice(index, 1);
-    }
-    if (roundState.record.loot === fish) roundState.record.loot = null;
-    score -= fish.points; depthScore = score * 10;
-    roundState.record.points -= fish.points;
-    roundState.record.meters = roundState.record.points * 10;
-    roundState.record.depthAfter = depthScore;
-    used.delete(normalizeAnswer(fish.name));
-    updateFishingHUD();
-    $('#descendNote').textContent = 'The loon stole your catch! Same question, another try.';
-    fx('miss');
+    fishingLoon.pausedProgress = .42;
+    if (shoreIndex >= 0) shoreCatches.splice(shoreIndex, 1);
+    roundState.phase = 'loonChoice';
+    offerLoonFight(fish, shoreIndex);
   }, quickMode || reducedFishingMotion ? 0 : duration * .42);
-  later(() => {
-    fishingLoon = null;
-    clearFishingTimers();
-    fishingLineInWater = false;
-    // Multi-cast keeps its other fish and duplicate protection while allowing this catch again.
-    const record = roundState.record;
-    // Keep the completed check so this question cannot suffer another theft on retry.
-    record.reason = null; record.timedOut = false;
-    record.typed = record.catches.map(catchItem => catchItem.name).join(', ');
-    record.matched = record.catches.at(-1)?.match || null;
-    roundState.remainingMs = ROUND_MS;
-    showQuestionInput();
-    $('#inputFeedback').textContent = 'A loon took your catch! You get another try.';
-    $('#inputFeedback').classList.remove('hidden');
-  }, duration);
+}
+function declineLoonFight(fish) {
+  cancelLoonFight();
+  removeLoonCatch(fish);
+  fx('miss');
+  roundState.phase = 'loon';
+  fishingLoon.startedAt = performance.now() - fishingLoon.duration * .42;
+  delete fishingLoon.pausedProgress;
+  later(resumeAfterLoonTheft, quickMode ? 1 : reducedFishingMotion ? 100 : fishingLoon.duration * .58);
+}
+function removeLoonCatch(fish) {
+  for (const list of [shoreCatches, caughtFish, roundState.record.catches]) {
+    const index = list.indexOf(fish); if (index >= 0) list.splice(index, 1);
+  }
+  if (roundState.record.loot === fish) roundState.record.loot = null;
+  score -= fish.points; depthScore = score * 10;
+  roundState.record.points -= fish.points;
+  roundState.record.meters = roundState.record.points * 10;
+  roundState.record.depthAfter = depthScore;
+  if (fish.kind === 'fish') (roundState.record.stolenAnswers ||= new Set()).add(normalizeAnswer(fish.name));
+  updateFishingHUD();
+}
+function resumeAfterLoonTheft() {
+  fishingLoon = null;
+  clearFishingTimers();
+  fishingLineInWater = false;
+  const record = roundState.record;
+  // Keep the completed check so this question cannot suffer another theft on retry.
+  record.reason = null; record.timedOut = false;
+  record.typed = record.catches.map(catchItem => catchItem.name).join(', ');
+  record.matched = record.catches.at(-1)?.match || null;
+  roundState.remainingMs = ROUND_MS;
+  showQuestionInput();
+  $('#inputFeedback').textContent = 'A loon took your catch! Try a different answer; the stolen answer is unavailable.';
+  $('#inputFeedback').classList.remove('hidden');
 }
 function descendNext() {
   if (roundState.phase !== 'roundEnd')
@@ -615,7 +624,7 @@ function catchShareText() {
     const best = catches.reduce((top, c) => !top || c.points > top.points ? c : top, null);
     const emoji = best ? (rarityEmoji[best.points] || '🐟') : '';
     const empty = ({ boot: '🥾', skeleton: '🦴', bottle: '🍾' })[record?.loot?.kind] || '➖';
-    return emoji || empty;
+    return record?.reason === 'loon-loss' ? '💀' : emoji || empty;
   });
   const date = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(matchDay.id + 'T00:00:00Z')).replace('Sept', 'Sep');
   return `Carillion ${date}\n${rounds.join('')}\n${score} pts`;
@@ -670,6 +679,10 @@ async function copyCatchSummary() {
   }
 }
 function showSummary() {
+  if (typeof startFishmonger === 'function' && startFishmonger()) return;
+  finishSummary();
+}
+function finishSummary() {
   clearFishingTimers();
   stopSpeech();
   roundState.phase = 'summary';
@@ -683,11 +696,11 @@ function showSummary() {
   $('#shareStatus').textContent = '';
   $('#sharePreview').value = '';
   $('#sharePreview').classList.add('hidden');
-  $('#summaryDive').textContent = matchDay.label + ' · ' + modeLabel();
+  $('#summaryDive').textContent = matchDay.label;
   $('#summaryDepth').textContent = `${caughtFish.length} FISH · ${fishermanChoices[selectedFisherman].name.toUpperCase()}`;
-  const maximum = questions.reduce((sum, q) => sum + (matchMode === 'single' ? Math.max(...q.answers.map(a => a.points)) : q.answers.reduce((n, a) => n + a.points, 0)), 0);
+  const maximum = questions.reduce((sum, q) => sum + Math.max(...q.answers.map(a => a.points)), 0);
   const percentage = Math.max(0, Math.min(100, score / maximum * 100));
-  $('.score-position small').textContent = matchMode === 'single' ? 'YOUR SHARE OF POSSIBLE SINGLE-CAST POINTS' : 'YOUR SHARE OF ALL CURATED ANSWER POINTS';
+  $('.score-position small').textContent = 'YOUR SHARE OF POSSIBLE POINTS';
   $('#scoreTrackFill').style.width = percentage + '%';
   $('#scorePositionText').textContent = `${score} points · ${caughtFish.length} unique answers caught`;
   $('#summaryScreen .summary-head').querySelector('.earned-gear')?.remove();
@@ -695,19 +708,24 @@ function showSummary() {
   gear.className = 'earned-gear';
   gear.textContent = rewardStage ? ['', 'Graduation cap earned', 'Cap + gown earned', 'Cap + gown + distinction ribbons earned'][rewardStage] : 'Next milestone: graduation cap at 200 points';
   $('#summaryDepth').after(gear);
+  if (typeof renderHarbourReceipt === 'function') renderHarbourReceipt(gear);
   $('#catchList').querySelectorAll('.catch-row').forEach((detail, i) => {
     const record = roundLog[i];
     if (!record)
       return;
+    const lostToLoon = record.reason === 'loon-loss';
     const many = record.catches.length > 1;
     detail.querySelector('.catch-answer').innerHTML = record.catches.length
       ? record.catches.map(c => `<span class="answer-chip" data-rank="${rankClass(c.points)}">${escapeHTML(c.name)}${many ? ` <b>${signedPoints(c.points)}</b>` : ''}</span>`).join('')
       : '<span class="answer-none">No answer</span>';
+    if (lostToLoon) detail.querySelector('.catch-answer').insertAdjacentHTML('afterbegin', '<span class="answer-chip" data-rank="rank-miss" aria-label="Lost loon fight">💀</span>');
     const points = detail.querySelector('.catch-points');
     points.textContent = signedPoints(record.points);
     // One catch: color the total by its rarity. Several: the total is a sum, so keep it neutral.
     const lootRank = record.loot ? (record.loot.points < 0 ? 'rank-miss' : 'rank-bottle') : '';
-    if (record.catches.length === 1)
+    if (lostToLoon)
+      points.dataset.rank = 'rank-miss';
+    else if (record.catches.length === 1)
       points.dataset.rank = rankClass(record.catches[0].points);
     else if (!record.catches.length && lootRank)
       points.dataset.rank = lootRank;
@@ -716,6 +734,7 @@ function showSummary() {
     const list = document.createElement('div');
     list.className = 'round-catches';
     list.innerHTML = '<h3>YOUR CATCH</h3>' + record.catches.map(c => `<div data-rank="${rankClass(c.points)}"><span>${escapeHTML(c.name)}</span><b>${signedPoints(c.points)}</b></div>`).join('');
+    if (lostToLoon) list.innerHTML += '<div data-rank="rank-miss"><span>💀 Lost loon fight</span><b>−30</b></div>';
     if (record.loot) {
       list.innerHTML += `<div data-rank="${lootRank}"><span>${escapeHTML(record.loot.name)}</span><b>${signedPoints(record.loot.points)}</b></div>`;
       if (record.loot.fact)
@@ -729,6 +748,7 @@ function showSummary() {
   });
 }
 function returnToRiver() {
+  if (typeof cancelHarbourVisit === 'function') cancelHarbourVisit();
   if (typeof resetPregameWalk === 'function') resetPregameWalk();
   fishingLineInWater = false;
   roundState.epoch++;

@@ -24,7 +24,7 @@ let pregameLastFrame = null;
 let flightInert = [];
 
 function canWalkPregame() {
-  return roundState.phase === 'home' && flightState.phase === 'closed' && !document.hidden
+  return (roundState.phase === 'home' || roundState.phase === 'summary' && document.body.classList.contains('exploring')) && !document.body.classList.contains('harbour-active') && flightState.phase === 'closed' && !document.hidden
     && !modal.classList.contains('open') && $('#characterPicker').classList.contains('hidden')
     && !!characterFrames[0]?.[selectedFisherman] && !!fishingSceneView;
 }
@@ -39,7 +39,7 @@ function stopPregameWalk() {
 }
 function resetPregameWalk() {
   stopPregameWalk();
-  Object.assign(pregameAngler, { x: 950, y: 480, facing: 1, walking: false });
+  Object.assign(pregameAngler, { x: 950, y: 480, facing: 1, walking: false, swimming: false });
   document.body.classList.remove('exploring');
 }
 function moveWalkStick(event) {
@@ -69,9 +69,53 @@ for (const type of ['pointerup', 'pointercancel', 'lostpointercapture'])
 $('#walkMenu').onclick = () => {
   stopPregameWalk();
   document.body.classList.remove('exploring');
-  $('#begin').focus();
+  if (roundState.phase === 'summary') $('#summaryScreen').classList.remove('hidden');
+  else $('#begin').focus();
 };
 
+// Continuous banks taper into the bridge corridor. Collision rejects movement;
+// it never relocates the angler to a different part of the path.
+function walkDeckAt(x) { return 480 + Math.max(0, Math.abs(x - 1024) - 380) * .42; }
+function walkBridgeBlend(x) {
+  const t = Math.max(0, Math.min(1, (x < 1024 ? x - 380 : 1740 - x) / 160));
+  return t * t * (3 - 2 * t);
+}
+function isPregameWater(x, y) {
+  // Use the same shoreline coordinates as the animated river texture.
+  if (y < -180) return false;
+  const harbourWater=typeof harbourWaterAt==='function'?harbourWaterAt(x,y):null;
+  if(harbourWater!==null)return harbourWater;
+  const channel = waterChannelAt((y + 1107) / 6.4);
+  return x > channel.left * 6.4 && x < channel.right * 6.4;
+}
+function canStandPregame(x, y, minX, obstacle, maxY = 2310, waterPlane = false) {
+  if (x < minX || y < (waterPlane ? -180 : 320) || y > maxY || y > 900 && x > 2003) return false;
+  const deck = walkDeckAt(x);
+  // Solid bridge rails; reach the water via either bank, rather than fall
+  // through the deck. The banks themselves open directly into the river.
+  if (!waterPlane && walkBridgeBlend(x) === 1 && (y > deck + 32 && y < deck + 85 || y < deck - 32 && y > deck - 85)) return false;
+  // A swimmer cannot climb sideways into the bridge abutments or onto its deck.
+  if (waterPlane && !isPregameWater(x,y) && walkBridgeBlend(x)>0 && Math.abs(y-deck)<100) return false;
+  return !obstacle || x <= obstacle.x - obstacle.width * .42 - 24 || x >= obstacle.x + obstacle.width * .42 + 24
+    || y <= obstacle.y + obstacle.height * .28 - 12 || y >= obstacle.y + obstacle.height * .45 + 12;
+}
+function movePregameAngler(position, dx, dy, minX, obstacle, maxY = 2310) {
+  const steps = Math.max(1, Math.ceil(Math.hypot(dx, dy) / 3));
+  for (let i = 0; i < steps; i++) {
+    const nx = position.x + dx / steps;
+    const onDeck = !position.swimming && Math.abs(position.y-walkDeckAt(position.x))<=36 && walkBridgeBlend(position.x)>0;
+    const carry = (walkDeckAt(nx) - walkDeckAt(position.x)) * (!position.swimming && Math.abs(position.y - walkDeckAt(position.x)) <= 36 && (walkBridgeBlend(nx) > 0 || walkBridgeBlend(position.x) > 0) ? 1 : 0);
+    const ny = position.y + dy / steps + carry;
+    const waterPlane=!!position.swimming || !onDeck && isPregameWater(nx,ny);
+    if (canStandPregame(nx, ny, minX, obstacle, maxY, waterPlane)) { position.x = nx; position.y = ny; }
+    else {
+      // Slide along obstacles instead of snapping through them at a corner.
+      if (canStandPregame(nx, position.y + carry, minX, obstacle, maxY, waterPlane)) { position.x = nx; position.y += carry; }
+      if (canStandPregame(position.x, position.y + dy / steps, minX, obstacle, maxY, waterPlane)) position.y += dy / steps;
+    }
+    position.swimming = !onDeck && isPregameWater(position.x, position.y);
+  }
+}
 function walkPregame(dt) {
   if (!canWalkPregame()) { stopPregameWalk(); return; }
   let x = walkInput.x, y = walkInput.y;
@@ -80,21 +124,14 @@ function walkPregame(dt) {
     y = Number(walkInput.keys.has('ArrowDown') || walkInput.keys.has('s')) - Number(walkInput.keys.has('ArrowUp') || walkInput.keys.has('w'));
     const length = Math.hypot(x, y) || 1; x /= length; y /= length;
   }
-  pregameAngler.walking = Math.hypot(x, y) > .01;
-  if (!pregameAngler.walking) return;
-  const view = fishingSceneView;
-  const step = 95 * dt / view.scale;
-  // Follow the sloping deck onto either bank; vertical movement stays on land.
-  const deckAt = x => 480 + Math.max(0, Math.abs(x - 1024) - 380) * .42;
-  const previousDeck = deckAt(pregameAngler.x);
-  pregameAngler.x = Math.max(-view.ox / view.scale + 80, pregameAngler.x + x * step);
-  const deck = deckAt(pregameAngler.x);
-  pregameAngler.y += deck - previousDeck + y * step;
-  const onBridge = pregameAngler.x >= 380 && pregameAngler.x <= 1740;
-  pregameAngler.y = Math.max(onBridge ? deck - 32 : 320, Math.min(onBridge ? deck + 32 : 900, pregameAngler.y));
+  const view = fishingSceneView, step = (pregameAngler.swimming ? 72 : 95) * dt / view.scale;
+  const previousX = pregameAngler.x, previousY = pregameAngler.y;
+  movePregameAngler(pregameAngler, x * step, y * step, -view.ox / view.scale + 80, basket, Math.max(900, (view.height - view.oy) / view.scale - 45));
+  pregameAngler.walking = Math.hypot(pregameAngler.x - previousX, pregameAngler.y - previousY) > .01;
+  if (pregameAngler.walking && !pregameAngler.swimming && typeof harbourFootstep === 'function') harbourFootstep(performance.now());
   if (Math.abs(x) > .01) pregameAngler.facing = x < 0 ? -1 : 1;
   const sprite = characterFrames[0][selectedFisherman], halfWidth = 103 * sprite.width / sprite.height;
-  if (x > 0 && view.ox + (pregameAngler.x - halfWidth) * view.scale > view.width) openFlightGame();
+  if (x > 0 && !pregameAngler.swimming && pregameAngler.y < 900 && view.ox + (pregameAngler.x - halfWidth) * view.scale > view.width) openFlightGame();
 }
 
 function flightHead(index) {
@@ -204,16 +241,17 @@ function advanceFlight(dt) {
 }
 function drawFlight() {
   const ctx = flightPaint, width = flightState.width, height = 640;
+  const autumn = gameTheme === 'autumn';
   ctx.setTransform(flightCanvas.width / width, 0, 0, flightCanvas.height / height, 0, 0);
   ctx.imageSmoothingEnabled = false;
-  ctx.fillStyle = '#87bcb0'; ctx.fillRect(0, 0, width, height);
-  ctx.fillStyle = '#b6d9bc';
+  ctx.fillStyle = autumn ? '#b9aa98' : '#87bcb0'; ctx.fillRect(0, 0, width, height);
+  ctx.fillStyle = autumn ? '#e4d6c3' : '#b6d9bc';
   for (let i = 0; i < 5; i++) {
     const x = (i * 177 - (reducedFishingMotion ? 0 : flightState.distance * .1)) % (width + 170);
     ctx.fillRect(x, 160 + i % 3 * 30, 58, 14); ctx.fillRect(x + 12, 148 + i % 3 * 30, 32, 15);
   }
   for (let layer = 0; layer < 2; layer++) {
-    ctx.fillStyle = layer ? '#376e50' : '#589072';
+    ctx.fillStyle = autumn ? (layer ? '#80624e' : '#a08b6b') : (layer ? '#376e50' : '#589072');
     const offset = reducedFishingMotion ? 0 : flightState.distance * (.06 + layer * .03) % 72;
     for (let x = -72; x < width + 72; x += 72) {
       const top = 402 + layer * 63 + Math.sin(x * .08) * 22;
@@ -240,7 +278,7 @@ function drawFlight() {
     }
   }
   ctx.fillStyle = '#dbbf80'; ctx.fillRect(0, 621, width, 19);
-  ctx.fillStyle = '#608848'; ctx.fillRect(0, 617, width, 6);
+  ctx.fillStyle = autumn ? '#968365' : '#608848'; ctx.fillRect(0, 617, width, 6);
   const head = flightHead(flightState.character), bird = flightState.bird;
   if (head && bird) {
     ctx.save(); ctx.translate(bird.x, bird.y);
@@ -282,7 +320,7 @@ window.addEventListener('blur', suspendPregamePlay);
 document.addEventListener('visibilitychange', () => { if (document.hidden) suspendPregamePlay(); });
 window.addEventListener('resize', () => {
   if (flightState.phase !== 'closed') { resizeFlightCanvas(); if (flightState.phase === 'playing' && !flightState.paused) pauseFlightGame(); }
-  else resetPregameWalk();
+  else stopPregameWalk();
 });
 walkSurface.addEventListener('change', stopPregameWalk);
 function animatePregamePlay(now) {

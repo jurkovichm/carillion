@@ -1,0 +1,11 @@
+# River shoreline junction
+
+Asset: `river-shoreline-junction.png`, generated with the built-in imagegen tool on 11 October 2026. Its world rectangle is (-300, 850, 3200, 1600). The source file is preserved in the project; runtime sampling matches the existing 6.4-unit pixel grid.
+
+References inspected and supplied: a canvas screenshot of the existing junction (`tests/shoreline-art-preview.html`), `fishing-world-extended.png`, and `harbour-continuous-river.png`.
+
+Prompt:
+
+> Use case: compositing. Edit target Image 1 is a 1200x600 game map junction. Repair this image into a fully opaque, continuous natural river shoreline. Return the same 2:1 composition. Reference Images 2 and 3 are the original connected pixel-art environments: match their visible pixel size, clustered shading, stepped outlines, palette, oblique overhead perspective, upper-left lighting, and detail at gameplay scale. In Image 1 remove all ghosted translucent plants and the crossfaded overlapping bank in the upper middle. Repaint the top third into a coherent solid grassy right riverbank, rooted reeds, exposed rocks, and small soil edge against clean teal water. The river enters at the top between x=350 and x=635 and widens downstream; keep the navigable center x=310..625 through the top half clear water. Reconstruct natural forest in the blank dark upper-left/right corners. Preserve the exact river/shoreline shape and pixels of the bottom 150 pixels, and preserve the top 45 pixels between x=115 and x=880 so this patch connects to existing game art. Only fix the junction and blank margins. Solid foliage above a distinct irregular shore, narrow waterline ripples/reflections, no foliage dissolving into water, no fog, no transparency, no smooth gradients, no rectangular tiles. No people, boat, bridge, buildings, text, UI or additional objects. Preserve the artwork composition and river course precisely.
+
+Integration uses stepped contours at the outer edges, with short blending restricted to water-colored pixels. Plants and rocks never receive partial alpha. Connected-bank collision is sampled from the artwork, so swimming follows the visible shore. Canoe clearance tests cover this junction and the downstream river, including both banks.

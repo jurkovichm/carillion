@@ -1,0 +1,33 @@
+# Loon chase artwork
+
+Created with the built-in ImageGen tool. Originals remain in Codex's generated-image library; these copies are consumed by the game.
+
+## Shore replacement
+
+`loon-shore-v2.png` is the transparent shoreline terrain replacing the procedural polygon bank. Sampled to at most 240 × 144 logical pixels, drawn at 240 logical pixels wide with nearest-neighbour sampling; the finale camera magnifies the same pixel grid as the character. Original: `exec-c8631ade-b370-41bd-a4cd-641c169c6395.png` in the Codex generated-image library.
+
+All four references were inspected before generation and supplied to the built-in ImageGen tool: `fishing-world-extended.png` (primary terrain/perspective reference), `fishing-basket-atlas.png` (warm clustered shading), `fishermen-atlas.png` (character density and scale), `catches/bass.png` (outline/shading conventions).
+
+Final prompt:
+
+Use case: stylized-concept. Asset type: transparent pixel-art shoreline terrain sprite for an existing fishing game.
+Primary request: create ONE natural grassy lakeshore bank where an angler swims out, stands and punches a loon. Match the supplied game's existing assets exactly in visible pixel size, clustered shading, stepped outlines, palette, perspective, lighting, detail at actual gameplay scale.
+Input references: Image 1 fishing-world-extended.png is primary source of truth for shoreline grass, golden dirt path, clustered grey rocks, stepped edge, shallow elevated three-quarter perspective and upper-left sunshine. Image 2 fishing-basket-atlas.png supplies clustered warm earth shading and crisp pixels. Image 3 fishermen-atlas.png supplies character scale and pixel density. Image 4 bass.png supplies crisp outline/shading conventions.
+Composition: a terrain sprite approximately 240 by 144 logical pixels shown enlarged with nearest-neighbour pixels, wide landscape. Land enters from the RIGHT and extends OFF THE RIGHT and BOTTOM image edges: NOT an isolated island, floating slab, cutaway platform or soil cross section. Transparent exterior on left and above. An irregular shallow stone-and-earth water-facing slope on the left leads onto a clear horizontal walkable golden dirt strip, its walking surface at around y=32 logical pixels from x=65 all the way to the right edge. Behind it, short clustered grasses and modest grey shoreline stones, no tall vegetation obscuring characters. Below the walking strip a natural sloping bank of grass, sunlit sand, flat rocks, with the land continuing to the bottom and right edges, no dark solid polygon sidewall. Two thirds of width is comfortably walkable for characters ~68 logical pixels tall. Keep actual pixel clusters about 1–3 logical pixels, matching reference bridge scene at runtime; no huge smooth polygon surfaces or single broad vector curves.
+Style: strictly pixel art, rectangular pixel clusters, rich but controlled olive/lime greens, warm tan/gold sand, slate grey rocks, deep teal green shadows; reference bridge scene is authoritative. No blur, no gradients, no anti-aliased contour, no photographic texture. Upper left lighting. Flat terrain and shallow three-quarter perspective, no isometric cube.
+Constraints: only bank terrain; no characters, fish, loon, basket, bridge, water painted into sprite, text, border, labels or watermark. True transparent background. Fill right/bottom edges with continuing terrain.
+
+- `loon-chase-lake.png`: 2172 × 724 panoramic lake backdrop, rendered in separate bank and water layers for parallax.
+- `loon-swimming-atlas.png`: 1774 × 887 transparent atlas, three anglers with four swimming strokes, a leap, and a punch. Explicit transparent gutters are sampled in `loon-fight.js`.
+
+## Lake prompt
+
+Use case: stylized-concept. Asset type: production pixel-art background for a full-screen side-scrolling swimming chase videogame. Input image is a STYLE AND PALETTE REFERENCE only. Create a brand NEW very wide panoramic horizontal lake landscape, 3:1 aspect ratio. Match the reference's polished detailed pixel art with crisp hand-placed square pixels, lush layered leafy green Minnesota woodland, teal-blue reflective water, warm sunlit golden grasses, tiny reeds and water lilies along the far shoreline. Side view across Lyman Lakes, distant tree canopy and a small hint of the wooden footbridge far away. Composition: continuous distant forest in upper 40%, narrow shoreline around 42% down, clear open gently rippling blue water covers bottom 55%, completely unobstructed playable water. Rich detailed texture and warm summer lighting, readable layered atmospheric depth, classic high-quality 16-bit adventure game art. Left and right edges should match for horizontal tiling; no dramatic central landmark. Entire image is scenery only. No characters, no birds, no foreground obstacles, no interface, no text, no border, no gradient blurring, no vector-looking shapes. This should look like a finished videogame background, not a sketch.
+
+Reference: `fishing-world-extended.png`.
+
+## Angler prompt
+
+Use case: stylized-concept. Asset type: transparent production pixel-art animation sprite sheet for a videogame. Input image is a character identity and pixel art style reference. Create a NEW sheet, EXACTLY 6 equal columns and 3 equal rows, 18 separate sprites with generous transparent gutters. Uniform cells, no cell borders, no words or labels. Every sprite is fully isolated on genuine transparent background and faces RIGHT. Row 1 is the reference's lakeside regular (brown fishing hat, beard, olive vest, brown pants). Row 2 is the reference's young student angler (blue C cap, bright gold jacket, blue pants). Row 3 is the reference's white-bearded old professor (brown hat, round glasses, teal sweater, tan pants). Within EACH row: columns 1,2,3,4 are four distinct consecutive frames of a horizontal side-view freestyle SWIMMING cycle, with head above imaginary waterline, torso horizontal, changing forward and back arm stroke and leg kick. Column 5 is a dynamic leaping/dolphin-jump pose with torso angled upward, head pointing right, bent knees; column 6 is a dynamic right-facing extended-fist PUNCH pose. Keep all six frames consistent scale, recognizable faces and clothing, detailed high-quality classic 16-bit character pixel art, clean dark pixel outlines, crisp square pixels and readable silhouettes. No water, no splashes, no scenery, no shadows outside sprites. Do not repeat standing fishing poses: these are purpose-made swimming/jumping/punching action animations. Output should be wide 2:1, neat exact 6-by-3 grid.
+
+Reference: `fishermen-atlas.png`. Generated spacing varies slightly, so sampling uses explicit row and column boundaries rather than an assumed uniform grid.

@@ -13,22 +13,27 @@ const root = path.join(__dirname, '..');
         const file = path.join(root, new URL(route.request().url()).pathname);
         return route.fulfill({ body: fs.readFileSync(file), contentType: ({'.html':'text/html','.js':'text/javascript','.css':'text/css','.png':'image/png','.mp3':'audio/mpeg'})[path.extname(file)] || 'application/octet-stream' });
       });
-      await page.clock.install(); await page.goto('http://carillion.test/index.html');
+      await page.clock.install({time:new Date('2026-10-08T12:00:00Z')});
+      await page.clock.pauseAt(new Date('2026-10-08T12:00:01Z'));
+      await page.goto('http://carillion.test/index.html');
       await page.evaluate(() => Promise.all([characterSpritesReady, basketSpritesReady, catchSpritesReady, loonSpritesReady]));
+      await page.clock.runFor(100);
       await page.waitForFunction(() => bridgeReady && fishingSceneView);
-      await page.clock.pauseAt(await page.evaluate(() => Date.now() + 100));
-      assert.equal(await page.locator('#selectDay').inputValue(), '2026-10-03');
+      assert.equal(await page.locator('#selectDay').inputValue(), await page.evaluate(() => window.DIVE_DAYS.at(-1).id));
       assert.equal(await page.locator('#selectDay option[value="2026-10-05"]').count(), 0);
       assert.equal(await page.locator('#walkStick').isVisible(), width < 900);
       assert.equal(await page.evaluate(() => loonFrames.length), 4);
       assert(await page.evaluate(() => loonFrames.every(f => f.beak.x > 180 && f.beak.x < 240 && f.beak.y > 40 && f.beak.y < 120)));
+      assert.equal(await page.locator('#chooseAngler, #characterPicker').count(), 0);
+      const characterSelect = await page.locator('#selectCharacter').boundingBox();
+      assert(characterSelect.width <= 126 && characterSelect.x + characterSelect.width >= width - 24 && characterSelect.y < 100);
       await page.screenshot({path:`/private/tmp/carillion-joystick-home-${width}.png`});
       if (width < 900) {
         // Select a different face on each mobile layout without starting trivia.
         const character = width === 390 ? 0 : width === 320 ? 2 : 1;
-        await page.locator('#chooseAngler').click();
-        await page.locator(`.character-choice[data-character="${character}"]`).click();
-        await page.locator('#closePicker').click();
+        await page.locator('#selectCharacter').selectOption(String(character));
+        assert.equal(await page.evaluate(() => selectedFisherman), character);
+        assert.equal(await page.evaluate(() => localStorage.getItem('carillion-character')), await page.evaluate(() => fishermanChoices[selectedFisherman].id));
         const box = await page.locator('#walkStick').boundingBox();
         const cx = box.x + box.width / 2, cy = box.y + box.height / 2;
         await page.mouse.move(cx, cy); await page.mouse.down(); await page.mouse.move(cx + 36, cy);
@@ -74,7 +79,7 @@ const root = path.join(__dirname, '..');
         await page.locator('#leaveFlight').click();
         assert.equal(await page.evaluate(() => roundState.phase), 'home');
         assert.equal(await page.evaluate(() => pregameAngler.x), 950);
-        assert.equal(await page.locator('#selectDay').inputValue(), '2026-10-03');
+        assert.equal(await page.locator('#selectDay').inputValue(), await page.evaluate(() => window.DIVE_DAYS.at(-1).id));
         assert.equal(await page.locator('#begin').evaluate(el => el.inert || el.closest('[inert]') !== null), false);
       }
       // Use a stable historical pack for gameplay checks, independently of the default day.
@@ -85,45 +90,56 @@ const root = path.join(__dirname, '..');
         const cast = await page.evaluate(() => fishingCast?.duration || 0);
         if (cast) await page.clock.fastForward(cast);
       };
+      const declineLoon = async () => {
+        if (await page.evaluate(() => quickMode)) await page.clock.runFor(2);
+        if (await page.locator('#leaveLoon').count()) await page.locator('#leaveLoon').click();
+      };
       const land = async () => {
         const reveal = await page.evaluate(() => fishingCatch?.revealDelay || 0);
         await page.clock.fastForward(Math.max(1, reveal));
         await page.clock.fastForward(await page.evaluate(() => quickMode ? 1 : CATCH_FLIGHT_MS + CATCH_SETTLE_MS));
+        await declineLoon();
       };
       // Save a previous round's fish, then force theft in the current 10-point round.
       await page.evaluate(async () => { returnToRiver(); Math.random = () => .5; await begin(); });
       await submit('Bethel'); await land();
       assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
       await page.locator('#descendBtn').click();
-      await page.evaluate(() => { setQuickMode(false); Math.random = () => .099; });
+      await page.evaluate(() => { questions=[...questions]; questions[6]=questions[1]; round=6; next(); setQuickMode(false); Math.random = () => .099; });
       await submit('Hennepin'); await land();
       assert.equal(await page.evaluate(() => roundState.phase), 'loon');
-      assert.equal(await page.evaluate(() => round), 1);
+      assert.equal(await page.evaluate(() => round), 6);
       assert.equal(await page.evaluate(() => timer), null);
       if (!reduced) {
         assert.equal(await page.evaluate(() => score), 25);
         await page.clock.runFor(1100); await page.screenshot({path:`/private/tmp/carillion-loon-approach-${width}.png`});
         await page.clock.runFor(150); await page.screenshot({path:`/private/tmp/carillion-loon-steal-${width}.png`});
       } else await page.clock.runFor(100);
+      assert.equal(await page.evaluate(() => roundState.phase), 'loonChoice');
+      await declineLoon();
       assert.equal(await page.evaluate(() => score), 15);
       assert.equal(await page.evaluate(() => shoreCatches.length), 1);
       assert.equal(await page.evaluate(() => caughtFish.length), 1);
       assert.equal(await page.evaluate(() => roundLog[0].catches[0].name), 'Bethel University');
-      await page.clock.fastForward(reduced ? 600 : 1550);
+      await page.clock.fastForward(await page.evaluate(() => reducedFishingMotion ? 100 : fishingLoon.duration * .58 + 1));
       assert.equal(await page.evaluate(() => roundState.phase), 'question');
-      assert.equal(await page.evaluate(() => round), 1);
+      assert.equal(await page.evaluate(() => round), 6);
       assert.equal(await page.evaluate(() => roundState.remainingMs), 25000);
-      assert.equal(await page.evaluate(() => used.size), 0);
+      assert.equal(await page.evaluate(() => used.size), 1);
       assert.equal(await page.evaluate(() => fishingLineInWater), false);
       assert.equal(await page.evaluate(() => roundState.record.catches.length), 0);
       await page.evaluate(() => { Math.random = () => 0; });
-      await submit('Hennepin'); await land();
-      assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd'); // Even a forced theft roll cannot steal again on retry.
+      await submit('Hennepin');
+      assert.equal(await page.evaluate(() => roundState.phase), 'question');
+      assert.equal(await page.evaluate(() => score), 15);
+      assert((await page.locator('#inputFeedback').textContent()).includes('stole'));
+      await submit('Ramsey'); await land();
+      assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd'); // A different answer cannot suffer another theft.
       assert.equal(await page.evaluate(() => score), 25);
       // High-point fish get the same 10% chance; the next attempt keeps the same question.
       const rareAnswer = await page.evaluate(async () => {
         returnToRiver(); setQuickMode(true); Math.random = () => .099; await begin();
-        round = questions.findIndex(q => q.answers.some(answer => answer.points === 100)); next();
+        const rare=questions.find(q => q.answers.some(answer => answer.points === 100)); questions=[...questions]; questions[6]=rare; round=6; next();
         return { round, text: questions[round].answers.find(answer => answer.points === 100).forms[0] };
       });
       await submit(rareAnswer.text); await land(); await page.clock.runFor(5);
@@ -131,30 +147,14 @@ const root = path.join(__dirname, '..');
       assert.equal(await page.evaluate(() => round), rareAnswer.round);
       assert.equal(await page.evaluate(() => score), 0);
       assert.equal(await page.evaluate(() => caughtFish.length), 0);
-      // Multi-cast loses just the stolen fish and can recatch it without duplicating the others.
-      await page.evaluate(async () => { returnToRiver(); selectedMode = 'multi'; Math.random = () => .5; await begin(); });
-      for (const text of ['Carleton', 'Bethel', 'St Olaf']) { await submit(text); await land(); }
-      await page.evaluate(() => { Math.random = () => .099; });
-      await page.locator('#giveUpBtn').click(); await page.clock.runFor(5);
-      assert.equal(await page.evaluate(() => roundState.phase), 'question');
-      assert.equal(await page.evaluate(() => score), 25);
-      assert.equal(await page.evaluate(() => roundState.record.points), 25);
-      assert.equal(await page.evaluate(() => roundState.record.catches.length), 2);
-      assert.equal(await page.evaluate(() => caughtFish.length), 2);
-      await submit('Bethel'); assert.equal(await page.evaluate(() => score), 25);
-      await page.evaluate(() => { Math.random = () => .5; });
-      await submit('St Olaf'); await land(); await page.locator('#giveUpBtn').click();
-      assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
-      assert.equal(await page.evaluate(() => score), 35);
-      assert.equal(await page.evaluate(() => roundState.record.catches.length), 3);
       // Give Up's consolation is eligible, without removing an earlier fish.
-      await page.evaluate(async () => { returnToRiver(); selectedMode = 'single'; setQuickMode(true); Math.random = () => 0; await begin(); });
+      await page.evaluate(async () => { returnToRiver(); setQuickMode(true); Math.random = () => 0; await begin(); questions=[...questions]; questions[6]=questions[0]; round=6; next(); });
       await submit('Carleton'); await land(); await page.clock.runFor(5);
       assert.equal(await page.evaluate(() => roundState.phase), 'question');
       assert.equal(await page.evaluate(() => score), 0);
       assert.equal(await page.evaluate(() => shoreCatches.length), 0);
       await page.evaluate(() => { Math.random = () => .5; });
-      await submit('Bethel'); await land(); await page.locator('#descendBtn').click();
+      await submit('Bethel'); await land(); await page.evaluate(() => { questions[6]=selectedDay.questions[1]; round=6; next(); });
       await page.evaluate(() => { Math.random = () => 0; });
       await page.locator('#giveUpBtn').click(); await land();
       await page.clock.runFor(5);
@@ -163,9 +163,9 @@ const root = path.join(__dirname, '..');
       assert.equal(await page.evaluate(() => score), 15);
       assert.equal(await page.evaluate(() => roundState.record.loot), null);
       assert.equal(await page.evaluate(() => shoreCatches.length), 1);
-      // All three consolation kinds can be stolen on the first question, refunding penalties.
+      // All three consolation kinds can be stolen on question seven, refunding penalties.
       for (const [lootRoll, kind, points] of [[.05,'bottle',0],[.3,'boot',-5],[.8,'skeleton',-5]]) {
-        await page.evaluate(async () => { returnToRiver(); setQuickMode(false); Math.random = () => .5; await begin(); });
+        await page.evaluate(async () => { returnToRiver(); setQuickMode(false); Math.random = () => .5; await begin(); round=6; next(); });
         await page.evaluate(roll => { Math.random = () => roll; }, lootRoll);
         await page.locator('#giveUpBtn').click();
         const cast = await page.evaluate(() => fishingCast?.duration || 0);
@@ -177,12 +177,14 @@ const root = path.join(__dirname, '..');
         assert.equal(await page.evaluate(() => roundState.phase), 'loon');
         if (!reduced) assert.equal(await page.evaluate(() => score), points);
         await page.clock.fastForward(reduced ? 1 : 1176);
+        assert.equal(await page.evaluate(() => roundState.phase), 'loonChoice');
+        await declineLoon();
         assert.equal(await page.evaluate(() => score), 0);
         assert.equal(await page.evaluate(() => roundState.record.loot), null);
         assert.equal(await page.evaluate(() => shoreCatches.length), 0);
         await page.clock.fastForward(reduced ? 699 : 1624);
         assert.equal(await page.evaluate(() => roundState.phase), 'question');
-        assert.equal(await page.evaluate(() => round), 0);
+        assert.equal(await page.evaluate(() => round), 6);
         assert.equal(await page.evaluate(() => roundState.remainingMs), 25000);
         assert.equal(await page.evaluate(() => roundState.record.points), 0);
       }

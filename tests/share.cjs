@@ -6,7 +6,6 @@ const source = fs.readFileSync(path.join(__dirname, '..', 'fishing-game.js'), 'u
 const shareFunction = source.slice(source.indexOf('function catchShareText('), source.indexOf('function copyCatchFallback('));
 const context = vm.createContext({
   matchDay: { id: '2026-09-29', label: '29 Sept 2026' },
-  modeLabel: () => 'Multi-cast',
   signedPoints: points => `+${points}`,
   score: 310,
   questions: Array.from({ length: 7 }, (_, i) => ({ prompt: `Question ${i + 1}` })),

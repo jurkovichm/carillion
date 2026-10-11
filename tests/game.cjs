@@ -48,7 +48,7 @@ const server = http.createServer((req, res) => {
       assert.equal(await page.locator('#crtEffect').isVisible(), false);
       assert.equal(await page.evaluate(() => localStorage.getItem('carillion-crt-strength')), '0');
       await page.getByRole('button', { name: 'Close', exact: true }).click();
-      assert.equal(await page.locator('[name=castMode]:checked').inputValue(), 'single');
+      assert.equal(await page.locator('[name=castMode], #howBtn').count(), 0);
       assert.equal(await page.locator('#selectDay').inputValue(), await page.evaluate(() => window.DIVE_DAYS.at(-1).id));
       await page.locator('#selectDay').selectOption('2026-09-29');
       await page.screenshot({ path: `/private/tmp/carillion-home-${width}.png` });
@@ -137,6 +137,8 @@ const server = http.createServer((req, res) => {
         if (question === 0) await page.screenshot({ path: `/private/tmp/carillion-result-${width}.png` });
         await page.locator('#descendBtn').click();
       }
+      assert.equal(await page.evaluate(() => roundState.phase), 'selling');
+      await page.locator('#skipFishmonger').click();
       assert.equal(await page.evaluate(() => roundState.phase), 'summary');
       const share = await page.evaluate(() => catchShareText());
       assert.equal(share.split('\n')[0], 'Carillion 29 Sep 2026');
@@ -146,17 +148,11 @@ const server = http.createServer((req, res) => {
       assert.equal(await page.evaluate(() => catchShareText(true)), share);
       await page.locator('#playAgain').click();
       await page.locator('#selectDay').selectOption('2026-09-28');
-      await page.locator('[name=castMode][value=multi]').check();
       await page.locator('#begin').click();
       await page.waitForFunction(() => roundState.phase === 'question');
       assert((await page.locator('#promptText').textContent()).includes('MIAC'));
-      for (const text of ['Carleton', 'St Olaf']) { await submit(text); await page.clock.runFor(3200); }
-      assert.equal(await page.evaluate(() => roundState.record.catches.length), 2);
-      await page.screenshot({ path: `/private/tmp/carillion-basket-${width}.png` });
-      assert.equal(await page.evaluate(() => roundState.phase), 'question');
-      await submit('Carleton');
-      assert.equal(await page.locator('#answerInput').inputValue(), '');
-      await page.evaluate(() => finishQuestion('giveup'));
+      await submit('Carleton'); await page.clock.runFor(3200);
+      assert.equal(await page.evaluate(() => roundState.record.catches.length), 1);
       assert.equal(await page.evaluate(() => roundState.phase), 'roundEnd');
       assert((await page.evaluate(() => catchShareText())).startsWith('Carillion 28 Sep 2026\n'));
       await page.evaluate(() => {
@@ -229,7 +225,7 @@ const server = http.createServer((req, res) => {
         const durations = {10: 650, 15: 2400, 30: 1000, 60: 1800, 85: 3400, 100: 4400};
         for (const points of [10, 15, 30, 60, 85, 100]) {
           const answer = await page.evaluate(async points => {
-            returnToRiver(); setQuickMode(false); selectedMode = 'single';
+            returnToRiver(); setQuickMode(false);
             selectedDay = window.DIVE_DAYS.find(day => day.questions.some(q => q.answers.some(a => a.points === points)));
             await begin();
             round = questions.findIndex(q => q.answers.some(a => a.points === points)); next();
@@ -258,7 +254,7 @@ const server = http.createServer((req, res) => {
         }
       }
       assert.deepEqual(errors, []);
-      console.log(`${width}x${height}: casting, cancellation, defaults, retries, catch timing, sharing, day switching and multi-cast passed`);
+      console.log(`${width}x${height}: casting, cancellation, defaults, retries, catch timing, sharing, day switching and single-cast completion passed`);
       await page.close();
     }
   } finally { if (browser) await browser.close(); server.close(); }

@@ -1,0 +1,35 @@
+/* Last in the cascade: season changes color without changing game layout. */
+.theme-setting { margin:20px 0; padding:16px 0; border-block:1px solid #adc09555; }
+.theme-setting label { display:block; margin-bottom:10px; color:var(--white); }
+.theme-setting select { width:100%; min-height:44px; padding:8px 10px; border:1px solid #adc095; border-radius:4px; background:#163f34; color:#f7efcf; font:inherit; font-size:12px; color-scheme:dark; }
+.theme-setting select:focus-visible { outline:3px solid #ffe1a0; outline-offset:3px; }
+:root[data-theme="autumn"] { --ice:#cdb58c; --white:#fff0d4; --autumn-panel:#352720f2; --autumn-border:#a28a70; --autumn-gold:#dbc49d; }
+[data-theme="autumn"] .game { background:#583326; }
+[data-theme="autumn"] .game:after { background:linear-gradient(#40251a55,transparent 35%,transparent 65%,#30231aa8); }
+[data-theme="autumn"] .wordmark .logo-letter { color:#fff0d4; text-shadow:-2px -2px #5a3025,2px -2px #5a3025,-2px 2px #5a3025,2px 2px #5a3025,3px 3px #45251c,4px 4px #45251c,5px 5px #45251c,6px 6px #291f18,0 8px 14px #291f1870; }
+[data-theme="autumn"] .wordmark .logo-letter.carleton-letter { color:#ddc497; }
+[data-theme="autumn"] :is(.tagline,.subline,.bottomrow,.fishing-caption) { color:#fff0d4; }
+[data-theme="autumn"] :is(.icon,.character-select,.pregame-settings select,.theme-setting select,.dialog,.hud-depth,.hud-score,.prompt-card,.answer-result,.soft-fill,.timer-dial,.answer-dock .answer input,.wallet,.harbour-prompt,.harbour-caption,.shoppe-panel,.shoppe-panel button,.harbour-caption button) { background:var(--autumn-panel); border-color:var(--autumn-border); color:#fff0d4; }
+[data-theme="autumn"] #selectDay { background:var(--autumn-panel); border-color:var(--autumn-border); color:#fff0d4; }
+[data-theme="autumn"] .dialog p { color:#d6bc9b; }
+[data-theme="autumn"] :is(.dialog,.hud-depth,.hud-score,.prompt-card) { box-shadow:0 5px 0 #281e17; }
+[data-theme="autumn"] .prompt-card:before { background:linear-gradient(90deg,transparent,#cdb58c,transparent); }
+[data-theme="autumn"] :is(.prompt-card p,.hud b,.dialog h2,.summary-section h2,.catch-question,.catch-answer) { color:#fff0d4; }
+[data-theme="autumn"] :is(.rarity,.hud small,.summary-kicker,.summary-label,.summary-depth,.score-position small,.source-note,.bank-answer small) { color:#d6bc9b; }
+[data-theme="autumn"] :is(.begin,.answer-dock .answer button,.summary-actions button,.share-buttons button,.dialog .action,.descend-btn) { background:var(--autumn-gold); border-color:#e9dac1; color:#35251d; box-shadow:0 4px #4b2c22; }
+[data-theme="autumn"] :is(.begin,.answer-dock .answer button,.summary-actions button,.share-buttons button,.dialog .action,.descend-btn):hover { background:#e7d4b5; }
+[data-theme="autumn"] .answer-dock .answer input::placeholder { color:#c6ae94; }
+[data-theme="autumn"] .answer-dock .answer input:focus { border-color:#dbc49d; box-shadow:0 5px #281e17,0 0 18px #dbc49d2b; }
+[data-theme="autumn"] .hud-progress i { background:#50392b; border-color:#b7a184; }
+[data-theme="autumn"] .hud-progress i.done { background:var(--autumn-gold); }
+[data-theme="autumn"] .timer-dial { box-shadow:inset 0 0 0 4px #50392b; }
+[data-theme="autumn"] .timer-dial:before { border-color:#cdb58c; border-left-color:#cdb58c33; border-bottom-color:#cdb58c33; }
+[data-theme="autumn"] .summary-screen { background:linear-gradient(#2b211bf2,#211b17fa); scrollbar-color:#cdb58c #352720; }
+[data-theme="autumn"] :is(.catch-row,.log-row,.answer-bank,#sharePreview,.round-tidbit) { background:#352720; border-color:#765438; color:#fff0d4; }
+[data-theme="autumn"] .catch-row>summary:hover { background:#4a3327; }
+[data-theme="autumn"] .score-track { background:#352720; border-color:#a28a70; }
+[data-theme="autumn"] .score-track i { background:linear-gradient(90deg,#876957,#dbc49d); }
+[data-theme="autumn"] .crt-setting input { accent-color:#cdb58c; }
+[data-theme="autumn"] :is(.round-actions button,.last-catch,.flight-message,.loon-panel,.walk-stick) { background:var(--autumn-panel); border-color:var(--autumn-border); color:#fff0d4; }
+[data-theme="autumn"] :is(.reward-toast,.flight-hud button,.flight-message button,.flight-flap,.loon-overlay button) { background:var(--autumn-gold); border-color:#e9dac1; color:#35251d; }
+[data-theme="autumn"] .loon-overlay.chasing .loon-panel { background:none; }

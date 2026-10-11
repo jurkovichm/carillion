@@ -1,0 +1,6 @@
+<!doctype html><html><head><style>html,body{margin:0;background:#163f3c}canvas{display:block;width:100vw;height:50vw;image-rendering:pixelated}</style></head><body><canvas id="join" width="1200" height="600"></canvas><script>
+const load=src=>new Promise(resolve=>{const i=new Image();i.onload=()=>resolve(i);i.src=src});
+Promise.all([load('/assets/fishing-world-extended.png'),load('/assets/harbour-continuous-river.png')]).then(([lake,river])=>{
+const c=document.querySelector('canvas'),p=c.getContext('2d');p.imageSmoothingEnabled=false;p.scale(1200/3200,600/1600);p.translate(300,-850);p.fillStyle='#163f3c';p.fillRect(-300,850,3200,1600);p.drawImage(lake,0,-1107,2048,534*6.4);
+const layer=document.createElement('canvas');layer.width=500;layer.height=750;const q=layer.getContext('2d');q.imageSmoothingEnabled=false;q.drawImage(river,0,0,500,750);q.globalCompositeOperation='destination-in';const g=q.createLinearGradient(0,0,0,750);g.addColorStop(0,'transparent');g.addColorStop(.08,'white');g.addColorStop(1,'white');q.fillStyle=g;q.fillRect(0,0,500,750);p.drawImage(layer,-300,1120,3200,4800);
+});</script></body></html>
