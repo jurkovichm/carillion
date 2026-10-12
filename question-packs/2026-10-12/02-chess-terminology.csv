@@ -1,0 +1,115 @@
+ANSWER,Blurb,Worth
+King,The piece that must never be left under attack.,10
+Queen,Combines the straight-line movements of a rook and bishop.,10
+Rook|Castle,Moves along files and ranks without jumping over pieces.,10
+Bishop,Moves diagonally and remains on one color of square.,10
+Knight|Horse,The jumping piece whose usual move forms an L shape.,10
+Pawn,Usually advances straight ahead but captures diagonally.,10
+Check,A direct threat to the opponent's king.,10
+Checkmate|Mate,The king is attacked and has no legal escape.,10
+Stalemate,A drawn position with no legal move and no check.,30
+Castling|Castle move,A special move involving the king and one rook.,30
+En passant|In passing,A pawn capture available immediately after an opposing two-square pawn advance.,15
+Promotion|Pawn promotion|Queening,A pawn reaching the final rank changes into another piece.,30
+Underpromotion,"Promoting a pawn to a rook, bishop, or knight.",60
+Draw,A game result in which neither player wins.,30
+Resignation|Resign,Conceding the game before checkmate occurs.,30
+Capture|Take,Removing an opposing piece by moving onto its square.,30
+Fork|Double attack,One move creates threats against two or more targets.,30
+Pin,A piece cannot safely move because something behind it is exposed.,30
+Skewer,Attacks a valuable piece with another target behind it.,60
+Discovered attack|Discovery,Moving one piece uncovers an attack by another.,60
+Discovered check,Moving a piece uncovers a check from another piece.,60
+Double check,Two pieces simultaneously attack the king.,60
+Sacrifice|Sac,Giving up material to obtain another advantage.,30
+Gambit,"An offer of material, usually a pawn, for compensation.",30
+Blunder,A serious mistake that substantially worsens a position.,30
+Mistake,An inaccurate move that harms a player's position.,30
+Inaccuracy,A move that misses a better continuation.,60
+Brilliant move|Brilliancy,A particularly impressive or surprising strong move.,60
+Combination,A connected sequence of forcing tactical moves.,60
+Tempo,A unit of time measured by a single move.,60
+Initiative,The ability to make threats that force responses.,60
+Development,"Bringing pieces into useful positions, especially early in the game.",30
+Opening,The initial phase of a chess game.,30
+Middlegame|Middle game,The phase between opening development and the endgame.,30
+Endgame|End game,"The late phase, often with relatively few pieces remaining.",30
+Kingside|King side,The half of the board where the king starts.,30
+Queenside|Queen side,The half of the board where the queen starts.,30
+File,A vertical column of eight squares on the board.,60
+Rank,A horizontal row of eight squares on the board.,60
+Diagonal,A line of squares running corner to corner.,30
+Center|Centre,"The central board squares, especially d4, e4, d5, and e5.",30
+Fianchetto,Developing a bishop to the second rank behind a flank pawn.,60
+Zugzwang,A position where the obligation to move is harmful.,60
+Zwischenzug|Intermezzo|Intermediate move|In between move,An intervening threat played before an expected reply.,85
+Opposition,An endgame relationship that helps one king restrict the other.,60
+Triangulation,A maneuver that returns to a position with the opponent to move.,85
+Perpetual check,Repeated checks that can force a draw through repetition.,60
+Threefold repetition|Repetition|Three fold repetition|3 fold repetition,A player may claim a draw after the same position occurs three times.,60
+Fivefold repetition|Five fold repetition|5 fold repetition,Five occurrences of the same position automatically draw the game.,85
+Fifty-move rule|50 move rule,Allows a draw claim after fifty moves each without pawn moves or captures.,60
+Seventy-five-move rule|75 move rule,Normally draws a game after seventy-five moves each without pawn moves or captures.,85
+Touch-move|Touch move rule,A deliberately touched piece generally must be moved if legally possible.,60
+J'adoube|I adjust|Adjust,An announcement that a player intends only to adjust a piece.,85
+Dead position,A position where no legal sequence can produce checkmate.,85
+Insufficient material,Too little material remains for the relevant mating possibility.,60
+Passed pawn,A pawn with no opposing pawns blocking its path on adjacent files.,60
+Isolated pawn|Isolani,A pawn without friendly pawns on adjacent files.,60
+Doubled pawns|Doubled pawn,Two pawns of the same side occupying the same file.,60
+Backward pawn,A pawn lagging behind neighboring pawns and difficult to advance safely.,85
+Connected pawns,Friendly pawns on neighboring files that can support one another.,60
+Pawn chain,A diagonal line of pawns protecting one another.,60
+Pawn island,A group of pawns separated from others by empty files.,85
+Pawn storm,An advance of several pawns used to attack the opponent.,60
+Pawn break,A pawn advance intended to alter or open the pawn structure.,60
+Minority attack,An attack using fewer pawns against a larger opposing pawn group.,85
+Outpost,A useful advanced square where a piece is hard to dislodge.,60
+Open file,A file containing no pawns of either color.,60
+Half-open file|Semi open file,A file lacking one side's pawns but containing an opponent's pawn.,85
+Battery,Two or more aligned pieces cooperating along a line.,60
+Alekhine's gun|Alekhines gun,A formation with the queen behind two rooks on one file.,85
+X-ray attack|X ray|Xray,Pressure through an intervening piece toward a target behind it.,85
+Deflection,Forcing a defender away from a duty or important square.,60
+Decoy|Attraction,Luring an opposing piece onto a vulnerable square.,85
+Interference,Interrupting the line connecting an enemy piece and its target.,85
+Overloading|Overloaded piece,Exploiting a defender that has more duties than it can fulfill.,85
+Undermining|Remove the defender|Removing the defender,Eliminating a piece or pawn that protects an important target.,60
+Clearance,Vacating a square or line so another piece can use it.,85
+Desperado,A doomed piece gains something before its inevitable capture.,85
+Windmill,A repeated checking mechanism that permits successive material gains.,85
+Greek gift|Greek gift sacrifice,"A familiar bishop sacrifice near a castled king, usually on h7 or h2.",85
+Smothered mate,A knight mates a king hemmed in by its own pieces.,60
+Back-rank mate|Back rank checkmate,A rook or queen mates a king trapped on its back rank.,60
+Anastasia's mate,A knight and rook coordinate against a king near the board's edge.,85
+Arabian mate,A rook and knight cooperate to mate a king in a corner.,85
+Boden's mate,Two bishops deliver mate along intersecting diagonals.,85
+Dovetail mate,A queen mates a king whose retreat squares are blocked by its own pieces.,85
+Epaulette mate,A king is trapped beside its own pieces in a mating pattern.,85
+Grimshaw,Mutual interference between a rook and bishop on the same square.,100
+Novotny,A sacrificial interference on the intersection of two defensive lines.,100
+Luft,"An escape square made for the king, often by advancing a pawn.",85
+Prophylaxis,Anticipating and preventing the opponent's intended plans.,85
+Fortress,A defensive arrangement that stronger material cannot easily break.,60
+Swindle,An unexpected resource that salvages a bad or lost position.,60
+Transposition,Reaching the same position through a different order of moves.,60
+Exchange,A trade of pieces; also the value difference between rook and minor piece.,30
+Exchange sacrifice,Giving up a rook for a bishop or knight for compensation.,85
+Bishop pair,"Possessing both bishops, which can control both square colors.",60
+Bad bishop,A bishop restricted by its own pawns on its color.,60
+Good bishop,A bishop with useful scope relative to its own pawn structure.,85
+Minor piece,"A bishop or knight, as distinguished from a rook or queen.",60
+Major piece|Heavy piece,"A rook or queen, the longer-ranging heavy pieces.",60
+Hanging piece|En prise,An unprotected piece that can be captured profitably.,30
+Poisoned pawn,An apparently free pawn whose capture creates serious problems.,85
+Blitz|Blitz chess,A fast time control with a small number of minutes per player.,30
+Rapid|Rapid chess,A time control between classical chess and blitz.,60
+Bullet|Bullet chess,"Extremely fast chess, commonly around one minute per player.",60
+Classical|Classical chess,Chess played at longer time controls.,60
+Increment,Time added to a player's clock after a move.,60
+Flag fall|Flagging|Flag,The expiration of a player's allotted time.,60
+Time trouble|Zeitnot,Having very little clock time to make the remaining moves.,85
+Arbiter,The official who supervises play and applies the rules.,60
+Adjournment,Suspending a game to resume it later.,85
+Sealed move,A move recorded privately when a game is adjourned.,85
+Algebraic notation|Notation,Records moves using piece letters and board coordinates.,30

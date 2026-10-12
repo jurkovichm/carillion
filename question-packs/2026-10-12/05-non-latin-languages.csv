@@ -1,0 +1,107 @@
+ANSWER,Blurb,Worth
+Chinese|Mandarin|Mandarin Chinese|Cantonese|Chinese Mandarin|Chinese Cantonese,Chinese varieties have an established writing tradition using Chinese characters.,10
+Japanese,Japanese combines kanji with the hiragana and katakana syllabaries.,10
+Korean,Korean is ordinarily written using the Hangul alphabet.,10
+Arabic|Modern Standard Arabic|Egyptian Arabic|Moroccan Arabic,Arabic is commonly written in a right-to-left consonantal script.,10
+Russian,Russian uses a Cyrillic alphabet.,10
+Greek|Modern Greek|Ancient Greek,"Greek has its own alphabet, used since antiquity.",10
+Hebrew|Modern Hebrew|Biblical Hebrew,Hebrew uses a right-to-left script with twenty-two basic letters.,10
+Hindi,Hindi is conventionally written in Devanagari.,10
+Persian|Farsi|Dari|Tajik|Tajiki,"Persian varieties use Persian-Arabic or Cyrillic writing, depending on the region.",30
+Thai,Thai uses a script derived from earlier Southeast Asian writing traditions.,30
+Bengali|Bangla,"Bengali uses the Bengali script, also closely associated with Assamese writing.",30
+Urdu,Urdu commonly uses a Persian-Arabic script in Nastaliq style.,30
+Tamil,Tamil has its own script with a long literary history.,30
+Ukrainian,Ukrainian is written with a Cyrillic alphabet distinct from Russian's.,30
+Bulgarian,Bulgarian uses a Cyrillic alphabet.,30
+Serbian,Serbian has established use of both Cyrillic and Latin alphabets.,30
+Armenian,Armenian uses an alphabet traditionally attributed to Mesrop Mashtots.,30
+Georgian,Modern Georgian is ordinarily written in the Mkhedruli script.,30
+Sanskrit,Sanskrit is written in Devanagari and several other Indic scripts.,30
+Tibetan,Tibetan uses its own Brahmic-derived writing system.,30
+Burmese|Myanmar language,Burmese uses a script whose letterforms are notably rounded.,30
+Khmer|Cambodian,Khmer uses its own script with a large consonant inventory.,30
+Lao|Laotian,Lao uses a writing system closely related to Thai.,30
+Amharic,Amharic is written with the Ethiopic syllabic system.,30
+Punjabi|Panjabi,Punjabi is written in Gurmukhi and the Persian-Arabic Shahmukhi script.,30
+Gujarati,Gujarati uses a script related to Devanagari but without its continuous headline.,30
+Telugu,Telugu uses a Brahmic-derived script shared in ancestry with Kannada.,30
+Kannada,Kannada has its own script used in southwestern India.,60
+Malayalam,Malayalam uses a rounded Brahmic-derived script.,30
+Sinhala|Sinhalese,Sinhala uses its own script in Sri Lanka.,60
+Marathi,Marathi is commonly written in Devanagari.,60
+Nepali|Nepalese,Nepali uses Devanagari as its standard writing system.,30
+Mongolian,Mongolian has established Cyrillic and traditional vertical writing systems.,30
+Kazakh,Kazakh has established Cyrillic and Arabic-script writing traditions.,30
+Kyrgyz|Kirghiz,Kyrgyz is ordinarily written in Cyrillic in Kyrgyzstan.,60
+Uzbek,"Uzbek has established Latin, Cyrillic, and Arabic-script traditions.",60
+Belarusian|Belorussian,Belarusian is commonly written with a Cyrillic alphabet.,30
+Macedonian,Macedonian uses a Cyrillic alphabet standardized in the twentieth century.,60
+Pashto|Pushto|Pakhto,Pashto uses an extended Arabic script.,30
+Kurdish|Sorani|Central Kurdish,Sorani Kurdish is written with an adapted Arabic alphabet.,30
+Uyghur|Uighur|Uigur,Uyghur commonly uses an Arabic-based alphabet in Xinjiang.,60
+Sindhi,Sindhi has established Arabic-script and Devanagari writing systems.,60
+Kashmiri,"Kashmiri is written in Persian-Arabic, Devanagari, and historical Sharada forms.",85
+Assamese|Asamiya,Assamese uses a script closely related to Bengali.,60
+Odia|Oriya,Odia uses a distinctive script with rounded letterforms.,60
+Dhivehi|Divehi|Maldivian,Dhivehi is written in the right-to-left Thaana script.,85
+Dzongkha|Bhutanese,Dzongkha is written using the Tibetan script.,85
+Tigrinya|Tigrigna,Tigrinya uses the Ethiopic writing system.,85
+Tigre,Tigre has a written tradition using Ethiopic script.,85
+Ge'ez|Geez|Ethiopic language,Ge'ez survives especially as a classical liturgical language.,85
+Yiddish,Yiddish is a Germanic language written with Hebrew letters.,60
+Ladino|Judeo Spanish|Judezmo,Ladino has a historical writing tradition using Hebrew letters.,85
+Aramaic,Aramaic has an ancient alphabetic tradition and surviving modern varieties.,60
+Syriac|Classical Syriac,Syriac is a classical Aramaic language with its own script tradition.,85
+Coptic,Coptic uses Greek-derived letters supplemented by signs of Egyptian origin.,85
+Ancient Egyptian|Egyptian|Egyptian language,"Ancient Egyptian was written in hieroglyphic, hieratic, and demotic forms.",60
+Sumerian,Sumerian was written using cuneiform signs on clay tablets.,85
+Akkadian,Akkadian adapted cuneiform writing for a Semitic language.,85
+Avestan,Avestan religious texts use a specialized alphabet devised for precise recitation.,85
+Pali,Pali is preserved in several South and Southeast Asian scripts.,85
+Church Slavonic|Old Church Slavonic,Church Slavonic has traditions in Cyrillic and Glagolitic writing.,85
+Cherokee,Cherokee uses a syllabary created by Sequoyah.,60
+Inuktitut,Many Inuktitut communities use Canadian Aboriginal syllabics.,60
+Cree,Cree has established syllabic and Latin-script writing systems.,60
+Ojibwe|Ojibwa|Ojibway,Some Ojibwe varieties use Canadian Aboriginal syllabics.,85
+Tamazight|Berber|Amazigh,Tamazight is written in Tifinagh as well as other established scripts.,60
+Hausa,Hausa has an Arabic-derived Ajami writing tradition alongside Latin writing.,60
+Wolof,Wolof has established Arabic-derived Wolofal writing alongside Latin script.,85
+Fula|Fulani|Fulfulde|Pulaar,Fula can be written in Adlam as well as Latin and Arabic scripts.,85
+Vai,Vai has an indigenous syllabary developed in West Africa.,100
+Bamum|Bamun,Bamum has an indigenous writing system developed in Cameroon.,100
+Bambara|Bamanankan,Bambara can be written in N'Ko as well as Latin script.,85
+Maninka|Malinke,Maninka has an established writing tradition using N'Ko.,85
+Mandinka|Mandingo,Mandinka has Arabic-script and Latin-script writing traditions.,85
+Javanese,Javanese has a traditional Indic-derived script alongside Latin writing.,60
+Balinese,Balinese retains an established traditional script used in cultural and religious settings.,85
+Sundanese,Sundanese has its own script alongside widespread Latin writing.,85
+Buginese|Bugis,Buginese has a traditional script known as Lontara.,85
+Batak Toba|Batak|Toba Batak,Batak Toba has an established traditional Batak writing system.,85
+Tagalog,Tagalog has an established historical Baybayin writing tradition.,60
+Malay|Bahasa Melayu,Malay has an Arabic-derived Jawi writing tradition alongside Latin script.,60
+Meitei|Manipuri|Meetei,Meitei uses Meitei Mayek as well as an established Bengali-script tradition.,85
+Santali|Santhali,Santali can be written using Ol Chiki and other scripts.,85
+Newar|Newari|Nepal Bhasa,Newar has traditional Nepalese scripts as well as Devanagari usage.,85
+Maithili,Maithili has Tirhuta and Devanagari writing traditions.,85
+Dogri,Dogri has established Devanagari and historical Dogra writing traditions.,85
+Konkani,"Konkani is written in multiple scripts, including Devanagari and Kannada.",85
+Bodo|Boro,Bodo is ordinarily written in Devanagari.,85
+Lepcha,Lepcha has its own script used in the eastern Himalayas.,85
+Limbu,Limbu has a traditional script also called Sirijonga.,85
+Chakma,Chakma uses its own script related to other Brahmic systems.,85
+Shan,Shan uses a script related to Burmese writing.,85
+Mon,Mon has a long writing tradition in a script related to Burmese.,85
+Tatar,"Tatar has established Cyrillic, Latin, and Arabic-script traditions.",60
+Bashkir,Bashkir is commonly written with an extended Cyrillic alphabet.,85
+Chechen,Chechen is commonly written with an extended Cyrillic alphabet.,60
+Ossetian|Ossetic,Ossetian uses a Cyrillic-based alphabet.,85
+Abkhaz|Abkhazian,Abkhaz is written in an extended Cyrillic alphabet.,85
+Chuvash,Chuvash uses a Cyrillic-based alphabet.,85
+Sakha|Yakut|Yakutian,Sakha is written using Cyrillic with additional letters.,85
+Buryat|Buriat,Buryat has established Cyrillic and Mongolian-script writing traditions.,85
+Tuvan|Tuvinian,Tuvan uses a Cyrillic alphabet with additional letters.,85
+Udmurt,Udmurt is commonly written in a Cyrillic-based alphabet.,85
+Komi,Komi is ordinarily written in Cyrillic.,85
+Kalmyk|Oirat,Kalmyk has Cyrillic and traditional Oirat-script writing traditions.,85
+Dungan,Dungan is a Chinese-related language written using Cyrillic.,85

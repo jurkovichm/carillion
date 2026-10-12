@@ -1,0 +1,63 @@
+ANSWER,Blurb,Worth
+ChatGPT|Chat GPT,OpenAI's conversational assistant product.,10
+GPT|GPT 3|GPT 3.5|GPT 4|GPT 4o|GPT 4.1|GPT 5|GPT 6,OpenAI's family of generative pretrained transformer models.,10
+Claude|Claude Sonnet|Claude Opus|Claude Haiku|Sonnet|Opus|Haiku,Anthropic's family of AI models and conversational assistant.,10
+Gemini|Google Gemini|Bard|Google Bard,Google's model family also names its conversational assistant.,10
+Copilot|Microsoft Copilot,Microsoft's assistant brand for AI-supported work and everyday tasks.,10
+Siri|Apple Siri,Apple's personal assistant helps users operate devices and obtain information.,15
+Alexa|Amazon Alexa|Alexa Plus,Amazon's assistant supports voice interaction and everyday tasks.,30
+Bixby|Samsung Bixby,Samsung's virtual assistant supports interaction with its devices.,60
+DeepSeek|DeepSeek R1|DeepSeek V3,A family of language and reasoning models developed by DeepSeek.,30
+Llama|Llama 2|Llama 3|Llama 4,Meta's family of large language models.,30
+Qwen|Qwen 2|Qwen 2.5|Qwen 3,Alibaba's family of language and multimodal models.,60
+Mistral|Mistral Large|Mistral Small|Mistral Medium,Mistral AI's namesake language-model family.,60
+Gemma|Gemma 2|Gemma 3,Google's family of open-weight AI models.,60
+Phi|Phi 3|Phi 4,Microsoft's family of compact language models.,85
+Falcon|Falcon 7B|Falcon 40B,A language-model family developed by the Technology Innovation Institute.,85
+Command|Command R|Command R Plus,Cohere's language-model family supports enterprise text tasks.,85
+Aya,Cohere's multilingual model family.,85
+Jamba,AI21's model family combines Transformer and Mamba components.,85
+Granite|IBM Granite,IBM's family of models for enterprise AI tasks.,85
+OLMo,The Allen Institute for AI's openly developed language-model family.,85
+DBRX,Databricks' mixture-of-experts language model.,85
+BLOOM,BigScience's multilingual open language model.,85
+GPT-Neo|GPT NeoX,EleutherAI's open autoregressive language-model line.,85
+OPT,Meta's Open Pretrained Transformer language-model family.,85
+T5|Flan T5,A model family that expresses language tasks as text-to-text transformations.,85
+BERT,A bidirectional Transformer model for learning language representations.,60
+RoBERTa,A language-representation model developed by revisiting BERT's training recipe.,85
+ALBERT,A parameter-efficient model architecture derived from BERT.,85
+XLNet,A language model trained using a permutation-based objective.,85
+ELECTRA,A language-representation model trained to detect replaced input tokens.,85
+DeBERTa,A Transformer architecture using disentangled attention representations.,85
+ERNIE,Baidu's family of knowledge-enhanced language models.,85
+GLM|ChatGLM,A family of general language models associated with Zhipu AI.,85
+Hunyuan,Tencent's family of generative AI models.,85
+Nemotron,NVIDIA's family of language models.,85
+SmolLM,A family of compact language models released by Hugging Face.,85
+DALL-E|Dalle|DALL-E 2|DALL-E 3,OpenAI's family of models for generating images from text.,30
+Sora,OpenAI's model family for generating video.,30
+Veo,Google DeepMind's family of video-generation models.,60
+Imagen,Google's family of text-to-image models.,60
+Whisper,OpenAI's model for speech recognition and related audio tasks.,60
+CLIP,A model that learns associations between images and text.,85
+SAM|Segment Anything,Meta's model family for identifying and segmenting objects in images.,85
+AlphaFold,DeepMind's model family for predicting biomolecular structures.,30
+AlphaGo,DeepMind's system that achieved landmark results in the game of Go.,60
+AlphaZero,DeepMind's system learned board games through self-play.,60
+MusicGen,Meta's model for generating music from text or melody conditioning.,85
+Bark,A generative audio model capable of producing speech and other sounds.,85
+BLIP,A model architecture for connecting visual and language tasks.,85
+BART,A sequence-to-sequence model trained by reconstructing corrupted text.,85
+CamemBERT,A language-representation model developed for French text.,100
+Flaubert,A pretrained language model developed for French natural-language processing.,100
+Codestral,Mistral AI's model family focused on code.,60
+Devstral,Mistral AI's model family for software-engineering agents.,85
+Magistral,Mistral AI's reasoning-model family.,85
+Voxtral,Mistral AI's model family for audio understanding.,85
+Ministral,Mistral AI's compact model family.,85
+Grok|Grok 2|Grok 3|Grok 4,xAI's conversational model and assistant family.,30
+Stable Diffusion|SDXL|Stable Diffusion XL,A family of diffusion models used to generate images.,30
+Midjourney,An AI image-generation service with its own model family.,30
+Perplexity|Perplexity AI,An AI-powered answer and research assistant.,30
+Codex|OpenAI Codex,OpenAI's coding model and software-agent name.,30

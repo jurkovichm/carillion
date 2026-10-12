@@ -1,0 +1,77 @@
+{
+  "checked": "2026-10-12",
+  "sources": [
+    {
+      "question": "AP Classes (Current): Name a current AP course.",
+      "principal": "https://apstudents.collegeboard.org/courses",
+      "supporting": [
+        "https://apstudents.collegeboard.org/courses/ap-business-personal-finance",
+        "https://apstudents.collegeboard.org/courses/ap-cybersecurity"
+      ]
+    },
+    {
+      "question": "Chess Terminology: Name a chess piece, move, tactic, position, or rule.",
+      "principal": "https://www.chess.com/terms",
+      "supporting": [
+        "https://handbook.fide.com/chapter/E012023",
+        "https://lichess.org/practice",
+        "https://lichess.org/training/themes"
+      ]
+    },
+    {
+      "question": "USB Types: Name a USB connector type or physical variant.",
+      "principal": "https://compliance.usb.org/index.asp?Format=Standard&UpdateFile=Cables+and+Connectors",
+      "supporting": [
+        "https://www.usb.org/sites/default/files/CabConn_Legacy_3_1_Compliance_Rev_1_1.pdf",
+        "https://www.usb.org/sites/default/files/documents/usb_otg_and_eh_3-0_release_1_1_10may2012.pdf",
+        "https://www.usb.org/usb-type-c"
+      ]
+    },
+    {
+      "question": "Famous Physicists: Name a real physicist, including historical natural philosophers and astrophysicists.",
+      "principal": "https://api.nobelprize.org/2.1/laureates?nobelPrizeCategory=phy&limit=1000",
+      "supporting": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/",
+        "https://history.aip.org/acapsearch/",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Bassi/",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Hawking/",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Faraday/"
+      ]
+    },
+    {
+      "question": "Name a real-life language that uses a non-Latin writing system.",
+      "principal": "https://www.unicode.org/cldr/charts/47/supplemental/scripts_and_languages.html",
+      "supporting": [
+        "https://omniglot.com/writing/langalph.htm"
+      ]
+    },
+    {
+      "question": "Landforms of Geography from that one famous diagram: Name any feature labelled in the diagram.",
+      "principal": null,
+      "supporting": [
+        "https://www.usgs.gov/programs/water-resources/science/water-science-school",
+        "https://education.nationalgeographic.org/resource/landform/"
+      ]
+    },
+    {
+      "question": "AI Models or Sidekick names: Name a real AI model family or software assistant.",
+      "principal": "https://huggingface.co/docs/transformers/model_doc/auto",
+      "supporting": [
+        "https://developers.openai.com/api/docs/models",
+        "https://platform.claude.com/docs/en/models/overview",
+        "https://deepmind.google/models/",
+        "https://docs.mistral.ai/models",
+        "https://docs.cohere.com/docs/models",
+        "https://www.microsoft.com/en-us/copilot",
+        "https://developer.apple.com/design/human-interface-guidelines/siri",
+        "https://alexa.amazon.com/about",
+        "https://www.samsung.com/uk/support/mobile-devices/what-is-bixby-and-how-do-i-use-it/",
+        "https://x.ai/grok",
+        "https://stability.ai/stable-diffusion",
+        "https://www.midjourney.com/",
+        "https://www.perplexity.ai/"
+      ]
+    }
+  ]
+}

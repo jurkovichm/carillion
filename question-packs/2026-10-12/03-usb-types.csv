@@ -1,0 +1,15 @@
+ANSWER,Blurb,Worth
+USB Type-A|Type A|USB A|Standard A|A|USB 3 Type A|SuperSpeed Type A,"The familiar rectangular host-side connector, retained across several USB generations.",10
+USB Type-C|Type C|USB C|C,A reversible connector whose shape alone does not specify data speed.,10
+USB Type-B|Type B|USB B|Standard B|B,The near-square peripheral connector often associated with printers.,30
+USB Mini-B|Mini B|Mini USB|USB Mini|Mini,The older compact connector commonly found on cameras and portable devices.,10
+USB Micro-B|Micro B|Micro USB|USB Micro|Micro,The small five-contact connector formerly common on phones and accessories.,30
+USB Mini-A|Mini A,An older USB On-The-Go plug subsequently replaced by Micro-A.,85
+USB Mini-AB|Mini AB|Mini A B,An obsolete On-The-Go receptacle accepting Mini-A or Mini-B plugs.,85
+USB Micro-A|Micro A,The Micro-USB plug associated with the On-The-Go host role.,60
+USB Micro-AB|Micro AB|Micro A B,An On-The-Go receptacle accepting either Micro-A or Micro-B plugs.,60
+USB SuperSpeed Type-B|USB 3 Type B|USB 3 B|USB 3 Standard B|SuperSpeed B|SuperSpeed Standard B,The enlarged Standard-B form with additional SuperSpeed contacts.,60
+USB SuperSpeed Micro-B|USB 3 Micro B|USB 3 Micro USB|SuperSpeed Micro B,The wide two-part Micro-B form often seen on external hard drives.,60
+USB SuperSpeed Micro-A|USB 3 Micro A|SuperSpeed Micro A,The SuperSpeed Micro-A plug specified for USB On-The-Go connections.,85
+USB SuperSpeed Micro-AB|USB 3 Micro AB|USB 3 Micro A B|SuperSpeed Micro AB,The SuperSpeed receptacle accepting the Micro-A and Micro-B variants.,85
+USB Powered-B|Powered B|USB 3 Powered B|Powered USB B,A Standard-B derivative with extra contacts for accessory power.,100

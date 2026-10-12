@@ -30498,6 +30498,5009 @@ window.DIVE_DAYS = [
         ]
       }
     ]
+  },
+  {
+    "id": "2026-10-12",
+    "label": "12 Oct 2026",
+    "questions": [
+      {
+        "prompt": "AP Classes (Current): Name a current AP course.",
+        "sourceNote": "Prepared for 12 Oct 2026. Curated recall rarity for a general trivia audience, calibrated to 786 imported Krillion answers: 10=7.5%, 15=1.3%, 30=23.0%, 60=31.4%, 85=34.9%, 100=1.9%. These are comparison proportions, not measured player probabilities or forced per-question quotas. The 15-point QUIRKY tier is reserved for deceptively obvious answers. Complete 42-course College Board catalogue as checked on 12 Oct 2026, including Business with Personal Finance and Cybersecurity. Course pages linked by the catalogue establish subject content; https://apstudents.collegeboard.org/courses/ap-business-personal-finance and https://apstudents.collegeboard.org/courses/ap-cybersecurity confirm the newer subjects. AP prefixes optional. Broad groupers follow least-rare ownership: English/Lang \u2192 English Language; Literature/Lit \u2192 English Literature; History \u2192 United States History; Calculus/Calc \u2192 Calculus AB; Physics \u2192 Physics 1; Physics C \u2192 Mechanics; Computer Science/CS \u2192 Computer Science A; Economics/Econ \u2192 Macroeconomics; Government/Gov \u2192 US Government; Spanish \u2192 Spanish Language; Art/Studio Art \u2192 Drawing. Distinguishing course qualifiers retain independent catches. No retired Physics B or Computer Science AB.",
+        "source": "https://apstudents.collegeboard.org/courses",
+        "answers": [
+          {
+            "points": 85,
+            "forms": [
+              "AP 2-D Art and Design",
+              "2-D Art and Design",
+              "2D Art",
+              "AP 2D Art",
+              "2-D Design",
+              "AP 2-D Design",
+              "2D Design",
+              "AP 2D Design",
+              "Studio Art 2D",
+              "AP Studio Art 2D"
+            ],
+            "note": "A portfolio course focused on design in two dimensions."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AP 3-D Art and Design",
+              "3-D Art and Design",
+              "3D Art",
+              "AP 3D Art",
+              "3-D Design",
+              "AP 3-D Design",
+              "3D Design",
+              "AP 3D Design",
+              "Studio Art 3D",
+              "AP Studio Art 3D"
+            ],
+            "note": "A portfolio course focused on design in three dimensions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Drawing",
+              "Drawing",
+              "Studio Art",
+              "AP Studio Art",
+              "Art",
+              "AP Art"
+            ],
+            "note": "Students develop a portfolio of drawings and related artistic work."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Art History",
+              "Art History"
+            ],
+            "note": "Examines works of art across cultures and historical periods."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Music Theory",
+              "Music Theory",
+              "Music",
+              "AP Music"
+            ],
+            "note": "Studies musical structure through listening, analysis, and written notation."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "AP English Language and Composition",
+              "English Language and Composition",
+              "English Language",
+              "AP English Language",
+              "English Lang",
+              "AP English Lang",
+              "Lang",
+              "AP Lang",
+              "English",
+              "AP English",
+              "Language and Composition",
+              "AP Language and Composition"
+            ],
+            "note": "Focuses on rhetoric, nonfiction texts, and evidence-based writing."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP English Literature and Composition",
+              "English Literature and Composition",
+              "English Literature",
+              "AP English Literature",
+              "English Lit",
+              "AP English Lit",
+              "Lit",
+              "AP Lit",
+              "Literature",
+              "AP Literature",
+              "Literature and Composition",
+              "AP Literature and Composition"
+            ],
+            "note": "Studies poetry, fiction, and drama through close reading."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP African American Studies",
+              "African American Studies",
+              "Afam",
+              "AP Afam"
+            ],
+            "note": "An interdisciplinary course examining African American history and culture."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP Comparative Government and Politics",
+              "Comparative Government and Politics",
+              "Comparative Government",
+              "AP Comparative Government",
+              "Comparative Politics",
+              "AP Comparative Politics",
+              "Comp Gov",
+              "AP Comp Gov"
+            ],
+            "note": "Compares political institutions and processes across six countries."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP European History",
+              "European History",
+              "Euro",
+              "AP Euro",
+              "Euro History",
+              "AP Euro History"
+            ],
+            "note": "Studies European developments from the Renaissance onward."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP Human Geography",
+              "Human Geography",
+              "Human Geo",
+              "AP Human Geo",
+              "HUG",
+              "AP HUG",
+              "APHUG",
+              "AP APHUG"
+            ],
+            "note": "Explores patterns in population, culture, cities, and human activity."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP Macroeconomics",
+              "Macroeconomics",
+              "Macro",
+              "AP Macro",
+              "Economics",
+              "AP Economics",
+              "Econ",
+              "AP Econ"
+            ],
+            "note": "Examines whole economies, including inflation, output, and unemployment."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Microeconomics",
+              "Microeconomics",
+              "Micro",
+              "AP Micro"
+            ],
+            "note": "Studies decisions made by consumers, firms, and individual markets."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP Psychology",
+              "Psychology",
+              "Psych",
+              "AP Psych"
+            ],
+            "note": "Examines behavior and mental processes using scientific approaches."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP United States Government and Politics",
+              "United States Government and Politics",
+              "United States Government",
+              "AP United States Government",
+              "US Government",
+              "AP US Government",
+              "US Gov",
+              "AP US Gov",
+              "Gov",
+              "AP Gov",
+              "Government",
+              "AP Government",
+              "US Government and Politics",
+              "AP US Government and Politics"
+            ],
+            "note": "Studies American political institutions, rights, and civic participation."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "AP United States History",
+              "United States History",
+              "US History",
+              "AP US History",
+              "APUSH",
+              "AP APUSH",
+              "American History",
+              "AP American History",
+              "History",
+              "AP History"
+            ],
+            "note": "Examines major developments across the history of the United States."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP World History: Modern",
+              "World History: Modern",
+              "World History",
+              "AP World History",
+              "World",
+              "AP World",
+              "WHAP",
+              "AP WHAP",
+              "Modern World History",
+              "AP Modern World History"
+            ],
+            "note": "Surveys global historical developments beginning around the year 1200."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "AP Calculus AB",
+              "Calculus AB",
+              "Calc AB",
+              "AP Calc AB",
+              "AB",
+              "AP AB",
+              "Calculus",
+              "AP Calculus",
+              "Calc",
+              "AP Calc"
+            ],
+            "note": "Introduces limits, derivatives, integrals, and their applications."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP Calculus BC",
+              "Calculus BC",
+              "Calc BC",
+              "AP Calc BC",
+              "BC",
+              "AP BC"
+            ],
+            "note": "Extends calculus to additional integration techniques and infinite series."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP Computer Science A",
+              "Computer Science A",
+              "CSA",
+              "AP CSA",
+              "CS A",
+              "AP CS A",
+              "Computer Science",
+              "AP Computer Science",
+              "CS",
+              "AP CS",
+              "APCSA",
+              "AP APCSA"
+            ],
+            "note": "Develops programming and problem-solving skills using Java."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Computer Science Principles",
+              "Computer Science Principles",
+              "CSP",
+              "AP CSP",
+              "CS Principles",
+              "AP CS Principles",
+              "APCSP",
+              "AP APCSP"
+            ],
+            "note": "Explores computing concepts, programming, data, and computing's social impact."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Precalculus",
+              "Precalculus",
+              "Precalc",
+              "AP Precalc",
+              "Pre Calc",
+              "AP Pre Calc"
+            ],
+            "note": "Develops reasoning with polynomial, exponential, and trigonometric functions."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP Statistics",
+              "Statistics",
+              "Stats",
+              "AP Stats",
+              "Stat",
+              "AP Stat"
+            ],
+            "note": "Covers data analysis, probability, sampling, and statistical inference."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "AP Biology",
+              "Biology",
+              "Bio",
+              "AP Bio"
+            ],
+            "note": "Studies living systems through biological concepts and experimental investigation."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP Chemistry",
+              "Chemistry",
+              "Chem",
+              "AP Chem"
+            ],
+            "note": "Explores matter, reactions, molecular structure, and chemical equilibrium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Environmental Science",
+              "Environmental Science",
+              "Environmental",
+              "AP Environmental",
+              "APES",
+              "AP APES",
+              "Enviro",
+              "AP Enviro"
+            ],
+            "note": "Investigates environmental systems and human effects on the natural world."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP Physics 1: Algebra-Based",
+              "Physics 1: Algebra-Based",
+              "Physics 1",
+              "AP Physics 1",
+              "Physics I",
+              "AP Physics I",
+              "Algebra Based Physics 1",
+              "AP Algebra Based Physics 1",
+              "Physics",
+              "AP Physics"
+            ],
+            "note": "An algebra-based physics course centered on mechanics and fluids."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Physics 2: Algebra-Based",
+              "Physics 2: Algebra-Based",
+              "Physics 2",
+              "AP Physics 2",
+              "Physics II",
+              "AP Physics II",
+              "Algebra Based Physics 2",
+              "AP Algebra Based Physics 2"
+            ],
+            "note": "An algebra-based course covering topics including electricity, waves, and modern physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP Physics C: Electricity and Magnetism",
+              "Physics C: Electricity and Magnetism",
+              "Physics C E and M",
+              "AP Physics C E and M",
+              "Physics C EM",
+              "AP Physics C EM",
+              "E and M",
+              "AP E and M",
+              "Electricity and Magnetism",
+              "AP Electricity and Magnetism"
+            ],
+            "note": "Uses calculus to study electric and magnetic phenomena."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Physics C: Mechanics",
+              "Physics C: Mechanics",
+              "Physics C",
+              "AP Physics C",
+              "C Mechanics",
+              "AP C Mechanics"
+            ],
+            "note": "Uses calculus to investigate motion, forces, energy, and rotation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP Chinese Language and Culture",
+              "Chinese Language and Culture",
+              "Chinese Language",
+              "AP Chinese Language",
+              "Chinese",
+              "AP Chinese",
+              "Mandarin",
+              "AP Mandarin"
+            ],
+            "note": "Develops Mandarin communication alongside knowledge of Chinese culture."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP French Language and Culture",
+              "French Language and Culture",
+              "French Language",
+              "AP French Language",
+              "French",
+              "AP French"
+            ],
+            "note": "Develops French communication and understanding of Francophone cultures."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP German Language and Culture",
+              "German Language and Culture",
+              "German Language",
+              "AP German Language",
+              "German",
+              "AP German"
+            ],
+            "note": "Develops German communication through language and cultural study."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP Italian Language and Culture",
+              "Italian Language and Culture",
+              "Italian Language",
+              "AP Italian Language",
+              "Italian",
+              "AP Italian"
+            ],
+            "note": "Develops Italian communication alongside cultural understanding."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP Japanese Language and Culture",
+              "Japanese Language and Culture",
+              "Japanese Language",
+              "AP Japanese Language",
+              "Japanese",
+              "AP Japanese"
+            ],
+            "note": "Develops Japanese communication through integrated language and cultural study."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Latin",
+              "Latin"
+            ],
+            "note": "Develops Latin reading and interpretation through classical texts."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AP Spanish Language and Culture",
+              "Spanish Language and Culture",
+              "Spanish Language",
+              "AP Spanish Language",
+              "Spanish",
+              "AP Spanish",
+              "Spanish Lang",
+              "AP Spanish Lang"
+            ],
+            "note": "Develops Spanish communication and understanding of Spanish-speaking cultures."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP Spanish Literature and Culture",
+              "Spanish Literature and Culture",
+              "Spanish Literature",
+              "AP Spanish Literature",
+              "Spanish Lit",
+              "AP Spanish Lit"
+            ],
+            "note": "Studies literary works from the Spanish-speaking world."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP Research",
+              "Research"
+            ],
+            "note": "Students design an investigation and present an academic research project."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AP Seminar",
+              "Seminar"
+            ],
+            "note": "Students investigate issues, evaluate sources, and present evidence-based arguments."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP Business with Personal Finance",
+              "Business with Personal Finance",
+              "Business and Personal Finance",
+              "AP Business and Personal Finance",
+              "Business",
+              "AP Business",
+              "Personal Finance",
+              "AP Personal Finance"
+            ],
+            "note": "Combines introductory business with personal financial decision-making."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AP Cybersecurity",
+              "Cybersecurity",
+              "Cyber Security",
+              "AP Cyber Security",
+              "Cyber",
+              "AP Cyber"
+            ],
+            "note": "Studies how to protect data, devices, and computer networks."
+          }
+        ]
+      },
+      {
+        "prompt": "Chess Terminology: Name a chess piece, move, tactic, position, or rule.",
+        "sourceNote": "Prepared for 12 Oct 2026. Curated recall rarity for a general trivia audience, calibrated to 786 imported Krillion answers: 10=7.5%, 15=1.3%, 30=23.0%, 60=31.4%, 85=34.9%, 100=1.9%. These are comparison proportions, not measured player probabilities or forced per-question quotas. The 15-point QUIRKY tier is reserved for deceptively obvious answers. Broad bank of standard chess vocabulary, including tournament/time-control terms and named tactical or mating patterns; excludes named openings, players, fictional characters, engines, and variant names. Rules: https://handbook.fide.com/chapter/E012023 ; tactics and endgames: https://lichess.org/practice and https://lichess.org/training/themes ; definitions also checked across the linked Chess.com glossary entries. En passant is the 15-point QUIRKY exception because it is the familiar internet-meme answer that feels more obscure than it is. Pawn, bishop, rook and check own their plain-word aliases; specialized patterns require qualifiers. Knight accepts Horse; Rook accepts Castle, whereas Castling is a separate move. Named problem themes Grimshaw and Novotny are retained as obscure tactics, not openings. Composition themes verified against https://en.wikipedia.org/wiki/Grimshaw_(chess) and https://en.wikipedia.org/wiki/Novotny_(chess) .",
+        "source": "https://www.chess.com/terms",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "King"
+            ],
+            "note": "The piece that must never be left under attack."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Queen"
+            ],
+            "note": "Combines the straight-line movements of a rook and bishop."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Rook",
+              "Castle"
+            ],
+            "note": "Moves along files and ranks without jumping over pieces."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Bishop"
+            ],
+            "note": "Moves diagonally and remains on one color of square."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Knight",
+              "Horse"
+            ],
+            "note": "The jumping piece whose usual move forms an L shape."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Pawn"
+            ],
+            "note": "Usually advances straight ahead but captures diagonally."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Check"
+            ],
+            "note": "A direct threat to the opponent's king."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Checkmate",
+              "Mate"
+            ],
+            "note": "The king is attacked and has no legal escape."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stalemate"
+            ],
+            "note": "A drawn position with no legal move and no check."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Castling",
+              "Castle move"
+            ],
+            "note": "A special move involving the king and one rook."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "En passant",
+              "In passing"
+            ],
+            "note": "A pawn capture available immediately after an opposing two-square pawn advance."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Promotion",
+              "Pawn promotion",
+              "Queening"
+            ],
+            "note": "A pawn reaching the final rank changes into another piece."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Underpromotion"
+            ],
+            "note": "Promoting a pawn to a rook, bishop, or knight."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Draw"
+            ],
+            "note": "A game result in which neither player wins."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Resignation",
+              "Resign"
+            ],
+            "note": "Conceding the game before checkmate occurs."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Capture",
+              "Take"
+            ],
+            "note": "Removing an opposing piece by moving onto its square."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fork",
+              "Double attack"
+            ],
+            "note": "One move creates threats against two or more targets."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pin"
+            ],
+            "note": "A piece cannot safely move because something behind it is exposed."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Skewer"
+            ],
+            "note": "Attacks a valuable piece with another target behind it."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Discovered attack",
+              "Discovery"
+            ],
+            "note": "Moving one piece uncovers an attack by another."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Discovered check"
+            ],
+            "note": "Moving a piece uncovers a check from another piece."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Double check"
+            ],
+            "note": "Two pieces simultaneously attack the king."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sacrifice",
+              "Sac"
+            ],
+            "note": "Giving up material to obtain another advantage."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gambit"
+            ],
+            "note": "An offer of material, usually a pawn, for compensation."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blunder"
+            ],
+            "note": "A serious mistake that substantially worsens a position."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mistake"
+            ],
+            "note": "An inaccurate move that harms a player's position."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Inaccuracy"
+            ],
+            "note": "A move that misses a better continuation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brilliant move",
+              "Brilliancy"
+            ],
+            "note": "A particularly impressive or surprising strong move."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Combination"
+            ],
+            "note": "A connected sequence of forcing tactical moves."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tempo"
+            ],
+            "note": "A unit of time measured by a single move."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Initiative"
+            ],
+            "note": "The ability to make threats that force responses."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Development"
+            ],
+            "note": "Bringing pieces into useful positions, especially early in the game."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Opening"
+            ],
+            "note": "The initial phase of a chess game."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Middlegame",
+              "Middle game"
+            ],
+            "note": "The phase between opening development and the endgame."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Endgame",
+              "End game"
+            ],
+            "note": "The late phase, often with relatively few pieces remaining."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kingside",
+              "King side"
+            ],
+            "note": "The half of the board where the king starts."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Queenside",
+              "Queen side"
+            ],
+            "note": "The half of the board where the queen starts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "File"
+            ],
+            "note": "A vertical column of eight squares on the board."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rank"
+            ],
+            "note": "A horizontal row of eight squares on the board."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Diagonal"
+            ],
+            "note": "A line of squares running corner to corner."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Center",
+              "Centre"
+            ],
+            "note": "The central board squares, especially d4, e4, d5, and e5."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fianchetto"
+            ],
+            "note": "Developing a bishop to the second rank behind a flank pawn."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zugzwang"
+            ],
+            "note": "A position where the obligation to move is harmful."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zwischenzug",
+              "Intermezzo",
+              "Intermediate move",
+              "In between move"
+            ],
+            "note": "An intervening threat played before an expected reply."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Opposition"
+            ],
+            "note": "An endgame relationship that helps one king restrict the other."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Triangulation"
+            ],
+            "note": "A maneuver that returns to a position with the opponent to move."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Perpetual check"
+            ],
+            "note": "Repeated checks that can force a draw through repetition."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Threefold repetition",
+              "Repetition",
+              "Three fold repetition",
+              "3 fold repetition"
+            ],
+            "note": "A player may claim a draw after the same position occurs three times."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fivefold repetition",
+              "Five fold repetition",
+              "5 fold repetition"
+            ],
+            "note": "Five occurrences of the same position automatically draw the game."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fifty-move rule",
+              "50 move rule"
+            ],
+            "note": "Allows a draw claim after fifty moves each without pawn moves or captures."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Seventy-five-move rule",
+              "75 move rule"
+            ],
+            "note": "Normally draws a game after seventy-five moves each without pawn moves or captures."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Touch-move",
+              "Touch move rule"
+            ],
+            "note": "A deliberately touched piece generally must be moved if legally possible."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "J'adoube",
+              "I adjust",
+              "Adjust"
+            ],
+            "note": "An announcement that a player intends only to adjust a piece."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dead position"
+            ],
+            "note": "A position where no legal sequence can produce checkmate."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Insufficient material"
+            ],
+            "note": "Too little material remains for the relevant mating possibility."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Passed pawn"
+            ],
+            "note": "A pawn with no opposing pawns blocking its path on adjacent files."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Isolated pawn",
+              "Isolani"
+            ],
+            "note": "A pawn without friendly pawns on adjacent files."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Doubled pawns",
+              "Doubled pawn"
+            ],
+            "note": "Two pawns of the same side occupying the same file."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Backward pawn"
+            ],
+            "note": "A pawn lagging behind neighboring pawns and difficult to advance safely."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Connected pawns"
+            ],
+            "note": "Friendly pawns on neighboring files that can support one another."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pawn chain"
+            ],
+            "note": "A diagonal line of pawns protecting one another."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pawn island"
+            ],
+            "note": "A group of pawns separated from others by empty files."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pawn storm"
+            ],
+            "note": "An advance of several pawns used to attack the opponent."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pawn break"
+            ],
+            "note": "A pawn advance intended to alter or open the pawn structure."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Minority attack"
+            ],
+            "note": "An attack using fewer pawns against a larger opposing pawn group."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Outpost"
+            ],
+            "note": "A useful advanced square where a piece is hard to dislodge."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Open file"
+            ],
+            "note": "A file containing no pawns of either color."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Half-open file",
+              "Semi open file"
+            ],
+            "note": "A file lacking one side's pawns but containing an opponent's pawn."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Battery"
+            ],
+            "note": "Two or more aligned pieces cooperating along a line."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alekhine's gun",
+              "Alekhines gun"
+            ],
+            "note": "A formation with the queen behind two rooks on one file."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "X-ray attack",
+              "X ray",
+              "Xray"
+            ],
+            "note": "Pressure through an intervening piece toward a target behind it."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Deflection"
+            ],
+            "note": "Forcing a defender away from a duty or important square."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Decoy",
+              "Attraction"
+            ],
+            "note": "Luring an opposing piece onto a vulnerable square."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Interference"
+            ],
+            "note": "Interrupting the line connecting an enemy piece and its target."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Overloading",
+              "Overloaded piece"
+            ],
+            "note": "Exploiting a defender that has more duties than it can fulfill."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Undermining",
+              "Remove the defender",
+              "Removing the defender"
+            ],
+            "note": "Eliminating a piece or pawn that protects an important target."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Clearance"
+            ],
+            "note": "Vacating a square or line so another piece can use it."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Desperado"
+            ],
+            "note": "A doomed piece gains something before its inevitable capture."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Windmill"
+            ],
+            "note": "A repeated checking mechanism that permits successive material gains."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Greek gift",
+              "Greek gift sacrifice"
+            ],
+            "note": "A familiar bishop sacrifice near a castled king, usually on h7 or h2."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Smothered mate"
+            ],
+            "note": "A knight mates a king hemmed in by its own pieces."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Back-rank mate",
+              "Back rank checkmate"
+            ],
+            "note": "A rook or queen mates a king trapped on its back rank."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Anastasia's mate"
+            ],
+            "note": "A knight and rook coordinate against a king near the board's edge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Arabian mate"
+            ],
+            "note": "A rook and knight cooperate to mate a king in a corner."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Boden's mate"
+            ],
+            "note": "Two bishops deliver mate along intersecting diagonals."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dovetail mate"
+            ],
+            "note": "A queen mates a king whose retreat squares are blocked by its own pieces."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Epaulette mate"
+            ],
+            "note": "A king is trapped beside its own pieces in a mating pattern."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Grimshaw"
+            ],
+            "note": "Mutual interference between a rook and bishop on the same square."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Novotny"
+            ],
+            "note": "A sacrificial interference on the intersection of two defensive lines."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Luft"
+            ],
+            "note": "An escape square made for the king, often by advancing a pawn."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Prophylaxis"
+            ],
+            "note": "Anticipating and preventing the opponent's intended plans."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fortress"
+            ],
+            "note": "A defensive arrangement that stronger material cannot easily break."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Swindle"
+            ],
+            "note": "An unexpected resource that salvages a bad or lost position."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Transposition"
+            ],
+            "note": "Reaching the same position through a different order of moves."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Exchange"
+            ],
+            "note": "A trade of pieces; also the value difference between rook and minor piece."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Exchange sacrifice"
+            ],
+            "note": "Giving up a rook for a bishop or knight for compensation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bishop pair"
+            ],
+            "note": "Possessing both bishops, which can control both square colors."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bad bishop"
+            ],
+            "note": "A bishop restricted by its own pawns on its color."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Good bishop"
+            ],
+            "note": "A bishop with useful scope relative to its own pawn structure."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Minor piece"
+            ],
+            "note": "A bishop or knight, as distinguished from a rook or queen."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Major piece",
+              "Heavy piece"
+            ],
+            "note": "A rook or queen, the longer-ranging heavy pieces."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hanging piece",
+              "En prise"
+            ],
+            "note": "An unprotected piece that can be captured profitably."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Poisoned pawn"
+            ],
+            "note": "An apparently free pawn whose capture creates serious problems."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blitz",
+              "Blitz chess"
+            ],
+            "note": "A fast time control with a small number of minutes per player."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rapid",
+              "Rapid chess"
+            ],
+            "note": "A time control between classical chess and blitz."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bullet",
+              "Bullet chess"
+            ],
+            "note": "Extremely fast chess, commonly around one minute per player."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Classical",
+              "Classical chess"
+            ],
+            "note": "Chess played at longer time controls."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Increment"
+            ],
+            "note": "Time added to a player's clock after a move."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flag fall",
+              "Flagging",
+              "Flag"
+            ],
+            "note": "The expiration of a player's allotted time."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Time trouble",
+              "Zeitnot"
+            ],
+            "note": "Having very little clock time to make the remaining moves."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Arbiter"
+            ],
+            "note": "The official who supervises play and applies the rules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Adjournment"
+            ],
+            "note": "Suspending a game to resume it later."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sealed move"
+            ],
+            "note": "A move recorded privately when a game is adjourned."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Algebraic notation",
+              "Notation"
+            ],
+            "note": "Records moves using piece letters and board coordinates."
+          }
+        ]
+      },
+      {
+        "prompt": "USB Types: Name a USB connector type or physical variant.",
+        "sourceNote": "Prepared for 12 Oct 2026. Curated recall rarity for a general trivia audience, calibrated to 786 imported Krillion answers: 10=7.5%, 15=1.3%, 30=23.0%, 60=31.4%, 85=34.9%, 100=1.9%. These are comparison proportions, not measured player probabilities or forced per-question quotas. The 15-point QUIRKY tier is reserved for deceptively obvious answers. Finite set of 14 standardized external connector families and physically distinct SuperSpeed variants, including historical/obsolete types and AB receptacles. Excludes speed standards alone, USB Power Delivery modes, internal motherboard headers, proprietary connectors, Lightning and Thunderbolt branding. USB 2/3 Standard-A share one family because the outer mating form is compatible; enlarged SuperSpeed B/Micro variants remain distinct. Bare Mini USB maps to Mini-B (30), Micro USB to Micro-B (30), Type B to Standard-B (30). Sources: https://www.usb.org/sites/default/files/CabConn_Legacy_3_1_Compliance_Rev_1_1.pdf establishes SuperSpeed A/B, Powered-B and Micro-A/B/AB; https://www.usb.org/sites/default/files/documents/usb_otg_and_eh_3-0_release_1_1_10may2012.pdf establishes Micro-AB OTG; https://www.usb.org/usb-type-c establishes Type-C. USB-IF compliance updates establish withdrawn Mini-A/Mini-AB.",
+        "source": "https://compliance.usb.org/index.asp?Format=Standard&UpdateFile=Cables+and+Connectors",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "USB Type-A",
+              "Type A",
+              "USB A",
+              "Standard A",
+              "A",
+              "USB 3 Type A",
+              "SuperSpeed Type A"
+            ],
+            "note": "The familiar rectangular host-side connector, retained across several USB generations."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "USB Type-C",
+              "Type C",
+              "USB C",
+              "C"
+            ],
+            "note": "A reversible connector whose shape alone does not specify data speed."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "USB Type-B",
+              "Type B",
+              "USB B",
+              "Standard B",
+              "B"
+            ],
+            "note": "The near-square peripheral connector often associated with printers."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "USB Mini-B",
+              "Mini B",
+              "Mini USB",
+              "USB Mini",
+              "Mini"
+            ],
+            "note": "The older compact connector commonly found on cameras and portable devices."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "USB Micro-B",
+              "Micro B",
+              "Micro USB",
+              "USB Micro",
+              "Micro"
+            ],
+            "note": "The small five-contact connector formerly common on phones and accessories."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "USB Mini-A",
+              "Mini A"
+            ],
+            "note": "An older USB On-The-Go plug subsequently replaced by Micro-A."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "USB Mini-AB",
+              "Mini AB",
+              "Mini A B"
+            ],
+            "note": "An obsolete On-The-Go receptacle accepting Mini-A or Mini-B plugs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "USB Micro-A",
+              "Micro A"
+            ],
+            "note": "The Micro-USB plug associated with the On-The-Go host role."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "USB Micro-AB",
+              "Micro AB",
+              "Micro A B"
+            ],
+            "note": "An On-The-Go receptacle accepting either Micro-A or Micro-B plugs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "USB SuperSpeed Type-B",
+              "USB 3 Type B",
+              "USB 3 B",
+              "USB 3 Standard B",
+              "SuperSpeed B",
+              "SuperSpeed Standard B"
+            ],
+            "note": "The enlarged Standard-B form with additional SuperSpeed contacts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "USB SuperSpeed Micro-B",
+              "USB 3 Micro B",
+              "USB 3 Micro USB",
+              "SuperSpeed Micro B"
+            ],
+            "note": "The wide two-part Micro-B form often seen on external hard drives."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "USB SuperSpeed Micro-A",
+              "USB 3 Micro A",
+              "SuperSpeed Micro A"
+            ],
+            "note": "The SuperSpeed Micro-A plug specified for USB On-The-Go connections."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "USB SuperSpeed Micro-AB",
+              "USB 3 Micro AB",
+              "USB 3 Micro A B",
+              "SuperSpeed Micro AB"
+            ],
+            "note": "The SuperSpeed receptacle accepting the Micro-A and Micro-B variants."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "USB Powered-B",
+              "Powered B",
+              "USB 3 Powered B",
+              "Powered USB B"
+            ],
+            "note": "A Standard-B derivative with extra contacts for accessory power."
+          }
+        ]
+      },
+      {
+        "prompt": "Famous Physicists: Name a real physicist, including historical natural philosophers and astrophysicists.",
+        "sourceNote": "Prepared for 12 Oct 2026. Curated recall rarity for a general trivia audience, calibrated to 786 imported Krillion answers: 10=7.5%, 15=1.3%, 30=23.0%, 60=31.4%, 85=34.9%, 100=1.9%. These are comparison proportions, not measured player probabilities or forced per-question quotas. The 15-point QUIRKY tier is reserved for deceptively obvious answers. Broad historical bank covering Nobel laureates, classical physics, experimental physics, mathematical physics and astrophysics; not a claim to list every physicist. Nobel membership and award years were checked against the Nobel Foundation API. Non-Nobel scientists and blurbs use the University of St Andrews MacTutor biographies at https://mathshistory.st-andrews.ac.uk/Biographies/ and AIP Physics History Network https://history.aip.org/acapsearch/ ; Examples checked include https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/ , https://mathshistory.st-andrews.ac.uk/Biographies/Bassi/ , https://mathshistory.st-andrews.ac.uk/Biographies/Hawking/ and https://mathshistory.st-andrews.ac.uk/Biographies/Faraday/ . Engineers such as Tesla qualify through substantial physical research; generic inventors and fictional scientists are excluded. Surname aliases are unique except documented familiar owners: Curie \u2192 Marie, Bohr \u2192 Niels, Thomson \u2192 J. J., Bragg \u2192 William Lawrence (same tier as William Henry). Related scientists remain separate full-name catches. Ambiguous partial inputs may still prompt an autocorrect suggestion, which requires confirmation.",
+        "source": "https://api.nobelprize.org/2.1/laureates?nobelPrizeCategory=phy&limit=1000",
+        "answers": [
+          {
+            "points": 85,
+            "forms": [
+              "Aage Bohr",
+              "Aage N. Bohr",
+              "Aage Niels Bohr"
+            ],
+            "note": "Received the 1975 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Abdus Salam",
+              "Salam"
+            ],
+            "note": "Received the 1979 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Adam G. Riess",
+              "Riess"
+            ],
+            "note": "Received the 2011 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Alain Aspect",
+              "Aspect"
+            ],
+            "note": "Received the 2022 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Albert A. Michelson",
+              "Albert Abraham Michelson",
+              "Michelson"
+            ],
+            "note": "Received the 1907 Nobel Prize in Physics."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Albert Einstein",
+              "Einstein"
+            ],
+            "note": "Received the 1921 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aleksandr M. Prokhorov",
+              "Aleksandr Mikhailovich Prokhorov",
+              "Prokhorov"
+            ],
+            "note": "Received the 1964 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alfred Kastler",
+              "Kastler"
+            ],
+            "note": "Received the 1966 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Andre Geim",
+              "Geim"
+            ],
+            "note": "Received the 2010 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Andrea Ghez",
+              "Ghez"
+            ],
+            "note": "Received the 2020 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anton Zeilinger",
+              "Zeilinger"
+            ],
+            "note": "Received the 2022 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Arno Penzias",
+              "Arno Allan Penzias",
+              "Penzias"
+            ],
+            "note": "Received the 1978 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Arthur H. Compton",
+              "Arthur Holly Compton",
+              "Compton"
+            ],
+            "note": "Received the 1927 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brian D. Josephson",
+              "Brian David Josephson",
+              "Josephson"
+            ],
+            "note": "Received the 1973 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brian P. Schmidt",
+              "Schmidt"
+            ],
+            "note": "Received the 2011 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Charles Thomson Rees Wilson",
+              "C.T.R. Wilson"
+            ],
+            "note": "Received the 1927 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Carl D. Anderson",
+              "Carl David Anderson"
+            ],
+            "note": "Received the 1936 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Carl Wieman",
+              "Carl E. Wieman",
+              "Wieman"
+            ],
+            "note": "Received the 2001 Nobel Prize in Physics."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Charles Edouard Guillaume",
+              "Guillaume"
+            ],
+            "note": "Received the 1920 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charles H. Townes",
+              "Charles Hard Townes",
+              "Townes"
+            ],
+            "note": "Received the 1964 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charles K. Kao",
+              "Charles Kuen Kao",
+              "Kao"
+            ],
+            "note": "Received the 2009 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chen Ning Yang",
+              "Yang"
+            ],
+            "note": "Received the 1957 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Claude Cohen-Tannoudji",
+              "Cohen-Tannoudji"
+            ],
+            "note": "Received the 1997 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "David M. Lee"
+            ],
+            "note": "Received the 1996 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dennis Gabor",
+              "Gabor"
+            ],
+            "note": "Received the 1971 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Didier Queloz",
+              "Queloz"
+            ],
+            "note": "Received the 2019 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Donna Strickland",
+              "Strickland"
+            ],
+            "note": "Received the 2018 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Enrico Fermi",
+              "Fermi"
+            ],
+            "note": "Received the 1938 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eric Cornell",
+              "Eric A. Cornell",
+              "Cornell"
+            ],
+            "note": "Received the 2001 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ernest Lawrence",
+              "Ernest Orlando Lawrence",
+              "Lawrence"
+            ],
+            "note": "Received the 1939 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ernest T.S. Walton",
+              "Ernest Thomas Sinton Walton",
+              "Walton"
+            ],
+            "note": "Received the 1951 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Erwin Schr\u00f6dinger",
+              "Schr\u00f6dinger"
+            ],
+            "note": "Received the 1933 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eugene Wigner",
+              "Eugene Paul Wigner",
+              "Wigner"
+            ],
+            "note": "Received the 1963 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Felix Bloch",
+              "Bloch"
+            ],
+            "note": "Received the 1952 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ferdinand Braun",
+              "Karl Ferdinand Braun",
+              "Braun"
+            ],
+            "note": "Received the 1909 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ferenc Krausz",
+              "Krausz"
+            ],
+            "note": "Received the 2023 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fran\u00e7ois Englert",
+              "Englert"
+            ],
+            "note": "Received the 2013 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Frank Wilczek",
+              "Wilczek"
+            ],
+            "note": "Received the 2004 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Frederick Reines",
+              "Reines"
+            ],
+            "note": "Received the 1995 Nobel Prize in Physics."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Frits Zernike",
+              "Zernike"
+            ],
+            "note": "Received the 1953 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gabriel Lippmann",
+              "Lippmann"
+            ],
+            "note": "Received the 1908 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geoffrey Hinton",
+              "Hinton"
+            ],
+            "note": "Received the 2024 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gerardus 't Hooft",
+              "Hooft"
+            ],
+            "note": "Received the 1999 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gerd Binnig",
+              "Binnig"
+            ],
+            "note": "Received the 1986 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Giorgio Parisi",
+              "Parisi"
+            ],
+            "note": "Received the 2021 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Guglielmo Marconi",
+              "Marconi"
+            ],
+            "note": "Received the 1909 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gustav Hertz",
+              "Gustav Ludwig Hertz"
+            ],
+            "note": "Received the 1925 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hannes Alfv\u00e9n",
+              "Hannes Olof G\u00f6sta Alfv\u00e9n",
+              "Alfv\u00e9n"
+            ],
+            "note": "Received the 1970 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hans Bethe",
+              "Hans Albrecht Bethe",
+              "Bethe"
+            ],
+            "note": "Received the 1967 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heike Kamerlingh Onnes",
+              "Onnes"
+            ],
+            "note": "Received the 1913 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Heinrich Rohrer",
+              "Rohrer"
+            ],
+            "note": "Received the 1986 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hendrik A. Lorentz",
+              "Hendrik Antoon Lorentz",
+              "Lorentz"
+            ],
+            "note": "Received the 1902 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Henri Becquerel",
+              "Antoine Henri Becquerel",
+              "Becquerel"
+            ],
+            "note": "Received the 1903 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hideki Yukawa",
+              "Yukawa"
+            ],
+            "note": "Received the 1949 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Il\u00b4ja M. Frank",
+              "Il\u00b4ja Mikhailovich Frank",
+              "Frank"
+            ],
+            "note": "Received the 1958 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Isidor Isaac Rabi",
+              "Rabi"
+            ],
+            "note": "Received the 1944 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ivar Giaever",
+              "Giaever"
+            ],
+            "note": "Received the 1973 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "J. J. Thomson",
+              "Joseph John Thomson",
+              "Thomson"
+            ],
+            "note": "Received the 1906 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "James Chadwick",
+              "Chadwick"
+            ],
+            "note": "Received the 1935 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "James Franck",
+              "Franck"
+            ],
+            "note": "Received the 1925 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "James Peebles",
+              "Peebles"
+            ],
+            "note": "Received the 2019 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "James Rainwater",
+              "Leo James Rainwater",
+              "Rainwater"
+            ],
+            "note": "Received the 1975 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jean Baptiste Perrin",
+              "Perrin"
+            ],
+            "note": "Received the 1926 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Johannes Diderik van der Waals",
+              "Waals"
+            ],
+            "note": "Received the 1910 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Johannes Stark",
+              "Stark"
+            ],
+            "note": "Received the 1919 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "John Bardeen",
+              "Bardeen"
+            ],
+            "note": "Received the 1956 and 1972 Nobel Prizes in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John Cockcroft",
+              "Sir John Douglas Cockcroft",
+              "Cockcroft"
+            ],
+            "note": "Received the 1951 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "John H. Van Vleck",
+              "John Hasbrouck Van Vleck",
+              "Vleck"
+            ],
+            "note": "Received the 1977 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John J. Hopfield",
+              "Hopfield"
+            ],
+            "note": "Received the 2024 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "K. Alex M\u00fcller",
+              "K. Alexander M\u00fcller",
+              "M\u00fcller"
+            ],
+            "note": "Received the 1987 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kenneth G. Wilson"
+            ],
+            "note": "Received the 1982 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kip Thorne",
+              "Kip S. Thorne",
+              "Thorne"
+            ],
+            "note": "Received the 2017 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Konstantin Novoselov",
+              "Novoselov"
+            ],
+            "note": "Received the 2010 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "William Lawrence Bragg",
+              "Lawrence Bragg",
+              "Bragg"
+            ],
+            "note": "Received the 1915 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Leo Esaki",
+              "Esaki"
+            ],
+            "note": "Received the 1973 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Leon M. Lederman",
+              "Lederman"
+            ],
+            "note": "Received the 1988 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Leon N. Cooper",
+              "Leon Neil Cooper",
+              "Cooper"
+            ],
+            "note": "Received the 1972 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lev Landau",
+              "Lev Davidovich Landau",
+              "Landau"
+            ],
+            "note": "Received the 1962 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lord Rayleigh",
+              "Lord Rayleigh (John William Strutt)",
+              "Rayleigh"
+            ],
+            "note": "Received the 1904 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Louis de Broglie",
+              "Prince Louis-Victor Pierre Raymond de Broglie",
+              "Broglie"
+            ],
+            "note": "Received the 1929 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Louis N\u00e9el",
+              "Louis Eug\u00e8ne F\u00e9lix N\u00e9el",
+              "N\u00e9el"
+            ],
+            "note": "Received the 1970 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Luis Alvarez",
+              "Luis Walter Alvarez",
+              "Alvarez"
+            ],
+            "note": "Received the 1968 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Maria Goeppert Mayer",
+              "Mayer"
+            ],
+            "note": "Received the 1963 Nobel Prize in Physics."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Marie Curie",
+              "Marie Curie, n\u00e9e Sk\u0142odowska",
+              "Curie"
+            ],
+            "note": "Received the 1903 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Martin Ryle",
+              "Sir Martin Ryle",
+              "Ryle"
+            ],
+            "note": "Received the 1974 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Max Born",
+              "Born"
+            ],
+            "note": "Received the 1954 Nobel Prize in Physics."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Max Planck",
+              "Max Karl Ernst Ludwig Planck",
+              "Planck"
+            ],
+            "note": "Received the 1918 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Max von Laue",
+              "Laue"
+            ],
+            "note": "Received the 1914 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Michel Mayor",
+              "Mayor"
+            ],
+            "note": "Received the 2019 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Murray Gell-Mann",
+              "Gell-Mann"
+            ],
+            "note": "Received the 1969 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nicolay G. Basov",
+              "Nicolay Gennadiyevich Basov",
+              "Basov"
+            ],
+            "note": "Received the 1964 Nobel Prize in Physics."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Niels Bohr",
+              "Niels Henrik David Bohr",
+              "Bohr"
+            ],
+            "note": "Received the 1922 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Otto Stern",
+              "Stern"
+            ],
+            "note": "Received the 1943 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Patrick M.S. Blackett",
+              "Patrick Maynard Stuart Blackett",
+              "Blackett"
+            ],
+            "note": "Received the 1948 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Paul Dirac",
+              "Paul A.M. Dirac",
+              "Paul Adrien Maurice Dirac",
+              "Dirac"
+            ],
+            "note": "Received the 1933 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pavel A. Cherenkov",
+              "Pavel Alekseyevich Cherenkov",
+              "Cherenkov"
+            ],
+            "note": "Received the 1958 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Peter Higgs",
+              "Peter W. Higgs",
+              "Higgs"
+            ],
+            "note": "Received the 2013 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Philip W. Anderson",
+              "Philip Warren Anderson"
+            ],
+            "note": "Received the 1977 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Philipp Lenard",
+              "Philipp Eduard Anton von Lenard",
+              "Lenard"
+            ],
+            "note": "Received the 1905 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pierre Curie"
+            ],
+            "note": "Received the 1903 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pierre-Gilles de Gennes",
+              "Gennes"
+            ],
+            "note": "Received the 1991 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pieter Zeeman",
+              "Zeeman"
+            ],
+            "note": "Received the 1902 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Polykarp Kusch",
+              "Kusch"
+            ],
+            "note": "Received the 1955 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pyotr Kapitsa",
+              "Pyotr Leonidovich Kapitsa",
+              "Kapitsa"
+            ],
+            "note": "Received the 1978 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rainer Weiss",
+              "Weiss"
+            ],
+            "note": "Received the 2017 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Reinhard Genzel",
+              "Genzel"
+            ],
+            "note": "Received the 2020 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Riccardo Giacconi",
+              "Giacconi"
+            ],
+            "note": "Received the 2002 Nobel Prize in Physics."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Richard Feynman",
+              "Richard P. Feynman",
+              "Feynman"
+            ],
+            "note": "Received the 1965 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Robert Woodrow Wilson"
+            ],
+            "note": "Received the 1978 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Roger Penrose",
+              "Penrose"
+            ],
+            "note": "Received the 2020 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rudolf M\u00f6ssbauer",
+              "Rudolf Ludwig M\u00f6ssbauer",
+              "M\u00f6ssbauer"
+            ],
+            "note": "Received the 1961 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Russell A. Hulse",
+              "Hulse"
+            ],
+            "note": "Received the 1993 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Saul Perlmutter",
+              "Perlmutter"
+            ],
+            "note": "Received the 2011 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Serge Haroche",
+              "Haroche"
+            ],
+            "note": "Received the 2012 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Shuji Nakamura",
+              "Nakamura"
+            ],
+            "note": "Received the 2014 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sin-Itiro Tomonaga",
+              "Tomonaga"
+            ],
+            "note": "Received the 1965 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "C. V. Raman",
+              "Sir Chandrasekhara Venkata Raman",
+              "Raman"
+            ],
+            "note": "Received the 1930 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sir Nevill F. Mott",
+              "Sir Nevill Francis Mott",
+              "Mott"
+            ],
+            "note": "Received the 1977 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Steven Chu",
+              "Chu"
+            ],
+            "note": "Received the 1997 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Steven Weinberg",
+              "Weinberg"
+            ],
+            "note": "Received the 1979 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Subrahmanyan Chandrasekhar",
+              "Chandrasekhar"
+            ],
+            "note": "Received the 1983 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Syukuro Manabe",
+              "Manabe"
+            ],
+            "note": "Received the 2021 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Takaaki Kajita",
+              "Kajita"
+            ],
+            "note": "Received the 2015 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Theodor W. H\u00e4nsch",
+              "H\u00e4nsch"
+            ],
+            "note": "Received the 2005 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tsung-Dao Lee",
+              "Tsung-Dao (T.D.) Lee"
+            ],
+            "note": "Received the 1957 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Victor F. Hess",
+              "Victor Franz Hess",
+              "Hess"
+            ],
+            "note": "Received the 1936 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vitaly L. Ginzburg",
+              "Vitaly Lazarevich Ginzburg",
+              "Ginzburg"
+            ],
+            "note": "Received the 2003 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Walter H. Brattain",
+              "Walter Houser Brattain",
+              "Brattain"
+            ],
+            "note": "Received the 1956 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Walther Bothe",
+              "Bothe"
+            ],
+            "note": "Received the 1954 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Werner Heisenberg",
+              "Werner Karl Heisenberg",
+              "Heisenberg"
+            ],
+            "note": "Received the 1932 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Wilhelm Conrad R\u00f6ntgen",
+              "R\u00f6ntgen"
+            ],
+            "note": "Received the 1901 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William A. Fowler",
+              "William Alfred Fowler",
+              "Fowler"
+            ],
+            "note": "Received the 1983 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "William B. Shockley",
+              "William Bradford Shockley",
+              "Shockley"
+            ],
+            "note": "Received the 1956 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "William Henry Bragg",
+              "William Bragg",
+              "Sir William Henry Bragg"
+            ],
+            "note": "Received the 1915 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William D. Phillips",
+              "Phillips"
+            ],
+            "note": "Received the 1997 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Willis E. Lamb",
+              "Willis Eugene Lamb",
+              "Lamb"
+            ],
+            "note": "Received the 1955 Nobel Prize in Physics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wolfgang Ketterle",
+              "Ketterle"
+            ],
+            "note": "Received the 2001 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wolfgang Paul",
+              "Paul"
+            ],
+            "note": "Received the 1989 Nobel Prize in Physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Wolfgang Pauli",
+              "Pauli"
+            ],
+            "note": "Received the 1945 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Yoichiro Nambu",
+              "Nambu"
+            ],
+            "note": "Received the 2008 Nobel Prize in Physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zhores Alferov",
+              "Zhores I. Alferov",
+              "Alferov"
+            ],
+            "note": "Received the 2000 Nobel Prize in Physics."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Isaac Newton",
+              "Sir Isaac Newton",
+              "Newton"
+            ],
+            "note": "Formulated laws of motion and universal gravitation."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Galileo Galilei",
+              "Galileo",
+              "Galilei"
+            ],
+            "note": "Studied motion and used telescopic observations to challenge older cosmology."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Stephen Hawking",
+              "Hawking"
+            ],
+            "note": "Developed the prediction that black holes emit radiation."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "J. Robert Oppenheimer",
+              "Robert Oppenheimer",
+              "Oppenheimer"
+            ],
+            "note": "Directed the Los Alamos laboratory during the Manhattan Project."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Michael Faraday",
+              "Faraday"
+            ],
+            "note": "Discovered electromagnetic induction through experiments with electricity and magnetism."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "James Clerk Maxwell",
+              "James Maxwell",
+              "Maxwell"
+            ],
+            "note": "Unified electricity, magnetism, and light in electromagnetic theory."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Nikola Tesla",
+              "Tesla"
+            ],
+            "note": "Developed important alternating-current motors and electrical systems."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ernest Rutherford",
+              "Rutherford"
+            ],
+            "note": "Established the nuclear model of the atom through scattering research."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lise Meitner",
+              "Meitner"
+            ],
+            "note": "Helped explain nuclear fission after the discovery of its experimental evidence."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Chien-Shiung Wu",
+              "C S Wu",
+              "Wu"
+            ],
+            "note": "Led the experiment demonstrating parity violation in weak interactions."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jocelyn Bell Burnell",
+              "Jocelyn Bell",
+              "Burnell"
+            ],
+            "note": "Discovered the first radio pulsars as a research student."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Satyendra Nath Bose",
+              "S N Bose",
+              "Bose"
+            ],
+            "note": "Developed the quantum statistics associated with bosons."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Emmy Noether",
+              "Noether"
+            ],
+            "note": "Connected continuous symmetries with conservation laws in physics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ludwig Boltzmann",
+              "Boltzmann"
+            ],
+            "note": "Helped establish statistical mechanics and its account of entropy."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "William Thomson",
+              "Lord Kelvin",
+              "Kelvin"
+            ],
+            "note": "Helped develop thermodynamics and an absolute temperature scale."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Andr\u00e9-Marie Amp\u00e8re",
+              "Amp\u00e8re"
+            ],
+            "note": "Studied the forces between electric currents."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Charles-Augustin de Coulomb",
+              "Charles Coulomb",
+              "Coulomb"
+            ],
+            "note": "Measured the force between electric charges."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Alessandro Volta",
+              "Volta"
+            ],
+            "note": "Invented an early electric battery known as the voltaic pile."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Georg Simon Ohm",
+              "Georg Ohm",
+              "Ohm"
+            ],
+            "note": "Established the relationship between current, voltage, and electrical resistance."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "James Prescott Joule",
+              "James Joule",
+              "Joule"
+            ],
+            "note": "Measured the mechanical equivalent of heat."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Heinrich Hertz"
+            ],
+            "note": "Experimentally demonstrated electromagnetic waves."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Christian Doppler",
+              "Doppler"
+            ],
+            "note": "Described the frequency shift produced by relative motion."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Thomas Young",
+              "Young"
+            ],
+            "note": "Used interference experiments to support the wave theory of light."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Christiaan Huygens",
+              "Christian Huygens",
+              "Huygens"
+            ],
+            "note": "Developed a wave theory of light and studied pendulum motion."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Robert Hooke",
+              "Hooke"
+            ],
+            "note": "Formulated a law describing the elasticity of springs."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blaise Pascal",
+              "Pascal"
+            ],
+            "note": "Investigated pressure, fluids, and the behavior of vacuums."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Evangelista Torricelli",
+              "Torricelli"
+            ],
+            "note": "Developed the mercury barometer while studying atmospheric pressure."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Willebrord Snell",
+              "Snellius",
+              "Snell"
+            ],
+            "note": "Associated with the law describing the refraction of light."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Augustin-Jean Fresnel",
+              "Augustin Fresnel",
+              "Fresnel"
+            ],
+            "note": "Developed wave-optics theory and lenses used in lighthouses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jean-Bernard-L\u00e9on Foucault",
+              "Leon Foucault",
+              "Foucault"
+            ],
+            "note": "Demonstrated Earth's rotation using a swinging pendulum."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hermann von Helmholtz",
+              "Hermann Helmholtz",
+              "Helmholtz"
+            ],
+            "note": "Studied energy conservation, optics, acoustics, and physiology."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rudolf Clausius",
+              "Clausius"
+            ],
+            "note": "Introduced entropy into the mathematical study of thermodynamics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sadi Carnot",
+              "Nicolas Leonard Sadi Carnot",
+              "Carnot"
+            ],
+            "note": "Analyzed the theoretical efficiency of heat engines."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Josiah Willard Gibbs",
+              "Willard Gibbs",
+              "Gibbs"
+            ],
+            "note": "Developed foundational methods in thermodynamics and statistical mechanics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Henry Cavendish",
+              "Cavendish"
+            ],
+            "note": "Measured Earth's density using a sensitive torsion-balance experiment."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "John Dalton",
+              "Dalton"
+            ],
+            "note": "Developed an atomic theory of matter and studied gases."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Robert Boyle",
+              "Boyle"
+            ],
+            "note": "Studied the inverse relationship between gas pressure and volume."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ernst Mach",
+              "Mach"
+            ],
+            "note": "Studied shock waves and the physics of supersonic motion."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gustav Kirchhoff",
+              "Kirchhoff"
+            ],
+            "note": "Developed laws for electric circuits and contributed to spectroscopy."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "L\u00e9on Brillouin",
+              "Brillouin"
+            ],
+            "note": "Worked in quantum theory, solid-state physics, and information theory."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Arnold Sommerfeld",
+              "Sommerfeld"
+            ],
+            "note": "Extended early atomic theory and trained influential theoretical physicists."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Paul Ehrenfest",
+              "Ehrenfest"
+            ],
+            "note": "Worked on statistical mechanics and the foundations of quantum theory."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hendrik Casimir",
+              "Casimir"
+            ],
+            "note": "Predicted an attraction between conducting plates arising from quantum fluctuations."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "David Bohm",
+              "Bohm"
+            ],
+            "note": "Developed an influential interpretation of quantum mechanics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John Stewart Bell",
+              "John Bell",
+              "Bell"
+            ],
+            "note": "Established inequalities that test local hidden-variable theories."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Freeman Dyson",
+              "Dyson"
+            ],
+            "note": "Connected different formulations of quantum electrodynamics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Edward Teller",
+              "Teller"
+            ],
+            "note": "Worked on nuclear physics and the development of thermonuclear weapons."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leo Szilard",
+              "Szilard"
+            ],
+            "note": "Conceived the possibility of a nuclear chain reaction."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "George Gamow",
+              "Gamow"
+            ],
+            "note": "Studied nuclear processes and the early universe."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Georges Lema\u00eetre",
+              "Lema\u00eetre"
+            ],
+            "note": "Proposed an expanding universe and a precursor to Big Bang theory."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Edwin Hubble",
+              "Hubble"
+            ],
+            "note": "Linked galaxy distances to their recession speeds."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Vera Rubin",
+              "Rubin"
+            ],
+            "note": "Measured galaxy rotation that supported the existence of dark matter."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Annie Jump Cannon",
+              "Cannon"
+            ],
+            "note": "Developed a widely used system for classifying stellar spectra."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cecilia Payne-Gaposchkin",
+              "Cecilia Payne",
+              "Payne-Gaposchkin"
+            ],
+            "note": "Showed that stars are composed mainly of hydrogen and helium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Henrietta Swan Leavitt",
+              "Henrietta Leavitt",
+              "Leavitt"
+            ],
+            "note": "Discovered the period-luminosity relationship of Cepheid variable stars."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Arthur Eddington",
+              "Eddington"
+            ],
+            "note": "Studied stellar structure and helped test general relativity."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Karl Schwarzschild",
+              "Schwarzschild"
+            ],
+            "note": "Found an exact solution to Einstein's gravitational field equations."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Henri Poincar\u00e9",
+              "Poincar\u00e9"
+            ],
+            "note": "Contributed to mathematical physics, celestial mechanics, and relativity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "\u00c9milie du Ch\u00e2telet",
+              "Du Chatelet",
+              "Ch\u00e2telet"
+            ],
+            "note": "Translated and explained Newton's Principia in French."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ibn al-Haytham",
+              "Alhazen",
+              "al-Haytham"
+            ],
+            "note": "Investigated light, vision, and experimental methods in optics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Archimedes"
+            ],
+            "note": "Studied buoyancy, levers, and the mechanics of equilibrium."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Gilbert",
+              "Gilbert"
+            ],
+            "note": "Investigated magnetism and described Earth as a magnet."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mary Somerville",
+              "Somerville"
+            ],
+            "note": "Explained celestial mechanics and investigated magnetism and light."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Laura Bassi",
+              "Bassi"
+            ],
+            "note": "Taught experimental physics in eighteenth-century Bologna."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hertha Ayrton",
+              "Ayrton"
+            ],
+            "note": "Studied electric arcs and wave motion."
+          }
+        ]
+      },
+      {
+        "prompt": "Name a real-life language that uses a non-Latin writing system.",
+        "sourceNote": "Prepared for 12 Oct 2026. Curated recall rarity for a general trivia audience, calibrated to 786 imported Krillion answers: 10=7.5%, 15=1.3%, 30=23.0%, 60=31.4%, 85=34.9%, 100=1.9%. These are comparison proportions, not measured player probabilities or forced per-question quotas. The 15-point QUIRKY tier is reserved for deceptively obvious answers. Broad bank of living, classical and liturgical languages with an established non-Latin writing tradition. Latin romanization does not disqualify a language. Includes established alternate scripts (for example Punjabi and Malay), but excludes invented one-off transcriptions and constructed languages. Primary script-language mappings checked against Unicode CLDR; additional script histories and names checked in https://omniglot.com/writing/langalph.htm ; source indexes are recorded in research-sources.json. Common language umbrellas group varieties as one catch: Chinese includes Mandarin and Cantonese; Persian includes Farsi, Dari and Tajik; Kurdish includes Sorani; Mongolian includes its traditional and Cyrillic writing. Script names themselves are not answers: Arabic and Hebrew are accepted because they are also language names. This is a broad curated bank, not an exhaustive global inventory.",
+        "source": "https://www.unicode.org/cldr/charts/47/supplemental/scripts_and_languages.html",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Chinese",
+              "Mandarin",
+              "Mandarin Chinese",
+              "Cantonese",
+              "Chinese Mandarin",
+              "Chinese Cantonese"
+            ],
+            "note": "Chinese varieties have an established writing tradition using Chinese characters."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Japanese"
+            ],
+            "note": "Japanese combines kanji with the hiragana and katakana syllabaries."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Korean"
+            ],
+            "note": "Korean is ordinarily written using the Hangul alphabet."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Arabic",
+              "Modern Standard Arabic",
+              "Egyptian Arabic",
+              "Moroccan Arabic"
+            ],
+            "note": "Arabic is commonly written in a right-to-left consonantal script."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Russian"
+            ],
+            "note": "Russian uses a Cyrillic alphabet."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Greek",
+              "Modern Greek",
+              "Ancient Greek"
+            ],
+            "note": "Greek has its own alphabet, used since antiquity."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Hebrew",
+              "Modern Hebrew",
+              "Biblical Hebrew"
+            ],
+            "note": "Hebrew uses a right-to-left script with twenty-two basic letters."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Hindi"
+            ],
+            "note": "Hindi is conventionally written in Devanagari."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Persian",
+              "Farsi",
+              "Dari",
+              "Tajik",
+              "Tajiki"
+            ],
+            "note": "Persian varieties use Persian-Arabic or Cyrillic writing, depending on the region."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Thai"
+            ],
+            "note": "Thai uses a script derived from earlier Southeast Asian writing traditions."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bengali",
+              "Bangla"
+            ],
+            "note": "Bengali uses the Bengali script, also closely associated with Assamese writing."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Urdu"
+            ],
+            "note": "Urdu commonly uses a Persian-Arabic script in Nastaliq style."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tamil"
+            ],
+            "note": "Tamil has its own script with a long literary history."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ukrainian"
+            ],
+            "note": "Ukrainian is written with a Cyrillic alphabet distinct from Russian's."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bulgarian"
+            ],
+            "note": "Bulgarian uses a Cyrillic alphabet."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Serbian"
+            ],
+            "note": "Serbian has established use of both Cyrillic and Latin alphabets."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Armenian"
+            ],
+            "note": "Armenian uses an alphabet traditionally attributed to Mesrop Mashtots."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Georgian"
+            ],
+            "note": "Modern Georgian is ordinarily written in the Mkhedruli script."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sanskrit"
+            ],
+            "note": "Sanskrit is written in Devanagari and several other Indic scripts."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tibetan"
+            ],
+            "note": "Tibetan uses its own Brahmic-derived writing system."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Burmese",
+              "Myanmar language"
+            ],
+            "note": "Burmese uses a script whose letterforms are notably rounded."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Khmer",
+              "Cambodian"
+            ],
+            "note": "Khmer uses its own script with a large consonant inventory."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lao",
+              "Laotian"
+            ],
+            "note": "Lao uses a writing system closely related to Thai."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Amharic"
+            ],
+            "note": "Amharic is written with the Ethiopic syllabic system."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Punjabi",
+              "Panjabi"
+            ],
+            "note": "Punjabi is written in Gurmukhi and the Persian-Arabic Shahmukhi script."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gujarati"
+            ],
+            "note": "Gujarati uses a script related to Devanagari but without its continuous headline."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Telugu"
+            ],
+            "note": "Telugu uses a Brahmic-derived script shared in ancestry with Kannada."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kannada"
+            ],
+            "note": "Kannada has its own script used in southwestern India."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Malayalam"
+            ],
+            "note": "Malayalam uses a rounded Brahmic-derived script."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sinhala",
+              "Sinhalese"
+            ],
+            "note": "Sinhala uses its own script in Sri Lanka."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marathi"
+            ],
+            "note": "Marathi is commonly written in Devanagari."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nepali",
+              "Nepalese"
+            ],
+            "note": "Nepali uses Devanagari as its standard writing system."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mongolian"
+            ],
+            "note": "Mongolian has established Cyrillic and traditional vertical writing systems."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kazakh"
+            ],
+            "note": "Kazakh has established Cyrillic and Arabic-script writing traditions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kyrgyz",
+              "Kirghiz"
+            ],
+            "note": "Kyrgyz is ordinarily written in Cyrillic in Kyrgyzstan."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Uzbek"
+            ],
+            "note": "Uzbek has established Latin, Cyrillic, and Arabic-script traditions."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Belarusian",
+              "Belorussian"
+            ],
+            "note": "Belarusian is commonly written with a Cyrillic alphabet."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Macedonian"
+            ],
+            "note": "Macedonian uses a Cyrillic alphabet standardized in the twentieth century."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pashto",
+              "Pushto",
+              "Pakhto"
+            ],
+            "note": "Pashto uses an extended Arabic script."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kurdish",
+              "Sorani",
+              "Central Kurdish"
+            ],
+            "note": "Sorani Kurdish is written with an adapted Arabic alphabet."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Uyghur",
+              "Uighur",
+              "Uigur"
+            ],
+            "note": "Uyghur commonly uses an Arabic-based alphabet in Xinjiang."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sindhi"
+            ],
+            "note": "Sindhi has established Arabic-script and Devanagari writing systems."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kashmiri"
+            ],
+            "note": "Kashmiri is written in Persian-Arabic, Devanagari, and historical Sharada forms."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Assamese",
+              "Asamiya"
+            ],
+            "note": "Assamese uses a script closely related to Bengali."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Odia",
+              "Oriya"
+            ],
+            "note": "Odia uses a distinctive script with rounded letterforms."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dhivehi",
+              "Divehi",
+              "Maldivian"
+            ],
+            "note": "Dhivehi is written in the right-to-left Thaana script."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dzongkha",
+              "Bhutanese"
+            ],
+            "note": "Dzongkha is written using the Tibetan script."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tigrinya",
+              "Tigrigna"
+            ],
+            "note": "Tigrinya uses the Ethiopic writing system."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tigre"
+            ],
+            "note": "Tigre has a written tradition using Ethiopic script."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ge'ez",
+              "Geez",
+              "Ethiopic language"
+            ],
+            "note": "Ge'ez survives especially as a classical liturgical language."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yiddish"
+            ],
+            "note": "Yiddish is a Germanic language written with Hebrew letters."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ladino",
+              "Judeo Spanish",
+              "Judezmo"
+            ],
+            "note": "Ladino has a historical writing tradition using Hebrew letters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Aramaic"
+            ],
+            "note": "Aramaic has an ancient alphabetic tradition and surviving modern varieties."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Syriac",
+              "Classical Syriac"
+            ],
+            "note": "Syriac is a classical Aramaic language with its own script tradition."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Coptic"
+            ],
+            "note": "Coptic uses Greek-derived letters supplemented by signs of Egyptian origin."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ancient Egyptian",
+              "Egyptian",
+              "Egyptian language"
+            ],
+            "note": "Ancient Egyptian was written in hieroglyphic, hieratic, and demotic forms."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sumerian"
+            ],
+            "note": "Sumerian was written using cuneiform signs on clay tablets."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Akkadian"
+            ],
+            "note": "Akkadian adapted cuneiform writing for a Semitic language."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Avestan"
+            ],
+            "note": "Avestan religious texts use a specialized alphabet devised for precise recitation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pali"
+            ],
+            "note": "Pali is preserved in several South and Southeast Asian scripts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Church Slavonic",
+              "Old Church Slavonic"
+            ],
+            "note": "Church Slavonic has traditions in Cyrillic and Glagolitic writing."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cherokee"
+            ],
+            "note": "Cherokee uses a syllabary created by Sequoyah."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Inuktitut"
+            ],
+            "note": "Many Inuktitut communities use Canadian Aboriginal syllabics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cree"
+            ],
+            "note": "Cree has established syllabic and Latin-script writing systems."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ojibwe",
+              "Ojibwa",
+              "Ojibway"
+            ],
+            "note": "Some Ojibwe varieties use Canadian Aboriginal syllabics."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tamazight",
+              "Berber",
+              "Amazigh"
+            ],
+            "note": "Tamazight is written in Tifinagh as well as other established scripts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hausa"
+            ],
+            "note": "Hausa has an Arabic-derived Ajami writing tradition alongside Latin writing."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wolof"
+            ],
+            "note": "Wolof has established Arabic-derived Wolofal writing alongside Latin script."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fula",
+              "Fulani",
+              "Fulfulde",
+              "Pulaar"
+            ],
+            "note": "Fula can be written in Adlam as well as Latin and Arabic scripts."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Vai"
+            ],
+            "note": "Vai has an indigenous syllabary developed in West Africa."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bamum",
+              "Bamun"
+            ],
+            "note": "Bamum has an indigenous writing system developed in Cameroon."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bambara",
+              "Bamanankan"
+            ],
+            "note": "Bambara can be written in N'Ko as well as Latin script."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Maninka",
+              "Malinke"
+            ],
+            "note": "Maninka has an established writing tradition using N'Ko."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mandinka",
+              "Mandingo"
+            ],
+            "note": "Mandinka has Arabic-script and Latin-script writing traditions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Javanese"
+            ],
+            "note": "Javanese has a traditional Indic-derived script alongside Latin writing."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Balinese"
+            ],
+            "note": "Balinese retains an established traditional script used in cultural and religious settings."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sundanese"
+            ],
+            "note": "Sundanese has its own script alongside widespread Latin writing."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Buginese",
+              "Bugis"
+            ],
+            "note": "Buginese has a traditional script known as Lontara."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Batak Toba",
+              "Batak",
+              "Toba Batak"
+            ],
+            "note": "Batak Toba has an established traditional Batak writing system."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tagalog"
+            ],
+            "note": "Tagalog has an established historical Baybayin writing tradition."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Malay",
+              "Bahasa Melayu"
+            ],
+            "note": "Malay has an Arabic-derived Jawi writing tradition alongside Latin script."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Meitei",
+              "Manipuri",
+              "Meetei"
+            ],
+            "note": "Meitei uses Meitei Mayek as well as an established Bengali-script tradition."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Santali",
+              "Santhali"
+            ],
+            "note": "Santali can be written using Ol Chiki and other scripts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Newar",
+              "Newari",
+              "Nepal Bhasa"
+            ],
+            "note": "Newar has traditional Nepalese scripts as well as Devanagari usage."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Maithili"
+            ],
+            "note": "Maithili has Tirhuta and Devanagari writing traditions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dogri"
+            ],
+            "note": "Dogri has established Devanagari and historical Dogra writing traditions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Konkani"
+            ],
+            "note": "Konkani is written in multiple scripts, including Devanagari and Kannada."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bodo",
+              "Boro"
+            ],
+            "note": "Bodo is ordinarily written in Devanagari."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lepcha"
+            ],
+            "note": "Lepcha has its own script used in the eastern Himalayas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Limbu"
+            ],
+            "note": "Limbu has a traditional script also called Sirijonga."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chakma"
+            ],
+            "note": "Chakma uses its own script related to other Brahmic systems."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Shan"
+            ],
+            "note": "Shan uses a script related to Burmese writing."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mon"
+            ],
+            "note": "Mon has a long writing tradition in a script related to Burmese."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tatar"
+            ],
+            "note": "Tatar has established Cyrillic, Latin, and Arabic-script traditions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bashkir"
+            ],
+            "note": "Bashkir is commonly written with an extended Cyrillic alphabet."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chechen"
+            ],
+            "note": "Chechen is commonly written with an extended Cyrillic alphabet."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ossetian",
+              "Ossetic"
+            ],
+            "note": "Ossetian uses a Cyrillic-based alphabet."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Abkhaz",
+              "Abkhazian"
+            ],
+            "note": "Abkhaz is written in an extended Cyrillic alphabet."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chuvash"
+            ],
+            "note": "Chuvash uses a Cyrillic-based alphabet."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sakha",
+              "Yakut",
+              "Yakutian"
+            ],
+            "note": "Sakha is written using Cyrillic with additional letters."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Buryat",
+              "Buriat"
+            ],
+            "note": "Buryat has established Cyrillic and Mongolian-script writing traditions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tuvan",
+              "Tuvinian"
+            ],
+            "note": "Tuvan uses a Cyrillic alphabet with additional letters."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Udmurt"
+            ],
+            "note": "Udmurt is commonly written in a Cyrillic-based alphabet."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Komi"
+            ],
+            "note": "Komi is ordinarily written in Cyrillic."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kalmyk",
+              "Oirat"
+            ],
+            "note": "Kalmyk has Cyrillic and traditional Oirat-script writing traditions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dungan"
+            ],
+            "note": "Dungan is a Chinese-related language written using Cyrillic."
+          }
+        ]
+      },
+      {
+        "prompt": "Landforms of Geography from that one famous diagram: Name any feature labelled in the diagram.",
+        "sourceNote": "Prepared for 12 Oct 2026. Curated recall rarity for a general trivia audience, calibrated to 786 imported Krillion answers: 10=7.5%, 15=1.3%, 30=23.0%, 60=31.4%, 85=34.9%, 100=1.9%. These are comparison proportions, not measured player probabilities or forced per-question quotas. The 15-point QUIRKY tier is reserved for deceptively obvious answers. Exact finite set of all 46 visible labels in the user-supplied diagram, saved alongside this pack as landforms-reference.png. Includes water bodies, ice features, and biomes because the user explicitly selected this diagram; not restricted to geomorphological landforms. No unlabelled additions such as Estuary or Continent. Forest, Rain Forest, and Jungle remain separate because the diagram labels each. Strait, Channel, Sound and Fjord likewise remain separate. Plurals and common same-feature spellings accepted. Source is the user attachment, not Krillion; no external attribution or provenance is inferred. Definitions use ordinary geographic meanings, with reference support from https://www.usgs.gov/programs/water-resources/science/water-science-school and https://education.nationalgeographic.org/resource/landform/ .",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Mountain",
+              "Mountains"
+            ],
+            "note": "A prominent elevated landmass rising above the surrounding terrain."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Iceberg",
+              "Icebergs"
+            ],
+            "note": "A floating mass of ice detached from a glacier or ice shelf."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fjord",
+              "Fjords",
+              "Fiord",
+              "Fiords"
+            ],
+            "note": "A steep-sided marine inlet carved by glacial erosion."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Glacier",
+              "Glaciers"
+            ],
+            "note": "A persistent body of ice that flows under its own weight."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Volcano",
+              "Volcanoes",
+              "Volcanos"
+            ],
+            "note": "A landform associated with eruptions of magma and gases."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sea",
+              "Seas"
+            ],
+            "note": "A large body of salt water connected with the ocean."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cape",
+              "Capes"
+            ],
+            "note": "A point of land projecting into a body of water."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Forest",
+              "Forests",
+              "Woods"
+            ],
+            "note": "A broad area dominated by trees."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tundra",
+              "Tundras"
+            ],
+            "note": "A cold, largely treeless biome with a short growing season."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Butte",
+              "Buttes"
+            ],
+            "note": "An isolated steep-sided hill with a relatively small flat summit."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bay",
+              "Bays"
+            ],
+            "note": "An inlet where the shoreline curves around a body of water."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Basin",
+              "Basins"
+            ],
+            "note": "A depression or low area in the Earth's surface."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Lake",
+              "Lakes"
+            ],
+            "note": "An inland body of standing water surrounded by land."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hill",
+              "Hills"
+            ],
+            "note": "An elevated area generally smaller and lower than a mountain."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Valley",
+              "Valleys"
+            ],
+            "note": "A low stretch of land between higher areas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Geyser",
+              "Geysers"
+            ],
+            "note": "A hot spring that intermittently ejects water and steam."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Desert",
+              "Deserts"
+            ],
+            "note": "A region with very low precipitation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Plateau",
+              "Plateaus",
+              "Plateaux"
+            ],
+            "note": "A broad elevated area with a relatively level surface."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Canyon",
+              "Canyons"
+            ],
+            "note": "A deep valley with steep sides, often shaped by a river."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Oasis",
+              "Oases"
+            ],
+            "note": "A place in an arid region where water supports vegetation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mesa",
+              "Mesas"
+            ],
+            "note": "A flat-topped elevated landform with steep sides."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "River",
+              "Rivers"
+            ],
+            "note": "A natural flowing watercourse."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cave",
+              "Caves"
+            ],
+            "note": "A natural underground cavity."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Waterfall",
+              "Waterfalls",
+              "Falls"
+            ],
+            "note": "A place where a watercourse drops over a steep ledge."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Plain",
+              "Plains"
+            ],
+            "note": "A broad area of relatively level land."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Prairie",
+              "Prairies"
+            ],
+            "note": "An extensive grassland, especially in central North America."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rain Forest",
+              "Rainforest",
+              "Rainforests",
+              "Rain Forests"
+            ],
+            "note": "A forest sustained by abundant rainfall."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Strait",
+              "Straits"
+            ],
+            "note": "A narrow water passage connecting larger bodies of water."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Delta",
+              "Deltas",
+              "River delta"
+            ],
+            "note": "A sediment-built landform at the mouth of a river."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dune",
+              "Dunes",
+              "Sand dune",
+              "Sand dunes"
+            ],
+            "note": "A mound or ridge of sand built by wind or water."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gulf",
+              "Gulfs"
+            ],
+            "note": "A large sea inlet partly enclosed by land."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jungle",
+              "Jungles"
+            ],
+            "note": "Dense tropical vegetation, often with tangled undergrowth."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cliff",
+              "Cliffs"
+            ],
+            "note": "A very steep or vertical rock face."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Coast",
+              "Coasts",
+              "Coastline",
+              "Coastlines"
+            ],
+            "note": "The zone where land meets the sea."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Channel",
+              "Channels"
+            ],
+            "note": "A passage through which water flows or connects larger waters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Swamp",
+              "Swamps"
+            ],
+            "note": "A wetland often dominated by trees or woody vegetation."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Beach",
+              "Beaches"
+            ],
+            "note": "A shore covered with loose material such as sand or pebbles."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Island",
+              "Islands"
+            ],
+            "note": "An area of land completely surrounded by water."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Archipelago",
+              "Archipelagos",
+              "Archipelagoes"
+            ],
+            "note": "A group or chain of islands."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sound",
+              "Sounds"
+            ],
+            "note": "A coastal waterway or inlet, often between land masses."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Peninsula",
+              "Peninsulas"
+            ],
+            "note": "Land almost surrounded by water but connected to a larger landmass."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Marsh",
+              "Marshes"
+            ],
+            "note": "A wetland dominated by grasses, reeds, or similar nonwoody plants."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Atoll",
+              "Atolls"
+            ],
+            "note": "A ring-shaped coral reef or island enclosing a lagoon."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Isthmus",
+              "Isthmuses"
+            ],
+            "note": "A narrow strip of land connecting two larger land areas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lagoon",
+              "Lagoons"
+            ],
+            "note": "A shallow body of water separated from larger water by a barrier."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Ocean",
+              "Oceans"
+            ],
+            "note": "One of the planet's vast interconnected saltwater bodies."
+          }
+        ]
+      },
+      {
+        "prompt": "AI Models or Sidekick names: Name a real AI model family or software assistant.",
+        "sourceNote": "Prepared for 12 Oct 2026. Curated recall rarity for a general trivia audience, calibrated to 786 imported Krillion answers: 10=7.5%, 15=1.3%, 30=23.0%, 60=31.4%, 85=34.9%, 100=1.9%. These are comparison proportions, not measured player probabilities or forced per-question quotas. The 15-point QUIRKY tier is reserved for deceptively obvious answers. Broad curated bank of real model families and named software assistants, including historical products; not exhaustive. Numbered releases and size variants count together, while separately named architectures and assistant products can be separate catches. Fictional assistants and bare company names are excluded. GPT is distinct from the ChatGPT product; Claude submodels share Claude. Primary architecture documentation verifies model names and functions. Additional official sources: https://developers.openai.com/api/docs/models , https://platform.claude.com/docs/en/models/overview , https://deepmind.google/models/ , https://docs.mistral.ai/models , https://docs.cohere.com/docs/models , https://www.microsoft.com/en-us/copilot , https://developer.apple.com/design/human-interface-guidelines/siri , https://alexa.amazon.com/about and https://www.samsung.com/uk/support/mobile-devices/what-is-bixby-and-how-do-i-use-it/ . Siri receives QUIRKY because an everyday phone assistant is an obvious answer from an easily overlooked angle. Additional product references: https://x.ai/grok , https://stability.ai/stable-diffusion , https://www.midjourney.com/ and https://www.perplexity.ai/ . Familiar model generations are aliases, not extra scoring opportunities.",
+        "source": "https://huggingface.co/docs/transformers/model_doc/auto",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "ChatGPT",
+              "Chat GPT"
+            ],
+            "note": "OpenAI's conversational assistant product."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "GPT",
+              "GPT 3",
+              "GPT 3.5",
+              "GPT 4",
+              "GPT 4o",
+              "GPT 4.1",
+              "GPT 5",
+              "GPT 6"
+            ],
+            "note": "OpenAI's family of generative pretrained transformer models."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Claude",
+              "Claude Sonnet",
+              "Claude Opus",
+              "Claude Haiku",
+              "Sonnet",
+              "Opus",
+              "Haiku"
+            ],
+            "note": "Anthropic's family of AI models and conversational assistant."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Gemini",
+              "Google Gemini",
+              "Bard",
+              "Google Bard"
+            ],
+            "note": "Google's model family also names its conversational assistant."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Copilot",
+              "Microsoft Copilot"
+            ],
+            "note": "Microsoft's assistant brand for AI-supported work and everyday tasks."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Siri",
+              "Apple Siri"
+            ],
+            "note": "Apple's personal assistant helps users operate devices and obtain information."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Alexa",
+              "Amazon Alexa",
+              "Alexa Plus"
+            ],
+            "note": "Amazon's assistant supports voice interaction and everyday tasks."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bixby",
+              "Samsung Bixby"
+            ],
+            "note": "Samsung's virtual assistant supports interaction with its devices."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "DeepSeek",
+              "DeepSeek R1",
+              "DeepSeek V3"
+            ],
+            "note": "A family of language and reasoning models developed by DeepSeek."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Llama",
+              "Llama 2",
+              "Llama 3",
+              "Llama 4"
+            ],
+            "note": "Meta's family of large language models."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Qwen",
+              "Qwen 2",
+              "Qwen 2.5",
+              "Qwen 3"
+            ],
+            "note": "Alibaba's family of language and multimodal models."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mistral",
+              "Mistral Large",
+              "Mistral Small",
+              "Mistral Medium"
+            ],
+            "note": "Mistral AI's namesake language-model family."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gemma",
+              "Gemma 2",
+              "Gemma 3"
+            ],
+            "note": "Google's family of open-weight AI models."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Phi",
+              "Phi 3",
+              "Phi 4"
+            ],
+            "note": "Microsoft's family of compact language models."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Falcon",
+              "Falcon 7B",
+              "Falcon 40B"
+            ],
+            "note": "A language-model family developed by the Technology Innovation Institute."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Command",
+              "Command R",
+              "Command R Plus"
+            ],
+            "note": "Cohere's language-model family supports enterprise text tasks."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aya"
+            ],
+            "note": "Cohere's multilingual model family."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jamba"
+            ],
+            "note": "AI21's model family combines Transformer and Mamba components."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Granite",
+              "IBM Granite"
+            ],
+            "note": "IBM's family of models for enterprise AI tasks."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "OLMo"
+            ],
+            "note": "The Allen Institute for AI's openly developed language-model family."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DBRX"
+            ],
+            "note": "Databricks' mixture-of-experts language model."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "BLOOM"
+            ],
+            "note": "BigScience's multilingual open language model."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "GPT-Neo",
+              "GPT NeoX"
+            ],
+            "note": "EleutherAI's open autoregressive language-model line."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "OPT"
+            ],
+            "note": "Meta's Open Pretrained Transformer language-model family."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "T5",
+              "Flan T5"
+            ],
+            "note": "A model family that expresses language tasks as text-to-text transformations."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "BERT"
+            ],
+            "note": "A bidirectional Transformer model for learning language representations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "RoBERTa"
+            ],
+            "note": "A language-representation model developed by revisiting BERT's training recipe."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ALBERT"
+            ],
+            "note": "A parameter-efficient model architecture derived from BERT."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "XLNet"
+            ],
+            "note": "A language model trained using a permutation-based objective."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ELECTRA"
+            ],
+            "note": "A language-representation model trained to detect replaced input tokens."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DeBERTa"
+            ],
+            "note": "A Transformer architecture using disentangled attention representations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ERNIE"
+            ],
+            "note": "Baidu's family of knowledge-enhanced language models."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "GLM",
+              "ChatGLM"
+            ],
+            "note": "A family of general language models associated with Zhipu AI."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hunyuan"
+            ],
+            "note": "Tencent's family of generative AI models."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nemotron"
+            ],
+            "note": "NVIDIA's family of language models."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SmolLM"
+            ],
+            "note": "A family of compact language models released by Hugging Face."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "DALL-E",
+              "Dalle",
+              "DALL-E 2",
+              "DALL-E 3"
+            ],
+            "note": "OpenAI's family of models for generating images from text."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sora"
+            ],
+            "note": "OpenAI's model family for generating video."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Veo"
+            ],
+            "note": "Google DeepMind's family of video-generation models."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Imagen"
+            ],
+            "note": "Google's family of text-to-image models."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Whisper"
+            ],
+            "note": "OpenAI's model for speech recognition and related audio tasks."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CLIP"
+            ],
+            "note": "A model that learns associations between images and text."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SAM",
+              "Segment Anything"
+            ],
+            "note": "Meta's model family for identifying and segmenting objects in images."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AlphaFold"
+            ],
+            "note": "DeepMind's model family for predicting biomolecular structures."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AlphaGo"
+            ],
+            "note": "DeepMind's system that achieved landmark results in the game of Go."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AlphaZero"
+            ],
+            "note": "DeepMind's system learned board games through self-play."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MusicGen"
+            ],
+            "note": "Meta's model for generating music from text or melody conditioning."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bark"
+            ],
+            "note": "A generative audio model capable of producing speech and other sounds."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "BLIP"
+            ],
+            "note": "A model architecture for connecting visual and language tasks."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "BART"
+            ],
+            "note": "A sequence-to-sequence model trained by reconstructing corrupted text."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CamemBERT"
+            ],
+            "note": "A language-representation model developed for French text."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Flaubert"
+            ],
+            "note": "A pretrained language model developed for French natural-language processing."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Codestral"
+            ],
+            "note": "Mistral AI's model family focused on code."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Devstral"
+            ],
+            "note": "Mistral AI's model family for software-engineering agents."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Magistral"
+            ],
+            "note": "Mistral AI's reasoning-model family."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Voxtral"
+            ],
+            "note": "Mistral AI's model family for audio understanding."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ministral"
+            ],
+            "note": "Mistral AI's compact model family."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Grok",
+              "Grok 2",
+              "Grok 3",
+              "Grok 4"
+            ],
+            "note": "xAI's conversational model and assistant family."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stable Diffusion",
+              "SDXL",
+              "Stable Diffusion XL"
+            ],
+            "note": "A family of diffusion models used to generate images."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Midjourney"
+            ],
+            "note": "An AI image-generation service with its own model family."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Perplexity",
+              "Perplexity AI"
+            ],
+            "note": "An AI-powered answer and research assistant."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Codex",
+              "OpenAI Codex"
+            ],
+            "note": "OpenAI's coding model and software-agent name."
+          }
+        ]
+      }
+    ]
   }
 ];
 window.DIVE_QUESTIONS = window.DIVE_DAYS.at(-1).questions;
