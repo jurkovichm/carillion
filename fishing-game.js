@@ -3,7 +3,8 @@ let questions = window.DIVE_QUESTIONS;
 let round = 0, score = 0, depthScore = 0, timer = null, seconds = 25, used = new Set(), roundLog = [];
 const ROUND_MS = 25000;
 const BOTTLE_CHANCE = .10;
-const LOON_THEFT_CHANCE = .10;
+let loonQuestion = -1;
+function chooseLoonQuestion(count) { return Math.floor(Math.random() * count); }
 const bottleFacts = [
   { text: 'Carleton’s Cowling Arboretum covers about 800 acres.', source: 'https://athletics.carleton.edu/sports/2019/7/15/cowling-arboretum.aspx?id=6001' },
   { text: 'Goodsell Observatory was built in 1887.', source: 'https://cdn.carleton.edu/uploads/sites/190/2021/01/2015_16_Carleton_College_Catalog.pdf' },
@@ -293,6 +294,7 @@ async function begin() {
   if (typeof newHarbourGame === 'function') newHarbourGame();
   matchDay = selectedDay;
   questions = matchDay.questions;
+  loonQuestion = chooseLoonQuestion(questions.length);
   roundState.epoch++;
   clearFishingTimers();
   stopSpeech();
@@ -523,11 +525,12 @@ function reelCatch(item) {
 function completeQuestion(keepResult = false) {
   pauseRoundClock();
   const record = roundState.record;
-  // Give Up's consolation catch is eligible too, even before the first fish.
-  const fish = record.catches.at(-1) || (record.reason === 'giveup' ? record.loot : null);
-  if (round === 6 && !record.loonChecked && fish && shoreCatches.includes(fish)) {
+  // The scheduled encounter also accepts consolation loot, so an unanswered
+  // question still gets its one encounter. Recasts never schedule a second one.
+  const fish = record.catches.at(-1) || record.loot;
+  if (round === loonQuestion && !record.loonChecked && fish && shoreCatches.includes(fish)) {
     record.loonChecked = true;
-    if (Math.random() < LOON_THEFT_CHANCE) { stealFishWithLoon(fish); return; }
+    stealFishWithLoon(fish); return;
   }
   roundState.phase = 'roundEnd';
   $('#answer-dock').classList.add('hidden');
