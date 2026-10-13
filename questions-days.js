@@ -35501,6 +35501,3749 @@ window.DIVE_DAYS = [
         ]
       }
     ]
+  },
+  {
+    "id": "2026-10-13",
+    "label": "13 Oct 2026",
+    "questions": [
+      {
+        "prompt": "Current NFL QB Nicknames",
+        "source": "https://www.sportingnews.com/us/nfl/news/joe-burrow-nicknames-joe-shiesty/bs1mm6j5u8ie1af7o4o93zwey",
+        "sourceNote": "Research snapshot: 13 October 2026. Current roster and finite-category membership checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: regular NFL fans. User requested one catch per distinct nickname, including documented initials, shortened names and childhood names; different nicknames for one player score independently. Orthographic variants share a catch. Players must be rostered, including backups and reserve/injured players; unsigned free agents and retired players are excluded. Expanded documented nickname bank covering starters, backups and reserve/practice-squad players. There is no authoritative finite registry of every nickname; local and newly coined names remain a coverage limit. Shortened professional first names and documented initials qualify under the user instruction. Full real names alone generally do not qualify, except the documented Drake \u201cDrake Maye\u201d Maye meme in Q1. Joe Cool is one nickname catch, documented here for Burrow; it is not an additional catch for every player who has used it. Joe Brr/Brrr/Brrrr are variants. Joe is now its own documented shortened-name catch. Bare Captain and ordinary player surnames are not intentional aliases. Russell Wilson excluded after moving into broadcasting; https://amp.nfl.com/news/russell-wilson-cbs-sports-putting-pause-on-playing-career . Sources: Burrow variants and origins in the principal source; current Burrow status https://www.bengals.com/team/players-roster/joe-burrow/ ; Captain Kirk and Kirko Chainz https://www.raiders.com/news/free-agent-facts-get-to-know-kirk-cousins-quarterback-nfl-free-agency-2026-transactions ; Showtime https://www.kansascity.com/sports/nfl/kansas-city-chiefs/article219942045.html ; Grim Reaper https://www.nfl.com/news/chiefs-andy-reid-to-patrick-mahomes-before-game-tying-drive-when-it-s-grim-go-be ; Danny Dimes https://www.nfl.com/news/jones-on-danny-dimes-could-be-worse-nicknames-0ap3000001059167 ; Red Rifle https://www.panthers.com/news/five-things-to-know-about-andy-dalton and current status https://www.philadelphiaeagles.com/news/andy-dalton-you-ve-got-to-be-ready-for-all-of-it ; Passtronaut https://www.sportingnews.com/us/nfl/news/joshua-dobbs-nickname-vikings-passtronaut-nasa/95a9caa38655cf3e9485619c and current Lions status https://www.detroitlions.com/team/players-roster/joshua-dobbs/logs/ ; Purdy https://www.rte.ie/sport/us-sport/2026/1009/1594683-nfl-preview-purdy-rises-from-mr-irrelevant-to-mvp-class/ ; Tommy Cutlets and Two Chains https://amp.nfl.com/news/2026-nfl-preseason-week-3-what-we-learned-from-thursday-s-games ; Action Jackson https://www.nfl.com/videos/can-t-miss-play-action-jackson-lamar-s-filthy-open-field-moves-end-in-td/ ; GEQBUS https://en.wikipedia.org/wiki/Sam_Darnold ; JD5 https://www.commanders.com/video/1-on-1-with-jayden-daniels-biggest-offseason-moves-jd5-s-top-5 ; Dak https://www.dallascowboys.com/news/cowbuzz-prescott-family-welcomes-second-daughter ; C.J. https://www.houstontexans.com/team/players-roster/c-j-stroud/ ; Tua name and Falcons status https://en.wikipedia.org/wiki/Tua_Tagovailoa . User explicitly requested slander nicknames: documented mocking, satirical and explicit names are accepted, with neutral identifying blurbs. Fan discussions are primary evidence of fan usage, not evidence that an insult or allegation is true. No invented nickname-generator entries were used. Each distinct nickname is one catch even if shared by several eligible players; spelling and abbreviation variants share their catch. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.sportingnews.com/us/nfl/news/josh-allen-nicknames-tony-romo-alien-mr-january/ljg9ta6kfjjdczqwh9jqcowa ; https://www.pro-football-reference.com/players/M/MahoPa00.htm ; https://en.wikipedia.org/wiki/List_of_NFL_nicknames ; https://www.pro-football-reference.com/players/J/JackLa00.htm ; https://www.chargers.com/news/justin-herbert-minicamp-tarheeb-still ; https://www.si.com/nfl/drake-maye-nickname-drake-maye-origin ; https://sports.yahoo.com/articles/bears-qb-caleb-williams-reveals-151506485.html ; https://www.sportingnews.com/ca/nfl/san-francisco-49ers/news/michael-mccorkle-mac-jones-49ers-hope-repeat-2024-injury-nightmare-season/9a784442348765058af64c6c ; https://en.wikipedia.org/wiki/Geno_Smith ; https://static.www.nfl.com/image/upload/v1596738869/league/daclxqn5ydywqqyy1suk.pdf ; https://www.buccaneers.com/news/baker-mayfield-bucs-offense-close-mistakes-frustrating ; https://media.eagles.1rmg.com/wp-content/uploads/2021/08/14150101/Minshew-Gardner-2022-29.pdf ; https://en.wikipedia.org/wiki/Gardner_Minshew ; https://media.49ers.1rmg.com/wp-content/uploads/2021/05/28131310/texans_jan_2_2022_at_san-francisco-49ers_weekly_release.pdf ; https://www.sportingnews.com/us/ncaa-football/news/stetson-bennett-mailman-nickname-georgia/1jorg1vif1mhg1bcubbmbjwsph ; https://www.nfl.com/videos/mike-rob-reveals-his-nickname-for-bo-nix-athletic-drew-brees-nfl-gameday-kickoff ; https://www.pro-football-reference.com/players/P/PresDa01.htm ; https://www.mediaite.com/media/sports/nfl-fans-mock-aaron-rodgers-as-throw-rogan-after-49ers-cancel-him-from-the-playoffs/ ; https://en.wikipedia.org/wiki/Arod ; https://www.si.com/nfl/lions/onsi/news/rob-parker-rips-matthew-stafford ; https://www.sportingnews.com/ca/nfl/news/49ers-brock-purdy-nickname/x7fsvg2qddqwhjohmt3ja5eo ; https://www.reddit.com/r/49ers/comments/1698o9y/ ; https://www.reddit.com/r/NFLv2/comments/1cepnae/ ; https://www.reddit.com/r/Patriots/comments/1p1rwwf/this_is_damn_sweet/ ; https://www.reddit.com/r/nfl/comments/1okjqyb/highlight_tua_turns_the_ball_over/ ; https://www.reddit.com/r/nfl/comments/kgzb46/ ; https://www.reddit.com/r/detroitlions/comments/utl0py/what_is_jarred_goffs_nickname/ ; https://www.reddit.com/r/NFCNorthMemeWar/comments/1sruskj/very_original_nicknames_for_nfc_north_qbs/ ; https://www.reddit.com/r/steelers/comments/y1dsg5/ ; https://www.reddit.com/r/steelers/comments/y298ny/ ; https://www.reddit.com/r/NFLv2/comments/1nmljmw/ ; https://cowboyszone.com/threads/dallas-cowboys-at-san-francisco-49ers-postgame-thread.528905/ ; https://www.nfl.com/videos/the-insiders-august-5-2025 ; https://www.reddit.com/r/Seahawks/comments/whzjpe/ ; https://www.reddit.com/r/Seahawks/comments/taqo9a/ ; https://www.reddit.com/r/Texans/comments/1pipgom/noo_not_jacoby_brissett/ ; https://www.reddit.com/r/Colts/comments/cwdj6n/ ; https://en.wikipedia.org/wiki/DJ_Uiagalelei ; https://en.wikipedia.org/wiki/J._J._McCarthy ; https://secure.ourlads.com/nfldepthcharts/depthchartpos/QB ; https://en.wikipedia.org/wiki/Mitchell_Trubisky ; https://www.baltimoreravens.com/news/eisenberg-joe-flacco-should-have-departed-to-trumpets-blaring ; https://www.jaguars.com/news/o-zone-past-his-prime ; https://www.espn.com/college-football/story/_/id/39063911/lsu-jayden-daniels-named-ap-college-football-player-year ; https://www.foxnews.com/sports/floridas-anthony-richardson-explains-dropping-ar-15-nickname-pretty-much-business-decision ; https://www.colts.com/news/anthony-richardson-sr-named-colts-backup-quarterback ; https://www.pro-football-reference.com/players/A/AlleJo02.htm ; https://www.pro-football-reference.com/players/B/BurrJo01.htm ; https://en.wikipedia.org/wiki/Joe_Flacco ; https://en.wikipedia.org/wiki/Tommy_DeVito_(American_football) ; https://www.pro-football-reference.com/players/W/WardCa00.htm ; https://en.wikipedia.org/wiki/Matthew_Stafford ; https://en.wikipedia.org/wiki/Drew_Lock ; https://static.clubs.nfl.com/image/upload/steelers/lv68dpnh9o7zqanmzf9a.pdf ; https://www.cougar-archive.com/player.php?id=ZACWILSON18 ; https://www.thefantasyfootballers.com/articles/fantasy-football-2018-footie-awards-nominees/ ; https://atozsports.com/nashville/volunteers/former-tennessee-vols-qb-joe-milton-football-patriots-nfl/ ; https://www.dallascowboys.com/news/joe-milton-remains-confident-still-feels-he-s-the-best-quarterback ; https://www.reddit.com/r/NFCEastMemeWar/comments/18jbvgk/ ; https://www.reddit.com/r/cowboys/comments/18h7kr2/ ; https://podscripts.co/podcasts/the-fumblerooski-podcast/lead-a-horse-to-water-ep-470-the-fumblerooski-podcast ; https://www.nfl.com/videos/bo-pix-jarrian-jones-snags-a-big-int-off-of-nix ; https://www.theguardian.com/sport/2022/nov/07/aaron-rodgers-green-bay-packers-detroit-lions-interceptions-nfl-football ; https://www.si.com/nfl/2024/01/10/aaron-rodgers-pat-mcafee-show-ripped-for-cancel-comments ; https://cyclonefanatic.com/forum/threads/anonymous-donors-establish-jamie-ellen-pollard-endowed-director-of-athletics.297457/page-2 ; https://secure.ourlads.com/nfldepthcharts/depthchartpos/QB . Runtime matching check: All exact aliases passed the actual runtime normalizer. Joe now resolves to its own shortened-name catch; Captain still softly suggests Captain Kirk and requires confirmation.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Joe Shiesty",
+              "Shiesty",
+              "Joe Sheisty"
+            ],
+            "note": "Joe Burrow's nickname became popular through Traphouse Sports videos during the Bengals' rise."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Joe Brrr",
+              "Joe Brr",
+              "Joe Brrrr",
+              "Brrr",
+              "Brr"
+            ],
+            "note": "Another Joe Burrow nickname popularized alongside Joe Shiesty in viral football videos."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Joey Franchise"
+            ],
+            "note": "This Joe Burrow nickname highlights his status as Cincinnati's franchise quarterback."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jackpot Joey",
+              "Jackpot Joe"
+            ],
+            "note": "Joe Burrow was called Jackpot Joey in a cigar-smoking locker-room video."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Joe Cool"
+            ],
+            "note": "Joe Burrow shares this composure-themed nickname with other quarterbacks, including Joe Montana."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Joe Chill"
+            ],
+            "note": "This Joe Burrow nickname also matches the name of a character in Batman stories."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Joey B"
+            ],
+            "note": "A familiar shortened name for Bengals quarterback Joe Burrow, included under the short-name rule."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Captain Kirk"
+            ],
+            "note": "Kirk Cousins' nickname borrows the name of Star Trek's starship captain."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kirko Chainz",
+              "Kirko Chains"
+            ],
+            "note": "Kirk Cousins earned this nickname after celebrating wins while wearing his teammates' chains."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Showtime"
+            ],
+            "note": "Patrick Mahomes has said he used this nickname while growing up."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Grim Reaper",
+              "The Grim Reaper"
+            ],
+            "note": "Andy Reid invoked this nickname before Patrick Mahomes led a late playoff drive against Buffalo."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Danny Dimes"
+            ],
+            "note": "Daniel Jones' nickname refers to his ability to deliver accurate passes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Red Rifle",
+              "The Red Rifle"
+            ],
+            "note": "Andy Dalton's nickname combines his red hair with a reference to his passing."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Passtronaut",
+              "The Passtronaut"
+            ],
+            "note": "Joshua Dobbs' space-themed nickname reflects his aerospace-engineering background and football career."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Mr. Irrelevant",
+              "Mister Irrelevant"
+            ],
+            "note": "Brock Purdy received this label as the final selection of the 2022 NFL Draft."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tommy Cutlets"
+            ],
+            "note": "Tommy DeVito became known by this nickname during his breakthrough with the Giants."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Two Chains",
+              "2 Chains",
+              "2 Chainz",
+              "Two Chainz"
+            ],
+            "note": "Mike Vrabel gave Patriots quarterback Tommy DeVito this newer nickname during 2026."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Action Jackson"
+            ],
+            "note": "Lamar Jackson's athletic running style is celebrated in this rhyming nickname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GEQBUS",
+              "God Emperor Quarterback of the United States"
+            ],
+            "note": "Sam Darnold's elaborate internet nickname expands to God Emperor Quarterback of the United States."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "JD5",
+              "JD 5"
+            ],
+            "note": "Jayden Daniels' initials and jersey number form this nickname used by the Commanders."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Dak"
+            ],
+            "note": "Dallas quarterback Rayne Dakota Prescott is widely known by this shortened name."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "CJ",
+              "C J"
+            ],
+            "note": "These initials identify Houston Texans quarterback C.J. Stroud under this pack's short-name convention."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Tua"
+            ],
+            "note": "Tuanigamanuolepola Tagovailoa plays professionally using this much shorter first name."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Alien",
+              "Alien"
+            ],
+            "note": "Tony Romo used this nickname for Josh Allen's extraordinary athletic plays."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mr. January",
+              "Mister January"
+            ],
+            "note": "Tony Romo's January-themed nickname for Josh Allen became a talking point during playoff broadcasts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Winter Soldier",
+              "Winter Soldier"
+            ],
+            "note": "Josh Allen's superhero nickname links his powerful arm with Buffalo's cold-weather football."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The General",
+              "General"
+            ],
+            "note": "Josh Allen has also been called The General in discussions of his nicknames."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Magic Man",
+              "The Magic Man"
+            ],
+            "note": "Patrick Mahomes is listed under this nickname by Pro Football Reference."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The Musician",
+              "Musician"
+            ],
+            "note": "An orchestral nickname used for Kansas City quarterback Patrick Mahomes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fatrick"
+            ],
+            "note": "An unflattering early-career nickname for Patrick Mahomes, recorded in football nickname coverage."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Gunslinger",
+              "Gunslinger"
+            ],
+            "note": "Patrick Mahomes is among quarterbacks known by this passing-style nickname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mahomeboy"
+            ],
+            "note": "A familiar play on Patrick Mahomes' surname used in football coverage."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kermit",
+              "Kermit the Frog"
+            ],
+            "note": "Patrick Mahomes has been compared with Kermit the Frog because of his voice."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Passing Paisano",
+              "The Passing Paisano"
+            ],
+            "note": "Tommy DeVito's Italian-American background inspired this passing-themed nickname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Prince That Was Promised",
+              "Prince That Was Promised"
+            ],
+            "note": "Trevor Lawrence received this nickname during the hype surrounding his arrival in the NFL."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Snoop"
+            ],
+            "note": "Tyler Huntley's nickname dates to comparisons with rapper Snoop Dogg in high school."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Famous Jameis"
+            ],
+            "note": "Jameis Winston's rhyming nickname became widely known during his college career."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lamarvelous"
+            ],
+            "note": "A blend of Lamar and marvelous used for Baltimore quarterback Lamar Jackson."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Herbo"
+            ],
+            "note": "The Chargers use this shortened nickname for quarterback Justin Herbert."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Drake Maye"
+            ],
+            "note": "The repeated-name meme Drake \u201cDrake Maye\u201d Maye turned his actual name into a documented nickname."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Iceman",
+              "The Iceman",
+              "Ice Man"
+            ],
+            "note": "Caleb Williams embraced this nickname after a series of late-game comebacks."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Mac"
+            ],
+            "note": "Michael McCorkle Jones is professionally known by this shortened form of his middle name."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Geno"
+            ],
+            "note": "Eugene Cyril Smith III plays professionally under this family nickname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "J-Hurts"
+            ],
+            "note": "The Eagles' player biography lists J-Hurts as a nickname for Jalen Hurts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lil' Hurts",
+              "Little Hurts"
+            ],
+            "note": "Another nickname Jalen Hurts supplied for his Eagles player biography."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bake"
+            ],
+            "note": "A shortened name used for Tampa Bay quarterback Baker Mayfield."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gard-Dawg",
+              "Gard Dog"
+            ],
+            "note": "Gardner Minshew identified Gard-Dawg as a nickname he particularly liked."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "G"
+            ],
+            "note": "Gardner Minshew listed this single-letter nickname in his Eagles biography."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jock Strap King",
+              "Jockstrap King"
+            ],
+            "note": "Leonard Fournette gave Gardner Minshew this nickname for his unusual workout attire."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Minshew Mania",
+              "MinshewMania"
+            ],
+            "note": "The label for Gardner Minshew's rise also became shorthand for the quarterback himself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "General Mills"
+            ],
+            "note": "Houston used this cereal-company pun as a heading for quarterback Davis Mills."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Mailman",
+              "Mailman"
+            ],
+            "note": "Stetson Bennett's nickname originated with the postal-service hat he wore to football camps."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Athletic Drew Brees"
+            ],
+            "note": "NFL Network's Michael Robinson gave Bo Nix this comparison-based nickname."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The Fortress",
+              "Fortress"
+            ],
+            "note": "Pro Football Reference records The Fortress as a nickname for Dak Prescott."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Throw Rogan"
+            ],
+            "note": "A mocking Aaron Rodgers nickname referencing podcaster Joe Rogan."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Q-Aaron",
+              "QAaron"
+            ],
+            "note": "A satirical Aaron Rodgers nickname used in commentary about his public controversies."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kaaron Rodgers",
+              "Kaaron"
+            ],
+            "note": "A mocking Karen-themed variation of Aaron Rodgers' name used by fans."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "A-Rod",
+              "ARod"
+            ],
+            "note": "Aaron Rodgers shares this abbreviated nickname with athletes in other sports."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stat Padford",
+              "Statpadford"
+            ],
+            "note": "A disparaging Matthew Stafford nickname alleging that his statistics overstated his impact."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Big Cock Brock",
+              "BCB"
+            ],
+            "note": "Brock Purdy's explicit locker-room nickname celebrates his confidence rather than stating an anatomical fact."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Glock Purdy"
+            ],
+            "note": "A rhyming fan nickname for Brock Purdy discussed in 49ers communities."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Danny Derps"
+            ],
+            "note": "A mocking variation of Daniel Jones' Danny Dimes nickname used by football fans."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Danny Nickels",
+              "Danny Nickles"
+            ],
+            "note": "A fan insult that downgrades Daniel Jones' better-known Danny Dimes nickname."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Danny Pennies"
+            ],
+            "note": "Another coin-value joke aimed at Daniel Jones in fan discussions."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tua Turndaballova",
+              "Tua Turnsdaballova",
+              "Tua Turntheballova",
+              "Tua Turndaballover",
+              "Turndaballova"
+            ],
+            "note": "A recurring fan pun mocking Tua Tagovailoa's turnovers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Goffather",
+              "Goffather",
+              "Goff Father"
+            ],
+            "note": "A Godfather-themed fan nickname for Detroit quarterback Jared Goff."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jared Goof",
+              "Goof"
+            ],
+            "note": "A recurring disparaging alteration of Jared Goff's surname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Pickler",
+              "Pickler"
+            ],
+            "note": "A divisive fan nickname for quarterback Kenny Pickett, debated in Steelers communities."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tush Push Merchant"
+            ],
+            "note": "A disparaging label fans use for Jalen Hurts in arguments about his rushing touchdowns."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dak Trashcott",
+              "Trashcott"
+            ],
+            "note": "A derogatory fan alteration of Dak Prescott's surname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bo Pix",
+              "Bo Picks"
+            ],
+            "note": "An interception-themed pun on Bo Nix\u2019s name used in NFL video headlines."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Horse Cock Lock"
+            ],
+            "note": "An explicit rhyming fan nickname for quarterback Drew Lock."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jacoby Brisket",
+              "Brisket",
+              "Jacoby Briskett"
+            ],
+            "note": "A recurring food pun on quarterback Jacoby Brissett's surname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "DJ",
+              "D J"
+            ],
+            "note": "David John Uiagalelei is professionally known by his first and middle initials."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "JJ",
+              "J J"
+            ],
+            "note": "Jonathan James McCarthy uses these initials as his football name."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mitch"
+            ],
+            "note": "Mitchell Trubisky is commonly known by this shortened first name."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mr. Biscuit",
+              "Mister Biscuit"
+            ],
+            "note": "A childhood coach's mispronunciation inspired Mitchell Trubisky's unusual nickname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "January Joe"
+            ],
+            "note": "Joe Flacco earned this nickname for his postseason performances with Baltimore."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sunshine"
+            ],
+            "note": "Trevor Lawrence's long blond hair prompted comparisons with the quarterback in Remember the Titans."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Smooth"
+            ],
+            "note": "Jayden Daniels' childhood nickname refers to his fluid athletic style."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AR-15",
+              "AR15"
+            ],
+            "note": "Anthony Richardson formerly used this nickname before publicly dropping the firearm association."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Josh"
+            ],
+            "note": "Joshua Allen is professionally known by this shortened first name."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "JA17",
+              "JA 17"
+            ],
+            "note": "Josh Allen's initials and jersey number form this recorded nickname."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Joe"
+            ],
+            "note": "Joseph Burrow and Joseph Flacco both use this shortened first name; it is one nickname catch."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tommy"
+            ],
+            "note": "Thomas DeVito plays professionally under this familiar shortened first name."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cam"
+            ],
+            "note": "Cameron Ward plays professionally under this shortened first name."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Matt"
+            ],
+            "note": "Matthew Stafford is often referred to by this shortened first name."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Drew"
+            ],
+            "note": "Drew is the shortened form of Andrew used by quarterback Drew Lock."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kenny"
+            ],
+            "note": "Kenneth Shane Pickett plays professionally under this familiar form of Kenneth."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mormon Manziel"
+            ],
+            "note": "Zach Wilson's college-era nickname combined his BYU background with a Johnny Manziel comparison."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mormon Mahomes"
+            ],
+            "note": "Another Zach Wilson nickname linked his BYU career with Patrick Mahomes-style playmaking."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Darnold Schwarzenegger"
+            ],
+            "note": "The Fantasy Footballers used this actor-themed nickname for Sam Darnold."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Josh Stallion"
+            ],
+            "note": "The Fantasy Footballers listed this Josh Allen nickname among their 2018 award nominees."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jared Garf"
+            ],
+            "note": "The Fantasy Footballers used this mocking name for Jared Goff."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bazooka Joe"
+            ],
+            "note": "Joe Milton's powerful throwing arm inspired this artillery-themed nickname."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rocket",
+              "The Rocket"
+            ],
+            "note": "Joe Milton said he preferred Rocket to his better-known Bazooka Joe nickname."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jalen Squirts"
+            ],
+            "note": "A mocking Jalen Hurts meme nickname associated with an edited photograph, not a verified incident."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Groper Cleveland"
+            ],
+            "note": "A derisive Deshaun Watson nickname alluding to sexual-misconduct allegations and his Cleveland team."
+          }
+        ]
+      },
+      {
+        "prompt": "Current NFL WR Nicknames",
+        "source": "https://www.philadelphiaeagles.com/team/players-roster/deVonta-smith/",
+        "sourceNote": "Research snapshot: 13 October 2026. Current roster and finite-category membership checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: regular NFL fans. User requested one catch per distinct nickname, including documented initials, shortened names and childhood names; different nicknames for one player score independently. Orthographic variants share a catch. Players must be rostered, including backups and reserve/injured players; unsigned free agents and retired players are excluded. Expanded documented nickname bank covering starters, backups and reserve/practice-squad players. There is no authoritative finite registry of every nickname; local and newly coined names remain a coverage limit. Shortened professional first names and documented initials qualify under the user instruction. Full real names alone generally do not qualify, except the documented Drake \u201cDrake Maye\u201d Maye meme in Q1. Jet belongs to Marquise Brown; Jets/JJets belong to Justin Jefferson. These distinct documented forms must not be merged. Tank refers to Dell in this WR question, not RB Bigsby. Pop refers to Douglas here, not RB Pacheco. Bare Batman now belongs to the documented Rashod Bateman nickname; Skinny Batman, Swole Batman and Fast Batman are distinct full nicknames with separate catches. Tyreek Hill/Cheetah omitted because no current signing was verified: https://www.profootballnetwork.com/why-hasnt-tyreek-hill-signed-with-an-nfl-team-yet-latest-free-agency-rumors-for-the-8-time-pro-bowler/ . Supporting sources: Jefferson https://www.vikings.com/news/longform/justin-jefferson-minnesota-ice and https://www.vikings.com/justin-jefferson ; Hollywood/Jet https://www.nfl.com/videos/baltimore-ravens-rookie-wide-receiver-marquise-brown-explains-distinction-431933 and Eagles signing https://www.nfl.com/_amp/marquise-brown-eagles-sign-wr-one-year-deal ; Uno https://www.bengals.com/team/players-roster/ja-marr-chase/ ; Scary Terry https://www.commanders.com/news/scary-terry-mclaurin-is-haunting-defenses-with-his-masterful-route-running ; Joystick https://www.baltimoreravens.com/news/lamar-jackson-new-offense-exciting-todd-monken-odell-beckham-jr ; Speedy https://www.raiders.com/news/free-agent-facts-get-to-know-jalen-nailor-wide-receiver-raiders-2026-free-agency ; JSN and his two newer names https://www.seahawks.com/news/seahawks-receiver-jaxon-smith-njigba-is-a-natural-true-ball-player ; Waffle House https://www.baltimoreravens.com/news/elijah-sarratt-ravens-draft-wide-receiver-indiana-five-things-to-know-nfl-2026 ; Puka https://www.therams.com/news/rams-rookie-puka-nacua-record-setting-rookie-campaign-cooper-kupp and https://www.therams.com/video/puka-nacua-real-name-makea-nacua-puka-doncic-nickname-given-by-lebron-james ; Sun God https://www.redbull.com/int-en/amon-ra-st-brown-profile ; Pop https://www.sportingnews.com/ca/nfl/news/pop-douglas-real-name-wr-nickname/919f3234118970e1c0dd41a8 ; Tank https://www.houstontexans.com/team/players-roster/tank-dell/logs/2026/reg/ ; Deebo nickname https://en.wikipedia.org/wiki/Deebo_Samuel and current status https://apnews.com/article/54f98c5cebf374b5782b48a27a3aa9c8 ; Tee https://www.bengals.com/news/what-tee-higgins-and-zac-taylor-said-after-round-two ; CeeDee https://www.dallascowboys.com/news/wr-position-breakdown-2020 ; DK https://www.sportingnews.com/ca/nfl/news/what-dk-metcalf-full-name-meaning-shortened-government-name/6a994932d05595f3f81e7742 ; AJ https://www.patriots.com/team/players-roster/a-j-brown/logs/2025/reg/ . User explicitly requested slander nicknames: documented mocking, satirical and explicit names are accepted, with neutral identifying blurbs. Fan discussions are primary evidence of fan usage, not evidence that an insult or allegation is true. No invented nickname-generator entries were used. Each distinct nickname is one catch even if shared by several eligible players; spelling and abbreviation variants share their catch. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.sportingnews.com/au/nfl/news/eagles-batman-cape-philadelphia-nicknames-td-celebration/yt9rvwutteles7ulbwnuwsgx ; https://www.baltimoreravens.com/news/cover-story-no-1-rashod-bateman-is-ready-to-be-him ; https://www.detroitlions.com/news/get-to-know-detroit-lions-wide-receiver-jameson-williams ; https://www.pro-football-reference.com/players/W/WaddJa00.htm ; https://www.pro-football-reference.com/players/C/CookBr00.htm ; https://www.sportingnews.com/us/nfl/los-angeles-rams/news/tutu-atwell-real-name-explaining-rams-wr-fun-nickname/5ce1001422ea6766574ed217 ; https://static.clubs.nfl.com/image/upload/saints/gpvtnmeyz7dzyueist9i.pdf ; https://static.clubs.nfl.com/image/upload/jaguars/yklv3f87z20r4ljvuxtg ; https://en.wikipedia.org/wiki/Marvin_Harrison_Jr. ; https://www.gq.com/story/marvin-harrison-jr-osu-interview ; https://www.reddit.com/r/nfl/comments/kokl8d/ ; https://www.reddit.com/r/nfl/comments/1uyjcs4/highlight_davante_adams_release_at_the_line_of/ ; https://www.espn.com/nfl/story/_/id/42725811/jerry-jeudy-cleveland-browns-returns-denver ; https://www.reddit.com/r/GreenBayPackers/comments/186s1zq/ ; https://www.reddit.com/r/nfl/comments/1e9ja6n/ ; https://www.washingtonpost.com/sports/nfl/2026/08/26/denver-broncos-pat-bryant/c6727098-a183-11f1-8606-1d40ad00172e_story.html ; https://www.chicagobears.com/news/fast-facts-dj-moore ; https://www.49ers.com/team/players-roster/marquez-valdes-scantling/logs/2026/reg/ ; https://www.chargers.com/news/quentin-johnston-fantasy-monday-night-football ; https://mutigers.com/news/2025/04/25/burden-iii-chosen-by-chicago-bears-in-second-round ; https://www.southlakestyle.com/community/people/lil-big-man-campus/ ; https://www.nfl.com/transactions/league/signings/2026/10 ; https://www.ourlads.com/nfldepthcharts/player/40417/ ; https://www.pro-football-reference.com/players/M/McMiTe00.htm ; https://www.49ers.com/news/5-things-to-know-wide-receiver-ricky-pearsall-2024-nfl-draft-slick-arizona-florida-combine-dance ; https://www.sportingnews.com/us/nfl/los-angeles-chargers/news/ladd-mcconkey-mr-consistency-start-rookie-season-chargers/f9254266f568e95ac8c1dd5f ; https://magazines.inmaricopa.com/view/549690302/1/ ; https://steelersdepot.com/2022/12/im-gp-george-pickens-calls-nfl-youngboy-nickname-corny/ ; https://www.reddit.com/r/detroitlions/comments/180ij8e/ ; https://www.azcardinals.com/news/top-questions-heading-into-2026-training-camp-part-two ; https://www.seahawks.com/news/first-home-game-as-a-seahawk-a-really-cool-thing-for-washington-native-cooper-kupp ; https://sports.yahoo.com/articles/presence-perspective-malik-nabers-rousing-143824831.html ; https://en.wikipedia.org/wiki/Chris_Godwin ; https://en.wikipedia.org/wiki/Chris_Olave ; https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver) . Runtime matching check: All exact aliases passed. Batman, Skinny Batman, Swole Batman and Fast Batman remain distinct; Jet and Jets retain different owners.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Sun God",
+              "The Sun God"
+            ],
+            "note": "Amon-Ra St. Brown's nickname refers to the Egyptian deity reflected in his first name."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jets",
+              "JJets"
+            ],
+            "note": "Justin Jefferson's jet-themed identity appears in his jewelry and his JJets football camp."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Slim Reaper",
+              "The Slim Reaper"
+            ],
+            "note": "DeVonta Smith's slender frame inspired one of his best-known receiving nicknames."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Skinny Batman"
+            ],
+            "note": "The Eagles list Skinny Batman among wide receiver DeVonta Smith's nicknames."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Smitty"
+            ],
+            "note": "DeVonta Smith uses this familiar nickname alongside Slim Reaper and Skinny Batman."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hollywood"
+            ],
+            "note": "Marquise Brown's widely used nickname is also part of his public football identity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jet"
+            ],
+            "note": "Marquise Brown has discussed Jet as a nickname distinct from Hollywood."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Uno"
+            ],
+            "note": "Ja'Marr Chase became the first Bengals player to wear jersey number one."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Scary Terry"
+            ],
+            "note": "Terry McLaurin's rhyming nickname is used extensively by the Washington Commanders."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Joystick",
+              "The Joystick"
+            ],
+            "note": "Lamar Jackson gave Zay Flowers this nickname after watching his elusive movements in practice."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Speedy"
+            ],
+            "note": "Jalen Nailor received this nickname when he first started playing football."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "JSN",
+              "J S N"
+            ],
+            "note": "Jaxon Smith-Njigba's initials are widely used by the Seahawks and their supporters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Silver Surfer",
+              "The Silver Surfer"
+            ],
+            "note": "The Seahawks identified Silver Surfer as one of Jaxon Smith-Njigba's nicknames in October 2026."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Emerald City Route Artist",
+              "The Emerald City Route Artist"
+            ],
+            "note": "This Seattle-themed nickname describes wide receiver Jaxon Smith-Njigba's route-running artistry."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Waffle House"
+            ],
+            "note": "Elijah Sarratt's nickname jokes that, like the restaurant chain, he is always open."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Puka"
+            ],
+            "note": "Puka Nacua's grandmother gave him the childhood nickname he uses professionally."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Puka Doncic"
+            ],
+            "note": "The Rams have featured Puka Nacua's basketball-inspired Puka Doncic nickname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pop"
+            ],
+            "note": "DeMario Douglas' family nickname Poppa was shortened to Pop while he was growing up."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tank"
+            ],
+            "note": "Texans receiver Tank Dell plays under a nickname rather than his given name Nathaniel."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Deebo"
+            ],
+            "note": "Tyshun Samuel is widely known by the childhood nickname Deebo."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tee"
+            ],
+            "note": "Tee Higgins explained that his familiar first name is short for Tamaurice."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "CeeDee",
+              "Cee Dee",
+              "CD",
+              "C D"
+            ],
+            "note": "Dallas receiver Cedarian DeLeon Lamb is known professionally as CeeDee Lamb."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "DK",
+              "D K"
+            ],
+            "note": "DK Metcalf's familiar first name is a shortened form of DeKaylin."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AJ",
+              "A J"
+            ],
+            "note": "A.J. Brown uses these initials in his professional football name."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Swole Batman"
+            ],
+            "note": "Darius Slay gave A.J. Brown this muscular superhero nickname while they were Eagles teammates."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fast Batman"
+            ],
+            "note": "Quez Watkins received this speed-themed Batman nickname during his Eagles career."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Batman"
+            ],
+            "note": "Rashod Bateman has explicitly embraced this play on his surname."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jamo"
+            ],
+            "note": "Jameson Williams gave Jamo as his nickname in a Lions interview."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Penguin",
+              "The Penguin"
+            ],
+            "note": "Jaylen Waddle's surname and touchdown celebration inspired this bird-themed nickname."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Archer",
+              "Archer"
+            ],
+            "note": "Brandin Cooks is known by this nickname, reflected in his bow-and-arrow celebration."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tutu"
+            ],
+            "note": "Chatarius Atwell Jr. inherited the family nickname Tutu from his father."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Third and Jauan",
+              "3rd and Jauan"
+            ],
+            "note": "Jauan Jennings said he liked this nickname referring to his third-down receiving."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "BTJ",
+              "B T J"
+            ],
+            "note": "Brian Thomas Jr.'s initials are used in official Jaguars player notes."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Maserati Marv"
+            ],
+            "note": "Marvin Harrison Jr. acquired this luxury-car nickname during his Ohio State career."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marv"
+            ],
+            "note": "Marvin Harrison Jr. has been profiled using this familiar shortened name."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dropvante Adams",
+              "Dropvante",
+              "Dropante Adams",
+              "Dropante",
+              "Drop-ante Adams"
+            ],
+            "note": "An early-career fan insult aimed at Davante Adams' dropped passes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "JAG",
+              "Just a Guy"
+            ],
+            "note": "Steve Smith Sr. applied this dismissive label to Jerry Jeudy."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tae"
+            ],
+            "note": "Davante Adams is widely referred to by this shortened name."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Patty Ice"
+            ],
+            "note": "Pat Bryant acquired this nickname during Denver's 2026 training camp."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "DJ",
+              "D J"
+            ],
+            "note": "Denniston Oliver Moore Jr. uses DJ as his professional football name."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MVS",
+              "M V S"
+            ],
+            "note": "Marquez Valdes-Scantling is commonly identified by these initials in football coverage."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "QJ",
+              "Q J"
+            ],
+            "note": "The Chargers use these initials for wide receiver Quentin Johnston."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LB3",
+              "LB 3"
+            ],
+            "note": "Luther Burden III's initials and suffix form this football nickname."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LJ",
+              "L J"
+            ],
+            "note": "Lil'Jordan Humphrey has also been known by these initials since his school days."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "KJ",
+              "K J"
+            ],
+            "note": "Kendrick Osborn Jr. is professionally known as K.J. Osborn."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "T-Mac",
+              "TMac"
+            ],
+            "note": "Tetairoa McMillan's familiar nickname shortens his first name and surname."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nalo"
+            ],
+            "note": "Pro Football Reference also records Nalo as a nickname for Tetairoa McMillan."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Slick Rick"
+            ],
+            "note": "Ricky Pearsall has used this rhyming nickname since before joining the NFL."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mad Ladd",
+              "The Mad Ladd"
+            ],
+            "note": "A rhyming nickname used in coverage of Chargers receiver Ladd McConkey."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quentin Dropston",
+              "Dropston"
+            ],
+            "note": "A mocking Quentin Johnston nickname referring to dropped passes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GP",
+              "G P"
+            ],
+            "note": "George Pickens said he preferred these initials to the nickname NFL Youngboy."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "NFL Youngboy",
+              "NFL Young Boy"
+            ],
+            "note": "Fans compared George Pickens with rapper NBA YoungBoy; Pickens called the nickname corny."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "ARSB",
+              "A R S B"
+            ],
+            "note": "Fans use these initials for receiver Amon-Ra St. Brown."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "MHJ",
+              "M H J"
+            ],
+            "note": "Marvin Harrison Jr.'s initials are used in official Cardinals coverage."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Coop"
+            ],
+            "note": "Cooper Kupp's teammates use this shortened version of his first name."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leek"
+            ],
+            "note": "Giants fans chant this shortened nickname for Malik Nabers."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Chris"
+            ],
+            "note": "Chris Godwin and Chris Olave use shortened forms of Christopher and Christian respectively."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mike"
+            ],
+            "note": "Michael Lynn Evans Jr. plays professionally under this shortened first name."
+          }
+        ]
+      },
+      {
+        "prompt": "Current NFL RB Nicknames",
+        "source": "https://www.nfl.com/news/lions-rbs-sonic-and-knuckles-key-to-sunday-s-showdown-vs-vikings",
+        "sourceNote": "Research snapshot: 13 October 2026. Current roster and finite-category membership checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: regular NFL fans. User requested one catch per distinct nickname, including documented initials, shortened names and childhood names; different nicknames for one player score independently. Orthographic variants share a catch. Players must be rostered, including backups and reserve/injured players; unsigned free agents and retired players are excluded. Expanded documented nickname bank covering starters, backups and reserve/practice-squad players. There is no authoritative finite registry of every nickname; local and newly coined names remain a coverage limit. Shortened professional first names and documented initials qualify under the user instruction. Full real names alone generally do not qualify, except the documented Drake \u201cDrake Maye\u201d Maye meme in Q1. Sonic and Knuckles are separate individual catches, not a third combined-duo catch. Tank belongs to Bigsby and Pop to Pacheco in this position category. CMC and Run CMC are distinct established labels under the user convention. Sources: King Henry https://www.baltimoreravens.com/news/transcript-press-conferences-9-25-26 ; Tractorcito https://www.vikings.com/news/baltimore-ravens-week-10-game-preview-2025 ; Lightning McQueen https://www.nfl.com/news/ravens-rb-derrick-henry-embracing-new-lightning-mcqueen-nickname ; Run CMC https://media.49ers.1rmg.com/wp-content/uploads/2023/05/19121322/San-Francisco-49ers-vs.-Baltimore-Ravens-Week-16-Release.pdf and CMC/current status https://amp.nfl.com/news/christian-mccaffrey-absence-from-practices-was-part-of-the-plan-from-the-jump ; Pacheco nickname https://www.kansascity.com/sports/nfl/kansas-city-chiefs/article269774492.html and current roster https://www.detroitlions.com/team/players-roster/isiah-pacheco/logs/ ; Montgomery now Houston https://www.houstontexans.com/news/houston-texans-2026-free-agency-tracker ; Breece the Beast https://www.newyorkjets.com/news/jets-rookie-rb-breece-hall-aka-breece-the-beast-taking-pride-in-being-a-human-er ; SaQuads https://www.sportingnews.com/us/nfl/philadelphia-eagles/news/saquon-barkley-saquads-nickname-eagles-thighs/b6fba6540227779f26d0d5d6 ; Tank https://www.philadelphiaeagles.com/news/eagles-agree-to-acquire-tank-bigsby-from-the-jaguars ; Bucky https://www.sportingnews.com/us/nfl/tampa-bay-buccaneers/news/bucky-irving-real-name-buccaneers-nickname/894ce1c2482850d52e6eb93b and current roster https://www.buccaneers.com/team/players-roster/bucky-irving/ ; Bill https://www.commanders.com/news/commanders-jacory-bill-croskey-merritt-running-back-offseason ; Fatman https://www.commanders.com/news/kaytron-allen-five-things-to-know and Miami waiver assignment 9 October https://www.nfl.com/transactions/league/waivers/2026/10 . User explicitly requested slander nicknames: documented mocking, satirical and explicit names are accepted, with neutral identifying blurbs. Fan discussions are primary evidence of fan usage, not evidence that an insult or allegation is true. No invented nickname-generator entries were used. Each distinct nickname is one catch even if shared by several eligible players; spelling and abbreviation variants share their catch. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://shop.chiefs.com/kansas-city-chiefs-wincraft-gameday-and-tailgate-license-plates/t-3433%2Bbr-235%2Bd-3095-3198?_s=EML23_NFLPT_0715_9A_CP25_VACATION&pageSize=72&sortOption=TopSellers ; https://www.sportingnews.com/us/nfl/news/what-woody-marks-real-name-what-know-about-meaning-behind-texans-rbs-nickname/0b9d19f35ffa58d7669e97d5 ; https://www.denverbroncos.com/news/sleepless-nights-and-draft-night-tears-the-indescribable-bond-between-javonte-wi ; https://www.denverbroncos.com/news/longform/back-home-features-javonte-williams-wallace-nc-hometown-childhood ; https://alvinkamarastore.com/ ; https://www.wafb.com/2026/03/13/saints-rb-travis-etienne-clears-up-how-pronounce-his-last-name/ ; https://www.colts.com/news/jonathan-taylor-history-rushing-yards-colts-fumble-redemption-win-titans ; https://www.patriots.com/news/continuous-improvement-fuels-stevenson-s-rise ; https://sports.yahoo.com/articles/cam-skattebo-parents-leonard-skattebo-000000452.html ; https://okstate.com/sports/football/roster/chuba-hubbard/8959 ; https://static.clubs.nfl.com/image/upload/v1573078977/patriots/gxa1fzctz5uvxmyqbgec.pdf ; https://www.raiders.com/news/ashton-jeanty-inside-look-first-24-hours-as-a-raider-2025-nfl-draft-boise-state ; https://www.buffalobills.com/news/bills-chiefs-preview-nfl-james-cook-quiet-enduring-personality-leaves-mark-bills-locker-room ; https://static.clubs.nfl.com/image/upload/saints/nykqkoc52q7pzsl3xa1j.pdf ; https://en.wikipedia.org/wiki/Brian_Robinson_Jr. ; https://en.wikipedia.org/wiki/RJ_Harvey ; https://www.pro-football-reference.com/players/A/AlleBr05.htm ; https://www.pro-football-reference.com/players/B/BarkSa00.htm ; https://en.wikipedia.org/wiki/Josh_Jacobs ; https://en.wikipedia.org/wiki/A._J._Dillon ; https://www.panthers.com/team/players-roster/ ; https://sports.yahoo.com/articles/giants-star-cam-skattebo-emerging-125442563.html . Runtime matching check: All exact aliases passed. CMC and Run CMC remain separate catches.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "King Henry",
+              "The King"
+            ],
+            "note": "Derrick Henry's royal nickname is regularly used by the Baltimore Ravens."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tractorcito",
+              "El Tractorcito"
+            ],
+            "note": "Derrick Henry's Spanish-language nickname evokes a small tractor powering through defenders."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lightning McQueen",
+              "McQueen"
+            ],
+            "note": "Derrick Henry embraced this Cars-inspired nickname during his time with Baltimore."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Run CMC"
+            ],
+            "note": "Christian McCaffrey's nickname combines his initials with a reference to Run-DMC."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "CMC",
+              "C M C"
+            ],
+            "note": "Christian McCaffrey is frequently identified by these initials in football coverage."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sonic",
+              "Sonic the Hedgehog"
+            ],
+            "note": "Jahmyr Gibbs' speed inspired his nickname after the blue video-game hedgehog."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Knuckles",
+              "Knuckles the Echidna"
+            ],
+            "note": "David Montgomery's powerful running inspired this nickname from the Sonic video games."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pop"
+            ],
+            "note": "Isiah Pacheco is widely called Pop by teammates, dating to his Chiefs career."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Breece the Beast",
+              "Breece Beast"
+            ],
+            "note": "Breece Hall has said this nickname began with his middle-school Instagram name."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "SaQuads",
+              "Sa Quads",
+              "Quads"
+            ],
+            "note": "Saquon Barkley's powerful thighs inspired this play on his first name."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tank"
+            ],
+            "note": "Cartavious Bigsby's mother gave him this nickname when he was seven."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Bucky"
+            ],
+            "note": "Mar'Keise Irving received the nickname Bucky from his late father."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bill",
+              "Little Bill"
+            ],
+            "note": "Jacory Croskey-Merritt was nicknamed for his childhood resemblance to the cartoon character Little Bill."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fatman",
+              "Fat Man"
+            ],
+            "note": "Kaytron Allen has proudly carried this nickname since childhood."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "K9",
+              "K-9",
+              "K Nine"
+            ],
+            "note": "Kenneth Walker III's established nickname combines his first initial with his former jersey number."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Woody"
+            ],
+            "note": "Jo'Quavious Marks' childhood love of Toy Story supplied the name he uses professionally."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pookie",
+              "Little Pookie"
+            ],
+            "note": "Javonte Williams shares this family nickname with his father."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vonte"
+            ],
+            "note": "Javonte Williams is also called Vonte in his North Carolina hometown."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AK41",
+              "AK 41"
+            ],
+            "note": "Alvin Kamara combines his initials and jersey number in his official merchandise."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AK",
+              "A K"
+            ],
+            "note": "Alvin Kamara also uses these initials without his jersey number."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "ETN",
+              "E T N"
+            ],
+            "note": "Travis Etienne's familiar letter-based shorthand developed from how his surname was pronounced at Clemson."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "JT",
+              "J T"
+            ],
+            "note": "Colts teammates use these initials for running back Jonathan Taylor."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mondre"
+            ],
+            "note": "Patriots coaches and teammates shorten Rhamondre Stevenson's first name to Mondre."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Skatt"
+            ],
+            "note": "A familiar shortened nickname for running back Cam Skattebo."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nature Boy",
+              "The Nature Boy"
+            ],
+            "note": "Cam Skattebo has acquired this wrestling-inspired nickname."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Houdini"
+            ],
+            "note": "Cam Skattebo earned this childhood nickname for his knack for escaping trouble."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Canada's Cowboy",
+              "Canadas Cowboy"
+            ],
+            "note": "Oklahoma State embraced this nickname for Canadian running back Chuba Hubbard."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Motor",
+              "Little Motor"
+            ],
+            "note": "Devin Singletary inherited the Motor nickname from his father."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Deuce"
+            ],
+            "note": "Ashton Jeanty's family called him Deuce after his childhood jersey number two."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jimbo"
+            ],
+            "note": "Bills teammates use Jimbo as a familiar nickname for James Cook."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Himbo"
+            ],
+            "note": "James Cook's teammates have also called him Himbo in Buffalo's locker room."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Game Day Jimbo",
+              "Gameday Jimbo"
+            ],
+            "note": "This expanded James Cook nickname distinguishes his competitive game-day personality."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Monty the Python"
+            ],
+            "note": "This David Montgomery nickname appeared in official Lions player notes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "B-Rob",
+              "BRob"
+            ],
+            "note": "Brian Robinson Jr. is commonly known by this abbreviated football name."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "RJ",
+              "R J"
+            ],
+            "note": "Robert Harvey Jr. uses RJ as his professional football name."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Agent Zero"
+            ],
+            "note": "Braelon Allen's zero jersey number inspired this agent-themed nickname."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Shayshawn"
+            ],
+            "note": "Pro Football Reference records this less familiar nickname for Saquon Barkley."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Josh"
+            ],
+            "note": "Joshua Cordell Jacobs uses this shortened first name in his football career."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quadzilla"
+            ],
+            "note": "A.J. Dillon's muscular legs inspired this monster-themed nickname."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "AJ",
+              "A J"
+            ],
+            "note": "Algiers Jameal Dillon Jr. uses these initials in his professional football name."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The People's Running Back",
+              "Peoples Running Back"
+            ],
+            "note": "Cam Skattebo received this fan-oriented nickname during his rise with the Giants."
+          }
+        ]
+      },
+      {
+        "prompt": "Current NFL Head Coaches",
+        "source": "https://playfootball.nfl.com/news-events/news-and-features/where-every-nfl-head-coach-played-high-school-football/",
+        "sourceNote": "Research snapshot: 13 October 2026. Current roster and finite-category membership checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. All 32 incumbent head coaches in the checked 2026 list. Audience: regular NFL fans; recognizability of the coach, not team quality, determines Worth. Cross-check https://gridironexperts.com/nfl-coaches-list/ . Unambiguous surnames accepted. Jim/John Harbaugh and Matt/Mike LaFleur require their distinguishing first names; neither bare surname is an intentional exact alias. Team names alone are not answers. First names alone are not intentional aliases. Coaching assignments need refreshing for any later transaction; no future job changes are asserted. Runtime matching check: All exact aliases passed. Bare Harbaugh still softly suggests Jim Harbaugh and bare LaFleur suggests Matt LaFleur; neither is an intentional exact alias. This existing matcher limitation requires confirmation.",
+        "answers": [
+          {
+            "points": 60,
+            "forms": [
+              "Joe Brady",
+              "Brady"
+            ],
+            "note": "Buffalo Bills head coach."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jeff Hafley",
+              "Hafley"
+            ],
+            "note": "Miami Dolphins head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mike Vrabel",
+              "Vrabel"
+            ],
+            "note": "New England Patriots head coach."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Aaron Glenn",
+              "Glenn"
+            ],
+            "note": "New York Jets head coach."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jesse Minter",
+              "Minter"
+            ],
+            "note": "Baltimore Ravens head coach."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zac Taylor",
+              "Taylor"
+            ],
+            "note": "Cincinnati Bengals head coach."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Todd Monken",
+              "Monken"
+            ],
+            "note": "Cleveland Browns head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mike McCarthy",
+              "McCarthy"
+            ],
+            "note": "Pittsburgh Steelers head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "DeMeco Ryans",
+              "Ryans"
+            ],
+            "note": "Houston Texans head coach."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Shane Steichen",
+              "Steichen"
+            ],
+            "note": "Indianapolis Colts head coach."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Liam Coen",
+              "Coen"
+            ],
+            "note": "Jacksonville Jaguars head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Robert Saleh",
+              "Saleh"
+            ],
+            "note": "Tennessee Titans head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sean Payton",
+              "Payton"
+            ],
+            "note": "Denver Broncos head coach."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Andy Reid",
+              "Reid"
+            ],
+            "note": "Kansas City Chiefs head coach."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Klint Kubiak",
+              "Kubiak"
+            ],
+            "note": "Las Vegas Raiders head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jim Harbaugh"
+            ],
+            "note": "Los Angeles Chargers head coach."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brian Schottenheimer",
+              "Schottenheimer"
+            ],
+            "note": "Dallas Cowboys head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "John Harbaugh"
+            ],
+            "note": "New York Giants head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nick Sirianni",
+              "Sirianni"
+            ],
+            "note": "Philadelphia Eagles head coach."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dan Quinn",
+              "Quinn"
+            ],
+            "note": "Washington Commanders head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ben Johnson",
+              "Johnson"
+            ],
+            "note": "Chicago Bears head coach."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Dan Campbell",
+              "Campbell"
+            ],
+            "note": "Detroit Lions head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Matt LaFleur"
+            ],
+            "note": "Green Bay Packers head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kevin O'Connell",
+              "O'Connell",
+              "OConnell",
+              "KOC"
+            ],
+            "note": "Minnesota Vikings head coach."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kevin Stefanski",
+              "Stefanski"
+            ],
+            "note": "Atlanta Falcons head coach."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dave Canales",
+              "Canales"
+            ],
+            "note": "Carolina Panthers head coach."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kellen Moore",
+              "Moore"
+            ],
+            "note": "New Orleans Saints head coach."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Todd Bowles",
+              "Bowles"
+            ],
+            "note": "Tampa Bay Buccaneers head coach."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mike LaFleur"
+            ],
+            "note": "Arizona Cardinals head coach."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Sean McVay",
+              "McVay"
+            ],
+            "note": "Los Angeles Rams head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kyle Shanahan",
+              "Shanahan"
+            ],
+            "note": "San Francisco 49ers head coach."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mike Macdonald",
+              "Macdonald"
+            ],
+            "note": "Seattle Seahawks head coach."
+          }
+        ]
+      },
+      {
+        "prompt": "MLB Teams Left in the Playoffs as of 13 October",
+        "source": "https://www.mlb.com/postseason",
+        "sourceNote": "Research snapshot: 13 October 2026. Current roster and finite-category membership checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. The four championship-series clubs established by 12 October and rechecked on 13 October at https://www.mlb.com/ . NLCS began 11 October and ALCS began 12 October; neither best-of-seven series can end by 13 October on this schedule. Thus the membership is already determined for 13 October barring extraordinary schedule changes. Schedule cross-check https://www.foxsports.com/stories/mlb/2026-mlb-playoff-schedule-dates-rounds-how-watch . Audience: general trivia players, with Dodgers the obvious anchor and the other three at 30 rather than manufacturing obscure tiers. Team nicknames, unambiguous cities and standard abbreviations accepted. Historical franchise names are not extra catches. Short blurbs identify leagues without adding unverified future results. Runtime matching check: All exact aliases passed; LA resolves to Los Angeles Dodgers.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Los Angeles Dodgers",
+              "Dodgers",
+              "Los Angeles",
+              "LA Dodgers",
+              "LAD",
+              "LA"
+            ],
+            "note": "National League contender."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Milwaukee Brewers",
+              "Brewers",
+              "Milwaukee",
+              "MIL"
+            ],
+            "note": "National League contender."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cleveland Guardians",
+              "Guardians",
+              "Cleveland",
+              "CLE"
+            ],
+            "note": "American League contender."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tampa Bay Rays",
+              "Rays",
+              "Tampa Bay",
+              "Tampa",
+              "TB",
+              "TBR"
+            ],
+            "note": "American League contender."
+          }
+        ]
+      },
+      {
+        "prompt": "Dietary Supplements",
+        "source": "https://ods.od.nih.gov/factsheets/list-all/",
+        "sourceNote": "Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: general trivia players. Open, non-exhaustive bank of supplement ingredients and recognizable product categories, no brands, dosage sizes or delivery formats as separate catches. U.S. NIH supplement terminology is used; inclusion is not a health-benefit claim. Vitamin forms share their vitamin-family catch; individual B vitamins and B-complex are separate product categories. Protein powder is the basic category, whey and casein are distinct source-specific catches. Broad protein maps to Protein powder (10); vitamins maps to Multivitamin (10); vitamin B/B vitamins maps to B-complex (30). Fish oil (30) owns broad omega-3/omega three, while cod liver, krill and algal oils require their distinguishing words. Fiber/fibre maps to psyllium (30), the represented basic fiber supplement. Antioxidants maps to Vitamin C (10), the least-rare represented antioxidant. Broad minerals maps to Multivitamin (10), amino acids/amino to BCAA (60), oils/oil to Fish oil (30), herbs/herbal supplements to Turmeric (30), and prebiotics to Inulin (85), using the basic least-rare represented member of each category. Vitamin A owns beta-carotene under the vitamin-family convention. Soy protein and soy isoflavones are separate source-specific product categories. Sources for membership, synonyms and blurbs: vitamins/minerals https://ods.od.nih.gov/factsheets/list-VitaminsMinerals/ and https://medlineplus.gov/healthdefinitions/mineralsdefinitions.html ; vitamin synonyms https://ods.od.nih.gov/pubs/Special_Supplement-New_Multivitamin_Reference_Material_Issued.pdf ; athletic ingredients https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/ ; oils https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/ ; botanicals https://www.nccih.nih.gov/health/herbsataglance ; general supplements https://ods.od.nih.gov/factsheets/WYNTK-Consumer/ . Further ingredient references: https://www.nccih.nih.gov/health/coenzyme-q10 ; https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know ; https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know ; https://medlineplus.gov/druginfo/meds/a601104.html . Expanded across vitamins, minerals, proteins, sports ingredients, botanical extracts, mushrooms, amino acids, fibers and digestive ingredients. Ingredient extracts and their common constituent labels follow the existing family convention; distinct product categories can also qualify. This open category has no finite exhaustive master list; doses, brands and every proprietary mixture are excluded. NIH label records establish marketed ingredient/category existence, not current availability of a particular branded product or efficacy. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.nccih.nih.gov/health/acai ; https://www.nccih.nih.gov/health/aloe-vera ; https://www.nccih.nih.gov/health/astragalus ; https://www.nccih.nih.gov/health/bilberry ; https://www.nccih.nih.gov/health/bitter-orange ; https://www.nccih.nih.gov/health/black-cohosh ; https://www.nccih.nih.gov/health/boswellia ; https://www.nccih.nih.gov/health/bromelain ; https://www.nccih.nih.gov/health/butterbur ; https://www.nccih.nih.gov/health/cats-claw ; https://www.nccih.nih.gov/health/chamomile ; https://www.nccih.nih.gov/health/chasteberry ; https://www.nccih.nih.gov/health/cinnamon ; https://www.nccih.nih.gov/health/cranberry ; https://www.nccih.nih.gov/health/dandelion ; https://www.nccih.nih.gov/health/fenugreek ; https://www.nccih.nih.gov/health/feverfew ; https://www.nccih.nih.gov/health/garcinia-cambogia ; https://www.nccih.nih.gov/health/goldenseal ; https://www.nccih.nih.gov/health/grape-seed-extract ; https://www.nccih.nih.gov/health/green-tea ; https://www.nccih.nih.gov/health/hawthorn ; https://www.nccih.nih.gov/health/hoodia ; https://www.nccih.nih.gov/health/horse-chestnut ; https://www.nccih.nih.gov/health/kava ; https://www.nccih.nih.gov/health/lavender ; https://www.nccih.nih.gov/health/licorice-root ; https://www.nccih.nih.gov/health/noni ; https://www.nccih.nih.gov/health/passionflower ; https://www.nccih.nih.gov/health/peppermint-oil ; https://www.nccih.nih.gov/health/pomegranate ; https://www.nccih.nih.gov/health/red-clover ; https://www.nccih.nih.gov/health/rhodiola ; https://www.nccih.nih.gov/health/sage ; https://www.nccih.nih.gov/health/soy ; https://www.nccih.nih.gov/health/white-mulberry-leaf ; https://www.nccih.nih.gov/health/yohimbe ; https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/ ; https://ods.od.nih.gov/factsheets/WeightLoss-Consumer/ ; https://health.clevelandclinic.org/protein-powder ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/collagen ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/berberine ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/alpha-lipoic-acid ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/l-theanine ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/resveratrol ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/n-acetylcysteine ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/blue-green-algae ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lions-mane-mushroom ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/reishi-mushroom ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cordyceps ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/maitake ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/coriolus-versicolor ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lutein ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycopene ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/maca ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/nigella-sativa ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/red-yeast-rice ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/inositol-hexaphosphate ; https://www.mskcc.org/news/do-mushroom-supplements-boost-immunity-against-cancer ; https://www.nccih.nih.gov/health/sadenosyllmethionine-same-in-depth ; https://dsld.od.nih.gov/ingredient/5%20HTP ; https://dsld.od.nih.gov/ingredient/Taurine ; https://dsld.od.nih.gov/ingredient/lysine ; https://dsld.od.nih.gov/ingredient/Glycine%2C%2BPowder ; https://dsld.od.nih.gov/ingredient/Tyrosine ; https://dsld.od.nih.gov/ingredient/Gaba ; https://dsld.od.nih.gov/ingredient/MSM%2BSulfate ; https://dsld.od.nih.gov/label/255009 ; https://dsld.od.nih.gov/label/174085 ; https://dsld.od.nih.gov/ingredient/Fructo-oligosaccharides ; https://dsld.od.nih.gov/label/266375 ; https://dsld.od.nih.gov/ingredient/Inositol ; https://dsld.od.nih.gov/label/7069 ; https://dsld.od.nih.gov/label/237728 ; https://dsld.od.nih.gov/label/286925 ; https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/ ; https://dsld.od.nih.gov/label/262137 ; https://dsld.od.nih.gov/ingredient/Bromelain%2B%26%2BPapain ; https://dsld.od.nih.gov/label/306381 ; https://dsld.od.nih.gov/ingredient/Zeaxanthin ; https://dsld.od.nih.gov/ingredient/pure%2BAstaxanthin . Runtime matching check: Exact broad-group owners and specific counterparts passed runtime checks: vitamins/minerals, protein/whey/soy/isoflavones, herbs, amino acids, oils/krill, prebiotics, inositol/IP6. Magnesum softly suggests Magnesium. Bare acid still softly suggests Folate; this is an existing token-matching limitation, not an intentional alias.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Multivitamin",
+              "Multivitamins",
+              "Multivitamin mineral",
+              "Vitamins",
+              "Vitamin",
+              "Vitamin supplement",
+              "Minerals",
+              "Mineral",
+              "Multimineral",
+              "Multiminerals"
+            ],
+            "note": "Combines several vitamins, often with minerals, in one supplement product."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Vitamin C",
+              "C vitamin",
+              "Ascorbic acid",
+              "Antioxidants"
+            ],
+            "note": "Ascorbic acid is the chemical name commonly used for vitamin C."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Vitamin D",
+              "D vitamin",
+              "D3",
+              "D2",
+              "Vitamin D3",
+              "Vitamin D2",
+              "Cholecalciferol",
+              "Ergocalciferol"
+            ],
+            "note": "Supplement labels commonly identify vitamin D as either D2 or D3."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Vitamin B12",
+              "B12",
+              "B 12",
+              "Cobalamin",
+              "Cyanocobalamin",
+              "Methylcobalamin"
+            ],
+            "note": "A B vitamin supplied in forms including cyanocobalamin and methylcobalamin."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "B-complex",
+              "B complex vitamins",
+              "Vitamin B",
+              "B vitamins"
+            ],
+            "note": "Combines several B vitamins rather than supplying just one of them."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Vitamin A",
+              "Retinol",
+              "Beta carotene",
+              "Betacarotene"
+            ],
+            "note": "A fat-soluble vitamin included in many multivitamin products."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Vitamin E",
+              "Tocopherol",
+              "Tocotrienols",
+              "Tocopherols"
+            ],
+            "note": "A fat-soluble vitamin often represented on supplement labels by tocopherols."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vitamin K",
+              "K1",
+              "K2",
+              "Vitamin K1",
+              "Vitamin K2"
+            ],
+            "note": "The vitamin K family includes the forms known as K1 and K2."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vitamin B1",
+              "B1",
+              "B 1",
+              "Thiamin",
+              "Thiamine"
+            ],
+            "note": "Thiamin, also spelled thiamine, is the vitamin designated B1."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vitamin B2",
+              "B2",
+              "B 2",
+              "Riboflavin"
+            ],
+            "note": "Riboflavin is the name used for vitamin B2 on supplement labels."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vitamin B3",
+              "B3",
+              "B 3",
+              "Niacin",
+              "Niacinamide",
+              "Nicotinamide"
+            ],
+            "note": "Niacin is vitamin B3; nicotinamide is another supplementary form."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vitamin B5",
+              "B5",
+              "B 5",
+              "Pantothenic acid"
+            ],
+            "note": "Pantothenic acid is the B vitamin numbered five."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vitamin B6",
+              "B6",
+              "B 6",
+              "Pyridoxine"
+            ],
+            "note": "Pyridoxine is a form of vitamin B6 used in supplements."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Biotin",
+              "Vitamin B7",
+              "B7",
+              "B 7"
+            ],
+            "note": "Biotin is vitamin B7 and is sold alone or in B-complex products."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Folate",
+              "Folic acid",
+              "Vitamin B9",
+              "B9",
+              "B 9"
+            ],
+            "note": "Folic acid is a form of folate used in supplements."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Calcium"
+            ],
+            "note": "A mineral found in both multivitamin-mineral products and standalone supplements."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Iron"
+            ],
+            "note": "This mineral is an ingredient in many prenatal and standalone supplements."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Magnesium"
+            ],
+            "note": "Supplement forms include magnesium citrate, oxide and glycinate."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Zinc"
+            ],
+            "note": "An essential mineral sold alone and in multivitamin-mineral combinations."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Selenium"
+            ],
+            "note": "Selenium supplements can contain selenomethionine or selenium-enriched yeast."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Iodine"
+            ],
+            "note": "This mineral is needed by the body to make thyroid hormones."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Copper"
+            ],
+            "note": "A trace mineral included in some multivitamin-mineral supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Manganese"
+            ],
+            "note": "A trace mineral distinct from the similarly named magnesium."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Molybdenum"
+            ],
+            "note": "A trace mineral included in some multivitamin-mineral formulas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Potassium"
+            ],
+            "note": "An electrolyte mineral also available in dietary supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chromium"
+            ],
+            "note": "Chromium is sold in supplemental forms including chromium picolinate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Boron"
+            ],
+            "note": "Boron is sold alone and in some combination mineral supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Choline"
+            ],
+            "note": "Available alone, in some B-complex products and in multivitamin combinations."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Protein powder",
+              "Protein",
+              "Protein supplement"
+            ],
+            "note": "A concentrated protein product commonly supplied as a powder for mixing."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Whey protein",
+              "Whey",
+              "Whey protein powder",
+              "Whey isolate"
+            ],
+            "note": "A milk-derived protein ingredient used in many sports supplement powders."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Casein protein",
+              "Casein",
+              "Casein protein powder"
+            ],
+            "note": "Another milk protein used as an ingredient in protein supplements."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Creatine",
+              "Creatine monohydrate"
+            ],
+            "note": "Creatine monohydrate is a widely studied form of this sports supplement."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Branched-chain amino acids",
+              "BCAA",
+              "BCAAs",
+              "Branched chain amino acid",
+              "Amino acids",
+              "Amino acid",
+              "Amino"
+            ],
+            "note": "This group consists of the amino acids leucine, isoleucine and valine."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Beta-alanine"
+            ],
+            "note": "An amino acid the body uses to produce carnosine in muscle."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "HMB",
+              "Beta hydroxy beta methylbutyrate"
+            ],
+            "note": "HMB is a compound formed in the body from leucine."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Arginine",
+              "L arginine"
+            ],
+            "note": "An amino acid sold as an ingredient in exercise supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Citrulline",
+              "L citrulline",
+              "Citrulline malate"
+            ],
+            "note": "An amino acid found in watermelon and sold in sports supplements."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Betaine",
+              "Trimethylglycine",
+              "TMG"
+            ],
+            "note": "A compound naturally present in beets and sold as a supplement."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fish oil",
+              "Omega 3",
+              "Omega3",
+              "Omega three",
+              "Omega 3 fatty acids",
+              "Oil"
+            ],
+            "note": "A common supplement source of the omega-3 fatty acids EPA and DHA."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cod liver oil"
+            ],
+            "note": "A fish-liver oil supplement that also contains vitamins A and D."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Krill oil"
+            ],
+            "note": "An omega-3 supplement sourced from small marine crustaceans called krill."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Algal oil",
+              "Algae oil"
+            ],
+            "note": "An algae-derived alternative to fish-based omega-3 supplements."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Probiotics",
+              "Probiotic"
+            ],
+            "note": "Products containing live microorganisms, often particular bacteria or yeasts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Glucosamine"
+            ],
+            "note": "A compound sold alone or combined with chondroitin in joint supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chondroitin",
+              "Chondroitin sulfate"
+            ],
+            "note": "A cartilage component often paired with glucosamine in supplement products."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Coenzyme Q10",
+              "CoQ10",
+              "Co Q10",
+              "Co Q 10",
+              "Ubiquinone",
+              "Ubiquinol"
+            ],
+            "note": "Coenzyme Q10 is sold in forms including ubiquinone and ubiquinol."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Melatonin"
+            ],
+            "note": "A hormone also sold as a dietary supplement in the United States."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Psyllium",
+              "Psyllium husk",
+              "Fiber",
+              "Fibre",
+              "Fiber supplement",
+              "Fibre supplement"
+            ],
+            "note": "Psyllium husks provide soluble fiber in powders and other supplement products."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ashwagandha"
+            ],
+            "note": "A botanical supplement made from the plant Withania somnifera."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Echinacea"
+            ],
+            "note": "A botanical supplement associated with plants commonly called coneflowers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Garlic",
+              "Garlic extract"
+            ],
+            "note": "Garlic is available as a botanical supplement as well as a food."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ginger",
+              "Ginger extract"
+            ],
+            "note": "Ginger's underground stem is used in foods and botanical supplements."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ginkgo",
+              "Ginkgo biloba"
+            ],
+            "note": "Ginkgo supplements commonly use extracts from the tree's leaves."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ginseng",
+              "Asian ginseng",
+              "Panax ginseng"
+            ],
+            "note": "Asian ginseng supplements use the plant Panax ginseng."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Turmeric",
+              "Curcumin",
+              "Herbal supplement",
+              "Herbal supplements",
+              "Herbs"
+            ],
+            "note": "Turmeric supplements may emphasize curcumin, a constituent of the plant."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Milk thistle",
+              "Silymarin"
+            ],
+            "note": "Milk thistle supplements often feature a mixture of compounds called silymarin."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Valerian",
+              "Valerian root"
+            ],
+            "note": "A botanical supplement generally prepared from the valerian plant's roots."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Saw palmetto"
+            ],
+            "note": "A botanical supplement prepared from the fruit of a small palm."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Elderberry"
+            ],
+            "note": "A botanical ingredient available in dietary supplements as well as foods."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "St. John's wort",
+              "Saint Johns wort",
+              "St Johns wort"
+            ],
+            "note": "A botanical supplement made from Hypericum perforatum."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Evening primrose oil"
+            ],
+            "note": "An oil supplement obtained from evening primrose seeds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flaxseed oil",
+              "Flax oil",
+              "Linseed oil"
+            ],
+            "note": "A plant oil that supplies the omega-3 fatty acid ALA."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Acai",
+              "Acai berry"
+            ],
+            "note": "A supplement ingredient made from the purple fruit of the acai palm."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Aloe vera",
+              "Aloe"
+            ],
+            "note": "A succulent whose leaf preparations are sold in oral supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Astragalus",
+              "Huang qi"
+            ],
+            "note": "The root of this plant is used in botanical supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bilberry",
+              "Bilberry extract"
+            ],
+            "note": "A dark berry related to blueberries and used in botanical extracts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bitter orange",
+              "Synephrine"
+            ],
+            "note": "Bitter orange extracts contain the stimulant compound synephrine."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Black cohosh"
+            ],
+            "note": "A botanical supplement prepared from a North American plant in the buttercup family."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Boswellia",
+              "Boswellia serrata",
+              "Indian frankincense"
+            ],
+            "note": "This botanical ingredient comes from the resin of Boswellia trees."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bromelain",
+              "Pineapple enzyme"
+            ],
+            "note": "A group of protein-digesting enzymes obtained from pineapple stems and fruit."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Butterbur",
+              "Petasites"
+            ],
+            "note": "Butterbur extracts are marketed as supplements; preparations differ in their pyrrolizidine alkaloid content."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cat's claw",
+              "Cats claw",
+              "Uncaria tomentosa"
+            ],
+            "note": "A tropical vine whose hooked thorns gave it the common name cat\u2019s claw."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chamomile",
+              "Camomile"
+            ],
+            "note": "An herb sold in concentrated supplements as well as herbal teas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chasteberry",
+              "Vitex",
+              "Vitex agnus castus"
+            ],
+            "note": "The fruit of the chaste tree is used in botanical supplements."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cinnamon",
+              "Cinnamon extract"
+            ],
+            "note": "Cinnamon bark is used in supplements as well as a culinary spice."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cranberry",
+              "Cranberry extract"
+            ],
+            "note": "Cranberry is sold in concentrated supplement products in addition to juice."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dandelion",
+              "Dandelion root"
+            ],
+            "note": "Dandelion roots and other plant parts appear in herbal supplement preparations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fenugreek"
+            ],
+            "note": "The seeds of this culinary herb are also sold as supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Feverfew"
+            ],
+            "note": "A daisy-like plant used as an ingredient in botanical supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Garcinia cambogia",
+              "Garcinia",
+              "Hydroxycitric acid",
+              "HCA"
+            ],
+            "note": "Garcinia fruit rind contains hydroxycitric acid, an ingredient in weight-management supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Goldenseal"
+            ],
+            "note": "A North American woodland plant used in botanical supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Grape seed extract",
+              "Grapeseed extract"
+            ],
+            "note": "An extract of grape seeds, distinct from culinary grapeseed oil."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Green tea extract",
+              "Green tea",
+              "EGCG",
+              "Epigallocatechin gallate"
+            ],
+            "note": "Green tea extracts contain catechins, including the compound abbreviated EGCG."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hawthorn"
+            ],
+            "note": "Hawthorn leaves, flowers and berries are used in botanical preparations."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hoodia",
+              "Hoodia gordonii"
+            ],
+            "note": "A southern African succulent marketed in weight-management supplement products."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Horse chestnut",
+              "Horse chestnut extract"
+            ],
+            "note": "Standardized horse-chestnut seed extracts are distinct from eating raw horse chestnuts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kava",
+              "Kava kava"
+            ],
+            "note": "A Pacific Island plant whose root preparations are sold as supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lavender",
+              "Lavender oil"
+            ],
+            "note": "Lavender appears in oral supplement preparations as well as aromatic products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Licorice root",
+              "Liquorice root",
+              "Licorice",
+              "Liquorice",
+              "DGL"
+            ],
+            "note": "Licorice-root supplements include deglycyrrhizinated preparations, commonly abbreviated DGL."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Noni",
+              "Morinda citrifolia"
+            ],
+            "note": "A tropical fruit used in juices and dietary supplement preparations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Passionflower",
+              "Passion flower"
+            ],
+            "note": "Passionflower is a climbing plant used in botanical supplements."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Peppermint oil"
+            ],
+            "note": "Oil from peppermint leaves is sold in capsules as well as other preparations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pomegranate",
+              "Pomegranate extract"
+            ],
+            "note": "Pomegranate fruit extracts are sold in supplement products as well as foods."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Red clover",
+              "Red clover extract"
+            ],
+            "note": "Red clover supplements contain plant compounds known as isoflavones."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rhodiola",
+              "Rhodiola rosea",
+              "Golden root"
+            ],
+            "note": "A cold-region plant whose roots are used in botanical supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sage",
+              "Sage extract"
+            ],
+            "note": "Sage is sold in botanical preparations in addition to its culinary use."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Soy isoflavones",
+              "Soya isoflavones",
+              "Isoflavones"
+            ],
+            "note": "Concentrated soy isoflavones are a different product category from soy protein powder."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "White mulberry leaf",
+              "Mulberry leaf"
+            ],
+            "note": "Leaves of the white mulberry tree are used in botanical supplements."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Yohimbe",
+              "Yohimbine"
+            ],
+            "note": "Yohimbe bark contains yohimbine and appears in marketed supplement products."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Beetroot",
+              "Beetroot powder",
+              "Beet extract",
+              "Beet juice powder"
+            ],
+            "note": "Beetroot powders are used in sports supplements as a source of nitrate."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Caffeine"
+            ],
+            "note": "The stimulant in coffee also appears as an ingredient in dietary supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DHEA",
+              "Dehydroepiandrosterone"
+            ],
+            "note": "A hormone marketed as a dietary supplement in the United States."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Glutamine",
+              "L glutamine"
+            ],
+            "note": "An amino acid sold in exercise and other nutritional supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quercetin"
+            ],
+            "note": "A plant compound found in fruits and vegetables and sold in concentrated supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ribose",
+              "D ribose"
+            ],
+            "note": "A sugar naturally used by cells and also sold as a supplement."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sodium bicarbonate",
+              "Bicarbonate of soda",
+              "Baking soda"
+            ],
+            "note": "This familiar compound is also used as an ingredient in sports supplements."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tart cherry",
+              "Tart cherry extract",
+              "Montmorency cherry"
+            ],
+            "note": "Tart cherry concentrates and powders are marketed in sports-nutrition products."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tribulus",
+              "Tribulus terrestris"
+            ],
+            "note": "A plant used as an ingredient in marketed athletic supplements."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "African mango",
+              "Irvingia gabonensis"
+            ],
+            "note": "The seeds supply the extract used in these supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Beta glucans",
+              "Beta glucan"
+            ],
+            "note": "Soluble fibers obtained from sources including oats, yeast and mushrooms."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Capsaicin",
+              "Capsicum extract"
+            ],
+            "note": "The pungent chili-pepper compound is also sold in supplements."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Carnitine",
+              "L carnitine",
+              "Acetyl L carnitine",
+              "ALCAR"
+            ],
+            "note": "Carnitine and acetyl-L-carnitine are sold as nutritional supplements."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Chitosan"
+            ],
+            "note": "A shellfish-derived ingredient marketed in weight-management supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Forskolin",
+              "Coleus forskohlii"
+            ],
+            "note": "A compound from coleus roots used in botanical supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Conjugated linoleic acid",
+              "CLA"
+            ],
+            "note": "A family of fatty acids sold under the abbreviation CLA."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Fucoxanthin"
+            ],
+            "note": "A pigment from brown algae used in some supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Glucomannan",
+              "Konjac fiber",
+              "Konjac fibre"
+            ],
+            "note": "A soluble fiber obtained from the konjac plant."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Green coffee bean extract",
+              "Green coffee extract"
+            ],
+            "note": "An extract prepared from unroasted coffee beans."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Guar gum",
+              "Partially hydrolyzed guar gum",
+              "PHGG"
+            ],
+            "note": "A soluble fiber used in dietary supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Guarana"
+            ],
+            "note": "A caffeine-containing plant ingredient found in stimulant supplement mixtures."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Kola nut",
+              "Cola nut"
+            ],
+            "note": "A caffeine-containing botanical ingredient used in some supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Yerba mate",
+              "Mate extract"
+            ],
+            "note": "A caffeine-containing plant used in beverages and concentrated supplements."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pyruvate",
+              "Calcium pyruvate"
+            ],
+            "note": "A metabolic compound sold in weight-management supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Raspberry ketones",
+              "Raspberry ketone"
+            ],
+            "note": "A raspberry-associated aroma compound marketed in supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "White kidney bean extract",
+              "White kidney bean",
+              "Phaseolus vulgaris"
+            ],
+            "note": "An extract of this bean appears in weight-management products."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Soy protein",
+              "Soya protein",
+              "Soy protein powder",
+              "Soy"
+            ],
+            "note": "A plant-based protein supplement produced from soybeans."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pea protein",
+              "Pea protein powder"
+            ],
+            "note": "A plant-based protein ingredient commonly made from yellow peas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rice protein",
+              "Brown rice protein"
+            ],
+            "note": "A grain-derived protein powder used in dairy-free supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hemp protein",
+              "Hemp protein powder"
+            ],
+            "note": "A plant protein supplement produced from hemp seeds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Egg protein",
+              "Egg white protein",
+              "Egg protein powder"
+            ],
+            "note": "A protein supplement sourced from eggs, commonly their whites."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Collagen",
+              "Collagen peptides",
+              "Hydrolyzed collagen",
+              "Hydrolysed collagen"
+            ],
+            "note": "A structural protein sold as peptides in powders and other supplement products."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Berberine"
+            ],
+            "note": "A plant alkaloid sold as a concentrated dietary supplement."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alpha lipoic acid",
+              "Lipoic acid"
+            ],
+            "note": "A naturally occurring compound also marketed in antioxidant supplements."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Theanine",
+              "L theanine"
+            ],
+            "note": "An amino acid found in tea and sold in concentrated supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Resveratrol"
+            ],
+            "note": "A compound found in grapes and other plants, also available in supplements."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "N acetylcysteine",
+              "N acetyl cysteine",
+              "NAC",
+              "Acetylcysteine"
+            ],
+            "note": "A derivative of the amino acid cysteine marketed as a dietary supplement."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spirulina",
+              "Blue green algae"
+            ],
+            "note": "A cyanobacterial ingredient sold in powders, tablets and mixed supplement products."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lion's mane",
+              "Lions mane mushroom",
+              "Hericium erinaceus"
+            ],
+            "note": "A mushroom with dangling white spines that is also sold in supplement extracts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Reishi",
+              "Reishi mushroom",
+              "Lingzhi"
+            ],
+            "note": "A mushroom traditionally used in Asia and sold in dietary supplement preparations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cordyceps"
+            ],
+            "note": "Fungal preparations sold as powders, extracts and other supplement products."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Maitake",
+              "Grifola frondosa"
+            ],
+            "note": "An edible mushroom also used to make dietary supplement extracts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Turkey tail",
+              "Coriolus versicolor",
+              "Trametes versicolor"
+            ],
+            "note": "A mushroom sold in supplement products, also called Coriolus versicolor."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lutein"
+            ],
+            "note": "A carotenoid pigment included in many eye-health supplement formulas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lycopene"
+            ],
+            "note": "A red plant pigment found in tomatoes and sold in supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Maca",
+              "Maca root"
+            ],
+            "note": "A Peruvian plant related to cabbage, sold in supplement powders and capsules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Black seed",
+              "Black seed oil",
+              "Black cumin",
+              "Nigella sativa"
+            ],
+            "note": "Seeds and oil from Nigella sativa are used in botanical supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Red yeast rice"
+            ],
+            "note": "A fermented rice product marketed as a dietary supplement."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Inositol hexaphosphate",
+              "IP6"
+            ],
+            "note": "A plant-associated compound sold alone or combined with inositol in supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chaga"
+            ],
+            "note": "A fungus included among commercially marketed mushroom supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SAMe",
+              "SAM e",
+              "S adenosyl L methionine",
+              "S adenosylmethionine"
+            ],
+            "note": "A compound naturally present in the body and sold as a supplement in the United States."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "5 HTP",
+              "5 hydroxytryptophan"
+            ],
+            "note": "A compound recorded as a supplement ingredient under the abbreviation 5-HTP."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Taurine",
+              "L taurine"
+            ],
+            "note": "An amino-sulfonic acid listed on dietary supplement labels."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lysine",
+              "L lysine"
+            ],
+            "note": "An amino acid recorded on supplement labels in forms including L-lysine."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Glycine"
+            ],
+            "note": "An amino acid sold in powder and other supplement preparations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tyrosine",
+              "L tyrosine",
+              "N acetyl tyrosine"
+            ],
+            "note": "An amino acid included in nutritional supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "GABA",
+              "Gamma aminobutyric acid"
+            ],
+            "note": "Gamma-aminobutyric acid is marketed under its familiar abbreviation GABA."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MSM",
+              "Methylsulfonylmethane",
+              "Methyl sulfonyl methane"
+            ],
+            "note": "A sulfur-containing compound listed on supplements as MSM."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Inulin",
+              "Prebiotic",
+              "Prebiotics"
+            ],
+            "note": "A fiber ingredient sold in powder and other supplement products."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Digestive enzymes",
+              "Digestive enzyme",
+              "Enzyme supplement",
+              "Enzymes"
+            ],
+            "note": "A supplement category combining enzymes involved in breaking down food."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Fructooligosaccharides",
+              "Fructo oligosaccharides",
+              "FOS"
+            ],
+            "note": "A group of carbohydrates used as prebiotic supplement ingredients."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tryptophan",
+              "L tryptophan"
+            ],
+            "note": "An essential amino acid sold as a standalone nutritional supplement."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Inositol",
+              "Myo inositol",
+              "D chiro inositol"
+            ],
+            "note": "Inositol supplements include myo-inositol and D-chiro-inositol preparations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hyaluronic acid",
+              "Hyaluronan"
+            ],
+            "note": "A compound sold in oral supplements as well as topical skincare products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chlorella"
+            ],
+            "note": "A green-algae ingredient used in dietary supplement products."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Electrolytes",
+              "Electrolyte supplements",
+              "Electrolyte"
+            ],
+            "note": "A product category combining electrolyte minerals in a nutritional supplement."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Prenatal vitamins",
+              "Prenatal supplement",
+              "Prenatals"
+            ],
+            "note": "Vitamin and mineral combinations formulated for pregnancy and its preparation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lactase",
+              "Lactase enzyme"
+            ],
+            "note": "An enzyme supplement that helps break down the milk sugar lactose."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Papain",
+              "Papaya enzyme"
+            ],
+            "note": "A papaya-derived enzyme included in digestive supplement products."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pre workout",
+              "Preworkout",
+              "Pre workout supplement"
+            ],
+            "note": "A sports-supplement category containing ingredients intended for use before exercise."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Zeaxanthin"
+            ],
+            "note": "A carotenoid included in supplement formulas, often alongside lutein."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Astaxanthin"
+            ],
+            "note": "A carotenoid pigment marketed as a dietary supplement ingredient."
+          }
+        ]
+      },
+      {
+        "prompt": "Types of Water",
+        "source": "https://www.fda.gov/food/buy-store-serve-safe-food/fda-regulates-safety-bottled-water-beverages-including-flavored-water-and-nutrient-added-water",
+        "sourceNote": "Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: general trivia players. Open, non-exhaustive bank of drinking-water sources, treatments, characteristics and named water beverages. User explicitly included tonic, coconut and flavored/infused water, overriding the narrower plain-water interpretation. No brands, seawater, wastewater, heavy water, ice/steam or arbitrary serving temperatures. Source and treatment categories can overlap physically but are distinct answers. Sparkling/carbonated/fizzy/seltzer share one basic catch; club soda and tonic remain separate. Still/flat/noncarbonated share one catch. Flavored/infused share a catch; specific lemon/cucumber flavors are variants rather than extra rows. Demineralized/deionized share one mineral-removal catch for this everyday drinking-water bank; distilled and reverse-osmosis name different processes. Water/bottled/drinking broad forms map to Tap water or Bottled water as explicitly stated in forms, never to a rare treatment. Sources: primary FDA labels and processes; water origins https://www.fda.gov/consumers/consumer-updates/bottled-water-everywhere-keeping-it-safe ; carbonation/club soda/tonic https://health.clevelandclinic.org/how-healthy-is-your-favorite-sparkling-or-mineral-water ; alkaline https://health.clevelandclinic.org/alkaline-water-dont-believe-the-marketing-hype ; flavored/fortified https://health.clevelandclinic.org/is-flavored-water-good-for-you ; coconut https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coconut-water/faq-20207812 ; hardness https://pubs.usgs.gov/gip/gw/quality.html . Blurbs describe the category, not alleged health benefits. Expanded source categories refer to water treated or packaged for drinking, not a claim that raw river/rain/mist water is safe. Added minerals, gases, proteins and botanical water beverages qualify. Ordinary flavor variants stay with Flavored water; established named grain/sap/aloe/cactus beverages have separate catches, consistently with the approved coconut/tonic exception. The open universe of regional beverages and marketed preparations remains a coverage limit. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.cdc.gov/drinking-water/about/how-water-treatment-works.html ; https://www.cdc.gov/drinking-water/about/drinking-water-sources-an-overview.html ; https://www.gov.za/sites/default/files/gcis_document/201409/29051a.pdf ; https://health.clevelandclinic.org/benefits-of-maple-water ; https://en.wikipedia.org/wiki/Birch_sap ; https://pricklee.com/products/prickly-pear ; https://en.wikipedia.org/wiki/Barley_water ; https://www.proteinwater.co/collections/whey ; https://molecularhydrogeninstitute.org/frequently-asked-questions/ ; https://www.cdc.gov/water-emergency/about/drinking-water-advisories-an-overview.html ; https://mineralizedwater.org/ ; https://en.wikipedia.org/wiki/Rice_water ; https://www.okaproducts.com/aloe-water/ . Runtime matching check: All exact aliases passed. Water, bottled, mineral, protein, collagen and RO retain their intended owners. Distiled softly suggests Distilled water.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Tap water",
+              "Tap",
+              "Mains water",
+              "Municipal water",
+              "Water",
+              "Drinking water",
+              "Potable water"
+            ],
+            "note": "Water supplied through taps, commonly by a public drinking-water system."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Bottled water",
+              "Bottled"
+            ],
+            "note": "Water packaged in sealed containers; its source and treatment can vary."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Still water",
+              "Still",
+              "Flat water",
+              "Noncarbonated water",
+              "Non carbonated water"
+            ],
+            "note": "Water without the carbonation that gives sparkling water its bubbles."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Sparkling water",
+              "Sparkling",
+              "Carbonated water",
+              "Carbonated",
+              "Fizzy water",
+              "Fizzy",
+              "Seltzer",
+              "Seltzer water",
+              "Soda water"
+            ],
+            "note": "Water containing dissolved carbon dioxide, which produces bubbles when released."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mineral water",
+              "Mineral"
+            ],
+            "note": "Water from an underground source containing naturally occurring dissolved minerals."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Spring water",
+              "Spring"
+            ],
+            "note": "Water from an underground formation that naturally flows to the surface."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Well water",
+              "Well"
+            ],
+            "note": "Water drawn from a hole drilled or bored into an aquifer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Artesian water",
+              "Artesian",
+              "Artesian well water"
+            ],
+            "note": "Water obtained from a confined aquifer under pressure."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Filtered water",
+              "Filtered"
+            ],
+            "note": "Water passed through a filter to remove particular impurities."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Purified water",
+              "Purified"
+            ],
+            "note": "Water treated to meet a purification standard through an appropriate process."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Distilled water",
+              "Distilled"
+            ],
+            "note": "Water purified by vaporizing it and condensing the resulting vapor."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Reverse osmosis water",
+              "Reverse osmosis",
+              "RO water",
+              "RO"
+            ],
+            "note": "Water treated by forcing it through a selectively permeable membrane."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Demineralized water",
+              "Demineralised water",
+              "Deionized water",
+              "Deionised water",
+              "Demineralized",
+              "Demineralised",
+              "Deionized",
+              "Deionised",
+              "DI water"
+            ],
+            "note": "Water treated to remove dissolved mineral ions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Alkaline water",
+              "Alkaline"
+            ],
+            "note": "Water characterized by a pH above neutral."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Flavored water",
+              "Flavoured water",
+              "Flavored",
+              "Flavoured",
+              "Infused water",
+              "Infused",
+              "Fruit infused water",
+              "Lemon water",
+              "Lime water",
+              "Cucumber water"
+            ],
+            "note": "Water with added flavor, including fruit-infused versions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Club soda",
+              "Club"
+            ],
+            "note": "Carbonated water with added mineral salts."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tonic water",
+              "Tonic"
+            ],
+            "note": "A quinine-containing water beverage, usually sweetened, with a distinctive bitter taste."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Coconut water",
+              "Coconut"
+            ],
+            "note": "The liquid naturally present inside coconuts, distinct from coconut milk."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hard water",
+              "Hard"
+            ],
+            "note": "Water with relatively high concentrations of calcium and magnesium."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Soft water",
+              "Soft"
+            ],
+            "note": "Water with relatively low concentrations of hardness-causing minerals."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Electrolyte water",
+              "Electrolyte enhanced water",
+              "Electrolyte"
+            ],
+            "note": "Water formulated with added electrolyte minerals."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vitamin water",
+              "Vitamin enhanced water",
+              "Vitamin"
+            ],
+            "note": "A generic category of water beverages with added vitamins, not a brand catch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Caffeinated water",
+              "Caffeine water",
+              "Caffeinated"
+            ],
+            "note": "Water beverages containing added caffeine."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chlorinated water",
+              "Chlorinated"
+            ],
+            "note": "Drinking water disinfected using chlorine or chlorine-containing chemicals."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ozonated water",
+              "Ozonated"
+            ],
+            "note": "Water disinfected using ozone during treatment."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "UV treated water",
+              "UV purified water",
+              "Ultraviolet treated water",
+              "UV water"
+            ],
+            "note": "Water treated with ultraviolet light to inactivate microorganisms."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ultrafiltered water",
+              "Ultrafiltration water"
+            ],
+            "note": "Water passed through a membrane with very small pores."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fluoridated water",
+              "Fluoride water",
+              "Fluoridated"
+            ],
+            "note": "Drinking water with fluoride added or adjusted during treatment."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Desalinated water",
+              "Desalinated"
+            ],
+            "note": "Drinking water produced by removing salts from saline source water."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Recycled drinking water",
+              "Potable reuse water",
+              "Purified recycled water"
+            ],
+            "note": "Water reclaimed and treated to drinking-water quality through potable reuse processes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Groundwater",
+              "Ground water"
+            ],
+            "note": "Water from underground aquifers used as a drinking-water source."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Surface water",
+              "Surface sourced water"
+            ],
+            "note": "Drinking-water supplies drawn from above-ground bodies such as lakes and rivers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rainwater",
+              "Rain water"
+            ],
+            "note": "Collected rainfall used for drinking after appropriate treatment."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Iceberg water"
+            ],
+            "note": "Packaged drinking water sourced from melted iceberg ice."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Glacier water",
+              "Glacial water"
+            ],
+            "note": "Drinking water sourced from glacial ice or its meltwater."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Snow water",
+              "Snowmelt water"
+            ],
+            "note": "Water obtained from snow and treated or packaged for drinking."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mist water",
+              "Fog water"
+            ],
+            "note": "Water collected from airborne moisture for treated drinking-water supplies."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "River water"
+            ],
+            "note": "A source category covering water drawn from rivers and made suitable for drinking."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stream water"
+            ],
+            "note": "Drinking water sourced from streams and made suitable for consumption."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Maple water",
+              "Maple sap"
+            ],
+            "note": "A drink made from maple-tree sap, generally pasteurized rather than concentrated into syrup."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Birch water",
+              "Birch sap"
+            ],
+            "note": "A drink made from sap tapped from birch trees."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cactus water",
+              "Prickly pear water"
+            ],
+            "note": "A water beverage containing juice or puree from prickly-pear cactus fruit."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Barley water"
+            ],
+            "note": "A traditional drink made by boiling barley in water, often with added flavorings."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Protein water",
+              "Protein"
+            ],
+            "note": "A clear water-based beverage fortified with protein, often whey isolate."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Collagen water",
+              "Collagen"
+            ],
+            "note": "A water beverage fortified specifically with collagen protein."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hydrogen water",
+              "Hydrogen rich water",
+              "Hydrogen infused water"
+            ],
+            "note": "Water containing added dissolved molecular hydrogen gas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Oxygenated water",
+              "Oxygen water",
+              "Oxygen enriched water"
+            ],
+            "note": "Water marketed with additional dissolved oxygen gas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Boiled water",
+              "Boiled"
+            ],
+            "note": "Water heated to boiling as a drinking-water disinfection step."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Remineralized water",
+              "Remineralised water",
+              "Remineralized",
+              "Remineralised"
+            ],
+            "note": "Purified water to which minerals have been added back."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rice water"
+            ],
+            "note": "A starchy drink obtained from water used to boil rice."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aloe water",
+              "Aloe vera water"
+            ],
+            "note": "A water beverage containing aloe-vera ingredients."
+          }
+        ]
+      }
+    ]
   }
 ];
 window.DIVE_QUESTIONS = window.DIVE_DAYS.at(-1).questions;

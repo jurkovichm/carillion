@@ -1,0 +1,52 @@
+ANSWER,Blurb,Worth
+Tap water|Tap|Mains water|Municipal water|Water|Drinking water|Potable water,"Water supplied through taps, commonly by a public drinking-water system.",10
+Bottled water|Bottled,Water packaged in sealed containers; its source and treatment can vary.,10
+Still water|Still|Flat water|Noncarbonated water|Non carbonated water,Water without the carbonation that gives sparkling water its bubbles.,10
+Sparkling water|Sparkling|Carbonated water|Carbonated|Fizzy water|Fizzy|Seltzer|Seltzer water|Soda water,"Water containing dissolved carbon dioxide, which produces bubbles when released.",10
+Mineral water|Mineral,Water from an underground source containing naturally occurring dissolved minerals.,30
+Spring water|Spring,Water from an underground formation that naturally flows to the surface.,30
+Well water|Well,Water drawn from a hole drilled or bored into an aquifer.,60
+Artesian water|Artesian|Artesian well water,Water obtained from a confined aquifer under pressure.,60
+Filtered water|Filtered,Water passed through a filter to remove particular impurities.,30
+Purified water|Purified,Water treated to meet a purification standard through an appropriate process.,60
+Distilled water|Distilled,Water purified by vaporizing it and condensing the resulting vapor.,60
+Reverse osmosis water|Reverse osmosis|RO water|RO,Water treated by forcing it through a selectively permeable membrane.,85
+Demineralized water|Demineralised water|Deionized water|Deionised water|Demineralized|Demineralised|Deionized|Deionised|DI water,Water treated to remove dissolved mineral ions.,85
+Alkaline water|Alkaline,Water characterized by a pH above neutral.,60
+Flavored water|Flavoured water|Flavored|Flavoured|Infused water|Infused|Fruit infused water|Lemon water|Lime water|Cucumber water,"Water with added flavor, including fruit-infused versions.",30
+Club soda|Club,Carbonated water with added mineral salts.,60
+Tonic water|Tonic,"A quinine-containing water beverage, usually sweetened, with a distinctive bitter taste.",30
+Coconut water|Coconut,"The liquid naturally present inside coconuts, distinct from coconut milk.",30
+Hard water|Hard,Water with relatively high concentrations of calcium and magnesium.,60
+Soft water|Soft,Water with relatively low concentrations of hardness-causing minerals.,60
+Electrolyte water|Electrolyte enhanced water|Electrolyte,Water formulated with added electrolyte minerals.,60
+Vitamin water|Vitamin enhanced water|Vitamin,"A generic category of water beverages with added vitamins, not a brand catch.",60
+Caffeinated water|Caffeine water|Caffeinated,Water beverages containing added caffeine.,85
+Chlorinated water|Chlorinated,Drinking water disinfected using chlorine or chlorine-containing chemicals.,60
+Ozonated water|Ozonated,Water disinfected using ozone during treatment.,85
+UV treated water|UV purified water|Ultraviolet treated water|UV water,Water treated with ultraviolet light to inactivate microorganisms.,85
+Ultrafiltered water|Ultrafiltration water,Water passed through a membrane with very small pores.,85
+Fluoridated water|Fluoride water|Fluoridated,Drinking water with fluoride added or adjusted during treatment.,60
+Desalinated water|Desalinated,Drinking water produced by removing salts from saline source water.,85
+Recycled drinking water|Potable reuse water|Purified recycled water,Water reclaimed and treated to drinking-water quality through potable reuse processes.,100
+Groundwater|Ground water,Water from underground aquifers used as a drinking-water source.,60
+Surface water|Surface sourced water,Drinking-water supplies drawn from above-ground bodies such as lakes and rivers.,85
+Rainwater|Rain water,Collected rainfall used for drinking after appropriate treatment.,60
+Iceberg water,Packaged drinking water sourced from melted iceberg ice.,100
+Glacier water|Glacial water,Drinking water sourced from glacial ice or its meltwater.,85
+Snow water|Snowmelt water,Water obtained from snow and treated or packaged for drinking.,100
+Mist water|Fog water,Water collected from airborne moisture for treated drinking-water supplies.,100
+River water,A source category covering water drawn from rivers and made suitable for drinking.,85
+Stream water,Drinking water sourced from streams and made suitable for consumption.,85
+Maple water|Maple sap,"A drink made from maple-tree sap, generally pasteurized rather than concentrated into syrup.",85
+Birch water|Birch sap,A drink made from sap tapped from birch trees.,85
+Cactus water|Prickly pear water,A water beverage containing juice or puree from prickly-pear cactus fruit.,85
+Barley water,"A traditional drink made by boiling barley in water, often with added flavorings.",60
+Protein water|Protein,"A clear water-based beverage fortified with protein, often whey isolate.",85
+Collagen water|Collagen,A water beverage fortified specifically with collagen protein.,85
+Hydrogen water|Hydrogen rich water|Hydrogen infused water,Water containing added dissolved molecular hydrogen gas.,85
+Oxygenated water|Oxygen water|Oxygen enriched water,Water marketed with additional dissolved oxygen gas.,85
+Boiled water|Boiled,Water heated to boiling as a drinking-water disinfection step.,30
+Remineralized water|Remineralised water|Remineralized|Remineralised,Purified water to which minerals have been added back.,85
+Rice water,A starchy drink obtained from water used to boil rice.,85
+Aloe water|Aloe vera water,A water beverage containing aloe-vera ingredients.,85
