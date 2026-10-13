@@ -1,5 +1,5 @@
 ANSWER,Blurb,Worth
-Multivitamin|Multivitamins|Multivitamin mineral|Vitamins|Vitamin|Vitamin supplement|Minerals|Mineral|Multimineral|Multiminerals,"Combines several vitamins, often with minerals, in one supplement product.",10
+Multivitamin|Multivitamins|Multivitamin mineral|Vitamins|Vitamin|Vitamin supplement|Minerals|Mineral|Multimineral|Multiminerals|Multivitamin and mineral|Multivitamin mineral supplement,"Combines several vitamins, often with minerals, in one supplement product.",10
 Vitamin C|C vitamin|Ascorbic acid|Antioxidants,Ascorbic acid is the chemical name commonly used for vitamin C.,10
 Vitamin D|D vitamin|D3|D2|Vitamin D3|Vitamin D2|Cholecalciferol|Ergocalciferol,Supplement labels commonly identify vitamin D as either D2 or D3.,10
 Vitamin B12|B12|B 12|Cobalamin|Cyanocobalamin|Methylcobalamin,A B vitamin supplied in forms including cyanocobalamin and methylcobalamin.,30
@@ -13,18 +13,18 @@ Vitamin B3|B3|B 3|Niacin|Niacinamide|Nicotinamide,Niacin is vitamin B3; nicotina
 Vitamin B5|B5|B 5|Pantothenic acid,Pantothenic acid is the B vitamin numbered five.,85
 Vitamin B6|B6|B 6|Pyridoxine,Pyridoxine is a form of vitamin B6 used in supplements.,60
 Biotin|Vitamin B7|B7|B 7,Biotin is vitamin B7 and is sold alone or in B-complex products.,30
-Folate|Folic acid|Vitamin B9|B9|B 9,Folic acid is a form of folate used in supplements.,30
-Calcium,A mineral found in both multivitamin-mineral products and standalone supplements.,30
-Iron,This mineral is an ingredient in many prenatal and standalone supplements.,30
-Magnesium,"Supplement forms include magnesium citrate, oxide and glycinate.",30
-Zinc,An essential mineral sold alone and in multivitamin-mineral combinations.,30
+Folate|Folic acid|Vitamin B9|B9|B 9|Methylfolate|5 MTHF|L methylfolate,Folic acid is a form of folate used in supplements.,30
+Calcium|Calcium carbonate|Calcium citrate,A mineral found in both multivitamin-mineral products and standalone supplements.,30
+Iron|Ferrous sulfate|Ferrous sulphate|Ferrous fumarate|Ferrous gluconate,This mineral is an ingredient in many prenatal and standalone supplements.,30
+Magnesium|Magnesium glycinate|Magnesium bisglycinate|Magnesium citrate|Magnesium oxide|Magnesium chloride|Magnesium lactate|Magnesium aspartate|Magnesium sulfate|Magnesium sulphate,"Supplement forms include magnesium citrate, oxide and glycinate.",30
+Zinc|Zinc picolinate|Zinc gluconate|Zinc acetate|Zinc sulfate|Zinc sulphate,An essential mineral sold alone and in multivitamin-mineral combinations.,30
 Selenium,Selenium supplements can contain selenomethionine or selenium-enriched yeast.,60
 Iodine,This mineral is needed by the body to make thyroid hormones.,60
 Copper,A trace mineral included in some multivitamin-mineral supplements.,85
 Manganese,A trace mineral distinct from the similarly named magnesium.,85
 Molybdenum,A trace mineral included in some multivitamin-mineral formulas.,100
 Potassium,An electrolyte mineral also available in dietary supplement products.,60
-Chromium,Chromium is sold in supplemental forms including chromium picolinate.,85
+Chromium|Chromium picolinate|Chromium chloride,Chromium is sold in supplemental forms including chromium picolinate.,85
 Boron,Boron is sold alone and in some combination mineral supplements.,85
 Choline,"Available alone, in some B-complex products and in multivitamin combinations.",85
 Protein powder|Protein|Protein supplement,A concentrated protein product commonly supplied as a powder for mixing.,10
@@ -170,3 +170,14 @@ Papain|Papaya enzyme,A papaya-derived enzyme included in digestive supplement pr
 Pre workout|Preworkout|Pre workout supplement,A sports-supplement category containing ingredients intended for use before exercise.,30
 Zeaxanthin,"A carotenoid included in supplement formulas, often alongside lutein.",100
 Astaxanthin,A carotenoid pigment marketed as a dietary supplement ingredient.,85
+MCT oil|MCT|MCTs|Medium chain triglycerides|Medium chain triglyceride oil,"An oil supplement supplying medium-chain triglycerides, commonly obtained from coconut or palm-kernel oil.",60
+Essential amino acids|EAA|EAAs|Essential amino acid supplements,A supplement category containing essential amino acids beyond the three included in BCAA products.,60
+Greens powder|Powdered greens|Greens supplement|Greens,"A mixed supplement category using dried fruits, vegetables and other plant ingredients.",30
+Bee pollen|Pollen supplement,Pollen collected by bees is marketed in nutritional supplement products.,85
+Propolis|Bee propolis|Bee glue,"A resinous material collected and processed by honeybees, also sold as a supplement.",85
+Royal jelly|Royal bee jelly|Honey bee milk,"A secretion produced by worker bees to feed queens and larvae, also marketed as a supplement.",85
+Bovine colostrum|Colostrum|Cow colostrum,Supplement preparations made from the first milk cows produce after calving.,85
+Lecithin|Soy lecithin|Soya lecithin|Sunflower lecithin,A mixture of phospholipids sold in supplements sourced from soybeans or sunflower seeds.,85
+Sea moss|Irish moss|Irish sea moss|Chondrus crispus|Seaweed supplement|Seaweed,"Red-algae preparations sold in capsules, powders and other supplement products.",60
+Nattokinase|Natto extract,An enzyme associated with fermented soybean natto and sold in concentrated supplements.,85
+Gripe water|Gripewater,A liquid infant-product category that includes preparations marketed as dietary supplements.,60

@@ -1,5 +1,5 @@
 ANSWER,Blurb,Worth
-Tap water|Tap|Mains water|Municipal water|Water|Drinking water|Potable water,"Water supplied through taps, commonly by a public drinking-water system.",10
+Tap water|Tap|Mains water|Municipal water|Water|Drinking water|Potable water|Tapwater|H2O|Plain water|Liquid water|Ordinary water,"Water supplied through taps, commonly by a public drinking-water system.",10
 Bottled water|Bottled,Water packaged in sealed containers; its source and treatment can vary.,10
 Still water|Still|Flat water|Noncarbonated water|Non carbonated water,Water without the carbonation that gives sparkling water its bubbles.,10
 Sparkling water|Sparkling|Carbonated water|Carbonated|Fizzy water|Fizzy|Seltzer|Seltzer water|Soda water,"Water containing dissolved carbon dioxide, which produces bubbles when released.",10
@@ -9,11 +9,11 @@ Well water|Well,Water drawn from a hole drilled or bored into an aquifer.,60
 Artesian water|Artesian|Artesian well water,Water obtained from a confined aquifer under pressure.,60
 Filtered water|Filtered,Water passed through a filter to remove particular impurities.,30
 Purified water|Purified,Water treated to meet a purification standard through an appropriate process.,60
-Distilled water|Distilled,Water purified by vaporizing it and condensing the resulting vapor.,60
+Distilled water|Distilled|Double distilled water|Doubly distilled water,Water purified by vaporizing it and condensing the resulting vapor.,60
 Reverse osmosis water|Reverse osmosis|RO water|RO,Water treated by forcing it through a selectively permeable membrane.,85
 Demineralized water|Demineralised water|Deionized water|Deionised water|Demineralized|Demineralised|Deionized|Deionised|DI water,Water treated to remove dissolved mineral ions.,85
 Alkaline water|Alkaline,Water characterized by a pH above neutral.,60
-Flavored water|Flavoured water|Flavored|Flavoured|Infused water|Infused|Fruit infused water|Lemon water|Lime water|Cucumber water,"Water with added flavor, including fruit-infused versions.",30
+Flavored water|Flavoured water|Flavored|Flavoured|Infused water|Infused|Fruit infused water|Lemon water|Lime water|Cucumber water|Fruit water|Orange water|Mint water|Berry water|Strawberry water,"Water with added flavor, including fruit-infused versions.",30
 Club soda|Club,Carbonated water with added mineral salts.,60
 Tonic water|Tonic,"A quinine-containing water beverage, usually sweetened, with a distinctive bitter taste.",30
 Coconut water|Coconut,"The liquid naturally present inside coconuts, distinct from coconut milk.",30
@@ -46,11 +46,11 @@ Protein water|Protein,"A clear water-based beverage fortified with protein, ofte
 Collagen water|Collagen,A water beverage fortified specifically with collagen protein.,85
 Hydrogen water|Hydrogen rich water|Hydrogen infused water,Water containing added dissolved molecular hydrogen gas.,85
 Oxygenated water|Oxygen water|Oxygen enriched water,Water marketed with additional dissolved oxygen gas.,85
-Boiled water|Boiled,Water heated to boiling as a drinking-water disinfection step.,30
+Boiled water|Boiled|Boiling water,Water heated to boiling as a drinking-water disinfection step.,30
 Remineralized water|Remineralised water|Remineralized|Remineralised,Purified water to which minerals have been added back.,85
 Rice water,A starchy drink obtained from water used to boil rice.,85
 Aloe water|Aloe vera water,A water beverage containing aloe-vera ingredients.,85
-Ice water|Iced water|Ice-cold water,Drinking water served with ice or chilled to an ice-cold temperature.,10
+Ice water|Iced water|Ice-cold water|Icewater,Drinking water served with ice or chilled to an ice-cold temperature.,10
 Cold water|Chilled water|Cool water,"Drinking water cooled below room temperature, without specifying ice.",10
 Room-temperature water|Room temp water,Water served near the surrounding indoor temperature rather than chilled or heated.,10
 Warm water|Lukewarm water|Tepid water,Water gently heated above room temperature but not made hot.,30
@@ -62,7 +62,19 @@ Brine|Briny water,Highly saline water with a salt concentration greater than sea
 Ice|Frozen water,Water in its solid state.,10
 Water vapor|Water vapour|Steam|Water vapour gas,Water in its gaseous phase; steam is commonly used for hot water vapor.,30
 Heavy water|Deuterium oxide|D2O|D 2 O,An isotopic form of water in which hydrogen is replaced by deuterium.,100
-Wastewater|Waste water,"Water that has been used and discharged from homes, businesses or industry.",30
+Wastewater|Waste water|Sewage water|Sewage|Sewer water,"Water that has been used and discharged from homes, businesses or industry.",30
 Greywater|Graywater|Grey water|Gray water,"Household wastewater from uses such as bathing and laundry, excluding toilet waste.",60
 Blackwater|Black water,Wastewater containing toilet sewage; definitions may also include some kitchen wastewater.,85
 Stormwater|Storm water|Urban runoff,Rain or snowmelt runoff that flows over land or built surfaces.,60
+Holy water|Blessed water,"Water blessed for religious use, including Christian rituals and blessings.",15
+Pasta water|Pasta cooking water|Cooking water,"The starchy water left after cooking pasta, often used to help sauce coat it.",15
+Aquafaba|Chickpea water|Chickpea cooking water|Bean cooking water,"Liquid from cooked or canned chickpeas, used as an egg substitute in vegan baking.",85
+Rose water|Rosewater|Floral water|Flower water|Hydrosol,"An aromatic water preparation made by distilling rose petals, used in cooking and other products.",60
+Orange blossom water|Orange flower water,An aromatic water distillate of bitter-orange blossoms used as a culinary flavoring.,85
+Gripe water|Gripewater,Named liquid preparations marketed for infants; some are sold as dietary supplements.,60
+Zamzam water|Zamzam|Zam zam water,"Water from the Zamzam well in Makkah, a source with special significance in Islam.",85
+Lourdes water|Water of Lourdes,"Water from the Lourdes sanctuary’s spring, which the shrine distinguishes from priest-blessed holy water.",85
+Sterile water|Sterilized water|Sterilised water|Sterile water for injection|Sterile water for irrigation,"Water prepared to be sterile, including medical preparations used for dilution or irrigation.",85
+Lake water,"Water from a lake, classified by its source rather than by a purification process.",60
+Acidic water|Acid water,Water with a pH below neutral; dissolved acids can make natural sources acidic.,60
+Raw water|Untreated water|Unfiltered water,Water that has not undergone treatment such as filtration or disinfection.,60
