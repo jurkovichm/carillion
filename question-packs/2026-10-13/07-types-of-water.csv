@@ -50,3 +50,19 @@ Boiled water|Boiled,Water heated to boiling as a drinking-water disinfection ste
 Remineralized water|Remineralised water|Remineralized|Remineralised,Purified water to which minerals have been added back.,85
 Rice water,A starchy drink obtained from water used to boil rice.,85
 Aloe water|Aloe vera water,A water beverage containing aloe-vera ingredients.,85
+Ice water|Iced water|Ice-cold water,Drinking water served with ice or chilled to an ice-cold temperature.,10
+Cold water|Chilled water|Cool water,"Drinking water cooled below room temperature, without specifying ice.",10
+Room-temperature water|Room temp water,Water served near the surrounding indoor temperature rather than chilled or heated.,10
+Warm water|Lukewarm water|Tepid water,Water gently heated above room temperature but not made hot.,30
+Hot water|Heated water,"Potable water served hot; its temperature is a serving condition, not a treatment claim.",30
+Freshwater|Fresh water,"Water with low dissolved-salt content, such as most rivers and lakes.",10
+Saltwater|Salt water|Seawater|Sea water|Ocean water|Saline water,"Water with substantial dissolved salts, including water from seas and oceans.",30
+Brackish water|Brackish,Water with salinity between typical freshwater and seawater.,60
+Brine|Briny water,Highly saline water with a salt concentration greater than seawater.,85
+Ice|Frozen water,Water in its solid state.,10
+Water vapor|Water vapour|Steam|Water vapour gas,Water in its gaseous phase; steam is commonly used for hot water vapor.,30
+Heavy water|Deuterium oxide|D2O|D 2 O,An isotopic form of water in which hydrogen is replaced by deuterium.,100
+Wastewater|Waste water,"Water that has been used and discharged from homes, businesses or industry.",30
+Greywater|Graywater|Grey water|Gray water,"Household wastewater from uses such as bathing and laundry, excluding toilet waste.",60
+Blackwater|Black water,Wastewater containing toilet sewage; definitions may also include some kitchen wastewater.,85
+Stormwater|Storm water|Urban runoff,Rain or snowmelt runoff that flows over land or built surfaces.,60
