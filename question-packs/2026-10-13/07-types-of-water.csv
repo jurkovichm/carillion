@@ -1,12 +1,12 @@
 ANSWER,Blurb,Worth
-Tap water|Tap|Mains water|Municipal water|Water|Drinking water|Potable water|Tapwater|H2O|Plain water|Liquid water|Ordinary water,"Water supplied through taps, commonly by a public drinking-water system.",10
+Tap water|Tap|Mains water|Municipal water|Water|Drinking water|Potable water|Tapwater|H2O|Plain water|Liquid water|Ordinary water|Light water|Clear water|Clearwater,"Water supplied through taps, commonly by a public drinking-water system.",10
 Bottled water|Bottled,Water packaged in sealed containers; its source and treatment can vary.,10
 Still water|Still|Flat water|Noncarbonated water|Non carbonated water,Water without the carbonation that gives sparkling water its bubbles.,10
 Sparkling water|Sparkling|Carbonated water|Carbonated|Fizzy water|Fizzy|Seltzer|Seltzer water|Soda water,"Water containing dissolved carbon dioxide, which produces bubbles when released.",10
 Mineral water|Mineral,Water from an underground source containing naturally occurring dissolved minerals.,30
 Spring water|Spring,Water from an underground formation that naturally flows to the surface.,30
 Well water|Well,Water drawn from a hole drilled or bored into an aquifer.,60
-Artesian water|Artesian|Artesian well water,Water obtained from a confined aquifer under pressure.,60
+Artesian water|Artesian|Artesian well water|Confined groundwater|Confined ground water|Confined water,Water obtained from a confined aquifer under pressure.,60
 Filtered water|Filtered,Water passed through a filter to remove particular impurities.,30
 Purified water|Purified,Water treated to meet a purification standard through an appropriate process.,60
 Distilled water|Distilled|Double distilled water|Doubly distilled water,Water purified by vaporizing it and condensing the resulting vapor.,60
@@ -18,7 +18,7 @@ Club soda|Club,Carbonated water with added mineral salts.,60
 Tonic water|Tonic,"A quinine-containing water beverage, usually sweetened, with a distinctive bitter taste.",30
 Coconut water|Coconut,"The liquid naturally present inside coconuts, distinct from coconut milk.",30
 Hard water|Hard,Water with relatively high concentrations of calcium and magnesium.,60
-Soft water|Soft,Water with relatively low concentrations of hardness-causing minerals.,60
+Soft water|Soft|Softened water,Water with relatively low concentrations of hardness-causing minerals.,60
 Electrolyte water|Electrolyte enhanced water|Electrolyte,Water formulated with added electrolyte minerals.,60
 Vitamin water|Vitamin enhanced water|Vitamin,"A generic category of water beverages with added vitamins, not a brand catch.",60
 Caffeinated water|Caffeine water|Caffeinated,Water beverages containing added caffeine.,85
@@ -33,7 +33,7 @@ Groundwater|Ground water,Water from underground aquifers used as a drinking-wate
 Surface water|Surface sourced water,Drinking-water supplies drawn from above-ground bodies such as lakes and rivers.,85
 Rainwater|Rain water,Collected rainfall used for drinking after appropriate treatment.,60
 Iceberg water,Packaged drinking water sourced from melted iceberg ice.,100
-Glacier water|Glacial water,Drinking water sourced from glacial ice or its meltwater.,85
+Glacier water|Glacial water|Meltwater|Melt water|Glacial meltwater,Drinking water sourced from glacial ice or its meltwater.,85
 Snow water|Snowmelt water,Water obtained from snow and treated or packaged for drinking.,100
 Mist water|Fog water,Water collected from airborne moisture for treated drinking-water supplies.,100
 River water,A source category covering water drawn from rivers and made suitable for drinking.,85
@@ -78,3 +78,44 @@ Sterile water|Sterilized water|Sterilised water|Sterile water for injection|Ster
 Lake water,"Water from a lake, classified by its source rather than by a purification process.",60
 Acidic water|Acid water,Water with a pH below neutral; dissolved acids can make natural sources acidic.,60
 Raw water|Untreated water|Unfiltered water,Water that has not undergone treatment such as filtration or disinfection.,60
+Bathwater|Bath water|Bathing water,"Water used for bathing, classified by its use rather than mineral content.",15
+Dishwater|Dish water|Washing up water,"Water used for washing dishes, commonly containing detergent and food residues.",15
+Micellar water|Micellar,An aqueous cosmetic cleanser used to remove makeup and clean skin.,15
+Bacteriostatic water|Bacteriostatic water for injection|BAC water,Sterile medical water containing a preservative such as benzyl alcohol.,100
+Ballast water|Ballast,Fresh or salt water carried in ship tanks to help maintain stability.,85
+Bilge water|Bilgewater|Bilge,"Water collecting in the lowest parts of a vessel, often mixed with oil or other contaminants.",85
+Produced water|Co-produced water|Coproduced water,Water brought to the surface during oil and gas production.,100
+Reclaimed water|Recycled water|Reused water,"Used water treated so it can serve another purpose, including irrigation or industry.",60
+Perched groundwater|Perched ground water|Perched water,Groundwater held above a deeper groundwater body by an intervening unsaturated zone.,100
+Unconfined groundwater|Unconfined ground water|Unconfined water,Groundwater in an aquifer whose water table is not capped by a confining layer.,100
+Soil water|Soil moisture water,"Water retained in soil, including the root-filled part of the unsaturated zone.",85
+Capillary water,Water held in small soil pores by capillary forces.,100
+Meteoric water,"Water originating from atmospheric precipitation, including rain and snow.",100
+Connate water,Water trapped in rock pore spaces during the formation of the enclosing sediments.,100
+Fossil water|Fossil groundwater|Paleowater|Palaeowater,Ancient groundwater retained in aquifers over very long periods.,100
+Magmatic water|Juvenile water,Water associated with magma and released through geological processes.,100
+Metamorphic water,Water released or redistributed during metamorphic changes in rocks.,100
+Hydrothermal water|Geothermal water|Thermal water,Water heated underground as it circulates through hot rocks.,85
+Blue water,"In water-resource accounting, freshwater in rivers, lakes and groundwater stores.",100
+Green water,"In agricultural water accounting, precipitation retained in soil and available to plants.",100
+Dew|Dew water|Dewwater,Water droplets formed when atmospheric moisture condenses on a cool surface.,60
+Condensate water|Condensed water|Condensate|Condensation water,"Liquid water formed when water vapor condenses, including recovered water from equipment.",85
+Supercooled water|Supercooled,Water that remains liquid below its usual freezing temperature.,85
+Supercritical water|Supercritical,"Water above its critical temperature and pressure, where distinct liquid and gas phases disappear.",100
+Tritiated water|Tritium water|HTO,"Water containing tritium, a radioactive hydrogen isotope, distinct from deuterium-based heavy water.",100
+Metabolic water,Water produced by chemical reactions during an organism's metabolism.,85
+Bound water,"Water associated with biological materials or other structures, rather than freely moving bulk water.",100
+Bromine water,An aqueous bromine preparation used in chemical demonstrations and testing.,85
+Limewater|Calcium hydroxide water|Calcium hydroxide solution,"An aqueous calcium-hydroxide solution used in chemistry, distinct from fruit-flavored lime water.",85
+Water of crystallization|Water of crystallisation|Crystal water|Water of hydration,"Water incorporated in hydrated crystals, such as gypsum or hydrated copper sulfate.",100
+Floodwater|Flood water,"Water covering normally dry ground during floods, potentially carrying sewage or other contaminants.",60
+Pool water|Swimming pool water,"Water used in swimming pools, classified by recreational use rather than one particular treatment.",15
+Contaminated water|Polluted water|Dirty water,"Water affected by contamination, which may involve chemical, biological or other unwanted substances.",15
+Cooling water,Water used to carry heat away from equipment in industrial cooling systems.,85
+Boiler water|Boiler feedwater|Boiler feed water,"Water supplied to or used inside boilers, often requiring treatment suited to the equipment.",85
+Witch-hazel water|Hamamelis water|Witch hazel distillate,A topical witch-hazel preparation also known as Hamamelis water.,85
+Whitewater|White water|Rapids water,"Turbulent water in river rapids, familiar from whitewater rafting.",60
+Blackwater river water|Blackwater river|Amazon blackwater|Amazonian blackwater,"A river-water class darkened by organic matter, distinct from sewage blackwater.",100
+Whitewater river water|Whitewater river|Amazon whitewater|Amazonian whitewater,"An Amazonian river-water class with abundant suspended sediment, distinct from the rapids meaning.",100
+Clearwater river water|Clearwater river|Amazon clearwater|Amazonian clearwater|Clearwater type,An Amazonian river-water class with low sediment and high transparency.,100
+Colloidal silver water|Colloidal silver,"An aqueous suspension of tiny silver particles, also known as colloidal silver water.",85

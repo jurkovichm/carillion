@@ -9,7 +9,7 @@ Vitamin E|Tocopherol|Tocotrienols|Tocopherols,A fat-soluble vitamin often repres
 Vitamin K|K1|K2|Vitamin K1|Vitamin K2,The vitamin K family includes the forms known as K1 and K2.,60
 Vitamin B1|B1|B 1|Thiamin|Thiamine,"Thiamin, also spelled thiamine, is the vitamin designated B1.",60
 Vitamin B2|B2|B 2|Riboflavin,Riboflavin is the name used for vitamin B2 on supplement labels.,60
-Vitamin B3|B3|B 3|Niacin|Niacinamide|Nicotinamide,Niacin is vitamin B3; nicotinamide is another supplementary form.,60
+Vitamin B3|B3|B 3|Niacin|Niacinamide|Nicotinamide|Nicotinamide riboside|NR|Nicotinamide mononucleotide|NMN,Niacin is vitamin B3; nicotinamide is another supplementary form.,60
 Vitamin B5|B5|B 5|Pantothenic acid,Pantothenic acid is the B vitamin numbered five.,85
 Vitamin B6|B6|B 6|Pyridoxine,Pyridoxine is a form of vitamin B6 used in supplements.,60
 Biotin|Vitamin B7|B7|B 7,Biotin is vitamin B7 and is sold alone or in B-complex products.,30
@@ -53,7 +53,7 @@ Garlic|Garlic extract,Garlic is available as a botanical supplement as well as a
 Ginger|Ginger extract,Ginger's underground stem is used in foods and botanical supplements.,60
 Ginkgo|Ginkgo biloba,Ginkgo supplements commonly use extracts from the tree's leaves.,60
 Ginseng|Asian ginseng|Panax ginseng,Asian ginseng supplements use the plant Panax ginseng.,60
-Turmeric|Curcumin|Herbal supplement|Herbal supplements|Herbs,"Turmeric supplements may emphasize curcumin, a constituent of the plant.",30
+Turmeric|Curcumin|Herbal supplement|Herbal supplements|Herbs|Indian saffron,"Turmeric supplements may emphasize curcumin, a constituent of the plant.",30
 Milk thistle|Silymarin,Milk thistle supplements often feature a mixture of compounds called silymarin.,85
 Valerian|Valerian root,A botanical supplement generally prepared from the valerian plant's roots.,60
 Saw palmetto,A botanical supplement prepared from the fruit of a small palm.,85
@@ -181,3 +181,74 @@ Lecithin|Soy lecithin|Soya lecithin|Sunflower lecithin,A mixture of phospholipid
 Sea moss|Irish moss|Irish sea moss|Chondrus crispus|Seaweed supplement|Seaweed,"Red-algae preparations sold in capsules, powders and other supplement products.",60
 Nattokinase|Natto extract,An enzyme associated with fermented soybean natto and sold in concentrated supplements.,85
 Gripe water|Gripewater,A liquid infant-product category that includes preparations marketed as dietary supplements.,60
+Agaricus|Agaricus blazei|Sun mushroom,"An edible mushroom native to Brazil, sold in extracts and capsules.",100
+Alfalfa,A plant whose leaves and seeds are used in food and herbal supplement preparations.,85
+Andrographis|Andrographis paniculata,A bitter annual plant used in traditional medicine and marketed in supplemental extracts.,100
+Apple cider vinegar|ACV|Cider vinegar,"Fermented apple juice sold in supplement products including gummies, capsules and tablets.",30
+Bitter melon|Bitter gourd|Balsam pear,An edible plant fruit used in food and herbal preparations in several tropical regions.,85
+Bladderwrack|Bladder wrack|Fucus vesiculosus,"A brown seaweed rich in iodine, distinct from the other seaweeds commonly called kelp.",85
+Borage oil|Borage seed oil|Borage,Oil from borage seeds that contains the omega-6 fatty acid gamma-linolenic acid.,85
+Burdock|Burdock root,A perennial plant whose root is consumed as food and used in herbal preparations.,85
+Butcher's broom|Butchers broom,"A botanical preparation containing saponins, documented in herbal supplement references.",100
+Camu-camu,"A South American fruit with high vitamin C content, marketed in supplements.",100
+Damiana|Turnera diffusa,"A botanical ingredient found in herbal combination products, including preparations studied for sexual function.",100
+Devil's claw|Devils claw,A South African plant whose root is used in traditional herbal preparations.,85
+Diindolylmethane|DIM,"A compound associated with cruciferous vegetables, also sold as a dietary supplement.",100
+Dimethylglycine|DMG,An amino-acid compound found in plant and animal cells and marketed in supplements.,100
+Dong quai|Dongquai,"An herb used in traditional Chinese medicine, available as pills and liquid extracts.",85
+Epimedium|Horny goat weed,"A Chinese herb also known as horny goat weed, used in herbal preparations.",60
+Fucoidan,"A compound found in brown seaweed, available as supplement capsules, extracts and powders.",100
+American ginseng|Panax quinquefolius,"An herb used in traditional Chinese medicine, available in powders, pills and capsules.",85
+Gotu kola|Centella asiatica,A perennial plant used in herbal extracts; it is distinct from caffeine-containing kola nut.,85
+Graviola|Soursop,"A tropical tree whose fruit, leaves and stems feature in food and herbal preparations.",85
+Guggul|Guggulu,A resin extract used in Ayurvedic preparations for centuries.,100
+Hops|Hops extract,Preparations derived from the female flower clusters of Humulus lupulus.,85
+Indole-3-carbinol|I3C,"A compound associated with cruciferous vegetables such as broccoli, cabbage and Brussels sprouts.",100
+Kudzu,"An herb used in Chinese medicinal preparations, including combinations with other botanicals.",85
+Magnolia bark|Magnolia officinalis|Magnolia bark extract,A botanical extract prepared from magnolia bark and described in herbal supplement references.,100
+Mangosteen,A Southeast Asian fruit used in traditional medicine and marketed in botanical products.,85
+Moringa|Moringa oleifera,"Moringa leaves and seeds are ground into powders used in capsules, tablets and drinks.",60
+Neem,A plant used as food and in traditional and Ayurvedic herbal preparations.,85
+Nettle|Stinging nettle|Nettle root,"A flowering herb whose root is used in botanical preparations, sometimes with saw palmetto.",85
+Olive leaf|Olive leaf extract,An olive-leaf preparation containing the plant compound oleuropein.,85
+Papaya leaf|Papaya leaf extract,Leaves from the tropical papaya tree are sold in dietary supplement extracts.,100
+Pectin|Citrus pectin|Modified citrus pectin|MCP,"A soluble plant fiber concentrated in citrus peel and pulp, also used in supplements.",85
+Schisandra|Schisandra chinensis,A fruit extract used in traditional Chinese herbal preparations.,100
+Eleuthero|Siberian ginseng|Eleutherococcus senticosus,"An herb sold in root preparations, powders and extracts, distinct from Panax ginseng.",85
+Triphala,An Ayurvedic herbal formulation made from three medicinal plants.,85
+Wheatgrass|Wheat grass,"A preparation made from young wheat leaves, including their extracted juice.",60
+Wild yam,"A botanical preparation containing diosgenin, a compound used in laboratory steroid synthesis.",85
+Willow bark|White willow bark,"A bark preparation containing salicin, a compound associated with the development of aspirin.",85
+Shiitake|Shiitake mushroom,An edible mushroom represented in botanical supplement extracts.,85
+Shark cartilage,An animal-derived supplement ingredient made from shark cartilage.,85
+Phosphorus|Phosphate supplements,"An essential mineral present in bones, teeth, DNA and RNA, and available in supplements.",85
+Fluoride,"A mineral available in supplements, distinct from toothpaste and other topical dental products.",85
+Bacopa|Bacopa monnieri,"An herbal supplement made from Bacopa monnieri, documented on NIH supplement labels.",85
+Holy basil|Tulsi,"An Ayurvedic botanical also called tulsi, documented in dietary supplement preparations.",85
+Shilajit,A substance used in traditional preparations and recorded in the NIH dietary supplement label database.,60
+Tongkat ali|Eurycoma longifolia,"A herbal supplement derived from Eurycoma longifolia, studied as an oral preparation.",85
+Saffron|Crocus sativus,"The culinary spice is also sold as a supplement, distinct from turmeric or Indian saffron.",60
+Phosphatidylserine|PS,A phospholipid recorded as an ingredient in the NIH dietary supplement label database.,100
+Glutathione|L glutathione|Reduced glutathione,A compound sold in supplement capsules and documented on NIH label records.,85
+Alpha-GPC|Glycerophosphorylcholine,"A choline-containing compound sold in supplement capsules, including products recorded by NIH.",100
+Urolithin A|Urolithin A supplement,An oral supplement ingredient listed in the National Cancer Institute drug dictionary.,100
+Spearmint|Spearmint oil,"Mentha spicata preparations appear on supplement labels, including steam-distilled spearmint oil.",85
+Slippery elm|Slippery elm bark,Inner bark from the slippery elm tree is used in herbal supplement preparations.,85
+Hibiscus|Hibiscus flower,Hibiscus flowers appear as botanical ingredients in documented dietary supplement blends.,85
+Goji|Goji berry|Wolfberry|Lycium,Goji berry extracts are recorded as botanical ingredients in dietary supplement labels.,85
+Rose hip|Rose hips,"Rose-hip preparations appear on dietary supplement labels, including products supplying vitamin C.",85
+Senna,"An herbal ingredient recorded in NIH supplement terminology, also used in laxative preparations.",85
+Diatomaceous earth|Food grade diatomaceous earth,A marketed supplement powder made from fossilized diatom shells.,100
+Amla|Amalaki|Indian gooseberry|Phyllanthus emblica|Emblica officinalis,Fruit extracts from Phyllanthus emblica are recorded in herbal supplement labels.,85
+Pygeum|Pygeum extract|Pygeum africanum,"A botanical extract sold in oral supplement preparations, including combinations with saw palmetto.",100
+Ornithine|L ornithine,"An amino-acid supplement sold as a powder, including hydrochloride preparations.",100
+Leucine|L leucine,"One of the three branched-chain amino acids, also supplied in individual supplement products.",60
+Isoleucine|L isoleucine,"One of the three branched-chain amino acids, listed separately in amino-acid supplement formulas.",85
+Valine|L valine,A branched-chain amino acid supplied alongside leucine and isoleucine in supplement formulas.,85
+Histidine|L histidine,A protein-building amino acid represented in the NIH dietary supplement ingredient index.,100
+Phenylalanine|L phenylalanine,An amino acid documented as a distinct ingredient in the NIH supplement index.,100
+Threonine|L threonine,"An amino acid listed individually in supplement formulas, including some BCAA products.",100
+Cysteine|L cysteine,"An amino acid listed in the NIH supplement ingredient index, distinct from N-acetylcysteine.",100
+Germanium|Organic germanium|Germanium sesquioxide|Ge-132,"A nonessential element marketed in supplement preparations, distinct from required dietary minerals.",100
+Glyconutrients,"A supplement category containing plant-derived sugars, marketed separately from individual vitamin and mineral products.",100
+Colloidal silver|Colloidal silver water,"Tiny silver particles suspended in liquid, marketed as an oral supplement despite lacking an essential nutritional role.",85

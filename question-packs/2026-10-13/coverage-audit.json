@@ -1,0 +1,1096 @@
+{
+  "date": "2026-10-13",
+  "method": "Multiple central indexes reconciled with primary records, then lateral and semantic edge-case discovery. Existing scores retained; new scores use the approved generous rarity approach with the separate QUIRKY exception.",
+  "questions": [
+    {
+      "prompt": "Current NFL QB Nicknames",
+      "before": 105,
+      "after": 114,
+      "additions": [
+        {
+          "answer": "Mr. Relevant",
+          "sources": [
+            "https://www.49ers.com/news/off-the-field-brock-purdy-joins-kelce-brothers-on-new-heights-podcast"
+          ],
+          "inclusion": "Documented nickname; current-player eligibility checked separately. Historical nickname usage qualifies under the existing rule."
+        },
+        {
+          "answer": "Carolina Reaper",
+          "sources": [
+            "https://www.panthers.com/news/notebook-bryce-young-smiling-through-it-all-this-holiday-season"
+          ],
+          "inclusion": "Documented nickname; current-player eligibility checked separately. Historical nickname usage qualifies under the existing rule."
+        },
+        {
+          "answer": "Joker",
+          "sources": [
+            "https://www.nfl.com/_amp/joker-s-wild-why-alabama-qb-mac-jones-is-getting-the-last-laugh"
+          ],
+          "inclusion": "Documented nickname; current-player eligibility checked separately. Historical nickname usage qualifies under the existing rule."
+        },
+        {
+          "answer": "Superman",
+          "sources": [
+            "https://www.pro-football-reference.com/players/W/WillCa03.htm"
+          ],
+          "inclusion": "Documented nickname; current-player eligibility checked separately. Historical nickname usage qualifies under the existing rule."
+        },
+        {
+          "answer": "Mighty Mouse",
+          "sources": [
+            "https://www.nfl.com/_amp/kliff-kingsbury-using-unusual-offseason-to-improve-offense"
+          ],
+          "inclusion": "Documented nickname; current-player eligibility checked separately. Historical nickname usage qualifies under the existing rule."
+        },
+        {
+          "answer": "The Eraser",
+          "sources": [
+            "https://www.si.com/nfl/ravens/onsi/news/baltimore-ravens-lamar-jackson-responds-tom-brady-nickname"
+          ],
+          "inclusion": "Documented nickname; current-player eligibility checked separately. Historical nickname usage qualifies under the existing rule."
+        },
+        {
+          "answer": "If-Man",
+          "sources": [
+            "https://www.reddit.com/r/nfl/comments/1wehoq3/jim_harbaugh_justin_herbert_will_be_remembered_as/"
+          ],
+          "inclusion": "Documented nickname; current-player eligibility checked separately. Historical nickname usage qualifies under the existing rule."
+        },
+        {
+          "answer": "Dart Vader",
+          "sources": [
+            "https://www.reddit.com/r/NFCEastMemeWar/comments/1mtfgbm/"
+          ],
+          "inclusion": "Documented nickname; current-player eligibility checked separately. Historical nickname usage qualifies under the existing rule."
+        },
+        {
+          "answer": "Big Penix Energy",
+          "sources": [
+            "https://www.reddit.com/r/falcons/comments/1hgsl0t/"
+          ],
+          "inclusion": "Documented nickname; current-player eligibility checked separately. Historical nickname usage qualifies under the existing rule."
+        }
+      ]
+    },
+    {
+      "prompt": "Current NFL WR Nicknames",
+      "before": 64,
+      "after": 71,
+      "additions": [
+        {
+          "answer": "Slayer",
+          "sources": [
+            "https://www.chargers.com/news/five-fun-facts-about-keenan-allen-147108"
+          ],
+          "inclusion": "Documented distinct nickname. Shakir names verified in player interview; unrelated RB Deuce is in a different question."
+        },
+        {
+          "answer": "Diggsy",
+          "sources": [
+            "https://www.reddit.com/r/buffalobills/comments/sj7bb5/"
+          ],
+          "inclusion": "Documented distinct nickname. Shakir names verified in player interview; unrelated RB Deuce is in a different question."
+        },
+        {
+          "answer": "Velcro",
+          "sources": [
+            "https://www.sportingnews.com/us/nfl/buffalo-bills/news/bills-khalil-shakir-given-perfect-nickname-tre-white/1024740e6567ab6877920b80"
+          ],
+          "inclusion": "Documented distinct nickname. Shakir names verified in player interview; unrelated RB Deuce is in a different question."
+        },
+        {
+          "answer": "Swiss",
+          "sources": [
+            "https://www.pff.com/news/college-football-khalil-shakir-standard-boise-state-2021"
+          ],
+          "inclusion": "Documented distinct nickname. Shakir names verified in player interview; unrelated RB Deuce is in a different question."
+        },
+        {
+          "answer": "Shaq",
+          "sources": [
+            "https://www.pff.com/news/college-football-khalil-shakir-standard-boise-state-2021"
+          ],
+          "inclusion": "Documented distinct nickname. Shakir names verified in player interview; unrelated RB Deuce is in a different question."
+        },
+        {
+          "answer": "Deuce",
+          "sources": [
+            "https://www.pff.com/news/college-football-khalil-shakir-standard-boise-state-2021"
+          ],
+          "inclusion": "Documented distinct nickname. Shakir names verified in player interview; unrelated RB Deuce is in a different question."
+        },
+        {
+          "answer": "Big Mike",
+          "sources": [
+            "https://www.buccaneers.com/news/10-mike-evans-catches-make-history-bucs-nfl"
+          ],
+          "inclusion": "Documented distinct nickname. Shakir names verified in player interview; unrelated RB Deuce is in a different question."
+        }
+      ]
+    },
+    {
+      "prompt": "Current NFL RB Nicknames",
+      "before": 48,
+      "after": 54,
+      "additions": [
+        {
+          "answer": "Juice",
+          "sources": [
+            "https://officialkylejuszczyk.com/"
+          ],
+          "inclusion": "User explicitly included fullbacks. Distinct documented player nickname; individual catch, with orthographic variants sharing one row."
+        },
+        {
+          "answer": "Project Pat",
+          "sources": [
+            "https://www.giants.com/news/5-things-to-know-about-fullback-patrick-ricard-john-harbaugh-baltimore-ravens-2026-nfl-free-agency"
+          ],
+          "inclusion": "User explicitly included fullbacks. Distinct documented player nickname; individual catch, with orthographic variants sharing one row."
+        },
+        {
+          "answer": "Pancake Pat",
+          "sources": [
+            "https://www.giants.com/news/cam-skattebo-patrick-ricard-jaxson-dart-tyrone-tracy-jr-john-harbaugh-ravens-free-agency"
+          ],
+          "inclusion": "User explicitly included fullbacks. Distinct documented player nickname; individual catch, with orthographic variants sharing one row."
+        },
+        {
+          "answer": "Showtyme",
+          "sources": [
+            "https://link.me/showtyme"
+          ],
+          "inclusion": "User explicitly included fullbacks. Distinct documented player nickname; individual catch, with orthographic variants sharing one row."
+        },
+        {
+          "answer": "Battering Cam",
+          "sources": [
+            "https://www.reddit.com/r/nfl/comments/1wy93d6/highlight_cam_skattebo_in_pass_protection/"
+          ],
+          "inclusion": "User explicitly included fullbacks. Distinct documented player nickname; individual catch, with orthographic variants sharing one row."
+        },
+        {
+          "answer": "Sledge",
+          "sources": [
+            "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BUF.pdf",
+            "https://www.patriots.com/team/players-roster/reggie-gilliam/"
+          ],
+          "inclusion": "Directly documented category membership; no health benefit is implied. Current roster eligibility checked separately for Sledge."
+        }
+      ]
+    },
+    {
+      "prompt": "Current NFL Head Coaches",
+      "before": 32,
+      "after": 32,
+      "additions": []
+    },
+    {
+      "prompt": "MLB Teams Left in the Playoffs as of 13 October",
+      "before": 4,
+      "after": 4,
+      "additions": []
+    },
+    {
+      "prompt": "Dietary Supplements",
+      "before": 182,
+      "after": 253,
+      "additions": [
+        {
+          "answer": "Agaricus",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/agaricus"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Alfalfa",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/alfalfa"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Andrographis",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/andrographis"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Apple cider vinegar",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/apple-cider-vinegar"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Bitter melon",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bitter-melon"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Bladderwrack",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bladder-wrack"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Borage oil",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/borage"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Burdock",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/burdock"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Butcher's broom",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/butcher-broom"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Camu-camu",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/camu-camu"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Damiana",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/damiana"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Devil's claw",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/devil-claw"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Diindolylmethane",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/diindolylmethane"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Dimethylglycine",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dimethylglycine"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Dong quai",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dong-quai"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Epimedium",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/epimedium"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Fucoidan",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/fucoidan"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "American ginseng",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng-american"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Gotu kola",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/gotu-kola"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Graviola",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Guggul",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/guggul"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Hops",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hops"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Indole-3-carbinol",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/indole-3-carbinol"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Kudzu",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/kudzu"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Magnolia bark",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/magnolia-officinalis"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Mangosteen",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/mangosteen"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Moringa",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/moringa-oleifera"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Neem",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/neem"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Nettle",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/nettle"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Olive leaf",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/olive-leaf"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Papaya leaf",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/papaya-leaf"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Pectin",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/pectin"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Schisandra",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/schisandra"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Eleuthero",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/siberian-ginseng"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Triphala",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/triphala"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Wheatgrass",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/wheat-grass"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Wild yam",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/wild-yam"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Willow bark",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/willow-bark"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Shiitake",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/shiitake-mushroom"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Shark cartilage",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/shark-cartilage"
+          ],
+          "inclusion": "Central MSK index discovery, reconciled with existing ingredient-family rows; oral botanical/ingredient category, not a brand or delivery format."
+        },
+        {
+          "answer": "Phosphorus",
+          "sources": [
+            "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Fluoride",
+          "sources": [
+            "https://ods.od.nih.gov/factsheets/Fluoride-Consumer/"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Bacopa",
+          "sources": [
+            "https://dsld.od.nih.gov/label/223556"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Holy basil",
+          "sources": [
+            "https://api.ods.od.nih.gov/dsld/s3/pdf/40250.pdf"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Shilajit",
+          "sources": [
+            "https://dsld.od.nih.gov/label/248049"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Tongkat ali",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/23754792/"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Saffron",
+          "sources": [
+            "https://www.mdanderson.org/cancerwise/what-to-know-about-saffron.h00-159781179.html"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Phosphatidylserine",
+          "sources": [
+            "https://dsld.od.nih.gov/ingredient/Phosphatidylserine"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Glutathione",
+          "sources": [
+            "https://dsld.od.nih.gov/label/279545"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Alpha-GPC",
+          "sources": [
+            "https://dsld.od.nih.gov/label/237135"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Urolithin A",
+          "sources": [
+            "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/urolithin-a-supplement"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Spearmint",
+          "sources": [
+            "https://dsld.od.nih.gov/label/277118"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Slippery elm",
+          "sources": [
+            "https://api.ods.od.nih.gov/dsld/s3/pdf/77615.pdf"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Hibiscus",
+          "sources": [
+            "https://api.ods.od.nih.gov/dsld/s3/pdf/12380.pdf"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Goji",
+          "sources": [
+            "https://api.ods.od.nih.gov/dsld/s3/pdf/40012.pdf"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Rose hip",
+          "sources": [
+            "https://api.ods.od.nih.gov/dsld/s3/pdf/35812.pdf"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Senna",
+          "sources": [
+            "https://ods.od.nih.gov/HealthInformation/dictionary.aspx"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Diatomaceous earth",
+          "sources": [
+            "https://remedysnutrition.com/products/diatomaceous-earth"
+          ],
+          "inclusion": "Additional NIH/clinical/manufacturer source confirms supplement ingredient or product-category identity; inclusion is not an efficacy claim."
+        },
+        {
+          "answer": "Amla",
+          "sources": [
+            "https://dsld.od.nih.gov/label/282962"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Pygeum",
+          "sources": [
+            "https://www.nowfoods.com/products/supplements/pygeum-saw-palmetto-softgels/"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Ornithine",
+          "sources": [
+            "https://dsld.od.nih.gov/label/203401"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Leucine",
+          "sources": [
+            "https://api.ods.od.nih.gov/dsld/s3/pdf/17696.pdf"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Isoleucine",
+          "sources": [
+            "https://dsld.od.nih.gov/label/5380"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Valine",
+          "sources": [
+            "https://dsld.od.nih.gov/label/5380"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Histidine",
+          "sources": [
+            "https://downloads.regulations.gov/FDA-2022-D-0281-0007/attachment_1.pdf"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Phenylalanine",
+          "sources": [
+            "https://downloads.regulations.gov/FDA-2022-D-0281-0007/attachment_1.pdf"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Threonine",
+          "sources": [
+            "https://dsld.od.nih.gov/label/5380"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Cysteine",
+          "sources": [
+            "https://downloads.regulations.gov/FDA-2022-D-0281-0007/attachment_1.pdf"
+          ],
+          "inclusion": "Independent NIH ingredient/label reconciliation identified this omission. Individual amino-acid ingredients are distinct from multi-ingredient EAA/BCAA formulas and chemically modified derivatives."
+        },
+        {
+          "answer": "Germanium",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/germanium"
+          ],
+          "inclusion": "Directly documented category membership; no health benefit is implied. Current roster eligibility checked separately for Sledge."
+        },
+        {
+          "answer": "Glyconutrients",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/glyconutrients"
+          ],
+          "inclusion": "Directly documented category membership; no health benefit is implied. Current roster eligibility checked separately for Sledge."
+        },
+        {
+          "answer": "Colloidal silver",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/colloidal-silver"
+          ],
+          "inclusion": "Directly documented category membership; no health benefit is implied. Current roster eligibility checked separately for Sledge."
+        }
+      ]
+    },
+    {
+      "prompt": "Types of Water",
+      "before": 79,
+      "after": 120,
+      "additions": [
+        {
+          "answer": "Bathwater",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/bathwater"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Dishwater",
+          "sources": [
+            "https://dictionary.cambridge.org/us/dictionary/english/dishwater"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Micellar water",
+          "sources": [
+            "https://www.bioderma.us/en/c/all-products/face-care/micellar-water.html"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Bacteriostatic water",
+          "sources": [
+            "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87d6e9dc-fe3b-4593-ac9a-d7493d1959c7"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Ballast water",
+          "sources": [
+            "https://www.epa.gov/ports-initiative/ports-primer-71-environmental-impacts"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Bilge water",
+          "sources": [
+            "https://www.epa.gov/sites/default/files/2015-06/documents/o_g_coastal_dd_1996.pdf"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Produced water",
+          "sources": [
+            "https://www.usgs.gov/publications/usgs-investigations-water-produced-during-hydrocarbon-reservoir-development"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Reclaimed water",
+          "sources": [
+            "https://www.epa.gov/waterreuse/basic-information-about-water-reuse"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Perched groundwater",
+          "sources": [
+            "https://water.usgs.gov/water-basics_glossary.html"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Unconfined groundwater",
+          "sources": [
+            "https://pubs.usgs.gov/wsp/1793/report.pdf"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Soil water",
+          "sources": [
+            "https://www.usgs.gov/water-science-school/science/infiltration-and-water-cycle"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Capillary water",
+          "sources": [
+            "https://pubs.usgs.gov/twri/twri8a3/"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Meteoric water",
+          "sources": [
+            "https://www.usgs.gov/observatories/yvo/news/why-do-most-geyser-and-sinter-producing-hot-springs-have-alkaline-basic-ph"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Connate water",
+          "sources": [
+            "https://pubs.usgs.gov/pp/0440f/report.pdf"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Fossil water",
+          "sources": [
+            "https://www.fao.org/aquastat/en/databases/maindatabase/index.html"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Magmatic water",
+          "sources": [
+            "https://www.usgs.gov/publications/magmatic-connate-and-metamorphic-waters"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Metamorphic water",
+          "sources": [
+            "https://www.usgs.gov/publications/magmatic-connate-and-metamorphic-waters"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Hydrothermal water",
+          "sources": [
+            "https://www.usgs.gov/observatories/yvo/news/why-do-most-geyser-and-sinter-producing-hot-springs-have-alkaline-basic-ph"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Blue water",
+          "sources": [
+            "https://www.fao.org/4/V5400E/v5400e05.htm"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Green water",
+          "sources": [
+            "https://www.fao.org/4/V5400E/v5400e05.htm"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Dew",
+          "sources": [
+            "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Condensate water",
+          "sources": [
+            "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Supercooled water",
+          "sources": [
+            "https://www.nist.gov/publications/properties-ice-and-supercooled-water"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Supercritical water",
+          "sources": [
+            "https://arxiv.org/abs/1901.09466"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Tritiated water",
+          "sources": [
+            "https://www.nrc.gov/facilities-safety/operating-reactors/reactor-safety-information-topics/groundwater-contamination-tritium-at-nuclear-plants/radionuclides-in-groundwater"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Metabolic water",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC12057207/"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Bound water",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC12057207/"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Bromine water",
+          "sources": [
+            "https://edu.rsc.org/experiments/handling-liquid-bromine-and-preparing-bromine-water/683.article"
+          ],
+          "inclusion": "Verified named water class or aqueous preparation within the existing broad non-potable/scientific/beverage scope; discovery included household, cosmetic, industrial, geological and biological lenses."
+        },
+        {
+          "answer": "Limewater",
+          "sources": [
+            "https://edu.rsc.org/experiments/fermentation-of-glucose-using-yeast-14-16-years/470.article"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Water of crystallization",
+          "sources": [
+            "https://edu.rsc.org/resources/plaster-of-paris/2021.article"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Floodwater",
+          "sources": [
+            "https://www.cdc.gov/floods/safety/floodwater-after-a-disaster-or-emergency-safety.html"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Pool water",
+          "sources": [
+            "https://www.cdc.gov/healthy-swimming/prevention/preventing-diarrheal-illnesses.html"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Contaminated water",
+          "sources": [
+            "https://www.epa.gov/waterutilityresponse/handling-contaminated-water-drinking-water-and-wastewater-utilities"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Cooling water",
+          "sources": [
+            "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100FS7K.TXT"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Boiler water",
+          "sources": [
+            "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100FS7K.TXT"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Witch-hazel water",
+          "sources": [
+            "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?name=WITCH+HAZEL&setid=bbf2efd7-f181-403b-ac5f-695f7ba15875"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Whitewater",
+          "sources": [
+            "https://www.usgs.gov/publications/lava-falls-rapid-grand-canyon-effects-late-holocene-debris-flows-colorado-river"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Blackwater river water",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7501869/"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Whitewater river water",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7501869/"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Clearwater river water",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7501869/"
+          ],
+          "inclusion": "Verified literal-use, chemistry, topical-preparation or river-classification edge case. Qualifiers preserve competing semantic owners."
+        },
+        {
+          "answer": "Colloidal silver water",
+          "sources": [
+            "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/colloidal-silver"
+          ],
+          "inclusion": "Directly documented category membership; no health benefit is implied. Current roster eligibility checked separately for Sledge."
+        }
+      ]
+    }
+  ],
+  "central_sources": {
+    "nicknames": [
+      "https://en.wikipedia.org/wiki/List_of_NFL_nicknames",
+      "https://en.wikipedia.org/wiki/List_of_North_American_football_nicknames",
+      "https://www.profootballnetwork.com/nfl-hq/depth-charts"
+    ],
+    "coaches": [
+      "https://playfootball.nfl.com/news-events/news-and-features/where-every-nfl-head-coach-played-high-school-football/",
+      "https://www.pro-football-reference.com/years/2026/coaches.htm"
+    ],
+    "playoffs": [
+      "https://www.mlb.com/guardians/news/mlb-2026-league-championship-series-matchups",
+      "https://www.mlb.com/postseason"
+    ],
+    "supplements": [
+      "https://ods.od.nih.gov/factsheets/list-all/",
+      "https://www.nccih.nih.gov/health/herbsataglance",
+      "https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs/search",
+      "https://dsld.od.nih.gov/"
+    ],
+    "water": [
+      "https://water.usgs.gov/water-basics_glossary.html",
+      "https://www.fao.org/4/V5400E/v5400e05.htm",
+      "https://www.epa.gov/waterreuse/basic-information-about-water-reuse",
+      "https://www.nrc.gov/education-regulatory-research/glossary"
+    ]
+  },
+  "exclusions": [
+    {
+      "category": "Nicknames",
+      "examples": [
+        "Nick Chubb nicknames",
+        "retired-player names",
+        "unit nicknames such as Sonic and Knuckles together",
+        "fantasy-team-name generators"
+      ],
+      "reason": "Current rostered individuals only; existing separate Sonic and Knuckles catches remain."
+    },
+    {
+      "category": "Supplement reference indexes",
+      "examples": [
+        "Ayurveda",
+        "Mediterranean Diet",
+        "BioResonance Therapy",
+        "Magnet Therapy",
+        "Insulin Potentiation Therapy",
+        "Low-dose naltrexone",
+        "Tea Tree Oil",
+        "topical plasters",
+        "714X",
+        "Avlimil",
+        "Juice Plus"
+      ],
+      "reason": "Medical systems, diets, devices, prescription drugs, injections, topical-only preparations or excluded brands do not become oral supplement-ingredient catches merely because they appear in a central index."
+    },
+    {
+      "category": "Water",
+      "examples": [
+        "Firewater",
+        "High water",
+        "arbitrary fruit-flavor variants",
+        "brand names"
+      ],
+      "reason": "Metaphorical meanings and arbitrary variants do not satisfy the existing named-water-category convention."
+    }
+  ],
+  "coverage_limits": [
+    "Coach and dated playoff membership reconcile as complete sets of 32 and 4.",
+    "Nicknames have no exhaustive registry; historical lists, interviews and fan usage differ in coverage and current roster eligibility.",
+    "Supplement databases contain hundreds of thousands of changing labels. Indexed oral ingredients and identified omissions were reconciled; every regional ingredient and proprietary mixture cannot be certified exhaustive.",
+    "Types of water has overlapping scientific, regional, culinary and product taxonomies; no finite global master list exists. Arbitrary combinations of source, temperature and flavor are not generated as extra catches.",
+    "Some MSK index requests returned access errors, and its alphabetical pages include out-of-scope therapies. The audit does not claim extraction of every database record."
+  ],
+  "validation": {
+    "acceptedFormsChecked": 1465,
+    "targetedMatchingChecks": 70,
+    "existingAutocompleteLimitations": [
+      {
+        "question": 1,
+        "input": "captain",
+        "exactOwner": null,
+        "suggestion": "Captain Kirk"
+      },
+      {
+        "question": 4,
+        "input": "harbaugh",
+        "exactOwner": null,
+        "suggestion": "Jim Harbaugh"
+      },
+      {
+        "question": 4,
+        "input": "lafleur",
+        "exactOwner": null,
+        "suggestion": "Matt LaFleur"
+      },
+      {
+        "question": 6,
+        "input": "acid",
+        "exactOwner": null,
+        "suggestion": "Folate"
+      }
+    ],
+    "scoring": "Original Worth values preserved; additions follow the user-approved scoring approach."
+  }
+}

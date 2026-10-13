@@ -35509,7 +35509,7 @@ window.DIVE_DAYS = [
       {
         "prompt": "Current NFL QB Nicknames",
         "source": "https://www.sportingnews.com/us/nfl/news/joe-burrow-nicknames-joe-shiesty/bs1mm6j5u8ie1af7o4o93zwey",
-        "sourceNote": "Research snapshot: 13 October 2026. Roster eligibility checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: regular NFL fans. User requested one catch per distinct nickname, including documented initials, shortened names and childhood names; different nicknames for one player score independently. Orthographic variants share a catch. Players must be rostered, including backups and reserve/injured players; unsigned free agents and retired players are excluded. Expanded documented nickname bank covering starters, backups and reserve/practice-squad players. There is no authoritative finite registry of every nickname; local and newly coined names remain a coverage limit. Shortened professional first names and documented initials qualify under the user instruction. Full real names alone generally do not qualify, except the documented Drake \u201cDrake Maye\u201d Maye meme in Q1. Joe Cool is one nickname catch, documented here for Burrow; it is not an additional catch for every player who has used it. Joe Brr/Brrr/Brrrr are variants. Joe is now its own documented shortened-name catch. Bare Captain and ordinary player surnames are not intentional aliases. Russell Wilson excluded after moving into broadcasting; https://amp.nfl.com/news/russell-wilson-cbs-sports-putting-pause-on-playing-career . Sources: Burrow variants and origins in the principal source; current Burrow status https://www.bengals.com/team/players-roster/joe-burrow/ ; Captain Kirk and Kirko Chainz https://www.raiders.com/news/free-agent-facts-get-to-know-kirk-cousins-quarterback-nfl-free-agency-2026-transactions ; Showtime https://www.kansascity.com/sports/nfl/kansas-city-chiefs/article219942045.html ; Grim Reaper https://www.nfl.com/news/chiefs-andy-reid-to-patrick-mahomes-before-game-tying-drive-when-it-s-grim-go-be ; Danny Dimes https://www.nfl.com/news/jones-on-danny-dimes-could-be-worse-nicknames-0ap3000001059167 ; Red Rifle https://www.panthers.com/news/five-things-to-know-about-andy-dalton and current status https://www.philadelphiaeagles.com/news/andy-dalton-you-ve-got-to-be-ready-for-all-of-it ; Passtronaut https://www.sportingnews.com/us/nfl/news/joshua-dobbs-nickname-vikings-passtronaut-nasa/95a9caa38655cf3e9485619c and current Lions status https://www.detroitlions.com/team/players-roster/joshua-dobbs/logs/ ; Purdy https://www.rte.ie/sport/us-sport/2026/1009/1594683-nfl-preview-purdy-rises-from-mr-irrelevant-to-mvp-class/ ; Tommy Cutlets and Two Chains https://amp.nfl.com/news/2026-nfl-preseason-week-3-what-we-learned-from-thursday-s-games ; Action Jackson https://www.nfl.com/videos/can-t-miss-play-action-jackson-lamar-s-filthy-open-field-moves-end-in-td/ ; GEQBUS https://en.wikipedia.org/wiki/Sam_Darnold ; JD5 https://www.commanders.com/video/1-on-1-with-jayden-daniels-biggest-offseason-moves-jd5-s-top-5 ; Dak https://www.dallascowboys.com/news/cowbuzz-prescott-family-welcomes-second-daughter ; C.J. https://www.houstontexans.com/team/players-roster/c-j-stroud/ ; Tua name and Falcons status https://en.wikipedia.org/wiki/Tua_Tagovailoa . User explicitly requested slander nicknames: documented mocking, satirical and explicit names are accepted, with neutral identifying blurbs. Fan discussions are primary evidence of fan usage, not evidence that an insult or allegation is true. No invented nickname-generator entries were used. Each distinct nickname is one catch even if shared by several eligible players; spelling and abbreviation variants share their catch. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.sportingnews.com/us/nfl/news/josh-allen-nicknames-tony-romo-alien-mr-january/ljg9ta6kfjjdczqwh9jqcowa ; https://www.pro-football-reference.com/players/M/MahoPa00.htm ; https://en.wikipedia.org/wiki/List_of_NFL_nicknames ; https://www.pro-football-reference.com/players/J/JackLa00.htm ; https://www.chargers.com/news/justin-herbert-minicamp-tarheeb-still ; https://www.si.com/nfl/drake-maye-nickname-drake-maye-origin ; https://sports.yahoo.com/articles/bears-qb-caleb-williams-reveals-151506485.html ; https://www.sportingnews.com/ca/nfl/san-francisco-49ers/news/michael-mccorkle-mac-jones-49ers-hope-repeat-2024-injury-nightmare-season/9a784442348765058af64c6c ; https://en.wikipedia.org/wiki/Geno_Smith ; https://static.www.nfl.com/image/upload/v1596738869/league/daclxqn5ydywqqyy1suk.pdf ; https://www.buccaneers.com/news/baker-mayfield-bucs-offense-close-mistakes-frustrating ; https://media.eagles.1rmg.com/wp-content/uploads/2021/08/14150101/Minshew-Gardner-2022-29.pdf ; https://en.wikipedia.org/wiki/Gardner_Minshew ; https://media.49ers.1rmg.com/wp-content/uploads/2021/05/28131310/texans_jan_2_2022_at_san-francisco-49ers_weekly_release.pdf ; https://www.sportingnews.com/us/ncaa-football/news/stetson-bennett-mailman-nickname-georgia/1jorg1vif1mhg1bcubbmbjwsph ; https://www.nfl.com/videos/mike-rob-reveals-his-nickname-for-bo-nix-athletic-drew-brees-nfl-gameday-kickoff ; https://www.pro-football-reference.com/players/P/PresDa01.htm ; https://www.mediaite.com/media/sports/nfl-fans-mock-aaron-rodgers-as-throw-rogan-after-49ers-cancel-him-from-the-playoffs/ ; https://en.wikipedia.org/wiki/Arod ; https://www.si.com/nfl/lions/onsi/news/rob-parker-rips-matthew-stafford ; https://www.sportingnews.com/ca/nfl/news/49ers-brock-purdy-nickname/x7fsvg2qddqwhjohmt3ja5eo ; https://www.reddit.com/r/49ers/comments/1698o9y/ ; https://www.reddit.com/r/NFLv2/comments/1cepnae/ ; https://www.reddit.com/r/Patriots/comments/1p1rwwf/this_is_damn_sweet/ ; https://www.reddit.com/r/nfl/comments/1okjqyb/highlight_tua_turns_the_ball_over/ ; https://www.reddit.com/r/nfl/comments/kgzb46/ ; https://www.reddit.com/r/detroitlions/comments/utl0py/what_is_jarred_goffs_nickname/ ; https://www.reddit.com/r/NFCNorthMemeWar/comments/1sruskj/very_original_nicknames_for_nfc_north_qbs/ ; https://www.reddit.com/r/steelers/comments/y1dsg5/ ; https://www.reddit.com/r/steelers/comments/y298ny/ ; https://www.reddit.com/r/NFLv2/comments/1nmljmw/ ; https://cowboyszone.com/threads/dallas-cowboys-at-san-francisco-49ers-postgame-thread.528905/ ; https://www.nfl.com/videos/the-insiders-august-5-2025 ; https://www.reddit.com/r/Seahawks/comments/whzjpe/ ; https://www.reddit.com/r/Seahawks/comments/taqo9a/ ; https://www.reddit.com/r/Texans/comments/1pipgom/noo_not_jacoby_brissett/ ; https://www.reddit.com/r/Colts/comments/cwdj6n/ ; https://en.wikipedia.org/wiki/DJ_Uiagalelei ; https://en.wikipedia.org/wiki/J._J._McCarthy ; https://secure.ourlads.com/nfldepthcharts/depthchartpos/QB ; https://en.wikipedia.org/wiki/Mitchell_Trubisky ; https://www.baltimoreravens.com/news/eisenberg-joe-flacco-should-have-departed-to-trumpets-blaring ; https://www.jaguars.com/news/o-zone-past-his-prime ; https://www.espn.com/college-football/story/_/id/39063911/lsu-jayden-daniels-named-ap-college-football-player-year ; https://www.foxnews.com/sports/floridas-anthony-richardson-explains-dropping-ar-15-nickname-pretty-much-business-decision ; https://www.colts.com/news/anthony-richardson-sr-named-colts-backup-quarterback ; https://www.pro-football-reference.com/players/A/AlleJo02.htm ; https://www.pro-football-reference.com/players/B/BurrJo01.htm ; https://en.wikipedia.org/wiki/Joe_Flacco ; https://en.wikipedia.org/wiki/Tommy_DeVito_(American_football) ; https://www.pro-football-reference.com/players/W/WardCa00.htm ; https://en.wikipedia.org/wiki/Matthew_Stafford ; https://en.wikipedia.org/wiki/Drew_Lock ; https://static.clubs.nfl.com/image/upload/steelers/lv68dpnh9o7zqanmzf9a.pdf ; https://www.cougar-archive.com/player.php?id=ZACWILSON18 ; https://www.thefantasyfootballers.com/articles/fantasy-football-2018-footie-awards-nominees/ ; https://atozsports.com/nashville/volunteers/former-tennessee-vols-qb-joe-milton-football-patriots-nfl/ ; https://www.dallascowboys.com/news/joe-milton-remains-confident-still-feels-he-s-the-best-quarterback ; https://www.reddit.com/r/NFCEastMemeWar/comments/18jbvgk/ ; https://www.reddit.com/r/cowboys/comments/18h7kr2/ ; https://podscripts.co/podcasts/the-fumblerooski-podcast/lead-a-horse-to-water-ep-470-the-fumblerooski-podcast ; https://www.nfl.com/videos/bo-pix-jarrian-jones-snags-a-big-int-off-of-nix ; https://www.theguardian.com/sport/2022/nov/07/aaron-rodgers-green-bay-packers-detroit-lions-interceptions-nfl-football ; https://www.si.com/nfl/2024/01/10/aaron-rodgers-pat-mcafee-show-ripped-for-cancel-comments ; https://cyclonefanatic.com/forum/threads/anonymous-donors-establish-jamie-ellen-pollard-endowed-director-of-athletics.297457/page-2 ; https://secure.ourlads.com/nfldepthcharts/depthchartpos/QB . Runtime matching check: All exact aliases passed the actual runtime normalizer. Joe now resolves to its own shortened-name catch; Captain still softly suggests Captain Kirk and requires confirmation. Final edge scan: retained one catch per nickname, including documented short names. Added Vanilla Vick (Daniel Jones), Tyrod Taylor\u2019s T-Mobile/T-2/Hot Rod, J-Love, Baby Yoda and Andy. Dimes is a shortened form of Danny Dimes. Sources: https://www.giants.com/news/wink-martindale-mike-kafka-thomas-mcgaughey-barkley-thibodeaux-lawrence-love ; https://www.buffalobills.com/news/top-5-from-facebook-live-with-qb-tyrod-taylor-18903901 ; https://www.packers.com/news/inbox-we-will-soon-all-find-out-together ; https://arizonasports.com/nfl/arizona-cardinals/kyler-murray-channels-baby-yoda-in-his-td-celebration-for-cardinals-vs-vikings-star-wars ; https://www.pro-football-reference.com/players/D/DaltAn00.htm . Current eligibility cross-check https://www.profootballnetwork.com/nfl-hq/depth-charts .",
+        "sourceNote": "Research snapshot: 13 October 2026. Roster eligibility checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: regular NFL fans. User requested one catch per distinct nickname, including documented initials, shortened names and childhood names; different nicknames for one player score independently. Orthographic variants share a catch. Players must be rostered, including backups and reserve/injured players; unsigned free agents and retired players are excluded. Expanded documented nickname bank covering starters, backups and reserve/practice-squad players. There is no authoritative finite registry of every nickname; local and newly coined names remain a coverage limit. Shortened professional first names and documented initials qualify under the user instruction. Full real names alone generally do not qualify, except the documented Drake \u201cDrake Maye\u201d Maye meme in Q1. Joe Cool is one nickname catch, documented here for Burrow; it is not an additional catch for every player who has used it. Joe Brr/Brrr/Brrrr are variants. Joe is now its own documented shortened-name catch. Bare Captain and ordinary player surnames are not intentional aliases. Russell Wilson excluded after moving into broadcasting; https://amp.nfl.com/news/russell-wilson-cbs-sports-putting-pause-on-playing-career . Sources: Burrow variants and origins in the principal source; current Burrow status https://www.bengals.com/team/players-roster/joe-burrow/ ; Captain Kirk and Kirko Chainz https://www.raiders.com/news/free-agent-facts-get-to-know-kirk-cousins-quarterback-nfl-free-agency-2026-transactions ; Showtime https://www.kansascity.com/sports/nfl/kansas-city-chiefs/article219942045.html ; Grim Reaper https://www.nfl.com/news/chiefs-andy-reid-to-patrick-mahomes-before-game-tying-drive-when-it-s-grim-go-be ; Danny Dimes https://www.nfl.com/news/jones-on-danny-dimes-could-be-worse-nicknames-0ap3000001059167 ; Red Rifle https://www.panthers.com/news/five-things-to-know-about-andy-dalton and current status https://www.philadelphiaeagles.com/news/andy-dalton-you-ve-got-to-be-ready-for-all-of-it ; Passtronaut https://www.sportingnews.com/us/nfl/news/joshua-dobbs-nickname-vikings-passtronaut-nasa/95a9caa38655cf3e9485619c and current Lions status https://www.detroitlions.com/team/players-roster/joshua-dobbs/logs/ ; Purdy https://www.rte.ie/sport/us-sport/2026/1009/1594683-nfl-preview-purdy-rises-from-mr-irrelevant-to-mvp-class/ ; Tommy Cutlets and Two Chains https://amp.nfl.com/news/2026-nfl-preseason-week-3-what-we-learned-from-thursday-s-games ; Action Jackson https://www.nfl.com/videos/can-t-miss-play-action-jackson-lamar-s-filthy-open-field-moves-end-in-td/ ; GEQBUS https://en.wikipedia.org/wiki/Sam_Darnold ; JD5 https://www.commanders.com/video/1-on-1-with-jayden-daniels-biggest-offseason-moves-jd5-s-top-5 ; Dak https://www.dallascowboys.com/news/cowbuzz-prescott-family-welcomes-second-daughter ; C.J. https://www.houstontexans.com/team/players-roster/c-j-stroud/ ; Tua name and Falcons status https://en.wikipedia.org/wiki/Tua_Tagovailoa . User explicitly requested slander nicknames: documented mocking, satirical and explicit names are accepted, with neutral identifying blurbs. Fan discussions are primary evidence of fan usage, not evidence that an insult or allegation is true. No invented nickname-generator entries were used. Each distinct nickname is one catch even if shared by several eligible players; spelling and abbreviation variants share their catch. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.sportingnews.com/us/nfl/news/josh-allen-nicknames-tony-romo-alien-mr-january/ljg9ta6kfjjdczqwh9jqcowa ; https://www.pro-football-reference.com/players/M/MahoPa00.htm ; https://en.wikipedia.org/wiki/List_of_NFL_nicknames ; https://www.pro-football-reference.com/players/J/JackLa00.htm ; https://www.chargers.com/news/justin-herbert-minicamp-tarheeb-still ; https://www.si.com/nfl/drake-maye-nickname-drake-maye-origin ; https://sports.yahoo.com/articles/bears-qb-caleb-williams-reveals-151506485.html ; https://www.sportingnews.com/ca/nfl/san-francisco-49ers/news/michael-mccorkle-mac-jones-49ers-hope-repeat-2024-injury-nightmare-season/9a784442348765058af64c6c ; https://en.wikipedia.org/wiki/Geno_Smith ; https://static.www.nfl.com/image/upload/v1596738869/league/daclxqn5ydywqqyy1suk.pdf ; https://www.buccaneers.com/news/baker-mayfield-bucs-offense-close-mistakes-frustrating ; https://media.eagles.1rmg.com/wp-content/uploads/2021/08/14150101/Minshew-Gardner-2022-29.pdf ; https://en.wikipedia.org/wiki/Gardner_Minshew ; https://media.49ers.1rmg.com/wp-content/uploads/2021/05/28131310/texans_jan_2_2022_at_san-francisco-49ers_weekly_release.pdf ; https://www.sportingnews.com/us/ncaa-football/news/stetson-bennett-mailman-nickname-georgia/1jorg1vif1mhg1bcubbmbjwsph ; https://www.nfl.com/videos/mike-rob-reveals-his-nickname-for-bo-nix-athletic-drew-brees-nfl-gameday-kickoff ; https://www.pro-football-reference.com/players/P/PresDa01.htm ; https://www.mediaite.com/media/sports/nfl-fans-mock-aaron-rodgers-as-throw-rogan-after-49ers-cancel-him-from-the-playoffs/ ; https://en.wikipedia.org/wiki/Arod ; https://www.si.com/nfl/lions/onsi/news/rob-parker-rips-matthew-stafford ; https://www.sportingnews.com/ca/nfl/news/49ers-brock-purdy-nickname/x7fsvg2qddqwhjohmt3ja5eo ; https://www.reddit.com/r/49ers/comments/1698o9y/ ; https://www.reddit.com/r/NFLv2/comments/1cepnae/ ; https://www.reddit.com/r/Patriots/comments/1p1rwwf/this_is_damn_sweet/ ; https://www.reddit.com/r/nfl/comments/1okjqyb/highlight_tua_turns_the_ball_over/ ; https://www.reddit.com/r/nfl/comments/kgzb46/ ; https://www.reddit.com/r/detroitlions/comments/utl0py/what_is_jarred_goffs_nickname/ ; https://www.reddit.com/r/NFCNorthMemeWar/comments/1sruskj/very_original_nicknames_for_nfc_north_qbs/ ; https://www.reddit.com/r/steelers/comments/y1dsg5/ ; https://www.reddit.com/r/steelers/comments/y298ny/ ; https://www.reddit.com/r/NFLv2/comments/1nmljmw/ ; https://cowboyszone.com/threads/dallas-cowboys-at-san-francisco-49ers-postgame-thread.528905/ ; https://www.nfl.com/videos/the-insiders-august-5-2025 ; https://www.reddit.com/r/Seahawks/comments/whzjpe/ ; https://www.reddit.com/r/Seahawks/comments/taqo9a/ ; https://www.reddit.com/r/Texans/comments/1pipgom/noo_not_jacoby_brissett/ ; https://www.reddit.com/r/Colts/comments/cwdj6n/ ; https://en.wikipedia.org/wiki/DJ_Uiagalelei ; https://en.wikipedia.org/wiki/J._J._McCarthy ; https://secure.ourlads.com/nfldepthcharts/depthchartpos/QB ; https://en.wikipedia.org/wiki/Mitchell_Trubisky ; https://www.baltimoreravens.com/news/eisenberg-joe-flacco-should-have-departed-to-trumpets-blaring ; https://www.jaguars.com/news/o-zone-past-his-prime ; https://www.espn.com/college-football/story/_/id/39063911/lsu-jayden-daniels-named-ap-college-football-player-year ; https://www.foxnews.com/sports/floridas-anthony-richardson-explains-dropping-ar-15-nickname-pretty-much-business-decision ; https://www.colts.com/news/anthony-richardson-sr-named-colts-backup-quarterback ; https://www.pro-football-reference.com/players/A/AlleJo02.htm ; https://www.pro-football-reference.com/players/B/BurrJo01.htm ; https://en.wikipedia.org/wiki/Joe_Flacco ; https://en.wikipedia.org/wiki/Tommy_DeVito_(American_football) ; https://www.pro-football-reference.com/players/W/WardCa00.htm ; https://en.wikipedia.org/wiki/Matthew_Stafford ; https://en.wikipedia.org/wiki/Drew_Lock ; https://static.clubs.nfl.com/image/upload/steelers/lv68dpnh9o7zqanmzf9a.pdf ; https://www.cougar-archive.com/player.php?id=ZACWILSON18 ; https://www.thefantasyfootballers.com/articles/fantasy-football-2018-footie-awards-nominees/ ; https://atozsports.com/nashville/volunteers/former-tennessee-vols-qb-joe-milton-football-patriots-nfl/ ; https://www.dallascowboys.com/news/joe-milton-remains-confident-still-feels-he-s-the-best-quarterback ; https://www.reddit.com/r/NFCEastMemeWar/comments/18jbvgk/ ; https://www.reddit.com/r/cowboys/comments/18h7kr2/ ; https://podscripts.co/podcasts/the-fumblerooski-podcast/lead-a-horse-to-water-ep-470-the-fumblerooski-podcast ; https://www.nfl.com/videos/bo-pix-jarrian-jones-snags-a-big-int-off-of-nix ; https://www.theguardian.com/sport/2022/nov/07/aaron-rodgers-green-bay-packers-detroit-lions-interceptions-nfl-football ; https://www.si.com/nfl/2024/01/10/aaron-rodgers-pat-mcafee-show-ripped-for-cancel-comments ; https://cyclonefanatic.com/forum/threads/anonymous-donors-establish-jamie-ellen-pollard-endowed-director-of-athletics.297457/page-2 ; https://secure.ourlads.com/nfldepthcharts/depthchartpos/QB . Runtime matching check: All exact aliases passed the actual runtime normalizer. Joe now resolves to its own shortened-name catch; Captain still softly suggests Captain Kirk and requires confirmation. Final edge scan: retained one catch per nickname, including documented short names. Added Vanilla Vick (Daniel Jones), Tyrod Taylor\u2019s T-Mobile/T-2/Hot Rod, J-Love, Baby Yoda and Andy. Dimes is a shortened form of Danny Dimes. Sources: https://www.giants.com/news/wink-martindale-mike-kafka-thomas-mcgaughey-barkley-thibodeaux-lawrence-love ; https://www.buffalobills.com/news/top-5-from-facebook-live-with-qb-tyrod-taylor-18903901 ; https://www.packers.com/news/inbox-we-will-soon-all-find-out-together ; https://arizonasports.com/nfl/arizona-cardinals/kyler-murray-channels-baby-yoda-in-his-td-celebration-for-cardinals-vs-vikings-star-wars ; https://www.pro-football-reference.com/players/D/DaltAn00.htm . Current eligibility cross-check https://www.profootballnetwork.com/nfl-hq/depth-charts . Comprehensive-source and creative coverage audit (13 October 2026): see coverage-audit.json for new answer evidence, source reconciliation and exclusions. Existing Worth values preserved; user approved generous new rarity scores and familiar unexpected water answers at QUIRKY 15. Central discovery lists: https://en.wikipedia.org/wiki/List_of_NFL_nicknames and https://en.wikipedia.org/wiki/List_of_North_American_football_nicknames, supplemented by official team reporting, player interviews and documented fan usage. These lists are historical and incomplete: current eligibility and position were checked independently; no global exhaustive nickname registry exists.",
         "answers": [
           {
             "points": 10,
@@ -36309,13 +36309,80 @@ window.DIVE_DAYS = [
               "Andy"
             ],
             "note": "Andrew Gregory Dalton plays professionally under the shortened first name Andy."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mr. Relevant",
+              "Mister Relevant"
+            ],
+            "note": "The 49ers have used this nickname for Brock Purdy after his rise from the final draft pick."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Carolina Reaper",
+              "The Carolina Reaper"
+            ],
+            "note": "Bryce Young's social-media nickname was acknowledged in official Panthers coverage in December 2024."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Joker",
+              "The Joker"
+            ],
+            "note": "Mac Jones received this nickname from Alabama teammate Richie Petitbon for his cheerful, animated personality."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Superman"
+            ],
+            "note": "Caleb Williams carried this superhero nickname during his college career, before joining the Chicago Bears."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mighty Mouse"
+            ],
+            "note": "NFL coverage has used this cartoon-inspired nickname for quarterback Kyler Murray."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The Eraser",
+              "Eraser"
+            ],
+            "note": "Tom Brady gave Lamar Jackson this nickname for his ability to overcome an offense's mistakes."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "If-Man"
+            ],
+            "note": "A mocking Justin Herbert nickname used in fan discussions about hypothetical explanations for his results."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dart Vader"
+            ],
+            "note": "Giants fans use this Star Wars-inspired nickname for quarterback Jaxson Dart."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Big Penix Energy"
+            ],
+            "note": "Falcons fans have used this punning nickname for quarterback Michael Penix Jr."
           }
         ]
       },
       {
         "prompt": "Current NFL WR Nicknames",
         "source": "https://www.philadelphiaeagles.com/team/players-roster/deVonta-smith/",
-        "sourceNote": "Research snapshot: 13 October 2026. Roster eligibility checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: regular NFL fans. User requested one catch per distinct nickname, including documented initials, shortened names and childhood names; different nicknames for one player score independently. Orthographic variants share a catch. Players must be rostered, including backups and reserve/injured players; unsigned free agents and retired players are excluded. Expanded documented nickname bank covering starters, backups and reserve/practice-squad players. There is no authoritative finite registry of every nickname; local and newly coined names remain a coverage limit. Shortened professional first names and documented initials qualify under the user instruction. Full real names alone generally do not qualify, except the documented Drake \u201cDrake Maye\u201d Maye meme in Q1. Jet belongs to Marquise Brown; Jets/JJets belong to Justin Jefferson. These distinct documented forms must not be merged. Tank refers to Dell in this WR question, not RB Bigsby. Pop refers to Douglas here, not RB Pacheco. Bare Batman now belongs to the documented Rashod Bateman nickname; Skinny Batman, Swole Batman and Fast Batman are distinct full nicknames with separate catches. Tyreek Hill/Cheetah omitted because no current signing was verified: https://www.profootballnetwork.com/why-hasnt-tyreek-hill-signed-with-an-nfl-team-yet-latest-free-agency-rumors-for-the-8-time-pro-bowler/ . Supporting sources: Jefferson https://www.vikings.com/news/longform/justin-jefferson-minnesota-ice and https://www.vikings.com/justin-jefferson ; Hollywood/Jet https://www.nfl.com/videos/baltimore-ravens-rookie-wide-receiver-marquise-brown-explains-distinction-431933 and Eagles signing https://www.nfl.com/_amp/marquise-brown-eagles-sign-wr-one-year-deal ; Uno https://www.bengals.com/team/players-roster/ja-marr-chase/ ; Scary Terry https://www.commanders.com/news/scary-terry-mclaurin-is-haunting-defenses-with-his-masterful-route-running ; Joystick https://www.baltimoreravens.com/news/lamar-jackson-new-offense-exciting-todd-monken-odell-beckham-jr ; Speedy https://www.raiders.com/news/free-agent-facts-get-to-know-jalen-nailor-wide-receiver-raiders-2026-free-agency ; JSN and his two newer names https://www.seahawks.com/news/seahawks-receiver-jaxon-smith-njigba-is-a-natural-true-ball-player ; Waffle House https://www.baltimoreravens.com/news/elijah-sarratt-ravens-draft-wide-receiver-indiana-five-things-to-know-nfl-2026 ; Puka https://www.therams.com/news/rams-rookie-puka-nacua-record-setting-rookie-campaign-cooper-kupp and https://www.therams.com/video/puka-nacua-real-name-makea-nacua-puka-doncic-nickname-given-by-lebron-james ; Sun God https://www.redbull.com/int-en/amon-ra-st-brown-profile ; Pop https://www.sportingnews.com/ca/nfl/news/pop-douglas-real-name-wr-nickname/919f3234118970e1c0dd41a8 ; Tank https://www.houstontexans.com/team/players-roster/tank-dell/logs/2026/reg/ ; Deebo nickname https://en.wikipedia.org/wiki/Deebo_Samuel and current status https://apnews.com/article/54f98c5cebf374b5782b48a27a3aa9c8 ; Tee https://www.bengals.com/news/what-tee-higgins-and-zac-taylor-said-after-round-two ; CeeDee https://www.dallascowboys.com/news/wr-position-breakdown-2020 ; DK https://www.sportingnews.com/ca/nfl/news/what-dk-metcalf-full-name-meaning-shortened-government-name/6a994932d05595f3f81e7742 ; AJ https://www.patriots.com/team/players-roster/a-j-brown/logs/2025/reg/ . User explicitly requested slander nicknames: documented mocking, satirical and explicit names are accepted, with neutral identifying blurbs. Fan discussions are primary evidence of fan usage, not evidence that an insult or allegation is true. No invented nickname-generator entries were used. Each distinct nickname is one catch even if shared by several eligible players; spelling and abbreviation variants share their catch. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.sportingnews.com/au/nfl/news/eagles-batman-cape-philadelphia-nicknames-td-celebration/yt9rvwutteles7ulbwnuwsgx ; https://www.baltimoreravens.com/news/cover-story-no-1-rashod-bateman-is-ready-to-be-him ; https://www.detroitlions.com/news/get-to-know-detroit-lions-wide-receiver-jameson-williams ; https://www.pro-football-reference.com/players/W/WaddJa00.htm ; https://www.pro-football-reference.com/players/C/CookBr00.htm ; https://www.sportingnews.com/us/nfl/los-angeles-rams/news/tutu-atwell-real-name-explaining-rams-wr-fun-nickname/5ce1001422ea6766574ed217 ; https://static.clubs.nfl.com/image/upload/saints/gpvtnmeyz7dzyueist9i.pdf ; https://static.clubs.nfl.com/image/upload/jaguars/yklv3f87z20r4ljvuxtg ; https://en.wikipedia.org/wiki/Marvin_Harrison_Jr. ; https://www.gq.com/story/marvin-harrison-jr-osu-interview ; https://www.reddit.com/r/nfl/comments/kokl8d/ ; https://www.reddit.com/r/nfl/comments/1uyjcs4/highlight_davante_adams_release_at_the_line_of/ ; https://www.espn.com/nfl/story/_/id/42725811/jerry-jeudy-cleveland-browns-returns-denver ; https://www.reddit.com/r/GreenBayPackers/comments/186s1zq/ ; https://www.reddit.com/r/nfl/comments/1e9ja6n/ ; https://www.washingtonpost.com/sports/nfl/2026/08/26/denver-broncos-pat-bryant/c6727098-a183-11f1-8606-1d40ad00172e_story.html ; https://www.chicagobears.com/news/fast-facts-dj-moore ; https://www.49ers.com/team/players-roster/marquez-valdes-scantling/logs/2026/reg/ ; https://www.chargers.com/news/quentin-johnston-fantasy-monday-night-football ; https://mutigers.com/news/2025/04/25/burden-iii-chosen-by-chicago-bears-in-second-round ; https://www.southlakestyle.com/community/people/lil-big-man-campus/ ; https://www.nfl.com/transactions/league/signings/2026/10 ; https://www.ourlads.com/nfldepthcharts/player/40417/ ; https://www.pro-football-reference.com/players/M/McMiTe00.htm ; https://www.49ers.com/news/5-things-to-know-wide-receiver-ricky-pearsall-2024-nfl-draft-slick-arizona-florida-combine-dance ; https://www.sportingnews.com/us/nfl/los-angeles-chargers/news/ladd-mcconkey-mr-consistency-start-rookie-season-chargers/f9254266f568e95ac8c1dd5f ; https://magazines.inmaricopa.com/view/549690302/1/ ; https://steelersdepot.com/2022/12/im-gp-george-pickens-calls-nfl-youngboy-nickname-corny/ ; https://www.reddit.com/r/detroitlions/comments/180ij8e/ ; https://www.azcardinals.com/news/top-questions-heading-into-2026-training-camp-part-two ; https://www.seahawks.com/news/first-home-game-as-a-seahawk-a-really-cool-thing-for-washington-native-cooper-kupp ; https://sports.yahoo.com/articles/presence-perspective-malik-nabers-rousing-143824831.html ; https://en.wikipedia.org/wiki/Chris_Godwin ; https://en.wikipedia.org/wiki/Chris_Olave ; https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver) . Runtime matching check: All exact aliases passed. Batman, Skinny Batman, Swole Batman and Fast Batman remain distinct; Jet and Jets retain different owners. Further documented current-player coverage: Jayden Reed\u2019s childhood nickname Bird is recorded by the Packers (https://www.packers.com/news/packers-give-jayden-reed-the-perfect-birthday-present-2023-nfl-draft). Brandon Aiyuk was excluded because he is not on an NFL roster as of this snapshot. Final edge scan: Nico, Zay, Tez, KC and JJ are independently scoring nickname/initial catches under the existing convention. JJettas/Jettas are variants of the existing Jets catch; bare JJ has its own initials catch. Sources: https://www.houstontexans.com/news/what-celebrity-does-nico-collins-look-like-drew-s-dozen ; https://www.baltimoreravens.com/draft/draft-tracker/2023/ ; https://www.pro-football-reference.com/players/J/JohnTe03.htm ; https://www.clevelandbrowns.com/team/players-roster/kc-concepcion/logs/ ; https://www.vikings.com/news/justin-jefferson-netflix-receiver-nfl-films-producer . Jayden Reed remains eligible on injured reserve: https://www.packers.com/news/packers-ready-to-pull-together-to-fill-jayden-reed-s-void-oct-2-2026 .",
+        "sourceNote": "Research snapshot: 13 October 2026. Roster eligibility checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: regular NFL fans. User requested one catch per distinct nickname, including documented initials, shortened names and childhood names; different nicknames for one player score independently. Orthographic variants share a catch. Players must be rostered, including backups and reserve/injured players; unsigned free agents and retired players are excluded. Expanded documented nickname bank covering starters, backups and reserve/practice-squad players. There is no authoritative finite registry of every nickname; local and newly coined names remain a coverage limit. Shortened professional first names and documented initials qualify under the user instruction. Full real names alone generally do not qualify, except the documented Drake \u201cDrake Maye\u201d Maye meme in Q1. Jet belongs to Marquise Brown; Jets/JJets belong to Justin Jefferson. These distinct documented forms must not be merged. Tank refers to Dell in this WR question, not RB Bigsby. Pop refers to Douglas here, not RB Pacheco. Bare Batman now belongs to the documented Rashod Bateman nickname; Skinny Batman, Swole Batman and Fast Batman are distinct full nicknames with separate catches. Tyreek Hill/Cheetah omitted because no current signing was verified: https://www.profootballnetwork.com/why-hasnt-tyreek-hill-signed-with-an-nfl-team-yet-latest-free-agency-rumors-for-the-8-time-pro-bowler/ . Supporting sources: Jefferson https://www.vikings.com/news/longform/justin-jefferson-minnesota-ice and https://www.vikings.com/justin-jefferson ; Hollywood/Jet https://www.nfl.com/videos/baltimore-ravens-rookie-wide-receiver-marquise-brown-explains-distinction-431933 and Eagles signing https://www.nfl.com/_amp/marquise-brown-eagles-sign-wr-one-year-deal ; Uno https://www.bengals.com/team/players-roster/ja-marr-chase/ ; Scary Terry https://www.commanders.com/news/scary-terry-mclaurin-is-haunting-defenses-with-his-masterful-route-running ; Joystick https://www.baltimoreravens.com/news/lamar-jackson-new-offense-exciting-todd-monken-odell-beckham-jr ; Speedy https://www.raiders.com/news/free-agent-facts-get-to-know-jalen-nailor-wide-receiver-raiders-2026-free-agency ; JSN and his two newer names https://www.seahawks.com/news/seahawks-receiver-jaxon-smith-njigba-is-a-natural-true-ball-player ; Waffle House https://www.baltimoreravens.com/news/elijah-sarratt-ravens-draft-wide-receiver-indiana-five-things-to-know-nfl-2026 ; Puka https://www.therams.com/news/rams-rookie-puka-nacua-record-setting-rookie-campaign-cooper-kupp and https://www.therams.com/video/puka-nacua-real-name-makea-nacua-puka-doncic-nickname-given-by-lebron-james ; Sun God https://www.redbull.com/int-en/amon-ra-st-brown-profile ; Pop https://www.sportingnews.com/ca/nfl/news/pop-douglas-real-name-wr-nickname/919f3234118970e1c0dd41a8 ; Tank https://www.houstontexans.com/team/players-roster/tank-dell/logs/2026/reg/ ; Deebo nickname https://en.wikipedia.org/wiki/Deebo_Samuel and current status https://apnews.com/article/54f98c5cebf374b5782b48a27a3aa9c8 ; Tee https://www.bengals.com/news/what-tee-higgins-and-zac-taylor-said-after-round-two ; CeeDee https://www.dallascowboys.com/news/wr-position-breakdown-2020 ; DK https://www.sportingnews.com/ca/nfl/news/what-dk-metcalf-full-name-meaning-shortened-government-name/6a994932d05595f3f81e7742 ; AJ https://www.patriots.com/team/players-roster/a-j-brown/logs/2025/reg/ . User explicitly requested slander nicknames: documented mocking, satirical and explicit names are accepted, with neutral identifying blurbs. Fan discussions are primary evidence of fan usage, not evidence that an insult or allegation is true. No invented nickname-generator entries were used. Each distinct nickname is one catch even if shared by several eligible players; spelling and abbreviation variants share their catch. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.sportingnews.com/au/nfl/news/eagles-batman-cape-philadelphia-nicknames-td-celebration/yt9rvwutteles7ulbwnuwsgx ; https://www.baltimoreravens.com/news/cover-story-no-1-rashod-bateman-is-ready-to-be-him ; https://www.detroitlions.com/news/get-to-know-detroit-lions-wide-receiver-jameson-williams ; https://www.pro-football-reference.com/players/W/WaddJa00.htm ; https://www.pro-football-reference.com/players/C/CookBr00.htm ; https://www.sportingnews.com/us/nfl/los-angeles-rams/news/tutu-atwell-real-name-explaining-rams-wr-fun-nickname/5ce1001422ea6766574ed217 ; https://static.clubs.nfl.com/image/upload/saints/gpvtnmeyz7dzyueist9i.pdf ; https://static.clubs.nfl.com/image/upload/jaguars/yklv3f87z20r4ljvuxtg ; https://en.wikipedia.org/wiki/Marvin_Harrison_Jr. ; https://www.gq.com/story/marvin-harrison-jr-osu-interview ; https://www.reddit.com/r/nfl/comments/kokl8d/ ; https://www.reddit.com/r/nfl/comments/1uyjcs4/highlight_davante_adams_release_at_the_line_of/ ; https://www.espn.com/nfl/story/_/id/42725811/jerry-jeudy-cleveland-browns-returns-denver ; https://www.reddit.com/r/GreenBayPackers/comments/186s1zq/ ; https://www.reddit.com/r/nfl/comments/1e9ja6n/ ; https://www.washingtonpost.com/sports/nfl/2026/08/26/denver-broncos-pat-bryant/c6727098-a183-11f1-8606-1d40ad00172e_story.html ; https://www.chicagobears.com/news/fast-facts-dj-moore ; https://www.49ers.com/team/players-roster/marquez-valdes-scantling/logs/2026/reg/ ; https://www.chargers.com/news/quentin-johnston-fantasy-monday-night-football ; https://mutigers.com/news/2025/04/25/burden-iii-chosen-by-chicago-bears-in-second-round ; https://www.southlakestyle.com/community/people/lil-big-man-campus/ ; https://www.nfl.com/transactions/league/signings/2026/10 ; https://www.ourlads.com/nfldepthcharts/player/40417/ ; https://www.pro-football-reference.com/players/M/McMiTe00.htm ; https://www.49ers.com/news/5-things-to-know-wide-receiver-ricky-pearsall-2024-nfl-draft-slick-arizona-florida-combine-dance ; https://www.sportingnews.com/us/nfl/los-angeles-chargers/news/ladd-mcconkey-mr-consistency-start-rookie-season-chargers/f9254266f568e95ac8c1dd5f ; https://magazines.inmaricopa.com/view/549690302/1/ ; https://steelersdepot.com/2022/12/im-gp-george-pickens-calls-nfl-youngboy-nickname-corny/ ; https://www.reddit.com/r/detroitlions/comments/180ij8e/ ; https://www.azcardinals.com/news/top-questions-heading-into-2026-training-camp-part-two ; https://www.seahawks.com/news/first-home-game-as-a-seahawk-a-really-cool-thing-for-washington-native-cooper-kupp ; https://sports.yahoo.com/articles/presence-perspective-malik-nabers-rousing-143824831.html ; https://en.wikipedia.org/wiki/Chris_Godwin ; https://en.wikipedia.org/wiki/Chris_Olave ; https://en.wikipedia.org/wiki/Mike_Evans_(wide_receiver) . Runtime matching check: All exact aliases passed. Batman, Skinny Batman, Swole Batman and Fast Batman remain distinct; Jet and Jets retain different owners. Further documented current-player coverage: Jayden Reed\u2019s childhood nickname Bird is recorded by the Packers (https://www.packers.com/news/packers-give-jayden-reed-the-perfect-birthday-present-2023-nfl-draft). Brandon Aiyuk was excluded because he is not on an NFL roster as of this snapshot. Final edge scan: Nico, Zay, Tez, KC and JJ are independently scoring nickname/initial catches under the existing convention. JJettas/Jettas are variants of the existing Jets catch; bare JJ has its own initials catch. Sources: https://www.houstontexans.com/news/what-celebrity-does-nico-collins-look-like-drew-s-dozen ; https://www.baltimoreravens.com/draft/draft-tracker/2023/ ; https://www.pro-football-reference.com/players/J/JohnTe03.htm ; https://www.clevelandbrowns.com/team/players-roster/kc-concepcion/logs/ ; https://www.vikings.com/news/justin-jefferson-netflix-receiver-nfl-films-producer . Jayden Reed remains eligible on injured reserve: https://www.packers.com/news/packers-ready-to-pull-together-to-fill-jayden-reed-s-void-oct-2-2026 . Comprehensive-source and creative coverage audit (13 October 2026): see coverage-audit.json for new answer evidence, source reconciliation and exclusions. Existing Worth values preserved; user approved generous new rarity scores and familiar unexpected water answers at QUIRKY 15. Central discovery lists: https://en.wikipedia.org/wiki/List_of_NFL_nicknames and https://en.wikipedia.org/wiki/List_of_North_American_football_nicknames, supplemented by official team reporting, player interviews and documented fan usage. These lists are historical and incomplete: current eligibility and position were checked independently; no global exhaustive nickname registry exists. Added Slayer is eligible through Keenan Allen's current Colts roster record https://www.colts.com/team/players-roster/keenan-allen/situational/2026/post/ ; Diggsy is eligible through Stefon Diggs' current Commanders roster https://www.commanders.com/team/players-roster/stefon-diggs/logs/ and signing https://www.commanders.com/news/commanders-sign-wr-stefon-diggs .",
         "answers": [
           {
             "points": 10,
@@ -36804,13 +36871,63 @@ window.DIVE_DAYS = [
               "J J"
             ],
             "note": "The Vikings and NFL Films have also referred to Justin Jefferson by his initials J.J."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Slayer",
+              "The Slayer"
+            ],
+            "note": "Keenan Allen's established nickname is documented in official Chargers coverage from his earlier career."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Diggsy"
+            ],
+            "note": "Fans used this familiar Stefon Diggs nickname during his Buffalo career."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Velcro"
+            ],
+            "note": "Tre'Davious White gave Khalil Shakir this nickname after praising his hands and ability to catch passes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Swiss"
+            ],
+            "note": "Khalil Shakir discussed this versatility-themed nickname during an interview about his Boise State career."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Shaq"
+            ],
+            "note": "Khalil Shakir said people who know him best use this nickname."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Deuce"
+            ],
+            "note": "Khalil Shakir named Deuce among the nicknames he heard during his Boise State career."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Big Mike"
+            ],
+            "note": "Mike Evans used this familiar nickname for himself while recalling a game from his Buccaneers career."
           }
         ]
       },
       {
         "prompt": "Current NFL RB Nicknames",
         "source": "https://www.nfl.com/news/lions-rbs-sonic-and-knuckles-key-to-sunday-s-showdown-vs-vikings",
-        "sourceNote": "Research snapshot: 13 October 2026. Roster eligibility checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: regular NFL fans. User requested one catch per distinct nickname, including documented initials, shortened names and childhood names; different nicknames for one player score independently. Orthographic variants share a catch. Players must be rostered, including backups and reserve/injured players; unsigned free agents and retired players are excluded. Expanded documented nickname bank covering starters, backups and reserve/practice-squad players. There is no authoritative finite registry of every nickname; local and newly coined names remain a coverage limit. Shortened professional first names and documented initials qualify under the user instruction. Full real names alone generally do not qualify, except the documented Drake \u201cDrake Maye\u201d Maye meme in Q1. Sonic and Knuckles are separate individual catches, not a third combined-duo catch. Tank belongs to Bigsby and Pop to Pacheco in this position category. CMC and Run CMC are distinct established labels under the user convention. Sources: King Henry https://www.baltimoreravens.com/news/transcript-press-conferences-9-25-26 ; Tractorcito https://www.vikings.com/news/baltimore-ravens-week-10-game-preview-2025 ; Lightning McQueen https://www.nfl.com/news/ravens-rb-derrick-henry-embracing-new-lightning-mcqueen-nickname ; Run CMC https://media.49ers.1rmg.com/wp-content/uploads/2023/05/19121322/San-Francisco-49ers-vs.-Baltimore-Ravens-Week-16-Release.pdf and CMC/current status https://amp.nfl.com/news/christian-mccaffrey-absence-from-practices-was-part-of-the-plan-from-the-jump ; Pacheco nickname https://www.kansascity.com/sports/nfl/kansas-city-chiefs/article269774492.html and current roster https://www.detroitlions.com/team/players-roster/isiah-pacheco/logs/ ; Montgomery now Houston https://www.houstontexans.com/news/houston-texans-2026-free-agency-tracker ; Breece the Beast https://www.newyorkjets.com/news/jets-rookie-rb-breece-hall-aka-breece-the-beast-taking-pride-in-being-a-human-er ; SaQuads https://www.sportingnews.com/us/nfl/philadelphia-eagles/news/saquon-barkley-saquads-nickname-eagles-thighs/b6fba6540227779f26d0d5d6 ; Tank https://www.philadelphiaeagles.com/news/eagles-agree-to-acquire-tank-bigsby-from-the-jaguars ; Bucky https://www.sportingnews.com/us/nfl/tampa-bay-buccaneers/news/bucky-irving-real-name-buccaneers-nickname/894ce1c2482850d52e6eb93b and current roster https://www.buccaneers.com/team/players-roster/bucky-irving/ ; Bill https://www.commanders.com/news/commanders-jacory-bill-croskey-merritt-running-back-offseason ; Fatman https://www.commanders.com/news/kaytron-allen-five-things-to-know and Miami waiver assignment 9 October https://www.nfl.com/transactions/league/waivers/2026/10 . User explicitly requested slander nicknames: documented mocking, satirical and explicit names are accepted, with neutral identifying blurbs. Fan discussions are primary evidence of fan usage, not evidence that an insult or allegation is true. No invented nickname-generator entries were used. Each distinct nickname is one catch even if shared by several eligible players; spelling and abbreviation variants share their catch. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://shop.chiefs.com/kansas-city-chiefs-wincraft-gameday-and-tailgate-license-plates/t-3433%2Bbr-235%2Bd-3095-3198?_s=EML23_NFLPT_0715_9A_CP25_VACATION&pageSize=72&sortOption=TopSellers ; https://www.sportingnews.com/us/nfl/news/what-woody-marks-real-name-what-know-about-meaning-behind-texans-rbs-nickname/0b9d19f35ffa58d7669e97d5 ; https://www.denverbroncos.com/news/sleepless-nights-and-draft-night-tears-the-indescribable-bond-between-javonte-wi ; https://www.denverbroncos.com/news/longform/back-home-features-javonte-williams-wallace-nc-hometown-childhood ; https://alvinkamarastore.com/ ; https://www.wafb.com/2026/03/13/saints-rb-travis-etienne-clears-up-how-pronounce-his-last-name/ ; https://www.colts.com/news/jonathan-taylor-history-rushing-yards-colts-fumble-redemption-win-titans ; https://www.patriots.com/news/continuous-improvement-fuels-stevenson-s-rise ; https://sports.yahoo.com/articles/cam-skattebo-parents-leonard-skattebo-000000452.html ; https://okstate.com/sports/football/roster/chuba-hubbard/8959 ; https://static.clubs.nfl.com/image/upload/v1573078977/patriots/gxa1fzctz5uvxmyqbgec.pdf ; https://www.raiders.com/news/ashton-jeanty-inside-look-first-24-hours-as-a-raider-2025-nfl-draft-boise-state ; https://www.buffalobills.com/news/bills-chiefs-preview-nfl-james-cook-quiet-enduring-personality-leaves-mark-bills-locker-room ; https://static.clubs.nfl.com/image/upload/saints/nykqkoc52q7pzsl3xa1j.pdf ; https://en.wikipedia.org/wiki/Brian_Robinson_Jr. ; https://en.wikipedia.org/wiki/RJ_Harvey ; https://www.pro-football-reference.com/players/A/AlleBr05.htm ; https://www.pro-football-reference.com/players/B/BarkSa00.htm ; https://en.wikipedia.org/wiki/Josh_Jacobs ; https://en.wikipedia.org/wiki/A._J._Dillon ; https://www.panthers.com/team/players-roster/ ; https://sports.yahoo.com/articles/giants-star-cam-skattebo-emerging-125442563.html . Runtime matching check: All exact aliases passed. CMC and Run CMC remain separate catches. Further documented current-player coverage: De\u2019Von Achane\u2019s A-Train and Himmothy nicknames are described by the Miami Dolphins On SI (https://www.si.com/nfl/dolphins/onsi/the-stories-behind-menace-mode-dulcich-the-leche-and-other-cool-dolphins-nicknames-01kvawtnpv99) and Pro-Football-Reference (https://www.pro-football-reference.com/players/A/AchaDe00.htm). Final edge scan adds backups, professional shortened names and college-era nicknames still attached to rostered players. Sources: Bam https://www.azcardinals.com/news/zonovan-knight-having-a-bam-good-time-in-cardinals-backfield and https://www.azcardinals.com/team/players-roster/bam-knight/ ; Rocket https://arkansasrazorbacks.com/raheim-sanders-the-razorbacks-rocket/ and https://www.clevelandbrowns.com/team/players-roster/raheim-sanders/ ; Breece Lightning https://www.newyorkjets.com/news/jets-rb-breece-hall-i-was-just-getting-started ; JK https://www.denverbroncos.com/team/players-roster/j-k-dobbins/ ; DeeJay https://www.profootballarchives.com/players/d/dall00240.html . Current eligibility cross-check https://www.profootballnetwork.com/nfl-hq/depth-charts .",
+        "sourceNote": "Research snapshot: 13 October 2026. Roster eligibility checked for this date; historical nicknames qualify when their player is currently rostered. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: regular NFL fans. User requested one catch per distinct nickname, including documented initials, shortened names and childhood names; different nicknames for one player score independently. Orthographic variants share a catch. Players must be rostered, including backups and reserve/injured players; unsigned free agents and retired players are excluded. Expanded documented nickname bank covering starters, backups and reserve/practice-squad players. There is no authoritative finite registry of every nickname; local and newly coined names remain a coverage limit. Shortened professional first names and documented initials qualify under the user instruction. Full real names alone generally do not qualify, except the documented Drake \u201cDrake Maye\u201d Maye meme in Q1. Sonic and Knuckles are separate individual catches, not a third combined-duo catch. Tank belongs to Bigsby and Pop to Pacheco in this position category. CMC and Run CMC are distinct established labels under the user convention. Sources: King Henry https://www.baltimoreravens.com/news/transcript-press-conferences-9-25-26 ; Tractorcito https://www.vikings.com/news/baltimore-ravens-week-10-game-preview-2025 ; Lightning McQueen https://www.nfl.com/news/ravens-rb-derrick-henry-embracing-new-lightning-mcqueen-nickname ; Run CMC https://media.49ers.1rmg.com/wp-content/uploads/2023/05/19121322/San-Francisco-49ers-vs.-Baltimore-Ravens-Week-16-Release.pdf and CMC/current status https://amp.nfl.com/news/christian-mccaffrey-absence-from-practices-was-part-of-the-plan-from-the-jump ; Pacheco nickname https://www.kansascity.com/sports/nfl/kansas-city-chiefs/article269774492.html and current roster https://www.detroitlions.com/team/players-roster/isiah-pacheco/logs/ ; Montgomery now Houston https://www.houstontexans.com/news/houston-texans-2026-free-agency-tracker ; Breece the Beast https://www.newyorkjets.com/news/jets-rookie-rb-breece-hall-aka-breece-the-beast-taking-pride-in-being-a-human-er ; SaQuads https://www.sportingnews.com/us/nfl/philadelphia-eagles/news/saquon-barkley-saquads-nickname-eagles-thighs/b6fba6540227779f26d0d5d6 ; Tank https://www.philadelphiaeagles.com/news/eagles-agree-to-acquire-tank-bigsby-from-the-jaguars ; Bucky https://www.sportingnews.com/us/nfl/tampa-bay-buccaneers/news/bucky-irving-real-name-buccaneers-nickname/894ce1c2482850d52e6eb93b and current roster https://www.buccaneers.com/team/players-roster/bucky-irving/ ; Bill https://www.commanders.com/news/commanders-jacory-bill-croskey-merritt-running-back-offseason ; Fatman https://www.commanders.com/news/kaytron-allen-five-things-to-know and Miami waiver assignment 9 October https://www.nfl.com/transactions/league/waivers/2026/10 . User explicitly requested slander nicknames: documented mocking, satirical and explicit names are accepted, with neutral identifying blurbs. Fan discussions are primary evidence of fan usage, not evidence that an insult or allegation is true. No invented nickname-generator entries were used. Each distinct nickname is one catch even if shared by several eligible players; spelling and abbreviation variants share their catch. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://shop.chiefs.com/kansas-city-chiefs-wincraft-gameday-and-tailgate-license-plates/t-3433%2Bbr-235%2Bd-3095-3198?_s=EML23_NFLPT_0715_9A_CP25_VACATION&pageSize=72&sortOption=TopSellers ; https://www.sportingnews.com/us/nfl/news/what-woody-marks-real-name-what-know-about-meaning-behind-texans-rbs-nickname/0b9d19f35ffa58d7669e97d5 ; https://www.denverbroncos.com/news/sleepless-nights-and-draft-night-tears-the-indescribable-bond-between-javonte-wi ; https://www.denverbroncos.com/news/longform/back-home-features-javonte-williams-wallace-nc-hometown-childhood ; https://alvinkamarastore.com/ ; https://www.wafb.com/2026/03/13/saints-rb-travis-etienne-clears-up-how-pronounce-his-last-name/ ; https://www.colts.com/news/jonathan-taylor-history-rushing-yards-colts-fumble-redemption-win-titans ; https://www.patriots.com/news/continuous-improvement-fuels-stevenson-s-rise ; https://sports.yahoo.com/articles/cam-skattebo-parents-leonard-skattebo-000000452.html ; https://okstate.com/sports/football/roster/chuba-hubbard/8959 ; https://static.clubs.nfl.com/image/upload/v1573078977/patriots/gxa1fzctz5uvxmyqbgec.pdf ; https://www.raiders.com/news/ashton-jeanty-inside-look-first-24-hours-as-a-raider-2025-nfl-draft-boise-state ; https://www.buffalobills.com/news/bills-chiefs-preview-nfl-james-cook-quiet-enduring-personality-leaves-mark-bills-locker-room ; https://static.clubs.nfl.com/image/upload/saints/nykqkoc52q7pzsl3xa1j.pdf ; https://en.wikipedia.org/wiki/Brian_Robinson_Jr. ; https://en.wikipedia.org/wiki/RJ_Harvey ; https://www.pro-football-reference.com/players/A/AlleBr05.htm ; https://www.pro-football-reference.com/players/B/BarkSa00.htm ; https://en.wikipedia.org/wiki/Josh_Jacobs ; https://en.wikipedia.org/wiki/A._J._Dillon ; https://www.panthers.com/team/players-roster/ ; https://sports.yahoo.com/articles/giants-star-cam-skattebo-emerging-125442563.html . Runtime matching check: All exact aliases passed. CMC and Run CMC remain separate catches. Further documented current-player coverage: De\u2019Von Achane\u2019s A-Train and Himmothy nicknames are described by the Miami Dolphins On SI (https://www.si.com/nfl/dolphins/onsi/the-stories-behind-menace-mode-dulcich-the-leche-and-other-cool-dolphins-nicknames-01kvawtnpv99) and Pro-Football-Reference (https://www.pro-football-reference.com/players/A/AchaDe00.htm). Final edge scan adds backups, professional shortened names and college-era nicknames still attached to rostered players. Sources: Bam https://www.azcardinals.com/news/zonovan-knight-having-a-bam-good-time-in-cardinals-backfield and https://www.azcardinals.com/team/players-roster/bam-knight/ ; Rocket https://arkansasrazorbacks.com/raheim-sanders-the-razorbacks-rocket/ and https://www.clevelandbrowns.com/team/players-roster/raheim-sanders/ ; Breece Lightning https://www.newyorkjets.com/news/jets-rb-breece-hall-i-was-just-getting-started ; JK https://www.denverbroncos.com/team/players-roster/j-k-dobbins/ ; DeeJay https://www.profootballarchives.com/players/d/dall00240.html . Current eligibility cross-check https://www.profootballnetwork.com/nfl-hq/depth-charts . Comprehensive-source and creative coverage audit (13 October 2026): see coverage-audit.json for new answer evidence, source reconciliation and exclusions. Existing Worth values preserved; user approved generous new rarity scores and familiar unexpected water answers at QUIRKY 15. Central discovery lists: https://en.wikipedia.org/wiki/List_of_NFL_nicknames and https://en.wikipedia.org/wiki/List_of_North_American_football_nicknames, supplemented by official team reporting, player interviews and documented fan usage. These lists are historical and incomplete: current eligibility and position were checked independently; no global exhaustive nickname registry exists. User explicitly confirmed fullbacks qualify as running backs. Juice (Kyle Juszczyk), Project Pat and Pancake Pat (Patrick Ricard) therefore qualify. QB Showtime and RB Showtyme are in different questions. Nick Chubb is excluded following his 2026 retirement; https://www.clevelandbrowns.com/news/nick-chubb-is-a-brown-for-life-after-retiring-in-cleveland . Final source reconciliation adds Sledge; direct evidence: https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BUF.pdf https://www.patriots.com/team/players-roster/reggie-gilliam/.",
         "answers": [
           {
             "points": 10,
@@ -37176,13 +37293,58 @@ window.DIVE_DAYS = [
               "D J"
             ],
             "note": "Demetrius Dallas Jr. plays professionally under the name DeeJay Dallas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Juice",
+              "The Juice"
+            ],
+            "note": "Kyle Juszczyk uses this nickname in his official merchandise and public football identity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Project Pat"
+            ],
+            "note": "Patrick Ricard's Ravens teammates coined this nickname while he was playing both offense and defense."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pancake Pat"
+            ],
+            "note": "Patrick Ricard described this nickname as a reference to his physical blocking and pancaking defenders."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Showtyme",
+              "Showtime",
+              "Show Tyme"
+            ],
+            "note": "Aaron Jones uses Showtyme as his public nickname and social-media identity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Battering Cam"
+            ],
+            "note": "Fans used this punning Cam Skattebo nickname in an October 2026 discussion of his pass protection."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sledge"
+            ],
+            "note": "Reggie Gilliam\u2019s nickname appears in his official Bills biography; he joined the Patriots in 2026."
           }
         ]
       },
       {
         "prompt": "Current NFL Head Coaches",
         "source": "https://playfootball.nfl.com/news-events/news-and-features/where-every-nfl-head-coach-played-high-school-football/",
-        "sourceNote": "Research snapshot: 13 October 2026. The bank represents the 32 current head-coaching positions. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. All 32 incumbent head coaches in the checked 2026 list. Audience: regular NFL fans; recognizability of the coach, not team quality, determines Worth. Cross-check https://gridironexperts.com/nfl-coaches-list/ . Unambiguous surnames accepted. Jim/John Harbaugh and Matt/Mike LaFleur require their distinguishing first names; neither bare surname is an intentional exact alias. Team names alone are not answers. First names alone are not intentional aliases. Coaching assignments need refreshing for any later transaction; no future job changes are asserted. Runtime matching check: All exact aliases passed. Bare Harbaugh still softly suggests Jim Harbaugh and bare LaFleur suggests Matt LaFleur; neither is an intentional exact alias. This existing matcher limitation requires confirmation. Recognizable coach nicknames are aliases of the same person and retain that coach\u2019s Worth: Big Red \u2192 Andy Reid, MCDC/Motor City Dan Campbell \u2192 Dan Campbell, Schotty \u2192 Brian Schottenheimer. Sources: https://www.chiefs.com/news/the-brothers-kelce-family-and-football-meet-on-sunday-19382610 ; https://www.sportingnews.com/us/nfl/news/motor-city-dan-campbell-mcdc-meaning/b11e6893109ff7a726ec315a ; https://www.dallascowboys.com/news/schotty-ball-how-brian-schottenheimer-is-approaching-his-big-shot .",
+        "sourceNote": "Research snapshot: 13 October 2026. The bank represents the 32 current head-coaching positions. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. All 32 incumbent head coaches in the checked 2026 list. Audience: regular NFL fans; recognizability of the coach, not team quality, determines Worth. Cross-check https://gridironexperts.com/nfl-coaches-list/ . Unambiguous surnames accepted. Jim/John Harbaugh and Matt/Mike LaFleur require their distinguishing first names; neither bare surname is an intentional exact alias. Team names alone are not answers. First names alone are not intentional aliases. Coaching assignments need refreshing for any later transaction; no future job changes are asserted. Runtime matching check: All exact aliases passed. Bare Harbaugh still softly suggests Jim Harbaugh and bare LaFleur suggests Matt LaFleur; neither is an intentional exact alias. This existing matcher limitation requires confirmation. Recognizable coach nicknames are aliases of the same person and retain that coach\u2019s Worth: Big Red \u2192 Andy Reid, MCDC/Motor City Dan Campbell \u2192 Dan Campbell, Schotty \u2192 Brian Schottenheimer. Sources: https://www.chiefs.com/news/the-brothers-kelce-family-and-football-meet-on-sunday-19382610 ; https://www.sportingnews.com/us/nfl/news/motor-city-dan-campbell-mcdc-meaning/b11e6893109ff7a726ec315a ; https://www.dallascowboys.com/news/schotty-ball-how-brian-schottenheimer-is-approaching-his-big-shot . Comprehensive-source and creative coverage audit (13 October 2026): see coverage-audit.json for new answer evidence, source reconciliation and exclusions. Existing Worth values preserved; user approved generous new rarity scores and familiar unexpected water answers at QUIRKY 15. All 32 names reconciled against the official NFL central list https://playfootball.nfl.com/news-events/news-and-features/where-every-nfl-head-coach-played-high-school-football/ and independently against https://en.wikipedia.org/wiki/List_of_current_NFL_head_coaches . PFR search-index records provide an additional partial cross-check; its full page returned 403. No membership additions needed.",
         "answers": [
           {
             "points": 60,
@@ -37448,7 +37610,7 @@ window.DIVE_DAYS = [
       {
         "prompt": "MLB Teams Left in the Playoffs as of 13 October",
         "source": "https://www.mlb.com/postseason",
-        "sourceNote": "Research snapshot: 13 October 2026. The four current championship-series franchises form the complete dated set. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. The four championship-series clubs as of the 13 October snapshot: Dodgers and Brewers in the NLCS, Guardians and Rays in the ALCS. The NLCS began 11 October and the ALCS 12 October; neither best-of-seven series could have ended by 13 October on the published schedule. Official bracket and schedule: https://www.mlb.com/postseason . Thus the membership is already determined for 13 October barring extraordinary schedule changes. Schedule cross-check https://www.foxsports.com/stories/mlb/2026-mlb-playoff-schedule-dates-rounds-how-watch . Audience: general trivia players, with an explicit user scoring override: Dodgers 10, Brewers 60, Guardians 60, Rays 60. Team nicknames, unambiguous cities and standard abbreviations accepted. Recognizable former names identify the same franchise and are accepted as aliases, with no additional catches: Brooklyn Dodgers, Seattle Pilots, Cleveland Indians and Tampa Bay Devil Rays. Bare former cities are not accepted. Short blurbs identify leagues without adding unverified future results. Runtime matching check: All exact aliases passed; LA resolves to Los Angeles Dodgers. Nickname aliases Brew Crew/Crew, Guards and Doyers also retain the team score. Franchise-history sources: https://www.mlb.com/brewers/history/timeline-1970s ; https://www.mlb.com/news/mlb-teams-that-have-changed-their-name ; https://www.mlb.com/news/since-name-change-rays-have-flourished/c-73752230 ; https://www.mlb.com/press-release/press-release-cleveland-baseball-team-to-change-name . Usage sources: https://www.mlb.com/news/brewers-celebrate-franchise-50th-birthday ; https://www.mlb.com/press-release/press-release-cleveland-guardians-and-rival-announce-guards-gaming ; https://www.mlb.com/cut4/guess-which-two-mlb-stadiums-were-among-the-top-10-tagged-locations-on-instagram-in-2014/c-103076066 .",
+        "sourceNote": "Research snapshot: 13 October 2026. The four current championship-series franchises form the complete dated set. Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. The four championship-series clubs as of the 13 October snapshot: Dodgers and Brewers in the NLCS, Guardians and Rays in the ALCS. The NLCS began 11 October and the ALCS 12 October; neither best-of-seven series could have ended by 13 October on the published schedule. Official bracket and schedule: https://www.mlb.com/postseason . Thus the membership is already determined for 13 October barring extraordinary schedule changes. Schedule cross-check https://www.foxsports.com/stories/mlb/2026-mlb-playoff-schedule-dates-rounds-how-watch . Audience: general trivia players, with an explicit user scoring override: Dodgers 10, Brewers 60, Guardians 60, Rays 60. Team nicknames, unambiguous cities and standard abbreviations accepted. Recognizable former names identify the same franchise and are accepted as aliases, with no additional catches: Brooklyn Dodgers, Seattle Pilots, Cleveland Indians and Tampa Bay Devil Rays. Bare former cities are not accepted. Short blurbs identify leagues without adding unverified future results. Runtime matching check: All exact aliases passed; LA resolves to Los Angeles Dodgers. Nickname aliases Brew Crew/Crew, Guards and Doyers also retain the team score. Franchise-history sources: https://www.mlb.com/brewers/history/timeline-1970s ; https://www.mlb.com/news/mlb-teams-that-have-changed-their-name ; https://www.mlb.com/news/since-name-change-rays-have-flourished/c-73752230 ; https://www.mlb.com/press-release/press-release-cleveland-baseball-team-to-change-name . Usage sources: https://www.mlb.com/news/brewers-celebrate-franchise-50th-birthday ; https://www.mlb.com/press-release/press-release-cleveland-guardians-and-rival-announce-guards-gaming ; https://www.mlb.com/cut4/guess-which-two-mlb-stadiums-were-among-the-top-10-tagged-locations-on-instagram-in-2014/c-103076066 . Comprehensive-source and creative coverage audit (13 October 2026): see coverage-audit.json for new answer evidence, source reconciliation and exclusions. Existing Worth values preserved; user approved generous new rarity scores and familiar unexpected water answers at QUIRKY 15. Complete four-team membership reconfirmed by the official matchup overview https://www.mlb.com/guardians/news/mlb-2026-league-championship-series-matchups and the postseason bracket. No membership additions needed; explicit team scores retained.",
         "answers": [
           {
             "points": 10,
@@ -37512,7 +37674,7 @@ window.DIVE_DAYS = [
       {
         "prompt": "Dietary Supplements",
         "source": "https://ods.od.nih.gov/factsheets/list-all/",
-        "sourceNote": "Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: general trivia players. Open, non-exhaustive bank of supplement ingredients and recognizable product categories, no brands, dosage sizes or delivery formats as separate catches. U.S. NIH supplement terminology is used; inclusion is not a health-benefit claim. Vitamin forms share their vitamin-family catch; individual B vitamins and B-complex are separate product categories. Protein powder is the basic category, whey and casein are distinct source-specific catches. Broad protein maps to Protein powder (10); vitamins maps to Multivitamin (10); vitamin B/B vitamins maps to B-complex (30). Fish oil (30) owns broad omega-3/omega three, while cod liver, krill and algal oils require their distinguishing words. Fiber/fibre maps to psyllium (30), the represented basic fiber supplement. Antioxidants maps to Vitamin C (10), the least-rare represented antioxidant. Broad minerals maps to Multivitamin (10), amino acids/amino to BCAA (60), oils/oil to Fish oil (30), herbs/herbal supplements to Turmeric (30), and prebiotics to Inulin (85), using the basic least-rare represented member of each category. Vitamin A owns beta-carotene under the vitamin-family convention. Soy protein and soy isoflavones are separate source-specific product categories. Sources for membership, synonyms and blurbs: vitamins/minerals https://ods.od.nih.gov/factsheets/list-VitaminsMinerals/ and https://medlineplus.gov/healthdefinitions/mineralsdefinitions.html ; vitamin synonyms https://ods.od.nih.gov/pubs/Special_Supplement-New_Multivitamin_Reference_Material_Issued.pdf ; athletic ingredients https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/ ; oils https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/ ; botanicals https://www.nccih.nih.gov/health/herbsataglance ; general supplements https://ods.od.nih.gov/factsheets/WYNTK-Consumer/ . Further ingredient references: https://www.nccih.nih.gov/health/coenzyme-q10 ; https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know ; https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know ; https://medlineplus.gov/druginfo/meds/a601104.html . Expanded across vitamins, minerals, proteins, sports ingredients, botanical extracts, mushrooms, amino acids, fibers and digestive ingredients. Ingredient extracts and their common constituent labels follow the existing family convention; distinct product categories can also qualify. This open category has no finite exhaustive master list; doses, brands and every proprietary mixture are excluded. NIH label records establish marketed ingredient/category existence, not current availability of a particular branded product or efficacy. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.nccih.nih.gov/health/acai ; https://www.nccih.nih.gov/health/aloe-vera ; https://www.nccih.nih.gov/health/astragalus ; https://www.nccih.nih.gov/health/bilberry ; https://www.nccih.nih.gov/health/bitter-orange ; https://www.nccih.nih.gov/health/black-cohosh ; https://www.nccih.nih.gov/health/boswellia ; https://www.nccih.nih.gov/health/bromelain ; https://www.nccih.nih.gov/health/butterbur ; https://www.nccih.nih.gov/health/cats-claw ; https://www.nccih.nih.gov/health/chamomile ; https://www.nccih.nih.gov/health/chasteberry ; https://www.nccih.nih.gov/health/cinnamon ; https://www.nccih.nih.gov/health/cranberry ; https://www.nccih.nih.gov/health/dandelion ; https://www.nccih.nih.gov/health/fenugreek ; https://www.nccih.nih.gov/health/feverfew ; https://www.nccih.nih.gov/health/garcinia-cambogia ; https://www.nccih.nih.gov/health/goldenseal ; https://www.nccih.nih.gov/health/grape-seed-extract ; https://www.nccih.nih.gov/health/green-tea ; https://www.nccih.nih.gov/health/hawthorn ; https://www.nccih.nih.gov/health/hoodia ; https://www.nccih.nih.gov/health/horse-chestnut ; https://www.nccih.nih.gov/health/kava ; https://www.nccih.nih.gov/health/lavender ; https://www.nccih.nih.gov/health/licorice-root ; https://www.nccih.nih.gov/health/noni ; https://www.nccih.nih.gov/health/passionflower ; https://www.nccih.nih.gov/health/peppermint-oil ; https://www.nccih.nih.gov/health/pomegranate ; https://www.nccih.nih.gov/health/red-clover ; https://www.nccih.nih.gov/health/rhodiola ; https://www.nccih.nih.gov/health/sage ; https://www.nccih.nih.gov/health/soy ; https://www.nccih.nih.gov/health/white-mulberry-leaf ; https://www.nccih.nih.gov/health/yohimbe ; https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/ ; https://ods.od.nih.gov/factsheets/WeightLoss-Consumer/ ; https://health.clevelandclinic.org/protein-powder ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/collagen ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/berberine ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/alpha-lipoic-acid ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/l-theanine ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/resveratrol ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/n-acetylcysteine ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/blue-green-algae ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lions-mane-mushroom ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/reishi-mushroom ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cordyceps ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/maitake ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/coriolus-versicolor ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lutein ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycopene ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/maca ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/nigella-sativa ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/red-yeast-rice ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/inositol-hexaphosphate ; https://www.mskcc.org/news/do-mushroom-supplements-boost-immunity-against-cancer ; https://www.nccih.nih.gov/health/sadenosyllmethionine-same-in-depth ; https://dsld.od.nih.gov/ingredient/5%20HTP ; https://dsld.od.nih.gov/ingredient/Taurine ; https://dsld.od.nih.gov/ingredient/lysine ; https://dsld.od.nih.gov/ingredient/Glycine%2C%2BPowder ; https://dsld.od.nih.gov/ingredient/Tyrosine ; https://dsld.od.nih.gov/ingredient/Gaba ; https://dsld.od.nih.gov/ingredient/MSM%2BSulfate ; https://dsld.od.nih.gov/label/255009 ; https://dsld.od.nih.gov/label/174085 ; https://dsld.od.nih.gov/ingredient/Fructo-oligosaccharides ; https://dsld.od.nih.gov/label/266375 ; https://dsld.od.nih.gov/ingredient/Inositol ; https://dsld.od.nih.gov/label/7069 ; https://dsld.od.nih.gov/label/237728 ; https://dsld.od.nih.gov/label/286925 ; https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/ ; https://dsld.od.nih.gov/label/262137 ; https://dsld.od.nih.gov/ingredient/Bromelain%2B%26%2BPapain ; https://dsld.od.nih.gov/label/306381 ; https://dsld.od.nih.gov/ingredient/Zeaxanthin ; https://dsld.od.nih.gov/ingredient/pure%2BAstaxanthin . Runtime matching check: Exact broad-group owners and specific counterparts passed runtime checks: vitamins/minerals, protein/whey/soy/isoflavones, herbs, amino acids, oils/krill, prebiotics, inositol/IP6. Magnesum softly suggests Magnesium. Bare acid still softly suggests Folate; this is an existing token-matching limitation, not an intentional alias. Final edge scan includes mixed greens, essential-amino-acid formulas, MCT oil, bee products, colostrum, lecithin, sea moss, nattokinase and gripe water. EAA formulas and three-amino-acid BCAA formulas remain distinct catches; unqualified amino acids retains BCAA. Standard mineral salts and vitamin forms score with their nutrient-family row, preserving existing Worth values. Seaweed maps to Sea moss, the represented macroalgae supplement; lecithin source forms share one catch. Membership and blurb sources: https://dsld.od.nih.gov/label/50011 ; https://api.ods.od.nih.gov/dsld/s3/pdf/14346.pdf ; https://health.clevelandclinic.org/do-powdered-greens-work ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/propolis ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/royal-jelly ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bovine-colostrum ; https://dsld.od.nih.gov/label/64683 ; https://dsld.od.nih.gov/ingredient/Sunflower%2BLecithin ; https://health.clevelandclinic.org/sea-moss-benefits ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/nattokinase ; https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pacific-health-sciences-voluntarily-recalls-one-lot-babies-magic-tea-brand-baby-sleep-gripe-water . Form aliases: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/ ; https://api.ods.od.nih.gov/dsld/s3/pdf/313608.pdf ; https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/ ; https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/ ; https://dsld.od.nih.gov/label/294316 ; https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/ ; https://ods.od.nih.gov/factsheets/Chromium-Consumer/ ; https://ods.od.nih.gov/factsheets/Folate-Consumer/ .",
+        "sourceNote": "Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: general trivia players. Open bank expanded through central-source reconciliation; globally exhaustive coverage cannot be certified for all marketed ingredients. The bank of supplement ingredients and recognizable product categories, no brands, dosage sizes or delivery formats as separate catches. U.S. NIH supplement terminology is used; inclusion is not a health-benefit claim. Vitamin forms share their vitamin-family catch; individual B vitamins and B-complex are separate product categories. Protein powder is the basic category, whey and casein are distinct source-specific catches. Broad protein maps to Protein powder (10); vitamins maps to Multivitamin (10); vitamin B/B vitamins maps to B-complex (30). Fish oil (30) owns broad omega-3/omega three, while cod liver, krill and algal oils require their distinguishing words. Fiber/fibre maps to psyllium (30), the represented basic fiber supplement. Antioxidants maps to Vitamin C (10), the least-rare represented antioxidant. Broad minerals maps to Multivitamin (10), amino acids/amino to BCAA (60), oils/oil to Fish oil (30), herbs/herbal supplements to Turmeric (30), and prebiotics to Inulin (85), using the basic least-rare represented member of each category. Vitamin A owns beta-carotene under the vitamin-family convention. Soy protein and soy isoflavones are separate source-specific product categories. Sources for membership, synonyms and blurbs: vitamins/minerals https://ods.od.nih.gov/factsheets/list-VitaminsMinerals/ and https://medlineplus.gov/healthdefinitions/mineralsdefinitions.html ; vitamin synonyms https://ods.od.nih.gov/pubs/Special_Supplement-New_Multivitamin_Reference_Material_Issued.pdf ; athletic ingredients https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/ ; oils https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/ ; botanicals https://www.nccih.nih.gov/health/herbsataglance ; general supplements https://ods.od.nih.gov/factsheets/WYNTK-Consumer/ . Further ingredient references: https://www.nccih.nih.gov/health/coenzyme-q10 ; https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know ; https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know ; https://medlineplus.gov/druginfo/meds/a601104.html . Expanded across vitamins, minerals, proteins, sports ingredients, botanical extracts, mushrooms, amino acids, fibers and digestive ingredients. Ingredient extracts and their common constituent labels follow the existing family convention; distinct product categories can also qualify. This open category has no finite exhaustive master list; doses, brands and every proprietary mixture are excluded. NIH label records establish marketed ingredient/category existence, not current availability of a particular branded product or efficacy. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.nccih.nih.gov/health/acai ; https://www.nccih.nih.gov/health/aloe-vera ; https://www.nccih.nih.gov/health/astragalus ; https://www.nccih.nih.gov/health/bilberry ; https://www.nccih.nih.gov/health/bitter-orange ; https://www.nccih.nih.gov/health/black-cohosh ; https://www.nccih.nih.gov/health/boswellia ; https://www.nccih.nih.gov/health/bromelain ; https://www.nccih.nih.gov/health/butterbur ; https://www.nccih.nih.gov/health/cats-claw ; https://www.nccih.nih.gov/health/chamomile ; https://www.nccih.nih.gov/health/chasteberry ; https://www.nccih.nih.gov/health/cinnamon ; https://www.nccih.nih.gov/health/cranberry ; https://www.nccih.nih.gov/health/dandelion ; https://www.nccih.nih.gov/health/fenugreek ; https://www.nccih.nih.gov/health/feverfew ; https://www.nccih.nih.gov/health/garcinia-cambogia ; https://www.nccih.nih.gov/health/goldenseal ; https://www.nccih.nih.gov/health/grape-seed-extract ; https://www.nccih.nih.gov/health/green-tea ; https://www.nccih.nih.gov/health/hawthorn ; https://www.nccih.nih.gov/health/hoodia ; https://www.nccih.nih.gov/health/horse-chestnut ; https://www.nccih.nih.gov/health/kava ; https://www.nccih.nih.gov/health/lavender ; https://www.nccih.nih.gov/health/licorice-root ; https://www.nccih.nih.gov/health/noni ; https://www.nccih.nih.gov/health/passionflower ; https://www.nccih.nih.gov/health/peppermint-oil ; https://www.nccih.nih.gov/health/pomegranate ; https://www.nccih.nih.gov/health/red-clover ; https://www.nccih.nih.gov/health/rhodiola ; https://www.nccih.nih.gov/health/sage ; https://www.nccih.nih.gov/health/soy ; https://www.nccih.nih.gov/health/white-mulberry-leaf ; https://www.nccih.nih.gov/health/yohimbe ; https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/ ; https://ods.od.nih.gov/factsheets/WeightLoss-Consumer/ ; https://health.clevelandclinic.org/protein-powder ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/collagen ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/berberine ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/alpha-lipoic-acid ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/l-theanine ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/resveratrol ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/n-acetylcysteine ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/blue-green-algae ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lions-mane-mushroom ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/reishi-mushroom ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cordyceps ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/maitake ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/coriolus-versicolor ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lutein ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycopene ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/maca ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/nigella-sativa ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/red-yeast-rice ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/inositol-hexaphosphate ; https://www.mskcc.org/news/do-mushroom-supplements-boost-immunity-against-cancer ; https://www.nccih.nih.gov/health/sadenosyllmethionine-same-in-depth ; https://dsld.od.nih.gov/ingredient/5%20HTP ; https://dsld.od.nih.gov/ingredient/Taurine ; https://dsld.od.nih.gov/ingredient/lysine ; https://dsld.od.nih.gov/ingredient/Glycine%2C%2BPowder ; https://dsld.od.nih.gov/ingredient/Tyrosine ; https://dsld.od.nih.gov/ingredient/Gaba ; https://dsld.od.nih.gov/ingredient/MSM%2BSulfate ; https://dsld.od.nih.gov/label/255009 ; https://dsld.od.nih.gov/label/174085 ; https://dsld.od.nih.gov/ingredient/Fructo-oligosaccharides ; https://dsld.od.nih.gov/label/266375 ; https://dsld.od.nih.gov/ingredient/Inositol ; https://dsld.od.nih.gov/label/7069 ; https://dsld.od.nih.gov/label/237728 ; https://dsld.od.nih.gov/label/286925 ; https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/ ; https://dsld.od.nih.gov/label/262137 ; https://dsld.od.nih.gov/ingredient/Bromelain%2B%26%2BPapain ; https://dsld.od.nih.gov/label/306381 ; https://dsld.od.nih.gov/ingredient/Zeaxanthin ; https://dsld.od.nih.gov/ingredient/pure%2BAstaxanthin . Runtime matching check: Exact broad-group owners and specific counterparts passed runtime checks: vitamins/minerals, protein/whey/soy/isoflavones, herbs, amino acids, oils/krill, prebiotics, inositol/IP6. Magnesum softly suggests Magnesium. Bare acid still softly suggests Folate; this is an existing token-matching limitation, not an intentional alias. Final edge scan includes mixed greens, essential-amino-acid formulas, MCT oil, bee products, colostrum, lecithin, sea moss, nattokinase and gripe water. EAA formulas and three-amino-acid BCAA formulas remain distinct catches; unqualified amino acids retains BCAA. Standard mineral salts and vitamin forms score with their nutrient-family row, preserving existing Worth values. Seaweed maps to Sea moss, the represented macroalgae supplement; lecithin source forms share one catch. Membership and blurb sources: https://dsld.od.nih.gov/label/50011 ; https://api.ods.od.nih.gov/dsld/s3/pdf/14346.pdf ; https://health.clevelandclinic.org/do-powdered-greens-work ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/propolis ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/royal-jelly ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bovine-colostrum ; https://dsld.od.nih.gov/label/64683 ; https://dsld.od.nih.gov/ingredient/Sunflower%2BLecithin ; https://health.clevelandclinic.org/sea-moss-benefits ; https://www.mskcc.org/cancer-care/integrative-medicine/herbs/nattokinase ; https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pacific-health-sciences-voluntarily-recalls-one-lot-babies-magic-tea-brand-baby-sleep-gripe-water . Form aliases: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/ ; https://api.ods.od.nih.gov/dsld/s3/pdf/313608.pdf ; https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/ ; https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/ ; https://dsld.od.nih.gov/label/294316 ; https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/ ; https://ods.od.nih.gov/factsheets/Chromium-Consumer/ ; https://ods.od.nih.gov/factsheets/Folate-Consumer/ . Comprehensive-source and creative coverage audit (13 October 2026): see coverage-audit.json for new answer evidence, source reconciliation and exclusions. Existing Worth values preserved; user approved generous new rarity scores and familiar unexpected water answers at QUIRKY 15. Central source reconciliation: NIH A\u2013Z https://ods.od.nih.gov/factsheets/list-all/ ; NCCIH botanicals https://www.nccih.nih.gov/health/herbsataglance ; MSK About Herbs alphabet and pagination https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs/search ; NIH label database https://dsld.od.nih.gov/ . Catalogues include drugs, topical products, devices, health topics and brands, so their entries are not automatically qualifying supplements. Ginseng defaults to the existing Asian/Panax ginseng catch; American ginseng and Eleuthero require their specific labels. Gotu kola and Kola nut remain distinct. DIM and I3C remain separate compounds. NR/NMN are accepted in the existing Vitamin B3 family catch under the vitamin-form convention; supporting source https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/ . Saffron is Crocus sativus; Indian saffron remains Turmeric. Individual botanical ingredients count even when they also appear in food; delivery formats and brands do not become catches. Additional central NIH ingredient-index snapshot https://downloads.regulations.gov/FDA-2022-D-0281-0007/attachment_1.pdf confirms overlooked individual amino-acid ingredients. Specific leucine/isoleucine/valine and other ingredient names require their own catches; generic amino acids retains the documented BCAA owner. Final source reconciliation adds Germanium; direct evidence: https://www.mskcc.org/cancer-care/integrative-medicine/herbs/germanium. Final source reconciliation adds Glyconutrients; direct evidence: https://www.mskcc.org/cancer-care/integrative-medicine/herbs/glyconutrients. Final source reconciliation adds Colloidal silver; direct evidence: https://www.mskcc.org/cancer-care/integrative-medicine/herbs/colloidal-silver.",
         "answers": [
           {
             "points": 10,
@@ -37638,7 +37800,11 @@ window.DIVE_DAYS = [
               "B 3",
               "Niacin",
               "Niacinamide",
-              "Nicotinamide"
+              "Nicotinamide",
+              "Nicotinamide riboside",
+              "NR",
+              "Nicotinamide mononucleotide",
+              "NMN"
             ],
             "note": "Niacin is vitamin B3; nicotinamide is another supplementary form."
           },
@@ -38031,7 +38197,8 @@ window.DIVE_DAYS = [
               "Curcumin",
               "Herbal supplement",
               "Herbal supplements",
-              "Herbs"
+              "Herbs",
+              "Indian saffron"
             ],
             "note": "Turmeric supplements may emphasize curcumin, a constituent of the plant."
           },
@@ -39088,13 +39255,587 @@ window.DIVE_DAYS = [
               "Gripewater"
             ],
             "note": "A liquid infant-product category that includes preparations marketed as dietary supplements."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Agaricus",
+              "Agaricus blazei",
+              "Sun mushroom"
+            ],
+            "note": "An edible mushroom native to Brazil, sold in extracts and capsules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alfalfa"
+            ],
+            "note": "A plant whose leaves and seeds are used in food and herbal supplement preparations."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Andrographis",
+              "Andrographis paniculata"
+            ],
+            "note": "A bitter annual plant used in traditional medicine and marketed in supplemental extracts."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Apple cider vinegar",
+              "ACV",
+              "Cider vinegar"
+            ],
+            "note": "Fermented apple juice sold in supplement products including gummies, capsules and tablets."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bitter melon",
+              "Bitter gourd",
+              "Balsam pear"
+            ],
+            "note": "An edible plant fruit used in food and herbal preparations in several tropical regions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bladderwrack",
+              "Bladder wrack",
+              "Fucus vesiculosus"
+            ],
+            "note": "A brown seaweed rich in iodine, distinct from the other seaweeds commonly called kelp."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Borage oil",
+              "Borage seed oil",
+              "Borage"
+            ],
+            "note": "Oil from borage seeds that contains the omega-6 fatty acid gamma-linolenic acid."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Burdock",
+              "Burdock root"
+            ],
+            "note": "A perennial plant whose root is consumed as food and used in herbal preparations."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Butcher's broom",
+              "Butchers broom"
+            ],
+            "note": "A botanical preparation containing saponins, documented in herbal supplement references."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Camu-camu"
+            ],
+            "note": "A South American fruit with high vitamin C content, marketed in supplements."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Damiana",
+              "Turnera diffusa"
+            ],
+            "note": "A botanical ingredient found in herbal combination products, including preparations studied for sexual function."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Devil's claw",
+              "Devils claw"
+            ],
+            "note": "A South African plant whose root is used in traditional herbal preparations."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Diindolylmethane",
+              "DIM"
+            ],
+            "note": "A compound associated with cruciferous vegetables, also sold as a dietary supplement."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Dimethylglycine",
+              "DMG"
+            ],
+            "note": "An amino-acid compound found in plant and animal cells and marketed in supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dong quai",
+              "Dongquai"
+            ],
+            "note": "An herb used in traditional Chinese medicine, available as pills and liquid extracts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Epimedium",
+              "Horny goat weed"
+            ],
+            "note": "A Chinese herb also known as horny goat weed, used in herbal preparations."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Fucoidan"
+            ],
+            "note": "A compound found in brown seaweed, available as supplement capsules, extracts and powders."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "American ginseng",
+              "Panax quinquefolius"
+            ],
+            "note": "An herb used in traditional Chinese medicine, available in powders, pills and capsules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gotu kola",
+              "Centella asiatica"
+            ],
+            "note": "A perennial plant used in herbal extracts; it is distinct from caffeine-containing kola nut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Graviola",
+              "Soursop"
+            ],
+            "note": "A tropical tree whose fruit, leaves and stems feature in food and herbal preparations."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Guggul",
+              "Guggulu"
+            ],
+            "note": "A resin extract used in Ayurvedic preparations for centuries."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hops",
+              "Hops extract"
+            ],
+            "note": "Preparations derived from the female flower clusters of Humulus lupulus."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Indole-3-carbinol",
+              "I3C"
+            ],
+            "note": "A compound associated with cruciferous vegetables such as broccoli, cabbage and Brussels sprouts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kudzu"
+            ],
+            "note": "An herb used in Chinese medicinal preparations, including combinations with other botanicals."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Magnolia bark",
+              "Magnolia officinalis",
+              "Magnolia bark extract"
+            ],
+            "note": "A botanical extract prepared from magnolia bark and described in herbal supplement references."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mangosteen"
+            ],
+            "note": "A Southeast Asian fruit used in traditional medicine and marketed in botanical products."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Moringa",
+              "Moringa oleifera"
+            ],
+            "note": "Moringa leaves and seeds are ground into powders used in capsules, tablets and drinks."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Neem"
+            ],
+            "note": "A plant used as food and in traditional and Ayurvedic herbal preparations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nettle",
+              "Stinging nettle",
+              "Nettle root"
+            ],
+            "note": "A flowering herb whose root is used in botanical preparations, sometimes with saw palmetto."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Olive leaf",
+              "Olive leaf extract"
+            ],
+            "note": "An olive-leaf preparation containing the plant compound oleuropein."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Papaya leaf",
+              "Papaya leaf extract"
+            ],
+            "note": "Leaves from the tropical papaya tree are sold in dietary supplement extracts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pectin",
+              "Citrus pectin",
+              "Modified citrus pectin",
+              "MCP"
+            ],
+            "note": "A soluble plant fiber concentrated in citrus peel and pulp, also used in supplements."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Schisandra",
+              "Schisandra chinensis"
+            ],
+            "note": "A fruit extract used in traditional Chinese herbal preparations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Eleuthero",
+              "Siberian ginseng",
+              "Eleutherococcus senticosus"
+            ],
+            "note": "An herb sold in root preparations, powders and extracts, distinct from Panax ginseng."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Triphala"
+            ],
+            "note": "An Ayurvedic herbal formulation made from three medicinal plants."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wheatgrass",
+              "Wheat grass"
+            ],
+            "note": "A preparation made from young wheat leaves, including their extracted juice."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wild yam"
+            ],
+            "note": "A botanical preparation containing diosgenin, a compound used in laboratory steroid synthesis."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Willow bark",
+              "White willow bark"
+            ],
+            "note": "A bark preparation containing salicin, a compound associated with the development of aspirin."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Shiitake",
+              "Shiitake mushroom"
+            ],
+            "note": "An edible mushroom represented in botanical supplement extracts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Shark cartilage"
+            ],
+            "note": "An animal-derived supplement ingredient made from shark cartilage."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Phosphorus",
+              "Phosphate supplements"
+            ],
+            "note": "An essential mineral present in bones, teeth, DNA and RNA, and available in supplements."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fluoride"
+            ],
+            "note": "A mineral available in supplements, distinct from toothpaste and other topical dental products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bacopa",
+              "Bacopa monnieri"
+            ],
+            "note": "An herbal supplement made from Bacopa monnieri, documented on NIH supplement labels."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Holy basil",
+              "Tulsi"
+            ],
+            "note": "An Ayurvedic botanical also called tulsi, documented in dietary supplement preparations."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Shilajit"
+            ],
+            "note": "A substance used in traditional preparations and recorded in the NIH dietary supplement label database."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tongkat ali",
+              "Eurycoma longifolia"
+            ],
+            "note": "A herbal supplement derived from Eurycoma longifolia, studied as an oral preparation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Saffron",
+              "Crocus sativus"
+            ],
+            "note": "The culinary spice is also sold as a supplement, distinct from turmeric or Indian saffron."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Phosphatidylserine",
+              "PS"
+            ],
+            "note": "A phospholipid recorded as an ingredient in the NIH dietary supplement label database."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Glutathione",
+              "L glutathione",
+              "Reduced glutathione"
+            ],
+            "note": "A compound sold in supplement capsules and documented on NIH label records."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Alpha-GPC",
+              "Glycerophosphorylcholine"
+            ],
+            "note": "A choline-containing compound sold in supplement capsules, including products recorded by NIH."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Urolithin A",
+              "Urolithin A supplement"
+            ],
+            "note": "An oral supplement ingredient listed in the National Cancer Institute drug dictionary."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Spearmint",
+              "Spearmint oil"
+            ],
+            "note": "Mentha spicata preparations appear on supplement labels, including steam-distilled spearmint oil."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Slippery elm",
+              "Slippery elm bark"
+            ],
+            "note": "Inner bark from the slippery elm tree is used in herbal supplement preparations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hibiscus",
+              "Hibiscus flower"
+            ],
+            "note": "Hibiscus flowers appear as botanical ingredients in documented dietary supplement blends."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Goji",
+              "Goji berry",
+              "Wolfberry",
+              "Lycium"
+            ],
+            "note": "Goji berry extracts are recorded as botanical ingredients in dietary supplement labels."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rose hip",
+              "Rose hips"
+            ],
+            "note": "Rose-hip preparations appear on dietary supplement labels, including products supplying vitamin C."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Senna"
+            ],
+            "note": "An herbal ingredient recorded in NIH supplement terminology, also used in laxative preparations."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Diatomaceous earth",
+              "Food grade diatomaceous earth"
+            ],
+            "note": "A marketed supplement powder made from fossilized diatom shells."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Amla",
+              "Amalaki",
+              "Indian gooseberry",
+              "Phyllanthus emblica",
+              "Emblica officinalis"
+            ],
+            "note": "Fruit extracts from Phyllanthus emblica are recorded in herbal supplement labels."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pygeum",
+              "Pygeum extract",
+              "Pygeum africanum"
+            ],
+            "note": "A botanical extract sold in oral supplement preparations, including combinations with saw palmetto."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ornithine",
+              "L ornithine"
+            ],
+            "note": "An amino-acid supplement sold as a powder, including hydrochloride preparations."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Leucine",
+              "L leucine"
+            ],
+            "note": "One of the three branched-chain amino acids, also supplied in individual supplement products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Isoleucine",
+              "L isoleucine"
+            ],
+            "note": "One of the three branched-chain amino acids, listed separately in amino-acid supplement formulas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Valine",
+              "L valine"
+            ],
+            "note": "A branched-chain amino acid supplied alongside leucine and isoleucine in supplement formulas."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Histidine",
+              "L histidine"
+            ],
+            "note": "A protein-building amino acid represented in the NIH dietary supplement ingredient index."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Phenylalanine",
+              "L phenylalanine"
+            ],
+            "note": "An amino acid documented as a distinct ingredient in the NIH supplement index."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Threonine",
+              "L threonine"
+            ],
+            "note": "An amino acid listed individually in supplement formulas, including some BCAA products."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cysteine",
+              "L cysteine"
+            ],
+            "note": "An amino acid listed in the NIH supplement ingredient index, distinct from N-acetylcysteine."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Germanium",
+              "Organic germanium",
+              "Germanium sesquioxide",
+              "Ge-132"
+            ],
+            "note": "A nonessential element marketed in supplement preparations, distinct from required dietary minerals."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Glyconutrients"
+            ],
+            "note": "A supplement category containing plant-derived sugars, marketed separately from individual vitamin and mineral products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Colloidal silver",
+              "Colloidal silver water"
+            ],
+            "note": "Tiny silver particles suspended in liquid, marketed as an oral supplement despite lacking an essential nutritional role."
           }
         ]
       },
       {
         "prompt": "Types of Water",
         "source": "https://www.fda.gov/food/buy-store-serve-safe-food/fda-regulates-safety-bottled-water-beverages-including-flavored-water-and-nutrient-added-water",
-        "sourceNote": "Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: general trivia players. Open, non-exhaustive bank spanning water sources, treatments, composition, physical state, common serving temperatures, wastewater classes and named beverages. User explicitly included tonic, coconut and flavored/infused water, overriding the narrower plain-water interpretation. No brands or arbitrary temperature gradations. The list includes non-potable and scientific water classes alongside drinking-water types; inclusion does not imply water is safe to drink. Source and treatment categories can overlap physically but are distinct answers. Sparkling/carbonated/fizzy/seltzer share one basic catch; club soda and tonic remain separate. Still/flat/noncarbonated share one catch. Flavored/infused share a catch; specific lemon/cucumber flavors are variants rather than extra rows. Demineralized/deionized share one mineral-removal catch; distilled and reverse-osmosis name different processes. Water/bottled/drinking broad forms map to Tap water or Bottled water as explicitly stated in forms, never to a rare treatment. Sources: primary FDA labels and processes; water origins https://www.fda.gov/consumers/consumer-updates/bottled-water-everywhere-keeping-it-safe ; carbonation/club soda/tonic https://health.clevelandclinic.org/how-healthy-is-your-favorite-sparkling-or-mineral-water ; alkaline https://health.clevelandclinic.org/alkaline-water-dont-believe-the-marketing-hype ; flavored/fortified https://health.clevelandclinic.org/is-flavored-water-good-for-you ; coconut https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coconut-water/faq-20207812 ; hardness https://pubs.usgs.gov/gip/gw/quality.html . Blurbs describe the category, not alleged health benefits. Expanded the bank across five horizontal dimensions: source, treatment, composition/salinity, physical state, and use/serving condition. Ice water is a drink served with ice; Ice is the solid phase. Cold water is chilled without requiring ice. Freshwater, saltwater, brackish water and brine are distinct salinity classes; greywater and blackwater are wastewater subclasses. Raw or non-potable sources are taxonomy entries, not safety claims. Added minerals, gases, proteins and botanical water beverages qualify. Ordinary flavor variants stay with Flavored water; established named grain/sap/aloe/cactus beverages have separate catches, consistently with the approved coconut/tonic exception. The open universe of regional beverages and marketed preparations remains a coverage limit. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.cdc.gov/drinking-water/about/how-water-treatment-works.html ; https://www.cdc.gov/drinking-water/about/drinking-water-sources-an-overview.html ; https://www.gov.za/sites/default/files/gcis_document/201409/29051a.pdf ; https://health.clevelandclinic.org/benefits-of-maple-water ; https://en.wikipedia.org/wiki/Birch_sap ; https://pricklee.com/products/prickly-pear ; https://en.wikipedia.org/wiki/Barley_water ; https://www.proteinwater.co/collections/whey ; https://molecularhydrogeninstitute.org/frequently-asked-questions/ ; https://www.cdc.gov/water-emergency/about/drinking-water-advisories-an-overview.html ; https://mineralizedwater.org/ ; https://en.wikipedia.org/wiki/Rice_water ; https://www.okaproducts.com/aloe-water/ . Runtime matching check: All exact aliases passed. Water, bottled, mineral, protein, collagen and RO retain their intended owners. Distiled softly suggests Distilled water. Horizontal expansion sources: common serving-temperature categories https://health.clevelandclinic.org/cold-water-vs-warm-water ; salinity classes including freshwater, brackish water, saltwater and brine https://pubs.usgs.gov/circ/2003/circ1262/ ; greywater and blackwater distinctions https://www.epa.gov/sites/production/files/2021-01/documents/cii-users-guide.pdf ; water phases https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle ; heavy water (D2O) https://www.nrc.gov/education-regulatory-research/glossary/heavy-water-d2o ; stormwater and runoff categories https://19january2021snapshot.epa.gov/sites/static/files/2016-11/documents/11-jay_garland.pdf. Final edge scan includes ritual, culturally named source, culinary, medical, acidity and untreated-source categories. Holy water and Pasta water earn the special 15-point QUIRKY score as familiar unexpected answers. Cooking water belongs to Pasta water, the least-rare represented cooking-liquid catch. Generic floral water/hydrosol belongs to Rose water (60); Orange blossom water requires its distinguishing flower. Ordinary orange/mint/berry flavors share Flavored water. Lourdes water is a source-specific catch and is not automatically blessed holy water; Zamzam identifies its named well. Icewater is an exact spelling alias of Ice water. H2O/plain/liquid/ordinary water follow the existing broad Water \u2192 Tap water (10) convention. Named medical and ritual preparations qualify; metaphorical phrases alone do not. Sources: https://www.vatican.va/content/leo-xiv/en/audiences/2026/documents/20260603-udienza-generale.html ; https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/pasta-water-tips-tricks ; https://www.kingarthurbaking.com/recipes/vegan-swiss-buttercream-recipe ; https://nielsenmassey.com/floral-flavors-recipes/ ; https://saudipedia.com/en/zamzam-well ; https://www.lourdes-france.com/en/the-water-of-lourdes/ ; https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a6422e1-feee-4095-8883-2b0837039e6e ; https://www.usgs.gov/faqs/can-lakes-near-volcanoes-become-acidic-enough-be-dangerous-people-and-animals ; https://www.cdc.gov/drinking-water/about/how-water-treatment-works.html . Gripe-water membership uses the FDA source recorded in Q6. Sewage/sewage water/sewer water are aliases of Wastewater (30), the basic used-water category; explicitly named Blackwater remains its own subtype catch. Definition reference: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100GIOY.TXT .",
+        "sourceNote": "Curated rarity, not response frequencies: ordinary tiers 10, 30, 60, 85, 100; 15 is the distinct QUIRKY exception. User requested generous rewards: established less-obvious answers receive higher tiers, without rewarding doubtful validity. Audience: general trivia players. Open bank expanded through multiple central glossaries and creative semantic review; no finite global master list exists. The bank spanning water sources, treatments, composition, physical state, common serving temperatures, wastewater classes and named beverages. User explicitly included tonic, coconut and flavored/infused water, overriding the narrower plain-water interpretation. No brands or arbitrary temperature gradations. The list includes non-potable and scientific water classes alongside drinking-water types; inclusion does not imply water is safe to drink. Source and treatment categories can overlap physically but are distinct answers. Sparkling/carbonated/fizzy/seltzer share one basic catch; club soda and tonic remain separate. Still/flat/noncarbonated share one catch. Flavored/infused share a catch; specific lemon/cucumber flavors are variants rather than extra rows. Demineralized/deionized share one mineral-removal catch; distilled and reverse-osmosis name different processes. Water/bottled/drinking broad forms map to Tap water or Bottled water as explicitly stated in forms, never to a rare treatment. Sources: primary FDA labels and processes; water origins https://www.fda.gov/consumers/consumer-updates/bottled-water-everywhere-keeping-it-safe ; carbonation/club soda/tonic https://health.clevelandclinic.org/how-healthy-is-your-favorite-sparkling-or-mineral-water ; alkaline https://health.clevelandclinic.org/alkaline-water-dont-believe-the-marketing-hype ; flavored/fortified https://health.clevelandclinic.org/is-flavored-water-good-for-you ; coconut https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coconut-water/faq-20207812 ; hardness https://pubs.usgs.gov/gip/gw/quality.html . Blurbs describe the category, not alleged health benefits. Expanded the bank across five horizontal dimensions: source, treatment, composition/salinity, physical state, and use/serving condition. Ice water is a drink served with ice; Ice is the solid phase. Cold water is chilled without requiring ice. Freshwater, saltwater, brackish water and brine are distinct salinity classes; greywater and blackwater are wastewater subclasses. Raw or non-potable sources are taxonomy entries, not safety claims. Added minerals, gases, proteins and botanical water beverages qualify. Ordinary flavor variants stay with Flavored water; established named grain/sap/aloe/cactus beverages have separate catches, consistently with the approved coconut/tonic exception. The open universe of regional beverages and marketed preparations remains a coverage limit. Expansion sources (nickname usage or ingredient/category identity and blurb facts): https://www.cdc.gov/drinking-water/about/how-water-treatment-works.html ; https://www.cdc.gov/drinking-water/about/drinking-water-sources-an-overview.html ; https://www.gov.za/sites/default/files/gcis_document/201409/29051a.pdf ; https://health.clevelandclinic.org/benefits-of-maple-water ; https://en.wikipedia.org/wiki/Birch_sap ; https://pricklee.com/products/prickly-pear ; https://en.wikipedia.org/wiki/Barley_water ; https://www.proteinwater.co/collections/whey ; https://molecularhydrogeninstitute.org/frequently-asked-questions/ ; https://www.cdc.gov/water-emergency/about/drinking-water-advisories-an-overview.html ; https://mineralizedwater.org/ ; https://en.wikipedia.org/wiki/Rice_water ; https://www.okaproducts.com/aloe-water/ . Runtime matching check: All exact aliases passed. Water, bottled, mineral, protein, collagen and RO retain their intended owners. Distiled softly suggests Distilled water. Horizontal expansion sources: common serving-temperature categories https://health.clevelandclinic.org/cold-water-vs-warm-water ; salinity classes including freshwater, brackish water, saltwater and brine https://pubs.usgs.gov/circ/2003/circ1262/ ; greywater and blackwater distinctions https://www.epa.gov/sites/production/files/2021-01/documents/cii-users-guide.pdf ; water phases https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle ; heavy water (D2O) https://www.nrc.gov/education-regulatory-research/glossary/heavy-water-d2o ; stormwater and runoff categories https://19january2021snapshot.epa.gov/sites/static/files/2016-11/documents/11-jay_garland.pdf. Final edge scan includes ritual, culturally named source, culinary, medical, acidity and untreated-source categories. Holy water and Pasta water earn the special 15-point QUIRKY score as familiar unexpected answers. Cooking water belongs to Pasta water, the least-rare represented cooking-liquid catch. Generic floral water/hydrosol belongs to Rose water (60); Orange blossom water requires its distinguishing flower. Ordinary orange/mint/berry flavors share Flavored water. Lourdes water is a source-specific catch and is not automatically blessed holy water; Zamzam identifies its named well. Icewater is an exact spelling alias of Ice water. H2O/plain/liquid/ordinary water follow the existing broad Water \u2192 Tap water (10) convention. Named medical and ritual preparations qualify; metaphorical phrases alone do not. Sources: https://www.vatican.va/content/leo-xiv/en/audiences/2026/documents/20260603-udienza-generale.html ; https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/pasta-water-tips-tricks ; https://www.kingarthurbaking.com/recipes/vegan-swiss-buttercream-recipe ; https://nielsenmassey.com/floral-flavors-recipes/ ; https://saudipedia.com/en/zamzam-well ; https://www.lourdes-france.com/en/the-water-of-lourdes/ ; https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a6422e1-feee-4095-8883-2b0837039e6e ; https://www.usgs.gov/faqs/can-lakes-near-volcanoes-become-acidic-enough-be-dangerous-people-and-animals ; https://www.cdc.gov/drinking-water/about/how-water-treatment-works.html . Gripe-water membership uses the FDA source recorded in Q6. Sewage/sewage water/sewer water are aliases of Wastewater (30), the basic used-water category; explicitly named Blackwater remains its own subtype catch. Definition reference: https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100GIOY.TXT . Comprehensive-source and creative coverage audit (13 October 2026): see coverage-audit.json for new answer evidence, source reconciliation and exclusions. Existing Worth values preserved; user approved generous new rarity scores and familiar unexpected water answers at QUIRKY 15. Central reference reconciliation: USGS hydrology glossary https://water.usgs.gov/water-basics_glossary.html ; FAO water-resource concepts https://www.fao.org/4/V5400E/v5400e05.htm ; EPA water-reuse taxonomy https://www.epa.gov/waterreuse/basic-information-about-water-reuse ; NRC water/isotope terminology. Literal household uses, cosmetic aqueous preparations, industrial ship waters, geological origin, biological production and nonstandard physical conditions qualify under the existing broad water wording. Metaphorical firewater/high water and brand names remain excluded. Light water \u2192 Tap water (10) under the existing ordinary-water ownership rule; confined groundwater \u2192 Artesian water; generic meltwater \u2192 Glacier water (85), the least-rare represented ice/snow melt-source catch. Bare reclaimed/recycled water has its own general reclaimed-water catch (60); potable reuse requires the drinking-water qualifier for the existing 100-point catch. Sterile water stays with its existing catch; preservative-containing bacteriostatic water requires its qualifier. Spaced Lime water retains the fruit-flavored-water owner; single-word Limewater and explicitly qualified Calcium hydroxide water identify the distinct chemical reagent. The normalizer preserves this word-spacing distinction. Cosmetic Micellar water is a distinct named preparation. Blue/green water use FAO resource-accounting meanings, not arbitrary colors. Connate water and ancient Fossil water are different classifications and remain distinct catches. Final semantic reconciliation: bare Whitewater \u2192 ordinary river rapids (60); qualified Amazonian/river-class Whitewater \u2192 sediment-rich river water (100). Bare Blackwater retains the sewage catch (85); Blackwater river requires the river qualifier (100). Bare Clear water/Clearwater \u2192 ordinary water/Tap water (10); the Amazonian Clearwater river class requires a river/type/Amazon qualifier (100). The three recognized Amazonian classes were centrally reconciled with https://aguasamazonicas.org/waters/river-types and independently with https://pmc.ncbi.nlm.nih.gov/articles/PMC7501869/ . Water of crystallization is structural water in hydrated crystals; no drinkability implication is made. Fossil-water identity independently checked at https://eros.usgs.gov/earthshots/fossil-water . Final source reconciliation adds Colloidal silver water; direct evidence: https://www.mskcc.org/cancer-care/integrative-medicine/herbs/colloidal-silver.",
         "answers": [
           {
             "points": 10,
@@ -39110,7 +39851,10 @@ window.DIVE_DAYS = [
               "H2O",
               "Plain water",
               "Liquid water",
-              "Ordinary water"
+              "Ordinary water",
+              "Light water",
+              "Clear water",
+              "Clearwater"
             ],
             "note": "Water supplied through taps, commonly by a public drinking-water system."
           },
@@ -39177,7 +39921,10 @@ window.DIVE_DAYS = [
             "forms": [
               "Artesian water",
               "Artesian",
-              "Artesian well water"
+              "Artesian well water",
+              "Confined groundwater",
+              "Confined ground water",
+              "Confined water"
             ],
             "note": "Water obtained from a confined aquifer under pressure."
           },
@@ -39297,7 +40044,8 @@ window.DIVE_DAYS = [
             "points": 60,
             "forms": [
               "Soft water",
-              "Soft"
+              "Soft",
+              "Softened water"
             ],
             "note": "Water with relatively low concentrations of hardness-causing minerals."
           },
@@ -39423,7 +40171,10 @@ window.DIVE_DAYS = [
             "points": 85,
             "forms": [
               "Glacier water",
-              "Glacial water"
+              "Glacial water",
+              "Meltwater",
+              "Melt water",
+              "Glacial meltwater"
             ],
             "note": "Drinking water sourced from glacial ice or its meltwater."
           },
@@ -39807,6 +40558,353 @@ window.DIVE_DAYS = [
               "Unfiltered water"
             ],
             "note": "Water that has not undergone treatment such as filtration or disinfection."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Bathwater",
+              "Bath water",
+              "Bathing water"
+            ],
+            "note": "Water used for bathing, classified by its use rather than mineral content."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Dishwater",
+              "Dish water",
+              "Washing up water"
+            ],
+            "note": "Water used for washing dishes, commonly containing detergent and food residues."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Micellar water",
+              "Micellar"
+            ],
+            "note": "An aqueous cosmetic cleanser used to remove makeup and clean skin."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bacteriostatic water",
+              "Bacteriostatic water for injection",
+              "BAC water"
+            ],
+            "note": "Sterile medical water containing a preservative such as benzyl alcohol."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ballast water",
+              "Ballast"
+            ],
+            "note": "Fresh or salt water carried in ship tanks to help maintain stability."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bilge water",
+              "Bilgewater",
+              "Bilge"
+            ],
+            "note": "Water collecting in the lowest parts of a vessel, often mixed with oil or other contaminants."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Produced water",
+              "Co-produced water",
+              "Coproduced water"
+            ],
+            "note": "Water brought to the surface during oil and gas production."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Reclaimed water",
+              "Recycled water",
+              "Reused water"
+            ],
+            "note": "Used water treated so it can serve another purpose, including irrigation or industry."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Perched groundwater",
+              "Perched ground water",
+              "Perched water"
+            ],
+            "note": "Groundwater held above a deeper groundwater body by an intervening unsaturated zone."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Unconfined groundwater",
+              "Unconfined ground water",
+              "Unconfined water"
+            ],
+            "note": "Groundwater in an aquifer whose water table is not capped by a confining layer."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Soil water",
+              "Soil moisture water"
+            ],
+            "note": "Water retained in soil, including the root-filled part of the unsaturated zone."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Capillary water"
+            ],
+            "note": "Water held in small soil pores by capillary forces."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Meteoric water"
+            ],
+            "note": "Water originating from atmospheric precipitation, including rain and snow."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Connate water"
+            ],
+            "note": "Water trapped in rock pore spaces during the formation of the enclosing sediments."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Fossil water",
+              "Fossil groundwater",
+              "Paleowater",
+              "Palaeowater"
+            ],
+            "note": "Ancient groundwater retained in aquifers over very long periods."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Magmatic water",
+              "Juvenile water"
+            ],
+            "note": "Water associated with magma and released through geological processes."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Metamorphic water"
+            ],
+            "note": "Water released or redistributed during metamorphic changes in rocks."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hydrothermal water",
+              "Geothermal water",
+              "Thermal water"
+            ],
+            "note": "Water heated underground as it circulates through hot rocks."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Blue water"
+            ],
+            "note": "In water-resource accounting, freshwater in rivers, lakes and groundwater stores."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Green water"
+            ],
+            "note": "In agricultural water accounting, precipitation retained in soil and available to plants."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dew",
+              "Dew water",
+              "Dewwater"
+            ],
+            "note": "Water droplets formed when atmospheric moisture condenses on a cool surface."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Condensate water",
+              "Condensed water",
+              "Condensate",
+              "Condensation water"
+            ],
+            "note": "Liquid water formed when water vapor condenses, including recovered water from equipment."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Supercooled water",
+              "Supercooled"
+            ],
+            "note": "Water that remains liquid below its usual freezing temperature."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Supercritical water",
+              "Supercritical"
+            ],
+            "note": "Water above its critical temperature and pressure, where distinct liquid and gas phases disappear."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tritiated water",
+              "Tritium water",
+              "HTO"
+            ],
+            "note": "Water containing tritium, a radioactive hydrogen isotope, distinct from deuterium-based heavy water."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Metabolic water"
+            ],
+            "note": "Water produced by chemical reactions during an organism's metabolism."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bound water"
+            ],
+            "note": "Water associated with biological materials or other structures, rather than freely moving bulk water."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bromine water"
+            ],
+            "note": "An aqueous bromine preparation used in chemical demonstrations and testing."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Limewater",
+              "Calcium hydroxide water",
+              "Calcium hydroxide solution"
+            ],
+            "note": "An aqueous calcium-hydroxide solution used in chemistry, distinct from fruit-flavored lime water."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Water of crystallization",
+              "Water of crystallisation",
+              "Crystal water",
+              "Water of hydration"
+            ],
+            "note": "Water incorporated in hydrated crystals, such as gypsum or hydrated copper sulfate."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Floodwater",
+              "Flood water"
+            ],
+            "note": "Water covering normally dry ground during floods, potentially carrying sewage or other contaminants."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Pool water",
+              "Swimming pool water"
+            ],
+            "note": "Water used in swimming pools, classified by recreational use rather than one particular treatment."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Contaminated water",
+              "Polluted water",
+              "Dirty water"
+            ],
+            "note": "Water affected by contamination, which may involve chemical, biological or other unwanted substances."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cooling water"
+            ],
+            "note": "Water used to carry heat away from equipment in industrial cooling systems."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Boiler water",
+              "Boiler feedwater",
+              "Boiler feed water"
+            ],
+            "note": "Water supplied to or used inside boilers, often requiring treatment suited to the equipment."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Witch-hazel water",
+              "Hamamelis water",
+              "Witch hazel distillate"
+            ],
+            "note": "A topical witch-hazel preparation also known as Hamamelis water."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Whitewater",
+              "White water",
+              "Rapids water"
+            ],
+            "note": "Turbulent water in river rapids, familiar from whitewater rafting."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Blackwater river water",
+              "Blackwater river",
+              "Amazon blackwater",
+              "Amazonian blackwater"
+            ],
+            "note": "A river-water class darkened by organic matter, distinct from sewage blackwater."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Whitewater river water",
+              "Whitewater river",
+              "Amazon whitewater",
+              "Amazonian whitewater"
+            ],
+            "note": "An Amazonian river-water class with abundant suspended sediment, distinct from the rapids meaning."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clearwater river water",
+              "Clearwater river",
+              "Amazon clearwater",
+              "Amazonian clearwater",
+              "Clearwater type"
+            ],
+            "note": "An Amazonian river-water class with low sediment and high transparency."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Colloidal silver water",
+              "Colloidal silver"
+            ],
+            "note": "An aqueous suspension of tiny silver particles, also known as colloidal silver water."
           }
         ]
       }
