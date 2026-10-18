@@ -1,0 +1,608 @@
+{
+  "observed": "2026-10-18",
+  "region": "US",
+  "endpoint": "https://podcastcharts.byspotify.com/api/charts/top-podcasts?region=us&limit=100",
+  "returned": 200,
+  "selected": [
+    {
+      "rank": 1,
+      "name": "The Joe Rogan Experience",
+      "publisher": "Joe Rogan",
+      "uri": "spotify:show:4rOoJ6Egrf8K2IrywzwOMk"
+    },
+    {
+      "rank": 2,
+      "name": "This Past Weekend w/ Theo Von",
+      "publisher": "Theo Von",
+      "uri": "spotify:show:6PwE1CIZsgfrhX6Bw96PUN"
+    },
+    {
+      "rank": 3,
+      "name": "Good Hang with Amy Poehler",
+      "publisher": "The Ringer",
+      "uri": "spotify:show:1z20EiwuKoDiftKxMVLde1"
+    },
+    {
+      "rank": 4,
+      "name": "Crime Junkie",
+      "publisher": "Audiochuck",
+      "uri": "spotify:show:3DgfoleqaW61T2amZQKINx"
+    },
+    {
+      "rank": 5,
+      "name": "The Shawn Ryan Show",
+      "publisher": "Shawn Ryan Show",
+      "uri": "spotify:show:5eodRZd3qR9VT1ip1wI7xQ"
+    },
+    {
+      "rank": 6,
+      "name": "The Daily",
+      "publisher": "The New York Times",
+      "uri": "spotify:show:3IM0lmZxpFAY7CwMuv9H4g"
+    },
+    {
+      "rank": 7,
+      "name": "On Purpose with Jay Shetty",
+      "publisher": "Perfect Strangers",
+      "uri": "spotify:show:5EqqB52m2bsr4k1Ii7sStc"
+    },
+    {
+      "rank": 8,
+      "name": "The Tucker Carlson Show",
+      "publisher": "Tucker Carlson Network",
+      "uri": "spotify:show:5L2ON33kXa2b7laBpCAgOI"
+    },
+    {
+      "rank": 9,
+      "name": "The Diary Of A CEO with Steven Bartlett",
+      "publisher": "FlightStory",
+      "uri": "spotify:show:7iQXmUT7XGuZSzAMjoNWlX"
+    },
+    {
+      "rank": 10,
+      "name": "Up First from NPR",
+      "publisher": "NPR",
+      "uri": "spotify:show:2mTUnDkuKUkhiueKcVWoP0"
+    },
+    {
+      "rank": 11,
+      "name": "Armchair Expert with Dax Shepard",
+      "publisher": "Armchair Umbrella",
+      "uri": "spotify:show:6kAsbP8pxwaU2kPibKTuHE"
+    },
+    {
+      "rank": 12,
+      "name": "The Journal.",
+      "publisher": "The Wall Street Journal",
+      "uri": "spotify:show:0KxdEdeY2Wb3zr28dMlQva"
+    },
+    {
+      "rank": 13,
+      "name": "Matt and Shane's Secret Podcast",
+      "publisher": "Matt McCusker & Shane Gillis",
+      "uri": "spotify:show:32p08HngccrVVyugc45Ljp"
+    },
+    {
+      "rank": 14,
+      "name": "The Tim Dillon Show",
+      "publisher": "The Tim Dillon Show",
+      "uri": "spotify:show:2gRd1woKiAazAKPWPkHjds"
+    },
+    {
+      "rank": 15,
+      "name": "Directed By",
+      "publisher": "Spotify Studios",
+      "uri": "spotify:show:6ZeO8U3XygZR5BPmnwtV5V"
+    },
+    {
+      "rank": 16,
+      "name": "Pardon My Take",
+      "publisher": "Barstool Sports",
+      "uri": "spotify:show:5ss1pqMFqWjkOpt6Ag0fZW"
+    },
+    {
+      "rank": 17,
+      "name": "Morbid",
+      "publisher": "Ash Kelley & Alaina Urquhart",
+      "uri": "spotify:show:1cpyLfDHP1cNnyOb478qrt"
+    },
+    {
+      "rank": 18,
+      "name": "Day in the Life",
+      "publisher": "Spotify",
+      "uri": "spotify:show:0WBq7fRaeCEDGNh9pcYG7a"
+    },
+    {
+      "rank": 19,
+      "name": "Smosh Reads Reddit Stories",
+      "publisher": "Smosh",
+      "uri": "spotify:show:6YqWo32NbxiptWx2hU00o5"
+    },
+    {
+      "rank": 20,
+      "name": "Bad Friends",
+      "publisher": "7EQUIS & Wave",
+      "uri": "spotify:show:3gaGfrqgnVqUBNDdtv5p3S"
+    },
+    {
+      "rank": 21,
+      "name": "Giggly Squad",
+      "publisher": "Hannah Berner & Paige DeSorbo",
+      "uri": "spotify:show:6gAg5FDBnoBGqlz7eFrtud"
+    },
+    {
+      "rank": 22,
+      "name": "The Bill Simmons Podcast",
+      "publisher": "The Ringer",
+      "uri": "spotify:show:07SjDmKb9iliEzpNcN2xGD"
+    },
+    {
+      "rank": 23,
+      "name": "Modern Wisdom",
+      "publisher": "Chris Williamson",
+      "uri": "spotify:show:0XrOqvxlqQI6bmdYHuIVnr"
+    },
+    {
+      "rank": 24,
+      "name": "Candace",
+      "publisher": "Candace Owens",
+      "uri": "spotify:show:6QdzTqSvD4KoLdrOqkFkPE"
+    },
+    {
+      "rank": 25,
+      "name": "Dateline NBC",
+      "publisher": "NBC News",
+      "uri": "spotify:show:3MGn724Y6BOSQzfmk3TyuY"
+    },
+    {
+      "rank": 26,
+      "name": "Two Hot Takes",
+      "publisher": "Reddit Stories",
+      "uri": "spotify:show:6kCMPmQxqL1gO0DNtqeyQl"
+    },
+    {
+      "rank": 27,
+      "name": "Rotten Mango",
+      "publisher": "Stephanie Soo",
+      "uri": "spotify:show:2DZwvzn6Z3xCFZrwZGDrbj"
+    },
+    {
+      "rank": 28,
+      "name": "Financial Audit",
+      "publisher": "Caleb Hammer",
+      "uri": "spotify:show:1Ii04MZEAoxLdHnjRtd5cG"
+    },
+    {
+      "rank": 29,
+      "name": "Huberman Lab",
+      "publisher": "Scicomm Media",
+      "uri": "spotify:show:79CkJF3UJTHFV8Dse3Oy0P"
+    },
+    {
+      "rank": 30,
+      "name": "The Toast",
+      "publisher": "Dear Media",
+      "uri": "spotify:show:2pC9RlB48sW1pwtz5PieJE"
+    },
+    {
+      "rank": 31,
+      "name": "CreepCast",
+      "publisher": "Wendigoon & MeatCanyon",
+      "uri": "spotify:show:5Pjt7qlcii0gLqvccowYhs"
+    },
+    {
+      "rank": 32,
+      "name": "The Mel Robbins Podcast",
+      "publisher": "Mel Robbins",
+      "uri": "spotify:show:7vz4RYsD5MulTCrcH478t1"
+    },
+    {
+      "rank": 33,
+      "name": "NPR News Now",
+      "publisher": "NPR",
+      "uri": "spotify:show:6BRSvIBNQnB68GuoXJRCnQ"
+    },
+    {
+      "rank": 34,
+      "name": "SmartLess",
+      "publisher": "Jason Bateman, Sean Hayes, Will Arnett",
+      "uri": "spotify:show:0Yzd0g8NYmn27k2HFNplv7"
+    },
+    {
+      "rank": 35,
+      "name": "Distractible",
+      "publisher": "Distractible",
+      "uri": "spotify:show:2X40qLyoj1wQ2qE5FVpA7x"
+    },
+    {
+      "rank": 36,
+      "name": "Pod Save America",
+      "publisher": "Pod Save America",
+      "uri": "spotify:show:5JGorGvdwljJHTl6wpMXN3"
+    },
+    {
+      "rank": 37,
+      "name": "Last Podcast On The Left",
+      "publisher": "The Last Podcast Network",
+      "uri": "spotify:show:3yZg2MCkf31pPXiG4nznrg"
+    },
+    {
+      "rank": 38,
+      "name": "JOURNEY with JOHNNY",
+      "publisher": "JOHNNY",
+      "uri": "spotify:show:7vZ9zFQm6SQhx8alZ2Fist"
+    },
+    {
+      "rank": 39,
+      "name": "STAN:A",
+      "publisher": "HYBE MEDIA STUDIO",
+      "uri": "spotify:show:3mNzAtzbx87dJmkrz7HtS5"
+    },
+    {
+      "rank": 40,
+      "name": "KILL TONY",
+      "publisher": "Golden Pony Productions",
+      "uri": "spotify:show:77iUVnajPyEWPhY6LxjpzM"
+    },
+    {
+      "rank": 41,
+      "name": "MrBallen Podcast: Strange, Dark & Mysterious Stories",
+      "publisher": "Ballen Studios",
+      "uri": "spotify:show:4NZWQf0wUsaT0tO9unlmra"
+    },
+    {
+      "rank": 42,
+      "name": "Chilling Scares",
+      "publisher": "Chilling Scares",
+      "uri": "spotify:show:033iZGnzxILEVchZ4EfQ67"
+    },
+    {
+      "rank": 43,
+      "name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "publisher": "All-In Podcast, LLC",
+      "uri": "spotify:show:2IqXAVFR4e0Bmyjsdc8QzF"
+    },
+    {
+      "rank": 44,
+      "name": "Spotify Hometown",
+      "publisher": "Spotify",
+      "uri": "spotify:show:4RYDlggv9X3VMgi8PyrFcX"
+    },
+    {
+      "rank": 45,
+      "name": "Fantasy Footballers - Fantasy Football Podcast",
+      "publisher": "Fantasy Football",
+      "uri": "spotify:show:5RaNsb5sKEBleahQa4MVC5"
+    },
+    {
+      "rank": 46,
+      "name": "The Basement Yard",
+      "publisher": "Santagato Studios",
+      "uri": "spotify:show:5uKsbyFWv7QI3smvZOO7In"
+    },
+    {
+      "rank": 47,
+      "name": "Today, Explained",
+      "publisher": "Vox",
+      "uri": "spotify:show:3pXx5SXzXwJxnf4A5pWN2A"
+    },
+    {
+      "rank": 48,
+      "name": "Call Her Daddy",
+      "publisher": "Alex Cooper",
+      "uri": "spotify:show:7bnjJ7Va1nM07Um4Od55dW"
+    },
+    {
+      "rank": 49,
+      "name": "Yoga with Kassandra",
+      "publisher": "Kassandra Reinhardt",
+      "uri": "spotify:show:0Kv53tjJYxQOzm179PVfCh"
+    },
+    {
+      "rank": 50,
+      "name": "Crime, Conspiracy, Cults and Murder",
+      "publisher": "Kallmekris",
+      "uri": "spotify:show:2mClgQ5t53TqBIAxxGjvnu"
+    },
+    {
+      "rank": 51,
+      "name": "2 Bears, 1 Cave with Tom Segura & Bert Kreischer",
+      "publisher": "2 Bears 1 Cave",
+      "uri": "spotify:show:1PgDUTgeyu3FOzK1FcBoqa"
+    },
+    {
+      "rank": 52,
+      "name": "So True with Caleb Hearon",
+      "publisher": "Wave",
+      "uri": "spotify:show:3EgXpWE5vz6JkRtjhenVOU"
+    },
+    {
+      "rank": 53,
+      "name": "The Ben Shapiro Show",
+      "publisher": "The Daily Wire",
+      "uri": "spotify:show:1WErgoXiZwgctkHLzqU6nf"
+    },
+    {
+      "rank": 54,
+      "name": "Morning Brew Daily",
+      "publisher": "Morning Brew",
+      "uri": "spotify:show:7nc7OQdPTekErtFSRxOBKh"
+    },
+    {
+      "rank": 55,
+      "name": "Live Free with Josh Howerton",
+      "publisher": "Lakepointe Church",
+      "uri": "spotify:show:353ryGdZNlebaiqkCcy3Yc"
+    },
+    {
+      "rank": 56,
+      "name": "This American Life",
+      "publisher": "This American Life",
+      "uri": "spotify:show:41zWZdWCpVQrKj7ykQnXRc"
+    },
+    {
+      "rank": 57,
+      "name": "PBD Podcast",
+      "publisher": "PBD Podcast",
+      "uri": "spotify:show:3FVOp5guWNV4b0S9pfuVcw"
+    },
+    {
+      "rank": 58,
+      "name": "The Rest Is History",
+      "publisher": "Goalhanger",
+      "uri": "spotify:show:7Cvsbcjhtur7nplC148TWy"
+    },
+    {
+      "rank": 59,
+      "name": "Therapuss with Jake Shane",
+      "publisher": "Jake Shane",
+      "uri": "spotify:show:1BHDdC0OVuHqZ706FobfOF"
+    },
+    {
+      "rank": 60,
+      "name": "The Ramsey Show",
+      "publisher": "Ramsey Network",
+      "uri": "spotify:show:5exfRPDNCBHmntEkJrlLmX"
+    },
+    {
+      "rank": 61,
+      "name": "Breaking News from Pod Save America",
+      "publisher": "Crooked Media",
+      "uri": "spotify:show:5MFujyXSc8DiN8kWVoAnNb"
+    },
+    {
+      "rank": 62,
+      "name": "Julian Dorey Podcast",
+      "publisher": "Julian Dorey",
+      "uri": "spotify:show:5skaSpDzq94Kh16so3c0uz"
+    },
+    {
+      "rank": 63,
+      "name": "The Why Files: Operation Podcast",
+      "publisher": "The Why Files",
+      "uri": "spotify:show:2hm3NRGFO5rRVDEhA0stZI"
+    },
+    {
+      "rank": 64,
+      "name": "Killer Stories with Harvey Guillén",
+      "publisher": "Spotify Studios",
+      "uri": "spotify:show:4ruq7mH0jg1sFi8KQhnGb8"
+    },
+    {
+      "rank": 65,
+      "name": "Flagrant",
+      "publisher": "Flagrant",
+      "uri": "spotify:show:0VjIStA3iUPJCqtiTSRhVY"
+    },
+    {
+      "rank": 66,
+      "name": "soundbuttonsspace",
+      "publisher": "soundbuttonsspace",
+      "uri": "spotify:show:6U6zYXkyjlaq3PkCXzNk2U"
+    },
+    {
+      "rank": 67,
+      "name": "Conan O’Brien Needs A Friend",
+      "publisher": "Team Coco & Earwolf",
+      "uri": "spotify:show:3u26tlz7A3WyWRtXliX9a9"
+    },
+    {
+      "rank": 68,
+      "name": "The Matt Walsh Show",
+      "publisher": "The Matt Walsh Show",
+      "uri": "spotify:show:1LeIhhawEPWj4uVLQV8Lkd"
+    },
+    {
+      "rank": 69,
+      "name": "Stuff You Should Know",
+      "publisher": "iHeartPodcasts",
+      "uri": "spotify:show:0ofXAdFIQQRsCYj9754UFx"
+    },
+    {
+      "rank": 70,
+      "name": "The Ezra Klein Show",
+      "publisher": "New York Times Opinion",
+      "uri": "spotify:show:3oB5noYIwEB2dMAREj2F7S"
+    },
+    {
+      "rank": 71,
+      "name": "My Favorite Murder with Karen Kilgariff and Georgia Hardstark",
+      "publisher": "Exactly Right and iHeartPodcasts",
+      "uri": "spotify:show:0U9S5J2ltMaKdxIfLuEjzE"
+    },
+    {
+      "rank": 72,
+      "name": "Let's Find Out",
+      "publisher": "Let's Find Out",
+      "uri": "spotify:show:2CQZ9HFBil0w98Ljoubz7d"
+    },
+    {
+      "rank": 73,
+      "name": "The Megyn Kelly Show",
+      "publisher": "SiriusXM",
+      "uri": "spotify:show:0awxEJH88Xur0GHXuteBLw"
+    },
+    {
+      "rank": 74,
+      "name": "The Broski Report with Brittany Broski",
+      "publisher": "Brittany Broski & Audioboom Studios",
+      "uri": "spotify:show:33krWUztuVv30QmHsrKwcE"
+    },
+    {
+      "rank": 75,
+      "name": "Danny Jones Podcast",
+      "publisher": "Danny Jones",
+      "uri": "spotify:show:4VTLG0HiIZaCjH9gE6NFPq"
+    },
+    {
+      "rank": 76,
+      "name": "Murder In America",
+      "publisher": "Bloody FM",
+      "uri": "spotify:show:7didcuJyAUG4B3a5RbdDEI"
+    },
+    {
+      "rank": 77,
+      "name": "The Rewatchables",
+      "publisher": "The Ringer",
+      "uri": "spotify:show:1lUPomulZRPquVAOOd56EW"
+    },
+    {
+      "rank": 78,
+      "name": "20/20",
+      "publisher": "ABC News",
+      "uri": "spotify:show:3ghsL8CzhRaJv0qzREZ9nU"
+    },
+    {
+      "rank": 79,
+      "name": "SoundEffectPodcast",
+      "publisher": "Mr.Sound",
+      "uri": "spotify:show:6aakHkxjdrrptbcJ7ICxjQ"
+    },
+    {
+      "rank": 80,
+      "name": "Nourish Move Love Home Workouts",
+      "publisher": "Lindsey Bomgren",
+      "uri": "spotify:show:00RMKoch89U9U5JDMlNvcu"
+    },
+    {
+      "rank": 81,
+      "name": "48 Hours",
+      "publisher": "48 Hours",
+      "uri": "spotify:show:0UetHF8bYSGBtDsjVl4GDv"
+    },
+    {
+      "rank": 82,
+      "name": "Murder With My Husband",
+      "publisher": "OH NO MEDIA",
+      "uri": "spotify:show:6GaodpBsSpBuUMhmEXhjK2"
+    },
+    {
+      "rank": 83,
+      "name": "Are You Garbage? Comedy Podcast",
+      "publisher": "Kevin Ryan & H. Foley",
+      "uri": "spotify:show:35Ntc5kndMt5uUCD3RtLhL"
+    },
+    {
+      "rank": 84,
+      "name": "The Big Picture",
+      "publisher": "The Ringer",
+      "uri": "spotify:show:6mTel3azvnK8isLs4VujvF"
+    },
+    {
+      "rank": 85,
+      "name": "Horror Stories",
+      "publisher": "Horror Stories",
+      "uri": "spotify:show:0ap4yuufxHppjcG7kbXQhx"
+    },
+    {
+      "rank": 86,
+      "name": "Brooke and Connor Make A Podcast",
+      "publisher": "TMG Studios",
+      "uri": "spotify:show:0zzyfgW2qW6y6w5molhrps"
+    },
+    {
+      "rank": 87,
+      "name": "Your Mom's House with Christina P. and Tom Segura",
+      "publisher": "Tom Segura",
+      "uri": "spotify:show:7i59GubTw3CcNy9M6m7DTX"
+    },
+    {
+      "rank": 88,
+      "name": "Conspiracy Theories",
+      "publisher": "Spotify Studios",
+      "uri": "spotify:show:5RdShpOtxKO3ZWohR2M6Sv"
+    },
+    {
+      "rank": 89,
+      "name": "Just Creepy: Scary Stories",
+      "publisher": "Just Creepy",
+      "uri": "spotify:show:1iBRwf9zg4O8gmn87yIGnF"
+    },
+    {
+      "rank": 90,
+      "name": "Park Predators",
+      "publisher": "Audiochuck",
+      "uri": "spotify:show:4M03qhBOIgqKezng4DSEhy"
+    },
+    {
+      "rank": 91,
+      "name": "The MeidasTouch Podcast",
+      "publisher": "MeidasTouch Network",
+      "uri": "spotify:show:34NcOzUEJs0T5DaUeYLfFl"
+    },
+    {
+      "rank": 92,
+      "name": "Snook",
+      "publisher": "Snook",
+      "uri": "spotify:show:2FH70nnKmpdV5PY0fp4F9Q"
+    },
+    {
+      "rank": 93,
+      "name": "The Bryce Crawford Podcast",
+      "publisher": "Bryce Crawford",
+      "uri": "spotify:show:6X8GCOmG1dH54RleBqm4up"
+    },
+    {
+      "rank": 94,
+      "name": "His Story: Animation Stories",
+      "publisher": "His Story",
+      "uri": "spotify:show:6alyG1Jw4KH03mXZlYtPkf"
+    },
+    {
+      "rank": 95,
+      "name": "The Ringer Fantasy Football Show",
+      "publisher": "The Ringer",
+      "uri": "spotify:show:0XLPhMzcKmxoNziHkVkYpR"
+    },
+    {
+      "rank": 96,
+      "name": "We Might Be Drunk",
+      "publisher": "Sam Morril and Mark Normand",
+      "uri": "spotify:show:406i4Sr4xMGX9D3XAdFN3r"
+    },
+    {
+      "rank": 97,
+      "name": "The MeatEater Podcast",
+      "publisher": "MeatEater",
+      "uri": "spotify:show:4WkDOrAK3uASgK2PRF7j9M"
+    },
+    {
+      "rank": 98,
+      "name": "Science Vs",
+      "publisher": "Spotify Studios",
+      "uri": "spotify:show:5lY4b5PGOvMuOYOjOVEcb9"
+    },
+    {
+      "rank": 99,
+      "name": "Ride with Benito Skinner and Mary Beth Barone",
+      "publisher": "Dear Media",
+      "uri": "spotify:show:730O5800vNDz8FBzvo3y8p"
+    },
+    {
+      "rank": 100,
+      "name": "Serialously with Annie Elise",
+      "publisher": "Annie Elise",
+      "uri": "spotify:show:6HdheEH8WeMTHoe5da34qU"
+    }
+  ]
+}

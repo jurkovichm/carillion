@@ -42,10 +42,22 @@ function postAnswerFact(index, item) {
 function roundTidbit(index) {
   return matchDay.id === '2026-09-28' ? legacyRoundTidbit(index) : questions[index].tidbit || '';
 }
+let modalReturnFocus = null;
+let recordedEpoch = -1;
 function close() {
   modal.classList.remove('open');
+  const target = roundState.phase === 'question' ? $('#answerInput') : modalReturnFocus;
+  if (target?.isConnected && !target.disabled) target.focus({ preventScroll: true });
+}
+function pauseFishing() {
+  if (roundState.phase !== 'question' || modal.classList.contains('open')) return;
+  show('CATCH YOUR BREATH', '<p>Your answer and remaining time are safe.</p><button class="action" id="resumeFishing">RESUME FISHING</button>');
+}
+function showFishingHelp() {
+  show('HOW TO FISH', '<p>Seven questions. You have 25 seconds to name one answer for each. Press Enter or Cast to submit; a correct answer ends that question.</p><p>Rarer answers earn more: 10, 15, 30, 60, 85 or 100 points. A spelling suggestion needs a second submission to confirm.</p><p>The clock pauses during casts and catches. Use Pause or Escape to take a break. Leaving this tab also pauses the question.</p><p>Give Up earns a −5 boot or skeleton, with a chance of a zero-point fact bottle. A loon may steal your final catch: win the chase to recover it, or recast.</p><p>Choose your angler before fishing. Explore with arrow keys, WASD or the walking stick. Earn your cap at 200 points, gown at 300 and ribbons at 350.</p><button class="action" id="resumeFishing">GOT IT</button>');
 }
 function show(title, body) {
+  if (!modal.classList.contains('open')) modalReturnFocus = document.activeElement;
   if (roundState.phase === 'question')
     pauseRoundClock();
   if (title === 'SETTINGS')
@@ -53,8 +65,9 @@ function show(title, body) {
       + themeSettingsMarkup()
       + `<div class="crt-setting"><label for="crtStrength">CRT effect <output id="crtValue" for="crtStrength">${crtStrength ? crtStrength + '%' : 'Off'}</output></label><input id="crtStrength" type="range" min="0" max="100" step="1" value="${crtStrength}" aria-valuetext="${crtStrength ? crtStrength + '%' : 'Off'}" aria-describedby="crtDescription"><div class="crt-range-labels"><span>Off</span><span>Strong</span></div><p id="crtDescription">Scanlines, phosphor texture, and soft screen edges.</p></div>`
       + `<p class="quick-setting"><label><input type="checkbox" id="quickMode"${quickMode ? ' checked' : ''}> Quick mode</label></p><p>Skips the catch pause and animations, for testing.</p>`;
-  content.innerHTML = `<h2>${title}</h2>${body}`;
+  content.innerHTML = `<h2 id="dialogTitle">${title}</h2>${body}`;
   modal.classList.add('open');
+  $('#close').focus({ preventScroll: true });
   fx('tap');
 }
 modal.addEventListener('input', e => {
@@ -74,17 +87,30 @@ function stopSpeech() {
     window.speechSynthesis.cancel();
 }
 function installFishingUI() {
+  $('.dialog').setAttribute('role', 'dialog');
+  $('.dialog').setAttribute('aria-modal', 'true');
+  $('.dialog').setAttribute('aria-labelledby', 'dialogTitle');
+  $('#answerInput').setAttribute('aria-label', 'Your answer');
+  $('#answerInput').setAttribute('aria-describedby', 'promptText inputFeedback softFill');
+  $('#inputFeedback').setAttribute('role', 'status');
+  $('#softFill').setAttribute('role', 'status');
+  $('#home').insertAdjacentHTML('beforeend', '<div class="home-help"><button type="button" id="fishingHelp">How to play</button><p id="personalBest"></p></div>');
+  $('#fishingHelp').onclick = showFishingHelp;
+  $('#personalBest').textContent = playerRecordLabel(selectedDay.id);
+  modal.addEventListener('click', event => { if (event.target.id === 'resumeFishing') close(); });
+
   $('.controls-top').insertAdjacentHTML('beforeend', `<button class="angler-control" id="chooseAngler" type="button" aria-haspopup="dialog"><canvas width="40" height="56" aria-hidden="true"></canvas><span>ANGLER<small id="selectedAnglerName"></small></span></button>`);
   $('#home').insertAdjacentHTML('afterbegin', `<div class="pregame-settings"><label class="day-label" for="selectDay">Select Day</label><select id="selectDay">${[...window.DIVE_DAYS].reverse().map(day => `<option value="${day.id}">${day.label}</option>`).join('')}</select></div>`);
   $('#selectDay').value = selectedDay.id;
   $('#selectDay').onchange = () => {
     if (roundState.phase === 'home') {
       selectedDay = window.DIVE_DAYS.find(day => day.id === $('#selectDay').value);
+      $('#personalBest').textContent = playerRecordLabel(selectedDay.id);
       $('#home .bottomrow>span').textContent = selectedDay.label;
     }
   };
   $('#home .bottomrow>span').textContent = selectedDay.label;
-  $('#gameUI').insertAdjacentHTML('beforeend', `<div class="round-actions hidden" id="roundActions"><span id="roundCatchCount">0 fish this question</span><button id="giveUpBtn" type="button">Give Up</button></div><div class="last-catch hidden" id="lastCatch" role="status"></div><div class="reward-toast hidden" id="rewardToast" role="status"></div>`);
+  $('#gameUI').insertAdjacentHTML('beforeend', `<div class="round-actions hidden" id="roundActions"><span id="roundCatchCount">0 fish this question</span><button id="pauseFishing" type="button">Pause</button><button id="giveUpBtn" type="button">Give Up</button></div><div class="last-catch hidden" id="lastCatch" role="status"></div><div class="reward-toast hidden" id="rewardToast" role="status"></div>`);
   $('#game').insertAdjacentHTML('beforeend', `<section class="character-picker hidden" id="characterPicker" role="dialog" aria-modal="true" aria-labelledby="pickerTitle"><div class="character-picker-panel"><button class="close" id="closePicker" aria-label="Close character selection">×</button><small class="picker-eyebrow">A QUIET RIVER. YOUR OWN STORY.</small><h2 id="pickerTitle">Choose your angler</h2><p>Same game. Three ways to fish.</p><div class="character-grid">${fishermanChoices.map((c, i) => `<button class="character-choice" type="button" data-character="${i}" aria-pressed="false"><canvas width="64" height="80" aria-hidden="true"></canvas><strong>${c.name}</strong><span>${c.description}</span></button>`).join('')}</div><div class="wardrobe-preview"><canvas id="wardrobePreview" width="120" height="70" aria-hidden="true"></canvas><span>Earn your graduation gear<br><small>200 · cap &nbsp; 300 · gown &nbsp; 350 · ribbons</small></span></div><button class="picker-confirm" id="confirmCharacter">FISH AS STUDENT →</button><p class="asset-status" id="assetStatus" role="status">Loading your anglers…</p></div></section>`);
   $('#chooseAngler').onclick = openCharacterPicker;
   $('#closePicker').onclick = closeCharacterPicker;
@@ -99,6 +125,7 @@ function installFishingUI() {
     if (button)
       selectFisherman(Number(button.dataset.character));
   });
+  $('#pauseFishing').onclick = pauseFishing;
   $('#giveUpBtn').onclick = () => finishQuestion('giveup');
   $('#close').onclick = close;
   $('#begin').onclick = begin;
@@ -174,6 +201,15 @@ function closeCharacterPicker() {
 }
 // Keep Escape and keyboard focus within the character picker.
 document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && roundState.phase === 'question' && !modal.classList.contains('open')) {
+    e.preventDefault(); e.stopImmediatePropagation(); pauseFishing(); return;
+  }
+  if (e.key === 'Tab' && modal.classList.contains('open')) {
+    const controls = [...modal.querySelectorAll('button:not(:disabled),input:not(:disabled),select:not(:disabled),a[href]')].filter(el => el.getClientRects().length);
+    const first = controls[0], last = controls.at(-1);
+    if (e.shiftKey && (document.activeElement === first || !modal.contains(document.activeElement))) { e.preventDefault(); last?.focus(); }
+    else if (!e.shiftKey && (document.activeElement === last || !modal.contains(document.activeElement))) { e.preventDefault(); first?.focus(); }
+  }
   if (e.key === 'Escape' && (!$('#characterPicker').classList.contains('hidden') || modal.classList.contains('open'))) {
     e.stopImmediatePropagation();
     if (!$('#characterPicker').classList.contains('hidden'))
@@ -227,6 +263,8 @@ function updateFishingHUD() {
 function updateClock() {
   seconds = Math.max(0, Math.ceil(roundState.remainingMs / 1000));
   $('#countdown').textContent = seconds;
+  $('.timer-dial').classList.toggle('time-low', seconds <= 5);
+  $('.timer-dial').setAttribute('aria-label', `${seconds} seconds remaining`);
   $('.timer-dial').style.setProperty('--time-left', Math.max(0, roundState.remainingMs / ROUND_MS));
 }
 function tickRoundClock() {
@@ -246,7 +284,7 @@ function pauseRoundClock() {
   }
 }
 function resumeRoundClock() {
-  if (roundState.phase !== 'question' || timer !== null || modal.classList.contains('open'))
+  if (roundState.phase !== 'question' || timer !== null || modal.classList.contains('open') || document.hidden)
     return;
   if (roundState.remainingMs <= 0) {
     finishQuestion('timeout');
@@ -271,7 +309,8 @@ function showQuestionInput() {
   $('#answerInput').placeholder = used.size ? 'Another answer…' : 'Type an answer…';
   updateFishingHUD();
   resumeRoundClock();
-  $('#answerInput').focus({ preventScroll: true });
+  if (document.hidden) pauseFishing();
+  else if (!modal.classList.contains('open')) $('#answerInput').focus({ preventScroll: true });
 }
 async function begin() {
   if (roundState.phase !== 'home')
@@ -279,6 +318,7 @@ async function begin() {
   if (typeof resetPregameWalk === 'function') resetPregameWalk();
   roundState.phase = 'loading';
   $('#begin').disabled = true;
+  $('#begin').textContent = 'LOADING YOUR CATCH…';
   try {
     await Promise.all([characterSpritesReady, basketSpritesReady, catchSpritesReady, loonSpritesReady]);
   }
@@ -287,6 +327,8 @@ async function begin() {
     roundState.phase = 'home';
     $('#assetStatus').textContent = 'Could not load the game art. Reload to try again.';
     $('#begin').disabled = false;
+    $('#begin').textContent = 'CAST YOUR LINE →';
+    show('ART COULD NOT LOAD', '<p>The game artwork could not load. Reload the page to try again.</p>');
     return;
   }
   if (assetFailure)
@@ -312,6 +354,7 @@ async function begin() {
   roundState.peakScore = 0;
   roundState.record = null;
   $('#begin').disabled = false;
+  $('#begin').textContent = 'CAST YOUR LINE →';
   $('#summaryScreen').classList.add('hidden');
   $('#characterPicker').classList.add('hidden');
   document.body.classList.add('playing');
@@ -700,6 +743,16 @@ function finishSummary() {
   $('#sharePreview').value = '';
   $('#sharePreview').classList.add('hidden');
   $('#summaryDive').textContent = matchDay.label;
+  if (recordedEpoch !== roundState.epoch) {
+    recordedEpoch = roundState.epoch;
+    const record = savePlayerResult(matchDay.id, score);
+    $('#summaryScreen .personal-record')?.remove();
+    const label = document.createElement('p');
+    label.className = 'personal-record';
+    label.textContent = `${record.newBest ? 'New personal best! · ' : ''}Best for this day: ${record.best} pts · ${record.plays} completed${record.saved ? '' : ' · Could not save on this device'}`;
+    $('#summaryDive').after(label);
+  }
+
   $('#summaryDepth').textContent = `${caughtFish.length} FISH · ${fishermanChoices[selectedFisherman].name.toUpperCase()}`;
   const maximum = questions.reduce((sum, q) => sum + Math.max(...q.answers.map(a => a.points)), 0);
   const percentage = Math.max(0, Math.min(100, score / maximum * 100));
@@ -771,7 +824,9 @@ function returnToRiver() {
   document.body.classList.remove('playing', 'showing-summary');
   $('#gameUI').classList.add('hidden');
   $('#summaryScreen').classList.add('hidden');
+  $('#personalBest').textContent = playerRecordLabel(selectedDay.id);
   $('#begin').focus();
 }
+document.addEventListener('visibilitychange', () => { if (document.hidden) pauseFishing(); });
 installFishingUI();
 soundButton();

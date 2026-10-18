@@ -1,0 +1,113 @@
+{
+  "runtime": "Unmodified normalizeAnswer, editDistance and softCandidate extracted directly from game-core.js; exact-first submission semantics inspected in fishing-game.js.",
+  "answerRows": 1208,
+  "exactFormsChecked": 2899,
+  "exactFormsCaseVariantsChecked": 2899,
+  "ownershipFixtures": 62,
+  "integersChecked": 1001,
+  "nonprimeIntegersRejected": 833,
+  "exploratory": [
+    {
+      "question": 1,
+      "input": "Corporation",
+      "name": "AES Corporation",
+      "kind": "confirmation-required"
+    },
+    {
+      "question": 1,
+      "input": "Hologic",
+      "name": null,
+      "kind": "rejected"
+    },
+    {
+      "question": 2,
+      "input": "Joe Rogn",
+      "name": null,
+      "kind": "rejected"
+    },
+    {
+      "question": 3,
+      "input": "Caeser",
+      "name": "Julius Caesar",
+      "kind": "confirmation-required"
+    },
+    {
+      "question": 3,
+      "input": "Maximus",
+      "name": "Magnus Maximus",
+      "kind": "exact"
+    },
+    {
+      "question": 3,
+      "input": "Julius",
+      "name": "Julius Caesar",
+      "kind": "exact"
+    },
+    {
+      "question": 4,
+      "input": "Madden",
+      "name": "Draft Champions",
+      "kind": "confirmation-required"
+    },
+    {
+      "question": 4,
+      "input": "Mode",
+      "name": "Pro Clubs",
+      "kind": "confirmation-required"
+    },
+    {
+      "question": 5,
+      "input": "grand",
+      "name": "Grand slam",
+      "kind": "confirmation-required"
+    },
+    {
+      "question": 5,
+      "input": "field",
+      "name": "Opposite-field home run",
+      "kind": "confirmation-required"
+    },
+    {
+      "question": 6,
+      "input": "Larry Nance Jr",
+      "name": null,
+      "kind": "rejected"
+    },
+    {
+      "question": 6,
+      "input": "Aaron Gordon",
+      "name": null,
+      "kind": "rejected"
+    },
+    {
+      "question": 7,
+      "input": "-2",
+      "name": "2",
+      "kind": "exact"
+    },
+    {
+      "question": 7,
+      "input": "1",
+      "name": null,
+      "kind": "rejected"
+    },
+    {
+      "question": 7,
+      "input": "999",
+      "name": null,
+      "kind": "rejected"
+    },
+    {
+      "question": 7,
+      "input": "1000",
+      "name": null,
+      "kind": "rejected"
+    },
+    {
+      "question": 7,
+      "input": "one hundred one",
+      "name": null,
+      "kind": "rejected"
+    }
+  ]
+}

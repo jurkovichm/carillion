@@ -1,0 +1,162 @@
+/* Shared interface finish. Loaded after seasonal and scene-specific styles. */
+:root {
+  --ui-panel: #133b31f2;
+  --ui-panel-solid: #12382f;
+  --ui-border: #9aaa80;
+  --ui-text: #f7efcf;
+  --ui-muted: #c3d0b0;
+  --ui-accent: #e8c879;
+  --ui-accent-hover: #f5d98c;
+  --ui-accent-border: #fff0b6;
+  --ui-ink: #233c2b;
+  --ui-shadow: #071e1e;
+  --ui-radius: 4px;
+  --ui-fast: 140ms;
+  --ui-enter: 220ms;
+  --ui-ease: cubic-bezier(.2,.7,.3,1);
+}
+:root[data-theme="autumn"] {
+  --ui-panel: #352720f2;
+  --ui-panel-solid: #352720;
+  --ui-border: #a28a70;
+  --ui-text: #fff0d4;
+  --ui-muted: #d6bc9b;
+  --ui-accent: #dbc49d;
+  --ui-accent-hover: #e7d4b5;
+  --ui-accent-border: #e9dac1;
+  --ui-ink: #35251d;
+  --ui-shadow: #281e17;
+}
+
+/* Panels share an edge and depth without changing their layout or anchors. */
+:is(.dialog,.hud-depth,.hud-score,.prompt-card,.answer-result,.soft-fill,
+    .last-catch,.wallet,.harbour-caption,.shoppe-panel,.flight-message,
+    .loon-overlay:not(.chasing) .loon-panel) {
+  background: var(--ui-panel);
+  color: var(--ui-text);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius);
+  box-shadow: 0 4px 0 var(--ui-shadow);
+}
+:is(.flight-message h2,.loon-panel h2,.dialog h2) { color: var(--ui-accent); }
+:is(.flight-message small,.shoppe-items small,.answer-result small) { color: var(--ui-muted); }
+
+/* Primary actions use the same gold; secondary actions retain the panel color. */
+:is(.begin,.answer-dock .answer button,.descend-btn,.summary-actions button,
+    .share-buttons button,.dialog .action,.flight-hud button,.flight-message button,
+    .flight-flap,.loon-overlay button,.harbour-prompt) {
+  background: var(--ui-accent);
+  color: var(--ui-ink);
+  border: 1px solid var(--ui-accent-border);
+  border-radius: var(--ui-radius);
+  box-shadow: 0 3px 0 var(--ui-shadow);
+}
+:is(.icon,.walk-menu,.round-actions button,.harbour-caption button,
+    .shoppe-panel button,.loon-overlay button.secondary) {
+  background: var(--ui-panel);
+  color: var(--ui-text);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius);
+  box-shadow: 0 3px 0 var(--ui-shadow);
+}
+:is(.character-select,.pregame-settings select,.theme-setting select,#selectDay,
+    .answer-dock .answer input) {
+  background: var(--ui-panel-solid);
+  color: var(--ui-text);
+  border-color: var(--ui-border);
+  border-radius: var(--ui-radius);
+}
+.answer-dock .answer input::placeholder { color: var(--ui-muted); }
+.answer-dock .answer input:focus {
+  border-color: var(--ui-accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb,var(--ui-accent) 25%,transparent);
+}
+
+/* Translate is independent of transform: centered controls keep their anchor. */
+:is(button,select,input,a,summary) {
+  transition: background-color var(--ui-fast) var(--ui-ease),
+    border-color var(--ui-fast) var(--ui-ease),
+    box-shadow var(--ui-fast) var(--ui-ease),
+    translate var(--ui-fast) var(--ui-ease);
+}
+:is(button,select,input,a,summary):focus-visible {
+  outline: 3px solid var(--ui-accent-border);
+  outline-offset: 3px;
+}
+@media (hover:hover) {
+  :is(.begin,.answer-dock .answer button,.descend-btn,.summary-actions button,
+      .share-buttons button,.dialog .action,.flight-hud button,.flight-message button,
+      .flight-flap,.loon-overlay button,.harbour-prompt):hover:not(:disabled) {
+    background: var(--ui-accent-hover);
+    filter: none;
+    box-shadow: 0 3px 0 var(--ui-shadow);
+  }
+  :is(.icon,.walk-menu,.round-actions button,.harbour-caption button,
+      .shoppe-panel button,.loon-overlay button.secondary):hover:not(:disabled) {
+    background: var(--ui-panel-solid);
+    border-color: var(--ui-accent);
+  }
+}
+:is(.begin,.icon,.walk-menu,.answer-dock .answer button,.descend-btn,
+    .summary-actions button,.share-buttons button,.dialog .action,.round-actions button,
+    .flight-hud button,.flight-message button,.flight-flap,.loon-overlay button,
+    .harbour-prompt,.harbour-caption button,.shoppe-panel button):active:not(:disabled) {
+  translate: 0 2px;
+  box-shadow: 0 1px 0 var(--ui-shadow);
+}
+.answer-dock .answer button:active { transform: none; }
+.descend-btn:active { transform: translateX(-50%); }
+button:disabled { cursor: default; }
+
+/* Fade in without overriding each component's positional transform. */
+@keyframes ui-appear { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion:no-preference) {
+  :is(.answer-result,.soft-fill,.input-feedback,.reward-toast,
+      .flight-message,.harbour-caption,.shoppe-panel,.loon-overlay:not(.chasing) .loon-panel) {
+    animation: ui-appear var(--ui-enter) var(--ui-ease) both;
+  }
+  .answer-dock { transition: opacity var(--ui-enter) var(--ui-ease),transform var(--ui-enter) var(--ui-ease); }
+}
+@media (prefers-reduced-motion:reduce) {
+  :is(button,select,input,a,summary):active { translate: none; }
+}
+
+/* The catch log and angler picker belong to the same lakeside interface. */
+.controls-top .angler-control {
+  background: var(--ui-panel);
+  color: var(--ui-text);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius);
+  box-shadow: 0 3px 0 var(--ui-shadow);
+}
+.summary-screen {
+  background: var(--ui-panel);
+  color: var(--ui-text);
+  scrollbar-color: var(--ui-accent) var(--ui-panel-solid);
+}
+:is(.catch-row,.log-row,.answer-bank,#sharePreview,.round-tidbit) {
+  background: var(--ui-panel-solid);
+  border-color: var(--ui-border);
+  color: var(--ui-text);
+}
+.catch-row>summary:hover { background: var(--ui-panel); }
+:is(.summary-brand,.summary-total,.catch-number,.log-row b,.distribution b,.source-note a) {
+  color: var(--ui-accent);
+  text-shadow: none;
+}
+:is(.summary-section h2,.catch-question,.catch-answer,.bank-answer) { color: var(--ui-text); }
+:is(.summary-kicker,.summary-label,.summary-depth,.score-position small,.source-note,.bank-answer small) { color: var(--ui-muted); }
+:is(.summary-head,.catch-body,.bank-answer,.distribution span,.score-track) { border-color: var(--ui-border); }
+.score-track { background: var(--ui-panel-solid); }
+.score-track i { background: var(--ui-accent); box-shadow: none; }
+
+.home-help { margin-top:12px; font-size:10px; line-height:1.5; color:var(--ui-text); }
+.home-help button { background:var(--ui-panel); border:1px solid var(--ui-border); border-radius:4px; color:var(--ui-text); padding:8px 16px; min-height:36px; font:inherit; cursor:pointer; }
+.home-help p { margin:8px 0 0; font-size:9px; letter-spacing:.04em; }
+.personal-record { color:var(--ui-accent); font-size:11px; line-height:1.6; letter-spacing:.04em; }
+.timer-dial.time-low { color:#ffe3bc; border-color:#eaaa73; }
+.timer-dial.time-low:before { background:conic-gradient(#eaaa73 calc(var(--time-left,1)*1turn),#59715755 0); }
+.round-actions { gap:8px; }
+.round-actions #roundCatchCount { margin-right:auto; }
+.dialog { max-height:85dvh; overflow-y:auto; }
+@media(max-height:600px) { .home-help { margin-top:5px; } .home-help p { margin-top:4px; } }

@@ -1,0 +1,370 @@
+{
+  "researchDate": "2026-10-18",
+  "status": "Complete: placed and built locally; no commit, push or deployment.",
+  "counts": {
+    "S&P 500 Companies": 500,
+    "Spotify Top 100 Podcasts": 100,
+    "Roman Emperors": 183,
+    "Game Modes in Madden or FIFA": 143,
+    "Words for Home Run": 81,
+    "NBA Dunk Champions": 33,
+    "Prime Numbers Under 1000": 168
+  },
+  "finiteReconciliation": {
+    "S&P": {
+      "primaryCatalogue": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+      "securitiesExtracted": 503,
+      "groupedBy": "CIK",
+      "companies": 500,
+      "independentCatalogue": "https://whichindex.com/indexes/sp-500/",
+      "independentRows": 502,
+      "onlyInMain": [
+        "FOX",
+        "GOOG",
+        "NWS"
+      ],
+      "onlyInIndependent": [
+        "HOLX",
+        "SKYD.WS"
+      ],
+      "resolution": "GOOG/FOX/NWS are alternate share classes of represented companies. HOLX was removed effective 9 April 2026, confirmed by S&P announcement. SKYD.WS is a warrant of an already represented company. No unresolved membership mismatch after these reconciliations.",
+      "pendingDraft": "532 rows; duplicate companies merged, departed constituents excluded, first matching Worth preserved. New company scores curated.",
+      "lateralReview": [
+        "Share classes are not additional companies",
+        "Spin-offs are separate current companies",
+        "Historical corporate names are aliases only where a current entity owns them",
+        "Subsidiary brands are not extra companies"
+      ],
+      "changeSources": [
+        "https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20260406-1482697/1482697_5holx.pdf",
+        "https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20260623-1484127/1484127_hon-jhg-bld-ari-1546.pdf",
+        "https://www.spindexinsight.com/index-changes/2026-10-06"
+      ],
+      "limitation": "Official full constituent download was not publicly accessible; complete secondary constituent tables were cross-checked and primary change notices used for discrepancies."
+    },
+    "Spotify": {
+      "sourceRows": 200,
+      "selected": 100,
+      "rule": "Take entries 1–100 in the official US Top Podcasts response, matching the site presentation.",
+      "independentVisibleRows": 41,
+      "independentStatus": "Podfollow exposes a partial list and has shifted ranks/historical titles. It corroborates recognizable chart members but is not a second complete extraction.",
+      "independentRows": [
+        {
+          "rank": 1,
+          "title": "The Joe Rogan Experience"
+        },
+        {
+          "rank": 3,
+          "title": "Good Hang with Amy Poehler"
+        },
+        {
+          "rank": 4,
+          "title": "Crime Junkie"
+        },
+        {
+          "rank": 5,
+          "title": "The Shawn Ryan Show"
+        },
+        {
+          "rank": 6,
+          "title": "The Daily"
+        },
+        {
+          "rank": 8,
+          "title": "On Purpose with Jay Shetty"
+        },
+        {
+          "rank": 11,
+          "title": "The Diary Of A CEO with Steven Bartlett"
+        },
+        {
+          "rank": 12,
+          "title": "Up First"
+        },
+        {
+          "rank": 13,
+          "title": "Armchair Expert with Dax Shepard"
+        },
+        {
+          "rank": 15,
+          "title": "Matt and Shane's Secret Podcast"
+        },
+        {
+          "rank": 17,
+          "title": "Pardon My Take"
+        },
+        {
+          "rank": 20,
+          "title": "Bad Friends"
+        },
+        {
+          "rank": 22,
+          "title": "The Bill Simmons Podcast"
+        },
+        {
+          "rank": 23,
+          "title": "Modern Wisdom"
+        },
+        {
+          "rank": 32,
+          "title": "The Mel Robbins Podcast"
+        },
+        {
+          "rank": 34,
+          "title": "NPR News Now"
+        },
+        {
+          "rank": 37,
+          "title": "Last Podcast On The Left"
+        },
+        {
+          "rank": 38,
+          "title": "Pod Save America"
+        },
+        {
+          "rank": 41,
+          "title": "MrBallen Podcast: Strange, Dark & Mysterious Stories"
+        },
+        {
+          "rank": 45,
+          "title": "Fantasy Footballers - Fantasy Football Podcast"
+        },
+        {
+          "rank": 47,
+          "title": "Today Explained"
+        },
+        {
+          "rank": 48,
+          "title": "Call Her Daddy"
+        },
+        {
+          "rank": 53,
+          "title": "The Ben Shapiro Show"
+        },
+        {
+          "rank": 56,
+          "title": "This American Life"
+        },
+        {
+          "rank": 57,
+          "title": "The Rest is History"
+        },
+        {
+          "rank": 59,
+          "title": "The Dave Ramsey Show"
+        },
+        {
+          "rank": 63,
+          "title": "Breaking News from Pod Save America"
+        },
+        {
+          "rank": 66,
+          "title": "Andrew Schulz's Flagrant 2 with Akaash and Kaz"
+        },
+        {
+          "rank": 67,
+          "title": "The Matt Walsh Show"
+        },
+        {
+          "rank": 68,
+          "title": "The Ezra Klein Show"
+        },
+        {
+          "rank": 69,
+          "title": "Stuff You Should Know"
+        },
+        {
+          "rank": 70,
+          "title": "My Favorite Murder with Karen Kilgariff and Georgia Hardstark"
+        },
+        {
+          "rank": 71,
+          "title": "Serial Killers"
+        },
+        {
+          "rank": 74,
+          "title": "Murder In America"
+        },
+        {
+          "rank": 80,
+          "title": "48 Hours"
+        },
+        {
+          "rank": 83,
+          "title": "Are You Garbage? Comedy Podcast"
+        },
+        {
+          "rank": 86,
+          "title": "Horror Stories"
+        },
+        {
+          "rank": 87,
+          "title": "Your Mom's House with Christina P. and Tom Segura"
+        },
+        {
+          "rank": 88,
+          "title": "Just Creepy: Scary Stories"
+        },
+        {
+          "rank": 90,
+          "title": "The Bryce Crawford Podcast"
+        },
+        {
+          "rank": 95,
+          "title": "Science Vs"
+        }
+      ],
+      "lateralReview": [
+        "Sound-effect, sleep and other nontraditional feeds retained when present",
+        "No manual replacement with more familiar shows",
+        "Host aliases do not create additional shows"
+      ]
+    },
+    "NBA": {
+      "modernCoverage": "1984–2026, excluding 1998 and 1999 when there was no dunk contest",
+      "distinctModernWinners": 32,
+      "additional1977Winner": "Darnell Hillman",
+      "finalDistinctWinners": 33,
+      "sources": [
+        "https://www.nba.com/news/history-slam-dunk-contest",
+        "https://en.wikipedia.org/wiki/Slam_Dunk_Contest",
+        "https://www.nba.com/pacers/news/darnell-hillman-fred-jones-announced-as-slam-dunk-judges"
+      ],
+      "excluded": {
+        "Julius Erving": "1976 ABA winner, not NBA contest winner",
+        "Paul George": "2014 team member, not the individual Dunker of the Night listed by the NBA"
+      },
+      "merged": "Repeat victories for the same player share one row."
+    },
+    "Primes": {
+      "sieveCount": 168,
+      "trialDivisionCount": 168,
+      "externalFullListCount": 168,
+      "externalFullListMatches": true,
+      "minimum": 2,
+      "maximum": 997,
+      "excluded": "0, 1, composites, negative numbers and values >=1000",
+      "lateralReview": "Boundary values and nonprime pseudoprime-looking numbers independently rejected."
+    }
+  },
+  "openBankReconciliation": {
+    "Romans": {
+      "coreExtracted": 105,
+      "additionalClaimantsAndException": 78,
+      "coreSource": "https://en.wikipedia.org/wiki/List_of_Roman_emperors",
+      "complementary": [
+        "https://en.wikipedia.org/wiki/List_of_Roman_usurpers",
+        "https://roman-emperors.sites.luc.edu/impindex.htm",
+        "https://www.livius.org/articles/misc/list-of-roman-emperors/"
+      ],
+      "independentPagination": "Read all eight Livius sections: first, second, third, fourth centuries; Gaul; Palmyra; fifth-century West; Byzantine list restricted to accessions through 476.",
+      "includedEdges": [
+        "Caesar house exception",
+        "Eastern contemporaries and young co-emperors",
+        "Gallic/British/Palmyrene imperial rulers including Zenobia",
+        "Nero impersonators",
+        "Numismatic claimants with explicit uncertainty",
+        "Alleged claims in specialist historical references"
+      ],
+      "excluded": {
+        "Anastasius I and later eastern emperors": "Accession after 476",
+        "Masties": "Uncertain start, generally placed after 476",
+        "Lucius Aelius": "Designated heir, never emperor or claimant",
+        "Odaenathus": "Loyal Palmyrene king, not an imperial claimant",
+        "Vindex": "Supported Galba rather than his own imperial claim",
+        "Felicissimus": "Mint revolt without a claim to the throne",
+        "Trebellianus, Celsus, Saturninus under Gallienus, Censorinus, Ovinius Camillus": "Fictional inventions rather than documented historical claimants",
+        "Firmus of 273": "Unreliable invented claimant; distinct later African Firmus is included",
+        "Ballista": "His supposed imperial status is dismissed by the specialist account; actual military role does not suffice"
+      },
+      "uncertainty": "Permissive claimant scope includes disputed reported figures such as Sponsian, Piso and Mareades; their blurbs explicitly disclose uncertainty. A complete undisputed claimant total does not exist.",
+      "exclusionSources": [
+        "https://roman-emperors.sites.luc.edu/galusurp.htm",
+        "https://roman-emperors.sites.luc.edu/aurelian.htm",
+        "https://penelope.uchicago.edu/thayer/e/roman/texts/historia_augusta/tyranni_xxx*.html"
+      ]
+    },
+    "Games": {
+      "evidenceFile": "game-evidence.json",
+      "centralInventories": [
+        "FIFA 20 official manual",
+        "Madden 19 official manual",
+        "Madden 26 Ultimate Team and Superstar inventories",
+        "FC 27 mode and Kickabouts inventories"
+      ],
+      "complementary": "Historical FIFA 11/World Cup 2014/FIFA Street and Madden 13/16 manuals, Madden wiki category, publisher press releases and official mobile feature notes.",
+      "branchesReviewed": [
+        "Core match modes",
+        "Career roles and story campaigns",
+        "Ultimate Team competitions",
+        "Street/World Cup/mobile variants",
+        "Training drills",
+        "Party games and named submodes",
+        "Recent FC 27 additions"
+      ],
+      "merged": [
+        "Annual versions and renamed same-mode experiences",
+        "Team Keepaway/Team Keep Away across football party modes",
+        "Ultimate Solo Seasons/The Run",
+        "Longshot/Homecoming",
+        "Connected Careers/Connected Franchise/Franchise"
+      ],
+      "excluded": [
+        "Player items, packs and rewards tracks",
+        "Settings such as competitive/simulation difficulty style",
+        "Individual career story chapters and achievements",
+        "Unverified fan-suggested names"
+      ],
+      "limit": "No exhaustive historical edition/platform/event registry exists; a comprehensive multi-source search cannot prove that no obscure historical mode remains."
+    },
+    "HomeRuns": {
+      "evidenceFile": "home-evidence.json",
+      "centralExtracted": "All 26 numbered MLB nickname entries, including two Spanish terms in one entry and subtype synonym merges; Dickson home-run and circuit entries; baseball glossary home-run expressions.",
+      "branchesReviewed": [
+        "Nicknames and verbs",
+        "Historical vocabulary",
+        "Spanish/French terms established in the consulted baseball references",
+        "Run counts",
+        "Trajectory and direction",
+        "Score situation",
+        "Consecutive hitters",
+        "Substitute hitters",
+        "Ballpark ground rules and named landing areas",
+        "Error-assisted colloquial usage"
+      ],
+      "merged": [
+        "Grand salami/Grand slam",
+        "Oppo taco/Oppo boppo/Opposite-field home run",
+        "Tense and spelling variants"
+      ],
+      "excluded": [
+        "Ground-rule double is not a home run",
+        "Robbed home run describes a prevented home run",
+        "Generic power-hitter terms identify people, not the hit",
+        "Arbitrary combinations of inning, opponent, date, color or hitter name"
+      ],
+      "limit": "Open language bank; no claim to every regional coinage or every possible plain compound description."
+    }
+  },
+  "aliasOwnership": {
+    "Romans": "Constantius → II (60), not I (85); Caesar → Julius Caesar; Marcus → Marcus Aurelius; numbered and regional rivals require qualifiers. Julius → Julius Caesar; Maximus → Magnus Maximus; Macrianus → Macrianus Minor.",
+    "Games": "Ultimate Team → FIFA; MUT → Madden; The League → Superstar; FUT/MUT/mobile-specific names require qualifiers.",
+    "NBA": "Robinson → Nate; Jones → Derrick; other similarly named winners require qualifiers.",
+    "HomeRuns": "Generic HR/home run → Homer; subtype qualifiers retained."
+  },
+  "validation": {
+    "stagingLoadPacks": "passed",
+    "runtimeEvidence": "matcher-audit.json",
+    "exactForms": 2899,
+    "ownershipFixtures": 62,
+    "nonnegativeIntegersChecked": 1001,
+    "knownLimitations": [
+      "Generic tokens can suggest unintended rows, with confirmation required.",
+      "Minus signs are stripped by the existing normalizer: -2 matches 2.",
+      "Some multiword typos such as Joe Rogn are not corrected."
+    ],
+    "gameCodeChanged": false,
+    "repositoryCheck": "Validated 10 days, 70 questions.",
+    "repositoryBuild": "Built 10 days, 70 questions."
+  }
+}

@@ -18,6 +18,11 @@ The application is static HTML, CSS, and JavaScript. It has no backend, npm buil
 
 ## Gameplay
 
+- **How to play** on the home screen explains answers, scoring, catches, exploration, and rewards.
+- **Pause** or Escape during a question preserves the answer and clock; Resume returns focus to the answer. Switching away from the tab pauses the question until resumed. Settings and help dialogs contain keyboard focus and support Escape.
+- Completed games save a personal best and completion count for each question day on this device. Records appear on the home screen and summary; answer text is not saved. Quick-mode games also count.
+- The timer changes colour for the last five seconds. Loading artwork shows a loading label or a visible error dialog.
+
 - The first correct answer ends the question, and the result remains until Next Cast.
 - Answers score 10, 15, 30, 60, 85, or 100 points. These are curated rarity tiers. Spelling suggestions appear without casting and require another submission to confirm and cast.
 - Each question starts with the rod on the angler's shoulder and the line out of the water. Each submitted guess plays a 0.85-second cast: the rod draws back, the line unfurls, and the float lands with a splash before the guess resolves. The answer clock pauses during the cast. Reduced motion and Quick mode skip it.
@@ -36,6 +41,7 @@ The application is static HTML, CSS, and JavaScript. It has no backend, npm buil
 | `index.html` | Page structure and ordered stylesheet/script loading |
 | `game.css` | Shared page, dialog, companion, and summary styles |
 | `fishing.css` | Fishing presentation and responsive overrides |
+| `presentation.css` | Shared seasonal panel/button finish, focus states, and UI motion |
 | `game-core.js` | Shared DOM helpers, sound, answer matching, legacy fact fallbacks, answer-bank rendering |
 | `game-ui.js` | Settings interactions and the Schiller companion |
 | `fishing-sprites.js` | Angler atlas and fish/loot sprite sampling and drawing |
@@ -67,6 +73,7 @@ python3 -B -m unittest discover -s tests -p 'test_*.py'
 python3 scripts/build_questions.py --check
 node tests/days.cjs
 node tests/share.cjs
+node tests/player-progress.cjs
 node tests/game.cjs
 node tests/theme.cjs
 node tests/boarding-loon.cjs

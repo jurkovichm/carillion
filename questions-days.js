@@ -40909,6 +40909,10208 @@ window.DIVE_DAYS = [
         ]
       }
     ]
+  },
+  {
+    "id": "2026-10-18",
+    "label": "18 October 2026",
+    "questions": [
+      {
+        "prompt": "S&P 500 Companies",
+        "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+        "sourceNote": "Curated general-trivia recall rarity, not measured response frequencies: 10/30/60/85/100; 15 is the separate QUIRKY exception. See coverage-audit.json for source reconciliation and edge decisions. Membership snapshot researched 18 October 2026. One company per catch: 503 constituent securities grouped into 500 companies; Alphabet, Fox and News Corp share classes are aliases. Current tickers are accepted, including single-letter tickers. Reconciled the complete Wikipedia constituent table against https://whichindex.com/indexes/sp-500/ and S&P change announcements. The independent list still carried removed Hologic and a Skydance warrant; neither creates a catch. S&P's Hologic deletion is documented at https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20260406-1482697/1482697_5holx.pdf . October Vylor/Twilio changes are independently corroborated at https://www.spindexinsight.com/index-changes/2026-10-06 . This is a dated snapshot, not an automatically updating bank. Retained first existing Worth values for matching companies in the unused Pending draft; removed obsolete companies and merged duplicate rows. New company scores use the agreed general-trivia scale. Google belongs to Alphabet, Facebook to Meta, General Electric to GE Aerospace, Honeywell to Honeywell Technologies and Paramount to Skydance. Separate spin-offs require their distinguishing names. Blurbs use the source table's industry and headquarters, not investment claims. Existing matcher limitation: a generic word such as Corporation can still suggest a company and requires confirmation; it is not an intentional exact alias.",
+        "answers": [
+          {
+            "points": 30,
+            "forms": [
+              "3M",
+              "3M Company",
+              "MMM",
+              "Minnesota Mining and Manufacturing"
+            ],
+            "note": "Listed in the industrial conglomerates industry, with headquarters in Saint Paul, Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "A. O. Smith",
+              "A. O. Smith Corporation",
+              "AOS",
+              "AO Smith"
+            ],
+            "note": "Listed in the building products industry, with headquarters in Milwaukee , Wisconsin."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Abbott Laboratories",
+              "ABT",
+              "Abbott"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in North Chicago, Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AbbVie",
+              "AbbVie Inc.",
+              "ABBV"
+            ],
+            "note": "Listed in the biotechnology industry, with headquarters in North Chicago, Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Accenture",
+              "Accenture plc",
+              "ACN"
+            ],
+            "note": "Listed in the it consulting & other services industry, with headquarters in Dublin , Ireland."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Adobe Inc.",
+              "Adobe",
+              "ADBE"
+            ],
+            "note": "Listed in the application software industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Advanced Micro Devices",
+              "Advanced Micro Devices Inc.",
+              "AMD"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AES Corporation",
+              "AES",
+              "The AES Corporation"
+            ],
+            "note": "Listed in the independent power producers & energy traders industry, with headquarters in Arlington, Virginia."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Aflac",
+              "AFL"
+            ],
+            "note": "Listed in the life & health insurance industry, with headquarters in Columbus, Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Agilent Technologies",
+              "A",
+              "Agilent"
+            ],
+            "note": "Listed in the life sciences tools & services industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Air Products",
+              "APD",
+              "Air Products and Chemicals"
+            ],
+            "note": "Listed in the industrial gases industry, with headquarters in Upper Macungie Township, Pennsylvania."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Airbnb",
+              "ABNB"
+            ],
+            "note": "Listed in the hotels, resorts & cruise lines industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Akamai Technologies",
+              "AKAM",
+              "Akamai"
+            ],
+            "note": "Listed in the internet services & infrastructure industry, with headquarters in Cambridge, Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Albemarle Corporation",
+              "Albemarle",
+              "ALB"
+            ],
+            "note": "Listed in the specialty chemicals industry, with headquarters in Charlotte, North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alexandria Real Estate Equities",
+              "ARE",
+              "Alexandria"
+            ],
+            "note": "Listed in the office reits industry, with headquarters in Pasadena, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Align Technology",
+              "ALGN",
+              "Align",
+              "Invisalign"
+            ],
+            "note": "Listed in the health care supplies industry, with headquarters in Tempe, Arizona."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Allegion",
+              "Allegion plc",
+              "ALLE"
+            ],
+            "note": "Listed in the building products industry, with headquarters in Dublin , Ireland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alliant Energy",
+              "Alliant Energy Corporation",
+              "LNT",
+              "Alliant"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Madison, Wisconsin."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Allstate",
+              "The Allstate Corporation",
+              "ALL",
+              "Allstate Insurance"
+            ],
+            "note": "Listed in the property & casualty insurance industry, with headquarters in Northbrook, Illinois."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Alphabet Inc.",
+              "Alphabet",
+              "GOOGL",
+              "GOOG",
+              "Google"
+            ],
+            "note": "Listed in the interactive media & services industry, with headquarters in Mountain View, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Altria",
+              "MO",
+              "Altria Group",
+              "Philip Morris USA"
+            ],
+            "note": "Listed in the tobacco industry, with headquarters in Richmond, Virginia."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Amazon",
+              "AMZN",
+              "Amazon.com",
+              "Amazon.com Inc."
+            ],
+            "note": "Listed in the broadline retail industry, with headquarters in Seattle , Washington."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Amcor",
+              "Amcor plc",
+              "AMCR"
+            ],
+            "note": "Listed in the paper & plastic packaging products & materials industry, with headquarters in Warmley , Bristol , United Kingdom."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ameren",
+              "Ameren Corporation",
+              "AEE"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in St. Louis , Missouri."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "American Electric Power",
+              "American Electric Power Company",
+              "AEP"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Columbus, Ohio."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "American Express",
+              "American Express Company",
+              "AXP",
+              "Amex"
+            ],
+            "note": "Listed in the consumer finance industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "American International Group",
+              "AIG"
+            ],
+            "note": "Listed in the multi-line insurance industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "American Tower",
+              "American Tower Corporation",
+              "AMT"
+            ],
+            "note": "Listed in the telecom tower reits industry, with headquarters in Boston , Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "American Water Works",
+              "American Water Works Company",
+              "AWK",
+              "American Water"
+            ],
+            "note": "Listed in the water utilities industry, with headquarters in Camden, New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ameriprise Financial",
+              "AMP",
+              "Ameriprise"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in Minneapolis , Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ametek",
+              "AMETEK Inc.",
+              "AME"
+            ],
+            "note": "Listed in the electrical components & equipment industry, with headquarters in Berwyn, Pennsylvania."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Amgen",
+              "Amgen Inc.",
+              "AMGN"
+            ],
+            "note": "Listed in the biotechnology industry, with headquarters in Thousand Oaks, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Amphenol",
+              "Amphenol Corporation",
+              "APH"
+            ],
+            "note": "Listed in the electronic components industry, with headquarters in Wallingford, Connecticut."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Analog Devices",
+              "Analog Devices Inc.",
+              "ADI"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Wilmington, Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aon plc",
+              "Aon"
+            ],
+            "note": "Listed in the insurance brokers industry, with headquarters in London , United Kingdom."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "APA Corporation",
+              "APA",
+              "Apache Corporation"
+            ],
+            "note": "Listed in the oil & gas exploration & production industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Apollo Global Management",
+              "APO",
+              "Apollo"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Apple Inc.",
+              "Apple",
+              "AAPL"
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in Cupertino, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Applied Materials",
+              "Applied Materials Inc.",
+              "AMAT"
+            ],
+            "note": "Listed in the semiconductor materials & equipment industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AppLovin",
+              "APP"
+            ],
+            "note": "Listed in the advertising industry, with headquarters in Palo Alto, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aptiv",
+              "Aptiv PLC",
+              "APTV"
+            ],
+            "note": "Listed in the automotive parts & equipment industry, with headquarters in Schaffhausen , Switzerland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Arch Capital Group",
+              "ACGL",
+              "Arch Capital",
+              "Arch"
+            ],
+            "note": "Listed in the property & casualty insurance industry, with headquarters in Hamilton, Bermuda."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Archer Daniels Midland",
+              "ADM"
+            ],
+            "note": "Listed in the agricultural products & services industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ares Management",
+              "ARES"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in Los Angeles , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Arista Networks",
+              "ANET",
+              "Arista"
+            ],
+            "note": "Listed in the communications equipment industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Arthur J. Gallagher & Co.",
+              "Arthur J. Gallagher",
+              "AJG",
+              "Gallagher"
+            ],
+            "note": "Listed in the insurance brokers industry, with headquarters in Rolling Meadows, Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Assurant",
+              "Assurant Inc.",
+              "AIZ"
+            ],
+            "note": "Listed in the multi-line insurance industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "AT&T",
+              "AT&T Inc.",
+              "T"
+            ],
+            "note": "Listed in the integrated telecommunication services industry, with headquarters in Dallas , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Atmos Energy",
+              "Atmos Energy Corporation",
+              "ATO"
+            ],
+            "note": "Listed in the gas utilities industry, with headquarters in Dallas , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Autodesk",
+              "ADSK"
+            ],
+            "note": "Listed in the application software industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Automatic Data Processing",
+              "ADP"
+            ],
+            "note": "Listed in the human resource & employment services industry, with headquarters in Roseland, New Jersey."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AutoZone",
+              "AutoZone Inc.",
+              "AZO"
+            ],
+            "note": "Listed in the automotive retail industry, with headquarters in Memphis, Tennessee."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Avery Dennison",
+              "Avery Dennison Corporation",
+              "AVY"
+            ],
+            "note": "Listed in the paper & plastic packaging products & materials industry, with headquarters in Mentor, Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Axon Enterprise",
+              "AXON",
+              "Taser"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Scottsdale, Arizona."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Baker Hughes",
+              "Baker Hughes Company",
+              "BKR"
+            ],
+            "note": "Listed in the oil & gas equipment & services industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ball Corporation",
+              "Ball",
+              "Ball Corp"
+            ],
+            "note": "Listed in the metal, glass & plastic containers industry, with headquarters in Broomfield, Colorado."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Bank of America",
+              "Bank of America Corporation",
+              "BAC",
+              "BofA"
+            ],
+            "note": "Listed in the diversified banks industry, with headquarters in Charlotte, North Carolina."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Baxter International",
+              "BAX",
+              "Baxter"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Deerfield, Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Becton Dickinson",
+              "BDX",
+              "BD",
+              "Becton Dickinson and Company"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Franklin Lakes, New Jersey."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Berkshire Hathaway",
+              "Berkshire Hathaway Inc.",
+              "BRK.B",
+              "Berkshire",
+              "BRKB"
+            ],
+            "note": "Listed in the multi-sector holdings industry, with headquarters in Omaha, Nebraska."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Best Buy",
+              "Best Buy Co.",
+              "BBY"
+            ],
+            "note": "Listed in the computer & electronics retail industry, with headquarters in Richfield, Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bio-Techne",
+              "TECH"
+            ],
+            "note": "Listed in the life sciences tools & services industry, with headquarters in Minneapolis , Minnesota."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Biogen",
+              "Biogen Inc.",
+              "BIIB"
+            ],
+            "note": "Listed in the biotechnology industry, with headquarters in Cambridge, Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "BlackRock",
+              "BlackRock Inc.",
+              "BLK"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Blackstone Inc.",
+              "Blackstone",
+              "BX"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Block, Inc.",
+              "Block",
+              "XYZ",
+              "Square"
+            ],
+            "note": "Listed in the transaction & payment processing services industry, with headquarters in none."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bloom Energy",
+              "BE"
+            ],
+            "note": "Listed in the electrical components & equipment industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "BNY Mellon",
+              "BNY",
+              "Bank of New York Mellon",
+              "Bank of New York"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Boeing",
+              "The Boeing Company",
+              "BA"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Arlington, Virginia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Booking Holdings",
+              "Booking",
+              "BKNG",
+              "Priceline"
+            ],
+            "note": "Listed in the hotels, resorts & cruise lines industry, with headquarters in Norwalk, Connecticut."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boston Scientific",
+              "Boston Scientific Corporation",
+              "BSX"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Marlborough, Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bristol Myers Squibb",
+              "BMY",
+              "BMS"
+            ],
+            "note": "Listed in the pharmaceuticals industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Broadcom",
+              "Broadcom Inc.",
+              "AVGO"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Palo Alto, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Broadridge Financial Solutions",
+              "BR",
+              "Broadridge"
+            ],
+            "note": "Listed in the data processing & outsourced services industry, with headquarters in Lake Success, New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brown & Brown",
+              "Brown & Brown Inc.",
+              "BRO"
+            ],
+            "note": "Listed in the insurance brokers industry, with headquarters in Daytona Beach, Florida."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brown\u2013Forman",
+              "Brown-Forman Corporation",
+              "BF.B"
+            ],
+            "note": "Listed in the distillers & vintners industry, with headquarters in Louisville, Kentucky."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bunge Global",
+              "BG",
+              "Bunge",
+              "Bunge Limited"
+            ],
+            "note": "Listed in the agricultural products & services industry, with headquarters in Chesterfield, Missouri."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "BXP",
+              "BXP, Inc.",
+              "Boston Properties"
+            ],
+            "note": "Listed in the office reits industry, with headquarters in Boston , Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "C.H. Robinson",
+              "CHRW",
+              "CH Robinson",
+              "C.H. Robinson Worldwide"
+            ],
+            "note": "Listed in the air freight & logistics industry, with headquarters in Eden Prairie, Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cadence Design Systems",
+              "CDNS",
+              "Cadence"
+            ],
+            "note": "Listed in the application software industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Camden Property Trust",
+              "CPT",
+              "Camden",
+              "Camden Property"
+            ],
+            "note": "Listed in the multi-family residential reits industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Capital One",
+              "COF",
+              "Capital One Financial"
+            ],
+            "note": "Listed in the consumer finance industry, with headquarters in Tysons Corner, Virginia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cardinal Health",
+              "Cardinal Health Inc.",
+              "CAH"
+            ],
+            "note": "Listed in the health care distributors industry, with headquarters in Dublin, Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Carnival Corporation",
+              "Carnival",
+              "CCL",
+              "Carnival Cruise Line"
+            ],
+            "note": "Listed in the hotels, resorts & cruise lines industry, with headquarters in Miami , Florida."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Carrier Global",
+              "CARR",
+              "Carrier"
+            ],
+            "note": "Listed in the building products industry, with headquarters in Palm Beach Gardens, Florida."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Carvana",
+              "CVNA"
+            ],
+            "note": "Listed in the automotive retail industry, with headquarters in Tempe, Arizona."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Casey's",
+              "CASY"
+            ],
+            "note": "Listed in the food retail industry, with headquarters in Ankeny, Iowa."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Caterpillar Inc.",
+              "Caterpillar",
+              "CAT"
+            ],
+            "note": "Listed in the construction machinery & heavy transportation equipment industry, with headquarters in Irving, Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cboe Global Markets",
+              "CBOE",
+              "Chicago Board Options Exchange"
+            ],
+            "note": "Listed in the financial exchanges & data industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CBRE Group",
+              "CBRE"
+            ],
+            "note": "Listed in the real estate services industry, with headquarters in Dallas , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CDW Corporation",
+              "CDW"
+            ],
+            "note": "Listed in the technology distributors industry, with headquarters in Vernon Hills, Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cencora",
+              "COR",
+              "AmerisourceBergen",
+              "AmerisourceBergen Corporation"
+            ],
+            "note": "Listed in the health care distributors industry, with headquarters in Conshohocken, Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Centene Corporation",
+              "Centene",
+              "CNC"
+            ],
+            "note": "Listed in the managed health care industry, with headquarters in St. Louis , Missouri."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CenterPoint Energy",
+              "CNP",
+              "CenterPoint"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CF Industries",
+              "CF Industries Holdings",
+              "CF"
+            ],
+            "note": "Listed in the fertilizers & agricultural chemicals industry, with headquarters in Deerfield, Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Charles River Laboratories",
+              "CRL",
+              "Charles River"
+            ],
+            "note": "Listed in the life sciences tools & services industry, with headquarters in Wilmington, Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charles Schwab Corporation",
+              "Charles Schwab",
+              "SCHW",
+              "Schwab"
+            ],
+            "note": "Listed in the investment banking & brokerage industry, with headquarters in Westlake, Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charter Communications",
+              "CHTR",
+              "Charter",
+              "Spectrum"
+            ],
+            "note": "Listed in the cable & satellite industry, with headquarters in Stamford, Connecticut."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Chevron Corporation",
+              "Chevron",
+              "CVX"
+            ],
+            "note": "Listed in the integrated oil & gas industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chipotle Mexican Grill",
+              "CMG",
+              "Chipotle"
+            ],
+            "note": "Listed in the restaurants industry, with headquarters in Newport Beach, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chubb Limited",
+              "Chubb",
+              "CB"
+            ],
+            "note": "Listed in the property & casualty insurance industry, with headquarters in Zurich, Switzerland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Church & Dwight",
+              "CHD",
+              "Church and Dwight"
+            ],
+            "note": "Listed in the household products industry, with headquarters in Ewing, New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ciena",
+              "CIEN"
+            ],
+            "note": "Listed in the communications equipment industry, with headquarters in Hanover, Maryland."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cigna",
+              "Cigna Corporation",
+              "CI",
+              "Cigna Group"
+            ],
+            "note": "Listed in the health care services industry, with headquarters in Bloomfield, Connecticut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cincinnati Financial",
+              "Cincinnati Financial Corporation",
+              "CINF"
+            ],
+            "note": "Listed in the property & casualty insurance industry, with headquarters in Fairfield, Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cintas",
+              "Cintas Corporation",
+              "CTAS"
+            ],
+            "note": "Listed in the diversified support services industry, with headquarters in Mason, Ohio."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cisco",
+              "CSCO",
+              "Cisco Systems"
+            ],
+            "note": "Listed in the communications equipment industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Citigroup",
+              "Citigroup Inc.",
+              "C",
+              "Citi"
+            ],
+            "note": "Listed in the diversified banks industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Citizens Financial Group",
+              "CFG",
+              "Citizens Bank",
+              "Citizens Financial"
+            ],
+            "note": "Listed in the regional banks industry, with headquarters in Providence, Rhode Island."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Clorox",
+              "The Clorox Company",
+              "CLX"
+            ],
+            "note": "Listed in the household products industry, with headquarters in Oakland, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CME Group",
+              "CME",
+              "Chicago Mercantile Exchange"
+            ],
+            "note": "Listed in the financial exchanges & data industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CMS Energy",
+              "CMS Energy Corporation",
+              "CMS"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in Jackson, Michigan."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Coca-Cola",
+              "Coca-Cola Company (The)",
+              "The Coca-Cola Company",
+              "KO",
+              "Coke"
+            ],
+            "note": "Listed in the soft drinks & non-alcoholic beverages industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cognizant",
+              "CTSH",
+              "Cognizant Technology Solutions"
+            ],
+            "note": "Listed in the it consulting & other services industry, with headquarters in Teaneck, New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Coherent Corp.",
+              "Coherent",
+              "COHR",
+              "II-VI"
+            ],
+            "note": "Listed in the electronic components industry, with headquarters in Saxonburg, Pennsylvania."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Coinbase",
+              "COIN"
+            ],
+            "note": "Listed in the financial exchanges & data industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Colgate-Palmolive",
+              "CL",
+              "Colgate"
+            ],
+            "note": "Listed in the household products industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Comcast",
+              "Comcast Corporation",
+              "CMCSA",
+              "Xfinity"
+            ],
+            "note": "Listed in the cable & satellite industry, with headquarters in Philadelphia , Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Comfort Systems USA",
+              "FIX"
+            ],
+            "note": "Listed in the construction & engineering industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "ConocoPhillips",
+              "COP"
+            ],
+            "note": "Listed in the oil & gas exploration & production industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Consolidated Edison",
+              "ED",
+              "Con Edison",
+              "ConEd"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Constellation Brands",
+              "Constellation Brands Inc.",
+              "STZ"
+            ],
+            "note": "Listed in the distillers & vintners industry, with headquarters in Rochester, New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Constellation Energy",
+              "Constellation Energy Corporation",
+              "CEG",
+              "Constellation"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Baltimore , Maryland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cooper Companies",
+              "Cooper Companies (The)",
+              "The Cooper Companies",
+              "COO",
+              "CooperVision"
+            ],
+            "note": "Listed in the health care supplies industry, with headquarters in San Ramon, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Copart",
+              "Copart Inc.",
+              "CPRT"
+            ],
+            "note": "Listed in the diversified support services industry, with headquarters in Dallas , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Corning Inc.",
+              "Corning",
+              "GLW"
+            ],
+            "note": "Listed in the electronic components industry, with headquarters in Corning, New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Corpay",
+              "CPAY",
+              "FleetCor",
+              "FleetCor Technologies"
+            ],
+            "note": "Listed in the transaction & payment processing services industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CoStar Group",
+              "CSGP"
+            ],
+            "note": "Listed in the real estate services industry, with headquarters in Washington, D.C.."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Costco",
+              "COST",
+              "Costco Wholesale"
+            ],
+            "note": "Listed in the consumer staples merchandise retail industry, with headquarters in Issaquah, Washington."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CRH plc",
+              "CRH"
+            ],
+            "note": "Listed in the construction materials industry, with headquarters in Dublin , Ireland."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CrowdStrike",
+              "CRWD"
+            ],
+            "note": "Listed in the systems software industry, with headquarters in Austin, Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Crown Castle",
+              "Crown Castle Inc.",
+              "CCI"
+            ],
+            "note": "Listed in the telecom tower reits industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CSX Corporation",
+              "CSX"
+            ],
+            "note": "Listed in the rail transportation industry, with headquarters in Jacksonville, Florida."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cummins",
+              "Cummins Inc.",
+              "CMI"
+            ],
+            "note": "Listed in the construction machinery & heavy transportation equipment industry, with headquarters in Columbus, Indiana."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "CVS Health",
+              "CVS",
+              "CVS Caremark"
+            ],
+            "note": "Listed in the health care services industry, with headquarters in Woonsocket, Rhode Island."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Danaher Corporation",
+              "Danaher",
+              "DHR"
+            ],
+            "note": "Listed in the life sciences tools & services industry, with headquarters in Washington, D.C.."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Darden Restaurants",
+              "DRI",
+              "Darden",
+              "Olive Garden"
+            ],
+            "note": "Listed in the restaurants industry, with headquarters in Orlando, Florida."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Datadog",
+              "DDOG"
+            ],
+            "note": "Listed in the application software industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DaVita",
+              "DaVita Inc.",
+              "DVA"
+            ],
+            "note": "Listed in the health care services industry, with headquarters in Denver , Colorado."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Deckers Brands",
+              "DECK"
+            ],
+            "note": "Listed in the footwear industry, with headquarters in Goleta, California."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Deere & Company",
+              "Deere",
+              "DE",
+              "John Deere"
+            ],
+            "note": "Listed in the agricultural & farm machinery industry, with headquarters in Moline, Illinois."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Dell Technologies",
+              "DELL"
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in Round Rock, Texas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Delta Air Lines",
+              "DAL",
+              "Delta",
+              "Delta Airlines"
+            ],
+            "note": "Listed in the passenger airlines industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Devon Energy",
+              "Devon Energy Corporation",
+              "DVN",
+              "Devon"
+            ],
+            "note": "Listed in the oil & gas exploration & production industry, with headquarters in Oklahoma City , Oklahoma."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dexcom",
+              "DexCom Inc.",
+              "DXCM"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in San Diego , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Diamondback Energy",
+              "FANG",
+              "Diamondback"
+            ],
+            "note": "Listed in the oil & gas exploration & production industry, with headquarters in Midland, Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Digital Realty",
+              "DLR",
+              "Digital Realty Trust"
+            ],
+            "note": "Listed in the data center reits industry, with headquarters in Austin, Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dollar General",
+              "Dollar General Corporation",
+              "DG"
+            ],
+            "note": "Listed in the consumer staples merchandise retail industry, with headquarters in Goodlettsville, Tennessee."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dollar Tree",
+              "Dollar Tree Inc.",
+              "DLTR"
+            ],
+            "note": "Listed in the consumer staples merchandise retail industry, with headquarters in Chesapeake, Virginia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dominion Energy",
+              "Dominion Energy Inc.",
+              "D",
+              "Dominion"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in Richmond, Virginia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Domino's",
+              "DPZ",
+              "Domino's Pizza",
+              "Dominos",
+              "Dominos Pizza"
+            ],
+            "note": "Listed in the restaurants industry, with headquarters in Ann Arbor, Michigan."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "DoorDash",
+              "DoorDash Inc.",
+              "DASH"
+            ],
+            "note": "Listed in the specialized consumer services industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dover Corporation",
+              "Dover",
+              "DOV"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Downers Grove, Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dow Inc.",
+              "Dow",
+              "Dow Chemical"
+            ],
+            "note": "Listed in the commodity chemicals industry, with headquarters in Midland, Michigan."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "D. R. Horton",
+              "DHI",
+              "DR Horton"
+            ],
+            "note": "Listed in the homebuilding industry, with headquarters in Arlington, Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DTE Energy",
+              "DTE Energy Company",
+              "DTE"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in Detroit , Michigan."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Duke Energy",
+              "Duke Energy Corporation",
+              "DUK"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Charlotte, North Carolina."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "DuPont",
+              "DD",
+              "DuPont de Nemours"
+            ],
+            "note": "Listed in the industrial conglomerates industry, with headquarters in Wilmington, Delaware."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Eaton Corporation",
+              "Eaton",
+              "Eaton Corp",
+              "ETN"
+            ],
+            "note": "Listed in the electrical components & equipment industry, with headquarters in Dublin , Ireland."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "eBay Inc.",
+              "eBay"
+            ],
+            "note": "Listed in the broadline retail industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "EchoStar",
+              "ECHO"
+            ],
+            "note": "Listed in the wireless telecommunication services industry, with headquarters in Englewood, Colorado."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ecolab",
+              "Ecolab Inc.",
+              "ECL"
+            ],
+            "note": "Listed in the specialty chemicals industry, with headquarters in Saint Paul, Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Edison International",
+              "EIX",
+              "Edison",
+              "Southern California Edison"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Rosemead, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Edwards Lifesciences",
+              "Edwards Lifesciences Corporation",
+              "EW",
+              "Edwards"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Irvine, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Elevance Health",
+              "ELV",
+              "Anthem",
+              "Elevance"
+            ],
+            "note": "Listed in the managed health care industry, with headquarters in Indianapolis , Indiana."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Emcor",
+              "EME"
+            ],
+            "note": "Listed in the construction & engineering industry, with headquarters in Norwalk, Connecticut."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Emerson Electric",
+              "Emerson Electric Co.",
+              "EMR",
+              "Emerson"
+            ],
+            "note": "Listed in the electrical components & equipment industry, with headquarters in Ferguson, Missouri."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Entergy",
+              "Entergy Corporation",
+              "ETR"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in New Orleans , Louisiana."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "EOG Resources",
+              "EOG Resources Inc.",
+              "EOG"
+            ],
+            "note": "Listed in the oil & gas exploration & production industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "EQT Corporation",
+              "EQT"
+            ],
+            "note": "Listed in the oil & gas exploration & production industry, with headquarters in Pittsburgh , Pennsylvania."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Equifax",
+              "Equifax Inc.",
+              "EFX"
+            ],
+            "note": "Listed in the research & consulting services industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Equinix",
+              "Equinix Inc.",
+              "EQIX"
+            ],
+            "note": "Listed in the data center reits industry, with headquarters in Redwood City, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Erie Indemnity",
+              "ERIE"
+            ],
+            "note": "Listed in the insurance brokers industry, with headquarters in Erie, Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Essex Property Trust",
+              "ESS",
+              "Essex",
+              "Essex Property"
+            ],
+            "note": "Listed in the multi-family residential reits industry, with headquarters in San Mateo, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Est\u00e9e Lauder",
+              "Est\u00e9e Lauder Companies (The)",
+              "The Est\u00e9e Lauder Companies",
+              "EL"
+            ],
+            "note": "Listed in the personal care products industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Everest Group",
+              "EG",
+              "Everest",
+              "Everest Re"
+            ],
+            "note": "Listed in the reinsurance industry, with headquarters in Hamilton, Bermuda."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Evergy",
+              "Evergy Inc.",
+              "EVRG"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Kansas City, Missouri."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Everpure",
+              "P"
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Eversource Energy",
+              "ES",
+              "Eversource"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Hartford, Connecticut."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Exelon",
+              "Exelon Corporation",
+              "EXC"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Expand Energy",
+              "EXE"
+            ],
+            "note": "Listed in the oil & gas exploration & production industry, with headquarters in Oklahoma City , Oklahoma."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Expedia Group",
+              "EXPE",
+              "Expedia"
+            ],
+            "note": "Listed in the hotels, resorts & cruise lines industry, with headquarters in Seattle , Washington."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Expeditors International",
+              "EXPD",
+              "Expeditors"
+            ],
+            "note": "Listed in the air freight & logistics industry, with headquarters in Seattle , Washington."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Extra Space Storage",
+              "EXR",
+              "Extra Space"
+            ],
+            "note": "Listed in the self-storage reits industry, with headquarters in Salt Lake City , Utah."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "ExxonMobil",
+              "XOM",
+              "Exxon Mobil",
+              "Exxon Mobil Corporation",
+              "Exxon"
+            ],
+            "note": "Listed in the integrated oil & gas industry, with headquarters in Irving, Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "F5, Inc.",
+              "F5",
+              "FFIV",
+              "F5 Networks"
+            ],
+            "note": "Listed in the communications equipment industry, with headquarters in Seattle , Washington."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FactSet",
+              "FDS",
+              "FactSet Research Systems"
+            ],
+            "note": "Listed in the financial exchanges & data industry, with headquarters in Norwalk, Connecticut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fair Isaac",
+              "Fair Isaac Corporation",
+              "FICO"
+            ],
+            "note": "Listed in the application software industry, with headquarters in Bozeman, Montana."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fastenal",
+              "Fastenal Company",
+              "FAST"
+            ],
+            "note": "Listed in the trading companies & distributors industry, with headquarters in Winona, Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Federal Realty Investment Trust",
+              "FRT"
+            ],
+            "note": "Listed in the retail reits industry, with headquarters in Rockville, Maryland."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "FedEx",
+              "FedEx Corporation",
+              "FDX",
+              "Federal Express"
+            ],
+            "note": "Listed in the air freight & logistics industry, with headquarters in Memphis, Tennessee."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FedEx Freight",
+              "FDXF"
+            ],
+            "note": "Listed in the cargo ground transportation industry, with headquarters in Memphis, Tennessee."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ferguson Enterprises",
+              "FERG",
+              "Ferguson",
+              "Ferguson plc"
+            ],
+            "note": "Listed in the trading companies & distributors industry, with headquarters in Newport News, Virginia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fidelity National Information Services",
+              "FIS",
+              "Fidelity National Information"
+            ],
+            "note": "Listed in the transaction & payment processing services industry, with headquarters in Jacksonville, Florida."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fifth Third Bancorp",
+              "FITB",
+              "Fifth Third Bank",
+              "Fifth Third"
+            ],
+            "note": "Listed in the regional banks industry, with headquarters in Cincinnati , Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "First Solar",
+              "First Solar Inc.",
+              "FSLR"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Tempe, Arizona."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FirstEnergy",
+              "FirstEnergy Corp.",
+              "FE"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Akron, Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fiserv",
+              "Fiserv Inc.",
+              "FISV"
+            ],
+            "note": "Listed in the transaction & payment processing services industry, with headquarters in Brookfield, Wisconsin."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Flex Ltd.",
+              "Flex"
+            ],
+            "note": "Listed in the electronic manufacturing services industry, with headquarters in Austin, Texas."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Ford Motor Company",
+              "F",
+              "Ford"
+            ],
+            "note": "Listed in the automobile manufacturers industry, with headquarters in Dearborn, Michigan."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fortinet",
+              "Fortinet Inc.",
+              "FTNT"
+            ],
+            "note": "Listed in the systems software industry, with headquarters in Sunnyvale, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fortive",
+              "Fortive Corporation",
+              "FTV"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Everett, Washington."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fox Corporation",
+              "Fox",
+              "Fox Corp",
+              "FOXA"
+            ],
+            "note": "Listed in the broadcasting industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Franklin Resources",
+              "Franklin Resources Inc.",
+              "BEN",
+              "Franklin Templeton"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in San Mateo, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Freeport-McMoRan",
+              "Freeport-McMoRan Inc.",
+              "FCX",
+              "Freeport"
+            ],
+            "note": "Listed in the copper industry, with headquarters in Phoenix, Arizona."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Garmin",
+              "GRMN"
+            ],
+            "note": "Listed in the consumer electronics industry, with headquarters in Schaffhausen , Switzerland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gartner",
+              "Gartner Inc.",
+              "IT"
+            ],
+            "note": "Listed in the it consulting & other services industry, with headquarters in Stamford, Connecticut."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "GE Aerospace",
+              "GE",
+              "General Electric",
+              "General Electric Company"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Evendale, Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GE HealthCare",
+              "GEHC",
+              "GE HealthCare Technologies"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GE Vernova",
+              "GEV"
+            ],
+            "note": "Listed in the heavy electrical equipment industry, with headquarters in Cambridge, Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gen Digital",
+              "Gen Digital Inc.",
+              "GEN",
+              "NortonLifeLock"
+            ],
+            "note": "Listed in the systems software industry, with headquarters in Tempe, Arizona."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Generac",
+              "GNRC"
+            ],
+            "note": "Listed in the heavy electrical equipment industry, with headquarters in Waukesha, Wisconsin."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "General Dynamics",
+              "General Dynamics Corporation",
+              "GD"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Reston, Virginia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "General Mills",
+              "General Mills Inc.",
+              "GIS"
+            ],
+            "note": "Listed in the packaged foods & meats industry, with headquarters in Golden Valley, Minnesota."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "General Motors",
+              "General Motors Company",
+              "GM"
+            ],
+            "note": "Listed in the automobile manufacturers industry, with headquarters in Detroit , Michigan."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Genuine Parts Company",
+              "Genuine Parts",
+              "GPC",
+              "NAPA"
+            ],
+            "note": "Listed in the distributors industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gilead Sciences",
+              "Gilead Sciences Inc.",
+              "GILD",
+              "Gilead"
+            ],
+            "note": "Listed in the biotechnology industry, with headquarters in Foster City, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Global Payments",
+              "Global Payments Inc.",
+              "GPN"
+            ],
+            "note": "Listed in the transaction & payment processing services industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Globe Life",
+              "Globe Life Inc.",
+              "GL"
+            ],
+            "note": "Listed in the life & health insurance industry, with headquarters in McKinney, Texas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "GoDaddy",
+              "GDDY"
+            ],
+            "note": "Listed in the internet services & infrastructure industry, with headquarters in Tempe, Arizona."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Goldman Sachs",
+              "GS",
+              "The Goldman Sachs Group"
+            ],
+            "note": "Listed in the investment banking & brokerage industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Halliburton",
+              "Halliburton Company",
+              "HAL"
+            ],
+            "note": "Listed in the oil & gas equipment & services industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Hartford",
+              "Hartford (The)",
+              "Hartford",
+              "HIG",
+              "Hartford Financial Services"
+            ],
+            "note": "Listed in the property & casualty insurance industry, with headquarters in Hartford, Connecticut."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hasbro",
+              "Hasbro Inc.",
+              "HAS"
+            ],
+            "note": "Listed in the leisure products industry, with headquarters in Pawtucket, Rhode Island."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "HCA Healthcare",
+              "HCA",
+              "Hospital Corporation of America"
+            ],
+            "note": "Listed in the health care facilities industry, with headquarters in Nashville, Tennessee."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Healthpeak Properties",
+              "DOC",
+              "Healthpeak",
+              "HCP"
+            ],
+            "note": "Listed in the health care reits industry, with headquarters in Denver , Colorado."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Henry Schein",
+              "Henry Schein Inc.",
+              "HSIC"
+            ],
+            "note": "Listed in the health care distributors industry, with headquarters in Melville, New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hershey",
+              "Hershey Company (The)",
+              "The Hershey Company",
+              "HSY",
+              "Hershey's"
+            ],
+            "note": "Listed in the packaged foods & meats industry, with headquarters in Hershey, Pennsylvania."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hewlett Packard Enterprise",
+              "Hewlett Packard Enterprise Company",
+              "HPE"
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hilton Worldwide",
+              "HLT"
+            ],
+            "note": "Listed in the hotels, resorts & cruise lines industry, with headquarters in Tysons Corner, Virginia."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Home Depot",
+              "Home Depot (The)",
+              "The Home Depot",
+              "HD"
+            ],
+            "note": "Listed in the home improvement retail industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Honeywell Aerospace",
+              "HONA"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Phoenix, Arizona."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Honeywell Technologies",
+              "HON",
+              "Honeywell",
+              "Honeywell International"
+            ],
+            "note": "Listed in the industrial conglomerates industry, with headquarters in Charlotte, North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hormel Foods",
+              "Hormel Foods Corporation",
+              "HRL",
+              "Hormel"
+            ],
+            "note": "Listed in the packaged foods & meats industry, with headquarters in Austin, Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Host Hotels & Resorts",
+              "HST",
+              "Host Hotels",
+              "Host Hotels and Resorts"
+            ],
+            "note": "Listed in the hotel & resort reits industry, with headquarters in Bethesda, Maryland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Howmet Aerospace",
+              "Howmet Aerospace Inc.",
+              "HWM",
+              "Howmet"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Pittsburgh , Pennsylvania."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "HP Inc.",
+              "HP",
+              "HPQ",
+              "Hewlett-Packard"
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in Palo Alto, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hubbell Incorporated",
+              "Hubbell",
+              "HUBB"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Shelton, Connecticut."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Humana",
+              "HUM"
+            ],
+            "note": "Listed in the managed health care industry, with headquarters in Louisville, Kentucky."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Huntington Bancshares",
+              "HBAN",
+              "Huntington Bank",
+              "Huntington"
+            ],
+            "note": "Listed in the regional banks industry, with headquarters in Columbus, Ohio ; Detroit , Michigan."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Huntington Ingalls Industries",
+              "HII",
+              "Huntington Ingalls"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Newport News, Virginia."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "IBM",
+              "International Business Machines"
+            ],
+            "note": "Listed in the it consulting & other services industry, with headquarters in Armonk, New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "IDEX Corporation",
+              "IDEX",
+              "IEX"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Northbrook, Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Idexx Laboratories",
+              "IDXX",
+              "IDEXX",
+              "IDEXX Labs"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Westbrook, Maine."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Illinois Tool Works",
+              "Illinois Tool Works Inc.",
+              "ITW"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Glenview, Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Illumina, Inc.",
+              "Illumina",
+              "ILMN"
+            ],
+            "note": "Listed in the life sciences tools & services industry, with headquarters in San Diego , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Incyte",
+              "Incyte Corporation",
+              "INCY"
+            ],
+            "note": "Listed in the biotechnology industry, with headquarters in Wilmington, Delaware."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ingersoll Rand",
+              "Ingersoll Rand Inc.",
+              "IR"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Davidson, North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Insulet Corporation",
+              "Insulet",
+              "PODD",
+              "Omnipod"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Acton, Massachusetts."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Intel",
+              "Intel Corporation",
+              "INTC"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Interactive Brokers",
+              "IBKR"
+            ],
+            "note": "Listed in the investment banking & brokerage industry, with headquarters in Greenwich, Connecticut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Intercontinental Exchange",
+              "Intercontinental Exchange Inc.",
+              "ICE"
+            ],
+            "note": "Listed in the financial exchanges & data industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "International Flavors & Fragrances",
+              "IFF",
+              "International Flavors and Fragrances"
+            ],
+            "note": "Listed in the specialty chemicals industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "International Paper",
+              "International Paper Company",
+              "IP"
+            ],
+            "note": "Listed in the paper & plastic packaging products & materials industry, with headquarters in Memphis, Tennessee."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Intuit",
+              "Intuit Inc.",
+              "INTU"
+            ],
+            "note": "Listed in the application software industry, with headquarters in Mountain View, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Intuitive Surgical",
+              "Intuitive Surgical Inc.",
+              "ISRG",
+              "Intuitive"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Sunnyvale, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Invesco",
+              "IVZ"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Invitation Homes",
+              "Invitation Homes Inc.",
+              "INVH"
+            ],
+            "note": "Listed in the single-family residential reits industry, with headquarters in Dallas , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "IQVIA",
+              "IQVIA Holdings",
+              "IQV"
+            ],
+            "note": "Listed in the life sciences tools & services industry, with headquarters in Durham, North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Iron Mountain",
+              "Iron Mountain Incorporated",
+              "IRM"
+            ],
+            "note": "Listed in the other specialized reits industry, with headquarters in Portsmouth, New Hampshire."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "J.B. Hunt",
+              "JBHT",
+              "JB Hunt",
+              "J.B. Hunt Transport Services"
+            ],
+            "note": "Listed in the cargo ground transportation industry, with headquarters in Lowell, Arkansas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jabil",
+              "JBL"
+            ],
+            "note": "Listed in the electronic manufacturing services industry, with headquarters in St. Petersburg, Florida."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jack Henry & Associates",
+              "JKHY",
+              "Jack Henry"
+            ],
+            "note": "Listed in the transaction & payment processing services industry, with headquarters in Monett, Missouri."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jacobs Solutions",
+              "J",
+              "Jacobs",
+              "Jacobs Engineering"
+            ],
+            "note": "Listed in the construction & engineering industry, with headquarters in Dallas , Texas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Johnson & Johnson",
+              "JNJ"
+            ],
+            "note": "Listed in the pharmaceuticals industry, with headquarters in New Brunswick, New Jersey."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Johnson Controls",
+              "JCI",
+              "Johnson Controls International"
+            ],
+            "note": "Listed in the building products industry, with headquarters in Cork, Ireland."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "JPMorgan Chase",
+              "JPMorgan Chase & Co.",
+              "JPM",
+              "JP Morgan",
+              "J P Morgan",
+              "JPMorgan",
+              "Chase"
+            ],
+            "note": "Listed in the diversified banks industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kenvue",
+              "KVUE"
+            ],
+            "note": "Listed in the personal care products industry, with headquarters in Skillman, New Jersey."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Keurig Dr Pepper",
+              "Keurig Dr Pepper Inc.",
+              "KDP"
+            ],
+            "note": "Listed in the soft drinks & non-alcoholic beverages industry, with headquarters in Burlington, Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "KeyCorp",
+              "KEY",
+              "KeyBank"
+            ],
+            "note": "Listed in the regional banks industry, with headquarters in Cleveland , Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Keysight Technologies",
+              "KEYS",
+              "Keysight"
+            ],
+            "note": "Listed in the electronic equipment & instruments industry, with headquarters in Santa Rosa, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kimberly-Clark",
+              "Kimberly-Clark Corporation",
+              "KMB"
+            ],
+            "note": "Listed in the household products industry, with headquarters in Irving, Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kimco Realty",
+              "Kimco Realty Corporation",
+              "KIM",
+              "Kimco"
+            ],
+            "note": "Listed in the retail reits industry, with headquarters in Jericho, New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kinder Morgan",
+              "Kinder Morgan Inc.",
+              "KMI"
+            ],
+            "note": "Listed in the oil & gas storage & transportation industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "KKR & Co.",
+              "KKR"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "KLA Corporation",
+              "KLA",
+              "KLAC",
+              "KLA-Tencor"
+            ],
+            "note": "Listed in the semiconductor materials & equipment industry, with headquarters in Milpitas, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kraft Heinz",
+              "The Kraft Heinz Company",
+              "KHC",
+              "Kraft"
+            ],
+            "note": "Listed in the packaged foods & meats industry, with headquarters in Chicago , Illinois; Pittsburgh , Pennsylvania."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kroger",
+              "The Kroger Co.",
+              "KR"
+            ],
+            "note": "Listed in the food retail industry, with headquarters in Cincinnati , Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "L3Harris",
+              "LHX",
+              "L3Harris Technologies"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Melbourne, Florida."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Labcorp",
+              "LH",
+              "Laboratory Corporation of America"
+            ],
+            "note": "Listed in the health care services industry, with headquarters in Burlington, North Carolina."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lam Research",
+              "Lam Research Corporation",
+              "LRCX"
+            ],
+            "note": "Listed in the semiconductor materials & equipment industry, with headquarters in Fremont, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Las Vegas Sands",
+              "Las Vegas Sands Corp.",
+              "LVS"
+            ],
+            "note": "Listed in the casinos & gaming industry, with headquarters in Las Vegas , Nevada."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Leidos",
+              "Leidos Holdings",
+              "LDOS"
+            ],
+            "note": "Listed in the diversified support services industry, with headquarters in Reston, Virginia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lennar",
+              "Lennar Corporation",
+              "LEN"
+            ],
+            "note": "Listed in the homebuilding industry, with headquarters in Miami , Florida."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lennox International",
+              "Lennox International Inc.",
+              "LII",
+              "Lennox"
+            ],
+            "note": "Listed in the building products industry, with headquarters in Richardson, Texas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Eli Lilly",
+              "Lilly (Eli)",
+              "LLY",
+              "Eli Lilly and Company",
+              "Lilly"
+            ],
+            "note": "Listed in the pharmaceuticals industry, with headquarters in Indianapolis , Indiana."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Linde plc",
+              "Linde",
+              "LIN"
+            ],
+            "note": "Listed in the industrial gases industry, with headquarters in Guildford, United Kingdom."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Live Nation Entertainment",
+              "LYV",
+              "Live Nation"
+            ],
+            "note": "Listed in the movies & entertainment industry, with headquarters in Beverly Hills, California."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lockheed Martin",
+              "Lockheed Martin Corporation",
+              "LMT"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Bethesda, Maryland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Loews Corporation",
+              "Loews",
+              "L"
+            ],
+            "note": "Listed in the multi-line insurance industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lowe's",
+              "Lowe's Companies",
+              "LOW"
+            ],
+            "note": "Listed in the home improvement retail industry, with headquarters in Mooresville, North Carolina."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lululemon Athletica",
+              "LULU",
+              "Lululemon"
+            ],
+            "note": "Listed in the apparel, accessories & luxury goods industry, with headquarters in Vancouver, Canada."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lumentum",
+              "LITE"
+            ],
+            "note": "Listed in the communications equipment industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LyondellBasell",
+              "LYB",
+              "LyondellBasell Industries"
+            ],
+            "note": "Listed in the specialty chemicals industry, with headquarters in Rotterdam, Netherlands."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "M&T Bank",
+              "M&T Bank Corporation",
+              "MTB"
+            ],
+            "note": "Listed in the regional banks industry, with headquarters in Buffalo, New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marathon Petroleum",
+              "Marathon Petroleum Corporation",
+              "MPC"
+            ],
+            "note": "Listed in the oil & gas refining & marketing industry, with headquarters in Findlay, Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marriott International",
+              "MAR",
+              "Marriott"
+            ],
+            "note": "Listed in the hotels, resorts & cruise lines industry, with headquarters in Bethesda, Maryland."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marsh McLennan",
+              "MRSH"
+            ],
+            "note": "Listed in the insurance brokers industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Martin Marietta Materials",
+              "MLM",
+              "Martin Marietta"
+            ],
+            "note": "Listed in the construction materials industry, with headquarters in Raleigh, North Carolina."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Marvell Technology",
+              "MRVL"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Masco",
+              "Masco Corporation",
+              "MAS"
+            ],
+            "note": "Listed in the building products industry, with headquarters in Livonia, Michigan."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mastercard",
+              "Mastercard Incorporated",
+              "MA"
+            ],
+            "note": "Listed in the transaction & payment processing services industry, with headquarters in Harrison, New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "McCormick & Company",
+              "McCormick",
+              "MKC"
+            ],
+            "note": "Listed in the packaged foods & meats industry, with headquarters in Hunt Valley, Maryland."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "McDonald's",
+              "McDonald's Corporation",
+              "MCD"
+            ],
+            "note": "Listed in the restaurants industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "McKesson",
+              "McKesson Corporation",
+              "MCK"
+            ],
+            "note": "Listed in the health care distributors industry, with headquarters in Irving, Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Medtronic",
+              "Medtronic plc",
+              "MDT"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Galway , Ireland."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Merck & Co.",
+              "Merck",
+              "MRK",
+              "MSD"
+            ],
+            "note": "Listed in the pharmaceuticals industry, with headquarters in Kenilworth, New Jersey."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Meta Platforms",
+              "META",
+              "Facebook"
+            ],
+            "note": "Listed in the interactive media & services industry, with headquarters in Menlo Park, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MetLife",
+              "MetLife Inc.",
+              "MET"
+            ],
+            "note": "Listed in the life & health insurance industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mettler Toledo",
+              "MTD"
+            ],
+            "note": "Listed in the life sciences tools & services industry, with headquarters in Columbus, Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MGM Resorts",
+              "MGM",
+              "MGM Resorts International"
+            ],
+            "note": "Listed in the casinos & gaming industry, with headquarters in Paradise, Nevada."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Microchip Technology",
+              "Microchip Technology Inc.",
+              "MCHP",
+              "Microchip"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Chandler, Arizona."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Micron Technology",
+              "Micron Technology Inc.",
+              "MU",
+              "Micron"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Boise, Idaho."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Microsoft",
+              "Microsoft Corporation",
+              "MSFT"
+            ],
+            "note": "Listed in the systems software industry, with headquarters in Redmond, Washington."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mid-America Apartment Communities",
+              "MAA",
+              "Mid-America Apartments"
+            ],
+            "note": "Listed in the multi-family residential reits industry, with headquarters in Memphis, Tennessee."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Moderna",
+              "Moderna Inc.",
+              "MRNA"
+            ],
+            "note": "Listed in the biotechnology industry, with headquarters in Cambridge, Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mondelez International",
+              "MDLZ",
+              "Mondelez",
+              "Oreo",
+              "Nabisco"
+            ],
+            "note": "Listed in the packaged foods & meats industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Monolithic Power Systems",
+              "MPWR",
+              "Monolithic Power",
+              "MPS"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Kirkland, Washington."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Monster Beverage",
+              "Monster Beverage Corporation",
+              "MNST",
+              "Monster"
+            ],
+            "note": "Listed in the soft drinks & non-alcoholic beverages industry, with headquarters in Corona, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Moody's Corporation",
+              "Moody's",
+              "MCO"
+            ],
+            "note": "Listed in the financial exchanges & data industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Morgan Stanley",
+              "MS"
+            ],
+            "note": "Listed in the investment banking & brokerage industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mosaic",
+              "Mosaic Company (The)",
+              "The Mosaic Company",
+              "MOS"
+            ],
+            "note": "Listed in the fertilizers & agricultural chemicals industry, with headquarters in Tampa, Florida."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Motorola Solutions",
+              "Motorola Solutions Inc.",
+              "MSI"
+            ],
+            "note": "Listed in the communications equipment industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MSCI",
+              "MSCI Inc."
+            ],
+            "note": "Listed in the financial exchanges & data industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nasdaq, Inc.",
+              "Nasdaq",
+              "NDAQ"
+            ],
+            "note": "Listed in the financial exchanges & data industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "NetApp",
+              "NTAP"
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Netflix",
+              "Netflix Inc.",
+              "NFLX"
+            ],
+            "note": "Listed in the movies & entertainment industry, with headquarters in Los Gatos, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Newmont",
+              "Newmont Corporation",
+              "NEM"
+            ],
+            "note": "Listed in the gold industry, with headquarters in Denver , Colorado."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "News Corp",
+              "News Corporation",
+              "NWSA",
+              "NWS"
+            ],
+            "note": "Listed in the publishing industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "NextEra Energy",
+              "NextEra Energy Inc.",
+              "NEE",
+              "NextEra"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in Juno Beach, Florida."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Nike, Inc.",
+              "Nike",
+              "NKE"
+            ],
+            "note": "Listed in the apparel, accessories & luxury goods industry, with headquarters in Washington County, Oregon."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "NiSource",
+              "NiSource Inc.",
+              "NI"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in Merrillville, Indiana."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nordson Corporation",
+              "Nordson",
+              "NDSN"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Westlake, Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Norfolk Southern",
+              "Norfolk Southern Corporation",
+              "NSC"
+            ],
+            "note": "Listed in the rail transportation industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Northern Trust",
+              "Northern Trust Corporation",
+              "NTRS"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Northrop Grumman",
+              "Northrop Grumman Corporation",
+              "NOC"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in West Falls Church, Virginia [ 2 ]."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Norwegian Cruise Line Holdings",
+              "Norwegian Cruise Line",
+              "NCLH",
+              "NCL"
+            ],
+            "note": "Listed in the hotels, resorts & cruise lines industry, with headquarters in Miami-Dade County , Florida [ 3 ]."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "NRG Energy",
+              "NRG Energy Inc.",
+              "NRG"
+            ],
+            "note": "Listed in the independent power producers & energy traders industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nucor",
+              "Nucor Corporation",
+              "NUE"
+            ],
+            "note": "Listed in the steel industry, with headquarters in Charlotte, North Carolina."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Nvidia",
+              "NVIDIA Corporation",
+              "NVDA"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "NVR, Inc.",
+              "NVR"
+            ],
+            "note": "Listed in the homebuilding industry, with headquarters in Reston, Virginia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "NXP Semiconductors",
+              "NXPI"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Eindhoven, Netherlands."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "O'Reilly Automotive",
+              "ORLY",
+              "O'Reilly",
+              "O'Reilly Auto Parts"
+            ],
+            "note": "Listed in the automotive retail industry, with headquarters in Springfield, Missouri."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Occidental Petroleum",
+              "Occidental Petroleum Corporation",
+              "OXY"
+            ],
+            "note": "Listed in the oil & gas exploration & production industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Old Dominion",
+              "ODFL",
+              "Old Dominion Freight Line"
+            ],
+            "note": "Listed in the cargo ground transportation industry, with headquarters in Thomasville, North Carolina."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Omnicom Group",
+              "OMC",
+              "Omnicom"
+            ],
+            "note": "Listed in the advertising industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ON Semiconductor",
+              "ON",
+              "Onsemi"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Phoenix, Arizona."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Oneok",
+              "ONEOK Inc.",
+              "OKE"
+            ],
+            "note": "Listed in the oil & gas storage & transportation industry, with headquarters in Tulsa, Oklahoma."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Oracle Corporation",
+              "Oracle",
+              "ORCL"
+            ],
+            "note": "Listed in the application software industry, with headquarters in Austin, Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Otis Worldwide",
+              "OTIS",
+              "Otis Elevator"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Farmington, Connecticut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Paccar",
+              "PACCAR Inc.",
+              "PCAR",
+              "Kenworth",
+              "Peterbilt"
+            ],
+            "note": "Listed in the construction machinery & heavy transportation equipment industry, with headquarters in Bellevue, Washington."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Packaging Corporation of America",
+              "Packaging Corp of America",
+              "PKG",
+              "PCA"
+            ],
+            "note": "Listed in the paper & plastic packaging products & materials industry, with headquarters in Lake Forest, Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Palantir Technologies",
+              "PLTR",
+              "Palantir"
+            ],
+            "note": "Listed in the application software industry, with headquarters in Aventura, Florida."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Palo Alto Networks",
+              "Palo Alto Networks Inc.",
+              "PANW",
+              "Palo Alto"
+            ],
+            "note": "Listed in the systems software industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Parker Hannifin",
+              "PH",
+              "Parker"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Cleveland , Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Paychex",
+              "Paychex Inc.",
+              "PAYX"
+            ],
+            "note": "Listed in the human resource & employment services industry, with headquarters in Penfield, New York."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "PayPal",
+              "PayPal Holdings",
+              "PYPL"
+            ],
+            "note": "Listed in the transaction & payment processing services industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pentair",
+              "Pentair plc",
+              "PNR"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Worsley, United Kingdom."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "PepsiCo",
+              "PepsiCo Inc.",
+              "PEP",
+              "Pepsi"
+            ],
+            "note": "Listed in the soft drinks & non-alcoholic beverages industry, with headquarters in Purchase, New York."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pfizer",
+              "Pfizer Inc.",
+              "PFE"
+            ],
+            "note": "Listed in the pharmaceuticals industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "PG&E Corporation",
+              "PG&E",
+              "PCG",
+              "Pacific Gas and Electric"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in Oakland, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Philip Morris International",
+              "PM",
+              "Philip Morris",
+              "PMI"
+            ],
+            "note": "Listed in the tobacco industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Phillips 66",
+              "PSX"
+            ],
+            "note": "Listed in the oil & gas refining & marketing industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pinnacle West Capital",
+              "PNW",
+              "Pinnacle West",
+              "APS"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in Phoenix, Arizona."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "PNC Financial Services",
+              "PNC",
+              "PNC Bank"
+            ],
+            "note": "Listed in the diversified banks industry, with headquarters in Pittsburgh , Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PPG Industries",
+              "PPG Industries Inc.",
+              "PPG"
+            ],
+            "note": "Listed in the specialty chemicals industry, with headquarters in Pittsburgh , Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PPL Corporation",
+              "PPL"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Allentown, Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Principal Financial Group",
+              "PFG",
+              "Principal Financial",
+              "Principal"
+            ],
+            "note": "Listed in the life & health insurance industry, with headquarters in Des Moines, Iowa."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Procter & Gamble",
+              "PG",
+              "P&G",
+              "Procter and Gamble"
+            ],
+            "note": "Listed in the personal care products industry, with headquarters in Cincinnati , Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Progressive Corporation",
+              "Progressive",
+              "The Progressive Corporation",
+              "PGR",
+              "Progressive Insurance"
+            ],
+            "note": "Listed in the property & casualty insurance industry, with headquarters in Mayfield Village, Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Prologis",
+              "Prologis Inc.",
+              "PLD"
+            ],
+            "note": "Listed in the industrial reits industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Prudential Financial",
+              "Prudential Financial Inc.",
+              "PRU",
+              "Prudential"
+            ],
+            "note": "Listed in the life & health insurance industry, with headquarters in Newark, New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Public Service Enterprise Group",
+              "PEG",
+              "PSEG"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Newark, New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PTC Inc.",
+              "PTC"
+            ],
+            "note": "Listed in the application software industry, with headquarters in Boston , Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Public Storage",
+              "PSA"
+            ],
+            "note": "Listed in the self-storage reits industry, with headquarters in Glendale, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PulteGroup",
+              "PulteGroup Inc.",
+              "PHM",
+              "Pulte"
+            ],
+            "note": "Listed in the homebuilding industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quanta Services",
+              "Quanta Services Inc.",
+              "PWR",
+              "Quanta"
+            ],
+            "note": "Listed in the construction & engineering industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Qualcomm",
+              "Qualcomm Incorporated",
+              "QCOM"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in San Diego , California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quest Diagnostics",
+              "Quest Diagnostics Inc.",
+              "DGX",
+              "Quest"
+            ],
+            "note": "Listed in the health care services industry, with headquarters in Secaucus, New Jersey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Qnity Electronics",
+              "Q"
+            ],
+            "note": "Listed in the semiconductor materials & equipment industry, with headquarters in Wilmington, Delaware."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ralph Lauren Corporation",
+              "Ralph Lauren",
+              "RL"
+            ],
+            "note": "Listed in the apparel, accessories & luxury goods industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Raymond James Financial",
+              "RJF",
+              "Raymond James"
+            ],
+            "note": "Listed in the investment banking & brokerage industry, with headquarters in St. Petersburg, Florida."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Reddit",
+              "RDDT"
+            ],
+            "note": "Listed in the interactive media & services industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "RTX Corporation",
+              "RTX",
+              "Raytheon",
+              "Raytheon Technologies"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Waltham, Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Realty Income",
+              "O"
+            ],
+            "note": "Listed in the retail reits industry, with headquarters in San Diego , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Regency Centers",
+              "Regency Centers Corporation",
+              "REG",
+              "Regency"
+            ],
+            "note": "Listed in the retail reits industry, with headquarters in Jacksonville, Florida."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Regeneron Pharmaceuticals",
+              "REGN",
+              "Regeneron"
+            ],
+            "note": "Listed in the biotechnology industry, with headquarters in Tarrytown, New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Regions Financial Corporation",
+              "Regions Financial",
+              "RF",
+              "Regions Bank"
+            ],
+            "note": "Listed in the regional banks industry, with headquarters in Birmingham, Alabama."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Republic Services",
+              "Republic Services Inc.",
+              "RSG"
+            ],
+            "note": "Listed in the environmental & facilities services industry, with headquarters in Phoenix, Arizona."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ResMed",
+              "ResMed Inc.",
+              "RMD"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in San Diego , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Revvity",
+              "Revvity Inc.",
+              "RVTY",
+              "PerkinElmer"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Waltham, Massachusetts."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Robinhood Markets",
+              "HOOD"
+            ],
+            "note": "Listed in the investment banking & brokerage industry, with headquarters in Menlo Park, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rockwell Automation",
+              "Rockwell Automation Inc.",
+              "ROK",
+              "Rockwell"
+            ],
+            "note": "Listed in the electrical components & equipment industry, with headquarters in Milwaukee , Wisconsin."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rollins, Inc.",
+              "Rollins",
+              "ROL",
+              "Orkin"
+            ],
+            "note": "Listed in the environmental & facilities services industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Roper Technologies",
+              "Roper Technologies Inc.",
+              "ROP",
+              "Roper"
+            ],
+            "note": "Listed in the electronic equipment & instruments industry, with headquarters in Sarasota, Florida."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ross Stores",
+              "ROST",
+              "Ross",
+              "Ross Dress for Less"
+            ],
+            "note": "Listed in the apparel retail industry, with headquarters in Dublin, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Royal Caribbean Group",
+              "RCL",
+              "Royal Caribbean",
+              "Royal Caribbean Cruises"
+            ],
+            "note": "Listed in the hotels, resorts & cruise lines industry, with headquarters in Miami , Florida."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "S&P Global",
+              "S&P Global Inc.",
+              "SPGI"
+            ],
+            "note": "Listed in the financial exchanges & data industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Salesforce",
+              "Salesforce Inc.",
+              "CRM",
+              "Salesforce.com"
+            ],
+            "note": "Listed in the application software industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sandisk",
+              "SNDK"
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in Milpitas, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SBA Communications",
+              "SBA Communications Corporation",
+              "SBAC",
+              "SBA"
+            ],
+            "note": "Listed in the telecom tower reits industry, with headquarters in Boca Raton, Florida."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Schlumberger",
+              "Schlumberger Limited",
+              "SLB"
+            ],
+            "note": "Listed in the oil & gas equipment & services industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Seagate Technology",
+              "Seagate Technology Holdings",
+              "STX",
+              "Seagate"
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in Dublin , Ireland."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sempra",
+              "SRE",
+              "Sempra Energy"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in San Diego , California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ServiceNow",
+              "ServiceNow Inc.",
+              "NOW"
+            ],
+            "note": "Listed in the systems software industry, with headquarters in Santa Clara, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sherwin-Williams",
+              "Sherwin-Williams Company",
+              "SHW"
+            ],
+            "note": "Listed in the specialty chemicals industry, with headquarters in Cleveland , Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Simon Property Group",
+              "Simon Property Group Inc.",
+              "SPG",
+              "Simon"
+            ],
+            "note": "Listed in the retail reits industry, with headquarters in Indianapolis , Indiana."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Skydance Corporation",
+              "Skydance",
+              "SKYD",
+              "Paramount Skydance",
+              "Paramount",
+              "Paramount Global",
+              "Paramount Skydance Corporation"
+            ],
+            "note": "Listed in the movies & entertainment industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Skyworks Solutions",
+              "Skyworks Solutions Inc.",
+              "SWKS",
+              "Skyworks"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Irvine, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "J. M. Smucker",
+              "J.M. Smucker Company (The)",
+              "SJM",
+              "JM Smucker",
+              "Smucker",
+              "Smuckers"
+            ],
+            "note": "Listed in the packaged foods & meats industry, with headquarters in Orrville, Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Smurfit Westrock",
+              "SW"
+            ],
+            "note": "Listed in the paper & plastic packaging products & materials industry, with headquarters in Dublin , Ireland."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Snap-on",
+              "SNA"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Kenosha, Wisconsin."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Solventum",
+              "Solventum Corporation",
+              "SOLV",
+              "3M Health Care"
+            ],
+            "note": "Listed in the health care technology industry, with headquarters in Saint Paul, Minnesota."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Southern Company",
+              "Southern Co",
+              "SO"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Atlanta , Georgia."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Southwest Airlines",
+              "Southwest Airlines Co.",
+              "LUV",
+              "Southwest"
+            ],
+            "note": "Listed in the passenger airlines industry, with headquarters in Dallas , Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stanley Black & Decker",
+              "Stanley Black & Decker Inc.",
+              "SWK",
+              "Stanley"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in New Britain, Connecticut."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Starbucks",
+              "Starbucks Corporation",
+              "SBUX"
+            ],
+            "note": "Listed in the restaurants industry, with headquarters in Seattle , Washington."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "State Street Corporation",
+              "State Street",
+              "State Street Corp",
+              "STT"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in Boston , Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Steel Dynamics",
+              "Steel Dynamics Inc.",
+              "STLD"
+            ],
+            "note": "Listed in the steel industry, with headquarters in Fort Wayne, Indiana."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Steris",
+              "STE"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Dublin , Ireland."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stryker Corporation",
+              "Stryker",
+              "SYK"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Kalamazoo, Michigan."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Supermicro",
+              "SMCI",
+              "Super Micro Computer",
+              "Super Micro Computer Inc."
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Synchrony Financial",
+              "SYF",
+              "Synchrony"
+            ],
+            "note": "Listed in the consumer finance industry, with headquarters in Stamford, Connecticut."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Synopsys",
+              "Synopsys Inc.",
+              "SNPS"
+            ],
+            "note": "Listed in the application software industry, with headquarters in Sunnyvale, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sysco",
+              "Sysco Corporation",
+              "SYY"
+            ],
+            "note": "Listed in the food distributors industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "T-Mobile US",
+              "T-Mobile US Inc.",
+              "TMUS",
+              "T-Mobile"
+            ],
+            "note": "Listed in the wireless telecommunication services industry, with headquarters in Bellevue, Washington."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "T. Rowe Price",
+              "TROW",
+              "TRowe Price"
+            ],
+            "note": "Listed in the asset management & custody banks industry, with headquarters in Baltimore , Maryland."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Take-Two Interactive",
+              "TTWO",
+              "Take-Two",
+              "Take-Two Interactive Software"
+            ],
+            "note": "Listed in the interactive home entertainment industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tapestry, Inc.",
+              "Tapestry",
+              "TPR",
+              "Coach"
+            ],
+            "note": "Listed in the apparel, accessories & luxury goods industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Targa Resources",
+              "TRGP"
+            ],
+            "note": "Listed in the oil & gas storage & transportation industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Target Corporation",
+              "Target",
+              "TGT"
+            ],
+            "note": "Listed in the consumer staples merchandise retail industry, with headquarters in Minneapolis , Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TE Connectivity",
+              "TE Connectivity Ltd.",
+              "TEL",
+              "TE"
+            ],
+            "note": "Listed in the electronic manufacturing services industry, with headquarters in Galway , Ireland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Teledyne Technologies",
+              "TDY",
+              "Teledyne"
+            ],
+            "note": "Listed in the electronic equipment & instruments industry, with headquarters in Thousand Oaks, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Teradyne",
+              "Teradyne Inc.",
+              "TER"
+            ],
+            "note": "Listed in the semiconductor materials & equipment industry, with headquarters in North Reading, Massachusetts."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Tesla, Inc.",
+              "Tesla",
+              "TSLA"
+            ],
+            "note": "Listed in the automobile manufacturers industry, with headquarters in Austin, Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Texas Instruments",
+              "Texas Instruments Incorporated",
+              "TXN",
+              "TI"
+            ],
+            "note": "Listed in the semiconductors industry, with headquarters in Dallas , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Texas Pacific Land Corporation",
+              "Texas Pacific Land",
+              "TPL"
+            ],
+            "note": "Listed in the oil & gas exploration & production industry, with headquarters in Dallas , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Textron",
+              "Textron Inc.",
+              "TXT"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Providence, Rhode Island."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Thermo Fisher Scientific",
+              "TMO",
+              "Thermo Fisher"
+            ],
+            "note": "Listed in the life sciences tools & services industry, with headquarters in Waltham, Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "TJX Companies",
+              "TJX",
+              "TJ Maxx",
+              "Marshalls"
+            ],
+            "note": "Listed in the apparel retail industry, with headquarters in Framingham, Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "TKO Group Holdings",
+              "TKO"
+            ],
+            "note": "Listed in the movies & entertainment industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tractor Supply",
+              "Tractor Supply Company",
+              "TSCO",
+              "TSC"
+            ],
+            "note": "Listed in the other specialty retail industry, with headquarters in Brentwood, Tennessee."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Trane Technologies",
+              "Trane Technologies plc",
+              "TT",
+              "Trane"
+            ],
+            "note": "Listed in the building products industry, with headquarters in Dublin , Ireland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TransDigm Group",
+              "TDG",
+              "TransDigm"
+            ],
+            "note": "Listed in the aerospace & defense industry, with headquarters in Cleveland , Ohio."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Travelers",
+              "Travelers Companies (The)",
+              "The Travelers Companies",
+              "TRV",
+              "Travelers Insurance"
+            ],
+            "note": "Listed in the property & casualty insurance industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Trimble Inc.",
+              "Trimble",
+              "TRMB"
+            ],
+            "note": "Listed in the application software industry, with headquarters in Westminster, Colorado."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Truist Financial",
+              "TFC",
+              "Truist",
+              "BB&T",
+              "SunTrust"
+            ],
+            "note": "Listed in the diversified banks industry, with headquarters in Charlotte, North Carolina."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Twilio",
+              "TWLO"
+            ],
+            "note": "Listed in the systems software industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tyler Technologies",
+              "Tyler Technologies Inc.",
+              "TYL",
+              "Tyler"
+            ],
+            "note": "Listed in the application software industry, with headquarters in Plano, Texas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tyson Foods",
+              "Tyson Foods Inc.",
+              "TSN",
+              "Tyson"
+            ],
+            "note": "Listed in the packaged foods & meats industry, with headquarters in Springdale, Arkansas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "U.S. Bancorp",
+              "USB",
+              "US Bank",
+              "U.S. Bank",
+              "US Bancorp"
+            ],
+            "note": "Listed in the diversified banks industry, with headquarters in Minneapolis , Minnesota."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Uber",
+              "Uber Technologies"
+            ],
+            "note": "Listed in the passenger ground transportation industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "UDR, Inc.",
+              "UDR"
+            ],
+            "note": "Listed in the multi-family residential reits industry, with headquarters in Highlands Ranch, Colorado."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ulta Beauty",
+              "Ulta Beauty Inc.",
+              "ULTA"
+            ],
+            "note": "Listed in the other specialty retail industry, with headquarters in Bolingbrook, Illinois."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Union Pacific Corporation",
+              "Union Pacific",
+              "UNP",
+              "UP"
+            ],
+            "note": "Listed in the rail transportation industry, with headquarters in Omaha, Nebraska."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "United Airlines Holdings",
+              "United Airlines",
+              "UAL",
+              "United"
+            ],
+            "note": "Listed in the passenger airlines industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "United Parcel Service",
+              "UPS"
+            ],
+            "note": "Listed in the air freight & logistics industry, with headquarters in Sandy Springs, Georgia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "United Rentals",
+              "United Rentals Inc.",
+              "URI"
+            ],
+            "note": "Listed in the trading companies & distributors industry, with headquarters in Stamford, Connecticut."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "UnitedHealth Group",
+              "UNH",
+              "UnitedHealth"
+            ],
+            "note": "Listed in the managed health care industry, with headquarters in Eden Prairie, Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Universal Health Services",
+              "Universal Health Services Inc.",
+              "UHS"
+            ],
+            "note": "Listed in the health care facilities industry, with headquarters in King of Prussia, Pennsylvania."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Valero Energy",
+              "Valero Energy Corporation",
+              "VLO",
+              "Valero"
+            ],
+            "note": "Listed in the oil & gas refining & marketing industry, with headquarters in San Antonio , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Veeva Systems",
+              "VEEV"
+            ],
+            "note": "Listed in the health care technology industry, with headquarters in Pleasanton, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ventas",
+              "Ventas Inc.",
+              "VTR"
+            ],
+            "note": "Listed in the health care reits industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Veralto",
+              "VLTO"
+            ],
+            "note": "Listed in the environmental & facilities services industry, with headquarters in Waltham, Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Verisign",
+              "VRSN"
+            ],
+            "note": "Listed in the internet services & infrastructure industry, with headquarters in Reston, Virginia."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Verisk Analytics",
+              "VRSK",
+              "Verisk"
+            ],
+            "note": "Listed in the research & consulting services industry, with headquarters in Jersey City, New Jersey."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Verizon",
+              "VZ",
+              "Verizon Communications"
+            ],
+            "note": "Listed in the integrated telecommunication services industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vertex Pharmaceuticals",
+              "Vertex Pharmaceuticals Inc.",
+              "VRTX",
+              "Vertex"
+            ],
+            "note": "Listed in the biotechnology industry, with headquarters in Boston , Massachusetts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vertiv",
+              "VRT"
+            ],
+            "note": "Listed in the electrical components & equipment industry, with headquarters in Westerville, Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Viatris",
+              "Viatris Inc.",
+              "VTRS",
+              "Mylan"
+            ],
+            "note": "Listed in the pharmaceuticals industry, with headquarters in Pittsburgh , Pennsylvania."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vici Properties",
+              "VICI"
+            ],
+            "note": "Listed in the hotel & resort reits industry, with headquarters in New York City , New York."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Visa Inc.",
+              "Visa",
+              "V"
+            ],
+            "note": "Listed in the transaction & payment processing services industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vistra",
+              "Vistra Corp .",
+              "VST",
+              "Vistra Energy"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Irving, Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vivmark Residential",
+              "VMRK"
+            ],
+            "note": "Listed in the multi-family residential reits industry, with headquarters in Chicago , Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vulcan Materials Company",
+              "VMC"
+            ],
+            "note": "Listed in the construction materials industry, with headquarters in Birmingham, Alabama."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vylor",
+              "VYLR"
+            ],
+            "note": "Listed in the agricultural products & services industry, with headquarters in Johnston, Iowa."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "W. R. Berkley Corporation",
+              "W. R. Berkley",
+              "WRB"
+            ],
+            "note": "Listed in the property & casualty insurance industry, with headquarters in Greenwich, Connecticut."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "W. W. Grainger",
+              "W.W. Grainger Inc.",
+              "GWW",
+              "Grainger"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in Lake Forest, Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wabtec",
+              "WAB",
+              "Westinghouse Air Brake Technologies",
+              "Westinghouse Air Brake"
+            ],
+            "note": "Listed in the construction machinery & heavy transportation equipment industry, with headquarters in Pittsburgh , Pennsylvania."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Walmart",
+              "Walmart Inc.",
+              "WMT"
+            ],
+            "note": "Listed in the consumer staples merchandise retail industry, with headquarters in Bentonville, Arkansas."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Walt Disney",
+              "Walt Disney Company (The)",
+              "The Walt Disney Company",
+              "DIS",
+              "Disney"
+            ],
+            "note": "Listed in the movies & entertainment industry, with headquarters in Burbank, California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Waste Management",
+              "Waste Management Inc.",
+              "WM"
+            ],
+            "note": "Listed in the environmental & facilities services industry, with headquarters in Houston , Texas."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Waters Corporation",
+              "Waters",
+              "WAT"
+            ],
+            "note": "Listed in the life sciences tools & services industry, with headquarters in Milford, Massachusetts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "WEC Energy Group",
+              "WEC Energy Group Inc.",
+              "WEC"
+            ],
+            "note": "Listed in the electric utilities industry, with headquarters in Milwaukee , Wisconsin."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Wells Fargo",
+              "Wells Fargo & Company",
+              "WFC"
+            ],
+            "note": "Listed in the diversified banks industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Welltower",
+              "Welltower Inc.",
+              "WELL"
+            ],
+            "note": "Listed in the health care reits industry, with headquarters in Toledo, Ohio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "West Pharmaceutical Services",
+              "WST",
+              "West",
+              "West Pharmaceutical"
+            ],
+            "note": "Listed in the health care supplies industry, with headquarters in Exton, Pennsylvania."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Western Digital",
+              "Western Digital Corporation",
+              "WDC",
+              "WD"
+            ],
+            "note": "Listed in the technology hardware, storage & peripherals industry, with headquarters in San Jose, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Weyerhaeuser",
+              "Weyerhaeuser Company",
+              "WY"
+            ],
+            "note": "Listed in the timber reits industry, with headquarters in Seattle , Washington."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Williams-Sonoma, Inc.",
+              "Williams-Sonoma",
+              "WSM"
+            ],
+            "note": "Listed in the homefurnishing retail industry, with headquarters in San Francisco , California."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Williams Companies",
+              "Williams",
+              "The Williams Companies",
+              "WMB"
+            ],
+            "note": "Listed in the oil & gas storage & transportation industry, with headquarters in Tulsa, Oklahoma."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Willis Towers Watson",
+              "Willis Towers Watson plc",
+              "WTW"
+            ],
+            "note": "Listed in the insurance brokers industry, with headquarters in London , United Kingdom."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Workday, Inc.",
+              "Workday",
+              "WDAY"
+            ],
+            "note": "Listed in the application software industry, with headquarters in Pleasanton, California."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wynn Resorts",
+              "Wynn Resorts Limited",
+              "WYNN"
+            ],
+            "note": "Listed in the casinos & gaming industry, with headquarters in Paradise, Nevada."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Xcel Energy",
+              "Xcel Energy Inc.",
+              "XEL",
+              "Xcel"
+            ],
+            "note": "Listed in the multi-utilities industry, with headquarters in Minneapolis , Minnesota."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Xylem Inc.",
+              "Xylem",
+              "XYL"
+            ],
+            "note": "Listed in the industrial machinery & supplies & components industry, with headquarters in White Plains, New York."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yum! Brands",
+              "Yum! Brands Inc.",
+              "YUM",
+              "KFC",
+              "Taco Bell",
+              "Pizza Hut"
+            ],
+            "note": "Listed in the restaurants industry, with headquarters in Louisville, Kentucky."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zebra Technologies",
+              "Zebra Technologies Corporation",
+              "ZBRA",
+              "Zebra"
+            ],
+            "note": "Listed in the electronic equipment & instruments industry, with headquarters in Lincolnshire, Illinois."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zimmer Biomet",
+              "Zimmer Biomet Holdings",
+              "ZBH",
+              "Zimmer"
+            ],
+            "note": "Listed in the health care equipment industry, with headquarters in Warsaw, Indiana."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zoetis",
+              "Zoetis Inc.",
+              "ZTS"
+            ],
+            "note": "Listed in the pharmaceuticals industry, with headquarters in Parsippany, New Jersey."
+          }
+        ]
+      },
+      {
+        "prompt": "Spotify Top 100 Podcasts",
+        "source": "https://podcastcharts.byspotify.com/",
+        "sourceNote": "Curated general-trivia recall rarity, not measured response frequencies: 10/30/60/85/100; 15 is the separate QUIRKY exception. See coverage-audit.json for source reconciliation and edge decisions. User selected the US Top Podcasts chart. The defining first 100 entries were captured from Spotify's public chart endpoint on 18 October 2026: https://podcastcharts.byspotify.com/api/charts/top-podcasts?region=us&limit=100 . The endpoint returned 200 entries despite the limit argument; the site's Top 100 presentation uses the first 100, which define this bank. Chart observation date is recorded rather than inventing a publication timestamp. Each show is one catch. Host names are accepted only where their intended show is clear; title spelling and compact names share that catch. Blurbs record snapshot rank and credited publisher. Independent comparison https://podfollow.com/charts/spotify/us/top exposes only a subset, with some shifted ranks and historical titles, so it does not override Spotify's ordering or define completeness. Nontraditional audio feeds count if present in the defining chart. spotify-snapshot.json preserves the complete selected ranking and show identifiers.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "The Joe Rogan Experience",
+              "Joe Rogan",
+              "JRE"
+            ],
+            "note": "Ranked 1 in this US Spotify chart snapshot; credited publisher: Joe Rogan."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "This Past Weekend w/ Theo Von",
+              "This Past Weekend",
+              "Theo Von"
+            ],
+            "note": "Ranked 2 in this US Spotify chart snapshot; credited publisher: Theo Von."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Good Hang with Amy Poehler",
+              "Good Hang",
+              "Amy Poehler"
+            ],
+            "note": "Ranked 3 in this US Spotify chart snapshot; credited publisher: The Ringer."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Crime Junkie"
+            ],
+            "note": "Ranked 4 in this US Spotify chart snapshot; credited publisher: Audiochuck."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Shawn Ryan Show",
+              "Shawn Ryan"
+            ],
+            "note": "Ranked 5 in this US Spotify chart snapshot; credited publisher: Shawn Ryan Show."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "The Daily"
+            ],
+            "note": "Ranked 6 in this US Spotify chart snapshot; credited publisher: The New York Times."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "On Purpose with Jay Shetty",
+              "On Purpose",
+              "Jay Shetty"
+            ],
+            "note": "Ranked 7 in this US Spotify chart snapshot; credited publisher: Perfect Strangers."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Tucker Carlson Show",
+              "Tucker Carlson"
+            ],
+            "note": "Ranked 8 in this US Spotify chart snapshot; credited publisher: Tucker Carlson Network."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Diary Of A CEO with Steven Bartlett",
+              "Diary of a CEO",
+              "DOAC",
+              "Steven Bartlett"
+            ],
+            "note": "Ranked 9 in this US Spotify chart snapshot; credited publisher: FlightStory."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Up First from NPR",
+              "Up First"
+            ],
+            "note": "Ranked 10 in this US Spotify chart snapshot; credited publisher: NPR."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Armchair Expert with Dax Shepard",
+              "Armchair Expert",
+              "Dax Shepard"
+            ],
+            "note": "Ranked 11 in this US Spotify chart snapshot; credited publisher: Armchair Umbrella."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Journal.",
+              "WSJ Journal"
+            ],
+            "note": "Ranked 12 in this US Spotify chart snapshot; credited publisher: The Wall Street Journal."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Matt and Shane's Secret Podcast",
+              "Matt and Shane",
+              "MSSP"
+            ],
+            "note": "Ranked 13 in this US Spotify chart snapshot; credited publisher: Matt McCusker & Shane Gillis."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Tim Dillon Show",
+              "Tim Dillon"
+            ],
+            "note": "Ranked 14 in this US Spotify chart snapshot; credited publisher: The Tim Dillon Show."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Directed By"
+            ],
+            "note": "Ranked 15 in this US Spotify chart snapshot; credited publisher: Spotify Studios."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pardon My Take"
+            ],
+            "note": "Ranked 16 in this US Spotify chart snapshot; credited publisher: Barstool Sports."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Morbid"
+            ],
+            "note": "Ranked 17 in this US Spotify chart snapshot; credited publisher: Ash Kelley & Alaina Urquhart."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Day in the Life"
+            ],
+            "note": "Ranked 18 in this US Spotify chart snapshot; credited publisher: Spotify."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Smosh Reads Reddit Stories",
+              "Smosh Reddit Stories"
+            ],
+            "note": "Ranked 19 in this US Spotify chart snapshot; credited publisher: Smosh."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Bad Friends"
+            ],
+            "note": "Ranked 20 in this US Spotify chart snapshot; credited publisher: 7EQUIS & Wave."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Giggly Squad"
+            ],
+            "note": "Ranked 21 in this US Spotify chart snapshot; credited publisher: Hannah Berner & Paige DeSorbo."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Bill Simmons Podcast",
+              "Bill Simmons"
+            ],
+            "note": "Ranked 22 in this US Spotify chart snapshot; credited publisher: The Ringer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Modern Wisdom"
+            ],
+            "note": "Ranked 23 in this US Spotify chart snapshot; credited publisher: Chris Williamson."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Candace",
+              "Candace Owens"
+            ],
+            "note": "Ranked 24 in this US Spotify chart snapshot; credited publisher: Candace Owens."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Dateline NBC",
+              "Dateline"
+            ],
+            "note": "Ranked 25 in this US Spotify chart snapshot; credited publisher: NBC News."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Two Hot Takes"
+            ],
+            "note": "Ranked 26 in this US Spotify chart snapshot; credited publisher: Reddit Stories."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rotten Mango"
+            ],
+            "note": "Ranked 27 in this US Spotify chart snapshot; credited publisher: Stephanie Soo."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Financial Audit",
+              "Caleb Hammer"
+            ],
+            "note": "Ranked 28 in this US Spotify chart snapshot; credited publisher: Caleb Hammer."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Huberman Lab",
+              "Andrew Huberman"
+            ],
+            "note": "Ranked 29 in this US Spotify chart snapshot; credited publisher: Scicomm Media."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Toast"
+            ],
+            "note": "Ranked 30 in this US Spotify chart snapshot; credited publisher: Dear Media."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CreepCast"
+            ],
+            "note": "Ranked 31 in this US Spotify chart snapshot; credited publisher: Wendigoon & MeatCanyon."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Mel Robbins Podcast",
+              "Mel Robbins"
+            ],
+            "note": "Ranked 32 in this US Spotify chart snapshot; credited publisher: Mel Robbins."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "NPR News Now"
+            ],
+            "note": "Ranked 33 in this US Spotify chart snapshot; credited publisher: NPR."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "SmartLess"
+            ],
+            "note": "Ranked 34 in this US Spotify chart snapshot; credited publisher: Jason Bateman, Sean Hayes, Will Arnett."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Distractible"
+            ],
+            "note": "Ranked 35 in this US Spotify chart snapshot; credited publisher: Distractible."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pod Save America"
+            ],
+            "note": "Ranked 36 in this US Spotify chart snapshot; credited publisher: Pod Save America."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Last Podcast On The Left"
+            ],
+            "note": "Ranked 37 in this US Spotify chart snapshot; credited publisher: The Last Podcast Network."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "JOURNEY with JOHNNY"
+            ],
+            "note": "Ranked 38 in this US Spotify chart snapshot; credited publisher: JOHNNY."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "STAN:A"
+            ],
+            "note": "Ranked 39 in this US Spotify chart snapshot; credited publisher: HYBE MEDIA STUDIO."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "KILL TONY",
+              "Tony Hinchcliffe"
+            ],
+            "note": "Ranked 40 in this US Spotify chart snapshot; credited publisher: Golden Pony Productions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MrBallen Podcast: Strange, Dark & Mysterious Stories",
+              "MrBallen",
+              "Mr Ballen",
+              "MrBallen Podcast"
+            ],
+            "note": "Ranked 41 in this US Spotify chart snapshot; credited publisher: Ballen Studios."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chilling Scares"
+            ],
+            "note": "Ranked 42 in this US Spotify chart snapshot; credited publisher: Chilling Scares."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "All-In with Chamath, Jason, Sacks & Friedberg",
+              "All In",
+              "All-In Podcast"
+            ],
+            "note": "Ranked 43 in this US Spotify chart snapshot; credited publisher: All-In Podcast, LLC."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Spotify Hometown"
+            ],
+            "note": "Ranked 44 in this US Spotify chart snapshot; credited publisher: Spotify."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fantasy Footballers - Fantasy Football Podcast",
+              "Fantasy Footballers"
+            ],
+            "note": "Ranked 45 in this US Spotify chart snapshot; credited publisher: Fantasy Football."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Basement Yard"
+            ],
+            "note": "Ranked 46 in this US Spotify chart snapshot; credited publisher: Santagato Studios."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Today, Explained"
+            ],
+            "note": "Ranked 47 in this US Spotify chart snapshot; credited publisher: Vox."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Call Her Daddy"
+            ],
+            "note": "Ranked 48 in this US Spotify chart snapshot; credited publisher: Alex Cooper."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Yoga with Kassandra",
+              "Kassandra"
+            ],
+            "note": "Ranked 49 in this US Spotify chart snapshot; credited publisher: Kassandra Reinhardt."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Crime, Conspiracy, Cults and Murder"
+            ],
+            "note": "Ranked 50 in this US Spotify chart snapshot; credited publisher: Kallmekris."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "2 Bears, 1 Cave with Tom Segura & Bert Kreischer",
+              "2 Bears 1 Cave",
+              "Two Bears One Cave"
+            ],
+            "note": "Ranked 51 in this US Spotify chart snapshot; credited publisher: 2 Bears 1 Cave."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "So True with Caleb Hearon",
+              "So True",
+              "Caleb Hearon"
+            ],
+            "note": "Ranked 52 in this US Spotify chart snapshot; credited publisher: Wave."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Ben Shapiro Show",
+              "Ben Shapiro"
+            ],
+            "note": "Ranked 53 in this US Spotify chart snapshot; credited publisher: The Daily Wire."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Morning Brew Daily"
+            ],
+            "note": "Ranked 54 in this US Spotify chart snapshot; credited publisher: Morning Brew."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Live Free with Josh Howerton",
+              "Live Free",
+              "Josh Howerton"
+            ],
+            "note": "Ranked 55 in this US Spotify chart snapshot; credited publisher: Lakepointe Church."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "This American Life"
+            ],
+            "note": "Ranked 56 in this US Spotify chart snapshot; credited publisher: This American Life."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "PBD Podcast",
+              "Patrick Bet-David"
+            ],
+            "note": "Ranked 57 in this US Spotify chart snapshot; credited publisher: PBD Podcast."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Rest Is History"
+            ],
+            "note": "Ranked 58 in this US Spotify chart snapshot; credited publisher: Goalhanger."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Therapuss with Jake Shane",
+              "Therapuss",
+              "Jake Shane"
+            ],
+            "note": "Ranked 59 in this US Spotify chart snapshot; credited publisher: Jake Shane."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Ramsey Show",
+              "Dave Ramsey",
+              "The Dave Ramsey Show"
+            ],
+            "note": "Ranked 60 in this US Spotify chart snapshot; credited publisher: Ramsey Network."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Breaking News from Pod Save America"
+            ],
+            "note": "Ranked 61 in this US Spotify chart snapshot; credited publisher: Crooked Media."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Julian Dorey Podcast",
+              "Julian Dorey"
+            ],
+            "note": "Ranked 62 in this US Spotify chart snapshot; credited publisher: Julian Dorey."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Why Files: Operation Podcast",
+              "The Why Files"
+            ],
+            "note": "Ranked 63 in this US Spotify chart snapshot; credited publisher: The Why Files."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Killer Stories with Harvey Guill\u00e9n",
+              "Killer Stories",
+              "Harvey Guillen"
+            ],
+            "note": "Ranked 64 in this US Spotify chart snapshot; credited publisher: Spotify Studios."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Flagrant",
+              "Andrew Schulz",
+              "Flagrant 2"
+            ],
+            "note": "Ranked 65 in this US Spotify chart snapshot; credited publisher: Flagrant."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "soundbuttonsspace"
+            ],
+            "note": "Ranked 66 in this US Spotify chart snapshot; credited publisher: soundbuttonsspace."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Conan O\u2019Brien Needs A Friend",
+              "Conan OBrien",
+              "Conan"
+            ],
+            "note": "Ranked 67 in this US Spotify chart snapshot; credited publisher: Team Coco & Earwolf."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Matt Walsh Show",
+              "Matt Walsh"
+            ],
+            "note": "Ranked 68 in this US Spotify chart snapshot; credited publisher: The Matt Walsh Show."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Stuff You Should Know"
+            ],
+            "note": "Ranked 69 in this US Spotify chart snapshot; credited publisher: iHeartPodcasts."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Ezra Klein Show",
+              "Ezra Klein"
+            ],
+            "note": "Ranked 70 in this US Spotify chart snapshot; credited publisher: New York Times Opinion."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "My Favorite Murder with Karen Kilgariff and Georgia Hardstark",
+              "My Favorite Murder",
+              "MFM"
+            ],
+            "note": "Ranked 71 in this US Spotify chart snapshot; credited publisher: Exactly Right and iHeartPodcasts."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Let's Find Out"
+            ],
+            "note": "Ranked 72 in this US Spotify chart snapshot; credited publisher: Let's Find Out."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Megyn Kelly Show",
+              "Megyn Kelly"
+            ],
+            "note": "Ranked 73 in this US Spotify chart snapshot; credited publisher: SiriusXM."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Broski Report with Brittany Broski",
+              "The Broski Report",
+              "Brittany Broski"
+            ],
+            "note": "Ranked 74 in this US Spotify chart snapshot; credited publisher: Brittany Broski & Audioboom Studios."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Danny Jones Podcast",
+              "Danny Jones"
+            ],
+            "note": "Ranked 75 in this US Spotify chart snapshot; credited publisher: Danny Jones."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Murder In America"
+            ],
+            "note": "Ranked 76 in this US Spotify chart snapshot; credited publisher: Bloody FM."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Rewatchables"
+            ],
+            "note": "Ranked 77 in this US Spotify chart snapshot; credited publisher: The Ringer."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "20/20",
+              "Twenty Twenty"
+            ],
+            "note": "Ranked 78 in this US Spotify chart snapshot; credited publisher: ABC News."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SoundEffectPodcast"
+            ],
+            "note": "Ranked 79 in this US Spotify chart snapshot; credited publisher: Mr.Sound."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Nourish Move Love Home Workouts",
+              "Nourish Move Love"
+            ],
+            "note": "Ranked 80 in this US Spotify chart snapshot; credited publisher: Lindsey Bomgren."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "48 Hours",
+              "Forty Eight Hours"
+            ],
+            "note": "Ranked 81 in this US Spotify chart snapshot; credited publisher: 48 Hours."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Murder With My Husband"
+            ],
+            "note": "Ranked 82 in this US Spotify chart snapshot; credited publisher: OH NO MEDIA."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Are You Garbage? Comedy Podcast",
+              "Are You Garbage",
+              "AYG"
+            ],
+            "note": "Ranked 83 in this US Spotify chart snapshot; credited publisher: Kevin Ryan & H. Foley."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Big Picture"
+            ],
+            "note": "Ranked 84 in this US Spotify chart snapshot; credited publisher: The Ringer."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Horror Stories"
+            ],
+            "note": "Ranked 85 in this US Spotify chart snapshot; credited publisher: Horror Stories."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brooke and Connor Make A Podcast",
+              "Brooke and Connor"
+            ],
+            "note": "Ranked 86 in this US Spotify chart snapshot; credited publisher: TMG Studios."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Your Mom's House with Christina P. and Tom Segura",
+              "Your Moms House",
+              "YMH"
+            ],
+            "note": "Ranked 87 in this US Spotify chart snapshot; credited publisher: Tom Segura."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Conspiracy Theories"
+            ],
+            "note": "Ranked 88 in this US Spotify chart snapshot; credited publisher: Spotify Studios."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Just Creepy: Scary Stories"
+            ],
+            "note": "Ranked 89 in this US Spotify chart snapshot; credited publisher: Just Creepy."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Park Predators"
+            ],
+            "note": "Ranked 90 in this US Spotify chart snapshot; credited publisher: Audiochuck."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The MeidasTouch Podcast",
+              "MeidasTouch"
+            ],
+            "note": "Ranked 91 in this US Spotify chart snapshot; credited publisher: MeidasTouch Network."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Snook"
+            ],
+            "note": "Ranked 92 in this US Spotify chart snapshot; credited publisher: Snook."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The Bryce Crawford Podcast",
+              "Bryce Crawford"
+            ],
+            "note": "Ranked 93 in this US Spotify chart snapshot; credited publisher: Bryce Crawford."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "His Story: Animation Stories",
+              "His Story"
+            ],
+            "note": "Ranked 94 in this US Spotify chart snapshot; credited publisher: His Story."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Ringer Fantasy Football Show",
+              "Ringer Fantasy Football"
+            ],
+            "note": "Ranked 95 in this US Spotify chart snapshot; credited publisher: The Ringer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "We Might Be Drunk"
+            ],
+            "note": "Ranked 96 in this US Spotify chart snapshot; credited publisher: Sam Morril and Mark Normand."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The MeatEater Podcast",
+              "MeatEater"
+            ],
+            "note": "Ranked 97 in this US Spotify chart snapshot; credited publisher: MeatEater."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Science Vs"
+            ],
+            "note": "Ranked 98 in this US Spotify chart snapshot; credited publisher: Spotify Studios."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ride with Benito Skinner and Mary Beth Barone",
+              "Ride",
+              "Benito Skinner and Mary Beth Barone"
+            ],
+            "note": "Ranked 99 in this US Spotify chart snapshot; credited publisher: Dear Media."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Serialously with Annie Elise",
+              "Serialously",
+              "Annie Elise"
+            ],
+            "note": "Ranked 100 in this US Spotify chart snapshot; credited publisher: Annie Elise."
+          }
+        ]
+      },
+      {
+        "prompt": "Roman Emperors",
+        "source": "https://roman-emperors.sites.luc.edu/impindex.htm",
+        "sourceNote": "Curated general-trivia recall rarity, not measured response frequencies: 10/30/60/85/100; 15 is the separate QUIRKY exception. See coverage-audit.json for source reconciliation and edge decisions. User approved Augustus through the fall of the Western Empire in 476, including Eastern contemporaries, rivals, breakaway imperial rulers and documented claimants. Julius Caesar is an explicit house-rule exception: he was dictator, not emperor. One person per catch, not one reign. The core chronology https://en.wikipedia.org/wiki/List_of_Roman_emperors was reconciled with https://en.wikipedia.org/wiki/List_of_Roman_usurpers , the specialist DIR index, and all eight linked Livius chronology sections beginning https://www.livius.org/articles/misc/list-of-roman-emperors/ . Later Byzantine rulers are outside the date scope. Alleged claims and uncertain identities are admitted under the broad claimant convention and identified as uncertain in blurbs; these are not 183 universally recognized emperors. Definite fictional inventions and nonclaiming rebels are excluded. Qualified Pseudo-Neros are separate claimants. Sabinus Julianus and the separately reported claimant under Maximian are separate, with the identification dispute disclosed. Caesar maps to Julius Caesar; Constantine to I, Claudius to I, Theodosius to I, Valentinian to I, Severus to Septimius, Constantius to II (the less rare represented owner), Marcus to Marcus Aurelius, Julian to the Apostate and Gordian to III. Other numbered or claimant forms require qualifiers. Source chronology dates differ on some ancient events; blurbs do not imply consensus on disputed claims. Partial-name fairness: Julius belongs to Julius Caesar (10), Maximus to Magnus Maximus (85), and Macrianus to Macrianus Minor; distinguishing rival names still have separate exact catches.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Augustus",
+              "Octavian",
+              "Octavianus",
+              "Gaius Octavius",
+              "Caesar Augustus"
+            ],
+            "note": "Roman emperor; recorded reign from 16 January 27 BC \u2013 19 August AD 14."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tiberius"
+            ],
+            "note": "Roman emperor; recorded reign from 17 September 14 \u2013 16 March 37."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Caligula",
+              "Gaius"
+            ],
+            "note": "Roman emperor; recorded reign from 18 March 37 \u2013 24 January 41."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Claudius"
+            ],
+            "note": "Roman emperor; recorded reign from 24 January 41 \u2013 13 October 54."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Nero"
+            ],
+            "note": "Roman emperor; recorded reign from 13 October 54 \u2013 9 June 68."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Galba"
+            ],
+            "note": "Roman emperor; recorded reign from 8 June 68 \u2013 15 January 69."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Otho"
+            ],
+            "note": "Roman emperor; recorded reign from 15 January \u2013 16 April 69."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vitellius"
+            ],
+            "note": "Roman emperor; recorded reign from 19 April \u2013 20 December 69."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Vespasian"
+            ],
+            "note": "Roman emperor; recorded reign from 1 July 69 \u2013 23 June 79."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Titus"
+            ],
+            "note": "Roman emperor; recorded reign from 24 June 79 \u2013 13 September 81."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Domitian"
+            ],
+            "note": "Roman emperor; recorded reign from 14 September 81 \u2013 18 September 96."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nerva"
+            ],
+            "note": "Roman emperor; recorded reign from 18 September 96 \u2013 27 January 98."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Trajan"
+            ],
+            "note": "Roman emperor; recorded reign from 28 January 98 \u2013 9 August 117."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Hadrian"
+            ],
+            "note": "Roman emperor; recorded reign from 11 August 117 \u2013 10 July 138."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Antoninus Pius",
+              "Antoninus",
+              "Pius"
+            ],
+            "note": "Roman emperor; recorded reign from 10 July 138 \u2013 7 March 161."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Marcus Aurelius",
+              "Aurelius",
+              "Marcus"
+            ],
+            "note": "Roman emperor; recorded reign from 7 March 161 \u2013 17 March 180."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lucius Verus",
+              "Verus"
+            ],
+            "note": "Roman emperor; recorded reign from 7 March 161 \u2013 January/February 169."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Commodus"
+            ],
+            "note": "Roman emperor; recorded reign from June 177 \u2013 31 December 192."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pertinax"
+            ],
+            "note": "Roman emperor; recorded reign from 1 January \u2013 28 March 193."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Didius Julianus"
+            ],
+            "note": "Roman emperor; recorded reign from 28 March \u2013 1 June 193."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Septimius Severus",
+              "Severus"
+            ],
+            "note": "Roman emperor; recorded reign from 9 April 193 \u2013 4 February 211."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geta"
+            ],
+            "note": "Co-emperor from 209 until his murder in 211; he shared power with his father and brother."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Caracalla"
+            ],
+            "note": "Roman emperor; recorded reign from 198 \u2013 8 April 217."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Macrinus"
+            ],
+            "note": "Roman emperor; recorded reign from 11 April 217 \u2013 8 June 218."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Diadumenian",
+              "Diadumenianus"
+            ],
+            "note": "Roman emperor; recorded reign from Late May \u2013 June 218."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Elagabalus",
+              "Heliogabalus"
+            ],
+            "note": "Roman emperor; recorded reign from 16 May 218 \u2013 13 March 222."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Severus Alexander",
+              "Alexander Severus",
+              "Alexander"
+            ],
+            "note": "Roman emperor; recorded reign from 14 March 222 \u2013 March 235."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Maximinus Thrax",
+              "Maximinus I",
+              "Maximinus",
+              "Thrax",
+              "Maximinus the Thracian"
+            ],
+            "note": "Roman emperor; recorded reign from c. March 235 \u2013 c. June 238."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gordian I",
+              "Gordian 1"
+            ],
+            "note": "Roman emperor; recorded reign from c. April \u2013 c. May 238."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gordian II",
+              "Gordian 2"
+            ],
+            "note": "Roman emperor; recorded reign from c. April \u2013 c. May 238."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pupienus"
+            ],
+            "note": "Roman emperor; recorded reign from c. May \u2013 c. August 238."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Balbinus"
+            ],
+            "note": "Roman emperor; recorded reign from c. May \u2013 c. August 238."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gordian III",
+              "Gordian",
+              "Gordian 3"
+            ],
+            "note": "Roman emperor; recorded reign from c. August 238 \u2013 c. February 244."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Philip the Arab",
+              "Philip I",
+              "Philip",
+              "Philippus Arabus",
+              "Philippus"
+            ],
+            "note": "Roman emperor; recorded reign from c. February 244 \u2013 September/October 249."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Philip II",
+              "Philip 2"
+            ],
+            "note": "Roman emperor; recorded reign from July/August 247 \u2013 September/October 249."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Decius"
+            ],
+            "note": "Roman emperor; recorded reign from September/October 249 \u2013 June 251."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Herennius Etruscus"
+            ],
+            "note": "Roman emperor; recorded reign from May/June \u2013 June 251."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Julius Valens Licinianus",
+              "Licinian",
+              "Licinianus"
+            ],
+            "note": "A briefly reported claimant at Rome during Decius\u2019s reign, known mainly through ancient literary testimony."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Trebonianus Gallus"
+            ],
+            "note": "Roman emperor; recorded reign from June 251 \u2013 c. August 253."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hostilian",
+              "Hostilianus"
+            ],
+            "note": "Roman emperor; recorded reign from c. June \u2013 c. July 251."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Volusianus"
+            ],
+            "note": "Roman emperor; recorded reign from c. August 251 \u2013 c. August 253."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aemilian",
+              "Aemilianus"
+            ],
+            "note": "Roman emperor; recorded reign from c. July \u2013 c. September 253."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Silbannacus"
+            ],
+            "note": "Known from rare coins; his chronology and whether he briefly controlled Rome remain uncertain."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Valerian"
+            ],
+            "note": "Roman emperor; recorded reign from c. September 253 \u2013 c. June 260."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Gallienus"
+            ],
+            "note": "Roman emperor; recorded reign from c. September 253 \u2013 c. September 268."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Saloninus"
+            ],
+            "note": "Roman emperor; recorded reign from Autumn 260."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Claudius II",
+              "Claudius Gothicus",
+              "Claudius II Gothicus",
+              "Gothicus",
+              "Claudius 2"
+            ],
+            "note": "Roman emperor; recorded reign from c. September 268 \u2013 c. August 270."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quintillus"
+            ],
+            "note": "Roman emperor; recorded reign from c. August \u2013 c. September 270."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Aurelian"
+            ],
+            "note": "Roman emperor; recorded reign from c. August 270 \u2013 c. November 275."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tacitus"
+            ],
+            "note": "Roman emperor; recorded reign from c. December 275 \u2013 c. June 276."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Florian",
+              "Florianus"
+            ],
+            "note": "Roman emperor; recorded reign from c. June \u2013 September 276."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Probus"
+            ],
+            "note": "Roman emperor; recorded reign from c. June 276 \u2013 c. September 282."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Carus"
+            ],
+            "note": "Roman emperor; recorded reign from c. September 282 \u2013 c. July/August 283."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Carinus"
+            ],
+            "note": "Roman emperor; recorded reign from Spring 283 \u2013 August/September 285."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Numerian",
+              "Numerianus"
+            ],
+            "note": "Roman emperor; recorded reign from c. July/August 283 \u2013 November 284."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Diocletian"
+            ],
+            "note": "Roman emperor; recorded reign from 20 November 284 \u2013 1 May 305."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Maximian",
+              "Maximianus",
+              "Maximian Herculius"
+            ],
+            "note": "Diocletian\u2019s western colleague; abdicated in 305, then returned to imperial politics and made further bids for power."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Galerius"
+            ],
+            "note": "Roman emperor; recorded reign from 1 May 305 \u2013 May 311."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Constantius I",
+              "Constantius Chlorus",
+              "Chlorus",
+              "Constantius 1"
+            ],
+            "note": "Roman emperor; recorded reign from 1 May 305 \u2013 25 July 306."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Severus II",
+              "Severus 2"
+            ],
+            "note": "Roman emperor; recorded reign from August 306 \u2013 March/April 307."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Domitius Alexander"
+            ],
+            "note": "Roman emperor; recorded reign from 308 \u2013 310."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Maxentius"
+            ],
+            "note": "Roman emperor; recorded reign from 28 October 306 \u2013 28 October 312."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Licinius"
+            ],
+            "note": "Roman emperor; recorded reign from 11 November 308 \u2013 19 September 324."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Maximinus II",
+              "Maximinus Daia",
+              "Maximinus Daza",
+              "Daia",
+              "Daza",
+              "Maximinus 2"
+            ],
+            "note": "Roman emperor; recorded reign from 310 \u2013 c. July 313."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Valerius Valens"
+            ],
+            "note": "Roman emperor; recorded reign from October 316 \u2013 c. January 317."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Martinian",
+              "Martinianus"
+            ],
+            "note": "Roman emperor; recorded reign from July \u2013 19 September 324."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Constantine I",
+              "Constantine",
+              "Constantine the Great",
+              "Constantine 1"
+            ],
+            "note": "Roman emperor; recorded reign from 25 July 306 \u2013 22 May 337."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Constantine II",
+              "Constantine 2"
+            ],
+            "note": "Roman emperor; recorded reign from 9 September 337 \u2013 April 340."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Constans",
+              "Constans I"
+            ],
+            "note": "Roman emperor; recorded reign from 9 September 337 \u2013 January 350."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Constantius II",
+              "Constantius 2",
+              "Constantius"
+            ],
+            "note": "Roman emperor; recorded reign from 9 September 337 \u2013 3 November 361."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Magnentius"
+            ],
+            "note": "Rival Roman emperor; recorded reign from 18 January 350 \u2013 10 August 353."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vetranio"
+            ],
+            "note": "Roman emperor; recorded reign from 1 March \u2013 25 December 350."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nepotianus"
+            ],
+            "note": "Rival Roman emperor; recorded reign from 3 June \u2013 30 June 350."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Julian",
+              "Julian the Apostate",
+              "Julian II"
+            ],
+            "note": "Roman emperor; recorded reign from 360 \u2013 26 June 363."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jovian"
+            ],
+            "note": "Roman emperor; recorded reign from 27 June 363 \u2013 17 February 364."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Valentinian I",
+              "Valentinian",
+              "Valentinian 1"
+            ],
+            "note": "Roman emperor; recorded reign from 25/26 February 364 \u2013 17 November 375."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Valens"
+            ],
+            "note": "Roman emperor; recorded reign from 28 March 364 \u2013 9 August 378."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Procopius"
+            ],
+            "note": "Rival Roman emperor; recorded reign from 28 September 365 \u2013 27 May 366."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gratian",
+              "Gratianus"
+            ],
+            "note": "Roman emperor; recorded reign from 24 August 367 \u2013 25 August 383."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Magnus Maximus",
+              "Maximus"
+            ],
+            "note": "Roman emperor; recorded reign from 25 August 383 \u2013 28 August 388."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Valentinian II",
+              "Valentinian 2"
+            ],
+            "note": "Roman emperor; recorded reign from 22 November 375 \u2013 15 May 392."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Eugenius"
+            ],
+            "note": "Rival Roman emperor; recorded reign from 22 August 392 \u2013 6 September 394."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Theodosius I",
+              "Theodosius",
+              "Theodosius the Great",
+              "Theodosius 1"
+            ],
+            "note": "Roman emperor; recorded reign from 19 January 379 \u2013 17 January 395."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Arcadius"
+            ],
+            "note": "Roman emperor; recorded reign from 19 January 383 \u2013 1 May 408."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Honorius"
+            ],
+            "note": "Roman emperor; recorded reign from 23 January 393 \u2013 15 August 423."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Constantine III",
+              "Constantine 3"
+            ],
+            "note": "Roman emperor; recorded reign from 407 \u2013 411."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Theodosius II",
+              "Theodosius 2"
+            ],
+            "note": "Roman emperor; recorded reign from 10 January 402 \u2013 28 July 450."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Priscus Attalus"
+            ],
+            "note": "A rival western emperor elevated with Visigothic support in 409\u2013410 and again in 414\u2013415."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Constantius III",
+              "Constantius 3"
+            ],
+            "note": "Roman emperor; recorded reign from 8 February \u2013 2 September 421."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Joannes",
+              "Johannes",
+              "John"
+            ],
+            "note": "Rival Roman emperor; recorded reign from 20 November 423 \u2013 c. May 425."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Valentinian III",
+              "Valentinian 3"
+            ],
+            "note": "Roman emperor; recorded reign from 23 October 425 \u2013 16 March 455."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Marcian",
+              "Marcianus"
+            ],
+            "note": "Roman emperor; recorded reign from 25 August 450 \u2013 27 January 457."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Petronius Maximus"
+            ],
+            "note": "Roman emperor; recorded reign from 17 March \u2013 31 May 455."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Avitus"
+            ],
+            "note": "Roman emperor; recorded reign from 9 July 455 \u2013 17 October 456."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Majorian"
+            ],
+            "note": "Roman emperor; recorded reign from 28 December 457 \u2013 2 August 461."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Libius Severus",
+              "Severus III"
+            ],
+            "note": "Roman emperor; recorded reign from 19 November 461 \u2013 14 November 465."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Anthemius"
+            ],
+            "note": "Roman emperor; recorded reign from 12 April 467 \u2013 11 July 472."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Olybrius"
+            ],
+            "note": "Roman emperor; recorded reign from c. April \u2013 2 November 472."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Glycerius"
+            ],
+            "note": "Roman emperor; recorded reign from 3/5 March 473 \u2013 24 June 474."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Julius Nepos",
+              "Nepos"
+            ],
+            "note": "Western emperor expelled from Italy in 475; continued to claim the title from Dalmatia until his death in 480."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Romulus Augustulus",
+              "Romulus Augustus",
+              "Romulus",
+              "Augustulus"
+            ],
+            "note": "Roman emperor; recorded reign from 31 October 475 \u2013 4 September 476."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Leo I",
+              "Leo",
+              "Leo the Thracian",
+              "Leo 1"
+            ],
+            "note": "Roman emperor; recorded reign from 7 February 457 \u2013 18 January 474."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Leo II",
+              "Leo 2"
+            ],
+            "note": "Roman emperor; recorded reign from 18 January \u2013 November 474."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zeno",
+              "Zeno I",
+              "Zeno 1"
+            ],
+            "note": "Eastern emperor whose reign straddled the deposition of Romulus Augustulus in the West in 476."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Basiliscus"
+            ],
+            "note": "Roman emperor; recorded reign from 9 January 475 \u2013 August 476."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Flavius Victor",
+              "Victor"
+            ],
+            "note": "Son of Magnus Maximus; held the imperial title alongside his father before their defeat in 388."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Constans II",
+              "Constans 2"
+            ],
+            "note": "Son of Constantine III; promoted to co-emperor during his father\u2019s western rebellion."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Marcus (son of Basiliscus)",
+              "Marcus Caesar"
+            ],
+            "note": "Basiliscus made his young son Marcus co-emperor during the revolt against Zeno in 475\u2013476."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Julius Caesar",
+              "Caesar",
+              "Gaius Julius Caesar",
+              "Julius"
+            ],
+            "note": "Dictator rather than Roman emperor; accepted here as the user\u2019s explicit house-rule exception."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clemens",
+              "Pseudo-Agrippa"
+            ],
+            "note": "Posed as the dead Agrippa Postumus and attempted to claim power during Tiberius\u2019s reign."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lucius Arruntius Camillus Scribonianus",
+              "Camillus Scribonianus",
+              "Scribonianus"
+            ],
+            "note": "Governor of Dalmatia whose short-lived revolt against Claudius collapsed in AD 42."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lucius Clodius Macer",
+              "Clodius Macer",
+              "Macer"
+            ],
+            "note": "Rebel commander in North Africa in AD 68; his claim to imperial status is uncertain."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Gaius Nymphidius Sabinus",
+              "Nymphidius Sabinus"
+            ],
+            "note": "Praetorian prefect who sought imperial power after Nero\u2019s death and was killed by the Guard."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pseudo-Nero of 69",
+              "First Pseudo-Nero"
+            ],
+            "note": "An unnamed Nero impersonator who attracted followers in Greece during the upheavals of AD 69."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Terentius Maximus",
+              "Second Pseudo-Nero"
+            ],
+            "note": "A Nero impersonator who gained support in the eastern provinces during Titus\u2019s reign."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pseudo-Nero of 88",
+              "Third Pseudo-Nero"
+            ],
+            "note": "An unnamed Nero impersonator supported by the Parthians during Domitian\u2019s reign."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lucius Antonius Saturninus",
+              "Antonius Saturninus"
+            ],
+            "note": "Governor who rebelled against Domitian at Mainz in AD 89 before his forces were defeated."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Avidius Cassius",
+              "Cassius"
+            ],
+            "note": "Governor of Syria who claimed the throne in 175 while Marcus Aurelius was still alive."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pescennius Niger",
+              "Niger"
+            ],
+            "note": "Eastern rival of Septimius Severus during the civil wars that followed the death of Pertinax."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Clodius Albinus",
+              "Albinus"
+            ],
+            "note": "Former ally of Septimius Severus who became his rival and was defeated at Lugdunum."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Verus (usurper)",
+              "Verus of Tyre"
+            ],
+            "note": "Commander of the Third Gallic Legion proclaimed emperor at Tyre during Elagabalus\u2019s reign."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Gellius Maximus"
+            ],
+            "note": "Commander of the Fourth Scythian Legion who rebelled against Elagabalus in Syria."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Taurinius",
+              "Taurinus"
+            ],
+            "note": "Reported claimant under Severus Alexander who drowned himself in the Euphrates to evade punishment."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Seleucus",
+              "Julius Antonius Seleucus"
+            ],
+            "note": "A little-known imperial claimant associated with the reign of Severus Alexander."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Magnus",
+              "Gaius Petronius Magnus"
+            ],
+            "note": "Reported imperial candidate in a conspiracy against Maximinus Thrax; ancient accounts dispute the circumstances."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Quartinus",
+              "Titus Quartinus",
+              "Titus Fulvius Quartinus"
+            ],
+            "note": "Reluctant imperial claimant proclaimed by troops loyal to the murdered Severus Alexander."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sabinianus",
+              "Sabinian",
+              "Marcus Asinius Sabinianus"
+            ],
+            "note": "Governor of Africa who rebelled against Gordian III in the year 240."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pacatian",
+              "Pacatianus",
+              "Tiberius Claudius Marinus Pacatianus"
+            ],
+            "note": "Danubian rival of Philip the Arab, known from coins and his brief military revolt."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Jotapian",
+              "Jotapianus",
+              "Iotapianus",
+              "Marcus Fulvius Rufus Jotapianus"
+            ],
+            "note": "Led an eastern revolt against Philip the Arab, with taxation among the reported grievances."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sponsian",
+              "Sponsianus"
+            ],
+            "note": "Known from disputed Transylvanian coins; his authenticity and imperial status remain debated."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Titus Julius Priscus",
+              "Priscus"
+            ],
+            "note": "Governor of Macedonia who claimed the imperial title during the Gothic invasion under Decius."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Uranius Antoninus",
+              "Uranius",
+              "Sampsiceramus"
+            ],
+            "note": "A claimant at Emesa whose coinage and resistance to Persian attack belong to the third century."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ingenuus"
+            ],
+            "note": "A military claimant proclaimed in Pannonia during the crisis of Gallienus\u2019s reign."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Regalianus",
+              "Publius Cassius Regalianus"
+            ],
+            "note": "A third-century claimant in the Danube region whose brief rule is attested by coins."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Macrianus Minor",
+              "Macrianus Junior",
+              "Macrianus Iunior",
+              "Titus Fulvius Junius Macrianus",
+              "Macrianus"
+            ],
+            "note": "Proclaimed emperor with his brother Quietus after Valerian\u2019s capture by the Persians."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Macrianus Major",
+              "Macrianus Senior",
+              "Titus Fulvius Macrianus"
+            ],
+            "note": "Proclaimed by supporters but reportedly declined the throne; his sons Macrianus Minor and Quietus accepted imperial power."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Quietus",
+              "Titus Fulvius Junius Quietus"
+            ],
+            "note": "Eastern claimant proclaimed alongside his brother Macrianus Minor during Gallienus\u2019s reign."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Valens Thessalonicus",
+              "Valens of Thessalonica"
+            ],
+            "note": "A third-century claimant associated with Achaea, distinct from the later eastern emperor Valens."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lucius Mussius Aemilianus",
+              "Mussius Aemilianus",
+              "Aemilian II"
+            ],
+            "note": "An Egyptian prefect who claimed imperial power after supporting the Macrianus rebellion."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Memor"
+            ],
+            "note": "A poorly documented Egyptian rebel under Gallienus; whether he claimed imperial power is uncertain."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Aureolus"
+            ],
+            "note": "Military commander who turned against Gallienus and was killed after surrendering to Claudius II."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Postumus",
+              "Marcus Cassianius Latinius Postumus"
+            ],
+            "note": "Founder of the breakaway Gallic Empire, ruling much of the Roman west in the 260s."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Laelianus",
+              "Laelian",
+              "Ulpius Cornelius Laelianus"
+            ],
+            "note": "A short-lived Gallic rival who rebelled against Postumus at Mainz in 269."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Marius",
+              "Marcus Aurelius Marius"
+            ],
+            "note": "A former blacksmith who briefly ruled the Gallic Empire after the death of Postumus."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Victorinus",
+              "Marcus Piavonius Victorinus"
+            ],
+            "note": "Gallic emperor who succeeded Marius and ruled before the accession of Tetricus."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Domitian II",
+              "Domitianus II",
+              "Domitianus of Gaul",
+              "Domitian 2"
+            ],
+            "note": "A Gallic claimant whose brief reign is known principally through rare surviving coins."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tetricus I",
+              "Tetricus",
+              "Gaius Esuvius Tetricus",
+              "Tetricus 1"
+            ],
+            "note": "The last senior Gallic emperor; surrendered to Aurelian during the empire\u2019s reunification."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tetricus II",
+              "Tetricus Junior",
+              "Tetricus 2"
+            ],
+            "note": "Son and junior colleague of Tetricus I; whether he became augustus remains disputed."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Faustinus"
+            ],
+            "note": "A rebel against Tetricus in Gaul; the evidence does not securely establish an imperial proclamation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vaballathus",
+              "Wahballat"
+            ],
+            "note": "Son of Zenobia who assumed imperial titles during Palmyra\u2019s break with Aurelian."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Zenobia",
+              "Septimia Zenobia"
+            ],
+            "note": "Palmyrene ruler who assumed the title augusta while challenging Aurelian\u2019s authority in the East."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Antiochus of Palmyra",
+              "Antiochus"
+            ],
+            "note": "A short-lived Palmyrene ruler installed during a renewed rebellion against Roman rule in 273."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Septimius (usurper)",
+              "Septimius of Dalmatia"
+            ],
+            "note": "A little-known rebel in Dalmatia during Aurelian\u2019s reign, reportedly killed by his own followers."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Urbanus"
+            ],
+            "note": "A little-known claimant mentioned by Zosimus in connection with Aurelian\u2019s reign."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bonosus"
+            ],
+            "note": "A military rebel in the Rhine region who challenged the emperor Probus."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Proculus"
+            ],
+            "note": "A third-century military claimant associated with a rebellion against Probus in the western provinces."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Julius Saturninus",
+              "Gaius Julius Saturninus",
+              "Saturninus"
+            ],
+            "note": "An eastern commander who rebelled against Probus and was killed by his soldiers."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Julian of Pannonia",
+              "Sabinus Julianus",
+              "Marcus Aurelius Julianus",
+              "Marcus Aurelius Sabinus Julianus"
+            ],
+            "note": "A claimant defeated by Carinus after the death of Numerian in the 280s."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Amandus"
+            ],
+            "note": "A Bagaudae rebel under Diocletian and Maximian; evidence for an imperial claim is uncertain."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Aelianus"
+            ],
+            "note": "A Bagaudae leader associated with Amandus\u2019s revolt in Gaul during the late third century."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Domitius Domitianus",
+              "Lucius Domitius Domitianus",
+              "Domitian III"
+            ],
+            "note": "Claimed imperial power in Egypt during Diocletian\u2019s reign and issued coins there."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Aurelius Achilleus",
+              "Achilleus"
+            ],
+            "note": "An Egyptian rebel associated with resistance to Diocletian at Alexandria in 297\u2013298."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Carausius",
+              "Marcus Aurelius Mausaeus Carausius"
+            ],
+            "note": "Naval commander who established a breakaway regime in Britain and parts of northern Gaul."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Allectus"
+            ],
+            "note": "Ruler of breakaway Roman Britain after Carausius; defeated when imperial forces reconquered the province."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Eugenius of Seleucia",
+              "Eugenius 303"
+            ],
+            "note": "A short-lived military claimant in Syria under Diocletian, distinct from the later western emperor."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Calocaerus",
+              "Calocerus"
+            ],
+            "note": "Led a revolt in Cyprus under Constantine; his alleged imperial ambitions are uncertain."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Silvanus",
+              "Claudius Silvanus"
+            ],
+            "note": "A general who briefly claimed imperial power in Gaul during the reign of Constantius II."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Carausius II",
+              "Carausius 2"
+            ],
+            "note": "A disputed figure inferred from coins; both his identity and supposed imperial claim are uncertain."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Firmus",
+              "Firmus of Mauretania"
+            ],
+            "note": "A North African rebel against Valentinian I whose imperial ambitions remain disputed."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Marcus (British usurper)",
+              "Marcus of Britain",
+              "Marcus 406"
+            ],
+            "note": "Soldiers in Britain proclaimed him emperor in 406 before killing and replacing him."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Gratian (British usurper)",
+              "Gratian of Britain",
+              "Gratian 407"
+            ],
+            "note": "British troops elevated him after Marcus in 407, then replaced him with Constantine III."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Maximus of Hispania",
+              "Maximus of Spain",
+              "Maximus 409"
+            ],
+            "note": "Gerontius\u2019s candidate for the western throne during the rebellion of Constantine III."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Jovinus"
+            ],
+            "note": "A Gallic nobleman proclaimed emperor in 411 with support from Burgundian and Alan forces."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sebastianus"
+            ],
+            "note": "Brother of Jovinus, elevated as his co-emperor during the western rebellions of the early fifth century."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Heraclianus"
+            ],
+            "note": "A North African commander who rebelled against Honorius and invaded Italy in 413."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Julius Sabinus",
+              "Gaius Julius Sabinus"
+            ],
+            "note": "A Gallic rebel who adopted the name Caesar in AD 70 and later went into hiding."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Marcellus"
+            ],
+            "note": "A supporter of Procopius who briefly continued resistance against Valens after Procopius\u2019s defeat."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Romanus"
+            ],
+            "note": "A western official accused of seeking the throne during Anthemius\u2019s reign in 470."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lucius Seius Sallustius",
+              "Seius Sallustius",
+              "Sallustius"
+            ],
+            "note": "Father-in-law of Severus Alexander, possibly made caesar; executed in 227 on an accusation of plotting against the emperor."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Arvandus"
+            ],
+            "note": "Gallic prefect accused of treason in 468; Cassiodorus reports that he sought imperial power."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Julianus (under Maximian)",
+              "Julianus of Italy",
+              "Iulianus under Maximian",
+              "Julianus 286"
+            ],
+            "note": "A claimant reported under Maximian; specialist accounts distinguish him from Sabinus Julianus, though identification remains debated."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mareades",
+              "Mariades",
+              "Mariadnes",
+              "Cyriades"
+            ],
+            "note": "An Antiochene rebel represented as an emperor in the Historia Augusta; his imperial claim is doubtful."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Piso Frugi",
+              "Piso Thessalicus",
+              "Piso"
+            ],
+            "note": "A reported claimant in Thessaly in 261; his existence and rebellion depend on the unreliable Historia Augusta."
+          }
+        ]
+      },
+      {
+        "prompt": "Game Modes in Madden or FIFA",
+        "source": "https://www.ea.com/able/resources/fifa/fifa-20/xbox-one/text-manual",
+        "sourceNote": "Curated general-trivia recall rarity, not measured response frequencies: 10/30/60/85/100; 15 is the separate QUIRKY exception. See coverage-audit.json for source reconciliation and edge decisions. User approved named modes and submodes from any Madden, FIFA or EA Sports FC edition, including historical console, World Cup, Street and mobile releases. Edition renames of the same mode share a catch; independently named gameplay submodes and drills can score separately. EA manuals and feature inventories form the baseline, supplemented by historical manuals and a series-mode index; game-evidence.json maps every included group to sources. Creative checks covered story campaigns, party games, training, career roles, competitive ladders, street rules and mobile formats. There is no complete historical cross-platform catalogue, and rotating events may leave undiscovered names; this is a researched open bank, not a claim of a proven finite inventory. Generic Ultimate Team means FIFA/FC; MUT means Madden. Career/Manager means Manager Career; generic Seasons, Friendlies and Draft refer to their FIFA forms. Gauntlet means the Madden Skills Trainer challenge; FUT/MUT Gauntlet require qualifiers. Rush belongs to FUT Rush, Arena to FIFA Practice Arena, Moments to FUT Moments, The League to Superstar, and House Rules to FIFA; distinct Madden/mobile versions require their qualifiers. Squad and game format variants sharing the same mode name are not multiplied by annual edition. Store, roster editor, rewards track, difficulty and cosmetic menu names are not standalone game modes. Existing matcher limitation: generic fragments such as Madden or Mode may suggest an unrelated specific mode and require confirmation; these are not intentional aliases.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "FIFA Ultimate Team",
+              "Ultimate Team",
+              "FUT",
+              "Football Ultimate Team",
+              "FC Ultimate Team"
+            ],
+            "note": "Build a football squad from collectible player items."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Kick Off",
+              "Kickoff",
+              "Classic Match"
+            ],
+            "note": "Start a standalone football match with selected teams."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Manager Career",
+              "Career Mode",
+              "Career",
+              "Manager Mode",
+              "FIFA Career"
+            ],
+            "note": "Manage a football club over multiple seasons."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Player Career",
+              "Be a Pro",
+              "Be a Pro Player"
+            ],
+            "note": "Guide an individual footballer through a playing career."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Seasons",
+              "Online Seasons",
+              "Head to Head Seasons"
+            ],
+            "note": "Compete for promotion through online divisions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Co-op Seasons",
+              "Cooperative Seasons"
+            ],
+            "note": "Two friends compete together in online divisional matches."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pro Clubs",
+              "Clubs",
+              "Clubs Mode"
+            ],
+            "note": "Team up using individually controlled virtual footballers."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Online Friendlies",
+              "Friendlies"
+            ],
+            "note": "Play online matches against friends."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tournaments",
+              "Tournament Mode"
+            ],
+            "note": "Play through an organised football competition."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Skill Games"
+            ],
+            "note": "Practise football skills through scored challenges."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Practice Arena",
+              "Arena",
+              "FIFA Practice"
+            ],
+            "note": "Practise individual football skills outside a full match."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "VOLTA Football",
+              "VOLTA"
+            ],
+            "note": "Play small-sided street football in varied locations."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "VOLTA Kick-Off",
+              "VOLTA Kickoff"
+            ],
+            "note": "Use professional clubs in street-football matches."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "VOLTA Tour"
+            ],
+            "note": "Recruit opponents while touring street-football venues."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "VOLTA Story"
+            ],
+            "note": "Follow a narrative street-football career."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "VOLTA League"
+            ],
+            "note": "Compete for promotion in online street football."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Futsal",
+              "Professional Futsal"
+            ],
+            "note": "Play the indoor-football ruleset offered within VOLTA."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "3v3 Rush",
+              "Three versus three Rush"
+            ],
+            "note": "VOLTA\u2019s three-a-side format without goalkeepers."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "4v4 Rush",
+              "Four versus four Rush"
+            ],
+            "note": "VOLTA\u2019s four-a-side format without goalkeepers."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "FUT Draft",
+              "Ultimate Draft",
+              "Draft",
+              "Single Player Draft",
+              "Online Draft"
+            ],
+            "note": "Select a temporary Ultimate Team squad through a draft."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Squad Building Challenges",
+              "SBC",
+              "SBCs"
+            ],
+            "note": "Submit squads meeting specified requirements for rewards."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "FUT Champions",
+              "Champions",
+              "Weekend League"
+            ],
+            "note": "Compete in Ultimate Team\u2019s high-stakes competitive matches."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Division Rivals",
+              "Rivals"
+            ],
+            "note": "Play ranked Ultimate Team matches in divisions."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Squad Battles"
+            ],
+            "note": "Face AI-controlled Ultimate Team squads for rewards."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "House Rules"
+            ],
+            "note": "Play football with unconventional rules and scoring conditions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Survival"
+            ],
+            "note": "Lose a player from your team after scoring a goal."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Headers and Volleys",
+              "Headers & Volleys"
+            ],
+            "note": "Restricts scoring chiefly to aerial finishes and set pieces."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "No Rules"
+            ],
+            "note": "Removes fouls and offside restrictions from the match."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Long Range"
+            ],
+            "note": "Rewards goals scored from distance with extra value."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "First To",
+              "First to X Goals"
+            ],
+            "note": "Win by reaching the selected goal target first."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Two-Legged Match",
+              "Two Legs",
+              "Home and Away"
+            ],
+            "note": "Decide a tie across home and away matches."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Best Of Series",
+              "Best Of",
+              "Best of Three",
+              "Best of Five"
+            ],
+            "note": "Compete across a short series of matches."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cup Final",
+              "Cup Finals"
+            ],
+            "note": "Jump directly into a football cup final."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mystery Ball"
+            ],
+            "note": "The ball changes gameplay bonuses during the match."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Max Chemistry"
+            ],
+            "note": "Play with maximum chemistry regardless of squad links."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Swaps"
+            ],
+            "note": "Exchange selected players between the opposing squads."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Live Events",
+              "FUT Live Events"
+            ],
+            "note": "Enter rotating competitions with special eligibility and rules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FUT Gauntlet",
+              "Ultimate Gauntlet"
+            ],
+            "note": "Use squads across successive Ultimate Team challenges."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "VOLTA Squads"
+            ],
+            "note": "Play online street football with a squad of friends."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "VOLTA Arcade"
+            ],
+            "note": "Compete in short multiplayer football party games."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dodgeball"
+            ],
+            "note": "Strike opponents with footballs in a VOLTA party game."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Foot Tennis",
+              "Football Tennis"
+            ],
+            "note": "Volley a football across a net with a teammate."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Disco Lava"
+            ],
+            "note": "Claim floor tiles by dribbling across them."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Quick Strike"
+            ],
+            "note": "Race to score in goals as they illuminate."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Wall Ball Elimination",
+              "Wall Ball"
+            ],
+            "note": "Return the ball off a wall before time expires."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Team Keepaway",
+              "Team Keep Away",
+              "Keepaway"
+            ],
+            "note": "Maintain possession in a team-based football party game."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Target Gallery"
+            ],
+            "note": "Shoot at moving targets for points."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Corner Scramble"
+            ],
+            "note": "Collect loose balls and score in your assigned goal."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "VOLTA Battles"
+            ],
+            "note": "Play AI-controlled street-football opponents for battle points."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Manager Live",
+              "Live Manager"
+            ],
+            "note": "Play management scenarios with defined starting conditions and objectives."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Grounds",
+              "Grounds"
+            ],
+            "note": "FC 27\u2019s social football setting expands play beyond conventional club matches."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "FUT Moments",
+              "Moments"
+            ],
+            "note": "Complete short Ultimate Team gameplay scenarios."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lounge",
+              "Lounge Mode"
+            ],
+            "note": "Track local multiplayer football sessions with friends."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Player Manager",
+              "Player-Manager Career"
+            ],
+            "note": "Combine controlling a player with managing the team."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Be a Goalkeeper",
+              "Be a Pro Goalkeeper"
+            ],
+            "note": "Control the goalkeeper instead of an outfield footballer."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "World Cup",
+              "FIFA World Cup",
+              "World Cup Mode"
+            ],
+            "note": "Play through an international World Cup tournament."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Road to the FIFA World Cup",
+              "Road to the World Cup"
+            ],
+            "note": "Guide a national team through qualification and the finals."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Captain Your Country"
+            ],
+            "note": "Develop an individual player toward national-team captaincy."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Story of Qualifying"
+            ],
+            "note": "Replay scenarios drawn from World Cup qualification matches."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Story of Finals"
+            ],
+            "note": "Play challenges based on matches from the World Cup finals."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "World Tour",
+              "FIFA Street World Tour"
+            ],
+            "note": "Take a created street-football team through a global competition."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Panna Rules",
+              "Panna"
+            ],
+            "note": "A street-football ruleset that rewards nutmegs."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Last Man Standing"
+            ],
+            "note": "Score goals to remove players until the winning team is emptied."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hit the Streets"
+            ],
+            "note": "Set up a standalone FIFA Street match."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Freestyle"
+            ],
+            "note": "Compete using street-football tricks and skill points."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Franchise",
+              "Franchise Mode",
+              "Connected Franchise",
+              "Connected Careers",
+              "CFM",
+              "CCM"
+            ],
+            "note": "Manage an NFL team through seasons and roster decisions."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Madden Ultimate Team",
+              "MUT"
+            ],
+            "note": "Build an American-football roster from collectible player items."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Play Now",
+              "Exhibition",
+              "Quick Play",
+              "Quick Match"
+            ],
+            "note": "Start a standalone Madden football game."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Online Head-to-Head",
+              "H2H",
+              "Head to Head",
+              "Online H2H"
+            ],
+            "note": "Compete directly against another player online."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Practice",
+              "Practice Mode",
+              "Free Practice"
+            ],
+            "note": "Rehearse football plays without playing a complete match."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mini Games",
+              "Minigames",
+              "Mini-Camp",
+              "Training Camp"
+            ],
+            "note": "Play scored drills that test individual football skills."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Superstar",
+              "Superstar Mode",
+              "NFL Superstar",
+              "Superstar The League",
+              "The League"
+            ],
+            "note": "Develop an individual player through an NFL career."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Yard",
+              "Yard"
+            ],
+            "note": "Play arcade-style football with customisable characters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Superstar KO",
+              "SSKO"
+            ],
+            "note": "Draft stars for short football contests with modified rules."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Face of the Franchise",
+              "FOTF",
+              "QB1",
+              "QB1 Face of the Franchise"
+            ],
+            "note": "Guide a created player through Madden\u2019s career storyline."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tug of War",
+              "Endzone Tug of War"
+            ],
+            "note": "A Superstar KO tiebreaker alternates attempts to gain territory."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Infinite"
+            ],
+            "note": "Continue playing for a winning streak in Superstar KO."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "NFL (Superstar KO)",
+              "Superstar KO NFL"
+            ],
+            "note": "Uses authentic NFL teams and conventional rules within Superstar KO."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Superstar Showdown",
+              "Showdown",
+              "Showdown Squads"
+            ],
+            "note": "Take created Superstar players into online arcade competition."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Longshot",
+              "Longshot Homecoming"
+            ],
+            "note": "Play Madden\u2019s story mode following quarterback prospect Devin Wade."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Draft Champions",
+              "MUT Draft",
+              "Madden Draft"
+            ],
+            "note": "Draft a temporary Madden squad before entering competition."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Skills Trainer",
+              "Gatorade Skills Trainer"
+            ],
+            "note": "Learn football concepts and Madden controls through tutorials."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "The Gauntlet",
+              "Gauntlet",
+              "Skills Trainer Gauntlet"
+            ],
+            "note": "Complete escalating Madden skill challenges and boss rounds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Owner Mode",
+              "Owner",
+              "Be an Owner"
+            ],
+            "note": "Run the business side of an NFL franchise."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Coach Mode",
+              "Coach",
+              "Be a Coach"
+            ],
+            "note": "Manage a franchise from the head coach\u2019s perspective."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Player Mode",
+              "Be a Player"
+            ],
+            "note": "Control a player within Madden\u2019s Connected Franchise framework."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Solo Challenges",
+              "Challenges",
+              "Ultimate Challenges"
+            ],
+            "note": "Complete Madden Ultimate Team scenarios for rewards."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Target Passing"
+            ],
+            "note": "A quarterback drill rewards accurate throws at targets."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pass Skeleton",
+              "Passing Skeleton"
+            ],
+            "note": "Practise quarterback reads against a reduced defensive setup."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pass Skeleton Outmanned",
+              "Outmanned"
+            ],
+            "note": "A passing drill variant puts the quarterback at a numerical disadvantage."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rushing Attack"
+            ],
+            "note": "A rushing drill tests running backs\u2019 ability to gain yards."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "WR Battle",
+              "Wide Receiver Battle"
+            ],
+            "note": "A receiving drill pits a pass catcher against coverage."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "WR Battle Red Zone Attack",
+              "Red Zone Attack"
+            ],
+            "note": "A receiving drill focuses on scoring near the goal line."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Trench Battle The Long Hall",
+              "The Long Hall",
+              "Trench Battle"
+            ],
+            "note": "A line-play drill tests defeating blockers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Chase and Tackle"
+            ],
+            "note": "A defensive drill tests pursuit and tackling."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "DB Battle",
+              "Defensive Back Battle"
+            ],
+            "note": "A coverage drill tests defending against a receiver."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "DB Battle Red Zone Defense",
+              "Red Zone Defense"
+            ],
+            "note": "A defensive-back drill focuses on preventing red-zone completions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Field Goal Accuracy"
+            ],
+            "note": "A kicking drill rewards placing field-goal attempts accurately."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Coffin Corner"
+            ],
+            "note": "A punting drill rewards pinning the ball near the sideline and goal line."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Solo Champions"
+            ],
+            "note": "Play a weekly sequence of increasingly difficult CPU opponents."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Solo Seasons"
+            ],
+            "note": "Play a season against CPU-controlled Ultimate Team opponents."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MUT The League"
+            ],
+            "note": "A Solo Seasons option built around an NFL-style campaign."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The Run",
+              "Ultimate Solo Seasons"
+            ],
+            "note": "A demanding Solo Seasons path with progressively harder stages."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MUT Gauntlet",
+              "Weekend Gauntlet"
+            ],
+            "note": "Enter Madden Ultimate Team\u2019s qualifying competitive event."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sick Six"
+            ],
+            "note": "Play Madden Ultimate Team\u2019s six-a-side arcade competition."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Long Drive"
+            ],
+            "note": "A Madden 26 event using special house rules."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "College OT",
+              "College Overtime"
+            ],
+            "note": "A MUT event using college-style overtime play."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Campus Chaos"
+            ],
+            "note": "A solo event structured around four simulated college years."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Race",
+              "Race House Rules"
+            ],
+            "note": "A returning special-rule event named in Madden Ultimate Team 26."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Overdrive",
+              "Madden Overdrive"
+            ],
+            "note": "A Madden Mobile competitive mode built around rapid scoring."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Madden Mobile Arena",
+              "Arena Mode Madden",
+              "Mobile Arena"
+            ],
+            "note": "A competitive Madden Mobile mode distinct from FIFA\u2019s Practice Arena."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "League vs League",
+              "LvL",
+              "League versus League"
+            ],
+            "note": "Madden Mobile leagues compete against other leagues."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "The Journey",
+              "Journey",
+              "The Journey Hunter Returns",
+              "The Journey Champions",
+              "Alex Hunter"
+            ],
+            "note": "Follow Alex Hunter and other footballers through FIFA\u2019s scripted story campaign."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "King of the Hill"
+            ],
+            "note": "Keep possession in a marked area to increase the value of your goals."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "FUT Friendlies",
+              "Ultimate Team Friendlies"
+            ],
+            "note": "Play casual Ultimate Team matches, including special house rules."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "FUT Rush",
+              "Rush",
+              "Football Ultimate Team Rush",
+              "5v5 Rush"
+            ],
+            "note": "Play five-a-side football with friends using Ultimate Team player items."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Clubs Rush"
+            ],
+            "note": "Take your Clubs player into small-sided matches with clubmates."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kick-Off Rush",
+              "Kickoff Rush",
+              "5v5 Kick-Off Rush"
+            ],
+            "note": "Play five-a-side matches locally using existing clubs or national teams."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Clubs Tournaments"
+            ],
+            "note": "Enter multi-round Clubs competitions with varying rewards and match rules."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stadium Drop In",
+              "Drop In",
+              "11v11 Drop In"
+            ],
+            "note": "Join matchmaking for stadium football without arranging a full club fixture."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stadium Rush"
+            ],
+            "note": "Play the stadium-based Rush experience available through FC 27\u2019s drop-in menu."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Rush Live Tournaments"
+            ],
+            "note": "Compete in scheduled Rush tournaments through FC 27\u2019s stadium activities."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Street Football",
+              "Small Sided",
+              "1v1",
+              "2v2",
+              "3v3"
+            ],
+            "note": "Play short small-sided matches on pitches around FC 27\u2019s social world."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kickabouts",
+              "Kickabout"
+            ],
+            "note": "A collection of short multiplayer activities around FC 27\u2019s Grounds."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bocce Ball"
+            ],
+            "note": "Kick balls toward target zones while avoiding areas that subtract points."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Balloon Ball"
+            ],
+            "note": "Hit opponents\u2019 balloons with footballs to eliminate them."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bucketball",
+              "Bucket Ball"
+            ],
+            "note": "Kick footballs into raised baskets in a team-based activity."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "The Big Race",
+              "Big Race"
+            ],
+            "note": "Race through an obstacle course while maintaining control of the ball."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Scenarios"
+            ],
+            "note": "Complete changing attacking objectives with a supporting teammate."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Goal Control"
+            ],
+            "note": "Capture goals by scoring, then earn points while they remain under your control."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fantasy Challenge",
+              "Fantasy Challenge Leagues"
+            ],
+            "note": "Draft a dream roster and advance through increasingly demanding football leagues."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Madden Moments",
+              "Madden Moments Live"
+            ],
+            "note": "Replay football scenarios inspired by real NFL games."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mobile Manager Mode",
+              "FIFA Mobile Manager Mode",
+              "FC Mobile Manager Mode"
+            ],
+            "note": "Set tactics and watch your mobile football team play automatically."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "VS Attack",
+              "VSA",
+              "Versus Attack",
+              "Attack Mode"
+            ],
+            "note": "Compete through attacking chances to score more goals within a time limit."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mobile Head to Head",
+              "FIFA Mobile H2H",
+              "FC Mobile H2H"
+            ],
+            "note": "Control your mobile football team in a complete match against another player."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Solo Battles"
+            ],
+            "note": "Face CPU-controlled Ultimate Team squads and earn battle-score rewards."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MUT Squads",
+              "Squads",
+              "Squads Seasons"
+            ],
+            "note": "Combine roles with teammates to play Madden Ultimate Team cooperatively."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MUT Champions",
+              "MUT Champs",
+              "Madden Weekend League"
+            ],
+            "note": "Play Madden Ultimate Team\u2019s competitive championship matches."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MUT Seasons",
+              "Madden H2H Seasons",
+              "Madden Seasons",
+              "MUT H2H Seasons"
+            ],
+            "note": "Take an Ultimate Team roster through head-to-head seasons and playoffs."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Superstar Live",
+              "Superstar Live Events"
+            ],
+            "note": "Take a created Superstar into online events and competitive activities."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Online Mini Games",
+              "Online Head-to-Head Minigames"
+            ],
+            "note": "Compete against other users in Madden\u2019s football skill drills."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "MUT House Rules",
+              "Madden House Rules"
+            ],
+            "note": "Play Madden Ultimate Team events with unconventional rules and match conditions."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Trick-or-Treat"
+            ],
+            "note": "A Most Feared solo event with successive houses and changing gameplay modifiers."
+          }
+        ]
+      },
+      {
+        "prompt": "Words for Home Run",
+        "source": "https://www.mlb.com/glossary/standard-stats/home-run",
+        "sourceNote": "Curated general-trivia recall rarity, not measured response frequencies: 10/30/60/85/100; 15 is the separate QUIRKY exception. See coverage-audit.json for source reconciliation and edge decisions. User explicitly expanded this prompt to include established slang, home-run types and plain descriptions such as two-run home run. Distinct general slang expressions are separate catches; spelling/tense variants share a catch. Equivalent subtype wording is grouped: grand salami with Grand slam; oppo taco/oppo boppo with Opposite-field home run. Canonical Home run/HR belongs to Homer. Central sources: MLB's nickname inventory https://www.mlb.com/cut4/ranking-the-26-best-nicknames-for-a-home-run-c294721188 , the MLB glossary, Dickson dictionary https://www.baseball-almanac.com/dictionary-term.php?term=home+run and https://www.baseball-almanac.com/dictionary-term.php?term=circuit , plus https://en.wikipedia.org/wiki/Glossary_of_baseball_terms . Additional sources and included terms are mapped in home-evidence.json. Coverage spans general slang, run totals, ball flight/direction, game situation, substitutions, consecutive hits and established ballpark terms. No finite global inventory exists, especially for regional slang and arbitrary compound descriptions. Only documented forms are included rather than generating every adjective combination. Little League home run is QUIRKY 15: the established phrase describes an error-assisted trip, not an official statistical home run; independently documented by https://sabr.org/little-league-home-runs . An obsolete offensive historical term is identified as such, without endorsing its usage. Grand slam, walk-off grand slam and ultimate grand slam require their own qualifiers; the last specifically erases a three-run deficit.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Dinger"
+            ],
+            "note": "A familiar baseball slang word for a home run."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Homer",
+              "Home run",
+              "HR",
+              "Home Run Hit"
+            ],
+            "note": "The everyday shortened name for a hit that lets the batter circle every base."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Bomb"
+            ],
+            "note": "Power-hitting slang likening a home run to an explosive blast."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tater"
+            ],
+            "note": "A potato-inspired nickname used for a home run."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jack"
+            ],
+            "note": "A compact slang term for a home run, also used as a verb."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Big fly"
+            ],
+            "note": "A familiar announcer\u2019s expression for a ball hit out for a home run."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Long ball",
+              "Longball"
+            ],
+            "note": "An expression for a home run that emphasizes the distance of the hit."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Round-tripper",
+              "Roundtripper"
+            ],
+            "note": "A home-run nickname referring to the batter\u2019s complete trip around the bases."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Four-bagger",
+              "4 bagger"
+            ],
+            "note": "A nickname counting the four bases a home-run hitter touches."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Blast"
+            ],
+            "note": "A forceful-sounding home-run nickname also used in baseball reporting."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Shot"
+            ],
+            "note": "A short expression used for a home run, often with a distance or direction qualifier."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Poke"
+            ],
+            "note": "Baseball slang for a hit, including a home run when the context makes it clear."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Goner"
+            ],
+            "note": "A home-run expression indicating that the ball has left the field of play."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Go long",
+              "Went long",
+              "Going long"
+            ],
+            "note": "A verbal expression for hitting a home run."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Go deep",
+              "Went deep",
+              "Going deep",
+              "Deep"
+            ],
+            "note": "A verbal home-run expression emphasizing the ball\u2019s journey into the distant outfield."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Go yard",
+              "Went yard",
+              "Going yard",
+              "Yard",
+              "Went ya"
+            ],
+            "note": "A home-run expression built around yard as a nickname for the ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Go bridge",
+              "Went bridge",
+              "Going bridge",
+              "Bridge"
+            ],
+            "note": "A less familiar verbal expression meaning to hit a home run."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gopher",
+              "Gopher ball",
+              "Gopherball",
+              "Gopher pitch"
+            ],
+            "note": "A home-run nickname also used for the pitch that a batter drives out."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Yicketty",
+              "Yickety",
+              "Yak"
+            ],
+            "note": "Home-run slang associated with Chipper Jones, who explained the expression publicly."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ding dong",
+              "Dingdong"
+            ],
+            "note": "A playful home-run nickname built around a ringing sound."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jonr\u00f3n"
+            ],
+            "note": "A Spanish baseball word adapted from the English expression home run."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cuadrangular"
+            ],
+            "note": "A Spanish home-run term referring to the four-sided circuit around the bases."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Moonshot",
+              "Moon shot"
+            ],
+            "note": "A home-run nickname especially associated with a very high, towering flight."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "No-doubter",
+              "Nodoubter"
+            ],
+            "note": "A home run whose flight makes the result obvious almost immediately."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Opposite-field home run",
+              "Opposite field homer",
+              "Oppo taco",
+              "Oppo boppo",
+              "Oppo homer",
+              "Opposite field"
+            ],
+            "note": "A home run hit toward the field opposite the batter\u2019s natural pull side."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Grand slam",
+              "Grand salami",
+              "Salami",
+              "Four-run home run",
+              "4 run home run",
+              "Four run homer",
+              "Bases loaded home run"
+            ],
+            "note": "A home run with all three bases occupied, scoring four runs."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Downtowner"
+            ],
+            "note": "An uncommon home-run synonym recorded in the Dickson baseball dictionary."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Home-bagger",
+              "Homebagger"
+            ],
+            "note": "A historical home-run synonym referring to the batter reaching home."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Master fly"
+            ],
+            "note": "An uncommon home-run expression preserved in baseball\u2019s historical vocabulary."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Rainbow drop"
+            ],
+            "note": "A figurative home-run nickname recorded by baseball lexicographers."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Scud"
+            ],
+            "note": "A missile-inspired slang word recorded as a synonym for a home run."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tonk"
+            ],
+            "note": "A compact slang term recorded in baseball dictionaries for a home run."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Circuit",
+              "Coup de circuit"
+            ],
+            "note": "Circuit names the trip around the bases and is also used in French home-run terminology."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Circuit belt"
+            ],
+            "note": "A historical home-run expression combining the base-running circuit with a forceful hit."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Circuit blow"
+            ],
+            "note": "A historical synonym for a home run recorded in the Dickson dictionary."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Circuit clout"
+            ],
+            "note": "A home-run expression pairing the circuit of the bases with clout."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Circuit drive"
+            ],
+            "note": "A recorded home-run expression describing a drive that completes the base circuit."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Circuit slam"
+            ],
+            "note": "A historical home-run synonym using circuit for the trip around all four bases."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Circuit smash"
+            ],
+            "note": "A recorded home-run phrase emphasizing a forceful hit around the base circuit."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Circuit tripper"
+            ],
+            "note": "A historical home-run nickname referring to the full trip around the bases."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Circuit wallop"
+            ],
+            "note": "A recorded home-run expression combining the base circuit with a powerful blow."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Dong"
+            ],
+            "note": "A slang home-run word also listed in Major League Baseball\u2019s baseball-lingo guide."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yabo"
+            ],
+            "note": "A contemporary baseball slang word for a large home run."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dial long distance",
+              "Dialing long distance",
+              "Dial 9",
+              "Dial nine",
+              "Dial 9 for long distance"
+            ],
+            "note": "A telephone metaphor used to describe hitting a home run."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Touch em all",
+              "Touch them all",
+              "Touch all four"
+            ],
+            "note": "A home-run expression referring to touching every base during the scoring circuit."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wallop"
+            ],
+            "note": "A forceful-hit expression used as both a noun and a verb for a home run."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Long one",
+              "Long ones"
+            ],
+            "note": "An informal expression used in baseball writing for home runs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Upper decker",
+              "Upper-deck home run",
+              "Upper deck homer"
+            ],
+            "note": "A home run whose landing place is an upper tier of the ballpark."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Park it",
+              "Parked it",
+              "Park"
+            ],
+            "note": "A verbal home-run expression referring to hitting the ball out of the park."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gone",
+              "It's gone",
+              "It is gone"
+            ],
+            "note": "An announcer\u2019s expression indicating that the batted ball has become a home run."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Creature"
+            ],
+            "note": "An uncommon term for a home run whose outcome is obvious from contact."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Chinese home run"
+            ],
+            "note": "An outdated, now offensive term for a short home run near a close foul-line fence."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Clout"
+            ],
+            "note": "A traditional baseball expression for a powerful hit, including a home run."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Inside-the-park home run",
+              "Inside the park",
+              "Inside the parker",
+              "Inside park homer",
+              "ITPHR"
+            ],
+            "note": "The batter circles the bases while the ball remains in play, without assistance from fielding errors."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Out-of-the-park home run",
+              "Out of the park",
+              "Over the fence",
+              "Over the fence home run"
+            ],
+            "note": "A fair batted ball clears the outfield boundary and awards the batter a home run."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Solo home run",
+              "Solo homer",
+              "Solo shot",
+              "Solo",
+              "One-run home run",
+              "1 run home run",
+              "One run homer"
+            ],
+            "note": "A home run hit with nobody on base, scoring only the batter."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Two-run home run",
+              "Two run homer",
+              "Two run shot",
+              "Two-run",
+              "2 run home run",
+              "2 run homer"
+            ],
+            "note": "A home run hit with one runner on base, scoring two runs."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Three-run home run",
+              "Three run homer",
+              "Three run shot",
+              "Three-run",
+              "3 run home run",
+              "3 run homer"
+            ],
+            "note": "A home run hit with two runners on base, scoring three runs."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Walk-off home run",
+              "Walk off",
+              "Walkoff",
+              "Walkoff homer",
+              "Game ending home run"
+            ],
+            "note": "A home run that ends the game by putting the home team ahead in its final inning."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Leadoff home run",
+              "Lead off home run",
+              "Leadoff homer",
+              "Lead off homer",
+              "Leadoff"
+            ],
+            "note": "A home run hit by the first batter of an inning or a team\u2019s first batter of the game."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Back-to-back home runs",
+              "Back to back",
+              "Back to back homers"
+            ],
+            "note": "Home runs hit by consecutive batters in the same batting order."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Back-to-back-to-back home runs",
+              "Back to back to back",
+              "Three consecutive home runs"
+            ],
+            "note": "Home runs hit by three successive batters in one uninterrupted sequence."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ultimate grand slam",
+              "Ultimate slam"
+            ],
+            "note": "A walk-off grand slam hit while trailing by three runs, turning a deficit into a one-run win."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Walk-off grand slam",
+              "Walkoff grand slam"
+            ],
+            "note": "A bases-loaded home run that immediately wins the game for the home team."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Inside-the-park grand slam",
+              "Inside park grand slam"
+            ],
+            "note": "A bases-loaded home run completed while the ball remains in play."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Walk-off inside-the-park grand slam",
+              "Inside the park walk off grand slam",
+              "Inside park ultimate grand slam"
+            ],
+            "note": "Roberto Clemente ended a 1956 game with this rare combination of home-run circumstances."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Four-base knock",
+              "Four base hit",
+              "4 base knock"
+            ],
+            "note": "A home-run expression counting the full four bases awarded to the hitter."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tape-measure home run",
+              "Tape measure shot",
+              "Tape measure blast",
+              "Tape measure",
+              "Tape measure homer"
+            ],
+            "note": "A home-run expression reserved for an exceptionally long drive."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wall-scraper",
+              "Fence scraper",
+              "Wall scraping home run"
+            ],
+            "note": "A home run that just clears the outfield wall instead of sailing far beyond it."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pinch-hit home run",
+              "Pinch hit homer",
+              "Pinch hit",
+              "Pinch homer"
+            ],
+            "note": "A home run hit by a substitute taking another player\u2019s turn at bat."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pull-side home run",
+              "Pulled home run",
+              "Pull homer",
+              "Pull side homer",
+              "Pull side"
+            ],
+            "note": "A home run to the batter\u2019s pull side: left for right-handers, right for left-handers."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Center-field home run",
+              "Centre field home run",
+              "Dead center home run",
+              "Center field homer",
+              "Dead center"
+            ],
+            "note": "A home run driven over the center-field boundary rather than toward either foul line."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Splash hit",
+              "Splash homer",
+              "McCovey Cove home run"
+            ],
+            "note": "A Giants home run that lands directly in McCovey Cove beyond Oracle Park\u2019s right-field wall."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Eutaw Street home run",
+              "Eutaw Street homer",
+              "Eutaw Street"
+            ],
+            "note": "A Camden Yards home run that reaches Eutaw Street beyond the right-field flag court."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Little League home run",
+              "Little league homer"
+            ],
+            "note": "An error-assisted trip around the bases: a familiar informal name, not an official home-run scoring decision."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ground-rule home run",
+              "Ground rule homer"
+            ],
+            "note": "A home run awarded under a ballpark-specific ground rule, such as contact with designated overhead structures."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Game-tying home run",
+              "Game tying homer",
+              "Tying home run"
+            ],
+            "note": "A home run that brings the batting team level with its opponent."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Go-ahead home run",
+              "Go ahead homer"
+            ],
+            "note": "A home run that gives the batting team the lead."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Insurance home run",
+              "Insurance homer"
+            ],
+            "note": "A home run that extends an existing lead and provides an extra scoring cushion."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Game-winning home run",
+              "Game winning homer"
+            ],
+            "note": "A home run that supplies the lead a team retains through the final out."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Line-drive home run",
+              "Line drive homer",
+              "Line drive"
+            ],
+            "note": "A home run hit on a low, sharply driven trajectory."
+          }
+        ]
+      },
+      {
+        "prompt": "NBA Dunk Champions",
+        "source": "https://www.nba.com/news/history-slam-dunk-contest",
+        "sourceNote": "Curated general-trivia recall rarity, not measured response frequencies: 10/30/60/85/100; 15 is the separate QUIRKY exception. See coverage-audit.json for source reconciliation and edge decisions. One player per catch, regardless of repeat wins. Reconciled the NBA's All-Star winners from 1984 through 2026 with https://en.wikipedia.org/wiki/Slam_Dunk_Contest . User explicitly included Darnell Hillman, winner of the NBA's season-long 1976\u201377 competition, at 100; primary confirmation https://www.nba.com/pacers/news/darnell-hillman-fred-jones-announced-as-slam-dunk-judges . The 1976 Julius Erving contest was ABA and does not qualify. Years without a contest create no answer. John Wall is the 2014 individual winner in the NBA list; team participation alone does not add Paul George. Keshad Johnson is the 2026 winner. Useful surnames and initials count; bare Robinson belongs to Nate, bare Jones to Derrick. Glenn Robinson III and Fred Jones require their distinguishing names. Larry Nance means the 1984-winning father, not his nonwinning son.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "Darnell Hillman",
+              "Hillman",
+              "Dr Dunk",
+              "Doctor Dunk"
+            ],
+            "note": "Won the NBA\u2019s season-long 1976\u201377 dunk competition, a predecessor to the modern All-Star event."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Larry Nance",
+              "Larry Nance Sr",
+              "Larry Nance Senior",
+              "Nance"
+            ],
+            "note": "Won the NBA dunk contest in 1984. Repeat victories count as one catch."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Dominique Wilkins",
+              "Dominique",
+              "Wilkins"
+            ],
+            "note": "Won the NBA dunk contest in 1985, 1990. Repeat victories count as one catch."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Spud Webb",
+              "Spud",
+              "Anthony Webb",
+              "Webb"
+            ],
+            "note": "Won the NBA dunk contest in 1986. Repeat victories count as one catch."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Michael Jordan",
+              "Jordan",
+              "MJ"
+            ],
+            "note": "Won the NBA dunk contest in 1987, 1988. Repeat victories count as one catch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Kenny Walker",
+              "Walker"
+            ],
+            "note": "Won the NBA dunk contest in 1989. Repeat victories count as one catch."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dee Brown",
+              "DeCovan Brown",
+              "Brown"
+            ],
+            "note": "Won the NBA dunk contest in 1991. Repeat victories count as one catch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cedric Ceballos",
+              "Ceballos"
+            ],
+            "note": "Won the NBA dunk contest in 1992. Repeat victories count as one catch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Harold Miner",
+              "Miner"
+            ],
+            "note": "Won the NBA dunk contest in 1993, 1995. Repeat victories count as one catch."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Isaiah Rider",
+              "Isiah Rider",
+              "JR Rider",
+              "J R Rider",
+              "Rider"
+            ],
+            "note": "Won the NBA dunk contest in 1994. Repeat victories count as one catch."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brent Barry",
+              "Barry"
+            ],
+            "note": "Won the NBA dunk contest in 1996. Repeat victories count as one catch."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Kobe Bryant",
+              "Kobe",
+              "Bryant"
+            ],
+            "note": "Won the NBA dunk contest in 1997. Repeat victories count as one catch."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Vince Carter",
+              "Carter",
+              "Vince"
+            ],
+            "note": "Won the NBA dunk contest in 2000. Repeat victories count as one catch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Desmond Mason",
+              "Mason"
+            ],
+            "note": "Won the NBA dunk contest in 2001. Repeat victories count as one catch."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Jason Richardson",
+              "Richardson"
+            ],
+            "note": "Won the NBA dunk contest in 2002, 2003. Repeat victories count as one catch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fred Jones"
+            ],
+            "note": "Won the NBA dunk contest in 2004. Repeat victories count as one catch."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Josh Smith",
+              "Smith"
+            ],
+            "note": "Won the NBA dunk contest in 2005. Repeat victories count as one catch."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Nate Robinson",
+              "Nate",
+              "Robinson"
+            ],
+            "note": "Won the NBA dunk contest in 2006, 2009, 2010. Repeat victories count as one catch."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gerald Green",
+              "Green"
+            ],
+            "note": "Won the NBA dunk contest in 2007. Repeat victories count as one catch."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Dwight Howard",
+              "Howard"
+            ],
+            "note": "Won the NBA dunk contest in 2008. Repeat victories count as one catch."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Blake Griffin",
+              "Griffin"
+            ],
+            "note": "Won the NBA dunk contest in 2011. Repeat victories count as one catch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jeremy Evans",
+              "Evans"
+            ],
+            "note": "Won the NBA dunk contest in 2012. Repeat victories count as one catch."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Terrence Ross",
+              "Ross"
+            ],
+            "note": "Won the NBA dunk contest in 2013. Repeat victories count as one catch."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "John Wall",
+              "Wall"
+            ],
+            "note": "Won the NBA dunk contest in 2014. Repeat victories count as one catch."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Zach LaVine",
+              "LaVine"
+            ],
+            "note": "Won the NBA dunk contest in 2015, 2016. Repeat victories count as one catch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Glenn Robinson III",
+              "Glenn Robinson",
+              "GR3",
+              "Glenn Robinson 3"
+            ],
+            "note": "Won the NBA dunk contest in 2017. Repeat victories count as one catch."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Donovan Mitchell",
+              "Mitchell"
+            ],
+            "note": "Won the NBA dunk contest in 2018. Repeat victories count as one catch."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hamidou Diallo",
+              "Diallo"
+            ],
+            "note": "Won the NBA dunk contest in 2019. Repeat victories count as one catch."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Derrick Jones Jr.",
+              "Derrick Jones",
+              "DJJ",
+              "Jones"
+            ],
+            "note": "Won the NBA dunk contest in 2020. Repeat victories count as one catch."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anfernee Simons",
+              "Simons"
+            ],
+            "note": "Won the NBA dunk contest in 2021. Repeat victories count as one catch."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Obi Toppin",
+              "Toppin"
+            ],
+            "note": "Won the NBA dunk contest in 2022. Repeat victories count as one catch."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Mac McClung",
+              "McClung"
+            ],
+            "note": "Won the NBA dunk contest in 2023, 2024, 2025. Repeat victories count as one catch."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Keshad Johnson",
+              "Johnson"
+            ],
+            "note": "Won the NBA dunk contest in 2026. Repeat victories count as one catch."
+          }
+        ]
+      },
+      {
+        "prompt": "Prime Numbers Under 1000",
+        "source": "https://prime-numbers.info/list/primes-up-to-1000",
+        "sourceNote": "Curated general-trivia recall rarity, not measured response frequencies: 10/30/60/85/100; 15 is the separate QUIRKY exception. See coverage-audit.json for source reconciliation and edge decisions. Exactly the 168 primes p with 2 <= p < 1000, one numeric answer per catch. Generated with the sieve of Eratosthenes, independently verified by trial division, then compared entry-for-entry with the complete external list at the principal source. Independent count/table corroboration: https://proofwiki.org/wiki/Prime_Number/Table . Neither 1 nor 1000 qualifies. Blurbs state calculated ordinal position; 2 and 997 have boundary facts. Scores rise broadly with recall difficulty and magnitude, with familiar anchors such as 101, 127, 257, 521 and 997 adjusted downward. Numeric spellings only keep composite numbers from becoming autocorrect suggestions; prime names in words are not separate catches. Existing runtime limitation: punctuation normalization strips a minus sign, so -2 normalizes to the valid answer 2. Negative numbers are not editorially eligible; fixing numeric sign handling would require a separate game-code change.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "2"
+            ],
+            "note": "The only even prime; every other even number greater than two has two as an additional divisor."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "3"
+            ],
+            "note": "The 2nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "5"
+            ],
+            "note": "The 3rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "7"
+            ],
+            "note": "The 4th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "11"
+            ],
+            "note": "The 5th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "13"
+            ],
+            "note": "The 6th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "17"
+            ],
+            "note": "The 7th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "19"
+            ],
+            "note": "The 8th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "23"
+            ],
+            "note": "The 9th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "29"
+            ],
+            "note": "The 10th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "31"
+            ],
+            "note": "The 11th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "37"
+            ],
+            "note": "The 12th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "41"
+            ],
+            "note": "The 13th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "43"
+            ],
+            "note": "The 14th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "47"
+            ],
+            "note": "The 15th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "53"
+            ],
+            "note": "The 16th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "59"
+            ],
+            "note": "The 17th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "61"
+            ],
+            "note": "The 18th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "67"
+            ],
+            "note": "The 19th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "71"
+            ],
+            "note": "The 20th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "73"
+            ],
+            "note": "The 21st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "79"
+            ],
+            "note": "The 22nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "83"
+            ],
+            "note": "The 23rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "89"
+            ],
+            "note": "The 24th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "97"
+            ],
+            "note": "The 25th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "101"
+            ],
+            "note": "The 26th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "103"
+            ],
+            "note": "The 27th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "107"
+            ],
+            "note": "The 28th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "109"
+            ],
+            "note": "The 29th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "113"
+            ],
+            "note": "The 30th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "127"
+            ],
+            "note": "The 31st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "131"
+            ],
+            "note": "The 32nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "137"
+            ],
+            "note": "The 33rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "139"
+            ],
+            "note": "The 34th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "149"
+            ],
+            "note": "The 35th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "151"
+            ],
+            "note": "The 36th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "157"
+            ],
+            "note": "The 37th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "163"
+            ],
+            "note": "The 38th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "167"
+            ],
+            "note": "The 39th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "173"
+            ],
+            "note": "The 40th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "179"
+            ],
+            "note": "The 41st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "181"
+            ],
+            "note": "The 42nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "191"
+            ],
+            "note": "The 43rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "193"
+            ],
+            "note": "The 44th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "197"
+            ],
+            "note": "The 45th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "199"
+            ],
+            "note": "The 46th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "211"
+            ],
+            "note": "The 47th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "223"
+            ],
+            "note": "The 48th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "227"
+            ],
+            "note": "The 49th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "229"
+            ],
+            "note": "The 50th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "233"
+            ],
+            "note": "The 51st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "239"
+            ],
+            "note": "The 52nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "241"
+            ],
+            "note": "The 53rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "251"
+            ],
+            "note": "The 54th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "257"
+            ],
+            "note": "The 55th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "263"
+            ],
+            "note": "The 56th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "269"
+            ],
+            "note": "The 57th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "271"
+            ],
+            "note": "The 58th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "277"
+            ],
+            "note": "The 59th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "281"
+            ],
+            "note": "The 60th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "283"
+            ],
+            "note": "The 61st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "293"
+            ],
+            "note": "The 62nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "307"
+            ],
+            "note": "The 63rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "311"
+            ],
+            "note": "The 64th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "313"
+            ],
+            "note": "The 65th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "317"
+            ],
+            "note": "The 66th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "331"
+            ],
+            "note": "The 67th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "337"
+            ],
+            "note": "The 68th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "347"
+            ],
+            "note": "The 69th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "349"
+            ],
+            "note": "The 70th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "353"
+            ],
+            "note": "The 71st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "359"
+            ],
+            "note": "The 72nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "367"
+            ],
+            "note": "The 73rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "373"
+            ],
+            "note": "The 74th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "379"
+            ],
+            "note": "The 75th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "383"
+            ],
+            "note": "The 76th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "389"
+            ],
+            "note": "The 77th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "397"
+            ],
+            "note": "The 78th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "401"
+            ],
+            "note": "The 79th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "409"
+            ],
+            "note": "The 80th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "419"
+            ],
+            "note": "The 81st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "421"
+            ],
+            "note": "The 82nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "431"
+            ],
+            "note": "The 83rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "433"
+            ],
+            "note": "The 84th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "439"
+            ],
+            "note": "The 85th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "443"
+            ],
+            "note": "The 86th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "449"
+            ],
+            "note": "The 87th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "457"
+            ],
+            "note": "The 88th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "461"
+            ],
+            "note": "The 89th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "463"
+            ],
+            "note": "The 90th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "467"
+            ],
+            "note": "The 91st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "479"
+            ],
+            "note": "The 92nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "487"
+            ],
+            "note": "The 93rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "491"
+            ],
+            "note": "The 94th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "499"
+            ],
+            "note": "The 95th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "503"
+            ],
+            "note": "The 96th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "509"
+            ],
+            "note": "The 97th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "521"
+            ],
+            "note": "The 98th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "523"
+            ],
+            "note": "The 99th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "541"
+            ],
+            "note": "The 100th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "547"
+            ],
+            "note": "The 101st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "557"
+            ],
+            "note": "The 102nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "563"
+            ],
+            "note": "The 103rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "569"
+            ],
+            "note": "The 104th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "571"
+            ],
+            "note": "The 105th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "577"
+            ],
+            "note": "The 106th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "587"
+            ],
+            "note": "The 107th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "593"
+            ],
+            "note": "The 108th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "599"
+            ],
+            "note": "The 109th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "601"
+            ],
+            "note": "The 110th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "607"
+            ],
+            "note": "The 111th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "613"
+            ],
+            "note": "The 112th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "617"
+            ],
+            "note": "The 113th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "619"
+            ],
+            "note": "The 114th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "631"
+            ],
+            "note": "The 115th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "641"
+            ],
+            "note": "The 116th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "643"
+            ],
+            "note": "The 117th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "647"
+            ],
+            "note": "The 118th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "653"
+            ],
+            "note": "The 119th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "659"
+            ],
+            "note": "The 120th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "661"
+            ],
+            "note": "The 121st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "673"
+            ],
+            "note": "The 122nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "677"
+            ],
+            "note": "The 123rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "683"
+            ],
+            "note": "The 124th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "691"
+            ],
+            "note": "The 125th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "701"
+            ],
+            "note": "The 126th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "709"
+            ],
+            "note": "The 127th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "719"
+            ],
+            "note": "The 128th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "727"
+            ],
+            "note": "The 129th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "733"
+            ],
+            "note": "The 130th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "739"
+            ],
+            "note": "The 131st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "743"
+            ],
+            "note": "The 132nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "751"
+            ],
+            "note": "The 133rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "757"
+            ],
+            "note": "The 134th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "761"
+            ],
+            "note": "The 135th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "769"
+            ],
+            "note": "The 136th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "773"
+            ],
+            "note": "The 137th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "787"
+            ],
+            "note": "The 138th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "797"
+            ],
+            "note": "The 139th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "809"
+            ],
+            "note": "The 140th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "811"
+            ],
+            "note": "The 141st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "821"
+            ],
+            "note": "The 142nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "823"
+            ],
+            "note": "The 143rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "827"
+            ],
+            "note": "The 144th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "829"
+            ],
+            "note": "The 145th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "839"
+            ],
+            "note": "The 146th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "853"
+            ],
+            "note": "The 147th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "857"
+            ],
+            "note": "The 148th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "859"
+            ],
+            "note": "The 149th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "863"
+            ],
+            "note": "The 150th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "877"
+            ],
+            "note": "The 151st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "881"
+            ],
+            "note": "The 152nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "883"
+            ],
+            "note": "The 153rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "887"
+            ],
+            "note": "The 154th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "907"
+            ],
+            "note": "The 155th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "911"
+            ],
+            "note": "The 156th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "919"
+            ],
+            "note": "The 157th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "929"
+            ],
+            "note": "The 158th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "937"
+            ],
+            "note": "The 159th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "941"
+            ],
+            "note": "The 160th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "947"
+            ],
+            "note": "The 161st prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "953"
+            ],
+            "note": "The 162nd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "967"
+            ],
+            "note": "The 163rd prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "971"
+            ],
+            "note": "The 164th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "977"
+            ],
+            "note": "The 165th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "983"
+            ],
+            "note": "The 166th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "991"
+            ],
+            "note": "The 167th prime number; its only positive divisors are one and itself."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "997"
+            ],
+            "note": "The largest prime below one thousand, and the 168th prime in the sequence."
+          }
+        ]
+      }
+    ]
   }
 ];
 window.DIVE_QUESTIONS = window.DIVE_DAYS.at(-1).questions;
