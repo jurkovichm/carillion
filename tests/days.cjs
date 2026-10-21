@@ -2,8 +2,13 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const path = require('node:path');
-const context = vm.createContext({ window: {} });
-for (const file of ['questions-days.js']) {
+const context = vm.createContext({
+  window: {},
+  document: { querySelector: () => ({ getContext: () => ({}) }) },
+  localStorage: { getItem: () => null },
+  Audio: function () {}
+});
+for (const file of ['game-core.js', 'questions-days.js']) {
   vm.runInContext(fs.readFileSync(path.join(__dirname, '..', file), 'utf8'), context);
 }
 const days = context.window.DIVE_DAYS;
@@ -11,7 +16,7 @@ const manifestIds = fs.readdirSync(path.join(__dirname, '..', 'question-packs'))
   .filter(id => /^\d{4}-\d{2}-\d{2}$/.test(id)).sort();
 assert.deepEqual(Array.from(days, day => day.id), manifestIds);
 assert.equal(context.window.DIVE_QUESTIONS, days.at(-1).questions);
-const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
+const normalize = context.normalizeAnswer;
 for (const day of days) {
   assert.equal(day.questions.length, 7);
   for (const question of day.questions) {
@@ -21,7 +26,7 @@ for (const day of days) {
       assert([10, 15, 30, 60, 85, 100].includes(answer.points));
       assert(answer.forms.length);
       for (const form of answer.forms) {
-        const key = normalize(form);
+        const key = normalize(form, question);
         assert(key);
         assert(!owners.has(key) || owners.get(key) === answer, `Ambiguous answer: ${form}`);
         owners.set(key, answer);

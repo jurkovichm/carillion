@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-21",
+  "aliasesAdded": [
+    {
+      "answer": "Vladimir Lenin",
+      "aliases": [
+        "Ulyanov",
+        "Vladimir Ilyich Ulyanov"
+      ]
+    },
+    {
+      "answer": "Joseph Stalin",
+      "aliases": [
+        "Dzhugashvili",
+        "Iosif Dzhugashvili"
+      ]
+    },
+    {
+      "answer": "Margaret Thatcher",
+      "aliases": [
+        "Iron Lady",
+        "The Iron Lady"
+      ]
+    },
+    {
+      "answer": "Harold Macmillan",
+      "aliases": [
+        "Supermac"
+      ]
+    },
+    {
+      "answer": "Apache Pig latin",
+      "aliases": [
+        "Pig Latin"
+      ]
+    },
+    {
+      "answer": "MIT App Inventor",
+      "aliases": [
+        "App Inventor"
+      ]
+    }
+  ],
+  "answersAdded": [
+    {
+      "answer": "Model-driven engineering",
+      "group": "Engineering techniques",
+      "worth": 85
+    },
+    {
+      "answer": "Concurrent engineering",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Engineering analysis",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Engineering design process",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Engineering mathematics",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Engineering notation",
+      "group": "Engineering techniques",
+      "worth": 85
+    },
+    {
+      "answer": "Engineering optimization",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Engineering statistics",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Front-end engineering",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Knowledge engineering",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Life-cycle engineering",
+      "group": "Engineering techniques",
+      "worth": 85
+    },
+    {
+      "answer": "Redundancy (engineering)",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Reverse engineering",
+      "group": "Engineering techniques",
+      "worth": 30
+    },
+    {
+      "answer": "Sustainable engineering",
+      "group": "Engineering techniques",
+      "worth": 30
+    },
+    {
+      "answer": "Traditional engineering",
+      "group": "Engineering techniques",
+      "worth": 85
+    },
+    {
+      "answer": "Value engineering",
+      "group": "Engineering techniques",
+      "worth": 60
+    },
+    {
+      "answer": "Cost engineering",
+      "group": "Non-technical fields",
+      "worth": 60
+    },
+    {
+      "answer": "Demographic engineering",
+      "group": "Non-technical fields",
+      "worth": 85
+    },
+    {
+      "answer": "Engineering management",
+      "group": "Non-technical fields",
+      "worth": 30
+    },
+    {
+      "answer": "Financial engineering",
+      "group": "Non-technical fields",
+      "worth": 30
+    },
+    {
+      "answer": "Market engineering",
+      "group": "Non-technical fields",
+      "worth": 85
+    },
+    {
+      "answer": "Memetic engineering",
+      "group": "Non-technical fields",
+      "worth": 100
+    },
+    {
+      "answer": "Political engineering",
+      "group": "Non-technical fields",
+      "worth": 60
+    },
+    {
+      "answer": "Sales engineering",
+      "group": "Non-technical fields",
+      "worth": 60
+    },
+    {
+      "answer": "Social engineering (political science)",
+      "group": "Non-technical fields",
+      "worth": 60
+    },
+    {
+      "answer": "Social engineering (security)",
+      "group": "Non-technical fields",
+      "worth": 30
+    },
+    {
+      "answer": "Tariff engineering",
+      "group": "Non-technical fields",
+      "worth": 85
+    },
+    {
+      "answer": "Exploratory engineering",
+      "group": "Exploratory engineering",
+      "worth": 85
+    },
+    {
+      "answer": "Astronomical engineering",
+      "group": "Exploratory engineering",
+      "worth": 85
+    },
+    {
+      "answer": "Megascale engineering",
+      "group": "Exploratory engineering",
+      "worth": 85
+    },
+    {
+      "answer": "Planetary engineering",
+      "group": "Exploratory engineering",
+      "worth": 85
+    },
+    {
+      "answer": "Engineering studies",
+      "group": "Engineering studies",
+      "worth": 85
+    },
+    {
+      "answer": "Engineering economics",
+      "group": "Engineering studies",
+      "worth": 60
+    },
+    {
+      "answer": "Engineering ethics",
+      "group": "Engineering studies",
+      "worth": 60
+    },
+    {
+      "answer": "Engineering law",
+      "group": "Engineering studies",
+      "worth": 60
+    },
+    {
+      "answer": "Engineering psychology",
+      "group": "Engineering studies",
+      "worth": 85
+    },
+    {
+      "answer": "Philosophy of engineering",
+      "group": "Engineering studies",
+      "worth": 85
+    }
+  ],
+  "sources": {
+    "engineering": "https://en.wikipedia.org/wiki/List_of_engineering_branches#See_also",
+    "Iron Lady": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher",
+    "Supermac": "https://www.gov.uk/government/history/past-prime-ministers/harold-macmillan",
+    "birth surnames": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt10/pdf/GPO-CRECB-1969-pt10-5-2.pdf",
+    "Pig Latin": "https://pig.apache.org/",
+    "App Inventor": "https://www.csail.mit.edu/research/mit-app-inventor"
+  },
+  "otherSetsReviewed": {
+    "leaders": "Acting-only presidents and formal Soviet heads remain outside agreed scope. Birth surnames alias existing people.",
+    "PMs": "Nicknames alias the person; no additional officeholders found.",
+    "languages": "Machine code, TeX, SQL, fish, Pizza and other surprising listed languages already included. Unlisted esolangs and BASIC dialects remain outside exact index.",
+    "characters": "Santa, Tarzan, inventions and foods already included; indexed defining page rechecked, direct fetch remains blocked.",
+    "MSP": "Seasonal Augusta, island destination names, grouped multi-airport cities and former PBI code already covered; no route additions claimed by this editorial sweep.",
+    "borders": "Historical Canada/Denmark, fixed crossings, territories and disputed entries already included. No additional qualifying row found."
+  },
+  "newAnswerCount": 37,
+  "scores": "Curated rarity, existing Worth values preserved."
+}

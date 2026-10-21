@@ -48941,7 +48941,7 @@ window.DIVE_DAYS = [
         ]
       },
       {
-        "prompt": "Terms for, or Types of, Home Run",
+        "prompt": "Words for Home Run",
         "source": "https://www.mlb.com/glossary/standard-stats/home-run",
         "sourceNote": "Curated general-trivia recall rarity, not measured response frequencies: 10/30/60/85/100; 15 is the separate QUIRKY exception. See coverage-audit.json for source reconciliation and edge decisions. User explicitly expanded this prompt to include established slang, home-run types and plain descriptions such as two-run home run. Distinct general slang expressions are separate catches; spelling/tense variants share a catch. Equivalent subtype wording is grouped: grand salami with Grand slam; oppo taco/oppo boppo with Opposite-field home run. Canonical Home run/HR belongs to Homer. Central sources: MLB's nickname inventory https://www.mlb.com/cut4/ranking-the-26-best-nicknames-for-a-home-run-c294721188 , the MLB glossary, Dickson dictionary https://www.baseball-almanac.com/dictionary-term.php?term=home+run and https://www.baseball-almanac.com/dictionary-term.php?term=circuit , plus https://en.wikipedia.org/wiki/Glossary_of_baseball_terms . Additional sources and included terms are mapped in home-evidence.json. Coverage spans general slang, run totals, ball flight/direction, game situation, substitutions, consecutive hits and established ballpark terms. No finite global inventory exists, especially for regional slang and arbitrary compound descriptions. Only documented forms are included rather than generating every adjective combination. Little League home run is QUIRKY 15: the established phrase describes an error-assisted trip, not an official statistical home run; independently documented by https://sabr.org/little-league-home-runs . An obsolete offensive historical term is identified as such, without endorsing its usage. Grand slam, walk-off grand slam and ultimate grand slam require their own qualifiers; the last specifically erases a three-run deficit.",
         "answers": [
@@ -51107,6 +51107,10867 @@ window.DIVE_DAYS = [
               "997"
             ],
             "note": "The largest prime below one thousand, and the 168th prime in the sequence."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-10-21",
+    "label": "21 October 2026",
+    "questions": [
+      {
+        "prompt": "Russian Presidents / Soviet Leaders",
+        "source": "https://en.wikipedia.org/wiki/List_of_leaders_of_the_Soviet_Union",
+        "sourceNote": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User selected Russian presidents plus de facto Soviet leaders. Eleven people: eight conventional Soviet leaders, including Malenkov, and the three elected Russian presidents Yeltsin, Putin and Medvedev. Repeated terms share a catch. Acting-only Russian officeholders, disputed claimants, tsars, collective-leadership colleagues and merely formal Soviet heads of state/government are excluded. Membership reconciled with https://www.history.com/articles/soviet-union-leaders-order and https://en.wikipedia.org/wiki/List_of_presidents_of_Russia . Useful surnames and transliterations are accepted. Research snapshot 20 October 2026. Additional verified name aliases are recorded in creative-sweep.json.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Vladimir Lenin",
+              "Lenin",
+              "Vladimir Ilyich Lenin",
+              "Vladimir Ulyanov",
+              "Ulyanov",
+              "Vladimir Ilyich Ulyanov"
+            ],
+            "note": "Led the Bolsheviks and became the first leader of the Soviet Union when it formed in 1922."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Joseph Stalin",
+              "Stalin",
+              "Josef Stalin",
+              "Iosif Stalin",
+              "Joseph Dzhugashvili",
+              "Dzhugashvili",
+              "Iosif Dzhugashvili"
+            ],
+            "note": "Consolidated Soviet power after Lenin and led the USSR during the Second World War."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Georgy Malenkov",
+              "Malenkov",
+              "Georgi Malenkov"
+            ],
+            "note": "Briefly emerged as the leading Soviet figure after Stalin\u2019s death in March 1953."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nikita Khrushchev",
+              "Khrushchev",
+              "Khruschev"
+            ],
+            "note": "Became Communist Party first secretary in 1953 and later denounced Stalin\u2019s abuses."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Leonid Brezhnev",
+              "Brezhnev",
+              "Brejnev"
+            ],
+            "note": "Replaced Khrushchev in 1964 and remained the Soviet Union\u2019s leading figure until 1982."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Yuri Andropov",
+              "Andropov",
+              "Yury Andropov"
+            ],
+            "note": "The former KGB chairman succeeded Brezhnev as Communist Party general secretary in 1982."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Konstantin Chernenko",
+              "Chernenko"
+            ],
+            "note": "Led the Soviet Communist Party between Andropov\u2019s death in 1984 and his own death in 1985."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Mikhail Gorbachev",
+              "Gorbachev",
+              "Gorbachov"
+            ],
+            "note": "The final Soviet leader promoted glasnost and perestroika before the USSR dissolved in 1991."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Boris Yeltsin",
+              "Yeltsin",
+              "Eltsin"
+            ],
+            "note": "Won Russia\u2019s first popular presidential election in 1991 and resigned at the end of 1999."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Vladimir Putin",
+              "Putin"
+            ],
+            "note": "First became acting Russian president on 31 December 1999 and won the 2000 presidential election."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dmitry Medvedev",
+              "Medvedev",
+              "Dmitri Medvedev"
+            ],
+            "note": "Served as Russia\u2019s president from 2008 to 2012, between Putin\u2019s presidential periods."
+          }
+        ]
+      },
+      {
+        "prompt": "UK Prime Ministers",
+        "source": "https://www.gov.uk/government/history/past-prime-ministers",
+        "sourceNote": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. One person per catch, including the conventional British list from Walpole in 1721 and repeat terms only once. The official past-PM catalogue supplied 58 people, plus Andy Burnham from https://www.gov.uk/government/ministers/prime-minister and https://www.gov.uk/government/speeches/andy-burnhams-first-speech-as-prime-minister-20-july-2026 . Cross-checked against https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_United_Kingdom . Snapshot 20 October 2026. Bare Pitt and William Pitt mean the Younger; the Elder requires a qualifier or Chatham. Grenville means George Grenville, while William Grenville requires William or his title. Peerage titles and familiar surnames count. Dates in blurbs follow the government catalogue. Additional verified name aliases are recorded in creative-sweep.json.",
+        "answers": [
+          {
+            "points": 30,
+            "forms": [
+              "Andy Burnham",
+              "Burnham",
+              "Andrew Burnham"
+            ],
+            "note": "Became prime minister on 20 July 2026, succeeding Keir Starmer."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Keir Starmer",
+              "Starmer"
+            ],
+            "note": "Served as prime minister in 2024 to 2026."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rishi Sunak",
+              "Sunak"
+            ],
+            "note": "Served as prime minister in 2022 to 2024."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Liz Truss",
+              "Truss",
+              "Elizabeth Truss"
+            ],
+            "note": "Served as prime minister in 2022 to 2022."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Boris Johnson",
+              "Johnson"
+            ],
+            "note": "Served as prime minister in 2019 to 2022."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Theresa May",
+              "May"
+            ],
+            "note": "Served as prime minister in 2016 to 2019."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "David Cameron",
+              "Cameron",
+              "Lord Cameron"
+            ],
+            "note": "Served as prime minister in 2010 to 2016."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Gordon Brown",
+              "Brown"
+            ],
+            "note": "Served as prime minister in 2007 to 2010."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Tony Blair",
+              "Blair",
+              "Anthony Blair"
+            ],
+            "note": "Served as prime minister in 1997 to 2007."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "John Major",
+              "Major"
+            ],
+            "note": "Served as prime minister in 1990 to 1997."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Margaret Thatcher",
+              "Thatcher",
+              "Baroness Thatcher",
+              "Iron Lady",
+              "The Iron Lady"
+            ],
+            "note": "Served as prime minister in 1979 to 1990."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "James Callaghan",
+              "Callaghan",
+              "Jim Callaghan"
+            ],
+            "note": "Served as prime minister in 1976 to 1979."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Harold Wilson",
+              "Wilson"
+            ],
+            "note": "Served as prime minister in 1974 to 1976, 1964 to 1970."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Edward Heath",
+              "Heath",
+              "Ted Heath"
+            ],
+            "note": "Served as prime minister in 1970 to 1974."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alec Douglas-Home",
+              "Douglas Home",
+              "Lord Home"
+            ],
+            "note": "Served as prime minister in 1963 to 1964."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Harold Macmillan",
+              "Macmillan",
+              "Supermac"
+            ],
+            "note": "Served as prime minister in 1957 to 1963."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Anthony Eden",
+              "Eden"
+            ],
+            "note": "Served as prime minister in 1955 to 1957."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Winston Churchill",
+              "Churchill"
+            ],
+            "note": "Served as prime minister in 1951 to 1955, 1940 to 1945."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Clement Attlee",
+              "Attlee"
+            ],
+            "note": "Served as prime minister in 1945 to 1951."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Neville Chamberlain",
+              "Chamberlain"
+            ],
+            "note": "Served as prime minister in 1937 to 1940."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stanley Baldwin",
+              "Baldwin"
+            ],
+            "note": "Served as prime minister in 1935 to 1937, 1924 to 1929, 1923 to 1924."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ramsay MacDonald",
+              "MacDonald",
+              "James Ramsay MacDonald"
+            ],
+            "note": "Served as prime minister in 1929 to 1935, 1924 to 1924."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bonar Law",
+              "Andrew Bonar Law",
+              "Law"
+            ],
+            "note": "Served as prime minister in 1922 to 1923."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "David Lloyd George",
+              "Lloyd George"
+            ],
+            "note": "Served as prime minister in 1916 to 1922."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "H. H. Asquith",
+              "Asquith",
+              "Herbert Henry Asquith",
+              "HH Asquith"
+            ],
+            "note": "Served as prime minister in 1908 to 1916."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Henry Campbell-Bannerman",
+              "Campbell Bannerman"
+            ],
+            "note": "Served as prime minister in 1905 to 1908."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Arthur Balfour",
+              "Balfour",
+              "Arthur James Balfour"
+            ],
+            "note": "Served as prime minister in 1902 to 1905."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Robert Gascoyne-Cecil",
+              "Lord Salisbury",
+              "Salisbury",
+              "Marquess of Salisbury"
+            ],
+            "note": "Served as prime minister in 1895 to 1902, 1886 to 1892, 1885 to 1886."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Archibald Primrose",
+              "Lord Rosebery",
+              "Rosebery",
+              "Earl of Rosebery",
+              "Primrose"
+            ],
+            "note": "Served as prime minister in 1894 to 1895."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "William Ewart Gladstone",
+              "Gladstone",
+              "William Gladstone"
+            ],
+            "note": "Served as prime minister in 1892 to 1894, 1886 to 1886, 1880 to 1885, 1868 to 1874."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Benjamin Disraeli",
+              "Disraeli",
+              "Earl of Beaconsfield",
+              "Beaconsfield"
+            ],
+            "note": "Served as prime minister in 1874 to 1880, 1868 to 1868."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Edward Smith-Stanley",
+              "Earl of Derby",
+              "Lord Derby",
+              "Derby",
+              "Edward Stanley"
+            ],
+            "note": "Served as prime minister in 1866 to 1868, 1858 to 1859, 1852 to 1852."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "John Russell",
+              "Lord John Russell",
+              "Earl Russell",
+              "Russell"
+            ],
+            "note": "Served as prime minister in 1865 to 1866, 1846 to 1852."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Henry John Temple",
+              "Lord Palmerston",
+              "Palmerston",
+              "Viscount Palmerston"
+            ],
+            "note": "Served as prime minister in 1859 to 1865, 1855 to 1858."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "George Hamilton-Gordon",
+              "Lord Aberdeen",
+              "Aberdeen",
+              "Earl of Aberdeen"
+            ],
+            "note": "Served as prime minister in 1852 to 1855."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Robert Peel",
+              "Peel"
+            ],
+            "note": "Served as prime minister in 1841 to 1846, 1834 to 1835."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Lamb",
+              "Lord Melbourne",
+              "Melbourne",
+              "Viscount Melbourne",
+              "Lamb"
+            ],
+            "note": "Served as prime minister in 1835 to 1841, 1834 to 1834."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Arthur Wellesley",
+              "Duke of Wellington",
+              "Wellington",
+              "Wellesley"
+            ],
+            "note": "Served as prime minister in 1834 to 1834, 1828 to 1830."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charles Grey",
+              "Earl Grey",
+              "Lord Grey",
+              "Grey"
+            ],
+            "note": "Served as prime minister in 1830 to 1834."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Frederick Robinson",
+              "Viscount Goderich",
+              "Goderich",
+              "Lord Goderich",
+              "Robinson",
+              "Frederick John Robinson"
+            ],
+            "note": "Served as prime minister in 1827 to 1828."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "George Canning",
+              "Canning"
+            ],
+            "note": "Served as prime minister in 1827 to 1827."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Robert Jenkinson",
+              "Earl of Liverpool",
+              "Liverpool",
+              "Lord Liverpool",
+              "Jenkinson"
+            ],
+            "note": "Served as prime minister in 1812 to 1827."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spencer Perceval",
+              "Perceval"
+            ],
+            "note": "Served as prime minister in 1809 to 1812."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Cavendish-Bentinck",
+              "Duke of Portland",
+              "Portland"
+            ],
+            "note": "Served as prime minister in 1807 to 1809, 1783 to 1783."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Grenville",
+              "Lord Grenville",
+              "Baron Grenville",
+              "William Wyndham Grenville"
+            ],
+            "note": "Served as prime minister in 1806 to 1807."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "William Pitt the Younger",
+              "Pitt the Younger",
+              "Pitt",
+              "William Pitt"
+            ],
+            "note": "Served as prime minister in 1804 to 1806, 1783 to 1801."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Henry Addington",
+              "Addington",
+              "Viscount Sidmouth",
+              "Sidmouth"
+            ],
+            "note": "Served as prime minister in 1801 to 1804."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "William Petty",
+              "Earl of Shelburne",
+              "Shelburne",
+              "Petty"
+            ],
+            "note": "Served as prime minister in 1782 to 1783."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Charles Watson-Wentworth",
+              "Marquess of Rockingham",
+              "Rockingham"
+            ],
+            "note": "Served as prime minister in 1782 to 1782, 1765 to 1766."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Frederick North",
+              "Lord North",
+              "North"
+            ],
+            "note": "Served as prime minister in 1770 to 1782."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Augustus FitzRoy",
+              "Duke of Grafton",
+              "Grafton",
+              "Augustus Henry Fitzroy"
+            ],
+            "note": "Served as prime minister in 1768 to 1770."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "William Pitt the Elder",
+              "Pitt the Elder",
+              "Earl of Chatham",
+              "Chatham"
+            ],
+            "note": "Served as prime minister in 1766 to 1768."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "George Grenville",
+              "Grenville"
+            ],
+            "note": "Served as prime minister in 1763 to 1765."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "John Stuart",
+              "Earl of Bute",
+              "Bute"
+            ],
+            "note": "Served as prime minister in 1762 to 1763."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thomas Pelham-Holles",
+              "Duke of Newcastle",
+              "Newcastle"
+            ],
+            "note": "Served as prime minister in 1757 to 1762, 1754 to 1756."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "William Cavendish",
+              "Duke of Devonshire",
+              "Devonshire"
+            ],
+            "note": "Served as prime minister in 1756 to 1757."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Henry Pelham",
+              "Pelham"
+            ],
+            "note": "Served as prime minister in 1743 to 1754."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Spencer Compton",
+              "Earl of Wilmington",
+              "Wilmington",
+              "Compton"
+            ],
+            "note": "Served as prime minister in 1742 to 1743."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Robert Walpole",
+              "Walpole"
+            ],
+            "note": "Served as prime minister in 1721 to 1742."
+          }
+        ]
+      },
+      {
+        "prompt": "Programming Languages",
+        "answerFormat": "programming-language",
+        "source": "https://en.wikipedia.org/wiki/List_of_programming_languages",
+        "sourceNote": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User selected the linked index as the exact membership boundary: 674 alphabetic entries reconcile to 669 catches after five duplicate/renamed entries are merged (Coq/Rocq, IBM RPG/RPG, J++/Visual J++, LiveCode/Transcript, Clarion/Topspeed). Individually listed dialects remain distinct. Names merely linked as context, such as a vendor, do not become answers. HTML, XML, unlisted BASIC dialects and unlisted esolangs are outside this defined set. Cg does not own HLSL; HLSL belongs to High Level Shader Language. Swift means Apple Swift; the parallel language needs its qualifier. Bare Janus means the reversible language; the concurrent-constraint language requires its qualifier. Bare ZPL means Zebra Programming Language, not the parallel language. ALGOL means ALGOL 60. KRL means the knowledge-representation language; the KUKA language requires KUKA. A question-specific matching mode preserves punctuation and non-ASCII symbols while ignoring case, accents and whitespace; spelled-out aliases support C plus plus, C sharp and similar forms. Other questions retain existing normalization. Membership was reconciled against the full index; supporting facts come from linked articles, https://en.wikipedia.org/wiki/Timeline_of_programming_languages , https://en.wikipedia.org/wiki/Comparison_of_programming_languages and the public-domain PLDB dataset https://pldb.io/csv.html . The full PLDB dataset and the initial Rosetta Code category page were consulted as comparison sources, not permission to expand membership; Rosetta Code pagination was not fully reconciled. Some article fetches returned rate limits; unverified distinguishing facts remain blank and are enumerated in the audit. Additional verified name aliases are recorded in creative-sweep.json.",
+        "answers": [
+          {
+            "points": 100,
+            "forms": [
+              "A.NET",
+              "A#",
+              "A sharp"
+            ],
+            "note": "First appeared in 2004; its credited designers include Dr. Martin C. Carlisle, Lt Col Ricky Sward, Maj Jeff Humphries."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "A-0 System"
+            ],
+            "note": "PLDB dates its first public appearance to 1951."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "A+",
+              "A plus"
+            ],
+            "note": "First appeared in 1988; its credited designer is Arthur Whitney."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ABAP"
+            ],
+            "note": "First appeared in 1983; its credited designer is SAP SE."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ABC"
+            ],
+            "note": "First appeared in 1987; its credited designers include Leo Geurts, Lambert Meertens , Steven Pemberton."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ACC"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Accent"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Action!"
+            ],
+            "note": "PLDB dates its first public appearance to 1983."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ActionScript"
+            ],
+            "note": "First appeared in 1998; its credited designer is Gary Grossman."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Actor"
+            ],
+            "note": "Dated to 1988 in the language timeline; development is credited to Charles Duff, the Whitewater Group."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ada"
+            ],
+            "note": "First appeared in 1980; its credited designers include MIL-STD-1815, Ada 83: Jean Ichbiah Ada 95: Tucker Taft Ada 2005: Tucker Taft Ada 2012: Tucker Taft."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Adenine"
+            ],
+            "note": "PLDB dates its first public appearance to 1999."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AdvPL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Agda"
+            ],
+            "note": "First appeared in 1999; its credited designer is Ulf Norell; Catarina Coquand (1.0)."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Agilent VEE",
+              "Keysight VEE",
+              "VEE"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Agora"
+            ],
+            "note": "PLDB dates its first public appearance to 1993."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AIMMS"
+            ],
+            "note": "First appeared in 1993; its credited designer is Johannes J. Bisschop Marcel Roelofs."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Aldor"
+            ],
+            "note": "First appeared in 1990; its credited designers include Richard Dimick Jenks, Barry Trager, Stephen Watt, James Davenport, Robert Sutor, Scott Morrison."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Alef"
+            ],
+            "note": "First appeared in 1992; its credited designer is Phil Winterbottom."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Algebraic Logic Functional",
+              "ALF"
+            ],
+            "note": "PLDB dates its first public appearance to 1990."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ALGOL 58"
+            ],
+            "note": "First appeared in 1958, with a procedural , imperative , structured design."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ALGOL 60",
+              "ALGOL"
+            ],
+            "note": "First appeared in 1960; its credited designers include Backus , Bauer , Green , Katz , McCarthy , Naur , Perlis , Rutishauser , Samelson , van Wijngaarden , Vauquois , Wegstein , Woodger."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ALGOL 68"
+            ],
+            "note": "First appeared in 1968; its credited designers include A. van Wijngaarden , B. J. Mailloux , J. E. L. Peck and C. H. A. Koster , et al.."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ALGOL W"
+            ],
+            "note": "First appeared in 1966; its credited designers include Niklaus Wirth , Tony Hoare."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Alice ML"
+            ],
+            "note": "First appeared in 2000, with a multi-paradigm : imperative , functional , distributed , concurrent , constraint design."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Alma-0"
+            ],
+            "note": "First appeared in 1997; its credited designers include Krzysztof Apt , Marc Bezem, Jacob Brunekreef, Vincent Partington, Andrea Schaerf."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AmbientTalk"
+            ],
+            "note": "First appeared in 2006; its credited designers include Tom Van Cutsem, Stijn Mostinckx, Jessie Dedecker, Wolfgang De Meuter."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Amiga E"
+            ],
+            "note": "First appeared in 1993; its credited designer is Wouter van Oortmerssen."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AMPL"
+            ],
+            "note": "First appeared in 1985; its credited designer is Robert Fourer David Gay Brian Kernighan Bell Labs."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Analitik"
+            ],
+            "note": "First appeared in 1968; its credited designer is Victor Glushkov & Co."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AngelScript"
+            ],
+            "note": "First appeared in 2003; PLDB credits its creation to Andreas J\u00f6nsson."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Apache Pig latin",
+              "Pig Latin"
+            ],
+            "note": "PLDB dates its first public appearance to 2008."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Apex"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "APL"
+            ],
+            "note": "Dated to 1962 in the language timeline; development is credited to Kenneth E. Iverson."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MIT App Inventor",
+              "App Inventor"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "AppleScript"
+            ],
+            "note": "Dated to 1993 in the language timeline; development is credited to Apple Computer."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "APT"
+            ],
+            "note": "Dated to 1959 in the language timeline; development is credited to Douglas T. Ross."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Arc"
+            ],
+            "note": "First appeared in 2001; PLDB credits its creation to Paul Graham and Robert Morris."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ArkTS"
+            ],
+            "note": "Dated to 2021 in the language timeline; development is credited to Wang Chenglu, Huawei."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ARexx"
+            ],
+            "note": "PLDB dates its first public appearance to 1987."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Argus"
+            ],
+            "note": "PLDB dates its first public appearance to 1982."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Assembly language",
+              "Assembly",
+              "ASM"
+            ],
+            "note": "Its original uses are classified as general."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AssemblyScript"
+            ],
+            "note": "Dated to 2017 in the language timeline; development is credited to The AssemblyScript Project."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ATS"
+            ],
+            "note": "First appeared in 2006; its credited designer is Hongwei Xi."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AutoHotkey"
+            ],
+            "note": "Its original uses are classified as gui automation ( macros ), highly domain-specific."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AutoIt"
+            ],
+            "note": "Its original uses are classified as gui automation (macros), highly domain-specific."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "AutoLISP"
+            ],
+            "note": "First appeared in 1986; PLDB credits its creation to David Betz."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Averest"
+            ],
+            "note": "PLDB dates its first public appearance to 2005."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "AWK"
+            ],
+            "note": "Dated to 1979 in the language timeline; development is credited to Alfred Aho , Peter J. Weinberger , Brian Kernighan."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Axum"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "B"
+            ],
+            "note": "Dated to 1969 in the language timeline; development is credited to Ken Thompson , with contributions from Dennis Ritchie."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Babbage"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ballerina"
+            ],
+            "note": "Dated to 2017 in the language timeline; development is credited to WSO2 , open source."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bash"
+            ],
+            "note": "Dated to 1989 in the language timeline; development is credited to Brian Fox."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "BASIC"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to John George Kemeny , Thomas Eugene Kurtz at Dartmouth College."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Batch",
+              "Batch file",
+              "Windows batch",
+              "DOS batch"
+            ],
+            "note": "PLDB dates its first public appearance to 1985."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "bc"
+            ],
+            "note": "PLDB dates its first public appearance to 1975."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "BCPL"
+            ],
+            "note": "Dated to 1967 in the language timeline; development is credited to Martin Richards."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "BeanShell"
+            ],
+            "note": "Its original uses are classified as application, scripting."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "BETA"
+            ],
+            "note": "First appeared in 1983; PLDB credits its creation to Bent Bruun Kristensen and Ole Lehrmann Madsen and Birger M\u00f8ller-Pedersen and Kristen Nygaard."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "BLISS"
+            ],
+            "note": "Dated to 1970 in the language timeline; development is credited to Wulf, Russell, Habermann at Carnegie Mellon University."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Blockly"
+            ],
+            "note": "PLDB dates its first public appearance to 2011."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "BlooP"
+            ],
+            "note": "PLDB dates its first public appearance to 1979."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Boo"
+            ],
+            "note": "Dated to 2003 in the language timeline; development is credited to Rodrigo B. de Oliveira."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Boomerang"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bosque"
+            ],
+            "note": "Dated to 2019 in the language timeline; development is credited to Mark Marron, Microsoft."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "C"
+            ],
+            "note": "Dated to 1972 in the language timeline; development is credited to Dennis Ritchie."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "C--",
+              "C minus minus"
+            ],
+            "note": "First appeared in 1997; PLDB credits its creation to Simon Peyton Jones."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "C++",
+              "C plus plus",
+              "CPP"
+            ],
+            "note": "Dated to 1983 in the language timeline; development is credited to Bjarne Stroustrup."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "C*",
+              "C star"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "C#",
+              "C sharp"
+            ],
+            "note": "Dated to 2000 in the language timeline; development is credited to Anders Hejlsberg , Microsoft ( ECMA )."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "C/AL"
+            ],
+            "note": "First appeared in 1987; PLDB credits its creation to Michael Nielsen."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cach\u00e9 ObjectScript"
+            ],
+            "note": "PLDB dates its first public appearance to 1997."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "C Shell",
+              "csh"
+            ],
+            "note": "PLDB dates its first public appearance to 1978."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Calcpad"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Caml"
+            ],
+            "note": "First appeared in 1985; PLDB credits its creation to G\u00e9rard Huet and Guy Cousineau and Asc\u00e1nder Su\u00e1rez and Pierre Weis and Michel Mauny."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Carbon"
+            ],
+            "note": "Dated to 2022 in the language timeline; development is credited to Google."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Catrobat"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cayenne"
+            ],
+            "note": "PLDB dates its first public appearance to 1998."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cecil"
+            ],
+            "note": "First appeared in 1992; PLDB credits its creation to Craig Chambers."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CESIL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CEEMAC"
+            ],
+            "note": "First appeared in 1980; PLDB credits its creation to Brooke Boering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "C\u00e9u"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ceylon"
+            ],
+            "note": "First appeared in 2011; PLDB credits its creation to Gavin King."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CFEngine"
+            ],
+            "note": "PLDB dates its first public appearance to 1993."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cg"
+            ],
+            "note": "PLDB dates its first public appearance to 2003."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ch"
+            ],
+            "note": "PLDB dates its first public appearance to 2001."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Chapel"
+            ],
+            "note": "First appeared in 2009; its credited designers include David Callahan, Hans Zima, Brad Chamberlain, John Plevyak."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Charm"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CHICKEN"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CHILL"
+            ],
+            "note": "First appeared in 1980; its credited designer is CCITT."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CHIP-8"
+            ],
+            "note": "PLDB dates its first public appearance to 1970."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ChucK"
+            ],
+            "note": "First appeared in 2003; PLDB credits its creation to Ge Wang."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cilk"
+            ],
+            "note": "PLDB dates its first public appearance to 1994."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Claire"
+            ],
+            "note": "Dated to 1994 in the language timeline; development is credited to Yves Caseau."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clarion"
+            ],
+            "note": "Dated to 1986 in the language timeline; development is credited to Bruce Barrington."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clean"
+            ],
+            "note": "Dated to 1987 in the language timeline; development is credited to Software Technology Research Group of Radboud University Nijmegen."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Clipper"
+            ],
+            "note": "Dated to 1984 in the language timeline; development is credited to Nantucket."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CLIPS"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CLIST"
+            ],
+            "note": "PLDB dates its first public appearance to 1990."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Clojure"
+            ],
+            "note": "First appeared in 2007; its credited designer is Rich Hickey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CLU"
+            ],
+            "note": "First appeared in 1975; its credited designer is Barbara Liskov and her students."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CMS-2"
+            ],
+            "note": "First appeared in 1968; its credited designers include RAND , Intermetrics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "COBOL"
+            ],
+            "note": "First appeared in 1960, with a procedural , imperative , object-oriented , generic design."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CobolScript"
+            ],
+            "note": "PLDB dates its first public appearance to 1999."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cobra"
+            ],
+            "note": "First appeared in 2006; its credited designer is Charles Esterbrook."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "CoffeeScript"
+            ],
+            "note": "First appeared in 2009; its credited designer is Jeremy Ashkenas."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ColdFusion"
+            ],
+            "note": "First appeared in 1995; PLDB credits its creation to Joseph J. Allaire."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "COMAL"
+            ],
+            "note": "First appeared in 1975; its credited designers include B\u00f8rge R. Christensen, Benedict L\u00f8fstedt."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "COMIT"
+            ],
+            "note": "First appeared in 1957; its credited designer is Victor Yngve."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Common Intermediate Language",
+              "CIL"
+            ],
+            "note": "PLDB dates its first public appearance to 2000."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Common Lisp",
+              "CL"
+            ],
+            "note": "Dated to 1984 in the language timeline; development is credited to Guy L. Steele, Jr. , many others."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "COMPASS"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Component Pascal"
+            ],
+            "note": "Dated to 1997 in the language timeline; development is credited to Oberon Microsystems."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "COMTRAN"
+            ],
+            "note": "Dated to 1957 in the language timeline; development is credited to Bob Bemer."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Concurrent Pascal"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Constraint Handling Rules",
+              "CHR"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Control Language"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Coq",
+              "Rocq"
+            ],
+            "note": "Dated to 1984 in the language timeline; development is credited to INRIA."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CORAL",
+              "Coral 66"
+            ],
+            "note": "Dated to 1966 in the language timeline; development is credited to I. F. Currie, M. Griffiths."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CorVision"
+            ],
+            "note": "Dated to 1986 in the language timeline; development is credited to Cortex."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "COWSEL"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to Rod Burstall , Robin Popplestone."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CPL"
+            ],
+            "note": "Dated to 1963 in the language timeline; development is credited to Barron, Christopher Strachey , et al.."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cryptol"
+            ],
+            "note": "First appeared in 2014; PLDB credits its creation to Adam C. Foltzer."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Crystal"
+            ],
+            "note": "Dated to 2014 in the language timeline; development is credited to Ary Borenszweig, Manas Technology Solutions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Csound"
+            ],
+            "note": "PLDB dates its first public appearance to 1985."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cuneiform"
+            ],
+            "note": "Dated to 2013 in the language timeline; development is credited to J\u00f6rgen Brandt."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Curl"
+            ],
+            "note": "Dated to 1996 in the language timeline; development is credited to David Kranz, Steve Ward, Chris Terman at MIT."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Curry"
+            ],
+            "note": "Its original uses are classified as application."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cybil"
+            ],
+            "note": "PLDB dates its first public appearance to 1980."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cyclone"
+            ],
+            "note": "First appeared in 2002; its credited designer is AT&T Labs."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cypher Query Language"
+            ],
+            "note": "PLDB dates its first public appearance to 2011."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cython"
+            ],
+            "note": "Its original uses are classified as application, general, numerical computing."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "D",
+              "Dlang"
+            ],
+            "note": "Dated to 2001 in the language timeline; development is credited to Walter Bright , Digital Mars."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dart"
+            ],
+            "note": "Dated to 2011 in the language timeline; development is credited to Google."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Darwin"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "DataFlex"
+            ],
+            "note": "PLDB dates its first public appearance to 1982."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Datalog"
+            ],
+            "note": "PLDB dates its first public appearance to 1977."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "DATATRIEVE"
+            ],
+            "note": "PLDB dates its first public appearance to 1970."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "dBase"
+            ],
+            "note": "Dated to 1979 in the language timeline; development is credited to Wayne Ratliff."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "dc"
+            ],
+            "note": "PLDB dates its first public appearance to 1978."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "DCL",
+              "DIGITAL Command Language"
+            ],
+            "note": "PLDB dates its first public appearance to 1997."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Delphi"
+            ],
+            "note": "Dated to 1995 in the language timeline; development is credited to Anders Hejlsberg at Borland."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "DIBOL"
+            ],
+            "note": "Dated to 1968 in the language timeline; development is credited to DEC."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "DinkC"
+            ],
+            "note": "First appeared in 1998; PLDB credits its creation to Seth Robinson."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Dog"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Draco"
+            ],
+            "note": "Dated to 1982? in the language timeline; development is credited to Chris Gray."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "DRAKON"
+            ],
+            "note": "First appeared in 1996; PLDB credits its creation to Stepan Mitkin."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dylan"
+            ],
+            "note": "Dated to 1992 in the language timeline; development is credited to Many people at Apple Computer."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "DYNAMO"
+            ],
+            "note": "PLDB dates its first public appearance to 1959."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "DAX",
+              "Data Analysis Expressions"
+            ],
+            "note": "PLDB dates its first public appearance to 2009."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "E"
+            ],
+            "note": "Dated to 1997 in the language timeline; development is credited to Mark S. Miller."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ease"
+            ],
+            "note": "First appeared in 1991; PLDB credits its creation to Steven Ericsson-Zenith."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Easy PL/I"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to IBM."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "EASYTRIEVE PLUS"
+            ],
+            "note": "PLDB dates its first public appearance to 1969."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ECMAScript"
+            ],
+            "note": "Dated to 1997 in the language timeline; development is credited to ECMA TC39-TG1."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Edinburgh IMP"
+            ],
+            "note": "First appeared in 1966; its credited designers include Bratley, Whitfield, M. M. Barritt, David Rees, Peter D. Schofield, Roderick McLeod, Hamish Dewar , Peter D. Stephens, Peter Robertson."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "EGL"
+            ],
+            "note": "PLDB dates its first public appearance to 2008."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Eiffel"
+            ],
+            "note": "Dated to 1986 in the language timeline; development is credited to Bertrand Meyer."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ELAN"
+            ],
+            "note": "Its original uses are classified as education."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Elixir"
+            ],
+            "note": "Dated to 2012 in the language timeline; development is credited to Jos\u00e9 Valim."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Elm"
+            ],
+            "note": "Dated to 2012 in the language timeline; development is credited to Evan Czaplicki."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Emacs Lisp"
+            ],
+            "note": "First appeared in 1985; PLDB credits its creation to Richard Stallman."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Emerald"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Epigram"
+            ],
+            "note": "First appeared in 2004; PLDB credits its creation to Conor McBride."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "EPL",
+              "Easy Programming Language"
+            ],
+            "note": "PLDB dates its first public appearance to 2004."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Erlang"
+            ],
+            "note": "Dated to 1986 in the language timeline; development is credited to Joe Armstrong and others in Ericsson."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "es"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Escher"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ESPOL"
+            ],
+            "note": "PLDB dates its first public appearance to 1967."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Esterel"
+            ],
+            "note": "PLDB dates its first public appearance to 1980."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Etoys"
+            ],
+            "note": "First appeared in 1996; PLDB credits its creation to Alan Kay."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Euclid"
+            ],
+            "note": "Dated to 1977 in the language timeline; development is credited to Butler Lampson at Xerox PARC , Ric Holt and James Cordy at University of Toronto."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Euler"
+            ],
+            "note": "PLDB dates its first public appearance to 1965."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Euphoria"
+            ],
+            "note": "Dated to 1993 in the language timeline; development is credited to Robert Craig."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "EusLisp Robot Programming Language"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "CMS EXEC",
+              "EXEC"
+            ],
+            "note": "PLDB dates its first public appearance to 1966."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "EXEC 2"
+            ],
+            "note": "PLDB dates its first public appearance to 1970."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Executable UML"
+            ],
+            "note": "PLDB dates its first public appearance to 2002."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ezhil"
+            ],
+            "note": "First appeared in 2007; PLDB credits its creation to Muthu Annamalai."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "F"
+            ],
+            "note": "PLDB dates its first public appearance to 1996."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "F#",
+              "F sharp"
+            ],
+            "note": "Dated to 2005 in the language timeline; development is credited to Don Syme , Microsoft Research."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "F*",
+              "F star"
+            ],
+            "note": "Dated to 2011 in the language timeline; development is credited to Microsoft Research."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Factor"
+            ],
+            "note": "Dated to 2003 in the language timeline; development is credited to Slava Pestov."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fantom"
+            ],
+            "note": "Dated to 2005 in the language timeline; development is credited to Brian Frank, Andy Frank."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "FAUST"
+            ],
+            "note": "PLDB dates its first public appearance to 2002."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "FFP"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "fish"
+            ],
+            "note": "First appeared in 2005; PLDB credits its creation to Axel Liljencrantz and Thorsten Ball."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Fj\u00f6lnir"
+            ],
+            "note": "First appeared in 1986; PLDB credits its creation to Snorri Agnarsson."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "FL"
+            ],
+            "note": "First appeared in 1989; PLDB credits its creation to John Backus."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Flavors"
+            ],
+            "note": "PLDB dates its first public appearance to 1980."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Flex"
+            ],
+            "note": "First appeared in 1967; PLDB credits its creation to Alan Kay."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Flix"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "FlooP"
+            ],
+            "note": "PLDB dates its first public appearance to 1979."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "FLOW-MATIC",
+              "B0"
+            ],
+            "note": "First appeared in 1955; PLDB credits its creation to Grace Hopper."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "FOCAL"
+            ],
+            "note": "First appeared in 1968; PLDB credits its creation to Richard Merrill."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "FOCUS"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "FOIL"
+            ],
+            "note": "PLDB dates its first public appearance to 1967."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "FORMAC"
+            ],
+            "note": "First appeared in 1993; PLDB credits its creation to Jean E. Sammet."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "@Formula"
+            ],
+            "note": "PLDB dates its first public appearance to 1989."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Forth"
+            ],
+            "note": "First appeared in 1970; its credited designer is Charles H. Moore."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fortran"
+            ],
+            "note": "First appeared in 1957; its credited designer is John Backus."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Fortress"
+            ],
+            "note": "Dated to 2006 in the language timeline; development is credited to Guy L. Steele Jr.."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "FoxBase/FoxPro",
+              "FoxBase",
+              "FoxPro"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "FP"
+            ],
+            "note": "First appeared in 1977; its credited designer is John Backus."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Franz Lisp"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Futhark"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Game Maker Language",
+              "GML"
+            ],
+            "note": "Dated to 1999 in the language timeline; development is credited to Mark Overmars."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "GameMonkey Script"
+            ],
+            "note": "PLDB dates its first public appearance to 2002."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "General Algebraic Modeling System",
+              "GAMS"
+            ],
+            "note": "PLDB dates its first public appearance to 1963."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "GAP"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "G-code"
+            ],
+            "note": "PLDB dates its first public appearance to 1950."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GDScript"
+            ],
+            "note": "PLDB dates its first public appearance to 2014."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Geometric Description Language",
+              "GDL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "GEORGE"
+            ],
+            "note": "PLDB dates its first public appearance to 1957."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gleam"
+            ],
+            "note": "Dated to 2016 in the language timeline; development is credited to Louis Pilfold, Fly.io."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "OpenGL Shading Language",
+              "GLSL"
+            ],
+            "note": "PLDB dates its first public appearance to 1992."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "GNU E"
+            ],
+            "note": "Dated to 1991 in the language timeline; development is credited to David J. DeWitt, Michael J. Carey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "GNU Guile",
+              "Guile"
+            ],
+            "note": "First appeared in 1993; PLDB credits its creation to Aubrey Jaffer and Tom Lord and Miles Bader."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "GNU Octave",
+              "Octave"
+            ],
+            "note": "The language timeline dates its development to 1988."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Go",
+              "Golang"
+            ],
+            "note": "Dated to 2009 in the language timeline; development is credited to Google."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Go!",
+              "Go bang"
+            ],
+            "note": "First appeared in 2003; PLDB credits its creation to Francis McCabe and Keith Clark."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Game Oriented Assembly Lisp",
+              "GOAL"
+            ],
+            "note": "First appeared in 1993; PLDB credits its creation to Andy Gavin."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "G\u00f6del"
+            ],
+            "note": "First appeared in 1992; PLDB credits its creation to John Lloyd and Patricia Hill."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Golo"
+            ],
+            "note": "First appeared in 2012; PLDB credits its creation to Webmaster."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Good Old Mad"
+            ],
+            "note": "Dated to 1965 in the language timeline; development is credited to University of Michigan."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Google Apps Script",
+              "Apps Script"
+            ],
+            "note": "PLDB dates its first public appearance to 2009."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Gosu"
+            ],
+            "note": "Dated to 2002 in the language timeline; development is credited to Guidewire Software."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "GOTRAN"
+            ],
+            "note": "PLDB dates its first public appearance to 1959."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "General Purpose Simulation System"
+            ],
+            "note": "Dated to 1961 in the language timeline; development is credited to Geoffrey Gordon, IBM."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "GraphTalk"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "GRASS"
+            ],
+            "note": "Dated to 1974 in the language timeline; development is credited to Thomas A. DeFanti."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Grasshopper"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Groovy",
+              "Apache Groovy"
+            ],
+            "note": "Dated to 2004 in the language timeline; development is credited to James Strachan."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hack"
+            ],
+            "note": "Dated to 2014 in the language timeline; development is credited to Facebook."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "HAGGIS"
+            ],
+            "note": "PLDB dates its first public appearance to 2010."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "HAL/S"
+            ],
+            "note": "Dated to 1978 in the language timeline; development is credited to designed by Intermetrics for NASA."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Halide"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hamilton C shell"
+            ],
+            "note": "Dated to 1988 in the language timeline; development is credited to Nicole Hamilton."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Harbour"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hartmann pipelines"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Haskell"
+            ],
+            "note": "The language timeline dates its development to 1990."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Haxe"
+            ],
+            "note": "Dated to 2005 in the language timeline; development is credited to Nicolas Cannasse."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hermes"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "High Level Assembly",
+              "HLA"
+            ],
+            "note": "First appeared in 2011; PLDB credits its creation to Randall Hyde."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "High Level Shader Language",
+              "HLSL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hollywood"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "HolyC"
+            ],
+            "note": "First appeared in 2005; PLDB credits its creation to Terry A. Davis."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hop"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hope"
+            ],
+            "note": "PLDB dates its first public appearance to 1978."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hopscotch"
+            ],
+            "note": "Dated to 2013 in the language timeline; development is credited to Hopscotch Technologies."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hume"
+            ],
+            "note": "First appeared in 2000; its credited designer is Kevin Hammond Greg Michaelson."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "HyperTalk"
+            ],
+            "note": "Dated to 1987 in the language timeline; development is credited to Apple Computer."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hy"
+            ],
+            "note": "Dated to 2013 in the language timeline; development is credited to Paul Tagliamonte."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "IBM Basic Assembly Language"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "IBM Informix-4GL"
+            ],
+            "note": "Dated to 1986 in the language timeline; development is credited to Informix."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "IBM RPG",
+              "RPG"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to IBM."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Icon"
+            ],
+            "note": "Dated to 1977 in the language timeline; development is credited to Ralph Griswold."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "IDL"
+            ],
+            "note": "Dated to 1977 in the language timeline; development is credited to David Stern of Research Systems Inc."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Idris"
+            ],
+            "note": "Dated to 2009 in the language timeline; development is credited to Edwin Brady."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Inform"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Instruction List"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Io"
+            ],
+            "note": "Dated to 2002 in the language timeline; development is credited to Steve Dekorte."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ISLISP"
+            ],
+            "note": "Dated to 1997 in the language timeline; development is credited to ISO Standard ISLISP."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "J"
+            ],
+            "note": "Dated to 1990 in the language timeline; development is credited to Kenneth E. Iverson , Roger Hui at Iverson Software."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "J#",
+              "J sharp"
+            ],
+            "note": "PLDB dates its first public appearance to 2002."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "J++",
+              "J plus plus",
+              "Visual J++",
+              "Visual J plus plus"
+            ],
+            "note": "PLDB dates its first public appearance to 1996."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "JADE"
+            ],
+            "note": "Its original uses are classified as application, distributed."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "JAL"
+            ],
+            "note": "PLDB dates its first public appearance to 2000."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Janus (concurrent constraint)"
+            ],
+            "note": "First appeared in 1990; PLDB credits its creation to Ken Kahn."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Janus (reversible)",
+              "Janus"
+            ],
+            "note": "First appeared in 1982; PLDB credits its creation to Christopher Lutz and Howard Derby and Tetsuo Yokoyama and Robert Gl\u00fcck."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "JASS"
+            ],
+            "note": ""
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Java"
+            ],
+            "note": "Dated to 1995 in the language timeline; development is credited to James Gosling at Sun Microsystems."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "JavaFX Script"
+            ],
+            "note": "PLDB dates its first public appearance to 2005."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "JavaScript",
+              "JS"
+            ],
+            "note": "Dated to 1995 in the language timeline; development is credited to Brendan Eich at Netscape."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "JCL"
+            ],
+            "note": "PLDB dates its first public appearance to 1964."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "JEAN"
+            ],
+            "note": "PLDB dates its first public appearance to 1960."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Jess"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Join Java"
+            ],
+            "note": "Dated to 2000 in the language timeline; development is credited to G Stewart von Itzstein."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "JOSS"
+            ],
+            "note": "Dated to 1963 in the language timeline; development is credited to Cliff Shaw, RAND."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Joule"
+            ],
+            "note": "First appeared in 1996; PLDB credits its creation to E. Dean Tribble."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "JOVIAL"
+            ],
+            "note": "PLDB dates its first public appearance to 1960."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Joy"
+            ],
+            "note": "Dated to 2001 in the language timeline; development is credited to Manfred von Thun."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "jq"
+            ],
+            "note": "Its original uses are classified as \"awk for json\"."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "JScript"
+            ],
+            "note": "PLDB dates its first public appearance to 1996."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "JScript .NET"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Julia"
+            ],
+            "note": "Dated to 2012 in the language timeline; development is credited to Jeff Bezanson , Stefan Karpinski , Viral Shah , Alan Edelman , MIT."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Jython"
+            ],
+            "note": "PLDB dates its first public appearance to 2001."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "K"
+            ],
+            "note": "Dated to 1993 in the language timeline; development is credited to Arthur Whitney."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Kaleidoscope"
+            ],
+            "note": "PLDB dates its first public appearance to 1994."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Karel"
+            ],
+            "note": "First appeared in 1981; PLDB credits its creation to Richard E. Pattis."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "KEE"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Kent Recursive Calculator",
+              "KRC"
+            ],
+            "note": "First appeared in 1981; PLDB credits its creation to David Turner."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "KiXtart"
+            ],
+            "note": "PLDB dates its first public appearance to 1991."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Klerer-May System"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Knowledge Interchange Format",
+              "KIF"
+            ],
+            "note": "PLDB dates its first public appearance to 1990."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Kodu"
+            ],
+            "note": "PLDB dates its first public appearance to 2009."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Kojo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kotlin",
+              "KT"
+            ],
+            "note": "Dated to 2011 in the language timeline; development is credited to JetBrains."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "KRL (knowledge representation)",
+              "KRL"
+            ],
+            "note": "Dated to 1971 in the language timeline; development is credited to Daniel G. Bobrow at Xerox PARC , Terry Winograd at Stanford University."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "KUKA Robot Language",
+              "KUKA KRL"
+            ],
+            "note": "PLDB dates its first public appearance to 2010."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "KRYPTON"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "KornShell",
+              "ksh"
+            ],
+            "note": "Dated to 1983 in the language timeline; development is credited to David Korn."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Kv"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "LabVIEW",
+              "Laboratory Virtual Instrument Engineering Workbench"
+            ],
+            "note": "Dated to 1986 in the language timeline; development is credited to National Instruments."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ladder",
+              "Ladder logic"
+            ],
+            "note": "PLDB dates its first public appearance to 1994."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Language H"
+            ],
+            "note": "PLDB dates its first public appearance to 1962."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LANSA"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lasso"
+            ],
+            "note": "Dated to 1996 in the language timeline; development is credited to Blue World Communications."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LC-3"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lean"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Legoscript"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LIL"
+            ],
+            "note": "First appeared in 1974; PLDB credits its creation to P. J. Plauger."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LilyPond"
+            ],
+            "note": "PLDB dates its first public appearance to 1996."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Limbo"
+            ],
+            "note": "First appeared in 1995; PLDB credits its creation to Rob Pike."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LINC"
+            ],
+            "note": "PLDB dates its first public appearance to 1980."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lingo"
+            ],
+            "note": "PLDB dates its first public appearance to 1988."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LINQ"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LIS"
+            ],
+            "note": "Dated to 1973 in the language timeline; development is credited to Jean Ichbiah et al. at CII Honeywell Bull."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LISA"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Lisp"
+            ],
+            "note": "Dated to 1956\u201358 in the language timeline; development is credited to John McCarthy."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lithe"
+            ],
+            "note": "PLDB dates its first public appearance to 1982."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Little b"
+            ],
+            "note": "Dated to 2004 in the language timeline; development is credited to Aneil Mallavarapu, Harvard Medical School , Department of Systems Biology."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LiveCode",
+              "Transcript"
+            ],
+            "note": "Its original uses are classified as application, rad, general."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LiveScript"
+            ],
+            "note": "First appeared in 2011; PLDB credits its creation to Jeremy Ashkenas and Satoshi Murakami and George Zahariev."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LLL"
+            ],
+            "note": "First appeared in 2015; PLDB credits its creation to Vitalik Buterin."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Logo"
+            ],
+            "note": "Dated to 1968 in the language timeline; development is credited to Wally Feurzeig , Seymour Papert , Cynthia Solomon."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Logtalk"
+            ],
+            "note": "Dated to 1998 in the language timeline; development is credited to Paulo Moura (then at University of Coimbra )."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "LotusScript"
+            ],
+            "note": "PLDB dates its first public appearance to 1996."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LPC"
+            ],
+            "note": "Dated to 1989 in the language timeline; development is credited to Lars Pensj\u00f6."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LSE"
+            ],
+            "note": "PLDB dates its first public appearance to 1971."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LSL"
+            ],
+            "note": "Its original uses are classified as virtual worlds content scripting and animation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lua"
+            ],
+            "note": "Dated to 1993 in the language timeline; development is credited to Roberto Ierusalimschy et al. at Tecgraf, PUC-Rio."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Luau"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lucid"
+            ],
+            "note": "First appeared in 1976; PLDB credits its creation to Edward A. Ashcroft and William W. Wadge."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lustre"
+            ],
+            "note": "PLDB dates its first public appearance to 1993."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "LYaPAS"
+            ],
+            "note": "First appeared in 1964; PLDB credits its creation to Arkady D.Zakrevskij."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Lynx"
+            ],
+            "note": "PLDB dates its first public appearance to 1984."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "M Formula language",
+              "Power Query M"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "M4"
+            ],
+            "note": "First appeared in 1977; PLDB credits its creation to Brian Kernighan and Dennis Ritchie."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Machine code"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MAD"
+            ],
+            "note": "Dated to 1965 in the language timeline; development is credited to University of Michigan."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MAD/I"
+            ],
+            "note": "Dated to 1965 in the language timeline; development is credited to University of Michigan."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Magik"
+            ],
+            "note": "Dated to 1989 in the language timeline; development is credited to Arthur Chance, of Smallworld Systems Ltd."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Magma"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Maple"
+            ],
+            "note": "Its original uses are classified as symbolic computation, numerical computing."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MAPPER"
+            ],
+            "note": "Dated to 1968 in the language timeline; development is credited to Unisys."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MARK-IV"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to Informatics."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mary"
+            ],
+            "note": "PLDB dates its first public appearance to 1970."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MASM"
+            ],
+            "note": "PLDB dates its first public appearance to 1981."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "MATLAB",
+              "Matrix Laboratory"
+            ],
+            "note": "Dated to 1978? in the language timeline; development is credited to Cleve Moler at the University of New Mexico."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MATH-MATIC"
+            ],
+            "note": "PLDB dates its first public appearance to 1957."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Maude system"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Max"
+            ],
+            "note": "PLDB dates its first public appearance to 1990."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Maxima"
+            ],
+            "note": "PLDB dates its first public appearance to 1982."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MaxScript"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Maya Embedded Language",
+              "MEL"
+            ],
+            "note": "PLDB dates its first public appearance to 2013."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MDL"
+            ],
+            "note": "PLDB dates its first public appearance to 1971."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mercury"
+            ],
+            "note": "Dated to 1995 in the language timeline; development is credited to Zoltan Somogyi at University of Melbourne."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mesa"
+            ],
+            "note": "Dated to 1976 in the language timeline; development is credited to Xerox PARC."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MHEG-5"
+            ],
+            "note": "PLDB dates its first public appearance to 1997."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Microcode"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Microsoft Power Fx"
+            ],
+            "note": "Dated to 2021 in the language timeline; development is credited to Vijay Mital, Robin Abraham, Shon Katzenberger, Darryl Rubin, Microsoft."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MIIS"
+            ],
+            "note": "PLDB dates its first public appearance to 1986."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MIMIC"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to H. E. Petersen, et al.."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mirah"
+            ],
+            "note": "First appeared in 2009; PLDB credits its creation to Charles Oliver Nutter."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Miranda"
+            ],
+            "note": "Dated to 1986 in the language timeline; development is credited to David Turner at University of Kent."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MIVA Script"
+            ],
+            "note": "PLDB dates its first public appearance to 1996."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ML"
+            ],
+            "note": "Dated to 1973 in the language timeline; development is credited to Robin Milner."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Model 204"
+            ],
+            "note": "PLDB dates its first public appearance to 1972."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Modelica"
+            ],
+            "note": "PLDB dates its first public appearance to 1997."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Modula"
+            ],
+            "note": "First appeared in 1975; its credited designer is Niklaus Wirth."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Modula-2"
+            ],
+            "note": "Dated to 1979 in the language timeline; development is credited to Niklaus Wirth."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Modula-3"
+            ],
+            "note": "Dated to 1989 in the language timeline; development is credited to Cardeli, et al. DEC and Olivetti."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mohol"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mojo"
+            ],
+            "note": "Dated to 2023 in the language timeline; development is credited to Modular."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MOO"
+            ],
+            "note": "PLDB dates its first public appearance to 1993."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mortran"
+            ],
+            "note": "PLDB dates its first public appearance to 1973."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mouse"
+            ],
+            "note": "PLDB dates its first public appearance to 1970."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MPD"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MSL"
+            ],
+            "note": "First appeared in 1995; PLDB credits its creation to Khaled Mardam-Bey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "MUMPS",
+              "M"
+            ],
+            "note": "Dated to 1967 in the language timeline; development is credited to Massachusetts General Hospital."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "MuPAD"
+            ],
+            "note": "PLDB dates its first public appearance to 1997."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mystic Programming Language",
+              "MPL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Napier88"
+            ],
+            "note": "PLDB dates its first public appearance to 1989."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "NASM"
+            ],
+            "note": "PLDB dates its first public appearance to 1996."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Neko"
+            ],
+            "note": "First appeared in 2005; PLDB credits its creation to Nicolas Cannasse."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "NELIAC"
+            ],
+            "note": "PLDB dates its first public appearance to 1958."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Nemerle"
+            ],
+            "note": "Dated to 2003 in the language timeline; development is credited to University of Wroc\u0142aw."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "NESL"
+            ],
+            "note": "PLDB dates its first public appearance to 1993."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Net.Data"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "NetLogo"
+            ],
+            "note": "First appeared in 1999; PLDB credits its creation to Uri Wilensky."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "NetRexx"
+            ],
+            "note": "Dated to 1996 in the language timeline; development is credited to Mike Cowlishaw."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "NewLISP"
+            ],
+            "note": "First appeared in 1991; PLDB credits its creation to Lutz Mueller."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "NEWP"
+            ],
+            "note": "PLDB dates its first public appearance to 1985."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Newspeak"
+            ],
+            "note": "First appeared in 2006; PLDB credits its creation to Gilad Bracha."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "NewtonScript"
+            ],
+            "note": "Dated to 1993 in the language timeline; development is credited to Walter Smith."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Nial"
+            ],
+            "note": "First appeared in 1981; PLDB credits its creation to Mike Jenkins."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nim",
+              "Nimrod"
+            ],
+            "note": "Dated to 2008 in the language timeline; development is credited to Andreas Rumpf."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nix"
+            ],
+            "note": "Dated to 2003 in the language timeline; development is credited to Eelco Dolstra."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Nord Programming Language",
+              "NPL"
+            ],
+            "note": "First appeared in 1974, with a procedural , imperative design."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Not eXactly C",
+              "NXC"
+            ],
+            "note": "PLDB dates its first public appearance to 2006."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Not Quite C",
+              "NQC"
+            ],
+            "note": "First appeared in 2017; PLDB credits its creation to Nora Sandler."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Nu"
+            ],
+            "note": "First appeared in 2007; PLDB credits its creation to Tim Burks."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nullsoft Scriptable Install System",
+              "NSIS"
+            ],
+            "note": "PLDB dates its first public appearance to 2001."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "NWScript"
+            ],
+            "note": "PLDB dates its first public appearance to 2004."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "NXT-G"
+            ],
+            "note": "PLDB dates its first public appearance to 2006."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "o:XML"
+            ],
+            "note": "PLDB dates its first public appearance to 2002."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Oak"
+            ],
+            "note": "PLDB dates its first public appearance to 1991."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Oberon"
+            ],
+            "note": "Dated to 1987 in the language timeline; development is credited to Niklaus Wirth."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "OBJ2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Object Lisp"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ObjectLOGO"
+            ],
+            "note": "PLDB dates its first public appearance to 1993."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Object REXX",
+              "ooRexx"
+            ],
+            "note": "Dated to 1988 in the language timeline; development is credited to Simon C. Nash."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Object Pascal"
+            ],
+            "note": "Dated to 1986 in the language timeline; development is credited to Apple Computer."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Objective-C"
+            ],
+            "note": "Dated to 1983 in the language timeline; development is credited to Brad Cox."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Obliq"
+            ],
+            "note": "PLDB dates its first public appearance to 1993."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "OCaml",
+              "Objective Caml"
+            ],
+            "note": "Dated to 1996 in the language timeline; development is credited to INRIA."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "occam"
+            ],
+            "note": "Dated to 1983 in the language timeline; development is credited to David May."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "occam-\u03c0",
+              "occam pi"
+            ],
+            "note": "PLDB dates its first public appearance to 2005."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "OmniMark"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Opa"
+            ],
+            "note": "Dated to 2011 in the language timeline; development is credited to MLstate."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Opal"
+            ],
+            "note": "PLDB dates its first public appearance to 1994."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Open Programming Language",
+              "OPL"
+            ],
+            "note": "Dated to 1984 in the language timeline; development is credited to Psion."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "OpenCL"
+            ],
+            "note": "PLDB dates its first public appearance to 2009."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "OpenEdge Advanced Business Language",
+              "ABL"
+            ],
+            "note": "PLDB dates its first public appearance to 2006."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "OpenQASM"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "OPS5"
+            ],
+            "note": "PLDB dates its first public appearance to 1977."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "OptimJ"
+            ],
+            "note": "Dated to 2006 in the language timeline; development is credited to Ateji."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Orc"
+            ],
+            "note": "First appeared in 2004; PLDB credits its creation to Jayadev Misra."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ORCA/Modula-2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Oriel"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Orwell"
+            ],
+            "note": "First appeared in 1984; its credited designer is Philip Wadler."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Oxygene"
+            ],
+            "note": "Dated to 2005 in the language timeline; development is credited to RemObjects Software."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Oz"
+            ],
+            "note": "First appeared in 1991; its credited designers include Gert Smolka, his students."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "P"
+            ],
+            "note": "Dated to 2012 in the language timeline; development is credited to Vivek Gupta, Ethan Jackson, Shaz Qadeer, Sriram Rajamani, Microsoft."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "P4"
+            ],
+            "note": "Dated to 2013 in the language timeline; development is credited to P4 Language Consortium ( P4.org )."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "P double prime",
+              "P\u2032\u2032",
+              "P''",
+              "P prime prime"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to Corrado B\u00f6hm."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ParaSail"
+            ],
+            "note": "Dated to 2009 in the language timeline; development is credited to S. Tucker Taft, AdaCore."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PARI/GP"
+            ],
+            "note": "PLDB dates its first public appearance to 1985."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pascal"
+            ],
+            "note": "Dated to 1970 in the language timeline; development is credited to Niklaus Wirth , Kathleen Jensen."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pascal Script"
+            ],
+            "note": "PLDB dates its first public appearance to 2000."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PCASTL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PCF"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PDL"
+            ],
+            "note": "Dated to 1996 in the language timeline; development is credited to Karl Glazebrook , Jarle Brinchmann, Tuomas Lukka, and Christian Soeller."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PEARL"
+            ],
+            "note": "PLDB dates its first public appearance to 1977."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PeopleCode"
+            ],
+            "note": "PLDB dates its first public appearance to 2008."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Perl"
+            ],
+            "note": "Dated to 1987 in the language timeline; development is credited to Larry Wall."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pharo"
+            ],
+            "note": "PLDB dates its first public appearance to 2008."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "PHP"
+            ],
+            "note": "Dated to 1995 in the language timeline; development is credited to Rasmus Lerdorf."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pico"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Picolisp"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pict"
+            ],
+            "note": "PLDB dates its first public appearance to 1992."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pike"
+            ],
+            "note": "Dated to 1994 in the language timeline; development is credited to Fredrik H\u00fcbinette et al. at Link\u00f6ping University."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PILOT"
+            ],
+            "note": "Dated to 1968 in the language timeline; development is credited to John Amsden Starkweather , University of California, San Francisco."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pipelines"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pizza"
+            ],
+            "note": "PLDB dates its first public appearance to 2001."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PL-11"
+            ],
+            "note": "PLDB dates its first public appearance to 1971."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PL/0"
+            ],
+            "note": "First appeared in 1976; PLDB credits its creation to Niklaus Wirth."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PL/B"
+            ],
+            "note": "PLDB dates its first public appearance to 1972."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PL/C"
+            ],
+            "note": "PLDB dates its first public appearance to 1973."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PL/I"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to IBM."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PL/M"
+            ],
+            "note": "Dated to 1972 in the language timeline; development is credited to Gary Kildall at Digital Research."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PL/P"
+            ],
+            "note": "PLDB dates its first public appearance to 1978."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PL/S"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PL/SQL"
+            ],
+            "note": "PLDB dates its first public appearance to 1991."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PL360"
+            ],
+            "note": "Dated to 1965 in the language timeline; development is credited to Niklaus Wirth."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PLANC"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Plankalk\u00fcl"
+            ],
+            "note": "Dated to 1943\u201345/46 in the language timeline; development is credited to Konrad Zuse."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Planner"
+            ],
+            "note": "First appeared in 1969; PLDB credits its creation to Carl Hewitt."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PLEX"
+            ],
+            "note": "PLDB dates its first public appearance to 1975."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PLEXIL"
+            ],
+            "note": "PLDB dates its first public appearance to 2005."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Plus"
+            ],
+            "note": "Its original uses are classified as application, system development."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pony"
+            ],
+            "note": "Dated to 2015 in the language timeline; development is credited to Sylvan Clebsch."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "POP-11"
+            ],
+            "note": "PLDB dates its first public appearance to 1999."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "POP-2"
+            ],
+            "note": "Dated to 1970 in the language timeline; development is credited to Robin Popplestone."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "PostScript"
+            ],
+            "note": "Dated to 1982 in the language timeline; development is credited to Warnock."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PortablE"
+            ],
+            "note": "First appeared in 1993; its credited designer is Wouter van Oortmerssen."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "POV-Ray SDL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PowerBuilder"
+            ],
+            "note": "PLDB dates its first public appearance to 2010."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Powerhouse"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "PowerShell"
+            ],
+            "note": "Dated to 2006 in the language timeline; development is credited to Microsoft."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Polymorphic Programming Language",
+              "PPL"
+            ],
+            "note": "Dated to 1969 in the language timeline; development is credited to Thomas A. Standish at Harvard University."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Processing",
+              "Processing.js"
+            ],
+            "note": "Dated to 2001 in the language timeline; development is credited to Casey Reas and Benjamin Fry."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Prograph"
+            ],
+            "note": "PLDB dates its first public appearance to 1983."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Project Verona"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Prolog"
+            ],
+            "note": "Dated to 1972 in the language timeline; development is credited to Alain Colmerauer."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PROMAL"
+            ],
+            "note": "The language timeline dates its development to 1986."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Promela"
+            ],
+            "note": "PLDB dates its first public appearance to 1997."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PROSE modeling language"
+            ],
+            "note": "Dated to 1974 in the language timeline; development is credited to CDC 6600 Cybernet Services."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "PROTEL"
+            ],
+            "note": "PLDB dates its first public appearance to 1975."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pro*C"
+            ],
+            "note": "PLDB dates its first public appearance to 1996."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pure"
+            ],
+            "note": "Dated to 1991 in the language timeline; development is credited to Albert Gr\u00e4f."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pure Data"
+            ],
+            "note": "Dated to 1996 in the language timeline; development is credited to Miller Puckette."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "PureScript"
+            ],
+            "note": "Dated to 2013 in the language timeline; development is credited to Phil Freeman."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Python",
+              "Python 3",
+              "Python 2"
+            ],
+            "note": "Dated to 1991 in the language timeline; development is credited to Guido van Rossum."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Q"
+            ],
+            "note": "First appeared in 2003; PLDB credits its creation to Arthur Whitney."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Q#",
+              "Q sharp"
+            ],
+            "note": "Dated to 2017 in the language timeline; development is credited to Microsoft."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Qalb"
+            ],
+            "note": "First appeared in 2012; PLDB credits its creation to Ramsey Nasser."
+          },
+          {
+            "points": 100,
+            "forms": [
+              ".QL"
+            ],
+            "note": "PLDB dates its first public appearance to 2007."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "QPL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "QtScript"
+            ],
+            "note": "PLDB dates its first public appearance to 2008."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "QuakeC"
+            ],
+            "note": "First appeared in 1996; PLDB credits its creation to John Carmack."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Quantum Computation Language"
+            ],
+            "note": ""
+          },
+          {
+            "points": 30,
+            "forms": [
+              "R"
+            ],
+            "note": "Dated to 1993 in the language timeline; development is credited to Robert Gentleman and Ross Ihaka."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "R++",
+              "R plus plus"
+            ],
+            "note": "PLDB dates its first public appearance to 1990."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Racket"
+            ],
+            "note": "First appeared in 1995; its credited designer is PLT Inc.."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Raku",
+              "Perl 6"
+            ],
+            "note": "Dated to 2015 in the language timeline; development is credited to Larry Wall , The Rakudo Team."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "RAPID"
+            ],
+            "note": "Dated to 1994 in the language timeline; development is credited to ABB."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Rapira"
+            ],
+            "note": "First appeared in 1987; PLDB credits its creation to Andrey Ershov."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ratfiv"
+            ],
+            "note": "PLDB dates its first public appearance to 1980."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ratfor"
+            ],
+            "note": "Dated to 1976 in the language timeline; development is credited to Brian Kernighan."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "rc"
+            ],
+            "note": "First appeared in 1989; its credited designer is Tom Duff."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Reason"
+            ],
+            "note": "Dated to 2016 in the language timeline; development is credited to Jordan Walke."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "REBOL"
+            ],
+            "note": "Dated to 1997 in the language timeline; development is credited to Carl Sassenrath , Rebol Technologies."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Red"
+            ],
+            "note": "Dated to 2011 in the language timeline; development is credited to Nenad Rako\u010devi\u0107."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Redcode"
+            ],
+            "note": "Dated to 1984 in the language timeline; development is credited to Alexander Dewdney and D.G. Jones."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "REFAL"
+            ],
+            "note": "Dated to 1968 in the language timeline; development is credited to Valentin Turchin."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "ReScript"
+            ],
+            "note": "Dated to 2020 in the language timeline; development is credited to Bloomberg L.P.."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "REXX"
+            ],
+            "note": "Dated to 1979 in the language timeline; development is credited to Mike Cowlishaw at IBM."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "RPL"
+            ],
+            "note": "Dated to 1984 in the language timeline; development is credited to Hewlett-Packard."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "RSL"
+            ],
+            "note": "PLDB dates its first public appearance to 1994."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "RTL/2"
+            ],
+            "note": "First appeared in 1972; PLDB credits its creation to John Barnes."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ruby"
+            ],
+            "note": "Dated to 1995 in the language timeline; development is credited to Yukihiro Matsumoto."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rust"
+            ],
+            "note": "Dated to 2010 in the language timeline; development is credited to Graydon Hoare, Mozilla."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "S"
+            ],
+            "note": "Dated to 1976 in the language timeline; development is credited to John Chambers at Bell Labs."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "S-Lang"
+            ],
+            "note": "Dated to 1992 in the language timeline; development is credited to John E. Davis."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "S-PLUS"
+            ],
+            "note": "PLDB dates its first public appearance to 1988."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "S2"
+            ],
+            "note": "PLDB dates its first public appearance to 2008."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "S3"
+            ],
+            "note": "PLDB dates its first public appearance to 1986."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SA-C"
+            ],
+            "note": "PLDB dates its first public appearance to 1998."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SabreTalk"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SAIL"
+            ],
+            "note": "Dated to 1970 in the language timeline; development is credited to Dan Swinehart, Bob Sproull."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SAKO"
+            ],
+            "note": "Dated to 1960 in the language timeline; development is credited to Leon \u0141ukaszewicz, et al. , Polish Academy of Sciences."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "SAS"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SASL"
+            ],
+            "note": "Dated to 1972 in the language timeline; development is credited to David Turner at University of St Andrews."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sather"
+            ],
+            "note": "Dated to 1990 in the language timeline; development is credited to Steve Omohundro."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sawzall"
+            ],
+            "note": "PLDB dates its first public appearance to 2003."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SBL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Scala"
+            ],
+            "note": "Dated to 2003 in the language timeline; development is credited to Martin Odersky."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Scheme"
+            ],
+            "note": "Dated to 1975 in the language timeline; development is credited to Gerald Jay Sussman , Guy L. Steele Jr.."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Scilab"
+            ],
+            "note": "PLDB dates its first public appearance to 1990."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Scratch"
+            ],
+            "note": "Dated to 2002 in the language timeline; development is credited to Mitchel Resnick , Yasmin Kafai , John Maloney, Natalie Rusk, Evelyn Eastmond, Tammy Stern, Amon Millner, Jay Silver, and Brian Silverman."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "ScratchJr"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Script.NET"
+            ],
+            "note": "PLDB dates its first public appearance to 2007."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sed"
+            ],
+            "note": "Dated to 1974 in the language timeline; development is credited to Lee E. McMahon of Bell Labs."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Seed7"
+            ],
+            "note": "Dated to 2005 in the language timeline; development is credited to Thomas Mertes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Self"
+            ],
+            "note": "Dated to 1987 in the language timeline; development is credited to Sun Microsystems Inc.."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SenseTalk"
+            ],
+            "note": "First appeared in 2001; PLDB credits its creation to Douglas Simons."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SequenceL"
+            ],
+            "note": "PLDB dates its first public appearance to 1989."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Serpent"
+            ],
+            "note": "First appeared in 2015; PLDB credits its creation to Vitalik Buterin."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SETL"
+            ],
+            "note": "Dated to 1969 in the language timeline; development is credited to Jack Schwartz at Courant Institute of Mathematical Sciences."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Short Code"
+            ],
+            "note": "Dated to 1950 in the language timeline; development is credited to William F. Schmitt."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SIGNAL"
+            ],
+            "note": "PLDB dates its first public appearance to 1982."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SiMPLE"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SIMPOL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SIMSCRIPT"
+            ],
+            "note": "PLDB dates its first public appearance to 1963."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Simula"
+            ],
+            "note": "Dated to 1962 in the language timeline; development is credited to Ole-Johan Dahl (mostly)."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Simulink"
+            ],
+            "note": "PLDB dates its first public appearance to 1984."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SISAL"
+            ],
+            "note": "First appeared in 1983; PLDB credits its creation to James McGraw."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SKILL"
+            ],
+            "note": "First appeared in 1990, with a functional , object-oriented design."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SLIP"
+            ],
+            "note": "PLDB dates its first public appearance to 1960."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SMALL"
+            ],
+            "note": "First appeared in 1980; its credited designer is Nevil Brownlee."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Smalltalk"
+            ],
+            "note": "Dated to 1972 in the language timeline; development is credited to Alan Kay , Adele Goldberg , Dan Ingalls , Xerox PARC."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SML",
+              "Standard ML"
+            ],
+            "note": "The language timeline dates its development to 1984."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Snap!"
+            ],
+            "note": "First appeared in 2011; PLDB credits its creation to Brian Harvey."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SNOBOL",
+              "SPITBOL"
+            ],
+            "note": "Dated to 1962 in the language timeline; development is credited to Ralph Griswold , et al.."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Snowball"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SOL"
+            ],
+            "note": "PLDB dates its first public appearance to 1970."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Solidity"
+            ],
+            "note": "Dated to 2014 in the language timeline; development is credited to Gavin Wood , Ethereum."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SOPHAEROS"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Source"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SPARK"
+            ],
+            "note": "Dated to 1988 in the language timeline; development is credited to Bernard A. Carr\u00e9."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Speakeasy"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to Stanley Cohen at Argonne National Laboratory."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Speedcode"
+            ],
+            "note": "Dated to 1953 in the language timeline; development is credited to John W. Backus."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SPIN"
+            ],
+            "note": "PLDB dates its first public appearance to 2006."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SP/k"
+            ],
+            "note": "First appeared in 1974; PLDB credits its creation to Ric Holt and D.B. Wortman and D.T. Barnard and James Cordy."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SPL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SPS"
+            ],
+            "note": "PLDB dates its first public appearance to 1959."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "SQL"
+            ],
+            "note": "Dated to 1972 in the language timeline; development is credited to IBM."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SQR"
+            ],
+            "note": "PLDB dates its first public appearance to 1980."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Squeak"
+            ],
+            "note": "Dated to 1997 in the language timeline; development is credited to Alan Kay , et al. at Apple Computer."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Squirrel"
+            ],
+            "note": "Dated to 2003 in the language timeline; development is credited to Alberto Demichelis."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SR"
+            ],
+            "note": "PLDB dates its first public appearance to 1988."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "S/SL"
+            ],
+            "note": "PLDB dates its first public appearance to 1980."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Starlogo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stata"
+            ],
+            "note": "First appeared in 1985; PLDB credits its creation to William Gould."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Stateflow"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Strand"
+            ],
+            "note": "PLDB dates its first public appearance to 1989."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Strongtalk"
+            ],
+            "note": "PLDB dates its first public appearance to 1994."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Structured Text"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Subtext"
+            ],
+            "note": "Dated to 2004 in the language timeline; development is credited to Jonathan Edwards."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "SuperCollider"
+            ],
+            "note": "PLDB dates its first public appearance to 1996."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Superplan"
+            ],
+            "note": "Dated to 1951 in the language timeline; development is credited to Heinz Rutishauser."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SuperTalk"
+            ],
+            "note": "PLDB dates its first public appearance to 1989."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Swift"
+            ],
+            "note": "Dated to 2014 in the language timeline; development is credited to Apple Inc.."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Swift (parallel scripting)"
+            ],
+            "note": "Dated to 2007 in the language timeline; development is credited to University of Chicago , Argonne National Laboratory."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SYCL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "SYMPL"
+            ],
+            "note": "PLDB dates its first public appearance to 1970."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "T"
+            ],
+            "note": "PLDB dates its first public appearance to 1980."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "TACL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tcl",
+              "Tcl/Tk"
+            ],
+            "note": "Dated to 1988 in the language timeline; development is credited to John Ousterhout."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tea"
+            ],
+            "note": "Dated to 1997 in the language timeline; development is credited to Jorge Nunes."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "TELCOMP"
+            ],
+            "note": "Dated to 1965 in the language timeline; development is credited to BBN."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tensilica Instruction Extension",
+              "TIE"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "TeX"
+            ],
+            "note": "First appeared in 1978; PLDB credits its creation to Donald Knuth."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Text Adventure Development System",
+              "TADS"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Text Editor and Corrector",
+              "TECO"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Text Processing Utility",
+              "TPU"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "TMG"
+            ],
+            "note": "First appeared in 1968; PLDB credits its creation to Robert M. McClure."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tom"
+            ],
+            "note": "PLDB dates its first public appearance to 2001."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "TRAC"
+            ],
+            "note": "Dated to 1964 in the language timeline; development is credited to Calvin Mooers."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Transact-SQL",
+              "T-SQL"
+            ],
+            "note": "PLDB dates its first public appearance to 1984."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Transaction Application Language",
+              "TAL"
+            ],
+            "note": "PLDB dates its first public appearance to 2008."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "TTCN"
+            ],
+            "note": "PLDB dates its first public appearance to 1992."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "TTM"
+            ],
+            "note": "Dated to 1968 in the language timeline; development is credited to Steven Caine and E. Kent Gordon, California Institute of Technology."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Turing"
+            ],
+            "note": "Dated to 1982 in the language timeline; development is credited to Ric Holt and James Cordy , at University of Toronto."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TUTOR"
+            ],
+            "note": "Dated to 1969 in the language timeline; development is credited to Paul Tenczar & University of Illinois at Urbana\u2013Champaign."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "TXL"
+            ],
+            "note": "First appeared in 1985; PLDB credits its creation to James Cordy."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "TypeScript",
+              "TS"
+            ],
+            "note": "Dated to 2012 in the language timeline; development is credited to Anders Hejlsberg , Microsoft."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tynker"
+            ],
+            "note": "PLDB dates its first public appearance to 2012."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ubercode"
+            ],
+            "note": "PLDB dates its first public appearance to 2005."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "UCSD Pascal"
+            ],
+            "note": "PLDB dates its first public appearance to 1978."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Umple"
+            ],
+            "note": "PLDB dates its first public appearance to 2008."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Unicon"
+            ],
+            "note": "First appeared in 2008; PLDB credits its creation to Clint Jeffery."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Uniface"
+            ],
+            "note": "PLDB dates its first public appearance to 1994."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "UNITY"
+            ],
+            "note": "PLDB dates its first public appearance to 1988."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "UnrealScript"
+            ],
+            "note": "Dated to 1998 in the language timeline; development is credited to Tim Sweeney at Epic Games."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "V",
+              "Vlang"
+            ],
+            "note": "Dated to 2019 in the language timeline; development is credited to Alexander Medvednikov."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vala"
+            ],
+            "note": "Dated to 2006 in the language timeline; development is credited to GNOME."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Verse"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vim script",
+              "VimL"
+            ],
+            "note": "First appeared in 1991; PLDB credits its creation to Bram Moolenaar."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vyper",
+              "Viper"
+            ],
+            "note": "First appeared in 2015; PLDB credits its creation to Vitalik Buterin."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Visual DataFlex"
+            ],
+            "note": "PLDB dates its first public appearance to 1982."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Visual DialogScript"
+            ],
+            "note": "PLDB dates its first public appearance to 2000."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Visual FoxPro"
+            ],
+            "note": "Its original uses are classified as application."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Visual LISP"
+            ],
+            "note": "First appeared in 1986; PLDB credits its creation to David Betz."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Visual Objects"
+            ],
+            "note": "PLDB dates its first public appearance to 1994."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Visual Prolog"
+            ],
+            "note": "Its original uses are classified as application."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "WATFIV",
+              "WATFOR"
+            ],
+            "note": "PLDB dates its first public appearance to 1968."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "WebAssembly",
+              "WASM"
+            ],
+            "note": "First appeared in 2015; PLDB credits its creation to Alon Zakai."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "WebGPU Shading Language",
+              "WGSL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Whiley"
+            ],
+            "note": "Dated to 2009 in the language timeline; development is credited to David J. Pearce."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wolfram Language"
+            ],
+            "note": "Dated to 1988 in the language timeline; development is credited to Wolfram Research."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Wyvern"
+            ],
+            "note": "PLDB dates its first public appearance to 2012."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "X++",
+              "X plus plus"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "X10"
+            ],
+            "note": "First appeared in 2004; PLDB credits its creation to Kemal Ebcio\u011flu and Saravanan Arumugam and Vijay Saraswat and Vivek Sarkar."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "XBL"
+            ],
+            "note": "PLDB dates its first public appearance to 2000."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "XC"
+            ],
+            "note": "PLDB dates its first public appearance to 2005."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "XL"
+            ],
+            "note": "Its original uses are classified as ."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Xod"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Xojo"
+            ],
+            "note": "Dated to 1998 in the language timeline; development is credited to Xojo, Andrew Barry."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "XOTcl"
+            ],
+            "note": "First appeared in 2000; PLDB credits its creation to Gustaf Neumann and Uwe Zdun."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "XPL"
+            ],
+            "note": "Dated to 1967 in the language timeline; development is credited to William M. McKeeman, et al. at University of California, Santa Cruz J. J. Horning , et al. at Stanford University."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "XPL0"
+            ],
+            "note": "PLDB dates its first public appearance to 1976."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "XQuery"
+            ],
+            "note": "Its original uses are classified as databases, data processing, scripting."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "XSB"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "XSLT"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Xtend"
+            ],
+            "note": "First appeared in 2011; PLDB credits its creation to Sven Efftinge and Sebastian Zarnekow."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Yorick"
+            ],
+            "note": "First appeared in 1996; PLDB credits its creation to David H. Munro."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "YQL"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Z++",
+              "Z plus plus"
+            ],
+            "note": "PLDB dates its first public appearance to 1991."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Z shell",
+              "Zsh"
+            ],
+            "note": "Dated to 1990 in the language timeline; development is credited to Paul Falstad at Princeton University."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zebra Programming Language",
+              "Zebra",
+              "ZPL",
+              "ZPL2"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ZetaLisp"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Zig"
+            ],
+            "note": "Dated to 2016 in the language timeline; development is credited to Andrew Kelley."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Zonnon"
+            ],
+            "note": "First appeared in 2003; PLDB credits its creation to J\u00fcrg Gutknecht."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ZOPL"
+            ],
+            "note": "PLDB dates its first public appearance to 1979."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "ZPL (parallel language)"
+            ],
+            "note": "Dated to 1993 in the language timeline; development is credited to Chamberlain et al. at University of Washington."
+          }
+        ]
+      },
+      {
+        "prompt": "Types of Engineering",
+        "source": "https://en.wikipedia.org/wiki/List_of_engineering_branches",
+        "sourceNote": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User selected the defining page including its listed subcategories and unusual entries. Scope includes the six primary headings, all body-table disciplines, named major specialties and explicitly named sub-specialties; it excludes navigation templates, references and incidental nouns inside explanatory descriptions. Consequently source-listed subjects and equipment such as cameras, chemistry and pumps are accepted even though they are not normally standalone engineering disciplines. Source taxonomy is retained as a house rule, not a claim that every entry is an accredited branch. The 72 table rows and their specialty lists were reconciled; duplicates and equivalent wording merge. Related genuinely distinct specialties remain separate. Biological engineering owns Bioengineering; Electronic engineering owns Electronics; Biomechanical engineering owns Biomechanics; Hydraulic engineering owns Hydraulics; Naval architecture owns Naval engineering; Fire protection engineering owns Fire engineering; manufacturing, construction, robotics and control shorthand map to their basic engineering fields. Production remains the source-listed supply-chain topic, separate from Production engineering, and Quality control is separate from Quality assurance/Quality engineering. Broad engineering suffixes may be omitted when unambiguous. ABET https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2026-2027/ was consulted to distinguish standard program fields from the broader user-defined list. Many blurbs record the source\u2019s parent-specialty classification rather than claim a separate definition. Final creative sweep (21 October): includes the named techniques, non-technical fields, exploratory fields and engineering-studies topics in the defining page\u2019s See also section; outline/glossary/history links and navigation remain excluded. Bare Social engineering means the security discipline; the political-science discipline requires its qualifier. See creative-sweep.json for candidates and evidence.",
+        "answers": [
+          {
+            "points": 30,
+            "forms": [
+              "Biomedical engineering",
+              "Biomedical"
+            ],
+            "note": "Applies engineering methods to biology and medicine, including diagnostic and therapeutic technologies."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Chemical engineering",
+              "Chemical"
+            ],
+            "note": "Designs and operates processes that transform raw materials into useful chemical products."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Civil engineering",
+              "Civil"
+            ],
+            "note": "Designs and maintains infrastructure such as buildings, transport networks and water systems."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Electrical engineering",
+              "Electrical"
+            ],
+            "note": "Works with electrical systems, from power generation to electronics and communications."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Materials engineering",
+              "Material engineering",
+              "Materials",
+              "Material"
+            ],
+            "note": "Investigates and develops materials whose properties suit particular products and processes."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Mechanical engineering",
+              "Mechanical"
+            ],
+            "note": "Designs and analyzes machines, mechanical systems and the ways they transfer forces and energy."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bioinformatics"
+            ],
+            "note": "Uses computational tools to organize and analyze biological information, including DNA data."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bioinstrumentation"
+            ],
+            "note": "Develops instruments used to measure biological processes and support diagnosis or treatment."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Biomaterials"
+            ],
+            "note": "Studies materials that interact with biological tissue, including materials used in medical implants."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Biomechanical engineering",
+              "Biomechanics",
+              "Biomechanical"
+            ],
+            "note": "Applies mechanical analysis to living systems, including movement, artificial organs and biological transport."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Biomolecular engineering",
+              "Biomolecular"
+            ],
+            "note": "Designs biological systems and processes at the molecular scale."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Clinical engineering",
+              "Clinical"
+            ],
+            "note": "Supports the management and safe use of medical technology in healthcare settings."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Medical imaging"
+            ],
+            "note": "Produces and processes representations of biological structures using techniques such as MRI and CT."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Neural engineering",
+              "Neural"
+            ],
+            "note": "Develops technologies that interact with nervous systems, including brain\u2013computer interfaces."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pharmaceutical engineering",
+              "Pharmaceutical"
+            ],
+            "note": "Applies process engineering to pharmaceutical development, production and delivery."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Regenerative medicine"
+            ],
+            "note": "Develops methods to repair or replace tissues, including tissue engineering and stem-cell approaches."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Electrochemical engineering",
+              "Electrochemical"
+            ],
+            "note": "Designs electrochemical processes for applications such as chemical production, metal extraction and energy storage."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Explosives engineering",
+              "Explosives"
+            ],
+            "note": "Applies engineering methods to the production and use of explosive materials."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Molecular engineering",
+              "Molecular"
+            ],
+            "note": "Designs materials and processes by controlling molecular behaviour and interactions."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Process engineering",
+              "Process"
+            ],
+            "note": "Develops and manages chemical and other industrial processes at production scale."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Environmental engineering",
+              "Environmental"
+            ],
+            "note": "Applies environmental science to technologies for protecting ecosystems and public health."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geotechnical engineering",
+              "Geotechnical"
+            ],
+            "note": "Studies soil and rock behaviour to support foundations and other construction projects."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Municipal engineering",
+              "Urban engineering",
+              "Municipal",
+              "Urban"
+            ],
+            "note": "Coordinates infrastructure networks and services within towns and cities."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Structural engineering",
+              "Structural"
+            ],
+            "note": "Analyzes and designs structures that support loads and resist external forces."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Transport engineering",
+              "Transportation engineering",
+              "Transportation",
+              "Transport"
+            ],
+            "note": "Designs infrastructure and facilities used to move people and goods."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Water resources engineering",
+              "Water resources"
+            ],
+            "note": "Applies hydrology to water management, supply and related infrastructure."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Broadcast engineering",
+              "Broadcast"
+            ],
+            "note": "Develops and maintains the technical systems used in radio and television broadcasting."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Computer engineering",
+              "Computer"
+            ],
+            "note": "Combines computing and electronics to design computer hardware and related systems."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Electronic engineering",
+              "Electronics engineering",
+              "Electronic",
+              "Electronics"
+            ],
+            "note": "Designs circuits and systems using electronic components such as semiconductors."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Microwave engineering",
+              "Microwave"
+            ],
+            "note": "Develops devices and systems operating at microwave frequencies."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Optical engineering",
+              "Optical"
+            ],
+            "note": "Designs technologies that generate, transmit, measure or otherwise use light."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Power engineering",
+              "Power"
+            ],
+            "note": "Designs systems for generating, transmitting and distributing electrical power."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ceramic engineering",
+              "Ceramic"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Composite material engineering",
+              "Composite engineering",
+              "Composites engineering",
+              "Composite material"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Computational materials science"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Corrosion engineering",
+              "Corrosion"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Electronic materials"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Forensic materials engineering",
+              "Forensic materials"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Material characterisation",
+              "Material characterization",
+              "Materials characterization"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Metallurgical engineering",
+              "Metallurgy",
+              "Metallurgical"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nanotechnology"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Polymer engineering",
+              "Polymer"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Surface engineering",
+              "Surface"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Welding engineering",
+              "Welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Acoustical engineering",
+              "Acoustic engineering",
+              "Acoustics",
+              "Acoustical"
+            ],
+            "note": "Analyzes and controls sound and vibration in structures, equipment and environments."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Energy engineering",
+              "Energy"
+            ],
+            "note": "Improves the efficiency and sustainability of energy systems and services."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Industrial plant engineering",
+              "Industrial plant"
+            ],
+            "note": "Designs and maintains industrial machinery, equipment and supporting plant systems."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Manufacturing engineering",
+              "Manufacturing"
+            ],
+            "note": "Develops the technologies, processes and systems used to manufacture products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Optomechanical engineering",
+              "Optomechanics",
+              "Optomechanical"
+            ],
+            "note": "Designs the mechanical components and supports used in optical systems."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Power plant engineering",
+              "Power plant"
+            ],
+            "note": "Designs, constructs and maintains facilities that generate electricity."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sports engineering",
+              "Sports"
+            ],
+            "note": "Applies engineering design and analysis to sports equipment."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Thermal engineering",
+              "Thermal"
+            ],
+            "note": "Designs systems that heat, cool or otherwise manage thermal energy."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vehicle engineering",
+              "Vehicle"
+            ],
+            "note": "Develops the systems used to propel, control and support vehicles."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Agricultural engineering",
+              "Agricultural"
+            ],
+            "note": "Develops agricultural machinery, structures and systems for handling biological materials and resources."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Applied engineering",
+              "Applied"
+            ],
+            "note": "Combines systems integration, manufacturing and technical management."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Biological engineering",
+              "Bioengineering",
+              "Biological"
+            ],
+            "note": "Applies engineering methods to biological systems and useful biological products."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Building services engineering",
+              "Building services"
+            ],
+            "note": "Designs technical building services that support comfort, safety and efficient operation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Design engineering",
+              "Design"
+            ],
+            "note": "Uses engineering analysis and design methods to develop products and systems across disciplines."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Electromechanics"
+            ],
+            "note": "Studies and designs interacting electrical and mechanical systems, including motors and generators."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Engineering physics"
+            ],
+            "note": "Applies advanced physics and mathematics to engineering problems across disciplines."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Facilities engineering",
+              "Facilities"
+            ],
+            "note": "Develops systems that control and maintain indoor environments and facility operations."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geological engineering",
+              "Geological"
+            ],
+            "note": "Applies geology to engineering projects, including mining, construction and environmental work."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Geomatics engineering",
+              "Geomatics"
+            ],
+            "note": "Develops systems for collecting, analyzing and using spatial information."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Information engineering",
+              "Information"
+            ],
+            "note": "Studies the generation, distribution, analysis and use of information in systems."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Industrial engineering",
+              "Industrial"
+            ],
+            "note": "Optimizes complex systems involving people, resources, information and technology."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mechatronics engineering",
+              "Mechatronics"
+            ],
+            "note": "Combines mechanical, electronic and control technologies in automated and robotic systems."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Military engineering",
+              "Military"
+            ],
+            "note": "Develops military infrastructure such as fortifications, transport routes and communications facilities."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mining engineering",
+              "Mining"
+            ],
+            "note": "Develops methods and systems for extracting and processing naturally occurring mineral resources."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Quantum engineering",
+              "Quantum"
+            ],
+            "note": "Applies quantum theory to the design of materials, devices and information systems."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nuclear engineering",
+              "Nuclear"
+            ],
+            "note": "Develops technologies involving nuclear processes, including reactors and radiation protection."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Petroleum engineering",
+              "Petroleum"
+            ],
+            "note": "Designs systems for recovering oil and gas from underground reservoirs."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Project engineering",
+              "Project"
+            ],
+            "note": "Coordinates the technical design and implementation work needed to deliver engineering projects."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Software engineering",
+              "Software"
+            ],
+            "note": "Applies systematic engineering approaches to software development, operation and maintenance."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Supply chain engineering",
+              "Supply chain"
+            ],
+            "note": "Plans and designs systems for the movement of materials and products through supply chains."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Systems engineering",
+              "Systems"
+            ],
+            "note": "Coordinates the design and management of complex systems across their life cycles."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Textile engineering",
+              "Textile"
+            ],
+            "note": "Applies engineering principles to fibres, textiles, apparel production and associated machinery."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Computational biology"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinformatics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Genomics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinformatics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Molecular modelling",
+              "Molecular modeling"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinformatics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Systems analysis"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinformatics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Database management"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinformatics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Neuroscience"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinstrumentation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Biomechatronics",
+              "Biomechatronics engineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinstrumentation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Photonics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinstrumentation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Instrumentation engineering",
+              "Instrumentation"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinstrumentation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Biosensors",
+              "Biosensor"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinstrumentation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Medical devices"
+            ],
+            "note": "The defining reference lists this subject among the specialties of bioinstrumentation."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Metalworking",
+              "Metal working"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomaterials."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Biocompatibility"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomaterials."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Implant design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomaterials."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Drug delivery"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomaterials."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Rehabilitation engineering",
+              "Rehabilitation"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomechanics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ergonomics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomechanics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Prosthetics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomechanics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fluid dynamics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomechanics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Accident reconstruction"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomechanics."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Genetic engineering",
+              "Genetic"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomolecular engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chemistry"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomolecular engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Synthetic biology"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomolecular engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Systems biology"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biomolecular engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Radiation protection"
+            ],
+            "note": "The defining reference lists this subject among the specialties of clinical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Healthcare technology management"
+            ],
+            "note": "The defining reference lists this subject among the specialties of clinical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Logistics engineering",
+              "Logistics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of clinical engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cybersecurity engineering",
+              "Cybersecurity"
+            ],
+            "note": "The defining reference lists this subject among the specialties of clinical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Image processing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of medical imaging."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Computer vision"
+            ],
+            "note": "The defining reference lists this subject among the specialties of medical imaging."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Signal processing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of medical imaging."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Medical physics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of medical imaging."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "3D reconstruction",
+              "Three dimensional reconstruction"
+            ],
+            "note": "The defining reference lists this subject among the specialties of medical imaging."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Artificial intelligence",
+              "AI"
+            ],
+            "note": "The defining reference lists this subject among the specialties of medical imaging."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Neuromodulation"
+            ],
+            "note": "The defining reference lists this subject among the specialties of neural engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Neuroprosthetics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of neural engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cognitive engineering",
+              "Cognitive"
+            ],
+            "note": "The defining reference lists this subject among the specialties of neural engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Biosignal processing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of neural engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Neurochips"
+            ],
+            "note": "The defining reference lists this subject among the specialties of neural engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Neurorobotics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of neural engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Drug design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of pharmaceutical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quality control"
+            ],
+            "note": "The defining reference lists this subject among the specialties of pharmaceutical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Scalability"
+            ],
+            "note": "The defining reference lists this subject among the specialties of pharmaceutical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tissue engineering",
+              "Tissue"
+            ],
+            "note": "The defining reference lists this subject among the specialties of regenerative medicine."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cellular engineering",
+              "Cellular"
+            ],
+            "note": "The defining reference lists this subject among the specialties of regenerative medicine."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tissue culture"
+            ],
+            "note": "The defining reference lists this subject among the specialties of regenerative medicine."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "3D bioprinting",
+              "Bioprinting"
+            ],
+            "note": "The defining reference lists this subject among the specialties of regenerative medicine."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Stem cell therapy"
+            ],
+            "note": "The defining reference lists this subject among the specialties of regenerative medicine."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ecological engineering",
+              "Ecological"
+            ],
+            "note": "The defining reference lists this subject among the specialties of environmental engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fire protection engineering",
+              "Fire protection",
+              "Fire engineering",
+              "Fire"
+            ],
+            "note": "The defining reference lists this subject among the specialties of environmental engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Natural resources engineering",
+              "Natural resources"
+            ],
+            "note": "The defining reference lists this subject among the specialties of environmental engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sanitary engineering",
+              "Sanitary"
+            ],
+            "note": "The defining reference lists this subject among the specialties of environmental engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Geoprofessions"
+            ],
+            "note": "The defining reference lists this subject among the specialties of geotechnical engineering."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Architectural engineering",
+              "Architectural"
+            ],
+            "note": "The defining reference lists this subject among the specialties of structural engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Construction engineering",
+              "Construction"
+            ],
+            "note": "The defining reference lists this subject among the specialties of structural engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Earthquake engineering",
+              "Earthquake"
+            ],
+            "note": "The defining reference lists this subject among the specialties of structural engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ocean engineering",
+              "Ocean"
+            ],
+            "note": "The defining reference lists this subject among the specialties of structural engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pavement engineering",
+              "Pavement"
+            ],
+            "note": "The defining reference lists this subject among the specialties of structural engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wind engineering",
+              "Wind"
+            ],
+            "note": "The defining reference lists this subject among the specialties of structural engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tropical cyclone engineering",
+              "Tropical cyclone"
+            ],
+            "note": "The defining reference lists this subject among the specialties of structural engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Railway engineering",
+              "Railway"
+            ],
+            "note": "The defining reference lists this subject among the specialties of transport engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Traffic engineering",
+              "Traffic"
+            ],
+            "note": "The defining reference lists this subject among the specialties of transport engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bicycle transportation engineering",
+              "Bicycle transportation"
+            ],
+            "note": "The defining reference lists this subject among the specialties of transport engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Highway engineering",
+              "Highway"
+            ],
+            "note": "The defining reference lists this subject among the specialties of transport engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Coastal engineering",
+              "Coastal"
+            ],
+            "note": "The defining reference lists this subject among the specialties of water resources engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hard engineering",
+              "Hard"
+            ],
+            "note": "The defining reference lists this subject among the specialties of water resources engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Soft engineering",
+              "Soft"
+            ],
+            "note": "The defining reference lists this subject among the specialties of water resources engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Groundwater engineering",
+              "Groundwater"
+            ],
+            "note": "The defining reference lists this subject among the specialties of water resources engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hydraulic engineering",
+              "Hydraulics",
+              "Hydraulic"
+            ],
+            "note": "The defining reference lists this subject among the specialties of water resources engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "River engineering",
+              "River"
+            ],
+            "note": "The defining reference lists this subject among the specialties of water resources engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Radio-frequency engineering",
+              "RF engineering",
+              "Radio frequency",
+              "RF"
+            ],
+            "note": "The defining reference lists this subject among the specialties of broadcast engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Algorithm engineering",
+              "Algorithm"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computer engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Computational engineering",
+              "Computational"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computer engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Data engineering",
+              "Data"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computer engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hardware engineering",
+              "Hardware"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computer engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Network engineering",
+              "Network"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computer engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Teletraffic engineering",
+              "Teletraffic"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computer engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Control engineering",
+              "Control systems",
+              "Control theory",
+              "Control"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Analog electronics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Digital electronics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Consumer electronics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Embedded systems"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Power electronics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Radio engineering",
+              "Radio"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Telecommunications engineering",
+              "Telecommunications"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Electric power control"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Robotics engineering",
+              "Robotics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of electronic engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Microwave imaging"
+            ],
+            "note": "The defining reference lists this subject among the specialties of microwave engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Radar engineering",
+              "Radar"
+            ],
+            "note": "The defining reference lists this subject among the specialties of microwave engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "RF microwave engineering",
+              "Radio frequency microwave engineering",
+              "RF microwave"
+            ],
+            "note": "The defining reference lists this subject among the specialties of microwave engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Optoelectronics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of optical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "High voltage engineering",
+              "High voltage"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Power system design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Power system operations and control"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Power system planning"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Protection and control",
+              "Power system protection"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Electronic structure"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computational materials science."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Density functional theory",
+              "DFT"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computational materials science."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Molecular dynamics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computational materials science."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Phase field models"
+            ],
+            "note": "The defining reference lists this subject among the specialties of computational materials science."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Electron diffraction"
+            ],
+            "note": "The defining reference lists this subject among the specialties of material characterisation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Electron microscopy"
+            ],
+            "note": "The defining reference lists this subject among the specialties of material characterisation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Spectroscopy"
+            ],
+            "note": "The defining reference lists this subject among the specialties of material characterisation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "X-ray diffraction"
+            ],
+            "note": "The defining reference lists this subject among the specialties of material characterisation."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Metal alloys",
+              "Alloys",
+              "Alloy"
+            ],
+            "note": "The defining reference lists this subject among the specialties of metallurgical engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Biomedical nanoengineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of nanotechnology."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Electronic nanoengineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of nanotechnology."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Materials nanoengineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of nanotechnology."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nanoengineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of nanotechnology."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tribology"
+            ],
+            "note": "The defining reference lists this subject among the specialties of surface engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fusion welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Arc welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Laser welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Electron beam welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Solid-state welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Friction welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Friction stir welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Diffusion bonding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Resistance welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Spot welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Seam welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Projection welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brazing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Soldering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Welding metallurgy"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Welding processes and automation"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Robotic welding"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Additive manufacturing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Weld design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Structural integrity"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Weld inspection"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quality assurance"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Non-destructive testing",
+              "NDT",
+              "Nondestructive testing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of welding engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Architectural acoustics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of acoustical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bioacoustics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of acoustical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Noise control"
+            ],
+            "note": "The defining reference lists this subject among the specialties of acoustical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Psychoacoustics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of acoustical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Underwater acoustics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of acoustical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Vibration control"
+            ],
+            "note": "The defining reference lists this subject among the specialties of acoustical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Air compressors"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Conveyors"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Escalators"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial plant engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fans",
+              "Fan engineering",
+              "Fan"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Blowers"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Piping systems"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pneumatics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial plant engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Pumps",
+              "Pump engineering",
+              "Pump"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cutting"
+            ],
+            "note": "The defining reference lists this subject among the specialties of manufacturing engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Electrical discharge machining",
+              "EDM"
+            ],
+            "note": "The defining reference lists this subject among the specialties of manufacturing engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Woodworking"
+            ],
+            "note": "The defining reference lists this subject among the specialties of manufacturing engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cameras",
+              "Camera"
+            ],
+            "note": "The defining reference lists this subject among the specialties of optomechanical engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fiber optics",
+              "Fibre optics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of optomechanical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Laser systems"
+            ],
+            "note": "The defining reference lists this subject among the specialties of optomechanical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Optical instrumentation",
+              "Optical instrument engineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of optomechanical engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Telescopes",
+              "Telescope"
+            ],
+            "note": "The defining reference lists this subject among the specialties of optomechanical engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Coal-fired power plants"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Geothermal power plants"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hydroelectric power plants"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Diesel engine power plants"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Solar power plants"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tidal power plants"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power plant engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Wind turbine power plants"
+            ],
+            "note": "The defining reference lists this subject among the specialties of power plant engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Air conditioning"
+            ],
+            "note": "The defining reference lists this subject among the specialties of thermal engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Heating"
+            ],
+            "note": "The defining reference lists this subject among the specialties of thermal engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Ventilation"
+            ],
+            "note": "The defining reference lists this subject among the specialties of thermal engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Refrigeration"
+            ],
+            "note": "The defining reference lists this subject among the specialties of thermal engineering."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Aerospace engineering",
+              "Aeronautical engineering",
+              "Aeronautical",
+              "Aerospace"
+            ],
+            "note": "The defining reference lists this subject among the specialties of vehicle engineering."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Automotive engineering",
+              "Automotive"
+            ],
+            "note": "The defining reference lists this subject among the specialties of vehicle engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Naval architecture",
+              "Naval engineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of vehicle engineering."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Marine engineering",
+              "Marine"
+            ],
+            "note": "The defining reference lists this subject among the specialties of vehicle engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aquaculture engineering",
+              "Aquaculture"
+            ],
+            "note": "The defining reference lists this subject among the specialties of agricultural engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Biological systems engineering",
+              "Biological systems"
+            ],
+            "note": "The defining reference lists this subject among the specialties of agricultural engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bioprocess engineering",
+              "Bioprocess"
+            ],
+            "note": "The defining reference lists this subject among the specialties of agricultural engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bioresource engineering",
+              "Bioresource"
+            ],
+            "note": "The defining reference lists this subject among the specialties of agricultural engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Biotechnological engineering",
+              "Biotechnical engineering",
+              "Biotechnological"
+            ],
+            "note": "The defining reference lists this subject among the specialties of agricultural engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Food engineering",
+              "Food"
+            ],
+            "note": "The defining reference lists this subject among the specialties of agricultural engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Forest engineering",
+              "Forest"
+            ],
+            "note": "The defining reference lists this subject among the specialties of agricultural engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Automation engineering",
+              "Automation"
+            ],
+            "note": "The defining reference lists this subject among the specialties of applied engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Computer-aided drawing and design",
+              "CADD",
+              "CAD"
+            ],
+            "note": "The defining reference lists this subject among the specialties of applied engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Graphics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of applied engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Biochemical engineering",
+              "Biochemical"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biological engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Food and biological process engineering",
+              "Food and biological process"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biological engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Microbiological engineering",
+              "Microbiological"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biological engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Protein engineering",
+              "Protein"
+            ],
+            "note": "The defining reference lists this subject among the specialties of biological engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Heating, ventilation and air conditioning",
+              "HVAC"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Public health engineering",
+              "Public health"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Water services"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Drainage"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Plumbing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Lighting"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lightning protection"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Security systems"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Video systems"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Alarm systems"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lifts",
+              "Elevators",
+              "Lift",
+              "Elevator"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Building fa\u00e7ade engineering",
+              "Facade engineering",
+              "Facade",
+              "Building fa\u00e7ade"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Energy supply"
+            ],
+            "note": "The defining reference lists this subject among the specialties of building services engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Architectural design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Automotive design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Building information modeling",
+              "BIM",
+              "Building information modelling"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "CAD technician"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Computer-aided engineering",
+              "CAE",
+              "Computer-aided"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Computer-aided industrial design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Computer-aided manufacturing",
+              "CAM"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Design for additive manufacturing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Integrated circuit design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Interior architecture"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mechanical, electrical, and plumbing",
+              "MEP"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Packaging engineering",
+              "Packaging"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Printed circuit board design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "User experience design",
+              "UX design",
+              "UX"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "User interface design",
+              "UI design",
+              "UI"
+            ],
+            "note": "The defining reference lists this subject among the specialties of design engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Solar engineering",
+              "Solar"
+            ],
+            "note": "The defining reference lists this subject among the specialties of energy engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Applied physics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering physics."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Materials science"
+            ],
+            "note": "The defining reference lists this subject among the specialties of engineering physics."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Aerobiological engineering",
+              "Aerobiological"
+            ],
+            "note": "The defining reference lists this subject among the specialties of facilities engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Geophysical engineering",
+              "Geophysical"
+            ],
+            "note": "The defining reference lists this subject among the specialties of geological engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Geoenvironmental engineering",
+              "Geoenvironmental"
+            ],
+            "note": "The defining reference lists this subject among the specialties of geological engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hydrogeological engineering",
+              "Hydrogeological"
+            ],
+            "note": "The defining reference lists this subject among the specialties of geological engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mineral exploration engineering",
+              "Mineral exploration"
+            ],
+            "note": "The defining reference lists this subject among the specialties of geological engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hydrocarbon exploration engineering",
+              "Hydrocarbon exploration"
+            ],
+            "note": "The defining reference lists this subject among the specialties of geological engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Survey engineering",
+              "Surveying engineering",
+              "Surveying",
+              "Survey"
+            ],
+            "note": "The defining reference lists this subject among the specialties of geomatics engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Geodesy"
+            ],
+            "note": "The defining reference lists this subject among the specialties of geomatics engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Geospatial",
+              "Geospatial engineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of geomatics engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Machine learning"
+            ],
+            "note": "The defining reference lists this subject among the specialties of information engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Data science"
+            ],
+            "note": "The defining reference lists this subject among the specialties of information engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Information theory"
+            ],
+            "note": "The defining reference lists this subject among the specialties of information engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Natural language processing",
+              "NLP"
+            ],
+            "note": "The defining reference lists this subject among the specialties of information engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Medical image computing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of information engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Autonomous robotics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of information engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Mobile robotics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of information engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Component engineering",
+              "Component"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Methods engineering",
+              "Methods"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Operations engineering",
+              "Operations"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Production engineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quality engineering",
+              "Quality"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Reliability engineering",
+              "Reliability"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Safety engineering",
+              "Safety"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Usability engineering",
+              "Usability"
+            ],
+            "note": "The defining reference lists this subject among the specialties of industrial engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Optomechatronics",
+              "Optomechatronics engineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of mechatronics engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Avionics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of mechatronics engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Combat engineering",
+              "Combat"
+            ],
+            "note": "The defining reference lists this subject among the specialties of military engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nanomaterials"
+            ],
+            "note": "The defining reference lists this subject among the specialties of quantum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nanoelectronics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of quantum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nano-scale devices"
+            ],
+            "note": "The defining reference lists this subject among the specialties of quantum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Semiconductor materials"
+            ],
+            "note": "The defining reference lists this subject among the specialties of quantum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Semiconductor devices"
+            ],
+            "note": "The defining reference lists this subject among the specialties of quantum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quantum optics"
+            ],
+            "note": "The defining reference lists this subject among the specialties of quantum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quantum information systems"
+            ],
+            "note": "The defining reference lists this subject among the specialties of quantum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quantum cryptography"
+            ],
+            "note": "The defining reference lists this subject among the specialties of quantum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Quantum computing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of quantum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nuclear fuel"
+            ],
+            "note": "The defining reference lists this subject among the specialties of nuclear engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nuclear reactor design",
+              "Reactor design"
+            ],
+            "note": "The defining reference lists this subject among the specialties of nuclear engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Nuclear reactor control systems"
+            ],
+            "note": "The defining reference lists this subject among the specialties of nuclear engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fusion energy"
+            ],
+            "note": "The defining reference lists this subject among the specialties of nuclear engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Reservoir engineering",
+              "Reservoir"
+            ],
+            "note": "The defining reference lists this subject among the specialties of petroleum engineering."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Drilling engineering",
+              "Drilling"
+            ],
+            "note": "The defining reference lists this subject among the specialties of petroleum engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Instrumentation and control engineering",
+              "Instrumentation and control"
+            ],
+            "note": "The defining reference lists this subject among the specialties of project engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cryptographic engineering",
+              "Cryptography engineering",
+              "Cryptographic"
+            ],
+            "note": "The defining reference lists this subject among the specialties of software engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Information technology engineering",
+              "ITE",
+              "Information engineering methodology",
+              "IEM",
+              "Information technology"
+            ],
+            "note": "The defining reference lists this subject among the specialties of software engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Web engineering",
+              "Web"
+            ],
+            "note": "The defining reference lists this subject among the specialties of software engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pricing"
+            ],
+            "note": "The defining reference lists this subject among the specialties of supply chain engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Production",
+              "Production management"
+            ],
+            "note": "The defining reference lists this subject among the specialties of supply chain engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fabric engineering",
+              "Fabric"
+            ],
+            "note": "The defining reference lists this subject among the specialties of textile engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Industrial and production engineering"
+            ],
+            "note": "The defining reference lists this subject among the specialties of textile engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Wet process engineering",
+              "Wet process"
+            ],
+            "note": "The defining reference lists this subject among the specialties of textile engineering."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Yarn engineering",
+              "Yarn"
+            ],
+            "note": "The defining reference lists this subject among the specialties of textile engineering."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Model-driven engineering",
+              "Model-driven"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Concurrent engineering",
+              "Concurrent"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Engineering analysis"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Engineering design process",
+              "Engineering method"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Engineering mathematics"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Engineering notation"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Engineering optimization"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Engineering statistics"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Front-end engineering",
+              "Front-end"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Knowledge engineering",
+              "Knowledge"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Life-cycle engineering",
+              "Life-cycle"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Redundancy (engineering)",
+              "Redundancy"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Reverse engineering",
+              "Reverse"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sustainable engineering",
+              "Sustainable"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Traditional engineering",
+              "Traditional"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Value engineering",
+              "Value"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering techniques\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cost engineering",
+              "Cost"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Demographic engineering",
+              "Demographic"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Engineering management"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Financial engineering",
+              "Financial"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Market engineering",
+              "Market"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Memetic engineering",
+              "Memetic"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Political engineering",
+              "Political"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sales engineering",
+              "Sales"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Social engineering (political science)",
+              "Political social engineering"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Social engineering (security)",
+              "Social engineering",
+              "Social",
+              "Security social engineering"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tariff engineering",
+              "Tariff"
+            ],
+            "note": "The defining reference includes this topic in its \u201cNon-technical fields\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Exploratory engineering",
+              "Exploratory"
+            ],
+            "note": "The defining reference includes this topic in its \u201cExploratory engineering\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Astronomical engineering",
+              "Astronomical"
+            ],
+            "note": "The defining reference includes this topic in its \u201cExploratory engineering\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Megascale engineering",
+              "Megascale"
+            ],
+            "note": "The defining reference includes this topic in its \u201cExploratory engineering\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Planetary engineering",
+              "Planetary"
+            ],
+            "note": "The defining reference includes this topic in its \u201cExploratory engineering\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Engineering studies"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering studies\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Engineering economics"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering studies\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Engineering ethics"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering studies\u201d section under See also."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Engineering law"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering studies\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Engineering psychology"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering studies\u201d section under See also."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Philosophy of engineering",
+              "Philosophy of"
+            ],
+            "note": "The defining reference includes this topic in its \u201cEngineering studies\u201d section under See also."
+          }
+        ]
+      },
+      {
+        "prompt": "Calvin and Hobbes Characters",
+        "source": "https://calvinandhobbes.fandom.com/wiki/Calvin_and_Hobbes_characters",
+        "sourceNote": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User chose the entire defining page, including minor figures, alter egos, transformations, inventions and foods. Its 98 listed entries yield 97 catches: the navigation-style umbrella \u201cMany of Calvin\u2019s alter egos\u201d is excluded because its named forms are individually represented. A named alter ego/transformation is a separate catch under this list-defined scope. Mom, Dad and Teacher-style names are not aliases for imagined superhero identities. Monster means the transmogrifier form; bedroom monsters require their context. Charlie means the unqualified minor entry; the barber requires Barber or Charlie the barber. Tommy and Tommy Chesnutt are separate source entries. Cardboard box does not award a rarer named device. Toast and Toaster share the source\u2019s combined entry. The direct Fandom fetch was blocked, but its full indexed page text was available through search; comparison sources https://en.wikipedia.org/wiki/List_of_Calvin_and_Hobbes_characters and https://syndication.andrewsmcmeel.com/features/calvin-and-hobbes/ support core character facts. Unverified distinguishing blurbs remain blank. Tuna is QUIRKY 15 because it is familiar and unexpectedly eligible through the explicit food list. User-requested generous scoring override: ordinary scores move one tier upward (10\u219230, 30\u219260, 60\u219285, 85\u2192100), capped at 100. Calvin and Hobbes each retain 10 as explicit user-selected obvious anchors. Tuna retains the separate QUIRKY 15 designation. These scores intentionally reward this question more generously than the base recall-rarity calibration.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Calvin"
+            ],
+            "note": "The six-year-old protagonist whose imagination drives the strip."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Hobbes"
+            ],
+            "note": "Calvin\u2019s tiger companion appears as a stuffed toy to other people."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Calvin's father",
+              "Dad",
+              "Father",
+              "Calvin's dad"
+            ],
+            "note": "Calvin\u2019s father often answers his questions with deliberately outlandish explanations."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Calvin's mother",
+              "Mom",
+              "Mum",
+              "Mother",
+              "Calvin's mom",
+              "Calvin's mum"
+            ],
+            "note": "Calvin\u2019s mother contends with his schemes, messes and resistance to everyday routines."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Susie Derkins",
+              "Susie",
+              "Derkins"
+            ],
+            "note": "Calvin\u2019s neighbour and classmate is frequently drawn into his antagonistic games."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Miss Wormwood",
+              "Wormwood",
+              "Ms Wormwood",
+              "Mrs Wormwood"
+            ],
+            "note": "Calvin\u2019s teacher regularly struggles to keep his attention on schoolwork."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Moe"
+            ],
+            "note": "A school bully who threatens Calvin and demands his money."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rosalyn"
+            ],
+            "note": "Calvin\u2019s teenage babysitter proves unusually capable of intimidating him."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Principal Spittle",
+              "Spittle"
+            ],
+            "note": "The school principal encounters Calvin after his classroom misbehaviour."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Assorted monsters in Calvin's room",
+              "Monsters in Calvin's room",
+              "Bedroom monsters",
+              "Monsters under the bed"
+            ],
+            "note": "Calvin imagines threatening creatures hiding in his bedroom."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spaceman Spiff",
+              "Spiff"
+            ],
+            "note": "Calvin\u2019s space-explorer persona turns ordinary situations into encounters with alien worlds."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Stupendous Man"
+            ],
+            "note": "Calvin\u2019s superhero persona wears a mask and cape."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tracer Bullet"
+            ],
+            "note": "Calvin\u2019s private-detective persona narrates events in the style of a hardboiled mystery."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dinosaurs",
+              "Dinosaur"
+            ],
+            "note": "Dinosaurs recur throughout Calvin\u2019s imaginative adventures and drawings."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Leaf Pile",
+              "Pile of leaves"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Zorg"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Alien",
+              "Aliens"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Calvin the Bug",
+              "Bug Calvin"
+            ],
+            "note": "A bug transformation of Calvin listed among the recurring characters."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Doctor",
+              "Calvin's doctor"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Calvin's snowmen",
+              "Snowmen",
+              "Snowman"
+            ],
+            "note": "Calvin builds elaborate snow sculptures, often staging macabre scenes."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Calvin's Killer Bicycle",
+              "Killer bicycle",
+              "Bicycle",
+              "Bike",
+              "Killer bike"
+            ],
+            "note": "Calvin imagines his bicycle as a hostile creature trying to attack him."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bees",
+              "Bee"
+            ],
+            "note": ""
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mr. Bun",
+              "Mister Bun"
+            ],
+            "note": "Susie\u2019s stuffed rabbit joins her tea parties and games."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Calvin in Inch-Tall Form",
+              "Inch tall Calvin",
+              "Tiny Calvin"
+            ],
+            "note": "A miniature version of Calvin listed separately in the defining character catalogue."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Santa Claus",
+              "Santa",
+              "Father Christmas"
+            ],
+            "note": "Calvin worries about whether Santa will judge his behaviour favourably."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ronald"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Snow Goons",
+              "Snow Goon"
+            ],
+            "note": "Calvin\u2019s monstrous snow creations become an army that threatens their creator."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Maurice"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Winslow"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bath Foam",
+              "Bath bubbles"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bed Cover Monster",
+              "Bedcover monster"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Uncle Max",
+              "Max"
+            ],
+            "note": "Calvin\u2019s paternal uncle visits the family during an early storyline."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Tarzan"
+            ],
+            "note": "Calvin adopts the jungle hero\u2019s identity in his imaginary adventures."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Flower",
+              "Flower Calvin"
+            ],
+            "note": "A flower form of Calvin produced with the transmogrifier gun."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Chicken",
+              "Chicken Calvin"
+            ],
+            "note": "A chicken form associated with the transmogrifier gun."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Monster",
+              "Transmogrifier monster"
+            ],
+            "note": "A monster form associated with the transmogrifier gun, separate from the bedroom monsters."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Owl"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bloodsucking Freak"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Crocodile",
+              "Crocodile Calvin"
+            ],
+            "note": "A crocodile form associated with the transmogrifier gun."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pig"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Armadillo"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ape"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Duck"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Calvin's Good Side",
+              "Good Calvin",
+              "Calvin's good twin"
+            ],
+            "note": "A duplicate restricted to Calvin\u2019s good side is created using the duplicator\u2019s ethicator."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Calvin's Skeleton",
+              "Skeleton"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Calvin in Frankenstein Monster Form",
+              "Frankenstein Calvin",
+              "Frankenstein's monster",
+              "Frankenstein"
+            ],
+            "note": "Calvin appears in a form based on Frankenstein\u2019s monster."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Raccoon",
+              "Racoon"
+            ],
+            "note": "Calvin discovers an injured baby raccoon and becomes distressed when it dies."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Frank"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Charlie"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Calvin in Tiger Form",
+              "Tiger Calvin",
+              "Transmogrifier tiger"
+            ],
+            "note": "Calvin becomes a tiger through an imaginary transformation."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Jessica"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Filthy Rich"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Baby Sitter Girl",
+              "Babysitter Girl"
+            ],
+            "note": "An imagined identity listed separately from Rosalyn in the defining catalogue."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mom-Lady"
+            ],
+            "note": "An imagined identity listed separately from Calvin\u2019s mother in the defining catalogue."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Crab Teacher"
+            ],
+            "note": "An imagined identity listed separately from Miss Wormwood in the defining catalogue."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Frog",
+              "Frog Calvin"
+            ],
+            "note": "A frog form associated with Calvin\u2019s transmogrifier."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Shorty"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Zarch"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tommy Chesnutt",
+              "Tommy Chestnutt"
+            ],
+            "note": "A student Calvin claims Hobbes ate after the boy made fun of him."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tommy"
+            ],
+            "note": "A separately listed student associated with Calvin\u2019s story about milk going up someone\u2019s nose."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Mrs. Carroll",
+              "Carroll"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Extra duplicate",
+              "Extra Calvin duplicate"
+            ],
+            "note": "An additional duplicate of Calvin listed as its own character in the source."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Gym Instructor",
+              "Gym teacher"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Charlie (Barber)",
+              "Charlie the barber",
+              "Barber"
+            ],
+            "note": "The barber named Charlie is distinct from the source\u2019s other Charlie entry."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pete"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Russy White",
+              "Russy"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Maggot-Man"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "X-387 Robot Probe",
+              "X387",
+              "X 387"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Food monsters",
+              "Food monster"
+            ],
+            "note": "Calvin imagines food as living creatures, especially when he dislikes the meal."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Calvin's grandmother",
+              "Grandmother",
+              "Grandma",
+              "Granny"
+            ],
+            "note": "Calvin\u2019s grandmother is listed among the strip\u2019s minor characters."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Transmogrifier"
+            ],
+            "note": "Calvin\u2019s cardboard-box invention supposedly transforms its occupant into other forms."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Transmogrifier Gun",
+              "Transmogrification gun"
+            ],
+            "note": "A handheld version of the transmogrifier allows Calvin to transform targets."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Duplicator"
+            ],
+            "note": "Calvin\u2019s invention supposedly produces copies of whoever enters it."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ethicator"
+            ],
+            "note": "An addition to the duplicator controls the moral character of its output."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Cerebral Enhance-O-Tron",
+              "Cerebral Enhancotron",
+              "Enhance O Tron"
+            ],
+            "note": "Calvin\u2019s imagined device is intended to increase his intellectual abilities."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Time Machine"
+            ],
+            "note": "Calvin and Hobbes use an imaginary time machine to travel into other eras."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Calvinball"
+            ],
+            "note": "Calvin and Hobbes invent an ever-changing game whose rules resist repetition."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sale stand",
+              "Sales stand",
+              "Lemonade stand"
+            ],
+            "note": "Calvin\u2019s roadside stand appears among the source\u2019s main inventions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cardboard box",
+              "Box"
+            ],
+            "note": "A simple box supplies the physical basis for several of Calvin\u2019s imagined machines."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "TV Screen",
+              "Television screen",
+              "TV"
+            ],
+            "note": "The source lists a television-screen invention among Calvin\u2019s recurring creations."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Bed Making Robot",
+              "Bedmaking robot"
+            ],
+            "note": "An imagined robot intended to take over the chore of making the bed."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "The World's Most Powerful Computer",
+              "World's most powerful computer",
+              "Most powerful computer"
+            ],
+            "note": ""
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Flying Carpet",
+              "Magic carpet"
+            ],
+            "note": "An imaginary flying carpet is listed among Calvin\u2019s inventions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tiger Trap"
+            ],
+            "note": "Calvin uses a tuna-fish sandwich as bait when he captures Hobbes in the opening strip."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Invisible Cretinizer",
+              "Cretinizer"
+            ],
+            "note": "Calvin\u2019s imagined invention is catalogued among his minor creations."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Writer's Block",
+              "Writers block"
+            ],
+            "note": "The source lists Writer\u2019s Block as one of Calvin\u2019s minor inventions."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Huge bird foot",
+              "Giant bird foot"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Magic Elixir",
+              "Elixir"
+            ],
+            "note": "An imaginary elixir appears among the source\u2019s minor inventions."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Chocolate Frosted Sugar Bombs",
+              "Sugar Bombs"
+            ],
+            "note": "Calvin\u2019s favourite breakfast cereal has an extravagantly sugary name."
+          },
+          {
+            "points": 15,
+            "forms": [
+              "Tuna",
+              "Tuna fish"
+            ],
+            "note": "Tuna is Hobbes\u2019s favourite bait, including the sandwich in the strip\u2019s first tiger trap."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Salmon"
+            ],
+            "note": "Salmon appears in the defining page\u2019s main-food list."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Toast",
+              "Toaster"
+            ],
+            "note": "The defining page lists this food together with its toaster."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lunch"
+            ],
+            "note": "The source explicitly includes lunch in its expanded inventory of foods."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Dinner"
+            ],
+            "note": "The source explicitly includes dinner in its expanded inventory of foods."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Hyperbubble"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Pulp 'n Stuff",
+              "Pulp and Stuff"
+            ],
+            "note": ""
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Blob of gelatinous muck",
+              "Gelatinous muck"
+            ],
+            "note": "A named food entry in the defining page\u2019s expanded character catalogue."
+          }
+        ]
+      },
+      {
+        "prompt": "Non-Stop Flights from MSP (Airport Code or City Name accepted)",
+        "source": "https://www.mspairport.com/flights-airlines/nonstop-route-map",
+        "sourceNote": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User selected all currently advertised nonstop passenger destinations, including recurring seasonal routes, with one catch per destination city. Snapshot captured 20 October 2026: the complete live unfiltered FlightConnections and FlightsFrom catalogues agreed on 166 airport codes, consolidated into 158 destination groups. Full sources: https://www.flightconnections.com/flights-from-minneapolis-msp and https://www.flightsfrom.com/MSP/destinations . The official MSP page confirms the broad network but its full interactive map was not exposed in the downloaded page. Chicago ORD/MDW, Dallas DFW/DAL, Houston IAH/HOU, New York JFK/LGA/EWR, Phoenix PHX/AZA, Tampa TPA/PIE and Washington DCA/IAD are grouped. Baltimore remains separate from Washington; White Plains remains separate from New York. Portland, Oregon and Portland, Maine are distinct; bare Portland maps to Oregon. Airport towns and common marketed destination names share a catch where appropriate. Augusta is recurring Masters-season service, independently confirmed by https://news.delta.com/green-awaits-fly-deltas-largest-ever-schedule-and-new-routes-2026-masters and https://www.deltatakingaction.com/content/deltaactions/en/news/2026/jun/more-ways-to-augusta-delta-tees-up-expanded-schedule-for-masters-2027.html . DJT and former code PBI both count for West Palm Beach; change verified by https://flydjt.org/about/name-change-faqs/ . This is a dated route bank, not live availability or a guarantee that a flight operates today.",
+        "answers": [
+          {
+            "points": 10,
+            "forms": [
+              "Chicago",
+              "ORD",
+              "MDW",
+              "O Hare",
+              "Ohare",
+              "Midway"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ORD, MDW."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Denver",
+              "DEN"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via DEN."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Phoenix",
+              "PHX",
+              "AZA",
+              "Mesa",
+              "Phoenix Mesa",
+              "Sky Harbor"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PHX, AZA."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Atlanta",
+              "ATL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ATL."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Dallas\u2013Fort Worth",
+              "DFW",
+              "DAL",
+              "Dallas",
+              "Fort Worth",
+              "DFW airport",
+              "Love Field"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via DFW, DAL."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Las Vegas",
+              "LAS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via LAS."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Orlando",
+              "MCO"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MCO."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Seattle\u2013Tacoma",
+              "SEA",
+              "Seattle",
+              "Tacoma",
+              "SeaTac",
+              "Sea Tac"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SEA."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Washington, DC",
+              "DCA",
+              "IAD",
+              "Washington",
+              "DC",
+              "Dulles",
+              "Reagan",
+              "Ronald Reagan National"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via DCA, IAD."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Los Angeles",
+              "LAX"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via LAX."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "San Francisco",
+              "SFO"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SFO."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "New York City",
+              "EWR",
+              "LGA",
+              "JFK",
+              "New York",
+              "NYC",
+              "Newark",
+              "John F Kennedy",
+              "Kennedy",
+              "LaGuardia",
+              "La Guardia",
+              "Newark Liberty"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via EWR, LGA, JFK."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Charlotte",
+              "CLT"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CLT."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Houston",
+              "IAH",
+              "HOU",
+              "Houston Hobby",
+              "Hobby",
+              "George Bush Intercontinental"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via IAH, HOU."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "St. Louis",
+              "STL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via STL."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Boston",
+              "BOS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BOS."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Philadelphia",
+              "PHL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PHL."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Nashville",
+              "BNA"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BNA."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Milwaukee",
+              "MKE"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MKE."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fargo",
+              "FAR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via FAR."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Detroit",
+              "DTW"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via DTW."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Portland, Oregon",
+              "PDX",
+              "Portland",
+              "Portland OR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PDX."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bismarck",
+              "BIS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BIS."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Omaha",
+              "OMA"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via OMA."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Austin",
+              "AUS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via AUS."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Kansas City",
+              "MCI"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MCI."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Sioux Falls",
+              "FSD"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via FSD."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Baltimore",
+              "BWI"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BWI."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Madison",
+              "MSN"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MSN."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Toronto",
+              "YYZ"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via YYZ."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fort Myers",
+              "RSW"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via RSW."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Salt Lake City",
+              "SLC"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SLC."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Raleigh / Durham",
+              "RDU",
+              "Raleigh",
+              "Durham"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via RDU."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Columbus",
+              "CMH"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CMH."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Indianapolis",
+              "IND"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via IND."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "San Diego",
+              "SAN"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SAN."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cincinnati",
+              "CVG"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CVG."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Minot",
+              "MOT"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MOT."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Duluth",
+              "DLH"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via DLH."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Pittsburgh",
+              "PIT"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PIT."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rapid City",
+              "RAP"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via RAP."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Des Moines",
+              "DSM"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via DSM."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Grand Forks",
+              "GFK"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via GFK."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Grand Rapids",
+              "GRR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via GRR."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Cleveland",
+              "CLE"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CLE."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tampa",
+              "TPA",
+              "PIE",
+              "Tampa Bay",
+              "St Petersburg",
+              "Saint Petersburg",
+              "Clearwater",
+              "St Pete"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via TPA, PIE."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Miami",
+              "MIA"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MIA."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Green Bay",
+              "GRB"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via GRB."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Appleton",
+              "ATW"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ATW."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rochester, Minnesota",
+              "RST",
+              "Rochester",
+              "Rochester MN"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via RST."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Amsterdam",
+              "AMS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via AMS."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Winnipeg",
+              "YWG"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via YWG."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Louisville",
+              "SDF"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SDF."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cedar Rapids",
+              "CID"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CID."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "San Antonio",
+              "SAT"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SAT."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hartford",
+              "BDL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BDL."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Memphis",
+              "MEM"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MEM."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Aberdeen",
+              "ABR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ABR."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Fort Lauderdale",
+              "FLL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via FLL."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Calgary",
+              "YYC"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via YYC."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Boise",
+              "BOI"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BOI."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wausau",
+              "CWA",
+              "Central Wisconsin",
+              "Mosinee"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CWA."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sacramento",
+              "SMF"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SMF."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bozeman",
+              "BZN"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BZN."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Vancouver",
+              "YVR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via YVR."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Spokane",
+              "GEG"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via GEG."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Rhinelander",
+              "RHI"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via RHI."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Bemidji",
+              "BJI"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BJI."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Wichita",
+              "ICT"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ICT."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Oklahoma City",
+              "OKC"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via OKC."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Knoxville",
+              "TYS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via TYS."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "San Jose, California",
+              "SJC",
+              "San Jose",
+              "San Jose CA"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SJC."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Richmond",
+              "RIC"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via RIC."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Northwest Arkansas",
+              "XNA",
+              "Fayetteville",
+              "Bentonville",
+              "Rogers",
+              "Springdale"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via XNA."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Hibbing",
+              "HIB"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via HIB."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "International Falls",
+              "INL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via INL."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Brainerd",
+              "BRD"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BRD."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Thief River Falls",
+              "TVF"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via TVF."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Montreal",
+              "YUL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via YUL."
+          },
+          {
+            "points": 10,
+            "forms": [
+              "Canc\u00fan",
+              "CUN"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CUN."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Santa Ana",
+              "SNA",
+              "Orange County",
+              "John Wayne"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SNA."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Destin / Fort Walton Beach",
+              "VPS",
+              "Destin",
+              "Fort Walton Beach",
+              "Valparaiso"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via VPS."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Palm Springs",
+              "PSP"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PSP."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "New Orleans",
+              "MSY"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MSY."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Dublin",
+              "DUB"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via DUB."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Sarasota / Bradenton",
+              "SRQ",
+              "Sarasota",
+              "Bradenton"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SRQ."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jacksonville",
+              "JAX"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via JAX."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Missoula",
+              "MSO"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MSO."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kalispell",
+              "FCA",
+              "Glacier Park"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via FCA."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Paris",
+              "CDG",
+              "Charles de Gaulle",
+              "Roissy"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CDG."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Tokyo",
+              "HND",
+              "Haneda"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via HND."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Regina",
+              "YQR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via YQR."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Fort Wayne",
+              "FWA"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via FWA."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "London",
+              "LHR",
+              "Heathrow",
+              "London Heathrow"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via LHR."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Albuquerque",
+              "ABQ"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ABQ."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "White Plains",
+              "HPN"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via HPN."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Seoul",
+              "ICN",
+              "Incheon",
+              "Seoul Incheon"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ICN."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Billings",
+              "BIL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BIL."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Burlington",
+              "BTV"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BTV."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Charleston",
+              "CHS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CHS."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Syracuse",
+              "SYR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SYR."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Mexico City",
+              "MEX"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MEX."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Anchorage",
+              "ANC"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ANC."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Portland, Maine",
+              "PWM",
+              "Portland ME"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PWM."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "South Bend",
+              "SBN"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SBN."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Norfolk",
+              "ORF"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ORF."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Pasco",
+              "PSC",
+              "Tri Cities"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PSC."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Honolulu",
+              "HNL",
+              "Oahu"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via HNL."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Watertown",
+              "ATY"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ATY."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Iron Mountain",
+              "IMT"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via IMT."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Harlingen",
+              "HRL",
+              "Rio Grande Valley"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via HRL."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Savannah",
+              "SAV"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SAV."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Sault Sainte Marie",
+              "CIU",
+              "Sault Ste Marie",
+              "Sault Saint Marie"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CIU."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ironwood",
+              "IWD"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via IWD."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Edmonton",
+              "YEG"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via YEG."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Escanaba",
+              "ESC"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ESC."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Reykjavik",
+              "KEF",
+              "Keflavik"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via KEF."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Rome",
+              "FCO"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via FCO."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Saskatoon",
+              "YXE"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via YXE."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "San Juan",
+              "SJU"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SJU."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Copenhagen",
+              "CPH"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CPH."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Asheville",
+              "AVL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via AVL."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Lexington",
+              "LEX"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via LEX."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Frankfurt",
+              "FRA"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via FRA."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gulfport / Biloxi",
+              "GPT",
+              "Gulfport",
+              "Biloxi"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via GPT."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Puerto Vallarta",
+              "PVR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PVR."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Punta Cana",
+              "PUJ"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PUJ."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Reno",
+              "RNO"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via RNO."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Belize City",
+              "BZE"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BZE."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Saint Thomas",
+              "STT",
+              "St Thomas",
+              "Charlotte Amalie"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via STT."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Liberia",
+              "LIR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via LIR."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Tucson",
+              "TUS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via TUS."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Colorado Springs",
+              "COS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via COS."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Melbourne, Florida",
+              "MLB",
+              "Melbourne",
+              "Melbourne FL"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MLB."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Cozumel",
+              "CZM"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via CZM."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Nassau",
+              "NAS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via NAS."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Vail / Eagle",
+              "EGE",
+              "Vail",
+              "Eagle"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via EGE."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "San Jos\u00e9 del Cabo",
+              "SJD",
+              "Los Cabos",
+              "Cabo",
+              "Cabo San Lucas"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SJD."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Punta Gorda",
+              "PGD"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PGD."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "George Town, Grand Cayman",
+              "GCM",
+              "Grand Cayman",
+              "George Town",
+              "Georgetown",
+              "Cayman Islands"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via GCM."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Providenciales",
+              "PLS"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PLS."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Providence",
+              "PVD"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via PVD."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Mazatl\u00e1n",
+              "MZT"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MZT."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Buffalo",
+              "BUF"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via BUF."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Marquette",
+              "MQT"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MQT."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Myrtle Beach",
+              "MYR"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MYR."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Ixtapa / Zihuatanejo",
+              "ZIH",
+              "Ixtapa",
+              "Zihuatanejo"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via ZIH."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Fairbanks",
+              "FAI"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via FAI."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "West Palm Beach",
+              "DJT",
+              "Palm Beach",
+              "PBI"
+            ],
+            "note": "Its airport code changed from PBI to DJT in August 2026; both codes are accepted here."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hayden",
+              "HDN",
+              "Steamboat Springs"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via HDN."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Oranjestad, Aruba",
+              "AUA",
+              "Aruba",
+              "Oranjestad"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via AUA."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Roat\u00e1n",
+              "RTB",
+              "Coxen Hole"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via RTB."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Jackson Hole",
+              "JAC",
+              "Jackson",
+              "Jackson Wyoming"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via JAC."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Simpson Bay, Sint Maarten",
+              "SXM",
+              "Simpson Bay",
+              "Sint Maarten",
+              "St Maarten",
+              "Saint Martin",
+              "St Martin"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via SXM."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Montego Bay",
+              "MBJ"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via MBJ."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Traverse City",
+              "TVC"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via TVC."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Kahului",
+              "OGG",
+              "Maui"
+            ],
+            "note": "MSP\u2019s advertised nonstop route network includes this destination via OGG."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Augusta",
+              "AGS"
+            ],
+            "note": "A recurring seasonal MSP route serves Augusta for the Masters golf tournament."
+          }
+        ]
+      },
+      {
+        "prompt": "Countries bordering only one other country",
+        "source": "https://en.wikipedia.org/wiki/List_of_countries_that_border_only_one_other_country",
+        "sourceNote": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User chose the full linked list including its subcategories and unusual entries. Forty catches cover its 15 ordinary sovereign-state entries plus disputed-state cases, fixed crossings, dependent territories, integral territories and historical entries. These are explicit source-defined house-rule inclusions; blurbs flag historical/fixed-crossing/disputed/territorial status. This is not a list of 40 current sovereign states with exactly one natural land neighbour. Canada and the Danish realm are historical exceptions following the 2022 Hans Island settlement, independently verified at https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html . The defining page has inaccurate or incomplete border details for Cyprus and the British base areas, and unconventional Antarctic claims; these entries are retained as requested but not presented as undisputed qualifying sovereign states. Japan, Korea, Scotland, England, Newfoundland and former colonies are retained only under the source\u2019s historical section. Neighbour-column names are not independent entries merely because they appear in the table. Maritime-only neighbours are outside scope. Great Britain/Britain is accepted as familiar shorthand for UK in this game; Saint Martin and Sint Maarten remain separate catches. User-requested generous scoring override: every answer moves one ordinary tier upward (10\u219230, 30\u219260, 60\u219285, 85\u2192100), capped at 100. These scores intentionally reward this question more generously than the base recall-rarity calibration.",
+        "answers": [
+          {
+            "points": 60,
+            "forms": [
+              "Lesotho"
+            ],
+            "note": "Entirely surrounded by South Africa, making it one of the world\u2019s three sovereign enclaves."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "San Marino"
+            ],
+            "note": "An independent enclave surrounded by Italy, with no coastline."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Vatican City",
+              "Vatican"
+            ],
+            "note": "This sovereign city-state is enclosed by Rome and borders only Italy."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Brunei",
+              "Brunei Darussalam"
+            ],
+            "note": "Its two separated territories on Borneo both share their land boundaries with Malaysia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Dominican Republic",
+              "DR"
+            ],
+            "note": "Shares Hispaniola with Haiti, its only land neighbour."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "The Gambia",
+              "Gambia"
+            ],
+            "note": "Senegal surrounds its land frontier; its western coast faces the Atlantic Ocean."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Haiti"
+            ],
+            "note": "Shares the island of Hispaniola with the Dominican Republic."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Ireland",
+              "Republic of Ireland",
+              "Eire"
+            ],
+            "note": "Its only land border meets Northern Ireland, which is part of the United Kingdom."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Monaco"
+            ],
+            "note": "This Mediterranean principality has France as its sole land neighbour."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Papua New Guinea",
+              "PNG"
+            ],
+            "note": "The western boundary of its main island meets Indonesia."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Portugal"
+            ],
+            "note": "Its only land neighbour is Spain, along the Iberian Peninsula."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Qatar"
+            ],
+            "note": "Its only natural land boundary meets Saudi Arabia at the base of its peninsula."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "South Korea",
+              "Republic of Korea",
+              "ROK"
+            ],
+            "note": "The demarcation line with North Korea is its only land frontier."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Timor-Leste",
+              "East Timor"
+            ],
+            "note": "Both its eastern territory and Oecusse enclave border Indonesia."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "United Kingdom",
+              "UK",
+              "Britain",
+              "Great Britain"
+            ],
+            "note": "Northern Ireland gives the United Kingdom its sole land border, with the Republic of Ireland."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Cyprus",
+              "Republic of Cyprus"
+            ],
+            "note": "Included from the source\u2019s disputed-border section; the island also contains British sovereign base areas."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Northern Cyprus",
+              "Turkish Republic of Northern Cyprus",
+              "TRNC"
+            ],
+            "note": "A partially recognized state listed separately; its boundaries also meet the British Dhekelia base area."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Bahrain"
+            ],
+            "note": "A fixed-crossing exception: the King Fahd Causeway connects this island country to Saudi Arabia."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Singapore"
+            ],
+            "note": "A fixed-crossing exception: bridges and a causeway connect it to Malaysia across the Johor Strait."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Akrotiri and Dhekelia",
+              "British Sovereign Base Areas"
+            ],
+            "note": "Source-listed British base territories on Cyprus; Dhekelia also meets the territory controlled by Northern Cyprus."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Gibraltar"
+            ],
+            "note": "A British overseas territory with a land border adjoining Spain."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ross Dependency"
+            ],
+            "note": "New Zealand\u2019s Antarctic claim adjoins Australia\u2019s claim and unclaimed Marie Byrd Land; sovereignty is not widely recognized."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "\u00c5land",
+              "Aland Islands"
+            ],
+            "note": "Finland\u2019s autonomous archipelago includes part of M\u00e4rket, an island divided with Sweden."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "French Southern and Antarctic Lands",
+              "TAAF"
+            ],
+            "note": "Included for France\u2019s Antarctic claim in Ad\u00e9lie Land, which adjoins the Australian Antarctic Territory."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Greenland"
+            ],
+            "note": "This constituent country of the Danish realm shares a boundary with Canada on Hans Island."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Saint Martin",
+              "St Martin",
+              "French Saint Martin"
+            ],
+            "note": "The French territory occupies the northern part of an island shared with Dutch Sint Maarten."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Sint Maarten",
+              "Dutch Sint Maarten"
+            ],
+            "note": "This constituent country of the Netherlands occupies the southern part of the island shared with French Saint Martin."
+          },
+          {
+            "points": 30,
+            "forms": [
+              "Canada"
+            ],
+            "note": "Historical entry: its sole land neighbour was the United States before the 2022 Hans Island settlement."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Denmark",
+              "Kingdom of Denmark"
+            ],
+            "note": "Historical entry: the Danish realm gained a second land neighbour through Greenland\u2019s 2022 boundary settlement with Canada."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Korea",
+              "Unified Korea"
+            ],
+            "note": "Historical entry: Korea bordered only China before acquiring a Russian frontier in 1860."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Ciskei"
+            ],
+            "note": "An apartheid-era South African homeland, reincorporated into South Africa in April 1994."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Venda"
+            ],
+            "note": "An apartheid-era homeland surrounded by South Africa, reincorporated in April 1994."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Newfoundland",
+              "Dominion of Newfoundland"
+            ],
+            "note": "Historical entry: its border met Canada before Newfoundland joined Canada in March 1949."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "Scotland"
+            ],
+            "note": "Historical sovereign kingdom bordering England until their union in 1707."
+          },
+          {
+            "points": 60,
+            "forms": [
+              "England"
+            ],
+            "note": "Historical sovereign kingdom bordering Scotland until their union in 1707."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Japan"
+            ],
+            "note": "Historical entry: it bordered Russia on Sakhalin from 1905, before annexing Korea in 1910."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Weihaiwei",
+              "Wei Hai Wei"
+            ],
+            "note": "A British leased territory adjoining China from 1898 until its transfer in 1930."
+          },
+          {
+            "points": 100,
+            "forms": [
+              "Tasmania"
+            ],
+            "note": "Historical colony bordering Victoria on Boundary Islet before Australian federation in 1901."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Hong Kong"
+            ],
+            "note": "Historical British colony with a frontier adjoining China before its transfer in 1997."
+          },
+          {
+            "points": 85,
+            "forms": [
+              "Macau",
+              "Macao"
+            ],
+            "note": "Historical Portuguese territory adjoining China before its transfer in 1999."
           }
         ]
       }

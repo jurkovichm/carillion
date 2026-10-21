@@ -391,11 +391,11 @@ function submitFishingAnswer(event) {
   tickRoundClock();
   if (roundState.phase !== 'question')
     return;
-  const typed = $('#answerInput').value.trim(), clean = normalizeAnswer(typed);
+  const q = questions[round];
+  const typed = $('#answerInput').value.trim(), clean = normalizeAnswer(typed, q);
   if (!clean)
     return;
-  const q = questions[round];
-  const matched = q.answers.find(answer => answer.forms.some(form => normalizeAnswer(form) === clean));
+  const matched = q.answers.find(answer => answer.forms.some(form => normalizeAnswer(form, q) === clean));
   const exact = !!matched;
   if (matched && rejectUsedFishingAnswer(matched)) return;
   if (!exact) {
@@ -408,7 +408,7 @@ function submitFishingAnswer(event) {
   castFishingLine(() => resolveFishingGuess(typed));
 }
 function rejectUsedFishingAnswer(match) {
-  const identity = normalizeAnswer(match.forms[0]);
+  const identity = normalizeAnswer(match.forms[0], questions[round]);
   if (!used.has(identity)) return false;
   showQuestionInput();
   $('#inputFeedback').textContent = roundState.record.stolenAnswers?.has(identity) ? 'The loon stole that answer — try a different one.' : 'Already caught — try a different answer.';
@@ -441,8 +441,8 @@ function castFishingLine(onLanded, message = 'Casting your guess…') {
   }, delay);
 }
 function resolveFishingGuess(typed) {
-  const clean = normalizeAnswer(typed), q = questions[round];
-  const match = q.answers.find(answer => answer.forms.some(form => normalizeAnswer(form) === clean));
+  const q = questions[round], clean = normalizeAnswer(typed, q);
+  const match = q.answers.find(answer => answer.forms.some(form => normalizeAnswer(form, q) === clean));
   if (!match) {
     showQuestionInput();
     const candidate = softCandidate(q, clean);
@@ -454,7 +454,7 @@ function resolveFishingGuess(typed) {
     }
     return;
   }
-  const identity = normalizeAnswer(match.forms[0]);
+  const identity = normalizeAnswer(match.forms[0], q);
   if (rejectUsedFishingAnswer(match)) return;
   used.add(identity);
   pauseRoundClock();
@@ -639,7 +639,7 @@ function removeLoonCatch(fish) {
   roundState.record.points -= fish.points;
   roundState.record.meters = roundState.record.points * 10;
   roundState.record.depthAfter = depthScore;
-  if (fish.kind === 'fish') (roundState.record.stolenAnswers ||= new Set()).add(normalizeAnswer(fish.name));
+  if (fish.kind === 'fish') (roundState.record.stolenAnswers ||= new Set()).add(normalizeAnswer(fish.name, questions[round]));
   updateFishingHUD();
 }
 function resumeAfterLoonTheft() {

@@ -31,7 +31,10 @@ function soundButton() {
     almaMater.pause();
   }
 }
-function normalizeAnswer(value) {
+function normalizeAnswer(value, question) {
+  // Language names can differ only by symbols: C, C++, C#, C--, Go and Go!.
+  if (question?.answerFormat === 'programming-language')
+    return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, '');
   return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
 }
 function renderSteps() {
@@ -187,7 +190,7 @@ function softCandidate(q, typed) {
     return null;
   const candidates = [];
   q.answers.forEach(answer => answer.forms.forEach(form => {
-    const clean = normalizeAnswer(form), words = clean.split(' ');
+    const clean = normalizeAnswer(form, q), words = clean.split(' ');
     let distance = Infinity;
     if (typed.length >= 4 && clean.startsWith(typed))
       distance = .25 + (clean.length - typed.length) / 100;

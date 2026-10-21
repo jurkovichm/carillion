@@ -1,0 +1,670 @@
+ANSWER,Blurb,Worth
+A.NET|A#|A sharp,"First appeared in 2004; its credited designers include Dr. Martin C. Carlisle, Lt Col Ricky Sward, Maj Jeff Humphries.",100
+A-0 System,PLDB dates its first public appearance to 1951.,100
+A+|A plus,First appeared in 1988; its credited designer is Arthur Whitney.,100
+ABAP,First appeared in 1983; its credited designer is SAP SE.,60
+ABC,"First appeared in 1987; its credited designers include Leo Geurts, Lambert Meertens , Steven Pemberton.",100
+ACC,,100
+Accent,,100
+Action!,PLDB dates its first public appearance to 1983.,100
+ActionScript,First appeared in 1998; its credited designer is Gary Grossman.,60
+Actor,"Dated to 1988 in the language timeline; development is credited to Charles Duff, the Whitewater Group.",100
+Ada,"First appeared in 1980; its credited designers include MIL-STD-1815, Ada 83: Jean Ichbiah Ada 95: Tucker Taft Ada 2005: Tucker Taft Ada 2012: Tucker Taft.",60
+Adenine,PLDB dates its first public appearance to 1999.,100
+AdvPL,,100
+Agda,First appeared in 1999; its credited designer is Ulf Norell; Catarina Coquand (1.0).,85
+Agilent VEE|Keysight VEE|VEE,,100
+Agora,PLDB dates its first public appearance to 1993.,100
+AIMMS,First appeared in 1993; its credited designer is Johannes J. Bisschop Marcel Roelofs.,100
+Aldor,"First appeared in 1990; its credited designers include Richard Dimick Jenks, Barry Trager, Stephen Watt, James Davenport, Robert Sutor, Scott Morrison.",100
+Alef,First appeared in 1992; its credited designer is Phil Winterbottom.,100
+Algebraic Logic Functional|ALF,PLDB dates its first public appearance to 1990.,100
+ALGOL 58,"First appeared in 1958, with a procedural , imperative , structured design.",100
+ALGOL 60|ALGOL,"First appeared in 1960; its credited designers include Backus , Bauer , Green , Katz , McCarthy , Naur , Perlis , Rutishauser , Samelson , van Wijngaarden , Vauquois , Wegstein , Woodger.",60
+ALGOL 68,"First appeared in 1968; its credited designers include A. van Wijngaarden , B. J. Mailloux , J. E. L. Peck and C. H. A. Koster , et al..",100
+ALGOL W,"First appeared in 1966; its credited designers include Niklaus Wirth , Tony Hoare.",100
+Alice ML,"First appeared in 2000, with a multi-paradigm : imperative , functional , distributed , concurrent , constraint design.",100
+Alma-0,"First appeared in 1997; its credited designers include Krzysztof Apt , Marc Bezem, Jacob Brunekreef, Vincent Partington, Andrea Schaerf.",100
+AmbientTalk,"First appeared in 2006; its credited designers include Tom Van Cutsem, Stijn Mostinckx, Jessie Dedecker, Wolfgang De Meuter.",100
+Amiga E,First appeared in 1993; its credited designer is Wouter van Oortmerssen.,100
+AMPL,First appeared in 1985; its credited designer is Robert Fourer David Gay Brian Kernighan Bell Labs.,100
+Analitik,First appeared in 1968; its credited designer is Victor Glushkov & Co.,100
+AngelScript,First appeared in 2003; PLDB credits its creation to Andreas Jönsson.,100
+Apache Pig latin|Pig Latin,PLDB dates its first public appearance to 2008.,100
+Apex,,60
+APL,Dated to 1962 in the language timeline; development is credited to Kenneth E. Iverson.,85
+MIT App Inventor|App Inventor,,85
+AppleScript,Dated to 1993 in the language timeline; development is credited to Apple Computer.,60
+APT,Dated to 1959 in the language timeline; development is credited to Douglas T. Ross.,100
+Arc,First appeared in 2001; PLDB credits its creation to Paul Graham and Robert Morris.,100
+ArkTS,"Dated to 2021 in the language timeline; development is credited to Wang Chenglu, Huawei.",100
+ARexx,PLDB dates its first public appearance to 1987.,100
+Argus,PLDB dates its first public appearance to 1982.,100
+Assembly language|Assembly|ASM,Its original uses are classified as general.,30
+AssemblyScript,Dated to 2017 in the language timeline; development is credited to The AssemblyScript Project.,100
+ATS,First appeared in 2006; its credited designer is Hongwei Xi.,100
+AutoHotkey,"Its original uses are classified as gui automation ( macros ), highly domain-specific.",100
+AutoIt,"Its original uses are classified as gui automation (macros), highly domain-specific.",100
+AutoLISP,First appeared in 1986; PLDB credits its creation to David Betz.,100
+Averest,PLDB dates its first public appearance to 2005.,100
+AWK,"Dated to 1979 in the language timeline; development is credited to Alfred Aho , Peter J. Weinberger , Brian Kernighan.",85
+Axum,,100
+B,"Dated to 1969 in the language timeline; development is credited to Ken Thompson , with contributions from Dennis Ritchie.",85
+Babbage,,100
+Ballerina,"Dated to 2017 in the language timeline; development is credited to WSO2 , open source.",100
+Bash,Dated to 1989 in the language timeline; development is credited to Brian Fox.,60
+BASIC,"Dated to 1964 in the language timeline; development is credited to John George Kemeny , Thomas Eugene Kurtz at Dartmouth College.",30
+Batch|Batch file|Windows batch|DOS batch,PLDB dates its first public appearance to 1985.,60
+bc,PLDB dates its first public appearance to 1975.,85
+BCPL,Dated to 1967 in the language timeline; development is credited to Martin Richards.,85
+BeanShell,"Its original uses are classified as application, scripting.",100
+BETA,First appeared in 1983; PLDB credits its creation to Bent Bruun Kristensen and Ole Lehrmann Madsen and Birger Møller-Pedersen and Kristen Nygaard.,100
+BLISS,"Dated to 1970 in the language timeline; development is credited to Wulf, Russell, Habermann at Carnegie Mellon University.",100
+Blockly,PLDB dates its first public appearance to 2011.,85
+BlooP,PLDB dates its first public appearance to 1979.,100
+Boo,Dated to 2003 in the language timeline; development is credited to Rodrigo B. de Oliveira.,100
+Boomerang,,100
+Bosque,"Dated to 2019 in the language timeline; development is credited to Mark Marron, Microsoft.",100
+C,Dated to 1972 in the language timeline; development is credited to Dennis Ritchie.,10
+C--|C minus minus,First appeared in 1997; PLDB credits its creation to Simon Peyton Jones.,100
+C++|C plus plus|CPP,Dated to 1983 in the language timeline; development is credited to Bjarne Stroustrup.,10
+C*|C star,,100
+C#|C sharp,"Dated to 2000 in the language timeline; development is credited to Anders Hejlsberg , Microsoft ( ECMA ).",10
+C/AL,First appeared in 1987; PLDB credits its creation to Michael Nielsen.,100
+Caché ObjectScript,PLDB dates its first public appearance to 1997.,100
+C Shell|csh,PLDB dates its first public appearance to 1978.,100
+Calcpad,,100
+Caml,First appeared in 1985; PLDB credits its creation to Gérard Huet and Guy Cousineau and Ascánder Suárez and Pierre Weis and Michel Mauny.,85
+Carbon,Dated to 2022 in the language timeline; development is credited to Google.,85
+Catrobat,,100
+Cayenne,PLDB dates its first public appearance to 1998.,100
+Cecil,First appeared in 1992; PLDB credits its creation to Craig Chambers.,100
+CESIL,,100
+CEEMAC,First appeared in 1980; PLDB credits its creation to Brooke Boering.,100
+Céu,,100
+Ceylon,First appeared in 2011; PLDB credits its creation to Gavin King.,85
+CFEngine,PLDB dates its first public appearance to 1993.,100
+Cg,PLDB dates its first public appearance to 2003.,100
+Ch,PLDB dates its first public appearance to 2001.,100
+Chapel,"First appeared in 2009; its credited designers include David Callahan, Hans Zima, Brad Chamberlain, John Plevyak.",100
+Charm,,100
+CHICKEN,,85
+CHILL,First appeared in 1980; its credited designer is CCITT.,100
+CHIP-8,PLDB dates its first public appearance to 1970.,100
+ChucK,First appeared in 2003; PLDB credits its creation to Ge Wang.,100
+Cilk,PLDB dates its first public appearance to 1994.,100
+Claire,Dated to 1994 in the language timeline; development is credited to Yves Caseau.,100
+Clarion,Dated to 1986 in the language timeline; development is credited to Bruce Barrington.,100
+Clean,Dated to 1987 in the language timeline; development is credited to Software Technology Research Group of Radboud University Nijmegen.,100
+Clipper,Dated to 1984 in the language timeline; development is credited to Nantucket.,100
+CLIPS,,85
+CLIST,PLDB dates its first public appearance to 1990.,100
+Clojure,First appeared in 2007; its credited designer is Rich Hickey.,60
+CLU,First appeared in 1975; its credited designer is Barbara Liskov and her students.,85
+CMS-2,"First appeared in 1968; its credited designers include RAND , Intermetrics.",100
+COBOL,"First appeared in 1960, with a procedural , imperative , object-oriented , generic design.",30
+CobolScript,PLDB dates its first public appearance to 1999.,100
+Cobra,First appeared in 2006; its credited designer is Charles Esterbrook.,100
+CoffeeScript,First appeared in 2009; its credited designer is Jeremy Ashkenas.,60
+ColdFusion,First appeared in 1995; PLDB credits its creation to Joseph J. Allaire.,60
+COMAL,"First appeared in 1975; its credited designers include Børge R. Christensen, Benedict Løfstedt.",100
+COMIT,First appeared in 1957; its credited designer is Victor Yngve.,100
+Common Intermediate Language|CIL,PLDB dates its first public appearance to 2000.,85
+Common Lisp|CL,"Dated to 1984 in the language timeline; development is credited to Guy L. Steele, Jr. , many others.",60
+COMPASS,,100
+Component Pascal,Dated to 1997 in the language timeline; development is credited to Oberon Microsystems.,100
+COMTRAN,Dated to 1957 in the language timeline; development is credited to Bob Bemer.,100
+Concurrent Pascal,,100
+Constraint Handling Rules|CHR,,100
+Control Language,,100
+Coq|Rocq,Dated to 1984 in the language timeline; development is credited to INRIA.,85
+CORAL|Coral 66,"Dated to 1966 in the language timeline; development is credited to I. F. Currie, M. Griffiths.",100
+CorVision,Dated to 1986 in the language timeline; development is credited to Cortex.,100
+COWSEL,"Dated to 1964 in the language timeline; development is credited to Rod Burstall , Robin Popplestone.",100
+CPL,"Dated to 1963 in the language timeline; development is credited to Barron, Christopher Strachey , et al..",100
+Cryptol,First appeared in 2014; PLDB credits its creation to Adam C. Foltzer.,100
+Crystal,"Dated to 2014 in the language timeline; development is credited to Ary Borenszweig, Manas Technology Solutions.",85
+Csound,PLDB dates its first public appearance to 1985.,85
+Cuneiform,Dated to 2013 in the language timeline; development is credited to Jörgen Brandt.,100
+Curl,"Dated to 1996 in the language timeline; development is credited to David Kranz, Steve Ward, Chris Terman at MIT.",100
+Curry,Its original uses are classified as application.,100
+Cybil,PLDB dates its first public appearance to 1980.,100
+Cyclone,First appeared in 2002; its credited designer is AT&T Labs.,100
+Cypher Query Language,PLDB dates its first public appearance to 2011.,100
+Cython,"Its original uses are classified as application, general, numerical computing.",85
+D|Dlang,"Dated to 2001 in the language timeline; development is credited to Walter Bright , Digital Mars.",60
+Dart,Dated to 2011 in the language timeline; development is credited to Google.,60
+Darwin,,100
+DataFlex,PLDB dates its first public appearance to 1982.,100
+Datalog,PLDB dates its first public appearance to 1977.,85
+DATATRIEVE,PLDB dates its first public appearance to 1970.,100
+dBase,Dated to 1979 in the language timeline; development is credited to Wayne Ratliff.,85
+dc,PLDB dates its first public appearance to 1978.,100
+DCL|DIGITAL Command Language,PLDB dates its first public appearance to 1997.,100
+Delphi,Dated to 1995 in the language timeline; development is credited to Anders Hejlsberg at Borland.,60
+DIBOL,Dated to 1968 in the language timeline; development is credited to DEC.,100
+DinkC,First appeared in 1998; PLDB credits its creation to Seth Robinson.,100
+Dog,,100
+Draco,Dated to 1982? in the language timeline; development is credited to Chris Gray.,100
+DRAKON,First appeared in 1996; PLDB credits its creation to Stepan Mitkin.,100
+Dylan,Dated to 1992 in the language timeline; development is credited to Many people at Apple Computer.,85
+DYNAMO,PLDB dates its first public appearance to 1959.,100
+DAX|Data Analysis Expressions,PLDB dates its first public appearance to 2009.,100
+E,Dated to 1997 in the language timeline; development is credited to Mark S. Miller.,100
+Ease,First appeared in 1991; PLDB credits its creation to Steven Ericsson-Zenith.,100
+Easy PL/I,Dated to 1964 in the language timeline; development is credited to IBM.,100
+EASYTRIEVE PLUS,PLDB dates its first public appearance to 1969.,100
+ECMAScript,Dated to 1997 in the language timeline; development is credited to ECMA TC39-TG1.,85
+Edinburgh IMP,"First appeared in 1966; its credited designers include Bratley, Whitfield, M. M. Barritt, David Rees, Peter D. Schofield, Roderick McLeod, Hamish Dewar , Peter D. Stephens, Peter Robertson.",100
+EGL,PLDB dates its first public appearance to 2008.,100
+Eiffel,Dated to 1986 in the language timeline; development is credited to Bertrand Meyer.,85
+ELAN,Its original uses are classified as education.,100
+Elixir,Dated to 2012 in the language timeline; development is credited to José Valim.,60
+Elm,Dated to 2012 in the language timeline; development is credited to Evan Czaplicki.,85
+Emacs Lisp,First appeared in 1985; PLDB credits its creation to Richard Stallman.,60
+Emerald,,100
+Epigram,First appeared in 2004; PLDB credits its creation to Conor McBride.,100
+EPL|Easy Programming Language,PLDB dates its first public appearance to 2004.,100
+Erlang,Dated to 1986 in the language timeline; development is credited to Joe Armstrong and others in Ericsson.,60
+es,,100
+Escher,,100
+ESPOL,PLDB dates its first public appearance to 1967.,100
+Esterel,PLDB dates its first public appearance to 1980.,85
+Etoys,First appeared in 1996; PLDB credits its creation to Alan Kay.,100
+Euclid,"Dated to 1977 in the language timeline; development is credited to Butler Lampson at Xerox PARC , Ric Holt and James Cordy at University of Toronto.",100
+Euler,PLDB dates its first public appearance to 1965.,100
+Euphoria,Dated to 1993 in the language timeline; development is credited to Robert Craig.,100
+EusLisp Robot Programming Language,,100
+CMS EXEC|EXEC,PLDB dates its first public appearance to 1966.,100
+EXEC 2,PLDB dates its first public appearance to 1970.,100
+Executable UML,PLDB dates its first public appearance to 2002.,100
+Ezhil,First appeared in 2007; PLDB credits its creation to Muthu Annamalai.,100
+F,PLDB dates its first public appearance to 1996.,100
+F#|F sharp,"Dated to 2005 in the language timeline; development is credited to Don Syme , Microsoft Research.",60
+F*|F star,Dated to 2011 in the language timeline; development is credited to Microsoft Research.,100
+Factor,Dated to 2003 in the language timeline; development is credited to Slava Pestov.,85
+Fantom,"Dated to 2005 in the language timeline; development is credited to Brian Frank, Andy Frank.",85
+FAUST,PLDB dates its first public appearance to 2002.,85
+FFP,,100
+fish,First appeared in 2005; PLDB credits its creation to Axel Liljencrantz and Thorsten Ball.,85
+Fjölnir,First appeared in 1986; PLDB credits its creation to Snorri Agnarsson.,100
+FL,First appeared in 1989; PLDB credits its creation to John Backus.,100
+Flavors,PLDB dates its first public appearance to 1980.,100
+Flex,First appeared in 1967; PLDB credits its creation to Alan Kay.,100
+Flix,,100
+FlooP,PLDB dates its first public appearance to 1979.,100
+FLOW-MATIC|B0,First appeared in 1955; PLDB credits its creation to Grace Hopper.,100
+FOCAL,First appeared in 1968; PLDB credits its creation to Richard Merrill.,100
+FOCUS,,100
+FOIL,PLDB dates its first public appearance to 1967.,100
+FORMAC,First appeared in 1993; PLDB credits its creation to Jean E. Sammet.,100
+@Formula,PLDB dates its first public appearance to 1989.,100
+Forth,First appeared in 1970; its credited designer is Charles H. Moore.,60
+Fortran,First appeared in 1957; its credited designer is John Backus.,30
+Fortress,Dated to 2006 in the language timeline; development is credited to Guy L. Steele Jr..,100
+FoxBase/FoxPro|FoxBase|FoxPro,,60
+FP,First appeared in 1977; its credited designer is John Backus.,100
+Franz Lisp,,100
+Futhark,,100
+Game Maker Language|GML,Dated to 1999 in the language timeline; development is credited to Mark Overmars.,60
+GameMonkey Script,PLDB dates its first public appearance to 2002.,100
+General Algebraic Modeling System|GAMS,PLDB dates its first public appearance to 1963.,100
+GAP,,85
+G-code,PLDB dates its first public appearance to 1950.,85
+GDScript,PLDB dates its first public appearance to 2014.,60
+Geometric Description Language|GDL,,100
+GEORGE,PLDB dates its first public appearance to 1957.,100
+Gleam,"Dated to 2016 in the language timeline; development is credited to Louis Pilfold, Fly.io.",85
+OpenGL Shading Language|GLSL,PLDB dates its first public appearance to 1992.,85
+GNU E,"Dated to 1991 in the language timeline; development is credited to David J. DeWitt, Michael J. Carey.",100
+GNU Guile|Guile,First appeared in 1993; PLDB credits its creation to Aubrey Jaffer and Tom Lord and Miles Bader.,85
+GNU Octave|Octave,The language timeline dates its development to 1988.,60
+Go|Golang,Dated to 2009 in the language timeline; development is credited to Google.,30
+Go!|Go bang,First appeared in 2003; PLDB credits its creation to Francis McCabe and Keith Clark.,100
+Game Oriented Assembly Lisp|GOAL,First appeared in 1993; PLDB credits its creation to Andy Gavin.,100
+Gödel,First appeared in 1992; PLDB credits its creation to John Lloyd and Patricia Hill.,100
+Golo,First appeared in 2012; PLDB credits its creation to Webmaster.,100
+Good Old Mad,Dated to 1965 in the language timeline; development is credited to University of Michigan.,100
+Google Apps Script|Apps Script,PLDB dates its first public appearance to 2009.,100
+Gosu,Dated to 2002 in the language timeline; development is credited to Guidewire Software.,100
+GOTRAN,PLDB dates its first public appearance to 1959.,100
+General Purpose Simulation System,"Dated to 1961 in the language timeline; development is credited to Geoffrey Gordon, IBM.",100
+GraphTalk,,100
+GRASS,Dated to 1974 in the language timeline; development is credited to Thomas A. DeFanti.,100
+Grasshopper,,100
+Groovy|Apache Groovy,Dated to 2004 in the language timeline; development is credited to James Strachan.,60
+Hack,Dated to 2014 in the language timeline; development is credited to Facebook.,85
+HAGGIS,PLDB dates its first public appearance to 2010.,100
+HAL/S,Dated to 1978 in the language timeline; development is credited to designed by Intermetrics for NASA.,100
+Halide,,85
+Hamilton C shell,Dated to 1988 in the language timeline; development is credited to Nicole Hamilton.,100
+Harbour,,85
+Hartmann pipelines,,100
+Haskell,The language timeline dates its development to 1990.,60
+Haxe,Dated to 2005 in the language timeline; development is credited to Nicolas Cannasse.,85
+Hermes,,100
+High Level Assembly|HLA,First appeared in 2011; PLDB credits its creation to Randall Hyde.,100
+High Level Shader Language|HLSL,,85
+Hollywood,,100
+HolyC,First appeared in 2005; PLDB credits its creation to Terry A. Davis.,85
+Hop,,100
+Hope,PLDB dates its first public appearance to 1978.,100
+Hopscotch,Dated to 2013 in the language timeline; development is credited to Hopscotch Technologies.,100
+Hume,First appeared in 2000; its credited designer is Kevin Hammond Greg Michaelson.,100
+HyperTalk,Dated to 1987 in the language timeline; development is credited to Apple Computer.,85
+Hy,Dated to 2013 in the language timeline; development is credited to Paul Tagliamonte.,85
+IBM Basic Assembly Language,,100
+IBM Informix-4GL,Dated to 1986 in the language timeline; development is credited to Informix.,100
+IBM RPG|RPG,Dated to 1964 in the language timeline; development is credited to IBM.,85
+Icon,Dated to 1977 in the language timeline; development is credited to Ralph Griswold.,85
+IDL,Dated to 1977 in the language timeline; development is credited to David Stern of Research Systems Inc.,85
+Idris,Dated to 2009 in the language timeline; development is credited to Edwin Brady.,85
+Inform,,85
+Instruction List,,100
+Io,Dated to 2002 in the language timeline; development is credited to Steve Dekorte.,85
+ISLISP,Dated to 1997 in the language timeline; development is credited to ISO Standard ISLISP.,100
+J,"Dated to 1990 in the language timeline; development is credited to Kenneth E. Iverson , Roger Hui at Iverson Software.",85
+J#|J sharp,PLDB dates its first public appearance to 2002.,85
+J++|J plus plus|Visual J++|Visual J plus plus,PLDB dates its first public appearance to 1996.,85
+JADE,"Its original uses are classified as application, distributed.",100
+JAL,PLDB dates its first public appearance to 2000.,100
+Janus (concurrent constraint),First appeared in 1990; PLDB credits its creation to Ken Kahn.,100
+Janus (reversible)|Janus,First appeared in 1982; PLDB credits its creation to Christopher Lutz and Howard Derby and Tetsuo Yokoyama and Robert Glück.,85
+JASS,,100
+Java,Dated to 1995 in the language timeline; development is credited to James Gosling at Sun Microsystems.,10
+JavaFX Script,PLDB dates its first public appearance to 2005.,100
+JavaScript|JS,Dated to 1995 in the language timeline; development is credited to Brendan Eich at Netscape.,10
+JCL,PLDB dates its first public appearance to 1964.,85
+JEAN,PLDB dates its first public appearance to 1960.,100
+Jess,,100
+Join Java,Dated to 2000 in the language timeline; development is credited to G Stewart von Itzstein.,100
+JOSS,"Dated to 1963 in the language timeline; development is credited to Cliff Shaw, RAND.",100
+Joule,First appeared in 1996; PLDB credits its creation to E. Dean Tribble.,100
+JOVIAL,PLDB dates its first public appearance to 1960.,100
+Joy,Dated to 2001 in the language timeline; development is credited to Manfred von Thun.,100
+jq,"Its original uses are classified as ""awk for json"".",85
+JScript,PLDB dates its first public appearance to 1996.,85
+JScript .NET,,85
+Julia,"Dated to 2012 in the language timeline; development is credited to Jeff Bezanson , Stefan Karpinski , Viral Shah , Alan Edelman , MIT.",60
+Jython,PLDB dates its first public appearance to 2001.,85
+K,Dated to 1993 in the language timeline; development is credited to Arthur Whitney.,85
+Kaleidoscope,PLDB dates its first public appearance to 1994.,100
+Karel,First appeared in 1981; PLDB credits its creation to Richard E. Pattis.,85
+KEE,,100
+Kent Recursive Calculator|KRC,First appeared in 1981; PLDB credits its creation to David Turner.,100
+KiXtart,PLDB dates its first public appearance to 1991.,85
+Klerer-May System,,100
+Knowledge Interchange Format|KIF,PLDB dates its first public appearance to 1990.,100
+Kodu,PLDB dates its first public appearance to 2009.,100
+Kojo,,100
+Kotlin|KT,Dated to 2011 in the language timeline; development is credited to JetBrains.,30
+KRL (knowledge representation)|KRL,"Dated to 1971 in the language timeline; development is credited to Daniel G. Bobrow at Xerox PARC , Terry Winograd at Stanford University.",85
+KUKA Robot Language|KUKA KRL,PLDB dates its first public appearance to 2010.,100
+KRYPTON,,100
+KornShell|ksh,Dated to 1983 in the language timeline; development is credited to David Korn.,85
+Kv,,100
+LabVIEW|Laboratory Virtual Instrument Engineering Workbench,Dated to 1986 in the language timeline; development is credited to National Instruments.,60
+Ladder|Ladder logic,PLDB dates its first public appearance to 1994.,60
+Language H,PLDB dates its first public appearance to 1962.,100
+LANSA,,100
+Lasso,Dated to 1996 in the language timeline; development is credited to Blue World Communications.,100
+LC-3,,100
+Lean,,85
+Legoscript,,100
+LIL,First appeared in 1974; PLDB credits its creation to P. J. Plauger.,100
+LilyPond,PLDB dates its first public appearance to 1996.,85
+Limbo,First appeared in 1995; PLDB credits its creation to Rob Pike.,85
+LINC,PLDB dates its first public appearance to 1980.,100
+Lingo,PLDB dates its first public appearance to 1988.,85
+LINQ,,85
+LIS,Dated to 1973 in the language timeline; development is credited to Jean Ichbiah et al. at CII Honeywell Bull.,100
+LISA,,100
+Lisp,Dated to 1956–58 in the language timeline; development is credited to John McCarthy.,30
+Lithe,PLDB dates its first public appearance to 1982.,100
+Little b,"Dated to 2004 in the language timeline; development is credited to Aneil Mallavarapu, Harvard Medical School , Department of Systems Biology.",100
+LiveCode|Transcript,"Its original uses are classified as application, rad, general.",85
+LiveScript,First appeared in 2011; PLDB credits its creation to Jeremy Ashkenas and Satoshi Murakami and George Zahariev.,85
+LLL,First appeared in 2015; PLDB credits its creation to Vitalik Buterin.,100
+Logo,"Dated to 1968 in the language timeline; development is credited to Wally Feurzeig , Seymour Papert , Cynthia Solomon.",60
+Logtalk,Dated to 1998 in the language timeline; development is credited to Paulo Moura (then at University of Coimbra ).,85
+LotusScript,PLDB dates its first public appearance to 1996.,85
+LPC,Dated to 1989 in the language timeline; development is credited to Lars Pensjö.,100
+LSE,PLDB dates its first public appearance to 1971.,100
+LSL,Its original uses are classified as virtual worlds content scripting and animation.,100
+Lua,"Dated to 1993 in the language timeline; development is credited to Roberto Ierusalimschy et al. at Tecgraf, PUC-Rio.",60
+Luau,,85
+Lucid,First appeared in 1976; PLDB credits its creation to Edward A. Ashcroft and William W. Wadge.,100
+Lustre,PLDB dates its first public appearance to 1993.,85
+LYaPAS,First appeared in 1964; PLDB credits its creation to Arkady D.Zakrevskij.,100
+Lynx,PLDB dates its first public appearance to 1984.,100
+M Formula language|Power Query M,,100
+M4,First appeared in 1977; PLDB credits its creation to Brian Kernighan and Dennis Ritchie.,85
+Machine code,,60
+MAD,Dated to 1965 in the language timeline; development is credited to University of Michigan.,100
+MAD/I,Dated to 1965 in the language timeline; development is credited to University of Michigan.,100
+Magik,"Dated to 1989 in the language timeline; development is credited to Arthur Chance, of Smallworld Systems Ltd.",85
+Magma,,85
+Maple,"Its original uses are classified as symbolic computation, numerical computing.",60
+MAPPER,Dated to 1968 in the language timeline; development is credited to Unisys.,100
+MARK-IV,Dated to 1964 in the language timeline; development is credited to Informatics.,100
+Mary,PLDB dates its first public appearance to 1970.,100
+MASM,PLDB dates its first public appearance to 1981.,85
+MATLAB|Matrix Laboratory,Dated to 1978? in the language timeline; development is credited to Cleve Moler at the University of New Mexico.,30
+MATH-MATIC,PLDB dates its first public appearance to 1957.,100
+Maude system,,100
+Max,PLDB dates its first public appearance to 1990.,85
+Maxima,PLDB dates its first public appearance to 1982.,85
+MaxScript,,85
+Maya Embedded Language|MEL,PLDB dates its first public appearance to 2013.,85
+MDL,PLDB dates its first public appearance to 1971.,100
+Mercury,Dated to 1995 in the language timeline; development is credited to Zoltan Somogyi at University of Melbourne.,85
+Mesa,Dated to 1976 in the language timeline; development is credited to Xerox PARC.,100
+MHEG-5,PLDB dates its first public appearance to 1997.,100
+Microcode,,100
+Microsoft Power Fx,"Dated to 2021 in the language timeline; development is credited to Vijay Mital, Robin Abraham, Shon Katzenberger, Darryl Rubin, Microsoft.",85
+MIIS,PLDB dates its first public appearance to 1986.,100
+MIMIC,"Dated to 1964 in the language timeline; development is credited to H. E. Petersen, et al..",100
+Mirah,First appeared in 2009; PLDB credits its creation to Charles Oliver Nutter.,100
+Miranda,Dated to 1986 in the language timeline; development is credited to David Turner at University of Kent.,85
+MIVA Script,PLDB dates its first public appearance to 1996.,100
+ML,Dated to 1973 in the language timeline; development is credited to Robin Milner.,85
+Model 204,PLDB dates its first public appearance to 1972.,100
+Modelica,PLDB dates its first public appearance to 1997.,85
+Modula,First appeared in 1975; its credited designer is Niklaus Wirth.,85
+Modula-2,Dated to 1979 in the language timeline; development is credited to Niklaus Wirth.,85
+Modula-3,"Dated to 1989 in the language timeline; development is credited to Cardeli, et al. DEC and Olivetti.",85
+Mohol,,100
+Mojo,Dated to 2023 in the language timeline; development is credited to Modular.,85
+MOO,PLDB dates its first public appearance to 1993.,100
+Mortran,PLDB dates its first public appearance to 1973.,100
+Mouse,PLDB dates its first public appearance to 1970.,100
+MPD,,100
+MSL,First appeared in 1995; PLDB credits its creation to Khaled Mardam-Bey.,100
+MUMPS|M,Dated to 1967 in the language timeline; development is credited to Massachusetts General Hospital.,85
+MuPAD,PLDB dates its first public appearance to 1997.,100
+Mystic Programming Language|MPL,,100
+Napier88,PLDB dates its first public appearance to 1989.,100
+NASM,PLDB dates its first public appearance to 1996.,85
+Neko,First appeared in 2005; PLDB credits its creation to Nicolas Cannasse.,100
+NELIAC,PLDB dates its first public appearance to 1958.,100
+Nemerle,Dated to 2003 in the language timeline; development is credited to University of Wrocław.,100
+NESL,PLDB dates its first public appearance to 1993.,100
+Net.Data,,100
+NetLogo,First appeared in 1999; PLDB credits its creation to Uri Wilensky.,85
+NetRexx,Dated to 1996 in the language timeline; development is credited to Mike Cowlishaw.,100
+NewLISP,First appeared in 1991; PLDB credits its creation to Lutz Mueller.,85
+NEWP,PLDB dates its first public appearance to 1985.,100
+Newspeak,First appeared in 2006; PLDB credits its creation to Gilad Bracha.,85
+NewtonScript,Dated to 1993 in the language timeline; development is credited to Walter Smith.,100
+Nial,First appeared in 1981; PLDB credits its creation to Mike Jenkins.,100
+Nim|Nimrod,Dated to 2008 in the language timeline; development is credited to Andreas Rumpf.,85
+Nix,Dated to 2003 in the language timeline; development is credited to Eelco Dolstra.,85
+Nord Programming Language|NPL,"First appeared in 1974, with a procedural , imperative design.",100
+Not eXactly C|NXC,PLDB dates its first public appearance to 2006.,100
+Not Quite C|NQC,First appeared in 2017; PLDB credits its creation to Nora Sandler.,100
+Nu,First appeared in 2007; PLDB credits its creation to Tim Burks.,100
+Nullsoft Scriptable Install System|NSIS,PLDB dates its first public appearance to 2001.,85
+NWScript,PLDB dates its first public appearance to 2004.,100
+NXT-G,PLDB dates its first public appearance to 2006.,100
+o:XML,PLDB dates its first public appearance to 2002.,100
+Oak,PLDB dates its first public appearance to 1991.,100
+Oberon,Dated to 1987 in the language timeline; development is credited to Niklaus Wirth.,85
+OBJ2,,100
+Object Lisp,,100
+ObjectLOGO,PLDB dates its first public appearance to 1993.,100
+Object REXX|ooRexx,Dated to 1988 in the language timeline; development is credited to Simon C. Nash.,85
+Object Pascal,Dated to 1986 in the language timeline; development is credited to Apple Computer.,85
+Objective-C,Dated to 1983 in the language timeline; development is credited to Brad Cox.,60
+Obliq,PLDB dates its first public appearance to 1993.,100
+OCaml|Objective Caml,Dated to 1996 in the language timeline; development is credited to INRIA.,60
+occam,Dated to 1983 in the language timeline; development is credited to David May.,85
+occam-π|occam pi,PLDB dates its first public appearance to 2005.,100
+OmniMark,,100
+Opa,Dated to 2011 in the language timeline; development is credited to MLstate.,100
+Opal,PLDB dates its first public appearance to 1994.,100
+Open Programming Language|OPL,Dated to 1984 in the language timeline; development is credited to Psion.,100
+OpenCL,PLDB dates its first public appearance to 2009.,85
+OpenEdge Advanced Business Language|ABL,PLDB dates its first public appearance to 2006.,100
+OpenQASM,,85
+OPS5,PLDB dates its first public appearance to 1977.,100
+OptimJ,Dated to 2006 in the language timeline; development is credited to Ateji.,100
+Orc,First appeared in 2004; PLDB credits its creation to Jayadev Misra.,100
+ORCA/Modula-2,,100
+Oriel,,100
+Orwell,First appeared in 1984; its credited designer is Philip Wadler.,100
+Oxygene,Dated to 2005 in the language timeline; development is credited to RemObjects Software.,100
+Oz,"First appeared in 1991; its credited designers include Gert Smolka, his students.",85
+P,"Dated to 2012 in the language timeline; development is credited to Vivek Gupta, Ethan Jackson, Shaz Qadeer, Sriram Rajamani, Microsoft.",85
+P4,Dated to 2013 in the language timeline; development is credited to P4 Language Consortium ( P4.org ).,85
+P double prime|P′′|P''|P prime prime,Dated to 1964 in the language timeline; development is credited to Corrado Böhm.,100
+ParaSail,"Dated to 2009 in the language timeline; development is credited to S. Tucker Taft, AdaCore.",100
+PARI/GP,PLDB dates its first public appearance to 1985.,85
+Pascal,"Dated to 1970 in the language timeline; development is credited to Niklaus Wirth , Kathleen Jensen.",30
+Pascal Script,PLDB dates its first public appearance to 2000.,100
+PCASTL,,100
+PCF,,100
+PDL,"Dated to 1996 in the language timeline; development is credited to Karl Glazebrook , Jarle Brinchmann, Tuomas Lukka, and Christian Soeller.",100
+PEARL,PLDB dates its first public appearance to 1977.,100
+PeopleCode,PLDB dates its first public appearance to 2008.,100
+Perl,Dated to 1987 in the language timeline; development is credited to Larry Wall.,30
+Pharo,PLDB dates its first public appearance to 2008.,85
+PHP,Dated to 1995 in the language timeline; development is credited to Rasmus Lerdorf.,30
+Pico,,85
+Picolisp,,85
+Pict,PLDB dates its first public appearance to 1992.,100
+Pike,Dated to 1994 in the language timeline; development is credited to Fredrik Hübinette et al. at Linköping University.,85
+PILOT,"Dated to 1968 in the language timeline; development is credited to John Amsden Starkweather , University of California, San Francisco.",85
+Pipelines,,100
+Pizza,PLDB dates its first public appearance to 2001.,100
+PL-11,PLDB dates its first public appearance to 1971.,100
+PL/0,First appeared in 1976; PLDB credits its creation to Niklaus Wirth.,100
+PL/B,PLDB dates its first public appearance to 1972.,100
+PL/C,PLDB dates its first public appearance to 1973.,100
+PL/I,Dated to 1964 in the language timeline; development is credited to IBM.,85
+PL/M,Dated to 1972 in the language timeline; development is credited to Gary Kildall at Digital Research.,100
+PL/P,PLDB dates its first public appearance to 1978.,100
+PL/S,,100
+PL/SQL,PLDB dates its first public appearance to 1991.,85
+PL360,Dated to 1965 in the language timeline; development is credited to Niklaus Wirth.,100
+PLANC,,100
+Plankalkül,Dated to 1943–45/46 in the language timeline; development is credited to Konrad Zuse.,85
+Planner,First appeared in 1969; PLDB credits its creation to Carl Hewitt.,100
+PLEX,PLDB dates its first public appearance to 1975.,100
+PLEXIL,PLDB dates its first public appearance to 2005.,100
+Plus,"Its original uses are classified as application, system development.",100
+Pony,Dated to 2015 in the language timeline; development is credited to Sylvan Clebsch.,85
+POP-11,PLDB dates its first public appearance to 1999.,85
+POP-2,Dated to 1970 in the language timeline; development is credited to Robin Popplestone.,100
+PostScript,Dated to 1982 in the language timeline; development is credited to Warnock.,60
+PortablE,First appeared in 1993; its credited designer is Wouter van Oortmerssen.,100
+POV-Ray SDL,,100
+PowerBuilder,PLDB dates its first public appearance to 2010.,85
+Powerhouse,,100
+PowerShell,Dated to 2006 in the language timeline; development is credited to Microsoft.,60
+Polymorphic Programming Language|PPL,Dated to 1969 in the language timeline; development is credited to Thomas A. Standish at Harvard University.,100
+Processing|Processing.js,Dated to 2001 in the language timeline; development is credited to Casey Reas and Benjamin Fry.,85
+Prograph,PLDB dates its first public appearance to 1983.,100
+Project Verona,,100
+Prolog,Dated to 1972 in the language timeline; development is credited to Alain Colmerauer.,60
+PROMAL,The language timeline dates its development to 1986.,100
+Promela,PLDB dates its first public appearance to 1997.,85
+PROSE modeling language,Dated to 1974 in the language timeline; development is credited to CDC 6600 Cybernet Services.,100
+PROTEL,PLDB dates its first public appearance to 1975.,100
+Pro*C,PLDB dates its first public appearance to 1996.,100
+Pure,Dated to 1991 in the language timeline; development is credited to Albert Gräf.,100
+Pure Data,Dated to 1996 in the language timeline; development is credited to Miller Puckette.,85
+PureScript,Dated to 2013 in the language timeline; development is credited to Phil Freeman.,85
+Python|Python 3|Python 2,Dated to 1991 in the language timeline; development is credited to Guido van Rossum.,10
+Q,First appeared in 2003; PLDB credits its creation to Arthur Whitney.,85
+Q#|Q sharp,Dated to 2017 in the language timeline; development is credited to Microsoft.,85
+Qalb,First appeared in 2012; PLDB credits its creation to Ramsey Nasser.,100
+.QL,PLDB dates its first public appearance to 2007.,100
+QPL,,100
+QtScript,PLDB dates its first public appearance to 2008.,85
+QuakeC,First appeared in 1996; PLDB credits its creation to John Carmack.,85
+Quantum Computation Language,,100
+R,Dated to 1993 in the language timeline; development is credited to Robert Gentleman and Ross Ihaka.,30
+R++|R plus plus,PLDB dates its first public appearance to 1990.,100
+Racket,First appeared in 1995; its credited designer is PLT Inc..,85
+Raku|Perl 6,"Dated to 2015 in the language timeline; development is credited to Larry Wall , The Rakudo Team.",60
+RAPID,Dated to 1994 in the language timeline; development is credited to ABB.,85
+Rapira,First appeared in 1987; PLDB credits its creation to Andrey Ershov.,100
+Ratfiv,PLDB dates its first public appearance to 1980.,100
+Ratfor,Dated to 1976 in the language timeline; development is credited to Brian Kernighan.,100
+rc,First appeared in 1989; its credited designer is Tom Duff.,100
+Reason,Dated to 2016 in the language timeline; development is credited to Jordan Walke.,85
+REBOL,"Dated to 1997 in the language timeline; development is credited to Carl Sassenrath , Rebol Technologies.",85
+Red,Dated to 2011 in the language timeline; development is credited to Nenad Rakočević.,85
+Redcode,Dated to 1984 in the language timeline; development is credited to Alexander Dewdney and D.G. Jones.,100
+REFAL,Dated to 1968 in the language timeline; development is credited to Valentin Turchin.,100
+ReScript,Dated to 2020 in the language timeline; development is credited to Bloomberg L.P..,85
+REXX,Dated to 1979 in the language timeline; development is credited to Mike Cowlishaw at IBM.,85
+RPL,Dated to 1984 in the language timeline; development is credited to Hewlett-Packard.,85
+RSL,PLDB dates its first public appearance to 1994.,100
+RTL/2,First appeared in 1972; PLDB credits its creation to John Barnes.,100
+Ruby,Dated to 1995 in the language timeline; development is credited to Yukihiro Matsumoto.,30
+Rust,"Dated to 2010 in the language timeline; development is credited to Graydon Hoare, Mozilla.",30
+S,Dated to 1976 in the language timeline; development is credited to John Chambers at Bell Labs.,85
+S-Lang,Dated to 1992 in the language timeline; development is credited to John E. Davis.,85
+S-PLUS,PLDB dates its first public appearance to 1988.,85
+S2,PLDB dates its first public appearance to 2008.,100
+S3,PLDB dates its first public appearance to 1986.,100
+SA-C,PLDB dates its first public appearance to 1998.,100
+SabreTalk,,100
+SAIL,"Dated to 1970 in the language timeline; development is credited to Dan Swinehart, Bob Sproull.",100
+SAKO,"Dated to 1960 in the language timeline; development is credited to Leon Łukaszewicz, et al. , Polish Academy of Sciences.",100
+SAS,,60
+SASL,Dated to 1972 in the language timeline; development is credited to David Turner at University of St Andrews.,100
+Sather,Dated to 1990 in the language timeline; development is credited to Steve Omohundro.,85
+Sawzall,PLDB dates its first public appearance to 2003.,100
+SBL,,100
+Scala,Dated to 2003 in the language timeline; development is credited to Martin Odersky.,60
+Scheme,"Dated to 1975 in the language timeline; development is credited to Gerald Jay Sussman , Guy L. Steele Jr..",60
+Scilab,PLDB dates its first public appearance to 1990.,85
+Scratch,"Dated to 2002 in the language timeline; development is credited to Mitchel Resnick , Yasmin Kafai , John Maloney, Natalie Rusk, Evelyn Eastmond, Tammy Stern, Amon Millner, Jay Silver, and Brian Silverman.",30
+ScratchJr,,60
+Script.NET,PLDB dates its first public appearance to 2007.,100
+Sed,Dated to 1974 in the language timeline; development is credited to Lee E. McMahon of Bell Labs.,85
+Seed7,Dated to 2005 in the language timeline; development is credited to Thomas Mertes.,100
+Self,Dated to 1987 in the language timeline; development is credited to Sun Microsystems Inc..,85
+SenseTalk,First appeared in 2001; PLDB credits its creation to Douglas Simons.,100
+SequenceL,PLDB dates its first public appearance to 1989.,100
+Serpent,First appeared in 2015; PLDB credits its creation to Vitalik Buterin.,100
+SETL,Dated to 1969 in the language timeline; development is credited to Jack Schwartz at Courant Institute of Mathematical Sciences.,100
+Short Code,Dated to 1950 in the language timeline; development is credited to William F. Schmitt.,100
+SIGNAL,PLDB dates its first public appearance to 1982.,100
+SiMPLE,,100
+SIMPOL,,100
+SIMSCRIPT,PLDB dates its first public appearance to 1963.,100
+Simula,Dated to 1962 in the language timeline; development is credited to Ole-Johan Dahl (mostly).,85
+Simulink,PLDB dates its first public appearance to 1984.,60
+SISAL,First appeared in 1983; PLDB credits its creation to James McGraw.,100
+SKILL,"First appeared in 1990, with a functional , object-oriented design.",85
+SLIP,PLDB dates its first public appearance to 1960.,100
+SMALL,First appeared in 1980; its credited designer is Nevil Brownlee.,100
+Smalltalk,"Dated to 1972 in the language timeline; development is credited to Alan Kay , Adele Goldberg , Dan Ingalls , Xerox PARC.",60
+SML|Standard ML,The language timeline dates its development to 1984.,85
+Snap!,First appeared in 2011; PLDB credits its creation to Brian Harvey.,85
+SNOBOL|SPITBOL,"Dated to 1962 in the language timeline; development is credited to Ralph Griswold , et al..",85
+Snowball,,85
+SOL,PLDB dates its first public appearance to 1970.,100
+Solidity,"Dated to 2014 in the language timeline; development is credited to Gavin Wood , Ethereum.",60
+SOPHAEROS,,100
+Source,,100
+SPARK,Dated to 1988 in the language timeline; development is credited to Bernard A. Carré.,85
+Speakeasy,Dated to 1964 in the language timeline; development is credited to Stanley Cohen at Argonne National Laboratory.,100
+Speedcode,Dated to 1953 in the language timeline; development is credited to John W. Backus.,100
+SPIN,PLDB dates its first public appearance to 2006.,85
+SP/k,First appeared in 1974; PLDB credits its creation to Ric Holt and D.B. Wortman and D.T. Barnard and James Cordy.,100
+SPL,,100
+SPS,PLDB dates its first public appearance to 1959.,100
+SQL,Dated to 1972 in the language timeline; development is credited to IBM.,10
+SQR,PLDB dates its first public appearance to 1980.,100
+Squeak,"Dated to 1997 in the language timeline; development is credited to Alan Kay , et al. at Apple Computer.",85
+Squirrel,Dated to 2003 in the language timeline; development is credited to Alberto Demichelis.,85
+SR,PLDB dates its first public appearance to 1988.,100
+S/SL,PLDB dates its first public appearance to 1980.,100
+Starlogo,,100
+Stata,First appeared in 1985; PLDB credits its creation to William Gould.,60
+Stateflow,,100
+Strand,PLDB dates its first public appearance to 1989.,100
+Strongtalk,PLDB dates its first public appearance to 1994.,100
+Structured Text,,85
+Subtext,Dated to 2004 in the language timeline; development is credited to Jonathan Edwards.,100
+SuperCollider,PLDB dates its first public appearance to 1996.,85
+Superplan,Dated to 1951 in the language timeline; development is credited to Heinz Rutishauser.,100
+SuperTalk,PLDB dates its first public appearance to 1989.,100
+Swift,Dated to 2014 in the language timeline; development is credited to Apple Inc..,30
+Swift (parallel scripting),"Dated to 2007 in the language timeline; development is credited to University of Chicago , Argonne National Laboratory.",100
+SYCL,,100
+SYMPL,PLDB dates its first public appearance to 1970.,100
+T,PLDB dates its first public appearance to 1980.,100
+TACL,,100
+Tcl|Tcl/Tk,Dated to 1988 in the language timeline; development is credited to John Ousterhout.,85
+Tea,Dated to 1997 in the language timeline; development is credited to Jorge Nunes.,100
+TELCOMP,Dated to 1965 in the language timeline; development is credited to BBN.,100
+Tensilica Instruction Extension|TIE,,100
+TeX,First appeared in 1978; PLDB credits its creation to Donald Knuth.,60
+Text Adventure Development System|TADS,,100
+Text Editor and Corrector|TECO,,100
+Text Processing Utility|TPU,,100
+TMG,First appeared in 1968; PLDB credits its creation to Robert M. McClure.,100
+Tom,PLDB dates its first public appearance to 2001.,100
+TRAC,Dated to 1964 in the language timeline; development is credited to Calvin Mooers.,100
+Transact-SQL|T-SQL,PLDB dates its first public appearance to 1984.,85
+Transaction Application Language|TAL,PLDB dates its first public appearance to 2008.,100
+TTCN,PLDB dates its first public appearance to 1992.,100
+TTM,"Dated to 1968 in the language timeline; development is credited to Steven Caine and E. Kent Gordon, California Institute of Technology.",100
+Turing,"Dated to 1982 in the language timeline; development is credited to Ric Holt and James Cordy , at University of Toronto.",85
+TUTOR,Dated to 1969 in the language timeline; development is credited to Paul Tenczar & University of Illinois at Urbana–Champaign.,85
+TXL,First appeared in 1985; PLDB credits its creation to James Cordy.,100
+TypeScript|TS,"Dated to 2012 in the language timeline; development is credited to Anders Hejlsberg , Microsoft.",30
+Tynker,PLDB dates its first public appearance to 2012.,100
+Ubercode,PLDB dates its first public appearance to 2005.,100
+UCSD Pascal,PLDB dates its first public appearance to 1978.,85
+Umple,PLDB dates its first public appearance to 2008.,100
+Unicon,First appeared in 2008; PLDB credits its creation to Clint Jeffery.,100
+Uniface,PLDB dates its first public appearance to 1994.,100
+UNITY,PLDB dates its first public appearance to 1988.,100
+UnrealScript,Dated to 1998 in the language timeline; development is credited to Tim Sweeney at Epic Games.,85
+V|Vlang,Dated to 2019 in the language timeline; development is credited to Alexander Medvednikov.,85
+Vala,Dated to 2006 in the language timeline; development is credited to GNOME.,85
+Verse,,85
+Vim script|VimL,First appeared in 1991; PLDB credits its creation to Bram Moolenaar.,60
+Vyper|Viper,First appeared in 2015; PLDB credits its creation to Vitalik Buterin.,85
+Visual DataFlex,PLDB dates its first public appearance to 1982.,100
+Visual DialogScript,PLDB dates its first public appearance to 2000.,100
+Visual FoxPro,Its original uses are classified as application.,60
+Visual LISP,First appeared in 1986; PLDB credits its creation to David Betz.,85
+Visual Objects,PLDB dates its first public appearance to 1994.,100
+Visual Prolog,Its original uses are classified as application.,100
+WATFIV|WATFOR,PLDB dates its first public appearance to 1968.,100
+WebAssembly|WASM,First appeared in 2015; PLDB credits its creation to Alon Zakai.,60
+WebGPU Shading Language|WGSL,,85
+Whiley,Dated to 2009 in the language timeline; development is credited to David J. Pearce.,100
+Wolfram Language,Dated to 1988 in the language timeline; development is credited to Wolfram Research.,60
+Wyvern,PLDB dates its first public appearance to 2012.,100
+X++|X plus plus,,100
+X10,First appeared in 2004; PLDB credits its creation to Kemal Ebcioğlu and Saravanan Arumugam and Vijay Saraswat and Vivek Sarkar.,100
+XBL,PLDB dates its first public appearance to 2000.,100
+XC,PLDB dates its first public appearance to 2005.,100
+XL,Its original uses are classified as .,100
+Xod,,100
+Xojo,"Dated to 1998 in the language timeline; development is credited to Xojo, Andrew Barry.",100
+XOTcl,First appeared in 2000; PLDB credits its creation to Gustaf Neumann and Uwe Zdun.,100
+XPL,"Dated to 1967 in the language timeline; development is credited to William M. McKeeman, et al. at University of California, Santa Cruz J. J. Horning , et al. at Stanford University.",100
+XPL0,PLDB dates its first public appearance to 1976.,100
+XQuery,"Its original uses are classified as databases, data processing, scripting.",85
+XSB,,100
+XSLT,,85
+Xtend,First appeared in 2011; PLDB credits its creation to Sven Efftinge and Sebastian Zarnekow.,85
+Yorick,First appeared in 1996; PLDB credits its creation to David H. Munro.,100
+YQL,,100
+Z++|Z plus plus,PLDB dates its first public appearance to 1991.,100
+Z shell|Zsh,Dated to 1990 in the language timeline; development is credited to Paul Falstad at Princeton University.,60
+Zebra Programming Language|Zebra|ZPL|ZPL2,,85
+ZetaLisp,,100
+Zig,Dated to 2016 in the language timeline; development is credited to Andrew Kelley.,85
+Zonnon,First appeared in 2003; PLDB credits its creation to Jürg Gutknecht.,100
+ZOPL,PLDB dates its first public appearance to 1979.,100
+ZPL (parallel language),Dated to 1993 in the language timeline; development is credited to Chamberlain et al. at University of Washington.,100

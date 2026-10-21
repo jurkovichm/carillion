@@ -1,0 +1,912 @@
+{
+  "packDate": "2026-10-21",
+  "researched": "2026-10-20",
+  "completed": "2026-10-21",
+  "scoring": "Curated recall rarity; 15 is the special QUIRKY exception, not an ordinary intermediate tier.",
+  "questions": [
+    {
+      "prompt": "Russian Presidents / Soviet Leaders",
+      "answers": 11,
+      "blankBlurbs": [],
+      "scopeAndReconciliation": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User selected Russian presidents plus de facto Soviet leaders. Eleven people: eight conventional Soviet leaders, including Malenkov, and the three elected Russian presidents Yeltsin, Putin and Medvedev. Repeated terms share a catch. Acting-only Russian officeholders, disputed claimants, tsars, collective-leadership colleagues and merely formal Soviet heads of state/government are excluded. Membership reconciled with https://www.history.com/articles/soviet-union-leaders-order and https://en.wikipedia.org/wiki/List_of_presidents_of_Russia . Useful surnames and transliterations are accepted. Research snapshot 20 October 2026. Additional verified name aliases are recorded in creative-sweep.json."
+    },
+    {
+      "prompt": "UK Prime Ministers",
+      "answers": 59,
+      "blankBlurbs": [],
+      "scopeAndReconciliation": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. One person per catch, including the conventional British list from Walpole in 1721 and repeat terms only once. The official past-PM catalogue supplied 58 people, plus Andy Burnham from https://www.gov.uk/government/ministers/prime-minister and https://www.gov.uk/government/speeches/andy-burnhams-first-speech-as-prime-minister-20-july-2026 . Cross-checked against https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_United_Kingdom . Snapshot 20 October 2026. Bare Pitt and William Pitt mean the Younger; the Elder requires a qualifier or Chatham. Grenville means George Grenville, while William Grenville requires William or his title. Peerage titles and familiar surnames count. Dates in blurbs follow the government catalogue. Additional verified name aliases are recorded in creative-sweep.json."
+    },
+    {
+      "prompt": "Programming Languages",
+      "answers": 669,
+      "blankBlurbs": [
+        "ACC",
+        "Accent",
+        "AdvPL",
+        "Agilent VEE",
+        "Apex",
+        "MIT App Inventor",
+        "Axum",
+        "Babbage",
+        "Boomerang",
+        "C*",
+        "Calcpad",
+        "Catrobat",
+        "CESIL",
+        "Céu",
+        "Charm",
+        "CHICKEN",
+        "CLIPS",
+        "COMPASS",
+        "Concurrent Pascal",
+        "Constraint Handling Rules",
+        "Control Language",
+        "Darwin",
+        "Dog",
+        "Emerald",
+        "es",
+        "Escher",
+        "EusLisp Robot Programming Language",
+        "FFP",
+        "Flix",
+        "FOCUS",
+        "FoxBase/FoxPro",
+        "Franz Lisp",
+        "Futhark",
+        "GAP",
+        "Geometric Description Language",
+        "GraphTalk",
+        "Grasshopper",
+        "Halide",
+        "Harbour",
+        "Hartmann pipelines",
+        "Hermes",
+        "High Level Shader Language",
+        "Hollywood",
+        "Hop",
+        "IBM Basic Assembly Language",
+        "Inform",
+        "Instruction List",
+        "JASS",
+        "Jess",
+        "JScript .NET",
+        "KEE",
+        "Klerer-May System",
+        "Kojo",
+        "KRYPTON",
+        "Kv",
+        "LANSA",
+        "LC-3",
+        "Lean",
+        "Legoscript",
+        "LINQ",
+        "LISA",
+        "Luau",
+        "M Formula language",
+        "Machine code",
+        "Magma",
+        "Maude system",
+        "MaxScript",
+        "Microcode",
+        "Mohol",
+        "MPD",
+        "Mystic Programming Language",
+        "Net.Data",
+        "OBJ2",
+        "Object Lisp",
+        "OmniMark",
+        "OpenQASM",
+        "ORCA/Modula-2",
+        "Oriel",
+        "PCASTL",
+        "PCF",
+        "Pico",
+        "Picolisp",
+        "Pipelines",
+        "PL/S",
+        "PLANC",
+        "POV-Ray SDL",
+        "Powerhouse",
+        "Project Verona",
+        "QPL",
+        "Quantum Computation Language",
+        "SabreTalk",
+        "SAS",
+        "SBL",
+        "ScratchJr",
+        "SiMPLE",
+        "SIMPOL",
+        "Snowball",
+        "SOPHAEROS",
+        "Source",
+        "SPL",
+        "Starlogo",
+        "Stateflow",
+        "Structured Text",
+        "SYCL",
+        "TACL",
+        "Tensilica Instruction Extension",
+        "Text Adventure Development System",
+        "Text Editor and Corrector",
+        "Text Processing Utility",
+        "Verse",
+        "WebGPU Shading Language",
+        "X++",
+        "Xod",
+        "XSB",
+        "XSLT",
+        "YQL",
+        "Zebra Programming Language",
+        "ZetaLisp"
+      ],
+      "scopeAndReconciliation": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User selected the linked index as the exact membership boundary: 674 alphabetic entries reconcile to 669 catches after five duplicate/renamed entries are merged (Coq/Rocq, IBM RPG/RPG, J++/Visual J++, LiveCode/Transcript, Clarion/Topspeed). Individually listed dialects remain distinct. Names merely linked as context, such as a vendor, do not become answers. HTML, XML, unlisted BASIC dialects and unlisted esolangs are outside this defined set. Cg does not own HLSL; HLSL belongs to High Level Shader Language. Swift means Apple Swift; the parallel language needs its qualifier. Bare Janus means the reversible language; the concurrent-constraint language requires its qualifier. Bare ZPL means Zebra Programming Language, not the parallel language. ALGOL means ALGOL 60. KRL means the knowledge-representation language; the KUKA language requires KUKA. A question-specific matching mode preserves punctuation and non-ASCII symbols while ignoring case, accents and whitespace; spelled-out aliases support C plus plus, C sharp and similar forms. Other questions retain existing normalization. Membership was reconciled against the full index; supporting facts come from linked articles, https://en.wikipedia.org/wiki/Timeline_of_programming_languages , https://en.wikipedia.org/wiki/Comparison_of_programming_languages and the public-domain PLDB dataset https://pldb.io/csv.html . The full PLDB dataset and the initial Rosetta Code category page were consulted as comparison sources, not permission to expand membership; Rosetta Code pagination was not fully reconciled. Some article fetches returned rate limits; unverified distinguishing facts remain blank and are enumerated in the audit. Additional verified name aliases are recorded in creative-sweep.json."
+    },
+    {
+      "prompt": "Types of Engineering",
+      "answers": 380,
+      "blankBlurbs": [],
+      "scopeAndReconciliation": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User selected the defining page including its listed subcategories and unusual entries. Scope includes the six primary headings, all body-table disciplines, named major specialties and explicitly named sub-specialties; it excludes navigation templates, references and incidental nouns inside explanatory descriptions. Consequently source-listed subjects and equipment such as cameras, chemistry and pumps are accepted even though they are not normally standalone engineering disciplines. Source taxonomy is retained as a house rule, not a claim that every entry is an accredited branch. The 72 table rows and their specialty lists were reconciled; duplicates and equivalent wording merge. Related genuinely distinct specialties remain separate. Biological engineering owns Bioengineering; Electronic engineering owns Electronics; Biomechanical engineering owns Biomechanics; Hydraulic engineering owns Hydraulics; Naval architecture owns Naval engineering; Fire protection engineering owns Fire engineering; manufacturing, construction, robotics and control shorthand map to their basic engineering fields. Production remains the source-listed supply-chain topic, separate from Production engineering, and Quality control is separate from Quality assurance/Quality engineering. Broad engineering suffixes may be omitted when unambiguous. ABET https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2026-2027/ was consulted to distinguish standard program fields from the broader user-defined list. Many blurbs record the source’s parent-specialty classification rather than claim a separate definition. Final creative sweep (21 October): includes the named techniques, non-technical fields, exploratory fields and engineering-studies topics in the defining page’s See also section; outline/glossary/history links and navigation remain excluded. Bare Social engineering means the security discipline; the political-science discipline requires its qualifier. See creative-sweep.json for candidates and evidence."
+    },
+    {
+      "prompt": "Calvin and Hobbes Characters",
+      "answers": 97,
+      "blankBlurbs": [
+        "Leaf Pile",
+        "Zorg",
+        "Alien",
+        "Doctor",
+        "Bees",
+        "Ronald",
+        "Maurice",
+        "Winslow",
+        "Bath Foam",
+        "Bed Cover Monster",
+        "Owl",
+        "Bloodsucking Freak",
+        "Pig",
+        "Armadillo",
+        "Ape",
+        "Duck",
+        "Calvin's Skeleton",
+        "Frank",
+        "Charlie",
+        "Jessica",
+        "Filthy Rich",
+        "Shorty",
+        "Zarch",
+        "Mrs. Carroll",
+        "Gym Instructor",
+        "Pete",
+        "Russy White",
+        "Maggot-Man",
+        "X-387 Robot Probe",
+        "The World's Most Powerful Computer",
+        "Huge bird foot",
+        "Hyperbubble",
+        "Pulp 'n Stuff"
+      ],
+      "scopeAndReconciliation": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User chose the entire defining page, including minor figures, alter egos, transformations, inventions and foods. Its 98 listed entries yield 97 catches: the navigation-style umbrella “Many of Calvin’s alter egos” is excluded because its named forms are individually represented. A named alter ego/transformation is a separate catch under this list-defined scope. Mom, Dad and Teacher-style names are not aliases for imagined superhero identities. Monster means the transmogrifier form; bedroom monsters require their context. Charlie means the unqualified minor entry; the barber requires Barber or Charlie the barber. Tommy and Tommy Chesnutt are separate source entries. Cardboard box does not award a rarer named device. Toast and Toaster share the source’s combined entry. The direct Fandom fetch was blocked, but its full indexed page text was available through search; comparison sources https://en.wikipedia.org/wiki/List_of_Calvin_and_Hobbes_characters and https://syndication.andrewsmcmeel.com/features/calvin-and-hobbes/ support core character facts. Unverified distinguishing blurbs remain blank. Tuna is QUIRKY 15 because it is familiar and unexpectedly eligible through the explicit food list. User-requested generous scoring override: ordinary scores move one tier upward (10→30, 30→60, 60→85, 85→100), capped at 100. Calvin and Hobbes each retain 10 as explicit user-selected obvious anchors. Tuna retains the separate QUIRKY 15 designation. These scores intentionally reward this question more generously than the base recall-rarity calibration.",
+      "scoringOverride": {
+        "reason": "User requested more generous Calvin and Hobbes scoring, with Calvin and Hobbes themselves explicitly at 10; preserve special QUIRKY designation",
+        "changes": [
+          {
+            "answer": "Calvin",
+            "before": 10,
+            "after": 10
+          },
+          {
+            "answer": "Hobbes",
+            "before": 10,
+            "after": 10
+          },
+          {
+            "answer": "Calvin's father",
+            "before": 10,
+            "after": 30
+          },
+          {
+            "answer": "Calvin's mother",
+            "before": 10,
+            "after": 30
+          },
+          {
+            "answer": "Susie Derkins",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Miss Wormwood",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Moe",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Rosalyn",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Principal Spittle",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Assorted monsters in Calvin's room",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Spaceman Spiff",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Stupendous Man",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Tracer Bullet",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Dinosaurs",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Leaf Pile",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Zorg",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Alien",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Calvin the Bug",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Doctor",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Calvin's snowmen",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Calvin's Killer Bicycle",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Bees",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Mr. Bun",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Calvin in Inch-Tall Form",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Santa Claus",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Ronald",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Snow Goons",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Maurice",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Winslow",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Bath Foam",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Bed Cover Monster",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Uncle Max",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Tarzan",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Flower",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Chicken",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Monster",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Owl",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Bloodsucking Freak",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Crocodile",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Pig",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Armadillo",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Ape",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Duck",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Calvin's Good Side",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Calvin's Skeleton",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Calvin in Frankenstein Monster Form",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Raccoon",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Frank",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Charlie",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Calvin in Tiger Form",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Jessica",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Filthy Rich",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Baby Sitter Girl",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Mom-Lady",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Crab Teacher",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Frog",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Shorty",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Zarch",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Tommy Chesnutt",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Tommy",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Mrs. Carroll",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Extra duplicate",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Gym Instructor",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Charlie (Barber)",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Pete",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Russy White",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Maggot-Man",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "X-387 Robot Probe",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Food monsters",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Calvin's grandmother",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Transmogrifier",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Transmogrifier Gun",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Duplicator",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Ethicator",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Cerebral Enhance-O-Tron",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Time Machine",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Calvinball",
+            "before": 10,
+            "after": 30
+          },
+          {
+            "answer": "Sale stand",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Cardboard box",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "TV Screen",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Bed Making Robot",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "The World's Most Powerful Computer",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Flying Carpet",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Tiger Trap",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Invisible Cretinizer",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Writer's Block",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Huge bird foot",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Magic Elixir",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Chocolate Frosted Sugar Bombs",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Tuna",
+            "before": 15,
+            "after": 15
+          },
+          {
+            "answer": "Salmon",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Toast",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Lunch",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Dinner",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Hyperbubble",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Pulp 'n Stuff",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Blob of gelatinous muck",
+            "before": 100,
+            "after": 100
+          }
+        ]
+      }
+    },
+    {
+      "prompt": "Non-Stop Flights from MSP (Airport Code or City Name accepted)",
+      "answers": 158,
+      "blankBlurbs": [],
+      "scopeAndReconciliation": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User selected all currently advertised nonstop passenger destinations, including recurring seasonal routes, with one catch per destination city. Snapshot captured 20 October 2026: the complete live unfiltered FlightConnections and FlightsFrom catalogues agreed on 166 airport codes, consolidated into 158 destination groups. Full sources: https://www.flightconnections.com/flights-from-minneapolis-msp and https://www.flightsfrom.com/MSP/destinations . The official MSP page confirms the broad network but its full interactive map was not exposed in the downloaded page. Chicago ORD/MDW, Dallas DFW/DAL, Houston IAH/HOU, New York JFK/LGA/EWR, Phoenix PHX/AZA, Tampa TPA/PIE and Washington DCA/IAD are grouped. Baltimore remains separate from Washington; White Plains remains separate from New York. Portland, Oregon and Portland, Maine are distinct; bare Portland maps to Oregon. Airport towns and common marketed destination names share a catch where appropriate. Augusta is recurring Masters-season service, independently confirmed by https://news.delta.com/green-awaits-fly-deltas-largest-ever-schedule-and-new-routes-2026-masters and https://www.deltatakingaction.com/content/deltaactions/en/news/2026/jun/more-ways-to-augusta-delta-tees-up-expanded-schedule-for-masters-2027.html . DJT and former code PBI both count for West Palm Beach; change verified by https://flydjt.org/about/name-change-faqs/ . This is a dated route bank, not live availability or a guarantee that a flight operates today."
+    },
+    {
+      "prompt": "Countries bordering only one other country",
+      "answers": 40,
+      "blankBlurbs": [],
+      "scopeAndReconciliation": "Curated general-trivia recall rarity (adjusted for MSP familiarity), not measured response frequency: 10/30/60/85/100; 15 is a separate QUIRKY exception. One row is one catch. See coverage-audit.json and the per-category evidence files. User chose the full linked list including its subcategories and unusual entries. Forty catches cover its 15 ordinary sovereign-state entries plus disputed-state cases, fixed crossings, dependent territories, integral territories and historical entries. These are explicit source-defined house-rule inclusions; blurbs flag historical/fixed-crossing/disputed/territorial status. This is not a list of 40 current sovereign states with exactly one natural land neighbour. Canada and the Danish realm are historical exceptions following the 2022 Hans Island settlement, independently verified at https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html . The defining page has inaccurate or incomplete border details for Cyprus and the British base areas, and unconventional Antarctic claims; these entries are retained as requested but not presented as undisputed qualifying sovereign states. Japan, Korea, Scotland, England, Newfoundland and former colonies are retained only under the source’s historical section. Neighbour-column names are not independent entries merely because they appear in the table. Maritime-only neighbours are outside scope. Great Britain/Britain is accepted as familiar shorthand for UK in this game; Saint Martin and Sint Maarten remain separate catches. User-requested generous scoring override: every answer moves one ordinary tier upward (10→30, 30→60, 60→85, 85→100), capped at 100. These scores intentionally reward this question more generously than the base recall-rarity calibration.",
+      "scoringOverride": {
+        "reason": "User requested more generous border-question scoring",
+        "changes": [
+          {
+            "answer": "Lesotho",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "San Marino",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Vatican City",
+            "before": 10,
+            "after": 30
+          },
+          {
+            "answer": "Brunei",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Dominican Republic",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "The Gambia",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Haiti",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Ireland",
+            "before": 10,
+            "after": 30
+          },
+          {
+            "answer": "Monaco",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Papua New Guinea",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Portugal",
+            "before": 10,
+            "after": 30
+          },
+          {
+            "answer": "Qatar",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "South Korea",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Timor-Leste",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "United Kingdom",
+            "before": 10,
+            "after": 30
+          },
+          {
+            "answer": "Cyprus",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Northern Cyprus",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Bahrain",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Singapore",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Akrotiri and Dhekelia",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Gibraltar",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Ross Dependency",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Åland",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "French Southern and Antarctic Lands",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Greenland",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Saint Martin",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Sint Maarten",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Canada",
+            "before": 10,
+            "after": 30
+          },
+          {
+            "answer": "Denmark",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Korea",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Ciskei",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Venda",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Newfoundland",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Scotland",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "England",
+            "before": 30,
+            "after": 60
+          },
+          {
+            "answer": "Japan",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Weihaiwei",
+            "before": 100,
+            "after": 100
+          },
+          {
+            "answer": "Tasmania",
+            "before": 85,
+            "after": 100
+          },
+          {
+            "answer": "Hong Kong",
+            "before": 60,
+            "after": 85
+          },
+          {
+            "answer": "Macau",
+            "before": 60,
+            "after": 85
+          }
+        ]
+      }
+    }
+  ],
+  "creativeReview": [
+    "Leadership: acting-only presidents, coup claimants, tsars and collective-leadership colleagues considered and excluded under the agreed conventional leader scope.",
+    "Prime ministers: pre-1801 British predecessors, peerage titles, repeat terms, current holder and ambiguous family names checked.",
+    "Languages: shell languages, machine code, query languages, symbolic names, renamed projects, listed dialects and shared names checked; outside-index esolangs and markup excluded.",
+    "Engineering: overlapping departments, sub-specialties, equipment entries, equivalent names and parent-versus-specialty aliases reconciled under the source-defined boundary.",
+    "Calvin: alter egos, transformations, unnamed relatives, monsters, inventions, food, duplicate people names and navigation umbrella considered.",
+    "Routes: multi-airport cities, nearby marketed cities, same-name cities, event-only seasonal service, old airport codes and seasonal resumption checked.",
+    "Borders: artificial crossings, overseas territories, Antarctic claims, historical colonies, 2022 Hans Island changes and disputed-state boundaries checked.",
+    "21 October follow-up: recovered the engineering See also categories, and added verified birth surnames, PM nicknames and language short names. See creative-sweep.json."
+  ],
+  "remainingMatcherLimits": [
+    "The existing soft matcher can suggest an answer from a shared prefix or word; suggestions require confirmation. Generic topic words are not intentional aliases.",
+    "Programming-language punctuation is significant; common spelled-out forms are supplied as aliases, but arbitrary punctuation variants need not match."
+  ]
+}

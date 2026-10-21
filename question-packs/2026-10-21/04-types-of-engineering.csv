@@ -1,0 +1,381 @@
+ANSWER,Blurb,Worth
+Biomedical engineering|Biomedical,"Applies engineering methods to biology and medicine, including diagnostic and therapeutic technologies.",30
+Chemical engineering|Chemical,Designs and operates processes that transform raw materials into useful chemical products.,10
+Civil engineering|Civil,"Designs and maintains infrastructure such as buildings, transport networks and water systems.",10
+Electrical engineering|Electrical,"Works with electrical systems, from power generation to electronics and communications.",10
+Materials engineering|Material engineering|Materials|Material,Investigates and develops materials whose properties suit particular products and processes.,30
+Mechanical engineering|Mechanical,"Designs and analyzes machines, mechanical systems and the ways they transfer forces and energy.",10
+Bioinformatics,"Uses computational tools to organize and analyze biological information, including DNA data.",85
+Bioinstrumentation,Develops instruments used to measure biological processes and support diagnosis or treatment.,85
+Biomaterials,"Studies materials that interact with biological tissue, including materials used in medical implants.",85
+Biomechanical engineering|Biomechanics|Biomechanical,"Applies mechanical analysis to living systems, including movement, artificial organs and biological transport.",60
+Biomolecular engineering|Biomolecular,Designs biological systems and processes at the molecular scale.,85
+Clinical engineering|Clinical,Supports the management and safe use of medical technology in healthcare settings.,60
+Medical imaging,Produces and processes representations of biological structures using techniques such as MRI and CT.,85
+Neural engineering|Neural,"Develops technologies that interact with nervous systems, including brain–computer interfaces.",85
+Pharmaceutical engineering|Pharmaceutical,"Applies process engineering to pharmaceutical development, production and delivery.",60
+Regenerative medicine,"Develops methods to repair or replace tissues, including tissue engineering and stem-cell approaches.",85
+Electrochemical engineering|Electrochemical,"Designs electrochemical processes for applications such as chemical production, metal extraction and energy storage.",85
+Explosives engineering|Explosives,Applies engineering methods to the production and use of explosive materials.,85
+Molecular engineering|Molecular,Designs materials and processes by controlling molecular behaviour and interactions.,85
+Process engineering|Process,Develops and manages chemical and other industrial processes at production scale.,85
+Environmental engineering|Environmental,Applies environmental science to technologies for protecting ecosystems and public health.,30
+Geotechnical engineering|Geotechnical,Studies soil and rock behaviour to support foundations and other construction projects.,60
+Municipal engineering|Urban engineering|Municipal|Urban,Coordinates infrastructure networks and services within towns and cities.,85
+Structural engineering|Structural,Analyzes and designs structures that support loads and resist external forces.,30
+Transport engineering|Transportation engineering|Transportation|Transport,Designs infrastructure and facilities used to move people and goods.,60
+Water resources engineering|Water resources,"Applies hydrology to water management, supply and related infrastructure.",60
+Broadcast engineering|Broadcast,Develops and maintains the technical systems used in radio and television broadcasting.,85
+Computer engineering|Computer,Combines computing and electronics to design computer hardware and related systems.,10
+Electronic engineering|Electronics engineering|Electronic|Electronics,Designs circuits and systems using electronic components such as semiconductors.,30
+Microwave engineering|Microwave,Develops devices and systems operating at microwave frequencies.,85
+Optical engineering|Optical,"Designs technologies that generate, transmit, measure or otherwise use light.",60
+Power engineering|Power,"Designs systems for generating, transmitting and distributing electrical power.",60
+Ceramic engineering|Ceramic,The defining reference lists this subject among the specialties of engineering.,85
+Composite material engineering|Composite engineering|Composites engineering|Composite material,The defining reference lists this subject among the specialties of engineering.,85
+Computational materials science,The defining reference lists this subject among the specialties of engineering.,85
+Corrosion engineering|Corrosion,The defining reference lists this subject among the specialties of engineering.,85
+Electronic materials,The defining reference lists this subject among the specialties of engineering.,85
+Forensic materials engineering|Forensic materials,The defining reference lists this subject among the specialties of engineering.,85
+Material characterisation|Material characterization|Materials characterization,The defining reference lists this subject among the specialties of engineering.,85
+Metallurgical engineering|Metallurgy|Metallurgical,The defining reference lists this subject among the specialties of engineering.,60
+Nanotechnology,The defining reference lists this subject among the specialties of engineering.,60
+Polymer engineering|Polymer,The defining reference lists this subject among the specialties of engineering.,85
+Surface engineering|Surface,The defining reference lists this subject among the specialties of engineering.,85
+Welding engineering|Welding,The defining reference lists this subject among the specialties of engineering.,60
+Acoustical engineering|Acoustic engineering|Acoustics|Acoustical,"Analyzes and controls sound and vibration in structures, equipment and environments.",60
+Energy engineering|Energy,Improves the efficiency and sustainability of energy systems and services.,60
+Industrial plant engineering|Industrial plant,"Designs and maintains industrial machinery, equipment and supporting plant systems.",85
+Manufacturing engineering|Manufacturing,"Develops the technologies, processes and systems used to manufacture products.",60
+Optomechanical engineering|Optomechanics|Optomechanical,Designs the mechanical components and supports used in optical systems.,85
+Power plant engineering|Power plant,"Designs, constructs and maintains facilities that generate electricity.",85
+Sports engineering|Sports,Applies engineering design and analysis to sports equipment.,85
+Thermal engineering|Thermal,"Designs systems that heat, cool or otherwise manage thermal energy.",60
+Vehicle engineering|Vehicle,"Develops the systems used to propel, control and support vehicles.",85
+Agricultural engineering|Agricultural,"Develops agricultural machinery, structures and systems for handling biological materials and resources.",30
+Applied engineering|Applied,"Combines systems integration, manufacturing and technical management.",85
+Biological engineering|Bioengineering|Biological,Applies engineering methods to biological systems and useful biological products.,60
+Building services engineering|Building services,"Designs technical building services that support comfort, safety and efficient operation.",85
+Design engineering|Design,Uses engineering analysis and design methods to develop products and systems across disciplines.,60
+Electromechanics,"Studies and designs interacting electrical and mechanical systems, including motors and generators.",85
+Engineering physics,Applies advanced physics and mathematics to engineering problems across disciplines.,85
+Facilities engineering|Facilities,Develops systems that control and maintain indoor environments and facility operations.,60
+Geological engineering|Geological,"Applies geology to engineering projects, including mining, construction and environmental work.",60
+Geomatics engineering|Geomatics,"Develops systems for collecting, analyzing and using spatial information.",60
+Information engineering|Information,"Studies the generation, distribution, analysis and use of information in systems.",85
+Industrial engineering|Industrial,"Optimizes complex systems involving people, resources, information and technology.",30
+Mechatronics engineering|Mechatronics,"Combines mechanical, electronic and control technologies in automated and robotic systems.",60
+Military engineering|Military,"Develops military infrastructure such as fortifications, transport routes and communications facilities.",60
+Mining engineering|Mining,Develops methods and systems for extracting and processing naturally occurring mineral resources.,30
+Quantum engineering|Quantum,"Applies quantum theory to the design of materials, devices and information systems.",60
+Nuclear engineering|Nuclear,"Develops technologies involving nuclear processes, including reactors and radiation protection.",30
+Petroleum engineering|Petroleum,Designs systems for recovering oil and gas from underground reservoirs.,30
+Project engineering|Project,Coordinates the technical design and implementation work needed to deliver engineering projects.,60
+Software engineering|Software,"Applies systematic engineering approaches to software development, operation and maintenance.",10
+Supply chain engineering|Supply chain,Plans and designs systems for the movement of materials and products through supply chains.,60
+Systems engineering|Systems,Coordinates the design and management of complex systems across their life cycles.,60
+Textile engineering|Textile,"Applies engineering principles to fibres, textiles, apparel production and associated machinery.",60
+Computational biology,The defining reference lists this subject among the specialties of bioinformatics.,85
+Genomics,The defining reference lists this subject among the specialties of bioinformatics.,85
+Molecular modelling|Molecular modeling,The defining reference lists this subject among the specialties of bioinformatics.,85
+Systems analysis,The defining reference lists this subject among the specialties of bioinformatics.,85
+Database management,The defining reference lists this subject among the specialties of bioinformatics.,85
+Neuroscience,The defining reference lists this subject among the specialties of bioinstrumentation.,85
+Biomechatronics|Biomechatronics engineering,The defining reference lists this subject among the specialties of bioinstrumentation.,85
+Photonics,The defining reference lists this subject among the specialties of bioinstrumentation.,85
+Instrumentation engineering|Instrumentation,The defining reference lists this subject among the specialties of bioinstrumentation.,85
+Biosensors|Biosensor,The defining reference lists this subject among the specialties of bioinstrumentation.,85
+Medical devices,The defining reference lists this subject among the specialties of bioinstrumentation.,85
+Metalworking|Metal working,The defining reference lists this subject among the specialties of biomaterials.,60
+Biocompatibility,The defining reference lists this subject among the specialties of biomaterials.,85
+Implant design,The defining reference lists this subject among the specialties of biomaterials.,85
+Drug delivery,The defining reference lists this subject among the specialties of biomaterials.,85
+Rehabilitation engineering|Rehabilitation,The defining reference lists this subject among the specialties of biomechanics.,85
+Ergonomics,The defining reference lists this subject among the specialties of biomechanics.,85
+Prosthetics,The defining reference lists this subject among the specialties of biomechanics.,85
+Fluid dynamics,The defining reference lists this subject among the specialties of biomechanics.,85
+Accident reconstruction,The defining reference lists this subject among the specialties of biomechanics.,85
+Genetic engineering|Genetic,The defining reference lists this subject among the specialties of biomolecular engineering.,30
+Chemistry,The defining reference lists this subject among the specialties of biomolecular engineering.,60
+Synthetic biology,The defining reference lists this subject among the specialties of biomolecular engineering.,85
+Systems biology,The defining reference lists this subject among the specialties of biomolecular engineering.,85
+Radiation protection,The defining reference lists this subject among the specialties of clinical engineering.,85
+Healthcare technology management,The defining reference lists this subject among the specialties of clinical engineering.,85
+Logistics engineering|Logistics,The defining reference lists this subject among the specialties of clinical engineering.,85
+Cybersecurity engineering|Cybersecurity,The defining reference lists this subject among the specialties of clinical engineering.,60
+Image processing,The defining reference lists this subject among the specialties of medical imaging.,85
+Computer vision,The defining reference lists this subject among the specialties of medical imaging.,85
+Signal processing,The defining reference lists this subject among the specialties of medical imaging.,85
+Medical physics,The defining reference lists this subject among the specialties of medical imaging.,85
+3D reconstruction|Three dimensional reconstruction,The defining reference lists this subject among the specialties of medical imaging.,85
+Artificial intelligence|AI,The defining reference lists this subject among the specialties of medical imaging.,60
+Neuromodulation,The defining reference lists this subject among the specialties of neural engineering.,85
+Neuroprosthetics,The defining reference lists this subject among the specialties of neural engineering.,85
+Cognitive engineering|Cognitive,The defining reference lists this subject among the specialties of neural engineering.,85
+Biosignal processing,The defining reference lists this subject among the specialties of neural engineering.,100
+Neurochips,The defining reference lists this subject among the specialties of neural engineering.,100
+Neurorobotics,The defining reference lists this subject among the specialties of neural engineering.,85
+Drug design,The defining reference lists this subject among the specialties of pharmaceutical engineering.,85
+Quality control,The defining reference lists this subject among the specialties of pharmaceutical engineering.,85
+Scalability,The defining reference lists this subject among the specialties of pharmaceutical engineering.,85
+Tissue engineering|Tissue,The defining reference lists this subject among the specialties of regenerative medicine.,85
+Cellular engineering|Cellular,The defining reference lists this subject among the specialties of regenerative medicine.,85
+Tissue culture,The defining reference lists this subject among the specialties of regenerative medicine.,85
+3D bioprinting|Bioprinting,The defining reference lists this subject among the specialties of regenerative medicine.,85
+Stem cell therapy,The defining reference lists this subject among the specialties of regenerative medicine.,85
+Ecological engineering|Ecological,The defining reference lists this subject among the specialties of environmental engineering.,85
+Fire protection engineering|Fire protection|Fire engineering|Fire,The defining reference lists this subject among the specialties of environmental engineering.,60
+Natural resources engineering|Natural resources,The defining reference lists this subject among the specialties of environmental engineering.,85
+Sanitary engineering|Sanitary,The defining reference lists this subject among the specialties of environmental engineering.,85
+Geoprofessions,The defining reference lists this subject among the specialties of geotechnical engineering.,100
+Architectural engineering|Architectural,The defining reference lists this subject among the specialties of structural engineering.,30
+Construction engineering|Construction,The defining reference lists this subject among the specialties of structural engineering.,60
+Earthquake engineering|Earthquake,The defining reference lists this subject among the specialties of structural engineering.,85
+Ocean engineering|Ocean,The defining reference lists this subject among the specialties of structural engineering.,60
+Pavement engineering|Pavement,The defining reference lists this subject among the specialties of structural engineering.,100
+Wind engineering|Wind,The defining reference lists this subject among the specialties of structural engineering.,60
+Tropical cyclone engineering|Tropical cyclone,The defining reference lists this subject among the specialties of structural engineering.,100
+Railway engineering|Railway,The defining reference lists this subject among the specialties of transport engineering.,60
+Traffic engineering|Traffic,The defining reference lists this subject among the specialties of transport engineering.,60
+Bicycle transportation engineering|Bicycle transportation,The defining reference lists this subject among the specialties of transport engineering.,85
+Highway engineering|Highway,The defining reference lists this subject among the specialties of transport engineering.,60
+Coastal engineering|Coastal,The defining reference lists this subject among the specialties of water resources engineering.,60
+Hard engineering|Hard,The defining reference lists this subject among the specialties of water resources engineering.,85
+Soft engineering|Soft,The defining reference lists this subject among the specialties of water resources engineering.,85
+Groundwater engineering|Groundwater,The defining reference lists this subject among the specialties of water resources engineering.,85
+Hydraulic engineering|Hydraulics|Hydraulic,The defining reference lists this subject among the specialties of water resources engineering.,60
+River engineering|River,The defining reference lists this subject among the specialties of water resources engineering.,85
+Radio-frequency engineering|RF engineering|Radio frequency|RF,The defining reference lists this subject among the specialties of broadcast engineering.,85
+Algorithm engineering|Algorithm,The defining reference lists this subject among the specialties of computer engineering.,85
+Computational engineering|Computational,The defining reference lists this subject among the specialties of computer engineering.,85
+Data engineering|Data,The defining reference lists this subject among the specialties of computer engineering.,60
+Hardware engineering|Hardware,The defining reference lists this subject among the specialties of computer engineering.,85
+Network engineering|Network,The defining reference lists this subject among the specialties of computer engineering.,60
+Teletraffic engineering|Teletraffic,The defining reference lists this subject among the specialties of computer engineering.,85
+Control engineering|Control systems|Control theory|Control,The defining reference lists this subject among the specialties of electronic engineering.,60
+Analog electronics,The defining reference lists this subject among the specialties of electronic engineering.,85
+Digital electronics,The defining reference lists this subject among the specialties of electronic engineering.,85
+Consumer electronics,The defining reference lists this subject among the specialties of electronic engineering.,85
+Embedded systems,The defining reference lists this subject among the specialties of electronic engineering.,85
+Power electronics,The defining reference lists this subject among the specialties of electronic engineering.,85
+Radio engineering|Radio,The defining reference lists this subject among the specialties of electronic engineering.,85
+Telecommunications engineering|Telecommunications,The defining reference lists this subject among the specialties of electronic engineering.,60
+Electric power control,The defining reference lists this subject among the specialties of electronic engineering.,85
+Robotics engineering|Robotics,The defining reference lists this subject among the specialties of electronic engineering.,30
+Microwave imaging,The defining reference lists this subject among the specialties of microwave engineering.,85
+Radar engineering|Radar,The defining reference lists this subject among the specialties of microwave engineering.,85
+RF microwave engineering|Radio frequency microwave engineering|RF microwave,The defining reference lists this subject among the specialties of microwave engineering.,100
+Optoelectronics,The defining reference lists this subject among the specialties of optical engineering.,85
+High voltage engineering|High voltage,The defining reference lists this subject among the specialties of power engineering.,85
+Power system design,The defining reference lists this subject among the specialties of power engineering.,85
+Power system operations and control,The defining reference lists this subject among the specialties of power engineering.,85
+Power system planning,The defining reference lists this subject among the specialties of power engineering.,85
+Protection and control|Power system protection,The defining reference lists this subject among the specialties of power engineering.,85
+Electronic structure,The defining reference lists this subject among the specialties of computational materials science.,85
+Density functional theory|DFT,The defining reference lists this subject among the specialties of computational materials science.,85
+Molecular dynamics,The defining reference lists this subject among the specialties of computational materials science.,85
+Phase field models,The defining reference lists this subject among the specialties of computational materials science.,100
+Electron diffraction,The defining reference lists this subject among the specialties of material characterisation.,85
+Electron microscopy,The defining reference lists this subject among the specialties of material characterisation.,85
+Spectroscopy,The defining reference lists this subject among the specialties of material characterisation.,85
+X-ray diffraction,The defining reference lists this subject among the specialties of material characterisation.,85
+Metal alloys|Alloys|Alloy,The defining reference lists this subject among the specialties of metallurgical engineering.,85
+Biomedical nanoengineering,The defining reference lists this subject among the specialties of nanotechnology.,100
+Electronic nanoengineering,The defining reference lists this subject among the specialties of nanotechnology.,100
+Materials nanoengineering,The defining reference lists this subject among the specialties of nanotechnology.,100
+Nanoengineering,The defining reference lists this subject among the specialties of nanotechnology.,85
+Tribology,The defining reference lists this subject among the specialties of surface engineering.,85
+Fusion welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Arc welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Laser welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Electron beam welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Solid-state welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Friction welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Friction stir welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Diffusion bonding,The defining reference lists this subject among the specialties of welding engineering.,85
+Resistance welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Spot welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Seam welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Projection welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Brazing,The defining reference lists this subject among the specialties of welding engineering.,85
+Soldering,The defining reference lists this subject among the specialties of welding engineering.,85
+Welding metallurgy,The defining reference lists this subject among the specialties of welding engineering.,85
+Welding processes and automation,The defining reference lists this subject among the specialties of welding engineering.,85
+Robotic welding,The defining reference lists this subject among the specialties of welding engineering.,85
+Additive manufacturing,The defining reference lists this subject among the specialties of welding engineering.,60
+Weld design,The defining reference lists this subject among the specialties of welding engineering.,85
+Structural integrity,The defining reference lists this subject among the specialties of welding engineering.,85
+Weld inspection,The defining reference lists this subject among the specialties of welding engineering.,85
+Quality assurance,The defining reference lists this subject among the specialties of welding engineering.,85
+Non-destructive testing|NDT|Nondestructive testing,The defining reference lists this subject among the specialties of welding engineering.,85
+Architectural acoustics,The defining reference lists this subject among the specialties of acoustical engineering.,85
+Bioacoustics,The defining reference lists this subject among the specialties of acoustical engineering.,85
+Noise control,The defining reference lists this subject among the specialties of acoustical engineering.,85
+Psychoacoustics,The defining reference lists this subject among the specialties of acoustical engineering.,85
+Underwater acoustics,The defining reference lists this subject among the specialties of acoustical engineering.,85
+Vibration control,The defining reference lists this subject among the specialties of acoustical engineering.,85
+Air compressors,The defining reference lists this subject among the specialties of industrial plant engineering.,85
+Conveyors,The defining reference lists this subject among the specialties of industrial plant engineering.,85
+Escalators,The defining reference lists this subject among the specialties of industrial plant engineering.,85
+Fans|Fan engineering|Fan,The defining reference lists this subject among the specialties of industrial plant engineering.,60
+Blowers,The defining reference lists this subject among the specialties of industrial plant engineering.,85
+Piping systems,The defining reference lists this subject among the specialties of industrial plant engineering.,85
+Pneumatics,The defining reference lists this subject among the specialties of industrial plant engineering.,85
+Pumps|Pump engineering|Pump,The defining reference lists this subject among the specialties of industrial plant engineering.,60
+Cutting,The defining reference lists this subject among the specialties of manufacturing engineering.,85
+Electrical discharge machining|EDM,The defining reference lists this subject among the specialties of manufacturing engineering.,85
+Woodworking,The defining reference lists this subject among the specialties of manufacturing engineering.,60
+Cameras|Camera,The defining reference lists this subject among the specialties of optomechanical engineering.,60
+Fiber optics|Fibre optics,The defining reference lists this subject among the specialties of optomechanical engineering.,60
+Laser systems,The defining reference lists this subject among the specialties of optomechanical engineering.,85
+Optical instrumentation|Optical instrument engineering,The defining reference lists this subject among the specialties of optomechanical engineering.,85
+Telescopes|Telescope,The defining reference lists this subject among the specialties of optomechanical engineering.,60
+Coal-fired power plants,The defining reference lists this subject among the specialties of power plant engineering.,85
+Geothermal power plants,The defining reference lists this subject among the specialties of power plant engineering.,85
+Hydroelectric power plants,The defining reference lists this subject among the specialties of power plant engineering.,85
+Diesel engine power plants,The defining reference lists this subject among the specialties of power plant engineering.,85
+Solar power plants,The defining reference lists this subject among the specialties of power plant engineering.,85
+Tidal power plants,The defining reference lists this subject among the specialties of power plant engineering.,85
+Wind turbine power plants,The defining reference lists this subject among the specialties of power plant engineering.,85
+Air conditioning,The defining reference lists this subject among the specialties of thermal engineering.,60
+Heating,The defining reference lists this subject among the specialties of thermal engineering.,60
+Ventilation,The defining reference lists this subject among the specialties of thermal engineering.,60
+Refrigeration,The defining reference lists this subject among the specialties of thermal engineering.,60
+Aerospace engineering|Aeronautical engineering|Aeronautical|Aerospace,The defining reference lists this subject among the specialties of vehicle engineering.,30
+Automotive engineering|Automotive,The defining reference lists this subject among the specialties of vehicle engineering.,30
+Naval architecture|Naval engineering,The defining reference lists this subject among the specialties of vehicle engineering.,85
+Marine engineering|Marine,The defining reference lists this subject among the specialties of vehicle engineering.,30
+Aquaculture engineering|Aquaculture,The defining reference lists this subject among the specialties of agricultural engineering.,85
+Biological systems engineering|Biological systems,The defining reference lists this subject among the specialties of agricultural engineering.,85
+Bioprocess engineering|Bioprocess,The defining reference lists this subject among the specialties of agricultural engineering.,60
+Bioresource engineering|Bioresource,The defining reference lists this subject among the specialties of agricultural engineering.,85
+Biotechnological engineering|Biotechnical engineering|Biotechnological,The defining reference lists this subject among the specialties of agricultural engineering.,85
+Food engineering|Food,The defining reference lists this subject among the specialties of agricultural engineering.,60
+Forest engineering|Forest,The defining reference lists this subject among the specialties of agricultural engineering.,60
+Automation engineering|Automation,The defining reference lists this subject among the specialties of applied engineering.,85
+Computer-aided drawing and design|CADD|CAD,The defining reference lists this subject among the specialties of applied engineering.,85
+Graphics,The defining reference lists this subject among the specialties of applied engineering.,85
+Biochemical engineering|Biochemical,The defining reference lists this subject among the specialties of biological engineering.,60
+Food and biological process engineering|Food and biological process,The defining reference lists this subject among the specialties of biological engineering.,100
+Microbiological engineering|Microbiological,The defining reference lists this subject among the specialties of biological engineering.,85
+Protein engineering|Protein,The defining reference lists this subject among the specialties of biological engineering.,85
+"Heating, ventilation and air conditioning|HVAC",The defining reference lists this subject among the specialties of building services engineering.,85
+Public health engineering|Public health,The defining reference lists this subject among the specialties of building services engineering.,60
+Water services,The defining reference lists this subject among the specialties of building services engineering.,85
+Drainage,The defining reference lists this subject among the specialties of building services engineering.,85
+Plumbing,The defining reference lists this subject among the specialties of building services engineering.,60
+Lighting,The defining reference lists this subject among the specialties of building services engineering.,60
+Lightning protection,The defining reference lists this subject among the specialties of building services engineering.,85
+Security systems,The defining reference lists this subject among the specialties of building services engineering.,85
+Video systems,The defining reference lists this subject among the specialties of building services engineering.,85
+Alarm systems,The defining reference lists this subject among the specialties of building services engineering.,85
+Lifts|Elevators|Lift|Elevator,The defining reference lists this subject among the specialties of building services engineering.,85
+Building façade engineering|Facade engineering|Facade|Building façade,The defining reference lists this subject among the specialties of building services engineering.,85
+Energy supply,The defining reference lists this subject among the specialties of building services engineering.,85
+Architectural design,The defining reference lists this subject among the specialties of design engineering.,85
+Automotive design,The defining reference lists this subject among the specialties of design engineering.,85
+Building information modeling|BIM|Building information modelling,The defining reference lists this subject among the specialties of design engineering.,85
+CAD technician,The defining reference lists this subject among the specialties of design engineering.,85
+Computer-aided engineering|CAE|Computer-aided,The defining reference lists this subject among the specialties of design engineering.,85
+Computer-aided industrial design,The defining reference lists this subject among the specialties of design engineering.,85
+Computer-aided manufacturing|CAM,The defining reference lists this subject among the specialties of design engineering.,85
+Design for additive manufacturing,The defining reference lists this subject among the specialties of design engineering.,85
+Integrated circuit design,The defining reference lists this subject among the specialties of design engineering.,85
+Interior architecture,The defining reference lists this subject among the specialties of design engineering.,85
+"Mechanical, electrical, and plumbing|MEP",The defining reference lists this subject among the specialties of design engineering.,85
+Packaging engineering|Packaging,The defining reference lists this subject among the specialties of design engineering.,85
+Printed circuit board design,The defining reference lists this subject among the specialties of design engineering.,85
+User experience design|UX design|UX,The defining reference lists this subject among the specialties of design engineering.,85
+User interface design|UI design|UI,The defining reference lists this subject among the specialties of design engineering.,85
+Solar engineering|Solar,The defining reference lists this subject among the specialties of energy engineering.,60
+Applied physics,The defining reference lists this subject among the specialties of engineering physics.,85
+Materials science,The defining reference lists this subject among the specialties of engineering physics.,85
+Aerobiological engineering|Aerobiological,The defining reference lists this subject among the specialties of facilities engineering.,100
+Geophysical engineering|Geophysical,The defining reference lists this subject among the specialties of geological engineering.,85
+Geoenvironmental engineering|Geoenvironmental,The defining reference lists this subject among the specialties of geological engineering.,85
+Hydrogeological engineering|Hydrogeological,The defining reference lists this subject among the specialties of geological engineering.,85
+Mineral exploration engineering|Mineral exploration,The defining reference lists this subject among the specialties of geological engineering.,85
+Hydrocarbon exploration engineering|Hydrocarbon exploration,The defining reference lists this subject among the specialties of geological engineering.,100
+Survey engineering|Surveying engineering|Surveying|Survey,The defining reference lists this subject among the specialties of geomatics engineering.,85
+Geodesy,The defining reference lists this subject among the specialties of geomatics engineering.,85
+Geospatial|Geospatial engineering,The defining reference lists this subject among the specialties of geomatics engineering.,85
+Machine learning,The defining reference lists this subject among the specialties of information engineering.,60
+Data science,The defining reference lists this subject among the specialties of information engineering.,60
+Information theory,The defining reference lists this subject among the specialties of information engineering.,85
+Natural language processing|NLP,The defining reference lists this subject among the specialties of information engineering.,85
+Medical image computing,The defining reference lists this subject among the specialties of information engineering.,100
+Autonomous robotics,The defining reference lists this subject among the specialties of information engineering.,85
+Mobile robotics,The defining reference lists this subject among the specialties of information engineering.,85
+Component engineering|Component,The defining reference lists this subject among the specialties of industrial engineering.,85
+Methods engineering|Methods,The defining reference lists this subject among the specialties of industrial engineering.,85
+Operations engineering|Operations,The defining reference lists this subject among the specialties of industrial engineering.,85
+Production engineering,The defining reference lists this subject among the specialties of industrial engineering.,85
+Quality engineering|Quality,The defining reference lists this subject among the specialties of industrial engineering.,85
+Reliability engineering|Reliability,The defining reference lists this subject among the specialties of industrial engineering.,85
+Safety engineering|Safety,The defining reference lists this subject among the specialties of industrial engineering.,60
+Usability engineering|Usability,The defining reference lists this subject among the specialties of industrial engineering.,85
+Optomechatronics|Optomechatronics engineering,The defining reference lists this subject among the specialties of mechatronics engineering.,100
+Avionics,The defining reference lists this subject among the specialties of mechatronics engineering.,85
+Combat engineering|Combat,The defining reference lists this subject among the specialties of military engineering.,85
+Nanomaterials,The defining reference lists this subject among the specialties of quantum engineering.,85
+Nanoelectronics,The defining reference lists this subject among the specialties of quantum engineering.,85
+Nano-scale devices,The defining reference lists this subject among the specialties of quantum engineering.,85
+Semiconductor materials,The defining reference lists this subject among the specialties of quantum engineering.,85
+Semiconductor devices,The defining reference lists this subject among the specialties of quantum engineering.,85
+Quantum optics,The defining reference lists this subject among the specialties of quantum engineering.,85
+Quantum information systems,The defining reference lists this subject among the specialties of quantum engineering.,85
+Quantum cryptography,The defining reference lists this subject among the specialties of quantum engineering.,85
+Quantum computing,The defining reference lists this subject among the specialties of quantum engineering.,85
+Nuclear fuel,The defining reference lists this subject among the specialties of nuclear engineering.,85
+Nuclear reactor design|Reactor design,The defining reference lists this subject among the specialties of nuclear engineering.,85
+Nuclear reactor control systems,The defining reference lists this subject among the specialties of nuclear engineering.,85
+Fusion energy,The defining reference lists this subject among the specialties of nuclear engineering.,85
+Reservoir engineering|Reservoir,The defining reference lists this subject among the specialties of petroleum engineering.,85
+Drilling engineering|Drilling,The defining reference lists this subject among the specialties of petroleum engineering.,60
+Instrumentation and control engineering|Instrumentation and control,The defining reference lists this subject among the specialties of project engineering.,85
+Cryptographic engineering|Cryptography engineering|Cryptographic,The defining reference lists this subject among the specialties of software engineering.,85
+Information technology engineering|ITE|Information engineering methodology|IEM|Information technology,The defining reference lists this subject among the specialties of software engineering.,85
+Web engineering|Web,The defining reference lists this subject among the specialties of software engineering.,85
+Pricing,The defining reference lists this subject among the specialties of supply chain engineering.,85
+Production|Production management,The defining reference lists this subject among the specialties of supply chain engineering.,85
+Fabric engineering|Fabric,The defining reference lists this subject among the specialties of textile engineering.,85
+Industrial and production engineering,The defining reference lists this subject among the specialties of textile engineering.,85
+Wet process engineering|Wet process,The defining reference lists this subject among the specialties of textile engineering.,100
+Yarn engineering|Yarn,The defining reference lists this subject among the specialties of textile engineering.,100
+Model-driven engineering|Model-driven,The defining reference includes this topic in its “Engineering techniques” section under See also.,85
+Concurrent engineering|Concurrent,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Engineering analysis,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Engineering design process|Engineering method,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Engineering mathematics,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Engineering notation,The defining reference includes this topic in its “Engineering techniques” section under See also.,85
+Engineering optimization,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Engineering statistics,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Front-end engineering|Front-end,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Knowledge engineering|Knowledge,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Life-cycle engineering|Life-cycle,The defining reference includes this topic in its “Engineering techniques” section under See also.,85
+Redundancy (engineering)|Redundancy,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Reverse engineering|Reverse,The defining reference includes this topic in its “Engineering techniques” section under See also.,30
+Sustainable engineering|Sustainable,The defining reference includes this topic in its “Engineering techniques” section under See also.,30
+Traditional engineering|Traditional,The defining reference includes this topic in its “Engineering techniques” section under See also.,85
+Value engineering|Value,The defining reference includes this topic in its “Engineering techniques” section under See also.,60
+Cost engineering|Cost,The defining reference includes this topic in its “Non-technical fields” section under See also.,60
+Demographic engineering|Demographic,The defining reference includes this topic in its “Non-technical fields” section under See also.,85
+Engineering management,The defining reference includes this topic in its “Non-technical fields” section under See also.,30
+Financial engineering|Financial,The defining reference includes this topic in its “Non-technical fields” section under See also.,30
+Market engineering|Market,The defining reference includes this topic in its “Non-technical fields” section under See also.,85
+Memetic engineering|Memetic,The defining reference includes this topic in its “Non-technical fields” section under See also.,100
+Political engineering|Political,The defining reference includes this topic in its “Non-technical fields” section under See also.,60
+Sales engineering|Sales,The defining reference includes this topic in its “Non-technical fields” section under See also.,60
+Social engineering (political science)|Political social engineering,The defining reference includes this topic in its “Non-technical fields” section under See also.,60
+Social engineering (security)|Social engineering|Social|Security social engineering,The defining reference includes this topic in its “Non-technical fields” section under See also.,30
+Tariff engineering|Tariff,The defining reference includes this topic in its “Non-technical fields” section under See also.,85
+Exploratory engineering|Exploratory,The defining reference includes this topic in its “Exploratory engineering” section under See also.,85
+Astronomical engineering|Astronomical,The defining reference includes this topic in its “Exploratory engineering” section under See also.,85
+Megascale engineering|Megascale,The defining reference includes this topic in its “Exploratory engineering” section under See also.,85
+Planetary engineering|Planetary,The defining reference includes this topic in its “Exploratory engineering” section under See also.,85
+Engineering studies,The defining reference includes this topic in its “Engineering studies” section under See also.,85
+Engineering economics,The defining reference includes this topic in its “Engineering studies” section under See also.,60
+Engineering ethics,The defining reference includes this topic in its “Engineering studies” section under See also.,60
+Engineering law,The defining reference includes this topic in its “Engineering studies” section under See also.,60
+Engineering psychology,The defining reference includes this topic in its “Engineering studies” section under See also.,85
+Philosophy of engineering|Philosophy of,The defining reference includes this topic in its “Engineering studies” section under See also.,85

@@ -1,0 +1,2188 @@
+{
+  "source": "https://en.wikipedia.org/wiki/List_of_engineering_branches",
+  "entries": [
+    {
+      "entry": "Biomedical engineering",
+      "parent": "Primary branches",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Chemical engineering",
+      "parent": "Primary branches",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Civil engineering",
+      "parent": "Primary branches",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electrical engineering",
+      "parent": "Primary branches",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Materials engineering",
+      "parent": "Primary branches",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Mechanical engineering",
+      "parent": "Primary branches",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bioinformatics",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bioinstrumentation",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biomaterials",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biomechanical engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biomolecular engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Clinical engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Medical imaging",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Neural engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Pharmaceutical engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Regenerative medicine",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electrochemical engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Explosives engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Molecular engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Process engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Environmental engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Geotechnical engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Municipal engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Structural engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Transport engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Water resources engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Broadcast engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computer engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electronic engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Microwave engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Optical engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Power engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biomaterials",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Ceramic engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Composite material engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computational materials science",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Corrosion engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electronic materials",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Forensic materials engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Material characterisation",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Metallurgical engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nanotechnology",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Polymer engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Surface engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Welding engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Acoustical engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Energy engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Industrial plant engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Manufacturing engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Optomechanical engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Power plant engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Sports engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Thermal engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Vehicle engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Agricultural engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Applied engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biological engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Building services engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Design engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electromechanics",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Energy engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Engineering physics",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Facilities engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Geological engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Geomatics engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Information engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Industrial engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Mechatronics engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Military engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Mining engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Quantum engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nuclear engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Petroleum engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Project engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Software engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Supply chain engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Systems engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Textile engineering",
+      "parent": "Engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Information engineering",
+      "parent": "Bioinformatics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computational biology",
+      "parent": "Bioinformatics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Genomics",
+      "parent": "Bioinformatics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Molecular modelling",
+      "parent": "Bioinformatics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Systems analysis",
+      "parent": "Bioinformatics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Database management",
+      "parent": "Bioinformatics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Neuroscience",
+      "parent": "Bioinstrumentation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biomechatronics",
+      "parent": "Bioinstrumentation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Photonics",
+      "parent": "Bioinstrumentation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Instrumentation engineering",
+      "parent": "Bioinstrumentation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biosensors",
+      "parent": "Bioinstrumentation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Medical devices",
+      "parent": "Bioinstrumentation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Ceramic engineering",
+      "parent": "Biomaterials",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Polymer engineering",
+      "parent": "Biomaterials",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Metalworking",
+      "parent": "Biomaterials",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biocompatibility",
+      "parent": "Biomaterials",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Implant design",
+      "parent": "Biomaterials",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Drug delivery",
+      "parent": "Biomaterials",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Military engineering",
+      "parent": "Biomechanics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Sports engineering",
+      "parent": "Biomechanics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Rehabilitation engineering",
+      "parent": "Biomechanics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Ergonomics",
+      "parent": "Biomechanics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Prosthetics",
+      "parent": "Biomechanics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Fluid dynamics",
+      "parent": "Biomechanics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Accident reconstruction",
+      "parent": "Biomechanics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Genetic engineering",
+      "parent": "Biomolecular engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Chemical engineering",
+      "parent": "Biomolecular engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Molecular engineering",
+      "parent": "Biomolecular engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Chemistry",
+      "parent": "Biomolecular engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Synthetic biology",
+      "parent": "Biomolecular engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Systems biology",
+      "parent": "Biomolecular engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nanotechnology",
+      "parent": "Biomolecular engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Facilities engineering",
+      "parent": "Clinical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Radiation protection",
+      "parent": "Clinical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Project engineering",
+      "parent": "Clinical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Healthcare technology management",
+      "parent": "Clinical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Logistics engineering",
+      "parent": "Clinical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Cybersecurity engineering",
+      "parent": "Clinical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Image processing",
+      "parent": "Medical imaging",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computer vision",
+      "parent": "Medical imaging",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Signal processing",
+      "parent": "Medical imaging",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Medical physics",
+      "parent": "Medical imaging",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "3D reconstruction",
+      "parent": "Medical imaging",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Artificial intelligence",
+      "parent": "Medical imaging",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Neuromodulation",
+      "parent": "Neural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Neuroprosthetics",
+      "parent": "Neural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Cognitive engineering",
+      "parent": "Neural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Signal processing",
+      "parent": "Neural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biosignal processing",
+      "parent": "Neural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Neurochips",
+      "parent": "Neural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Neurorobotics",
+      "parent": "Neural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Process engineering",
+      "parent": "Pharmaceutical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Project engineering",
+      "parent": "Pharmaceutical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Manufacturing engineering",
+      "parent": "Pharmaceutical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Drug design",
+      "parent": "Pharmaceutical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Quality control",
+      "parent": "Pharmaceutical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Scalability",
+      "parent": "Pharmaceutical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Tissue engineering",
+      "parent": "Regenerative medicine",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Cellular engineering",
+      "parent": "Regenerative medicine",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Tissue culture",
+      "parent": "Regenerative medicine",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "3D bioprinting",
+      "parent": "Regenerative medicine",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Stem cell therapy",
+      "parent": "Regenerative medicine",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Ecological engineering",
+      "parent": "Environmental engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Fire protection engineering",
+      "parent": "Environmental engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Natural resources engineering",
+      "parent": "Environmental engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Sanitary engineering",
+      "parent": "Environmental engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Geoprofessions",
+      "parent": "Geotechnical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Architectural engineering",
+      "parent": "Structural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Construction engineering",
+      "parent": "Structural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Earthquake engineering",
+      "parent": "Structural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Ocean engineering",
+      "parent": "Structural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Pavement engineering",
+      "parent": "Structural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Wind engineering",
+      "parent": "Structural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Tropical cyclone engineering",
+      "parent": "Structural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Railway engineering",
+      "parent": "Transport engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Traffic engineering",
+      "parent": "Transport engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bicycle transportation engineering",
+      "parent": "Transport engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Highway engineering",
+      "parent": "Transport engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Coastal engineering",
+      "parent": "Water resources engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Hard engineering",
+      "parent": "Water resources engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Soft engineering",
+      "parent": "Water resources engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Groundwater engineering",
+      "parent": "Water resources engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Hydraulic engineering",
+      "parent": "Water resources engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "River engineering",
+      "parent": "Water resources engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Radio-frequency engineering",
+      "parent": "Broadcast engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Algorithm engineering",
+      "parent": "Computer engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computational engineering",
+      "parent": "Computer engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Cybersecurity engineering",
+      "parent": "Computer engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Data engineering",
+      "parent": "Computer engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Hardware engineering",
+      "parent": "Computer engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Information engineering",
+      "parent": "Computer engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Network engineering",
+      "parent": "Computer engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Software engineering",
+      "parent": "Computer engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Teletraffic engineering",
+      "parent": "Computer engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Control engineering",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electronic engineering",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Analog electronics",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Digital electronics",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Consumer electronics",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Embedded systems",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Power electronics",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Radio engineering",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Instrumentation engineering",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Signal processing",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Telecommunications engineering",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electric power control",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Robotics engineering",
+      "parent": "Electronic engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Microwave imaging",
+      "parent": "Microwave engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Radar engineering",
+      "parent": "Microwave engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "RF microwave engineering",
+      "parent": "Microwave engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Optoelectronics",
+      "parent": "Optical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Optomechanical engineering",
+      "parent": "Optical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Photonics",
+      "parent": "Optical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "High voltage engineering",
+      "parent": "Power engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Power plant engineering",
+      "parent": "Power engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Power system design",
+      "parent": "Power engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Power system operations and control",
+      "parent": "Power engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Power system planning",
+      "parent": "Power engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Protection and control",
+      "parent": "Power engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electronic structure",
+      "parent": "Computational materials science",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Density functional theory",
+      "parent": "Computational materials science",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Molecular dynamics",
+      "parent": "Computational materials science",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Phase field models",
+      "parent": "Computational materials science",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electron diffraction",
+      "parent": "Material characterisation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electron microscopy",
+      "parent": "Material characterisation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Spectroscopy",
+      "parent": "Material characterisation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "X-ray diffraction",
+      "parent": "Material characterisation",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Metal alloys",
+      "parent": "Metallurgical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Metalworking",
+      "parent": "Metallurgical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biomedical nanoengineering",
+      "parent": "Nanotechnology",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electronic nanoengineering",
+      "parent": "Nanotechnology",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Instrumentation engineering",
+      "parent": "Nanotechnology",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Materials nanoengineering",
+      "parent": "Nanotechnology",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nanoengineering",
+      "parent": "Nanotechnology",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Tribology",
+      "parent": "Surface engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Fusion welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Arc welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Laser welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electron beam welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Solid-state welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Friction welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Friction stir welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Diffusion bonding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Resistance welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Spot welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Seam welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Projection welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Brazing",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Soldering",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Welding metallurgy",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Welding processes and automation",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Robotic welding",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Additive manufacturing",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Weld design",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Structural integrity",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Weld inspection",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Quality assurance",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Non-destructive testing",
+      "parent": "Welding engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Architectural acoustics",
+      "parent": "Acoustical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bioacoustics",
+      "parent": "Acoustical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Noise control",
+      "parent": "Acoustical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Psychoacoustics",
+      "parent": "Acoustical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Underwater acoustics",
+      "parent": "Acoustical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Vibration control",
+      "parent": "Acoustical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Air compressors",
+      "parent": "Industrial plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Conveyors",
+      "parent": "Industrial plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Escalators",
+      "parent": "Industrial plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Fans",
+      "parent": "Industrial plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Blowers",
+      "parent": "Industrial plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Hydraulic engineering",
+      "parent": "Industrial plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Piping systems",
+      "parent": "Industrial plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Pneumatics",
+      "parent": "Industrial plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Pumps",
+      "parent": "Industrial plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Cutting",
+      "parent": "Manufacturing engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electrical discharge machining",
+      "parent": "Manufacturing engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Metalworking",
+      "parent": "Manufacturing engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Woodworking",
+      "parent": "Manufacturing engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Cameras",
+      "parent": "Optomechanical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Fiber optics",
+      "parent": "Optomechanical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Laser systems",
+      "parent": "Optomechanical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Optical instrumentation",
+      "parent": "Optomechanical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Telescopes",
+      "parent": "Optomechanical engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Coal-fired power plants",
+      "parent": "Power plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Geothermal power plants",
+      "parent": "Power plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Hydroelectric power plants",
+      "parent": "Power plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Diesel engine power plants",
+      "parent": "Power plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Solar power plants",
+      "parent": "Power plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Tidal power plants",
+      "parent": "Power plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Wind turbine power plants",
+      "parent": "Power plant engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Air conditioning",
+      "parent": "Thermal engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Heating",
+      "parent": "Thermal engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Ventilation",
+      "parent": "Thermal engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Refrigeration",
+      "parent": "Thermal engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Aerospace engineering",
+      "parent": "Vehicle engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Automotive engineering",
+      "parent": "Vehicle engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Naval architecture",
+      "parent": "Vehicle engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Marine engineering",
+      "parent": "Vehicle engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Railway engineering",
+      "parent": "Vehicle engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Aquaculture engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biological systems engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biomechanical engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bioprocess engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bioresource engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biotechnological engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Ecological engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Food engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Forest engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Natural resources engineering",
+      "parent": "Agricultural engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Automation engineering",
+      "parent": "Applied engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Control engineering",
+      "parent": "Applied engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Mechatronics engineering",
+      "parent": "Applied engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Robotics engineering",
+      "parent": "Applied engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computer-aided drawing and design",
+      "parent": "Applied engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Construction engineering",
+      "parent": "Applied engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electronic engineering",
+      "parent": "Applied engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Graphics",
+      "parent": "Applied engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nanotechnology",
+      "parent": "Applied engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bioacoustics",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biochemical engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biological engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biological systems engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biotechnological engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biomolecular engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bioresource engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bioprocess engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Cellular engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Food engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Genetic engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Food and biological process engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Microbiological engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Molecular engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Protein engineering",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Systems biology",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Synthetic biology",
+      "parent": "Biological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Architectural engineering",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Mechanical engineering",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Heating, ventilation and air conditioning",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Public health engineering",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Water services",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Drainage",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Plumbing",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Electrical engineering",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Lighting",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Lightning protection",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Security systems",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Video systems",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Alarm systems",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Escalators",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Lifts",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Fire engineering",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Building façade engineering",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Energy supply",
+      "parent": "Building services engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Architectural design",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Automotive design",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Building information modeling",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "CAD technician",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computer-aided engineering",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computer-aided industrial design",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computer-aided manufacturing",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Design for additive manufacturing",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Ergonomics",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Integrated circuit design",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Interior architecture",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Mechanical, electrical, and plumbing",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Naval architecture",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Packaging engineering",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Printed circuit board design",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Systems engineering",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "User experience design",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "User interface design",
+      "parent": "Design engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Solar engineering",
+      "parent": "Energy engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Wind engineering",
+      "parent": "Energy engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Applied physics",
+      "parent": "Engineering physics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Optical engineering",
+      "parent": "Engineering physics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Materials science",
+      "parent": "Engineering physics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nanotechnology",
+      "parent": "Engineering physics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Quantum engineering",
+      "parent": "Engineering physics",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Aerobiological engineering",
+      "parent": "Facilities engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Building services engineering",
+      "parent": "Facilities engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Fire protection engineering",
+      "parent": "Facilities engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Geophysical engineering",
+      "parent": "Geological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Geoenvironmental engineering",
+      "parent": "Geological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Hydrogeological engineering",
+      "parent": "Geological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Mineral exploration engineering",
+      "parent": "Geological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Hydrocarbon exploration engineering",
+      "parent": "Geological engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Survey engineering",
+      "parent": "Geomatics engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Geodesy",
+      "parent": "Geomatics engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Geospatial",
+      "parent": "Geomatics engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Machine learning",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Data science",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Artificial intelligence",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Control engineering",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Signal processing",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Telecommunications engineering",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Image processing",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Information theory",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Computer vision",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Natural language processing",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Bioinformatics",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Medical image computing",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Autonomous robotics",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Mobile robotics",
+      "parent": "Information engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Component engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Construction engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Manufacturing engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Methods engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Operations engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Packaging engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Production engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Project engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Quality engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Reliability engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Safety engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Supply chain engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Logistics engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Systems engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Usability engineering",
+      "parent": "Industrial engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Automation engineering",
+      "parent": "Mechatronics engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Robotics engineering",
+      "parent": "Mechatronics engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Instrumentation engineering",
+      "parent": "Mechatronics engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Optomechatronics",
+      "parent": "Mechatronics engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Biomechatronics",
+      "parent": "Mechatronics engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Avionics",
+      "parent": "Mechatronics engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Combat engineering",
+      "parent": "Military engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nanomaterials",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nanoelectronics",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nano-scale devices",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Semiconductor materials",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Semiconductor devices",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Photonics",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Quantum optics",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Quantum information systems",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Quantum cryptography",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Quantum computing",
+      "parent": "Quantum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Medical physics",
+      "parent": "Nuclear engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nuclear fuel",
+      "parent": "Nuclear engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nuclear reactor design",
+      "parent": "Nuclear engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Nuclear reactor control systems",
+      "parent": "Nuclear engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Radiation protection",
+      "parent": "Nuclear engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Fusion energy",
+      "parent": "Nuclear engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Reservoir engineering",
+      "parent": "Petroleum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Drilling engineering",
+      "parent": "Petroleum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Production engineering",
+      "parent": "Petroleum engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Process engineering",
+      "parent": "Project engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Instrumentation and control engineering",
+      "parent": "Project engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Structural engineering",
+      "parent": "Project engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Environmental engineering",
+      "parent": "Project engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Cryptographic engineering",
+      "parent": "Software engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Information technology engineering",
+      "parent": "Software engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Teletraffic engineering",
+      "parent": "Software engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Web engineering",
+      "parent": "Software engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Logistics engineering",
+      "parent": "Supply chain engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Pricing",
+      "parent": "Supply chain engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Production",
+      "parent": "Supply chain engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Fabric engineering",
+      "parent": "Textile engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Industrial and production engineering",
+      "parent": "Textile engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Wet process engineering",
+      "parent": "Textile engineering",
+      "status": "included or merged into same subject"
+    },
+    {
+      "entry": "Yarn engineering",
+      "parent": "Textile engineering",
+      "status": "included or merged into same subject"
+    }
+  ],
+  "merges": {
+    "Fire engineering": "Fire protection engineering"
+  }
+}

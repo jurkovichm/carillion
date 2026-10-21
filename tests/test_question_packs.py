@@ -53,6 +53,20 @@ class QuestionPackTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'seven questions'):
             builder.load_packs(self.root)
 
+    def test_programming_symbols_are_distinct_only_when_enabled(self):
+        rows = [[name, '', 10] for name in ['C', 'C++', 'C#', 'C--', 'C*', 'Go', 'Go!']]
+        self.write_rows('0.csv', rows)
+        with self.assertRaisesRegex(ValueError, 'duplicate answer/alias'):
+            builder.load_packs(self.root)
+        self.manifest['questions'][0]['answerFormat'] = 'programming-language'
+        (self.day / 'day.json').write_text(json.dumps(self.manifest), encoding='utf-8')
+        question = builder.load_packs(self.root)[0]['questions'][0]
+        self.assertEqual(len(question['answers']), len(rows))
+        self.assertEqual(question['answerFormat'], 'programming-language')
+        self.write_rows('0.csv', [['C++', '', 10], ['c + +', '', 30]])
+        with self.assertRaisesRegex(ValueError, 'duplicate answer/alias'):
+            builder.load_packs(self.root)
+
     def test_existing_packs(self):
         self.assertGreaterEqual(len(builder.load_packs(ROOT / 'question-packs')), 2)
 

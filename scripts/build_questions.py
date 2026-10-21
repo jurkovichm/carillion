@@ -12,8 +12,10 @@ ROOT = Path(__file__).resolve().parents[1]
 TIERS = {10, 15, 30, 60, 85, 100}
 
 
-def normalize(value):
+def normalize(value, answer_format=None):
     value = ''.join(c for c in unicodedata.normalize('NFD', value) if not '\u0300' <= c <= '\u036f')
+    if answer_format == 'programming-language':
+        return re.sub(r'\s+', '', value.lower())
     return re.sub(r'\s+', ' ', re.sub(r'[^a-z0-9\s]', ' ', value.lower())).strip()
 
 
@@ -47,7 +49,7 @@ def load_packs(folder):
                     if None in row or any(value is None for value in row.values()):
                         raise ValueError(f'{location}: expected exactly three CSV columns')
                     forms = [form.strip() for form in row['ANSWER'].split('|')]
-                    if any(not normalize(form) for form in forms):
+                    if any(not normalize(form, question.get('answerFormat')) for form in forms):
                         raise ValueError(f'{location}: answer and aliases cannot be empty')
                     try:
                         points = int(row['Worth'])
@@ -56,7 +58,7 @@ def load_packs(folder):
                     if points not in TIERS:
                         raise ValueError(f'{location}: Worth must be one of {sorted(TIERS)}')
                     for form in forms:
-                        key = normalize(form)
+                        key = normalize(form, question.get('answerFormat'))
                         if key in owners and owners[key] != reader.line_num:
                             raise ValueError(f'{location}: duplicate answer/alias {form!r}')
                         owners[key] = reader.line_num

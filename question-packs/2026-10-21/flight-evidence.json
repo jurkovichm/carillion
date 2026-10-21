@@ -1,0 +1,1166 @@
+{
+  "snapshot": "2026-10-20",
+  "airportCount": 166,
+  "cityCount": 158,
+  "independentComparisonCodeCount": 166,
+  "comparisonDifferences": [],
+  "sources": [
+    "https://www.flightconnections.com/flights-from-minneapolis-msp",
+    "https://www.flightsfrom.com/MSP/destinations",
+    "https://www.mspairport.com/flights-airlines/nonstop-route-map"
+  ],
+  "destinations": {
+    "Chicago": [
+      {
+        "code": "ORD",
+        "city": "Chicago",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ord"
+      },
+      {
+        "code": "MDW",
+        "city": "Chicago",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mdw"
+      }
+    ],
+    "Denver": [
+      {
+        "code": "DEN",
+        "city": "Denver",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-den"
+      }
+    ],
+    "Phoenix": [
+      {
+        "code": "PHX",
+        "city": "Phoenix",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-phx"
+      },
+      {
+        "code": "AZA",
+        "city": "Phoenix",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-aza"
+      }
+    ],
+    "Atlanta": [
+      {
+        "code": "ATL",
+        "city": "Atlanta",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-atl"
+      }
+    ],
+    "Dallas–Fort Worth": [
+      {
+        "code": "DFW",
+        "city": "Dallas-Fort Worth",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-dfw"
+      },
+      {
+        "code": "DAL",
+        "city": "Dallas",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-dal"
+      }
+    ],
+    "Las Vegas": [
+      {
+        "code": "LAS",
+        "city": "Las Vegas",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-las"
+      }
+    ],
+    "Orlando": [
+      {
+        "code": "MCO",
+        "city": "Orlando",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mco"
+      }
+    ],
+    "Seattle–Tacoma": [
+      {
+        "code": "SEA",
+        "city": "Seattle / Tacoma",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sea"
+      }
+    ],
+    "Washington, DC": [
+      {
+        "code": "DCA",
+        "city": "Washington",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-dca"
+      },
+      {
+        "code": "IAD",
+        "city": "Washington",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-iad"
+      }
+    ],
+    "Los Angeles": [
+      {
+        "code": "LAX",
+        "city": "Los Angeles",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-lax"
+      }
+    ],
+    "San Francisco": [
+      {
+        "code": "SFO",
+        "city": "San Francisco",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sfo"
+      }
+    ],
+    "New York City": [
+      {
+        "code": "EWR",
+        "city": "Newark",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ewr"
+      },
+      {
+        "code": "LGA",
+        "city": "New York City",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-lga"
+      },
+      {
+        "code": "JFK",
+        "city": "New York City",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-jfk"
+      }
+    ],
+    "Charlotte": [
+      {
+        "code": "CLT",
+        "city": "Charlotte",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-clt"
+      }
+    ],
+    "Houston": [
+      {
+        "code": "IAH",
+        "city": "Houston",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-iah"
+      },
+      {
+        "code": "HOU",
+        "city": "Houston",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-hou"
+      }
+    ],
+    "St. Louis": [
+      {
+        "code": "STL",
+        "city": "St. Louis",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-stl"
+      }
+    ],
+    "Boston": [
+      {
+        "code": "BOS",
+        "city": "Boston",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-bos"
+      }
+    ],
+    "Philadelphia": [
+      {
+        "code": "PHL",
+        "city": "Philadelphia",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-phl"
+      }
+    ],
+    "Nashville": [
+      {
+        "code": "BNA",
+        "city": "Nashville",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-bna"
+      }
+    ],
+    "Milwaukee": [
+      {
+        "code": "MKE",
+        "city": "Milwaukee",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mke"
+      }
+    ],
+    "Fargo": [
+      {
+        "code": "FAR",
+        "city": "Fargo",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-far"
+      }
+    ],
+    "Detroit": [
+      {
+        "code": "DTW",
+        "city": "Detroit",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-dtw"
+      }
+    ],
+    "Portland, Oregon": [
+      {
+        "code": "PDX",
+        "city": "Portland",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-pdx"
+      }
+    ],
+    "Bismarck": [
+      {
+        "code": "BIS",
+        "city": "Bismarck",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-bis"
+      }
+    ],
+    "Omaha": [
+      {
+        "code": "OMA",
+        "city": "Omaha",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-oma"
+      }
+    ],
+    "Austin": [
+      {
+        "code": "AUS",
+        "city": "Austin",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-aus"
+      }
+    ],
+    "Kansas City": [
+      {
+        "code": "MCI",
+        "city": "Kansas City",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mci"
+      }
+    ],
+    "Sioux Falls": [
+      {
+        "code": "FSD",
+        "city": "Sioux Falls",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-fsd"
+      }
+    ],
+    "Baltimore": [
+      {
+        "code": "BWI",
+        "city": "Baltimore-Washington",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-bwi"
+      }
+    ],
+    "Madison": [
+      {
+        "code": "MSN",
+        "city": "Madison",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-msn"
+      }
+    ],
+    "Toronto": [
+      {
+        "code": "YYZ",
+        "city": "Toronto",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-yyz"
+      }
+    ],
+    "Fort Myers": [
+      {
+        "code": "RSW",
+        "city": "Fort Myers",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-rsw"
+      }
+    ],
+    "Salt Lake City": [
+      {
+        "code": "SLC",
+        "city": "Salt Lake City",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-slc"
+      }
+    ],
+    "Raleigh / Durham": [
+      {
+        "code": "RDU",
+        "city": "Raleigh / Durham",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-rdu"
+      }
+    ],
+    "Columbus": [
+      {
+        "code": "CMH",
+        "city": "Columbus",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-cmh"
+      }
+    ],
+    "Indianapolis": [
+      {
+        "code": "IND",
+        "city": "Indianapolis",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ind"
+      }
+    ],
+    "San Diego": [
+      {
+        "code": "SAN",
+        "city": "San Diego",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-san"
+      }
+    ],
+    "Cincinnati": [
+      {
+        "code": "CVG",
+        "city": "Cincinnati",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-cvg"
+      }
+    ],
+    "Minot": [
+      {
+        "code": "MOT",
+        "city": "Minot",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mot"
+      }
+    ],
+    "Duluth": [
+      {
+        "code": "DLH",
+        "city": "Duluth",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-dlh"
+      }
+    ],
+    "Pittsburgh": [
+      {
+        "code": "PIT",
+        "city": "Pittsburgh",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-pit"
+      }
+    ],
+    "Rapid City": [
+      {
+        "code": "RAP",
+        "city": "Rapid City",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-rap"
+      }
+    ],
+    "Des Moines": [
+      {
+        "code": "DSM",
+        "city": "Des Moines",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-dsm"
+      }
+    ],
+    "Grand Forks": [
+      {
+        "code": "GFK",
+        "city": "Grand Forks",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-gfk"
+      }
+    ],
+    "Grand Rapids": [
+      {
+        "code": "GRR",
+        "city": "Grand Rapids",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-grr"
+      }
+    ],
+    "Cleveland": [
+      {
+        "code": "CLE",
+        "city": "Cleveland",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-cle"
+      }
+    ],
+    "Tampa": [
+      {
+        "code": "TPA",
+        "city": "Tampa",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-tpa"
+      },
+      {
+        "code": "PIE",
+        "city": "Tampa",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-pie"
+      }
+    ],
+    "Miami": [
+      {
+        "code": "MIA",
+        "city": "Miami",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mia"
+      }
+    ],
+    "Green Bay": [
+      {
+        "code": "GRB",
+        "city": "Green Bay",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-grb"
+      }
+    ],
+    "Appleton": [
+      {
+        "code": "ATW",
+        "city": "Appleton",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-atw"
+      }
+    ],
+    "Rochester, Minnesota": [
+      {
+        "code": "RST",
+        "city": "Rochester",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-rst"
+      }
+    ],
+    "Amsterdam": [
+      {
+        "code": "AMS",
+        "city": "Amsterdam",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ams"
+      }
+    ],
+    "Winnipeg": [
+      {
+        "code": "YWG",
+        "city": "Winnipeg",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ywg"
+      }
+    ],
+    "Louisville": [
+      {
+        "code": "SDF",
+        "city": "Louisville",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sdf"
+      }
+    ],
+    "Cedar Rapids": [
+      {
+        "code": "CID",
+        "city": "Cedar Rapids",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-cid"
+      }
+    ],
+    "San Antonio": [
+      {
+        "code": "SAT",
+        "city": "San Antonio",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sat"
+      }
+    ],
+    "Hartford": [
+      {
+        "code": "BDL",
+        "city": "Hartford",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-bdl"
+      }
+    ],
+    "Memphis": [
+      {
+        "code": "MEM",
+        "city": "Memphis",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mem"
+      }
+    ],
+    "Aberdeen": [
+      {
+        "code": "ABR",
+        "city": "Aberdeen",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-abr"
+      }
+    ],
+    "Fort Lauderdale": [
+      {
+        "code": "FLL",
+        "city": "Fort Lauderdale",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-fll"
+      }
+    ],
+    "Calgary": [
+      {
+        "code": "YYC",
+        "city": "Calgary",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-yyc"
+      }
+    ],
+    "Boise": [
+      {
+        "code": "BOI",
+        "city": "Boise",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-boi"
+      }
+    ],
+    "Wausau": [
+      {
+        "code": "CWA",
+        "city": "Wausau",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-cwa"
+      }
+    ],
+    "Sacramento": [
+      {
+        "code": "SMF",
+        "city": "Sacramento",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-smf"
+      }
+    ],
+    "Bozeman": [
+      {
+        "code": "BZN",
+        "city": "Bozeman",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-bzn"
+      }
+    ],
+    "Vancouver": [
+      {
+        "code": "YVR",
+        "city": "Vancouver",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-yvr"
+      }
+    ],
+    "Spokane": [
+      {
+        "code": "GEG",
+        "city": "Spokane",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-geg"
+      }
+    ],
+    "Rhinelander": [
+      {
+        "code": "RHI",
+        "city": "Rhinelander",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-rhi"
+      }
+    ],
+    "Bemidji": [
+      {
+        "code": "BJI",
+        "city": "Bemidji",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-bji"
+      }
+    ],
+    "Wichita": [
+      {
+        "code": "ICT",
+        "city": "Wichita",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ict"
+      }
+    ],
+    "Oklahoma City": [
+      {
+        "code": "OKC",
+        "city": "Oklahoma City",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-okc"
+      }
+    ],
+    "Knoxville": [
+      {
+        "code": "TYS",
+        "city": "Knoxville",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-tys"
+      }
+    ],
+    "San Jose, California": [
+      {
+        "code": "SJC",
+        "city": "San Jose",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sjc"
+      }
+    ],
+    "Richmond": [
+      {
+        "code": "RIC",
+        "city": "Richmond",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ric"
+      }
+    ],
+    "Northwest Arkansas": [
+      {
+        "code": "XNA",
+        "city": "Fayetteville",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-xna"
+      }
+    ],
+    "Hibbing": [
+      {
+        "code": "HIB",
+        "city": "Hibbing",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-hib"
+      }
+    ],
+    "International Falls": [
+      {
+        "code": "INL",
+        "city": "International Falls",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-inl"
+      }
+    ],
+    "Brainerd": [
+      {
+        "code": "BRD",
+        "city": "Brainerd",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-brd"
+      }
+    ],
+    "Thief River Falls": [
+      {
+        "code": "TVF",
+        "city": "Thief River Falls",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-tvf"
+      }
+    ],
+    "Montreal": [
+      {
+        "code": "YUL",
+        "city": "Montreal",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-yul"
+      }
+    ],
+    "Cancún": [
+      {
+        "code": "CUN",
+        "city": "Cancún",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-cun"
+      }
+    ],
+    "Santa Ana": [
+      {
+        "code": "SNA",
+        "city": "Santa Ana",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sna"
+      }
+    ],
+    "Destin / Fort Walton Beach": [
+      {
+        "code": "VPS",
+        "city": "Destin / Fort Walton Beach",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-vps"
+      }
+    ],
+    "Palm Springs": [
+      {
+        "code": "PSP",
+        "city": "Palm Springs",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-psp"
+      }
+    ],
+    "New Orleans": [
+      {
+        "code": "MSY",
+        "city": "New Orleans",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-msy"
+      }
+    ],
+    "Dublin": [
+      {
+        "code": "DUB",
+        "city": "Dublin",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-dub"
+      }
+    ],
+    "Sarasota / Bradenton": [
+      {
+        "code": "SRQ",
+        "city": "Sarasota / Bradenton",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-srq"
+      }
+    ],
+    "Jacksonville": [
+      {
+        "code": "JAX",
+        "city": "Jacksonville",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-jax"
+      }
+    ],
+    "Missoula": [
+      {
+        "code": "MSO",
+        "city": "Missoula",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mso"
+      }
+    ],
+    "Kalispell": [
+      {
+        "code": "FCA",
+        "city": "Kalispell",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-fca"
+      }
+    ],
+    "Paris": [
+      {
+        "code": "CDG",
+        "city": "Paris",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-cdg"
+      }
+    ],
+    "Tokyo": [
+      {
+        "code": "HND",
+        "city": "Tokyo",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-hnd"
+      }
+    ],
+    "Regina": [
+      {
+        "code": "YQR",
+        "city": "Regina",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-yqr"
+      }
+    ],
+    "Fort Wayne": [
+      {
+        "code": "FWA",
+        "city": "Fort Wayne",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-fwa"
+      }
+    ],
+    "London": [
+      {
+        "code": "LHR",
+        "city": "London Heathrow",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-lhr"
+      }
+    ],
+    "Albuquerque": [
+      {
+        "code": "ABQ",
+        "city": "Albuquerque",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-abq"
+      }
+    ],
+    "White Plains": [
+      {
+        "code": "HPN",
+        "city": "White Plains",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-hpn"
+      }
+    ],
+    "Seoul": [
+      {
+        "code": "ICN",
+        "city": "Seoul",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-icn"
+      }
+    ],
+    "Billings": [
+      {
+        "code": "BIL",
+        "city": "Billings",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-bil"
+      }
+    ],
+    "Burlington": [
+      {
+        "code": "BTV",
+        "city": "Burlington",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-btv"
+      }
+    ],
+    "Charleston": [
+      {
+        "code": "CHS",
+        "city": "Charleston",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-chs"
+      }
+    ],
+    "Syracuse": [
+      {
+        "code": "SYR",
+        "city": "Syracuse",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-syr"
+      }
+    ],
+    "Mexico City": [
+      {
+        "code": "MEX",
+        "city": "Mexico City",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mex"
+      }
+    ],
+    "Anchorage": [
+      {
+        "code": "ANC",
+        "city": "Anchorage",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-anc"
+      }
+    ],
+    "Portland, Maine": [
+      {
+        "code": "PWM",
+        "city": "Portland",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-pwm"
+      }
+    ],
+    "South Bend": [
+      {
+        "code": "SBN",
+        "city": "South Bend",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sbn"
+      }
+    ],
+    "Norfolk": [
+      {
+        "code": "ORF",
+        "city": "Norfolk",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-orf"
+      }
+    ],
+    "Pasco": [
+      {
+        "code": "PSC",
+        "city": "Pasco",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-psc"
+      }
+    ],
+    "Honolulu": [
+      {
+        "code": "HNL",
+        "city": "Honolulu",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-hnl"
+      }
+    ],
+    "Watertown": [
+      {
+        "code": "ATY",
+        "city": "Watertown",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-aty"
+      }
+    ],
+    "Iron Mountain": [
+      {
+        "code": "IMT",
+        "city": "Iron Mountain",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-imt"
+      }
+    ],
+    "Harlingen": [
+      {
+        "code": "HRL",
+        "city": "Harlingen",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-hrl"
+      }
+    ],
+    "Savannah": [
+      {
+        "code": "SAV",
+        "city": "Savannah",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sav"
+      }
+    ],
+    "Sault Sainte Marie": [
+      {
+        "code": "CIU",
+        "city": "Sault Sainte Marie",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ciu"
+      }
+    ],
+    "Ironwood": [
+      {
+        "code": "IWD",
+        "city": "Ironwood",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-iwd"
+      }
+    ],
+    "Edmonton": [
+      {
+        "code": "YEG",
+        "city": "Edmonton",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-yeg"
+      }
+    ],
+    "Escanaba": [
+      {
+        "code": "ESC",
+        "city": "Escanaba",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-esc"
+      }
+    ],
+    "Reykjavik": [
+      {
+        "code": "KEF",
+        "city": "Reykjavik (Keflavik)",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-kef"
+      }
+    ],
+    "Rome": [
+      {
+        "code": "FCO",
+        "city": "Rome (Fiumicino)",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-fco"
+      }
+    ],
+    "Saskatoon": [
+      {
+        "code": "YXE",
+        "city": "Saskatoon",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-yxe"
+      }
+    ],
+    "San Juan": [
+      {
+        "code": "SJU",
+        "city": "San Juan",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sju"
+      }
+    ],
+    "Copenhagen": [
+      {
+        "code": "CPH",
+        "city": "Copenhagen",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-cph"
+      }
+    ],
+    "Asheville": [
+      {
+        "code": "AVL",
+        "city": "Asheville",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-avl"
+      }
+    ],
+    "Lexington": [
+      {
+        "code": "LEX",
+        "city": "Lexington",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-lex"
+      }
+    ],
+    "Frankfurt": [
+      {
+        "code": "FRA",
+        "city": "Frankfurt",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-fra"
+      }
+    ],
+    "Gulfport / Biloxi": [
+      {
+        "code": "GPT",
+        "city": "Gulfport / Biloxi",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-gpt"
+      }
+    ],
+    "Puerto Vallarta": [
+      {
+        "code": "PVR",
+        "city": "Puerto Vallarta",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-pvr"
+      }
+    ],
+    "Punta Cana": [
+      {
+        "code": "PUJ",
+        "city": "Punta Cana",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-puj"
+      }
+    ],
+    "Reno": [
+      {
+        "code": "RNO",
+        "city": "Reno",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-rno"
+      }
+    ],
+    "Belize City": [
+      {
+        "code": "BZE",
+        "city": "Belize City",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-bze"
+      }
+    ],
+    "Saint Thomas": [
+      {
+        "code": "STT",
+        "city": "Saint Thomas",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-stt"
+      }
+    ],
+    "Liberia": [
+      {
+        "code": "LIR",
+        "city": "Liberia",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-lir"
+      }
+    ],
+    "Tucson": [
+      {
+        "code": "TUS",
+        "city": "Tucson",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-tus"
+      }
+    ],
+    "Colorado Springs": [
+      {
+        "code": "COS",
+        "city": "Colorado Springs",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-cos"
+      }
+    ],
+    "Melbourne, Florida": [
+      {
+        "code": "MLB",
+        "city": "Melbourne",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mlb"
+      }
+    ],
+    "Cozumel": [
+      {
+        "code": "CZM",
+        "city": "Cozumel",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-czm"
+      }
+    ],
+    "Nassau": [
+      {
+        "code": "NAS",
+        "city": "Nassau",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-nas"
+      }
+    ],
+    "Vail / Eagle": [
+      {
+        "code": "EGE",
+        "city": "Vail / Eagle",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ege"
+      }
+    ],
+    "San José del Cabo": [
+      {
+        "code": "SJD",
+        "city": "San José del Cabo",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sjd"
+      }
+    ],
+    "Punta Gorda": [
+      {
+        "code": "PGD",
+        "city": "Punta Gorda",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-pgd"
+      }
+    ],
+    "George Town, Grand Cayman": [
+      {
+        "code": "GCM",
+        "city": "Grand Cayman",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-gcm"
+      }
+    ],
+    "Providenciales": [
+      {
+        "code": "PLS",
+        "city": "Providenciales",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-pls"
+      }
+    ],
+    "Providence": [
+      {
+        "code": "PVD",
+        "city": "Providence",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-pvd"
+      }
+    ],
+    "Mazatlán": [
+      {
+        "code": "MZT",
+        "city": "Mazatlán",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mzt"
+      }
+    ],
+    "Buffalo": [
+      {
+        "code": "BUF",
+        "city": "Buffalo",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-buf"
+      }
+    ],
+    "Marquette": [
+      {
+        "code": "MQT",
+        "city": "Marquette",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mqt"
+      }
+    ],
+    "Myrtle Beach": [
+      {
+        "code": "MYR",
+        "city": "Myrtle Beach",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-myr"
+      }
+    ],
+    "Ixtapa / Zihuatanejo": [
+      {
+        "code": "ZIH",
+        "city": "Ixtapa / Zihuatanejo",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-zih"
+      }
+    ],
+    "Fairbanks": [
+      {
+        "code": "FAI",
+        "city": "Fairbanks",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-fai"
+      }
+    ],
+    "West Palm Beach": [
+      {
+        "code": "DJT",
+        "city": "West Palm Beach",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-djt"
+      }
+    ],
+    "Hayden": [
+      {
+        "code": "HDN",
+        "city": "Hayden",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-hdn"
+      }
+    ],
+    "Oranjestad, Aruba": [
+      {
+        "code": "AUA",
+        "city": "Aruba",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-aua"
+      }
+    ],
+    "Roatán": [
+      {
+        "code": "RTB",
+        "city": "Roatan",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-rtb"
+      }
+    ],
+    "Jackson Hole": [
+      {
+        "code": "JAC",
+        "city": "Jackson",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-jac"
+      }
+    ],
+    "Simpson Bay, Sint Maarten": [
+      {
+        "code": "SXM",
+        "city": "Sint Maarten",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-sxm"
+      }
+    ],
+    "Montego Bay": [
+      {
+        "code": "MBJ",
+        "city": "Montego Bay",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-mbj"
+      }
+    ],
+    "Traverse City": [
+      {
+        "code": "TVC",
+        "city": "Traverse City",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-tvc"
+      }
+    ],
+    "Kahului": [
+      {
+        "code": "OGG",
+        "city": "Kahului",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ogg"
+      }
+    ],
+    "Augusta": [
+      {
+        "code": "AGS",
+        "city": "Augusta",
+        "source": "https://www.flightconnections.com/flights-from-msp-to-ags"
+      }
+    ]
+  },
+  "notes": [
+    "All 166 airport codes agree between the two live unfiltered catalogues. The indexed FlightsFrom page was older and reported 165; the live page was used.",
+    "MSP official page advertises 160+ destinations but its full map was not exposed in the retrieved page; airline-specific confirmations support seasonal edge cases.",
+    "Augusta is recurring Masters service, not an entirely new unlaunched route.",
+    "Newark groups with New York; Baltimore remains separate from Washington. Phoenix/Mesa, Tampa/St Petersburg, Dallas/Fort Worth and Seattle/Tacoma use shared destination groups. Portland OR and Portland ME remain distinct."
+  ]
+}
